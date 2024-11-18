@@ -69,18 +69,3 @@ if __name__ == "__main__":
     emb_path = f"{data_path}collection_{model_name}.pkl"
 
     embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1)
-
-    #test:
-    # Read the embeddings back from the pickle file
-    
-    #with open(emb_path, 'rb') as emb_file:
-    #    try:
-    #        while True:
-    #            data = pickle.load(emb_file)
-    #            logger.info(
-    #               f"Read embedding for doc_id: {data['doc_id']}, \
-    #               embedding: {data['embedding']}, \
-    #               length: {data['embedding'].shape}")
-    #    except EOFError:
-    #       pass
-    #logger.info("Finished reading all embeddings from the pickle file.")

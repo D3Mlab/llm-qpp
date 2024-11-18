@@ -1,0 +1,5 @@
+logging: 
+  level: INFO
+data_paths:
+  corpus_text_path: data/MS-MARCO/subset_q10_d100/collection.jsonl
+  emb_path: data/MS-MARCO/subset_q10_d100/collection_sentence-transformers-all-MiniLM-L6-v2.pkl

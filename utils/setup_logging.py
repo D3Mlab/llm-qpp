@@ -1,7 +1,7 @@
 import logging
 import sys
 
-def setup_logging(name: str, config = {}, level = None) -> logging.Logger:
+def setup_logging(name: str, config = {}, level = None, output_file = None) -> logging.Logger:
     """
     Setup logging configuration and return a logger instance.
 
@@ -44,7 +44,9 @@ def setup_logging(name: str, config = {}, level = None) -> logging.Logger:
     logger.addHandler(ch)
 
     # Create a StreamHandler that outputs log messages to output file, if it exists
-    output_file = logging_config.get('log_file') # Returns None if the log_file is missing
+    if not output_file:
+        output_file = logging_config.get('log_file') # Returns None if the log_file is missing
+    
     if output_file:
         oh = logging.FileHandler(output_file)
         oh.setFormatter(formatter)
