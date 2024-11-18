@@ -20,6 +20,7 @@ class DenseRetriever(BaseAgent):
     def rank(self, query):
         # Embed query
         query_embedding = self.embedder.embed([query])[0]
+        #todo: move query to device
         retriever_result = {"query_embedding" : query_embedding}
 
         #read knn implementation \in {load_all, load_iteratively}
