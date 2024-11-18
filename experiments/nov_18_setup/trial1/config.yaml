@@ -9,4 +9,4 @@ embedding:
 knn:
   knn_class: ExactKNN
   sim: cosine
-  implementation: matmul_all #priority_queue if corpus doesn't fit in memory
+  implementation: load_all #load_iteratively if corpus doesn't fit in memory
