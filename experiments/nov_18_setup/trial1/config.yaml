@@ -8,5 +8,6 @@ embedding:
   model_name: 'sentence-transformers/all-MiniLM-L6-v2'
 knn:
   knn_class: ExactKNN
-  sim: cosine
+  sim_f: cosine
+  k: 100
   implementation: load_all #load_iteratively if corpus doesn't fit in memory
