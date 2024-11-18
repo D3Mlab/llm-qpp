@@ -21,7 +21,7 @@ class BaseEmbedder(ABC):
          raise NotImplementedError("This method must be implemented by a subclass.")
 
 class RandomEmbedder(BaseEmbedder):
-
+    #sanity check class
     def __init__(self, config={}, model_name = ''):
         super().__init__(config)
 
