@@ -1,5 +1,5 @@
 import json
-import embedders
+import embedding
 import pickle
 from utils.setup_logging import setup_logging
 
@@ -27,7 +27,7 @@ def embed_corpus_jsonl(corpus_path, emb_path, embedder, logger):
 
 if __name__ == "__main__":
 
-    embedder = embedders.RandomEmbedder()
+    embedder = embedding.OpenAIEmbedder()
 
     data_path = "data/toy_furniture/synonyms/"
 
@@ -45,3 +45,12 @@ if __name__ == "__main__":
     emb_path = f"{data_path}collection_{embedder.__class__.__name__}.pkl"
 
     embed_corpus_jsonl(corpus_path, emb_path, embedder, logger)
+
+    # Read the embeddings back from the pickle file
+    with open(emb_path, 'rb') as emb_file:
+        try:
+            while True:
+                data = pickle.load(emb_file)
+                logger.info(f"Read embedding for doc_id: {data['doc_id']}, embedding: {data['embedding']}")
+        except EOFError:
+            logger.info("Finished reading all embeddings from the pickle file.")
