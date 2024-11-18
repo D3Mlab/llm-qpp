@@ -7,8 +7,9 @@ from utils.setup_logging import setup_logging
 
 class BaseEmbedder(ABC):
 
-    def __init__(self, config = {}):
+    def __init__(self, config = {}, model_name = ''):
 
+        self.model = model_name
         self.config = config
         self.logger = setup_logging(self.__class__.__name__, self.config)
 
@@ -19,7 +20,7 @@ class BaseEmbedder(ABC):
 
 class RandomEmbedder(BaseEmbedder):
 
-    def __init__(self, config={}):
+    def __init__(self, config={}, model_name = ''):
         super().__init__(config)
 
     def embed(self, text: str):
@@ -29,14 +30,17 @@ class RandomEmbedder(BaseEmbedder):
 
 class OpenAIEmbedder(BaseEmbedder):
 
-    def __init__(self, config={}):
-        super().__init__(config)
-        self.model = config.get('model', 'text-embedding-3-large')  # Default OpenAI model to use
+    def __init__(self, model_name = 'text-embedding-3-large', config={}):
+        super().__init__(config = config, model_name = model_name)
         self.api_key = os.environ.get('OPENAI_API_KEY', config.get('api_key'))
 
 
     def embed(self, text: str):
-        # Use OpenAI API to get embeddings
-        response = openai.Embedding.create(input=text, model=self.model)
-        embedding = response['data'][0]['embedding']
-        return torch.tensor(embedding, dtype=torch.float32)
+        try:
+            # Use OpenAI API to get embeddings
+            response = openai.Embedding.create(input=text, model=self.model)
+            embedding = response['data'][0]['embedding']
+            return torch.tensor(embedding, dtype=torch.float32)
+        except openai.error.OpenAIError as e:
+            self.logger.error(f"An error occurred while fetching embeddings: {e}")
+            return None

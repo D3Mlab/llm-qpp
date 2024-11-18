@@ -27,7 +27,11 @@ def embed_corpus_jsonl(corpus_path, emb_path, embedder, logger):
 
 if __name__ == "__main__":
 
-    embedder = embedding.OpenAIEmbedder()
+    model_name = 'text-embedding-3-small' 
+    embedder = embedding.OpenAIEmbedder(model_name = model_name)
+
+    #model_name = '' 
+    #embedder = embedding.RandomEmbedder(model_name = model_name)
 
     data_path = "data/toy_furniture/synonyms/"
 
@@ -35,22 +39,23 @@ if __name__ == "__main__":
     config = {
         "logging": {
             "level": "INFO",
-            "log_file": f"{data_path}embedding_log_{embedder.__class__.__name__}.txt",
+            "log_file": f"{data_path}embedding_log_{embedder.__class__.__name__}_{model_name}.txt",
         }
     }
 
-    logger = setup_logging(f"{embedder.__class__.__name__}", config)
+    logger = setup_logging(f"{embedder.__class__.__name__}_{model_name}", config)
 
     corpus_path = f"{data_path}collection.jsonl"
-    emb_path = f"{data_path}collection_{embedder.__class__.__name__}.pkl"
+    emb_path = f"{data_path}collection_{embedder.__class__.__name__}_{model_name}.pkl"
 
     embed_corpus_jsonl(corpus_path, emb_path, embedder, logger)
 
+    #test:
     # Read the embeddings back from the pickle file
-    with open(emb_path, 'rb') as emb_file:
-        try:
-            while True:
-                data = pickle.load(emb_file)
-                logger.info(f"Read embedding for doc_id: {data['doc_id']}, embedding: {data['embedding']}")
-        except EOFError:
-            logger.info("Finished reading all embeddings from the pickle file.")
+    #with open(emb_path, 'rb') as emb_file:
+    #    try:
+    #        while True:
+    #            data = pickle.load(emb_file)
+    #            logger.info(f"Read embedding for doc_id: {data['doc_id']}, embedding: {data['embedding']}")
+    #    except EOFError:
+    #        logger.info("Finished reading all embeddings from the pickle file.")
