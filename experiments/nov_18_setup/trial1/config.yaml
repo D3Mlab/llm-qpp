@@ -6,3 +6,7 @@ data_paths:
 embedding:
   embedder_class: HuggingFaceEmbedder
   model_name: 'sentence-transformers/all-MiniLM-L6-v2'
+knn:
+  knn_class: ExactKNN
+  sim: cosine
+  implementation: matmul_all #priority_queue if corpus doesn't fit in memory
