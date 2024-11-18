@@ -1,1 +1,1 @@
-from .embedders import RandomEmbedder, OpenAIEmbedder
+from .embedders import RandomEmbedder, OpenAIEmbedder, HuggingFaceEmbedder

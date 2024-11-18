@@ -27,8 +27,11 @@ def embed_corpus_jsonl(corpus_path, emb_path, embedder, logger):
 
 if __name__ == "__main__":
 
-    model_name = 'text-embedding-3-small' 
-    embedder = embedding.OpenAIEmbedder(model_name = model_name)
+    model_name = 'sentence-transformers/all-MiniLM-L6-v2'
+    embedder = embedding.HuggingFaceEmbedder(model_name = model_name)
+
+    #model_name = 'text-embedding-3-small' 
+    #embedder = embedding.OpenAIEmbedder(model_name = model_name)
 
     #model_name = '' 
     #embedder = embedding.RandomEmbedder(model_name = model_name)
