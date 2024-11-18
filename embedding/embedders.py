@@ -21,7 +21,6 @@ class BaseEmbedder(ABC):
         #return torch embedding tensor for text
          raise NotImplementedError("This method must be implemented by a subclass.")
 
-
 class RandomEmbedder(BaseEmbedder):
     #sanity check class
     def __init__(self, config={}, model_name = ''):
@@ -49,7 +48,11 @@ class OpenAIEmbedder(BaseEmbedder):
 
     def embed(self, text: str):
         if not isinstance(text, str):
-            raise ValueError("Input must be a single string.")
+            #ensure we're not getting a batch of size > 1
+            if len(text) == 1:
+                text = text[0]
+            else:
+                raise ValueError("Input must be a single string or singleton list with one string.")
         try:
             # Use OpenAI API to get embeddings
             response = openai.Embedding.create(input=text, model=self.model)

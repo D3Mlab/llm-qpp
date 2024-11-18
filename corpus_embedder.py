@@ -42,33 +42,33 @@ def embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1):
 
 if __name__ == "__main__":
 
-    model_name = 'sentence-transformers/all-MiniLM-L6-v2'
+    #model_name = 'sentence-transformers/all-MiniLM-L6-v2'
+    model_name = 'Alibaba-NLP/gte-large-en-v1.5'
     embedder = embedding.HuggingFaceEmbedder(model_name = model_name)
-    #remove "/" to avoid directory issues in filenames
     model_name = model_name.replace('/', '-')
 
     #model_name = 'text-embedding-3-small' 
     #embedder = embedding.OpenAIEmbedder(model_name = model_name)
 
-    #model_name = '' 
+    #model_name = 'random' 
     #embedder = embedding.RandomEmbedder(model_name = model_name)
 
-    data_path = "data/toy_furniture/synonyms/"
+    data_path = "data/MS-MARCO/subset_q10_d100/"
 
     #setup logging
     config = {
         "logging": {
             "level": "INFO",
-            "log_file": f"{data_path}embedding_log_{embedder.__class__.__name__}_{model_name}.txt",
+            "log_file": f"{data_path}embedding_log_{model_name}.txt",
         }
     }
 
-    logger = setup_logging(f"{embedder.__class__.__name__}_{model_name}", config)
+    logger = setup_logging(f"{model_name}", config)
 
     corpus_path = f"{data_path}collection.jsonl"
-    emb_path = f"{data_path}collection_{embedder.__class__.__name__}_{model_name}.pkl"
+    emb_path = f"{data_path}collection_{model_name}.pkl"
 
-    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 32)
+    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1)
 
     #test:
     # Read the embeddings back from the pickle file
