@@ -3,23 +3,38 @@ import embedding
 import pickle
 from utils.setup_logging import setup_logging
 
-def embed_corpus_jsonl(corpus_path, emb_path, embedder, logger):
+def embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1):
 #read "corpus_path" jsonl of format {"doc_id1" : XXX, 'text': XXX} one doc at a time
 #compute doc embedding via an embedder.embed(text) which calls an instantiated embedder to return a torch tensor
 #append docID and embedding to "emb_path" pickle file by pickling {"doc_id": doc_id, "embedding": tensor}
 
     processed_count = 0
+    batch_texts = []
+    batch_ids = []
 
     with open(corpus_path, 'r') as f, open(emb_path, 'wb') as emb_file:
         for line in f:
             doc = json.loads(line)
             doc_id, text = doc['docID'], doc['text']
-            embedding = embedder.embed(text)
-            pickle.dump({"doc_id": doc_id, "embedding": embedding}, emb_file)
+            batch_ids.append(doc_id)
+            batch_texts.append(text)
 
-            processed_count += 1
-            if processed_count % 100 == 0:
+            # If batch is full, process it
+            if len(batch_texts) == batch_size:
+                embeddings = embedder.embed(batch_texts)
+                for doc_id, embedding in zip(batch_ids, embeddings):
+                    pickle.dump({"doc_id": doc_id, "embedding": embedding}, emb_file)
+                batch_texts = []
+                batch_ids = []
+                processed_count += batch_size
                 logger.info(f"Processed {processed_count} documents so far...")
+
+        # Process any remaining documents
+        if batch_texts:
+            embeddings = embedder.embed(batch_texts)
+            for doc_id, embedding in zip(batch_ids, embeddings):
+                pickle.dump({"doc_id": doc_id, "embedding": embedding}, emb_file)
+            processed_count += len(batch_texts)
 
         # Write total count at the end
         logger.info(f"Total documents embedded: {processed_count}")
@@ -53,7 +68,7 @@ if __name__ == "__main__":
     corpus_path = f"{data_path}collection.jsonl"
     emb_path = f"{data_path}collection_{embedder.__class__.__name__}_{model_name}.pkl"
 
-    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger)
+    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 32)
 
     #test:
     # Read the embeddings back from the pickle file
@@ -63,8 +78,9 @@ if __name__ == "__main__":
     #        while True:
     #            data = pickle.load(emb_file)
     #            logger.info(
-    #                f"Read embedding for doc_id: {data['doc_id']}, \
-    #                length: {data['embedding'].shape}")
+    #               f"Read embedding for doc_id: {data['doc_id']}, \
+    #               embedding: {data['embedding']}, \
+    #               length: {data['embedding'].shape}")
     #    except EOFError:
     #       pass
     #logger.info("Finished reading all embeddings from the pickle file.")

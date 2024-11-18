@@ -1,0 +1,13 @@
+Huggingface MTEB (massive text embedding) Leaderboard: https://huggingface.co/spaces/mteb/leaderboard
+
+Good size/rank : 
+-	https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5
+-   https://huggingface.co/dunzhang/stella_en_400M_v5
+
+OpenAI (https://platform.openai.com/docs/guides/embeddings):
+-		"embeddings are normalized, cosine/dot/euc give identical ranking"
+
+
+-	Batching needs a seperate API (https://platform.openai.com/docs/guides/batch):
+-		50K requests, up to 200 MB, cheaper
+
