@@ -14,7 +14,10 @@ class DenseRetriever(BaseAgent):
         self.embedder = embedder_class(config, model_name=self.embedder_config.get('model_name'))
 
     def rank(self, query):
-    #select ranking method: KNN: superclass -- exactKNN or approxKNN -- make this an interface in utils which can be accesed
+    
+        #embed query
+        
+        #select ranking method: KNN: superclass -- exactKNN or approxKNN -- make this an interface in utils which can be accesed
         #- needs query embedding
         #- needs corpus path
         #- needs similarity funtion
