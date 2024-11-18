@@ -3,3 +3,6 @@ logging:
 data_paths:
   corpus_text_path: data/MS-MARCO/subset_q10_d100/collection.jsonl
   emb_path: data/MS-MARCO/subset_q10_d100/collection_sentence-transformers-all-MiniLM-L6-v2.pkl
+embedding:
+  embedder_class: HuggingFaceEmbedder
+  model_name: 'sentence-transformers/all-MiniLM-L6-v2'

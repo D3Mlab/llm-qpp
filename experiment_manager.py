@@ -5,6 +5,7 @@ import argparse
 import os
 from pathlib import Path
 from utils.setup_logging import setup_logging
+import search_agent
 
 class ExperimentManager():
 
@@ -50,6 +51,7 @@ class ExperimentManager():
         data_path_dict = self.setup_data_paths(self.config)
         #e.g. data_path_dict = 
             #{"embeddings_path": "emb.pkl", "text_path": "collection.jsonl"}
+
 
         
 
