@@ -21,15 +21,24 @@ class BaseEmbedder(ABC):
         #return torch embedding tensor for text
          raise NotImplementedError("This method must be implemented by a subclass.")
 
+
 class RandomEmbedder(BaseEmbedder):
     #sanity check class
     def __init__(self, config={}, model_name = ''):
         super().__init__(config)
 
-    def embed(self, text: str):
-        # Generate a random tensor of dimension 3
-        embedding = torch.tensor([random.random() for _ in range(3)], dtype=torch.float32)
-        return embedding
+    def embed(self, text):
+        if isinstance(text, str):
+            # Generate a random tensor of dimension 3 for a single string
+            embedding = torch.tensor([random.random() for _ in range(3)], dtype=torch.float32)
+            return [embedding]  # Return as a list for consistent handling
+        elif isinstance(text, list):
+            # Generate random tensors for a batch of strings
+            embedding = [torch.tensor([random.random() for _ in range(3)], dtype=torch.float32) for _ in text]
+            return embedding
+        else:
+            raise ValueError("Input must be either a string or a list of strings.")
+
 
 class OpenAIEmbedder(BaseEmbedder):
 
@@ -45,7 +54,7 @@ class OpenAIEmbedder(BaseEmbedder):
             # Use OpenAI API to get embeddings
             response = openai.Embedding.create(input=text, model=self.model)
             embedding = response['data'][0]['embedding']
-            return torch.tensor(embedding, dtype=torch.float32)
+            return [torch.tensor(embedding, dtype=torch.float32)]
         except openai.error.OpenAIError as e:
             self.logger.error(f"An error occurred while fetching embeddings: {e}")
             return None
