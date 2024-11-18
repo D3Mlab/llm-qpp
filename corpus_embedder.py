@@ -29,6 +29,8 @@ if __name__ == "__main__":
 
     model_name = 'sentence-transformers/all-MiniLM-L6-v2'
     embedder = embedding.HuggingFaceEmbedder(model_name = model_name)
+    #remove "/" to avoid directory issues in filenames
+    model_name = model_name.replace('/', '-')
 
     #model_name = 'text-embedding-3-small' 
     #embedder = embedding.OpenAIEmbedder(model_name = model_name)
@@ -55,10 +57,14 @@ if __name__ == "__main__":
 
     #test:
     # Read the embeddings back from the pickle file
+    
     #with open(emb_path, 'rb') as emb_file:
     #    try:
     #        while True:
     #            data = pickle.load(emb_file)
-    #            logger.info(f"Read embedding for doc_id: {data['doc_id']}, embedding: {data['embedding']}")
+    #            logger.info(
+    #                f"Read embedding for doc_id: {data['doc_id']}, \
+    #                length: {data['embedding'].shape}")
     #    except EOFError:
-    #        logger.info("Finished reading all embeddings from the pickle file.")
+    #       pass
+    #logger.info("Finished reading all embeddings from the pickle file.")

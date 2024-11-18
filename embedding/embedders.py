@@ -48,18 +48,23 @@ class OpenAIEmbedder(BaseEmbedder):
             return None
 
 
+
 class HuggingFaceEmbedder(BaseEmbedder):
 
-    def __init__(self, model_name='sentence-transformers/all-MiniLM-L6-v2', config={}, pooling_type='mean'):
+    def __init__(self, model_name='sentence-transformers/all-MiniLM-L6-v2', config={}, pooling_type='mean', use_gpu=True):
         super().__init__(config=config, model_name=model_name)
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.model = AutoModel.from_pretrained(model_name)
         self.pooling_type = pooling_type
+        self.device = torch.device('cuda' if use_gpu and torch.cuda.is_available() else 'cpu')
+        self.model.to(self.device)
 
     def embed(self, text: str):
         try:
             # Tokenize the input text
-            inputs = self.tokenizer(text, return_tensors='pt')
+            inputs = self.tokenizer(text, return_tensors='pt', truncation=True).to(self.device)
+            if inputs['input_ids'].shape[-1] == self.tokenizer.model_max_length:
+                self.logger.warning("Input text was truncated to fit the model's maximum length.")
             with torch.no_grad():
                 # Get the model's last hidden states
                 outputs = self.model(**inputs)
@@ -71,7 +76,8 @@ class HuggingFaceEmbedder(BaseEmbedder):
                     embedding = outputs.last_hidden_state[:, 0, :].squeeze()
                 else:
                     raise ValueError(f"Unsupported pooling type: {self.pooling_type}")
-            return embedding
+            return embedding.cpu()
         except Exception as e:
             self.logger.error(f"An error occurred while fetching embeddings: {e}")
             return None
+
