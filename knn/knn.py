@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from common.setup_logging import setup_logging
+from utils.setup_logging import setup_logging
 import pickle
 import json
 import torch
@@ -54,10 +54,11 @@ class ExactKNN(KNN):
         else:
             raise ValueError(f"Unsupported similarity function: {similarity_fun_name}")
 
+
         top_k_indices = torch.topk(similarities, top_k).indices
 
         ranked_list = [doc_ids[idx] for idx in top_k_indices]
-        sim_scores = [similarities[idx].item() for idx in top_k_indices]
+        sim_scores = similarities[top_k_indices].tolist()
         return {"ranked_list": ranked_list, "sim_scores": sim_scores}
 
     def load_individual(self, query_embedding, similarity_fun_name, top_k):
@@ -88,6 +89,6 @@ class ExactKNN(KNN):
         sim_scores = [similarity.item() for similarity, _ in results]
         return {"ranked_list": ranked_list, "sim_scores": sim_scores}
 
-def cosine_similarity(embedding1, embedding2):
-    return torch.nn.functional.cosine_similarity(embedding1, embedding2, dim=0).item()
+
+
 

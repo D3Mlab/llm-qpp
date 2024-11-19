@@ -20,8 +20,6 @@ class DenseRetriever(BaseAgent):
     def rank(self, query):
         # Embed query
         query_embedding = self.embedder.embed([query])[0].to(dtype=torch.float32, device='cuda' if torch.cuda.is_available() else 'cpu')
-
-        #todo: move query to device
         retriever_result = {"query_embedding" : query_embedding}
 
         #read knn implementation \in {load_all, load_iteratively}

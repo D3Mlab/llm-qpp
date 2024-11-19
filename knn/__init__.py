@@ -1,7 +1,8 @@
 
-from .knn import ExactKNN #ApproxKNN
+from .knn import ExactKNN #
 
 KNN_CLASSES = {
     'ExactKNN': ExactKNN,
     }
+
 
