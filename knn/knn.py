@@ -11,7 +11,7 @@ class KNN(ABC):
         self.logger = setup_logging(self.__class__.__name__, self.config)
         self.corpus_emb_path = corpus_emb_path
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
-
+        self.logger.debug("Initialized KNN")
 
     @abstractmethod
     def get_top_k(self, query_embedding, similarity_fun, k, implementation = None):
@@ -37,17 +37,29 @@ class ExactKNN(KNN):
         Loads all embeddings from the corpus, computes similarity with the query embedding,
         and returns the top_k most similar document IDs.
         """
-        # Load all embeddings
+        docs = []
         with open(self.corpus_emb_path, 'rb') as corpus_file:
-            docs = pickle.load(corpus_file)
+            try:
+                while True:
+                    # Load individual documents from the file as they are saved separately
+                    doc = pickle.load(corpus_file)
+                    docs.append(doc)
+            except EOFError:
+                pass
+
+
+
         doc_ids = [doc['doc_id'] for doc in docs]
         embeddings = torch.stack([doc['embedding'] for doc in docs]).to(dtype=torch.float32, device=self.device)
+        self.logger.debug(embeddings)
+
+
 
         # Compute similarity based on the selected function
         if similarity_fun_name == 'cosine':
             similarities = torch.nn.functional.cosine_similarity(query_embedding.unsqueeze(0), embeddings, dim=1)
         elif similarity_fun_name == 'dot':
-            similarities = torch.matmul(embeddings,query_embedding.T).squeeze()
+            similarities = torch.matmul(embeddings,query_embedding).squeeze()
         elif similarity_fun_name == 'euclidean':
             distances = torch.cdist(query_embedding.unsqueeze(0), embeddings, p=2).squeeze()
             similarities = -distances  #convert distances to similarities by negating
