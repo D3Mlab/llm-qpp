@@ -50,8 +50,9 @@ class ExperimentManager():
         #get dictionary of data paths:
         data_path_dict = self.setup_data_paths(self.config)
         #e.g. data_path_dict = 
-            #{"embeddings_path": "emb.pkl", "text_path": "collection.jsonl"}
+            #{"embeddings_path": "emb.pkl", "text_path": "collection.jsonl", ...}
 
+        self.logger.debug(f'data paths: {data_path_dict}')
 
         
 

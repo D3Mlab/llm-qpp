@@ -12,10 +12,8 @@ class BaseAgent(ABC):
     @abstractmethod
     def rank(self, query: str) -> dict:
    #return:
-   #results = {
-        #    query_index: {
+   #results = { 
         #        'ranked_list': [<list of ranked docIDs>]
-        #    },
         #    ...
         #  }
          raise NotImplementedError("This method must be implemented by a subclass.")
