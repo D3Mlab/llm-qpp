@@ -53,7 +53,7 @@ class TestQueryEmbedder(BaseEmbedder):
             raise ValueError("Input must be a string")
 
 class OpenAIEmbedder(BaseEmbedder):
-
+    #this api doesn't support batching! use OpenAI batch API for batching. 
     def __init__(self, model_name = 'text-embedding-3-large', config={}):
         super().__init__(config = config, model_name = model_name)
         self.api_key = os.environ.get('OPENAI_API_KEY', config.get('api_key'))
