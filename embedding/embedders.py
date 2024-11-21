@@ -39,6 +39,19 @@ class RandomEmbedder(BaseEmbedder):
             raise ValueError("Input must be either a string or a list of strings.")
 
 
+class TestQueryEmbedder(BaseEmbedder):
+    #returns a predefined embedding for a query for testing
+    def __init__(self, config={}, model_name = ''):
+        super().__init__(config)
+
+    def embed(self, text):
+        if isinstance(text, str):
+            # Generate a random tensor of dimension 3 for a single string
+            embedding = F.normalize(torch.tensor([2, 3, 4], dtype=torch.float32),p=2,dim=0)
+            return [embedding]  # Return as a list for consistent handling
+        else:
+            raise ValueError("Input must be a string")
+
 class OpenAIEmbedder(BaseEmbedder):
 
     def __init__(self, model_name = 'text-embedding-3-large', config={}):
@@ -102,3 +115,4 @@ class HuggingFaceEmbedder(BaseEmbedder):
             self.logger.error(f"An error occurred while fetching embeddings: {e}")
             return None
 
+     

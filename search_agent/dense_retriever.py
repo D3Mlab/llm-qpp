@@ -20,6 +20,7 @@ class DenseRetriever(BaseAgent):
     def rank(self, query):
         # Embed query
         query_embedding = self.embedder.embed([query])[0].to(dtype=torch.float32, device='cuda' if torch.cuda.is_available() else 'cpu')
+        #start building result dictionary
         retriever_result = {"query_embedding" : query_embedding}
 
         #read knn implementation \in {load_all, load_iteratively}
@@ -29,5 +30,7 @@ class DenseRetriever(BaseAgent):
         knn_result = self.knn.get_top_k(query_embedding,sim_f,k,knn_implmentation)
 
         retriever_result.update(knn_result)
-        #retriever_result = {"ranked_list": <docID list>, "sim_scores": <list of sim scores>}
+        #retriever_result = {"ranked_list": <docID list>, 
+        #                   "sim_scores": <list of sim scores>, 
+        #                   "query_embedding" : query_embedding }
         return retriever_result

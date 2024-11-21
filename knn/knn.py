@@ -51,9 +51,6 @@ class ExactKNN(KNN):
 
         doc_ids = [doc['doc_id'] for doc in docs]
         embeddings = torch.stack([doc['embedding'] for doc in docs]).to(dtype=torch.float32, device=self.device)
-        self.logger.debug(embeddings)
-
-
 
         # Compute similarity based on the selected function
         if similarity_fun_name == 'cosine':
@@ -66,7 +63,6 @@ class ExactKNN(KNN):
         else:
             raise ValueError(f"Unsupported similarity function: {similarity_fun_name}")
 
-
         top_k_indices = torch.topk(similarities, top_k).indices
 
         ranked_list = [doc_ids[idx] for idx in top_k_indices]
@@ -74,7 +70,7 @@ class ExactKNN(KNN):
         return {"ranked_list": ranked_list, "sim_scores": sim_scores}
 
     def load_individual(self, query_embedding, similarity_fun_name, top_k):
-        #this generated code is unchecked/untested
+        #this generated code for using a priority queue to avoid OOME is unchecked/untested
         """
         Finds the top k most similar documents by loading individual embeddings one by one,
         using a priority queue (min-heap).
@@ -102,5 +98,8 @@ class ExactKNN(KNN):
         return {"ranked_list": ranked_list, "sim_scores": sim_scores}
 
 
-
-
+class ApproxKNN(KNN):
+    #TODO (e.g. using FAISS)
+    def __init__(self, config, corpus_emb_path):
+        super().__init__(config, corpus_emb_path)
+        pass
