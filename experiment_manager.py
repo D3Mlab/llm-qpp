@@ -12,13 +12,13 @@ class ExperimentManager():
     def __init__(self):
         pass
 
-    def run_experiments(self, exp_dir: str):
+    def run_experiments(self, exp_root: str):
         """
         Given directory, runs experiments for each subdirectory with a 'config.yaml' file.
         """
-        self.main_logger = setup_logging(self.__class__.__name__, output_file=exp_dir)
+        self.main_logger = setup_logging(self.__class__.__name__, output_file=os.path.join(exp_root, "experiment.log"))
 
-        for root, dirs, _ in os.walk(exp_dir):
+        for root, dirs, _ in os.walk(exp_root):
             for directory in dirs:
                 dir_path = os.path.join(root, directory)
                 config_path = os.path.join(dir_path, "config.yaml")
@@ -28,18 +28,18 @@ class ExperimentManager():
                 else:
                     self.logger.warning(f'No config.yaml in {dir_path}')
 
-    def run_experiment(self, dir_path):
+    def run_experiment(self, config_dir):
         """
         Executes an experiment based on the 'config.yaml' file in the given directory.
         """
 
-        with open(os.path.join(dir_path, "config.yaml"), "r") as config_file:
+        with open(os.path.join(config_dir, "config.yaml"), "r") as config_file:
             self.config = yaml.safe_load(config_file)
 
-        self.experiment_logger = setup_logging("EXPERIMENT", output_file=dir_path, config = self.config)
+        self.experiment_logger = setup_logging("EXPERIMENT", output_file=os.path.join(config_dir, "experiment.log"), config = self.config)
 
         #load any previous results (in "detailed_results.json") as dictionary
-        results = self.load_results(dir_path)
+        results = self.load_past_results(config_dir)
         #results = {
         #    query_index: {
         #        'ranked_list': [<list of ranked docIDs>]
@@ -52,7 +52,7 @@ class ExperimentManager():
         #e.g. data_path_dict = 
             #{"embeddings_path": "emb.pkl", "text_path": "collection.jsonl", ...}
 
-        self.logger.debug(f'data paths: {data_path_dict}')
+        self.experiment_logger.debug(f'data paths: {data_path_dict}')
 
         
 
@@ -64,8 +64,8 @@ class ExperimentManager():
         data_path_dict = {key: path for key, path in data_paths_config.items() if isinstance(path, str) and path.strip()}
         return data_path_dict
 
-    def load_past_results(self, dir_path):
-        detailed_results_path = os.path.join(dir_path, 'detailed_results.json')
+    def load_past_results(self, config_dir):
+        detailed_results_path = os.path.join(config_dir, 'detailed_results.json')
         if os.path.exists(detailed_results_path):
             with open(detailed_results_path, 'r') as file:
                 return json.load(file)

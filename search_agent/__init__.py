@@ -1,4 +1,3 @@
-import embedding
-
+from .dense_retriever import DenseRetriever
 
 
