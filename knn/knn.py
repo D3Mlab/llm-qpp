@@ -29,6 +29,7 @@ class ExactKNN(KNN):
 
     def get_top_k(self, query_embedding, similarity_fun_name, k, implementation):
         implementation_method = self.IMPLEMENTATION_METHODS.get(implementation,'load_all')
+        query_embedding = query_embedding.to(self.device)
         return implementation_method(query_embedding, similarity_fun_name, k)
 
 
@@ -51,6 +52,8 @@ class ExactKNN(KNN):
 
         doc_ids = [doc['doc_id'] for doc in docs]
         embeddings = torch.stack([doc['embedding'] for doc in docs]).to(dtype=torch.float32, device=self.device)
+
+        top_k = min(top_k, len(docs))
 
         # Compute similarity based on the selected function
         if similarity_fun_name == 'cosine':
@@ -96,6 +99,7 @@ class ExactKNN(KNN):
         ranked_list = [doc_id for _, doc_id in results]
         sim_scores = [similarity.item() for similarity, _ in results]
         return {"ranked_list": ranked_list, "sim_scores": sim_scores}
+
 
 
 class ApproxKNN(KNN):

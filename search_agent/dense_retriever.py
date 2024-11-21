@@ -1,5 +1,7 @@
-from common.setup_logging import setup_logging
+from utils.setup_logging import setup_logging
 from .base_agent import BaseAgent
+import torch
+import embedding
 import knn
 
 class DenseRetriever(BaseAgent):
@@ -17,9 +19,11 @@ class DenseRetriever(BaseAgent):
         knn_class = knn.KNN_CLASSES.get(self.knn_config.get('knn_class'))
         self.knn = knn_class(config, data_path_dict["emb_path"])
 
+        self.logger.debug("Initialized Dense Retreiver")
+
     def rank(self, query):
         # Embed query
-        query_embedding = self.embedder.embed([query])[0].to(dtype=torch.float32, device='cuda' if torch.cuda.is_available() else 'cpu')
+        query_embedding = self.embedder.embed([query])[0].to(dtype=torch.float32)
         #start building result dictionary
         retriever_result = {"query_embedding" : query_embedding}
 

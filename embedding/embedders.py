@@ -45,19 +45,18 @@ class TestQueryEmbedder(BaseEmbedder):
         super().__init__(config)
 
     def embed(self, text):
-        if isinstance(text, str):
+        
             # Generate a random tensor of dimension 3 for a single string
             embedding = F.normalize(torch.tensor([2, 3, 4], dtype=torch.float32),p=2,dim=0)
             return [embedding]  # Return as a list for consistent handling
-        else:
-            raise ValueError("Input must be a string")
+
 
 class OpenAIEmbedder(BaseEmbedder):
     #this api doesn't support batching! use OpenAI batch API for batching. 
-    def __init__(self, model_name = 'text-embedding-3-large', config={}):
+    def __init__(self, model_name = 'text-embedding-3-large', config={}, use_gpu=True):
         super().__init__(config = config, model_name = model_name)
         self.api_key = os.environ.get('OPENAI_API_KEY', config.get('api_key'))
-
+        self.device = torch.device('cuda' if use_gpu and torch.cuda.is_available() else 'cpu')
 
     def embed(self, text: str):
         if not isinstance(text, str):
@@ -70,7 +69,7 @@ class OpenAIEmbedder(BaseEmbedder):
             # Use OpenAI API to get embeddings
             response = openai.Embedding.create(input=text, model=self.model)
             embedding = response['data'][0]['embedding']
-            return [torch.tensor(embedding, dtype=torch.float32)]
+            return [torch.tensor(embedding, dtype=torch.float32, device = self.device)]
         except openai.error.OpenAIError as e:
             self.logger.error(f"An error occurred while fetching embeddings: {e}")
             return None
@@ -93,6 +92,9 @@ class HuggingFaceEmbedder(BaseEmbedder):
             self.logger.info("Using CPU")
 
     def embed(self, texts):
+        if isinstance(texts, str):
+            self.logger.debug('converting string to singleton list')    
+            texts = [texts]
         try:
             # Tokenize the input text batch
             inputs = self.tokenizer(texts, return_tensors='pt', padding=True, truncation=True).to(self.device)
@@ -110,7 +112,7 @@ class HuggingFaceEmbedder(BaseEmbedder):
                 else:
                     raise ValueError(f"Unsupported pooling type: {self.pooling_type}")
             embedding = F.normalize(embedding, p=2, dim=1)
-            return embedding.cpu()
+            return embedding
         except Exception as e:
             self.logger.error(f"An error occurred while fetching embeddings: {e}")
             return None

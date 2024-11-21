@@ -1,8 +1,11 @@
 logging: 
   level: DEBUG
 data_paths:
-  corpus_text_path: data/3D_test/collection.jsonl
-  emb_path: data/3D-test/collection_3DEmbedder.pkl
+  corpus_text_path: data/3D_tests/collection.jsonl
+  emb_path: data/3D_tests/collection_3DEmbedder.pkl
+  queries_path: data/3D_tests/queries.tsv
+agent:
+  agent_class: DenseRetriever
 embedding:
   embedder_class: TestQueryEmbedder
   model_name: ''

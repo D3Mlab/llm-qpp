@@ -3,9 +3,12 @@ import yaml
 import json
 import argparse
 import os
+import csv
 from pathlib import Path
 from utils.setup_logging import setup_logging
 import search_agent
+from pathlib import Path
+
 
 class ExperimentManager():
 
@@ -48,13 +51,23 @@ class ExperimentManager():
         #  }
 
         #get dictionary of data paths:
-        data_path_dict = self.setup_data_paths(self.config)
+        self.data_path_dict = self.setup_data_paths(self.config)
         #e.g. data_path_dict = 
             #{"embeddings_path": "emb.pkl", "text_path": "collection.jsonl", ...}
 
-        self.experiment_logger.debug(f'data paths: {data_path_dict}')
+        self.experiment_logger.debug(f'data paths: {self.data_path_dict}')
 
-        
+        #initialize search agent
+        agent = search_agent.AGENT_CLASSES[self.config['agent']['agent_class']]
+        self.agent = agent(self.config, self.data_path_dict)
+
+        self.queries_dict = self.get_queries()
+        #e.g. = {q1: "q1 text", q2: "q2 text",...}
+
+        self.test_results = self.agent.rank('abc')
+        self.experiment_logger.debug(self.test_results)
+
+
 
     def setup_data_paths(self, config):
         """
@@ -70,3 +83,19 @@ class ExperimentManager():
             with open(detailed_results_path, 'r') as file:
                 return json.load(file)
         return {}
+
+
+    def get_queries(self):
+        """
+        Retrieves queries from a .tsv file based on the configuration.
+        """
+        queries_path = self.config['data_paths'].get('queries_path')
+        queries_dict = {}
+        try:
+            with open(queries_path, 'r') as file:
+                tsv_reader = csv.reader(file, delimiter='\t')
+                for row in tsv_reader:
+                    qid, query_text = row
+                    queries_dict[qid] = query_text
+        except Exception as e:
+            raise self.experiment_logger.error(f"Failed to read queries from {queries_path}: {e}")
