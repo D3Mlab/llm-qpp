@@ -41,29 +41,22 @@ class ExperimentManager():
 
         self.experiment_logger = setup_logging("EXPERIMENT", output_file=os.path.join(config_dir, "experiment.log"), config = self.config)
 
-        #get dictionary of data paths:
         self.data_path_dict = self.setup_data_paths(self.config)
         #e.g. data_path_dict = 
             #{"embeddings_path": "emb.pkl", "text_path": "collection.jsonl", ...}
 
-        #initialize search agent
         agent = search_agent.AGENT_CLASSES[self.config['agent']['agent_class']]
         self.agent = agent(self.config, self.data_path_dict)
 
         self.queries = self.get_queries()
         #e.g. = {q1: "q1 text", q2: "q2 text",...}
-        self.experiment_logger.debug(self.queries)
-
-        self.test_results = self.agent.rank('abc')
-        self.experiment_logger.debug(self.test_results)
 
         self.results_dir = Path(config_dir) / 'per_query_results'
-        self.results_dir.mkdir(parents=True, exist_ok=True)
+        self.results_dir.mkdir(exist_ok=True)
         
         #get set of already processed qIDs {q1,q3,...}
         existing_results = self.load_existing_results()
         
-        self.experiment_logger.debug(existing_results)
         self.rank_queries(self.queries, self.results_dir, existing_results)
 
     def rank_queries(self, queries, results_dir, existing_results):
@@ -111,6 +104,8 @@ class ExperimentManager():
 
         with open(trec_file_path, "w") as trec_file:
             trec_file.write("\n".join(trec_results))
+
+        #todo: add null TREC results for failed queries?
 
     def load_existing_results(self):
         """
