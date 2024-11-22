@@ -8,6 +8,7 @@ from pathlib import Path
 from utils.setup_logging import setup_logging
 import search_agent
 from pathlib import Path
+import pickle
 
 
 class ExperimentManager():
@@ -85,11 +86,19 @@ class ExperimentManager():
     def write_query_result(self, results_dir, qid, result):
         """
         Writes the result for a single query to a JSON file and saves TREC results.
+        If a query embedding is present, it is saved as a separate pickle file.
         """
         query_result_dir = results_dir / f"{qid}"
         query_result_dir.mkdir(exist_ok=False)
         detailed_results_path = query_result_dir / "detailed_results.json"
         trec_file_path = query_result_dir / "trec_results.txt"
+        query_embedding_path = query_result_dir / "query_embedding.pkl"
+
+        # Extract and save query embedding if present
+        query_embedding = result.pop('query_embedding', None)
+        if query_embedding is not None:
+            with open(query_embedding_path, 'wb') as embedding_file:
+                pickle.dump(query_embedding, embedding_file)
 
         # Write detailed results to JSON file
         with open(detailed_results_path, 'w') as file:
@@ -104,8 +113,6 @@ class ExperimentManager():
 
         with open(trec_file_path, "w") as trec_file:
             trec_file.write("\n".join(trec_results))
-
-        #todo: add null TREC results for failed queries?
 
     def load_existing_results(self):
         """
