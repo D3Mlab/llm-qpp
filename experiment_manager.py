@@ -91,7 +91,7 @@ class ExperimentManager():
         query_result_dir = results_dir / f"{qid}"
         query_result_dir.mkdir(exist_ok=False)
         detailed_results_path = query_result_dir / "detailed_results.json"
-        trec_file_path = query_result_dir / "trec_results.txt"
+        trec_file_path = query_result_dir / "trec_results_raw.txt"
         query_embedding_path = query_result_dir / "query_embedding.pkl"
 
         # Extract and save query embedding if present
