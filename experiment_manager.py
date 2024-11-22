@@ -41,33 +41,88 @@ class ExperimentManager():
 
         self.experiment_logger = setup_logging("EXPERIMENT", output_file=os.path.join(config_dir, "experiment.log"), config = self.config)
 
-        #load any previous results (in "detailed_results.json") as dictionary
-        results = self.load_past_results(config_dir)
-        #results = {
-        #    query_index: {
-        #        'ranked_list': [<list of ranked docIDs>]
-        #    },
-        #    ...
-        #  }
-
         #get dictionary of data paths:
         self.data_path_dict = self.setup_data_paths(self.config)
         #e.g. data_path_dict = 
             #{"embeddings_path": "emb.pkl", "text_path": "collection.jsonl", ...}
 
-        self.experiment_logger.debug(f'data paths: {self.data_path_dict}')
-
         #initialize search agent
         agent = search_agent.AGENT_CLASSES[self.config['agent']['agent_class']]
         self.agent = agent(self.config, self.data_path_dict)
 
-        self.queries_dict = self.get_queries()
+        self.queries = self.get_queries()
         #e.g. = {q1: "q1 text", q2: "q2 text",...}
+        self.experiment_logger.debug(self.queries)
 
         self.test_results = self.agent.rank('abc')
         self.experiment_logger.debug(self.test_results)
 
+        self.results_dir = Path(config_dir) / 'per_query_results'
+        self.results_dir.mkdir(parents=True, exist_ok=True)
+        
+        #get set of already processed qIDs {q1,q3,...}
+        existing_results = self.load_existing_results()
+        
+        self.experiment_logger.debug(existing_results)
+        self.rank_queries(self.queries, self.results_dir, existing_results)
 
+    def rank_queries(self, queries, results_dir, existing_results):
+        """
+        Ranks the provided queries and saves results per query.
+        """
+        for qid, query in queries.items():
+            if qid in existing_results:
+                self.experiment_logger.info(f'Results already available for query: {qid} {query}')
+                continue
+
+            try:
+                self.experiment_logger.info(f'Ranking query: {qid} {query}')
+                result = self.agent.rank(query)
+                #results = {
+                #        'ranked_list': [<list of ranked docIDs>]
+                #    ...
+                #  }
+                self.experiment_logger.info('Rank successful')
+                
+                # Create directory and write results only for successful queries
+                self.write_query_result(results_dir, qid, result)
+            except Exception as e:
+                self.experiment_logger.error(f'Failed to rank query {qid}: {str(e)}')
+
+    def write_query_result(self, results_dir, qid, result):
+        """
+        Writes the result for a single query to a JSON file and saves TREC results.
+        """
+        query_result_dir = results_dir / f"{qid}"
+        query_result_dir.mkdir(exist_ok=False)
+        detailed_results_path = query_result_dir / "detailed_results.json"
+        trec_file_path = query_result_dir / "trec_results.txt"
+
+        # Write detailed results to JSON file
+        with open(detailed_results_path, 'w') as file:
+            json.dump(result, file, default=str, indent=4)
+
+        # Write TREC results
+        trec_results = []
+        ranked_list = result.get('ranked_list', [])
+        for doc_index, doc_id in enumerate(ranked_list):
+            score = len(ranked_list) - doc_index
+            trec_results.append(f"{qid} Q0 {doc_id} {doc_index + 1} {score} my_run")
+
+        with open(trec_file_path, "w") as trec_file:
+            trec_file.write("\n".join(trec_results))
+
+    def load_existing_results(self):
+        """
+        Loads existing results by checking for existing result files in the results directory.
+        """
+        existing_results = set()
+        for root, dirs, _ in os.walk(self.results_dir):
+            for directory in dirs:
+                detailed_results_path = Path(root) / directory / "detailed_results.json"
+                if detailed_results_path.exists():
+                    existing_results.add(directory)  # Directory name is assumed to be the qid
+        return existing_results
 
     def setup_data_paths(self, config):
         """
@@ -77,12 +132,6 @@ class ExperimentManager():
         data_path_dict = {key: path for key, path in data_paths_config.items() if isinstance(path, str) and path.strip()}
         return data_path_dict
 
-    def load_past_results(self, config_dir):
-        detailed_results_path = os.path.join(config_dir, 'detailed_results.json')
-        if os.path.exists(detailed_results_path):
-            with open(detailed_results_path, 'r') as file:
-                return json.load(file)
-        return {}
 
 
     def get_queries(self):
@@ -97,5 +146,6 @@ class ExperimentManager():
                 for row in tsv_reader:
                     qid, query_text = row
                     queries_dict[qid] = query_text
+                return queries_dict
         except Exception as e:
             raise self.experiment_logger.error(f"Failed to read queries from {queries_path}: {e}")
