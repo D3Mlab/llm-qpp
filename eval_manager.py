@@ -11,35 +11,43 @@ from scipy.stats import norm
 # EvalManager class for evaluation
 class EvalManager():
 
-    def __init__(self, exp_root: str):
-        self.exp_root = exp_root
-        self.eval_config_path = os.path.join(exp_root, "eval_config.yaml")
-        if os.path.exists(self.eval_config_path):
+    def __init__(self, ):
+
+        pass
+
+    def eval_experiments(self, exp_root: str):
+        """
+        Evaluates all experiments in the given root directory.
+        """
+        self.exp_root = Path(exp_root)
+        self.eval_config_path = self.exp_root / "eval_config.yaml"
+        if self.eval_config_path.exists():
             with open(self.eval_config_path, "r") as config_file:
                 self.config = yaml.safe_load(config_file)
         else:
             raise FileNotFoundError(f"Could not find {self.eval_config_path}")
 
-        self.logger = setup_logging(self.__class__.__name__, self.config)
-        self.all_query_eval_results = {}
+        self.main_logger = setup_logging(self.__class__.__name__, self.config, output_file=self.exp_root / "eval.log")
 
-    def eval_experiments(self):
-        """
-        Evaluates all experiments in the given root directory.
-        """
-        selected_measures = self.config.get("selected_measures", pytrec_eval.supported_measures)
-        conf_level = self.config.get("confidence_level", 0.95)
+        selected_measures = self.config.get("measures", pytrec_eval.supported_measures)
+        #todo confirm selected_measures structure
+        conf_level = float(self.config.get("confidence_level", 0.95))
         
         for root, dirs, _ in os.walk(self.exp_root):
-            if "config.yaml" in os.listdir(root) and "per_query_results" in dirs:
-                self.logger.info(f"Evaluating experiment in {root}")
-                self.eval_experiment(root, selected_measures, conf_level)
+            root_path = Path(root)
+            if (root_path / "config.yaml").exists() and "per_query_results" in dirs:
+                self.main_logger.info(f"Evaluating experiment in {root_path.as_posix()}")
+                self.eval_experiment(root_path, selected_measures, conf_level)
 
     def eval_experiment(self, experiment_dir, selected_measures, conf_level):
         """
         Evaluates a single experiment directory.
         """
+        self.experiment_logger = setup_logging(f"EVALUATOR_{experiment_dir} ", output_file= experiment_dir / "eval.log", config = self.config)
+
         results_dir = Path(experiment_dir) / 'per_query_results'
+
+        self.all_query_eval_results = {}
 
         for query_dir in results_dir.iterdir():
             if query_dir.is_dir():
@@ -58,6 +66,8 @@ class EvalManager():
 
         # Remove duplicates from TREC file and save deduplicated version
         deduped_lines = self.deduplicate_trec_results(trec_file_path, dedup_trec_file_path)
+        #todo: check deduplication behaviour
+        self.experiment_logger.debug(f"Deduplicated TREC lines: {deduped_lines}")
 
         # Parse deduplicated TREC results
         results = pytrec_eval.parse_run(deduped_lines)
