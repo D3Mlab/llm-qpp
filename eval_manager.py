@@ -9,7 +9,7 @@ from scipy.stats import norm
 
 
 # EvalManager class for evaluation
-class EvalManager:
+class EvalManager():
 
     def __init__(self, exp_root: str):
         self.exp_root = exp_root
