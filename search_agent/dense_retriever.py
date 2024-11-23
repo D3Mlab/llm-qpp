@@ -12,7 +12,7 @@ class DenseRetriever(BaseAgent):
         # Initialize embedder
         self.embedder_config = self.config.get('embedding', {})
         embedder_class = embedding.EMBEDDER_CLASSES.get(self.embedder_config.get('embedder_class'))
-        self.embedder = embedder_class(config, model_name=self.embedder_config.get('model_name'))
+        self.embedder = embedder_class(config = config, model_name=self.embedder_config.get('model_name'))
 
         # Initialize KNN
         self.knn_config = self.config.get('knn', {})
