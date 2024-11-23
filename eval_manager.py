@@ -84,7 +84,7 @@ class EvalManager():
         self.write_jsonl(eval_results_path, per_query_eval_results)
 
         # Store results for calculating averages and confidence intervals
-        self.all_query_eval_results[query_dir.name] = per_query_eval_results
+        self.all_query_eval_results[query_dir.name] = per_query_eval_results[query_dir.name]
 
     def load_qrels(self):
         """
@@ -123,6 +123,7 @@ class EvalManager():
                 json.dump({"query_id": query_id, **eval_result}, file)
                 file.write("\n")
 
+
     def write_all_queries_eval_results(self, experiment_dir, selected_measures, conf_level):
         """
         Writes the mean and confidence interval results for all queries in an experiment.
@@ -130,8 +131,11 @@ class EvalManager():
         mean_results = {}
         ci_results = {}
 
+        self.experiment_logger.debug(f"self.all_query_eval_results {self.all_query_eval_results} ")
+
         for measure in selected_measures:
-            values = [result[measure] for result in self.all_query_eval_results.values() if measure in result]
+            values = [result.get(measure) for result in self.all_query_eval_results.values() if result.get(measure) is not None]
+            self.experiment_logger.debug(f"Values for measure {measure}: {values}")
             if values:
                 mean_value = np.mean(values)
                 std_dev = np.std(values, ddof=1)
@@ -145,5 +149,6 @@ class EvalManager():
         all_eval_results = {**mean_results, **ci_results}
         all_eval_results_path = Path(experiment_dir) / "all_queries_eval_results.jsonl"
         with open(all_eval_results_path, "w") as file:
+            self.experiment_logger.debug(f"Writing final evaluation results: {all_eval_results}")
             json.dump(all_eval_results, file)
             file.write("\n")
