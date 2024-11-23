@@ -63,6 +63,7 @@ class EvalManager():
         trec_file_path = query_dir / "trec_results_raw.txt"
         dedup_trec_file_path = query_dir / "trec_results_deduplicated.txt"
         eval_results_path = query_dir / "eval_results.jsonl"
+        qrels_path = query_dir / "qrels.qrels"
 
         # Remove duplicates from TREC file and save deduplicated version
         deduped_lines = self.deduplicate_trec_results(trec_file_path, dedup_trec_file_path)
@@ -81,6 +82,14 @@ class EvalManager():
 
         # Store results for calculating averages and confidence intervals
         self.all_query_eval_results[query_dir.name] = per_query_eval_results
+
+    def load_qrels(self):
+        """
+        Loads the QRELs from the path specified in the evaluation config.
+        """
+        qrels_path = self.config['qrels_path']
+        with open(qrels_path, "r") as qrels_file:
+            return pytrec_eval.parse_qrel(qrels_file)
 
     def deduplicate_trec_results(self, trec_file_path, dedup_trec_file_path):
         """
@@ -110,14 +119,6 @@ class EvalManager():
             for query_id, eval_result in data.items():
                 json.dump({"query_id": query_id, **eval_result}, file)
                 file.write("\n")
-
-    def load_qrels(self):
-        """
-        Loads the QRELs from the path specified in the evaluation config.
-        """
-        qrels_path = self.config['qrels_path']
-        with open(qrels_path, "r") as qrels_file:
-            return pytrec_eval.parse_qrel(qrels_file)
 
     def write_all_queries_eval_results(self, experiment_dir, selected_measures, conf_level):
         """
