@@ -134,8 +134,6 @@ class ExperimentManager():
         data_path_dict = {key: path for key, path in data_paths_config.items() if isinstance(path, str) and path.strip()}
         return data_path_dict
 
-
-
     def get_queries(self):
         """
         Retrieves queries from a .tsv file based on the configuration.
