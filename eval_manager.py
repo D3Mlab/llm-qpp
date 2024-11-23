@@ -20,31 +20,34 @@ class EvalManager():
         Evaluates all experiments in the given root directory.
         """
         self.exp_root = Path(exp_root)
-        self.eval_config_path = self.exp_root / "eval_config.yaml"
-        if self.eval_config_path.exists():
-            with open(self.eval_config_path, "r") as config_file:
-                self.config = yaml.safe_load(config_file)
-        else:
-            raise FileNotFoundError(f"Could not find {self.eval_config_path}")
 
-        self.main_logger = setup_logging(self.__class__.__name__, self.config, output_file=self.exp_root / "eval.log")
+        self.main_logger = setup_logging(self.__class__.__name__, output_file=self.exp_root / "eval.log")
 
-        selected_measures = self.config.get("measures", pytrec_eval.supported_measures)
-        #todo confirm selected_measures structure
-        conf_level = float(self.config.get("confidence_level", 0.95))
-        
         for root, dirs, _ in os.walk(self.exp_root):
             root_path = Path(root)
             if (root_path / "config.yaml").exists() and "per_query_results" in dirs:
                 self.main_logger.info(f"Evaluating experiment in {root_path.as_posix()}")
-                self.eval_experiment(root_path, selected_measures, conf_level)
+                self.eval_experiment(root_path)
 
-    def eval_experiment(self, experiment_dir, selected_measures, conf_level):
+    def eval_experiment(self, experiment_dir):
         """
         Evaluates a single experiment directory.
         """
-        self.experiment_logger = setup_logging(f"EVALUATOR_{experiment_dir} ", output_file= experiment_dir / "eval.log", config = self.config)
+       
+        eval_config_path = Path(experiment_dir)  / "eval_config.yaml"
+        
+        if eval_config_path.exists():
+            with open(eval_config_path, "r") as config_file:
+                self.config = yaml.safe_load(config_file)
+        else:
+            raise FileNotFoundError(f"Could not find {eval_config_path}")
 
+        self.experiment_logger = setup_logging(f"EVALUATOR_{experiment_dir} ", output_file= experiment_dir / "eval.log", config = self.config)
+       
+        selected_measures = self.config.get("measures", pytrec_eval.supported_measures)
+        #todo confirm selected_measures structure
+        conf_level = float(self.config.get("confidence_level", 0.95))
+        
         results_dir = Path(experiment_dir) / 'per_query_results'
 
         self.all_query_eval_results = {}
@@ -63,9 +66,9 @@ class EvalManager():
         trec_file_path = query_dir / "trec_results_raw.txt"
         dedup_trec_file_path = query_dir / "trec_results_deduplicated.txt"
         eval_results_path = query_dir / "eval_results.jsonl"
-        qrels_path = query_dir / "qrels.qrels"
 
         # Remove duplicates from TREC file and save deduplicated version
+        #todo: add count of deduplicated documents to saved results for the query (similar to qpp results)
         deduped_lines = self.deduplicate_trec_results(trec_file_path, dedup_trec_file_path)
         #todo: check deduplication behaviour
         self.experiment_logger.debug(f"Deduplicated TREC lines: {deduped_lines}")
@@ -87,7 +90,7 @@ class EvalManager():
         """
         Loads the QRELs from the path specified in the evaluation config.
         """
-        qrels_path = self.config['qrels_path']
+        qrels_path = self.config.get("qrels_path")
         with open(qrels_path, "r") as qrels_file:
             return pytrec_eval.parse_qrel(qrels_file)
 
@@ -141,4 +144,6 @@ class EvalManager():
 
         all_eval_results = {**mean_results, **ci_results}
         all_eval_results_path = Path(experiment_dir) / "all_queries_eval_results.jsonl"
-        self.write_jsonl(all_eval_results_path, {"results": all_eval_results})
+        with open(all_eval_results_path, "w") as file:
+            json.dump(all_eval_results, file)
+            file.write("\n")
