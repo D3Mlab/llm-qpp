@@ -68,10 +68,10 @@ class EvalManager():
         eval_results_path = query_dir / "eval_results.jsonl"
 
         # Remove duplicates from TREC file and save deduplicated version
+        #todo: check deduplication behaviour
         #todo: add count of deduplicated documents to saved results for the query (similar to qpp results)
         deduped_lines = self.deduplicate_trec_results(trec_file_path, dedup_trec_file_path)
-        #todo: check deduplication behaviour
-        self.experiment_logger.debug(f"Deduplicated TREC lines: {deduped_lines}")
+        
 
         # Parse deduplicated TREC results
         results = pytrec_eval.parse_run(deduped_lines)

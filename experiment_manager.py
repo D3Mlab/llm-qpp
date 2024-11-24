@@ -148,4 +148,5 @@ class ExperimentManager():
                     queries_dict[qid] = query_text
                 return queries_dict
         except Exception as e:
-            raise self.experiment_logger.error(f"Failed to read queries from {queries_path}: {e}")
+            self.experiment_logger.error(f"Failed to read queries from {queries_path}: {e}")
+            raise RuntimeError(f"Failed to read queries from {queries_path}: {e}")            
