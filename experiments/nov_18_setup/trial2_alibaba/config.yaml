@@ -1,9 +1,9 @@
 logging: 
   level: DEBUG
 data_paths:
-  corpus_text_path: data/MS_MARCO/subset_q10_d100/collection.jsonl
-  emb_path: data/MS_MARCO/subset_q10_d100/collection_Alibaba-NLP-gte-large-en-v1.5.pkl
-  queries_path: data/MS_MARCO/subset_q10_d100/queries.tsv
+  corpus_text_path: data/MS-MARCO/subset_q10_d100/collection.jsonl
+  emb_path: data/MS-MARCO/subset_q10_d100/collection_Alibaba-NLP-gte-large-en-v1.5.pkl
+  queries_path: data/MS-MARCO/subset_q10_d100/queries.tsv
 agent:
   agent_class: DenseRetriever
 embedding:
