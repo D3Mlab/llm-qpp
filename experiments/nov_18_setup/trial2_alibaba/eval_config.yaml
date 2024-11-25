@@ -1,0 +1,5 @@
+logging: 
+  level: DEBUG
+conf_level: 0.95
+qrels_path: data/MS-MARCO/subset_q10_d100/qrels.qrels
+measures: ["map_cut_5", "map_cut_10"]

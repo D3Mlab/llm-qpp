@@ -134,8 +134,6 @@ class ExperimentManager():
         data_path_dict = {key: path for key, path in data_paths_config.items() if isinstance(path, str) and path.strip()}
         return data_path_dict
 
-
-
     def get_queries(self):
         """
         Retrieves queries from a .tsv file based on the configuration.
@@ -150,4 +148,5 @@ class ExperimentManager():
                     queries_dict[qid] = query_text
                 return queries_dict
         except Exception as e:
-            raise self.experiment_logger.error(f"Failed to read queries from {queries_path}: {e}")
+            self.experiment_logger.error(f"Failed to read queries from {queries_path}: {e}")
+            raise RuntimeError(f"Failed to read queries from {queries_path}: {e}")            
