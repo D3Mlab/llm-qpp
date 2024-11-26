@@ -12,7 +12,7 @@ def embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1):
     batch_texts = []
     batch_ids = []
 
-    with open(corpus_path, 'r') as f, open(emb_path, 'wb') as emb_file:
+    with open(corpus_path, 'r', encoding='utf-8') as f, open(emb_path, 'wb') as emb_file:
         for line in f:
             doc = json.loads(line)
             doc_id, text = doc['docID'], doc['text']
@@ -53,7 +53,7 @@ if __name__ == "__main__":
     #model_name = 'random' 
     #embedder = embedding.RandomEmbedder(model_name = model_name)
 
-    data_path = "data/MS-MARCO/subset_q10_d100/"
+    data_path = "data/Wayfair_products/"
 
     #setup logging
     config = {
@@ -68,4 +68,4 @@ if __name__ == "__main__":
     corpus_path = f"{data_path}collection.jsonl"
     emb_path = f"{data_path}collection_{model_name}.pkl"
 
-    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1)
+    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 10)
