@@ -53,7 +53,8 @@ if __name__ == "__main__":
     #model_name = 'random' 
     #embedder = embedding.RandomEmbedder(model_name = model_name)
 
-    data_path = "data/Wayfair_products/"
+    #data_path = "data/Wayfair_products/"
+    data_path = "data/MS-MARCO/subset_q100_d10000/"
 
     #setup logging
     config = {
