@@ -6,6 +6,7 @@ data_paths:
   queries_path: data/MS-MARCO/subset_q10_d100/queries.tsv
 agent:
   agent_class: GeneralAgent
+  policy: PipelinePolicy
   first_component: DenseRetriever
 embedding:
   embedder_class: HuggingFaceEmbedder
