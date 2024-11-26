@@ -19,10 +19,11 @@ class GeneralAgent(BaseAgent):
             'query' : query
             }]
 
+        #to do - update n_actions_max with a timer/timeout
         n_actions = 0
         n_actions_max = 10
         while n_actions < n_actions_max:
-            #to do - update with a timer/timeout
+
             next_action = self.policy.next_action(self.state_hist[-1])
             #returns (act_method, act_args) or None if no next action
 

@@ -1,4 +1,4 @@
-example_config = {
+{
     'agent': {
         'policy': 'PipelinePolicy'
     },
