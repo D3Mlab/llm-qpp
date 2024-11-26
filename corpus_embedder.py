@@ -2,11 +2,16 @@ import json
 import embedding
 import pickle
 from utils.setup_logging import setup_logging
+import torch
 
 def embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1):
 #read "corpus_path" jsonl of format {"doc_id1" : XXX, 'text': XXX} one doc at a time
 #compute doc embedding via an embedder.embed(text) which calls an instantiated embedder to return a torch tensor
 #append docID and embedding to "emb_path" pickle file by pickling {"doc_id": doc_id, "embedding": tensor}
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    logger.info(f"Using device: {device}")
+    embedder.model.to(device)
 
     processed_count = 0
     batch_texts = []
@@ -69,4 +74,4 @@ if __name__ == "__main__":
     corpus_path = f"{data_path}collection.jsonl"
     emb_path = f"{data_path}collection_{model_name}.pkl"
 
-    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 10)
+    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 100)
