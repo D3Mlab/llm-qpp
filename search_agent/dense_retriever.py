@@ -3,6 +3,7 @@ from .base_agent import BaseAgent
 import torch
 import embedding
 import knn
+import copy
 
 class DenseRetriever(BaseAgent):
 
@@ -21,7 +22,13 @@ class DenseRetriever(BaseAgent):
 
         self.logger.debug("Initialized Dense Retreiver")
 
-    def rank(self, query):
+    def rank(self, state):
+        
+        #start building new state
+        retriever_result = copy.deepcopy(state)
+
+        query = state["query"]
+
         # Embed query
         query_embedding = self.embedder.embed([query])[0].to(dtype=torch.float32)
         #start building result dictionary
@@ -36,5 +43,6 @@ class DenseRetriever(BaseAgent):
         retriever_result.update(knn_result)
         #retriever_result = {"ranked_list": <docID list>, 
         #                   "sim_scores": <list of sim scores>, 
-        #                   "query_embedding" : query_embedding }
+        #                   "query_embedding" : query_embedding,
+        #                   "query" : <q> }
         return retriever_result
