@@ -115,18 +115,18 @@ class ExperimentManager():
             trec_file.write("\n".join(trec_results))
 
     def load_existing_results(self):
-    """
-    Loads existing results by checking for both 'detailed_results.json' and 
-    'trec_results_raw.txt' files in the results directory.
-    """
-    existing_results = set()
-    for root, dirs, _ in os.walk(self.results_dir):
-        for directory in dirs:
-            detailed_results_path = Path(root) / directory / "detailed_results.json"
-            trec_results_path = Path(root) / directory / "trec_results_raw.txt"
-            if detailed_results_path.exists() and trec_results_path.exists():
-                existing_results.add(directory)  # Directory name is assumed to be the qid
-    return existing_results
+        """
+        Loads existing results by checking for both 'detailed_results.json' and 
+        'trec_results_raw.txt' files in the results directory.
+        """
+        existing_results = set()
+        for root, dirs, _ in os.walk(self.results_dir):
+           for directory in dirs:
+               detailed_results_path = Path(root) / directory / "detailed_results.json"
+               trec_results_path = Path(root) / directory / "trec_results_raw.txt"
+               if detailed_results_path.exists() and trec_results_path.exists():
+                    existing_results.add(directory)  # Directory name is assumed to be the qid
+        return existing_results
 
     #def setup_data_path
     #s(self, config):
