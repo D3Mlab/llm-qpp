@@ -10,7 +10,7 @@ class BasePolicy(ABC):
         self.config = config
         self.logger = setup_logging(self.__class__.__name__, self.config)
 
-        from . import COMPONENT_CLASSES 
+        from .registry import COMPONENT_CLASSES 
         self.COMPONENT_CLASSES = COMPONENT_CLASSES
 
     @abstractmethod

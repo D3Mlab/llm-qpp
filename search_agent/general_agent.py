@@ -1,6 +1,7 @@
 from utils.setup_logging import setup_logging
 from .base_agent import BaseAgent
 import types
+import copy
 #from . import COMPONENT_CLASSES, MAIN_ACTIONS
 
 class GeneralAgent(BaseAgent):
@@ -8,7 +9,7 @@ class GeneralAgent(BaseAgent):
     def __init__(self, config):
         super().__init__(config)
 
-        from . import POLICY_CLASSES
+        from .registry import POLICY_CLASSES
         self.policy_class = POLICY_CLASSES.get(self.agent_config.get('policy'))
 
 
@@ -34,7 +35,7 @@ class GeneralAgent(BaseAgent):
             if not next_action:
                 #put state history into result format (dict with current state plus a state history element) and return
                 self.logger.debug(f"Next action is None. Returning with state history {self.state_hist} ")
-                result = self.state_hist[-1]
+                result = copy.deepcopy(self.state_hist[-1])
                 result.update({'state_history' : self.state_hist})
                 return result
 
