@@ -15,9 +15,9 @@ COMPONENT_CLASSES = {}
 COMPONENT_CLASSES.update(AGENT_CLASSES)
 
 #"Main" methods for a class. E.g. rank() for a BaseAgent, query_performance_prediction() for QPP, etc  
-MAIN_ACTIONS = {
-    DenseRetriever: DenseRetriever.rank 
-    }
+#MAIN_ACTIONS = {
+#    DenseRetriever: DenseRetriever.rank 
+#    }
 
 POLICY_CLASSES = {
     'PipelinePolicy' : PipelinePolicy

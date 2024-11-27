@@ -9,11 +9,14 @@ class GeneralAgent(BaseAgent):
         super().__init__(config)
 
         from . import POLICY_CLASSES
-        policy_class = POLICY_CLASSES.get(self.agent_config.get('policy'))
-        self.policy = policy_class(self.config)
+        self.policy_class = POLICY_CLASSES.get(self.agent_config.get('policy'))
+
 
     def rank(self, query):
         
+        #initialize policy
+        self.policy = self.policy_class(self.config)
+
         #state_hist[t] is state at step t
         self.state_hist = [{
             'query' : query
@@ -25,7 +28,8 @@ class GeneralAgent(BaseAgent):
         while n_actions < n_actions_max:
 
             next_action = self.policy.next_action(self.state_hist[-1])
-            #returns (act_method, act_args) or None if no next action
+            #returns act_method or None if no next action
+            self.logger.debug(f"next action: {next_action}")
 
             if not next_action:
                 #put state history into result format (dict with current state plus a state history element) and return
@@ -34,16 +38,15 @@ class GeneralAgent(BaseAgent):
                 result.update({'state_history' : self.state_hist})
                 return result
 
-            act_method, act_args = next_action
-            if isinstance(act_args, dict):
-                pos_args = act_args.get('args', [])
-                kw_args = act_args.get('kwargs', {})
+            act_method = next_action
 
-                curr_state = act_method(*pos_args, **kw_args)
-                curr_state.update({'last_action_method' : act_method.__name__, 'last_action_args' : act_args})
-                self.state_hist.append(curr_state)
-            else:
-                raise ValueError('Invalid args format')
+            #action returns dictionary with some updated/new state variables (e.g. ranked list changes)
+            act_result = act_method(self.state_hist[-1])
+            #replace any updated state values in the previous state
+            curr_state = {**self.state_hist[-1], **act_result}
+            curr_state.update({'last_action_method' : act_method.__name__})
+            self.logger.debug(curr_state)
+            self.state_hist.append(curr_state)
 
             n_actions += 1
         
