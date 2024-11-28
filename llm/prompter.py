@@ -17,9 +17,8 @@ class Prompter():
         self.llm = model_class(config,self.model_name)
 
     def reform_q_uninformed(self, state):
-        #args:  state dictionary with a {"initial_query" : q, "current_query": q} item
-        #return a reformulated query 
+        #args:  state dictionary with a {"query_formulations" [q^0, ..., q^T] ... reformulate the 
 
-
+        pass
 
 
