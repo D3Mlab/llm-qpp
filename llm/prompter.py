@@ -16,10 +16,9 @@ class Prompter():
         model_class = LLM_CLASSES.get(self.model_class_name)
         self.llm = model_class(config,self.model_name)
 
-        prompt = "2+2="
-        response = self.llm.prompt(prompt)
-
-        print(response)
+    def reform_q_uninformed(self, state):
+        #args:  state dictionary with a {"initial_query" : q, "current_query": q} item
+        #return a reformulated query 
 
 
 
