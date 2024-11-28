@@ -1,0 +1,16 @@
+logging: 
+  level: DEBUG
+data_paths:
+  corpus_text_path: data/ROEGEN/q50_d570/collection.jsonl
+  emb_path: data/ROEGEN/q50_d570/collection_sentence-transformers-all-MiniLM-L6-v2.pkl
+  queries_path: data/ROEGEN/q50_d570/queries.tsv
+agent:
+  agent_class: DenseRetriever
+embedding:
+  embedder_class: HuggingFaceEmbedder
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+knn:
+  knn_class: ExactKNN
+  sim_f: cosine
+  k: 10
+  implementation: load_all #load_iteratively if corpus doesn't fit in memory
