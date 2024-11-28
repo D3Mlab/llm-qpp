@@ -2,7 +2,6 @@ from utils.setup_logging import setup_logging
 from .base_agent import BaseAgent
 import types
 import copy
-#from . import COMPONENT_CLASSES, MAIN_ACTIONS
 
 class GeneralAgent(BaseAgent):
 
