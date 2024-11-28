@@ -42,12 +42,12 @@ class ExperimentManager():
 
         self.experiment_logger = setup_logging("EXPERIMENT", output_file=os.path.join(config_dir, "experiment.log"), config = self.config)
 
-        self.data_path_dict = self.setup_data_paths(self.config)
+        #self.data_path_dict = self.setup_data_paths(self.config)
         #e.g. data_path_dict = 
             #{"embeddings_path": "emb.pkl", "text_path": "collection.jsonl", ...}
 
         agent = search_agent.AGENT_CLASSES[self.config['agent']['agent_class']]
-        self.agent = agent(self.config, self.data_path_dict)
+        self.agent = agent(self.config)
 
         self.queries = self.get_queries()
         #e.g. = {q1: "q1 text", q2: "q2 text",...}
@@ -116,23 +116,26 @@ class ExperimentManager():
 
     def load_existing_results(self):
         """
-        Loads existing results by checking for existing result files in the results directory.
+        Loads existing results by checking for both 'detailed_results.json' and 
+        'trec_results_raw.txt' files in the results directory.
         """
         existing_results = set()
         for root, dirs, _ in os.walk(self.results_dir):
-            for directory in dirs:
-                detailed_results_path = Path(root) / directory / "detailed_results.json"
-                if detailed_results_path.exists():
+           for directory in dirs:
+               detailed_results_path = Path(root) / directory / "detailed_results.json"
+               trec_results_path = Path(root) / directory / "trec_results_raw.txt"
+               if detailed_results_path.exists() and trec_results_path.exists():
                     existing_results.add(directory)  # Directory name is assumed to be the qid
         return existing_results
 
-    def setup_data_paths(self, config):
+    #def setup_data_path
+    #s(self, config):
         """
         Read config to see which keys need to be included in the data_path_dict. Empty keys will not be included.
         """
-        data_paths_config = config.get('data_paths', {})
-        data_path_dict = {key: path for key, path in data_paths_config.items() if isinstance(path, str) and path.strip()}
-        return data_path_dict
+    #    data_paths_config = config.get('data_paths', {})
+    #    data_path_dict = {key: path for key, path in data_paths_config.items() if isinstance(path, str) and path.strip()}
+    #    return data_path_dict
 
     def get_queries(self):
         """
