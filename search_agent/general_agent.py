@@ -41,7 +41,7 @@ class GeneralAgent(BaseAgent):
             act_method = next_action
 
             #action returns dictionary with some updated/new state variables (e.g. ranked list changes)
-            act_result = act_method(self.state_hist[-1])
+            act_result = act_method(copy.deepcopy(self.state_hist[-1]))
             #replace any updated state values in the previous state
             curr_state = {**self.state_hist[-1], **act_result}
             curr_state.update({'last_action_method' : act_method.__name__})

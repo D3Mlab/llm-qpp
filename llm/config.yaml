@@ -10,10 +10,6 @@ agent:
   policy_steps:
     - component: DenseRetriever
       method: rank
-llm:
-  model_class: GeminiLLM
-  model_name: gemini-1.5-flash
-  template_dir: ../prompt_templates
 embedding:
   embedder_class: HuggingFaceEmbedder
   model_name: sentence-transformers/all-MiniLM-L6-v2
@@ -22,3 +18,9 @@ knn:
   sim_f: cosine
   k: 10
   implementation: load_all #load_all_in_batches or load_iteratively (for batch = 1) if corpus doesn't fit in memory
+llm:
+  model_class: OpenAILLM
+  model_name: gpt-3.5-turbo-1106 #gemini-1.5-flash
+  template_dir: templates
+templates:
+  uninformed_query_reformulation: uninformed_q2d.jinja2
