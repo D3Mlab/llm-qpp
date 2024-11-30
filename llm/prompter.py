@@ -43,6 +43,8 @@ class Prompter():
 
         #if previously best list is empty:
         #
+        
+        #fun: get doc texts from IDs...
 
         pass
 
