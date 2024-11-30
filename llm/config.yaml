@@ -13,6 +13,7 @@ agent:
 llm:
   model_class: GeminiLLM
   model_name: gemini-1.5-flash
+  template_dir: ../prompt_templates
 embedding:
   embedder_class: HuggingFaceEmbedder
   model_name: sentence-transformers/all-MiniLM-L6-v2
