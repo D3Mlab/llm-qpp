@@ -23,26 +23,35 @@ class Prompter():
         self.jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(searchpath=self.template_dir))
 
     def reform_q_uninformed(self, state):
-        #args:  state dictionary with a {"queries" [q^0, ..., q^T] where q^0 is initial query and q^T is the most recent query reformulation
-        #reformulate only initial query q^0
+        #reformulate initial query (pre-retrieval)
 
         init_q = self.get_init_q(state)
 
         prompt_dict = {"query" : init_q}
+
         template_dir = self.template_config["uninformed_query_reformulation"]
-        template = self.jinja_env.get_template(template_dir)
-        prompt = template.render(prompt_dict)
+        prompt = self.render_prompt(prompt_dict, template_dir)
 
         reformed_q = self.llm.prompt(prompt)["message"]
 
         state["queries"].append(reformed_q)
         return state
 
+    def rerank_best_and_latest(self, state):
+        #given a) the previously best list of length K and b) K additional retrieved docs
+        #rerank these 2xK docs to a list of length K
 
+        #if previously best list is empty:
+        #
+
+        pass
 
     def get_init_q(self,state):
         return state["queries"][0]
 
+    def render_prompt(self, prompt_dict, template_dir):
+        template = self.jinja_env.get_template(template_dir)
+        return template.render(prompt_dict)
 
 #E.g. jinja2 macro usage:
 # In "macros.jinja"

@@ -23,4 +23,4 @@ llm:
   model_name: gpt-3.5-turbo-1106 #gemini-1.5-flash
   template_dir: templates
 templates:
-  uninformed_query_reformulation: uninformed_q2d.jinja2
+  uninformed_query_reformulation: uninformed_q_reform/uninformed_q2d.jinja2
