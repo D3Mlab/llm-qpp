@@ -17,6 +17,14 @@ if __name__ == "__main__":
 
     prompter = Prompter(config)
 
+    init_state = {"queries": ["q^0", "q^1"]}
+
+    print('init_state: ', init_state)
+
+    new_state = prompter.reform_q_uninformed(init_state)
+
+    print('new_state: ', new_state)
+
     #llm_class = LLM_CLASSES.get(model_class)
 
     #llm = llm_class(config, model_name)
