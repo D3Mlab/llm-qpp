@@ -17,13 +17,17 @@ if __name__ == "__main__":
 
     prompter = Prompter(config)
 
-    init_state = {"queries": ["q^0", "q^1"]}
+    init_state = {"queries": ["q^0", "q^1"], "last_k_retrieved_docIDs" : ["1331194", "2697809"]}
 
     print('init_state: ', init_state)
 
-    new_state = prompter.reform_q_uninformed(init_state)
+    new_state = prompter.rerank_best_and_latest(init_state)
 
-    print('new_state: ', new_state)
+    #print('new_state: ', new_state)
+
+
+
+    #TO RUN LLM:
 
     #llm_class = LLM_CLASSES.get(model_class)
 

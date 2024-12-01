@@ -1,5 +1,6 @@
-import configparser
+import copy
 from utils.setup_logging import setup_logging
+from utils.utils import *
 from . import LLM_CLASSES
 
 import jinja2
@@ -41,12 +42,20 @@ class Prompter():
         #given a) the previously best list of length K and b) K additional retrieved docs
         #rerank these 2xK docs to a list of length K
 
-        #if previously best list is empty:
-        #
-        
-        #fun: get doc texts from IDs...
+        curr_top_k_docIDs = state.get("curr_top_k_docIDs", [])
 
-        pass
+        # If curr_top_k_doc_ids is empty, use the top_k from last_k_retrieved_doc_ids
+        if not curr_top_k_docIDs:
+            curr_top_k_docIDs = copy.deepcopy(state.get("last_k_retrieved_docIDs"))
+
+        corpus_path = self.config['data_paths']['corpus_text_path']
+
+        doc_ids_and_texts = get_doc_text_list(curr_top_k_docIDs,corpus_path)
+
+                # Log retrieved documents for debugging purposes
+        print(f"doc_ids_and_texts: {doc_ids_and_texts}")
+
+
 
     def get_init_q(self,state):
         return state["queries"][0]
