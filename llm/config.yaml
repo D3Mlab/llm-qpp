@@ -17,11 +17,12 @@ knn:
   knn_class: ExactKNN
   sim_f: cosine
   k: 10
-  implementation: load_all #load_all_in_batches or load_iteratively (for batch = 1) if corpus doesn't fit in memory
+  implementation: load_all_in_batches #load_all_in_batches or load_iteratively (for batch = 1) if corpus doesn't fit in memory, o.w. load_all
 llm:
   model_class: OpenAILLM #GeminiLLM 
   model_name:  gpt-3.5-turbo-1106 #gemini-1.5-flash  
   template_dir: templates
 templates:
   uninformed_query_reformulation: uninformed_q_reform/uninformed_q2d.jinja2
-  listwise_reranking: reranking/listwise_rerank.jinja2
+  reranking: reranking/listwise_rerank.jinja2
+  termination: termination/termination.jinja2

@@ -29,10 +29,8 @@ class Prompter():
         init_q = self.get_init_q(state)
 
         prompt_dict = {"query" : init_q}
-
         template_dir = self.template_config["uninformed_query_reformulation"]
         prompt = self.render_prompt(prompt_dict, template_dir)
-
         reformed_q = self.llm.prompt(prompt)["message"]
 
         state["queries"].append(reformed_q)
@@ -49,7 +47,6 @@ class Prompter():
             curr_top_k_docIDs = copy.deepcopy(state.get("last_k_retrieved_docIDs"))
 
         corpus_path = self.config['data_paths']['corpus_text_path']
-
         doc_ids_and_texts = get_doc_text_list(curr_top_k_docIDs,corpus_path)
 
         prompt_dict = {
@@ -59,11 +56,8 @@ class Prompter():
             }
 
         template_dir = self.template_config["listwise_reranking"]
-
         prompt = self.render_prompt(prompt_dict, template_dir)
-
         self.logger.debug(f"reranking prompt: {prompt}")
-
         llm_output = self.llm.prompt(prompt)["message"]
         
         try:
@@ -81,6 +75,36 @@ class Prompter():
         state["curr_top_k_docIDs"] = curr_top_k_docIDs
         return state
 
+    def decide_termination_best_docs(self, state):
+        #given the best K doc IDs (e.g. from reranking): curr_top_k_docIDs
+        #decide whether to return results to user or continue search
+
+        curr_top_k_docIDs = state.get("curr_top_k_docIDs", [])
+        corpus_path = self.config['data_paths']['corpus_text_path']
+        doc_ids_and_texts = get_doc_text_list(curr_top_k_docIDs,corpus_path)
+
+        prompt_dict = {
+            'query' : self.get_init_q(state),
+            'doc_ids_and_texts' : doc_ids_and_texts
+            }
+
+        template_dir = self.template_config["termination"]
+        prompt = self.render_prompt(prompt_dict, template_dir)
+        self.logger.debug(f"termination prompt: {prompt}")
+        llm_output = self.llm.prompt(prompt)["message"]
+        
+        # Process Yes/No termination decision from LLM output
+        if isinstance(llm_output, str) and llm_output.strip().lower() == 'yes':
+            state["terminate"] = True
+        elif isinstance(llm_output, str) and llm_output.strip().lower() == 'no':
+            state["terminate"] = False
+        else:
+            self.logger.warning(f"Unexpected LLM output for termination decision: {llm_output}")
+            state["terminate"] = False  # Default to not terminate if response is unclear
+
+        self.logger.debug(f"LLM termination decision output: {llm_output}")
+        return state
+
 
     def get_init_q(self,state):
         return state["queries"][0]
@@ -88,21 +112,4 @@ class Prompter():
     def render_prompt(self, prompt_dict, template_dir):
         template = self.jinja_env.get_template(template_dir)
         return template.render(prompt_dict)
-
-#E.g. jinja2 macro usage:
-# In "macros.jinja"
-#{% macro greet(name) %}
-#  Hello, {{ name }}!
-#{% endmacro %}
-
-#{% import "macros.jinja" as macros %}
-#{{ macros.greet("FIRST NAME") }}
-
-
-#if __name__ == __main__:
-
-#    from . import LLM_CLASSES
- #   import llms
-
-
 
