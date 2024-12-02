@@ -5,6 +5,9 @@ def get_doc_text_list(ids, corpus_path):
     #ids: list of doc_ids
     #return [{"docID": d1, "text": <text_d1>},...]
 
+    if not ids:
+        return []
+
     id_set = set(ids)
     id_and_text_dict = {}
 
