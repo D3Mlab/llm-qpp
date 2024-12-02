@@ -1,0 +1,10 @@
+{% import "termination_macros.jinja" as macros %}
+{{ macros.docs_address_query_yes_no() }}
+
+Query: {{ query }}
+
+Documents:
+{% for doc in doc_ids_and_texts %}
+{{ doc.docID }}: {{ doc.text }}
+{% endfor %}
+
