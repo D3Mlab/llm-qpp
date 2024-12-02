@@ -1,6 +1,26 @@
 import json
 import os
+from utils.setup_logging import setup_logging
 
+#class with some basic agent actions
+class AgentLogic():
+
+    def __init__(self, config):
+        self.config = config
+        self.logger = setup_logging(self.__class__.__name__, self.config)
+
+    def check_max_q_reforms(self,state):
+        max_q_reforms = self.config['agent'].get("max_q_reforms")
+        num_q_reforms = len(state['queries'])-1 #number of total queries - 1 (for initial query)
+
+        if num_q_reforms < max_q_reforms:
+            state["terminate"] = False
+        else:
+            state["terminate"] = True
+
+        return state
+
+#other misc helper functions
 def get_doc_text_list(ids, corpus_path):
     #ids: list of doc_ids
     #return [{"docID": d1, "text": <text_d1>},...]

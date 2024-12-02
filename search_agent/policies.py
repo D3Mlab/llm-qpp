@@ -25,10 +25,22 @@ class PipelinePolicy(BasePolicy):
         self.components = {}
         self.steps = config.get('agent', {}).get('policy_steps', [])
         self.current_step = 0
+        self.iteration_count = 0
+        #terminate after max_iterations of full pipeline...
+        self.max_iterations = config.get('agent', {}).get('T', 1)
+
 
     def next_action(self, state):
-        if self.current_step >= len(self.steps):
+        if state["terminate"]:
             return None
+
+        # If all steps are completed, reset to repeat the pipeline
+        if self.current_step >= len(self.steps):
+            self.current_step = 0
+            self.iteration_count += 1
+            if self.iteration_count >= self.max_iterations:
+                #this is a backup... we're expecting earlier termination via checks in QPP functions that set state["terminate"] = True to avoid an un-necessary extra reformulation step at the end of the pipeline
+                return None
 
         step = self.steps[self.current_step]
         #class which takes the step e.g. DenseRetriever, Reranker
