@@ -95,6 +95,9 @@ class ExperimentManager():
         query_embedding_path = query_result_dir / "query_embedding.pkl"
 
         # Extract and save query embedding if present
+
+        #todo: update for multiple query embeddings
+
         query_embedding = result.pop('query_embedding', None)
         if query_embedding is not None:
             with open(query_embedding_path, 'wb') as embedding_file:
