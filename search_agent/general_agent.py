@@ -19,7 +19,7 @@ class GeneralAgent(BaseAgent):
 
         #state_hist[t] is state at step t
         self.state_hist = [{
-            'query' : query
+            'queries' : [query]
             }]
 
         #to do - update n_actions_max with a timer/timeout
