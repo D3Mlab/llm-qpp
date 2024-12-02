@@ -16,11 +16,11 @@ embedding:
 knn:
   knn_class: ExactKNN
   sim_f: cosine
-  k: 10
+  k: 2
   implementation: load_all_in_batches #load_all_in_batches or load_iteratively (for batch = 1) if corpus doesn't fit in memory, o.w. load_all
 llm:
-  model_class: GeminiLLM #OpenAILLM #GeminiLLM 
-  model_name:  gemini-1.5-flash #gpt-4o-mini #gpt-4o, gemini-1.5-flash  
+  model_class: OpenAILLM   #GeminiLLM 
+  model_name:  gpt-4o-mini #gemini-1.5-flash #gpt-4o
   template_dir: templates
 templates:
   post_retrieval_reformulation: post_r_reform/expand_best_and_query_hist.jinja2
