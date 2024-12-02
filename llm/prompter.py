@@ -70,12 +70,6 @@ class Prompter():
         return state
 
 
-
-
-        self.logger.debug(f"LLM rerarnking output: {curr_top_k_docIDs}")
-        state["curr_top_k_docIDs"] = curr_top_k_docIDs
-        return state
-
     def decide_termination_best_docs(self, state):
         #given the best K doc IDs (e.g. from reranking): curr_top_k_docIDs
         #decide whether to return results to user or continue search
