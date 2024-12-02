@@ -17,13 +17,12 @@ if __name__ == "__main__":
 
     prompter = Prompter(config)
 
-    init_state = {"queries": ["doctor contact", "q^1"], "last_k_retrieved_docIDs" : ["1331194", "2697809"]}
+    init_state = {"queries": ["email your doctor instructions from Hillcrest Clinics", "q^1"], "curr_top_k_docIDs": ["2697809", "1331194"], "last_k_retrieved_docIDs" : ["1331194", "2697809"]}
 
-    print('init_state: ', init_state)
 
-    new_state = prompter.rerank_best_and_latest(init_state)
+    new_state = prompter.decide_termination_best_docs(init_state)
 
-    #print('new_state: ', new_state)
+    print('new_state: ', new_state)
 
 
 
