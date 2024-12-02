@@ -12,8 +12,8 @@
             'method': 'rank',
         },
         {
-            'component': 'OtherComponent',
-            'method': 'process',
+            'component': 'AgentLogic',
+            'method': 'check_max_q_reforms',
         }
     ]
 }

@@ -10,7 +10,7 @@ agent:
   policy_steps:
     - component: DenseRetriever
       method: rank
-  T: 4 # num max retrieval operations (num reformulations = T - 1)
+  max_q_reforms: 4 # T, if pre-retrieval reformulation used, num_retrieval_operations = T; else if no pre-retrieval reformulation, num_retrieval_operations = T + 1 
 embedding:
   embedder_class: HuggingFaceEmbedder
   model_name: sentence-transformers/all-MiniLM-L6-v2
@@ -20,7 +20,7 @@ knn:
   k: 2
   implementation: load_all_in_batches #load_all_in_batches or load_iteratively (for batch = 1) if corpus doesn't fit in memory, o.w. load_all
 llm:
-  model_class: OpenAILLM   #GeminiLLM 
+  model_class: OpenAILLM #GeminiLLM 
   model_name:  gpt-4o-mini #gemini-1.5-flash #gpt-4o
   template_dir: templates
 templates:
