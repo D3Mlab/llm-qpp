@@ -52,6 +52,8 @@ class DenseRetriever(BaseAgent):
         sim_f = self.knn_config.get('sim_f')
         k = self.knn_config.get('k')
         knn_result = self.knn.get_top_k(query_embedding,sim_f,k,knn_implmentation)
+        #knn_result = {"ranked_list": <docID list>, 
+        #                   "sim_scores": <list of sim scores>, 
 
         retriever_result.update(knn_result)
         #retriever_result = {"ranked_list": <docID list>, 
