@@ -1,9 +1,9 @@
 import copy
+import json
+import jinja2
 from utils.setup_logging import setup_logging
 from utils.utils import *
 from . import LLM_CLASSES
-
-import jinja2
 
 class Prompter():
     
@@ -52,9 +52,34 @@ class Prompter():
 
         doc_ids_and_texts = get_doc_text_list(curr_top_k_docIDs,corpus_path)
 
-                # Log retrieved documents for debugging purposes
-        print(f"doc_ids_and_texts: {doc_ids_and_texts}")
+        prompt_dict = {
+            'query' : self.get_init_q(state),
+            'doc_ids_and_texts' : doc_ids_and_texts,
+            'k' : len(doc_ids_and_texts)
+            }
 
+        template_dir = self.template_config["listwise_reranking"]
+
+        prompt = self.render_prompt(prompt_dict, template_dir)
+
+        self.logger.debug(f"reranking prompt: {prompt}")
+
+        llm_output = self.llm.prompt(prompt)["message"]
+        
+        try:
+            #get's list of docIDs as a string and converts to a list
+            #e.g. "["d1","d3"]" -> ["d1","d3"]
+            #todo - switch to regex parsing if outputs aren't consistent but still include a ranked list
+            curr_top_k_docIDs = json.loads(llm_output)
+            if not isinstance(curr_top_k_docIDs, list) or not all(isinstance(item, str) for item in curr_top_k_docIDs):
+                self.logger.warning(f"Unexpected LLM output format: {curr_top_k_docIDs}")
+        except json.JSONDecodeError:
+            self.logger.warning(f"Failed to parse LLM output as list of docIDs: {llm_output}")
+            curr_top_k_docIDs = []
+
+        self.logger.debug(f"LLM rerarnking output: {curr_top_k_docIDs}")
+        state["curr_top_k_docIDs"] = curr_top_k_docIDs
+        return state
 
 
     def get_init_q(self,state):
