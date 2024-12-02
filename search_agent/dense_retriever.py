@@ -27,8 +27,15 @@ class DenseRetriever(BaseAgent):
         #start building new state
         retriever_result = copy.deepcopy(state)
 
-        #get the most recent query
-        query = state["queries"][-1]
+        #if state is just a string query:
+        if isinstance(state,str):
+            query = state
+        #if state has more elements
+        elif isinstance(state,dict):
+            #get the most recent query
+            query = state["queries"][-1]
+        else:
+            self.logger.warning('unexpected state format')
 
         # Embed query
         query_embedding = self.embedder.embed([query])[0].to(dtype=torch.float32)
