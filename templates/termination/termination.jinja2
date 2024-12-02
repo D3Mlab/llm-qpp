@@ -4,7 +4,7 @@
 Query: {{ query }}
 
 Documents:
-{% for doc in doc_ids_and_texts %}
+{% for doc in curr_top_k_ids_and_texts %}
 {{ doc.docID }}: {{ doc.text }}
 {% endfor %}
 

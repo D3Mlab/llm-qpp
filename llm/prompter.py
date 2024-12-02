@@ -23,13 +23,13 @@ class Prompter():
 
         self.jinja_env = jinja2.Environment(loader=jinja2.FileSystemLoader(searchpath=self.template_dir))
 
-    def reform_q_uninformed(self, state):
+    def reform_q_pre_retr(self, state):
         #reformulate initial query (pre-retrieval)
 
         init_q = self.get_init_q(state)
 
         prompt_dict = {"query" : init_q}
-        template_dir = self.template_config["uninformed_query_reformulation"]
+        template_dir = self.template_config["pre_retrieval_reformulation"]
         prompt = self.render_prompt(prompt_dict, template_dir)
         reformed_q = self.llm.prompt(prompt)["message"]
 
@@ -48,6 +48,8 @@ class Prompter():
 
         corpus_path = self.config['data_paths']['corpus_text_path']
         doc_ids_and_texts = get_doc_text_list(curr_top_k_docIDs,corpus_path)
+        #format: [{"docID": d1, "text": <text_d1>},...]
+
 
         prompt_dict = {
             'query' : self.get_init_q(state),
@@ -81,11 +83,12 @@ class Prompter():
 
         curr_top_k_docIDs = state.get("curr_top_k_docIDs", [])
         corpus_path = self.config['data_paths']['corpus_text_path']
-        doc_ids_and_texts = get_doc_text_list(curr_top_k_docIDs,corpus_path)
+        curr_top_k_ids_and_texts = get_doc_text_list(curr_top_k_docIDs,corpus_path)
+        #format: [{"docID": d1, "text": <text_d1>},...]
 
         prompt_dict = {
             'query' : self.get_init_q(state),
-            'doc_ids_and_texts' : doc_ids_and_texts
+            'curr_top_k_ids_and_texts' : curr_top_k_ids_and_texts
             }
 
         template_dir = self.template_config["termination"]
@@ -103,6 +106,32 @@ class Prompter():
             state["terminate"] = False  # Default to not terminate if response is unclear
 
         self.logger.debug(f"LLM termination decision output: {llm_output}")
+        return state
+
+    def reform_q_post_retr(self, state):
+        #reformulate the query given various combinations of
+        #-query reformulation history
+        #-doc retrieval history
+        #-current top K docs
+
+        curr_top_k_docIDs = state.get("curr_top_k_docIDs", [])
+        corpus_path = self.config['data_paths']['corpus_text_path']
+        curr_top_k_ids_and_texts = get_doc_text_list(curr_top_k_docIDs,corpus_path)
+        #format: [{"docID": d1, "text": <text_d1>},...]
+
+        prompt_dict = {
+            'init_q' : self.get_init_q(state),
+            'reformed_qs' : state['queries'][1:],
+            'curr_top_k_ids_and_texts' : curr_top_k_ids_and_texts
+             #todo - add item - 'all_retrieved_doc_ids_and_texts' : # [[d^t=1_0,...d^t=0_K], ..., [d^t'=t_0,...d^t'=t_K]]
+            }
+
+        template_dir = self.template_config["post_retrieval_reformulation"]
+        prompt = self.render_prompt(prompt_dict, template_dir)
+        self.logger.debug(f"post-retrieval reformulation prompt: {prompt}")
+        llm_output = self.llm.prompt(prompt)["message"]
+        
+        state["queries"].append(llm_output)
         return state
 
 
