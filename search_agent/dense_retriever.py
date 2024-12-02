@@ -55,6 +55,7 @@ class DenseRetriever(BaseAgent):
         #knn_result = {"ranked_list": <docID list>, 
         #                   "sim_scores": <list of sim scores>, 
 
+
         retriever_result.update(knn_result)
         #retriever_result = {"ranked_list": <docID list>, 
         #                   "sim_scores": <list of sim scores>, 
