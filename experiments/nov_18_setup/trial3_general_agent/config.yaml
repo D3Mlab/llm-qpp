@@ -17,4 +17,4 @@ knn:
   knn_class: ExactKNN
   sim_f: cosine
   k: 10
-  implementation: load_all #load_all_in_batches or load_iteratively (for batch = 1) if corpus doesn't fit in memory
+  implementation: load_all_in_batches #load_all_in_batches or load_iteratively (for batch = 1) if corpus doesn't fit in memory

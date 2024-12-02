@@ -24,23 +24,27 @@ class DenseRetriever(BaseAgent):
 
     def rank(self, state):
         
-        #start building new state
-        retriever_result = copy.deepcopy(state)
 
         #if state is just a string query:
         if isinstance(state,str):
             query = state
+            retriever_result = {"queries" : [query]}
         #if state has more elements
         elif isinstance(state,dict):
             #get the most recent query
             query = state["queries"][-1]
+            self.logger.debug(f"query: {query}")
+            retriever_result = copy.deepcopy(state)
         else:
             self.logger.warning('unexpected state format')
+            return
 
         # Embed query
         query_embedding = self.embedder.embed([query])[0].to(dtype=torch.float32)
         #start building result dictionary
-        retriever_result = {"query_embedding" : query_embedding}
+        
+        #todo: update for multiple query embeddings
+        retriever_result["query_embedding"] = query_embedding
 
         #read knn implementation \in {load_all, load_iteratively}
         knn_implmentation = self.knn_config.get('implementation')
