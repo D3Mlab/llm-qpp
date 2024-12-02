@@ -27,7 +27,8 @@ class DenseRetriever(BaseAgent):
         #start building new state
         retriever_result = copy.deepcopy(state)
 
-        query = state["query"]
+        #get the most recent query
+        query = state["queries"][-1]
 
         # Embed query
         query_embedding = self.embedder.embed([query])[0].to(dtype=torch.float32)
