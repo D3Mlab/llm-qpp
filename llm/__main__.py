@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     prompter = Prompter(config)
 
-    init_state = {"queries": ["email your doctor instructions from Hillcrest Clinics", "q^1"], "curr_top_k_docIDs": ["2697809", "1331194"], "last_k_retrieved_docIDs" : ["1331194", "2697809"]}
+    init_state = {"queries": ["email your doctor response time from Hillcrest Clinics", "q^1"], "curr_top_k_docIDs": ["2697809", "1331194"], "last_k_retrieved_docIDs" : ["1331194", "2697809"]}
 
 
     new_state = prompter.decide_termination_best_docs(init_state)
