@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     prompter = Prompter(config)
 
-    init_state = {"queries": ["q^0", "q^1"], "last_k_retrieved_docIDs" : ["1331194", "2697809"]}
+    init_state = {"queries": ["doctor contact", "q^1"], "last_k_retrieved_docIDs" : ["1331194", "2697809"]}
 
     print('init_state: ', init_state)
 
