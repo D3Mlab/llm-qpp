@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     prompter = Prompter(config)
 
-    init_state = {"queries": ["email your doctor from Hillcrest Clinics", "email your doctor contact details Hillcrest Clinics"], "curr_top_k_docIDs": ["2506722","1331194"], "last_k_retrieved_docIDs" : ["1331194", "2697809"]}
+    init_state = {"queries": ["email your doctor from Hillcrest Clinics", "email your doctor contact details Hillcrest Clinics"], "curr_top_k_docIDs": ["2506722","1331194"], "retrieved_docIDs" : [["1331194", "2697809"],["1331194", "2697809"]]}
 
     new_state = prompter.rerank_best_and_latest(init_state)
 

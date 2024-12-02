@@ -44,7 +44,8 @@ class DenseRetriever(BaseAgent):
         #start building result dictionary
         
         #todo: update for multiple query embeddings
-        retriever_result["query_embedding"] = query_embedding
+        #temp remove query embedding from state
+        #retriever_result["query_embedding"] = query_embedding
 
         #read knn implementation \in {load_all, load_iteratively}
         knn_implmentation = self.knn_config.get('implementation')

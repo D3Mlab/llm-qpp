@@ -31,7 +31,7 @@ class PipelinePolicy(BasePolicy):
 
 
     def next_action(self, state):
-        if state["terminate"]:
+        if state.get("terminate"):
             return None
 
         # If all steps are completed, reset to repeat the pipeline

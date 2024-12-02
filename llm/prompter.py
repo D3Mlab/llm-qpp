@@ -1,5 +1,6 @@
 import copy
 import json
+import re
 import jinja2
 from utils.setup_logging import setup_logging
 from utils.utils import *
@@ -41,7 +42,7 @@ class Prompter():
         #rerank these 2xK docs to a list of length K
 
         curr_top_k_docIDs = state.get("curr_top_k_docIDs", [])
-        last_k_retrieved_docIDs = state.get("last_k_retrieved_docIDs")
+        last_k_retrieved_docIDs = state["retrieved_docIDs"][-1]
         doc_ids = curr_top_k_docIDs + last_k_retrieved_docIDs
 
         k = self.config['knn'].get('k')
@@ -62,16 +63,14 @@ class Prompter():
         self.logger.debug(f"reranking prompt: {prompt}")
         llm_output = self.llm.prompt(prompt)["message"]
         
-        try:
-            #get's list of docIDs as a string and converts to a list
-            #e.g. "["d1","d3"]" -> ["d1","d3"]
-            #todo - switch to regex parsing if outputs aren't consistent but still include a ranked list
-            curr_top_k_docIDs = json.loads(llm_output)
-            if not isinstance(curr_top_k_docIDs, list) or not all(isinstance(item, str) for item in curr_top_k_docIDs):
-                self.logger.warning(f"Unexpected LLM output format: {curr_top_k_docIDs}")
-        except json.JSONDecodeError:
-            self.logger.warning(f"Failed to parse LLM output as list of docIDs: {llm_output}")
-            curr_top_k_docIDs = []
+        # Parse the LLM output
+        curr_top_k_docIDs = self.parse_llm_list(llm_output)
+
+        state["curr_top_k_docIDs"] = curr_top_k_docIDs
+        return state
+
+
+
 
         self.logger.debug(f"LLM rerarnking output: {curr_top_k_docIDs}")
         state["curr_top_k_docIDs"] = curr_top_k_docIDs
@@ -142,3 +141,19 @@ class Prompter():
         template = self.jinja_env.get_template(template_dir)
         return template.render(prompt_dict)
 
+    def parse_llm_list(self, llm_output):
+        # Try parsing the LLM output using JSON list reader
+        try:
+            return json.loads(llm_output)
+        except json.JSONDecodeError:
+            # Use regex as a fallback to extract a list
+            self.logger.warning(f"Could not parse LLM output as list of docIDs, using regex parsing to look for list in LLM output: {llm_output}")
+            match = re.search(r'\[\s*"(.*?)"(?:\s*,\s*".*?")*\s*\]', llm_output)
+            if match:
+                try:
+                    return json.loads(match.group(0))
+                except json.JSONDecodeError:
+                    self.logger.warning(f"Regex extraction failed to parse as JSON: {llm_output}")
+        
+        self.logger.warning(f"No valid list of docIDs found in LLM output: {llm_output}")
+        return []
