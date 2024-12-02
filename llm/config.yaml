@@ -10,6 +10,7 @@ agent:
   policy_steps:
     - component: DenseRetriever
       method: rank
+  T: 4 # num max retrieval operations (num reformulations = T - 1)
 embedding:
   embedder_class: HuggingFaceEmbedder
   model_name: sentence-transformers/all-MiniLM-L6-v2
