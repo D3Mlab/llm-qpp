@@ -1,0 +1,258 @@
+{
+    "queries": [
+        "dinosaur",
+        "dinosaur toys or statues\n"
+    ],
+    "retrieved_lists": [
+        [
+            "36619",
+            "36633",
+            "3276",
+            "10561",
+            "38628",
+            "36621",
+            "3756",
+            "36645",
+            "3754",
+            "36620"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7288928031921387,
+            0.7280063629150391,
+            0.7273521423339844,
+            0.7193798422813416,
+            0.7142761945724487,
+            0.7141581773757935,
+            0.7122166156768799,
+            0.7105100154876709,
+            0.7095788717269897,
+            0.7082895636558533
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: dinosaur\n\nDocuments:\n\n36619: scaled jurassic t-rex raptor dinosaur statue. this jurassic-sized t-rex dinosaur statue promises to prowl your flowerbed with deadly impact ! realistically sculpted with prehistoric precision , with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing prehistoric color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as t-rex statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n36633: bad to the bone , jurassic t-rex raptor dinosaur statue. unearth design toscano very own raptor with this jurassic age dinosaur sculpture sure to shock and awe garden visitors as they discover an archaeological gem hidden right in design toscano flower bed . be design toscano very own back yard archaeologist with this sun-bleached discovery from the mesozoic era ! stretching nearly two feet long , this design toscano quality designer resin statue replicates the weathered bones of a extinct prehistoric monster that once roamed the earth . visitors will admire design toscano creative garden style as design toscano boney t-rex sculpture makes a mesozoic statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n3276: dinosaur cardboard standup. this is a life-size cardboard standup of a dinosaur t-rex . easy to set up , it features a single-sided high-quality print on cardboard with an easel on the back so it can stand on its own . it features a hole in the mouth so you can stand behind it and take pictures , cutouts make great decor for parties , photo ops , and events .\n\n10561: a spinosaurus dinosaur attacking snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n38628: dinosaur skull with base. nan\n\n36621: scaled jurassic pterodactyl dinosaur statue. realistically sculpted with prehistoric precision , this replica pterodactyl dinosaur sculpture easily belongs in a class all on its own ! pterodactyl shook the scientific world up as the first designated flying reptile . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as this pterodactyl statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n3756: duggins brontosaurus dinosaur coffee mug. give an adorable and humorous gift that both kids and adults can enjoy with this brontosaurus cartoon ceramic dinosaur mug . its neck is the cradle , and the rest is adorned with yellow spots and a deep green glazed finish . use this mug to serve coffee and tea , or use it as a novelty container for storing office supplies or small household items . give this a humorous gift to a friend or loved one , or keep it to yourself to enjoy .\n\n36645: velociraptor scaled dinosaur statue. this scaled jurassic velociraptor dinosaur statue promises to prowl your flowerbed with impact ! realistically sculpted with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture . visitors will admire your creative garden style as design toscano menacing velociraptor sculpture makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture !\n\n3754: dugger 3-d dinosaur design coffee mug. do n't miss this opportunity to add awesome dinosaur fun and charm to your daily coffee ( or other preferred drink ) routine . this mug boasts a 3-d ceramic design of a dinosaur with protruding head , arms , and legs . the handle doubles as the dinosaur 's tail . you wo n't be able to drink coffee or anything else without smiling with this novelty dinosaur mug . whether you give it as a gift to some lucky friend or keep it for yourself , this mug will bring dinosaur whimsy and humor to any occasion or purpose it 's used for .\n\n36620: scaled jurassic brachiosaurus dinosaur statue. realistically sculpted with prehistoric precision , this replica brachiosaurus dinosaur sculpture easily belongs in a class all on its own ! named the `` arm lizard '' for its front legs were longer than the hind legs , the design toscano brachiosaurus statue echoes its heritage as one of the world 's largest and oldest herbivore ( a full-grown brachiosaurus may well have reached the century mark ) . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as the brachiosaurus statue makes a mesozoic statement ! another quality design toscano-exclusive dinosaur sculpture !\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ndinosaur\n***\n\nDocuments:\n***\n\n36619: scaled jurassic t-rex raptor dinosaur statue. this jurassic-sized t-rex dinosaur statue promises to prowl your flowerbed with deadly impact ! realistically sculpted with prehistoric precision , with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing prehistoric color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as t-rex statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n36633: bad to the bone , jurassic t-rex raptor dinosaur statue. unearth design toscano very own raptor with this jurassic age dinosaur sculpture sure to shock and awe garden visitors as they discover an archaeological gem hidden right in design toscano flower bed . be design toscano very own back yard archaeologist with this sun-bleached discovery from the mesozoic era ! stretching nearly two feet long , this design toscano quality designer resin statue replicates the weathered bones of a extinct prehistoric monster that once roamed the earth . visitors will admire design toscano creative garden style as design toscano boney t-rex sculpture makes a mesozoic statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n3276: dinosaur cardboard standup. this is a life-size cardboard standup of a dinosaur t-rex . easy to set up , it features a single-sided high-quality print on cardboard with an easel on the back so it can stand on its own . it features a hole in the mouth so you can stand behind it and take pictures , cutouts make great decor for parties , photo ops , and events .\n\n36645: velociraptor scaled dinosaur statue. this scaled jurassic velociraptor dinosaur statue promises to prowl your flowerbed with impact ! realistically sculpted with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture . visitors will admire your creative garden style as design toscano menacing velociraptor sculpture makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture !\n\n36621: scaled jurassic pterodactyl dinosaur statue. realistically sculpted with prehistoric precision , this replica pterodactyl dinosaur sculpture easily belongs in a class all on its own ! pterodactyl shook the scientific world up as the first designated flying reptile . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as this pterodactyl statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n36620: scaled jurassic brachiosaurus dinosaur statue. realistically sculpted with prehistoric precision , this replica brachiosaurus dinosaur sculpture easily belongs in a class all on its own ! named the `` arm lizard '' for its front legs were longer than the hind legs , the design toscano brachiosaurus statue echoes its heritage as one of the world 's largest and oldest herbivore ( a full-grown brachiosaurus may well have reached the century mark ) . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as the brachiosaurus statue makes a mesozoic statement ! another quality design toscano-exclusive dinosaur sculpture !\n\n10561: a spinosaurus dinosaur attacking snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n38628: dinosaur skull with base. nan\n\n3756: duggins brontosaurus dinosaur coffee mug. give an adorable and humorous gift that both kids and adults can enjoy with this brontosaurus cartoon ceramic dinosaur mug . its neck is the cradle , and the rest is adorned with yellow spots and a deep green glazed finish . use this mug to serve coffee and tea , or use it as a novelty container for storing office supplies or small household items . give this a humorous gift to a friend or loved one , or keep it to yourself to enjoy .\n\n3754: dugger 3-d dinosaur design coffee mug. do n't miss this opportunity to add awesome dinosaur fun and charm to your daily coffee ( or other preferred drink ) routine . this mug boasts a 3-d ceramic design of a dinosaur with protruding head , arms , and legs . the handle doubles as the dinosaur 's tail . you wo n't be able to drink coffee or anything else without smiling with this novelty dinosaur mug . whether you give it as a gift to some lucky friend or keep it for yourself , this mug will bring dinosaur whimsy and humor to any occasion or purpose it 's used for .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\n[\"36619\", \"36633\", \"3276\", \"36645\", \"36621\", \"36620\", \"10561\", \"38628\", \"3756\", \"3754\"]\n```\n",
+        "dinosaur toys or statues\n"
+    ],
+    "curr_top_k_docIDs": [
+        "36619",
+        "36633",
+        "3276",
+        "36645",
+        "36621",
+        "36620",
+        "10561",
+        "38628",
+        "3756",
+        "3754"
+    ],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "dinosaur"
+            ]
+        },
+        {
+            "queries": [
+                "dinosaur"
+            ],
+            "retrieved_lists": [
+                [
+                    "36619",
+                    "36633",
+                    "3276",
+                    "10561",
+                    "38628",
+                    "36621",
+                    "3756",
+                    "36645",
+                    "3754",
+                    "36620"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7288928031921387,
+                    0.7280063629150391,
+                    0.7273521423339844,
+                    0.7193798422813416,
+                    0.7142761945724487,
+                    0.7141581773757935,
+                    0.7122166156768799,
+                    0.7105100154876709,
+                    0.7095788717269897,
+                    0.7082895636558533
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "dinosaur"
+            ],
+            "retrieved_lists": [
+                [
+                    "36619",
+                    "36633",
+                    "3276",
+                    "10561",
+                    "38628",
+                    "36621",
+                    "3756",
+                    "36645",
+                    "3754",
+                    "36620"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7288928031921387,
+                    0.7280063629150391,
+                    0.7273521423339844,
+                    0.7193798422813416,
+                    0.7142761945724487,
+                    0.7141581773757935,
+                    0.7122166156768799,
+                    0.7105100154876709,
+                    0.7095788717269897,
+                    0.7082895636558533
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: dinosaur\n\nDocuments:\n\n36619: scaled jurassic t-rex raptor dinosaur statue. this jurassic-sized t-rex dinosaur statue promises to prowl your flowerbed with deadly impact ! realistically sculpted with prehistoric precision , with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing prehistoric color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as t-rex statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n36633: bad to the bone , jurassic t-rex raptor dinosaur statue. unearth design toscano very own raptor with this jurassic age dinosaur sculpture sure to shock and awe garden visitors as they discover an archaeological gem hidden right in design toscano flower bed . be design toscano very own back yard archaeologist with this sun-bleached discovery from the mesozoic era ! stretching nearly two feet long , this design toscano quality designer resin statue replicates the weathered bones of a extinct prehistoric monster that once roamed the earth . visitors will admire design toscano creative garden style as design toscano boney t-rex sculpture makes a mesozoic statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n3276: dinosaur cardboard standup. this is a life-size cardboard standup of a dinosaur t-rex . easy to set up , it features a single-sided high-quality print on cardboard with an easel on the back so it can stand on its own . it features a hole in the mouth so you can stand behind it and take pictures , cutouts make great decor for parties , photo ops , and events .\n\n10561: a spinosaurus dinosaur attacking snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n38628: dinosaur skull with base. nan\n\n36621: scaled jurassic pterodactyl dinosaur statue. realistically sculpted with prehistoric precision , this replica pterodactyl dinosaur sculpture easily belongs in a class all on its own ! pterodactyl shook the scientific world up as the first designated flying reptile . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as this pterodactyl statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n3756: duggins brontosaurus dinosaur coffee mug. give an adorable and humorous gift that both kids and adults can enjoy with this brontosaurus cartoon ceramic dinosaur mug . its neck is the cradle , and the rest is adorned with yellow spots and a deep green glazed finish . use this mug to serve coffee and tea , or use it as a novelty container for storing office supplies or small household items . give this a humorous gift to a friend or loved one , or keep it to yourself to enjoy .\n\n36645: velociraptor scaled dinosaur statue. this scaled jurassic velociraptor dinosaur statue promises to prowl your flowerbed with impact ! realistically sculpted with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture . visitors will admire your creative garden style as design toscano menacing velociraptor sculpture makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture !\n\n3754: dugger 3-d dinosaur design coffee mug. do n't miss this opportunity to add awesome dinosaur fun and charm to your daily coffee ( or other preferred drink ) routine . this mug boasts a 3-d ceramic design of a dinosaur with protruding head , arms , and legs . the handle doubles as the dinosaur 's tail . you wo n't be able to drink coffee or anything else without smiling with this novelty dinosaur mug . whether you give it as a gift to some lucky friend or keep it for yourself , this mug will bring dinosaur whimsy and humor to any occasion or purpose it 's used for .\n\n36620: scaled jurassic brachiosaurus dinosaur statue. realistically sculpted with prehistoric precision , this replica brachiosaurus dinosaur sculpture easily belongs in a class all on its own ! named the `` arm lizard '' for its front legs were longer than the hind legs , the design toscano brachiosaurus statue echoes its heritage as one of the world 's largest and oldest herbivore ( a full-grown brachiosaurus may well have reached the century mark ) . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as the brachiosaurus statue makes a mesozoic statement ! another quality design toscano-exclusive dinosaur sculpture !\n\n"
+            ],
+            "responses": [
+                "```python\n[\"36619\", \"36633\", \"3276\", \"36645\", \"36621\", \"36620\", \"10561\", \"38628\", \"3756\", \"3754\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36619",
+                "36633",
+                "3276",
+                "36645",
+                "36621",
+                "36620",
+                "10561",
+                "38628",
+                "3756",
+                "3754"
+            ]
+        },
+        {
+            "queries": [
+                "dinosaur"
+            ],
+            "retrieved_lists": [
+                [
+                    "36619",
+                    "36633",
+                    "3276",
+                    "10561",
+                    "38628",
+                    "36621",
+                    "3756",
+                    "36645",
+                    "3754",
+                    "36620"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7288928031921387,
+                    0.7280063629150391,
+                    0.7273521423339844,
+                    0.7193798422813416,
+                    0.7142761945724487,
+                    0.7141581773757935,
+                    0.7122166156768799,
+                    0.7105100154876709,
+                    0.7095788717269897,
+                    0.7082895636558533
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: dinosaur\n\nDocuments:\n\n36619: scaled jurassic t-rex raptor dinosaur statue. this jurassic-sized t-rex dinosaur statue promises to prowl your flowerbed with deadly impact ! realistically sculpted with prehistoric precision , with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing prehistoric color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as t-rex statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n36633: bad to the bone , jurassic t-rex raptor dinosaur statue. unearth design toscano very own raptor with this jurassic age dinosaur sculpture sure to shock and awe garden visitors as they discover an archaeological gem hidden right in design toscano flower bed . be design toscano very own back yard archaeologist with this sun-bleached discovery from the mesozoic era ! stretching nearly two feet long , this design toscano quality designer resin statue replicates the weathered bones of a extinct prehistoric monster that once roamed the earth . visitors will admire design toscano creative garden style as design toscano boney t-rex sculpture makes a mesozoic statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n3276: dinosaur cardboard standup. this is a life-size cardboard standup of a dinosaur t-rex . easy to set up , it features a single-sided high-quality print on cardboard with an easel on the back so it can stand on its own . it features a hole in the mouth so you can stand behind it and take pictures , cutouts make great decor for parties , photo ops , and events .\n\n10561: a spinosaurus dinosaur attacking snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n38628: dinosaur skull with base. nan\n\n36621: scaled jurassic pterodactyl dinosaur statue. realistically sculpted with prehistoric precision , this replica pterodactyl dinosaur sculpture easily belongs in a class all on its own ! pterodactyl shook the scientific world up as the first designated flying reptile . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as this pterodactyl statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n3756: duggins brontosaurus dinosaur coffee mug. give an adorable and humorous gift that both kids and adults can enjoy with this brontosaurus cartoon ceramic dinosaur mug . its neck is the cradle , and the rest is adorned with yellow spots and a deep green glazed finish . use this mug to serve coffee and tea , or use it as a novelty container for storing office supplies or small household items . give this a humorous gift to a friend or loved one , or keep it to yourself to enjoy .\n\n36645: velociraptor scaled dinosaur statue. this scaled jurassic velociraptor dinosaur statue promises to prowl your flowerbed with impact ! realistically sculpted with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture . visitors will admire your creative garden style as design toscano menacing velociraptor sculpture makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture !\n\n3754: dugger 3-d dinosaur design coffee mug. do n't miss this opportunity to add awesome dinosaur fun and charm to your daily coffee ( or other preferred drink ) routine . this mug boasts a 3-d ceramic design of a dinosaur with protruding head , arms , and legs . the handle doubles as the dinosaur 's tail . you wo n't be able to drink coffee or anything else without smiling with this novelty dinosaur mug . whether you give it as a gift to some lucky friend or keep it for yourself , this mug will bring dinosaur whimsy and humor to any occasion or purpose it 's used for .\n\n36620: scaled jurassic brachiosaurus dinosaur statue. realistically sculpted with prehistoric precision , this replica brachiosaurus dinosaur sculpture easily belongs in a class all on its own ! named the `` arm lizard '' for its front legs were longer than the hind legs , the design toscano brachiosaurus statue echoes its heritage as one of the world 's largest and oldest herbivore ( a full-grown brachiosaurus may well have reached the century mark ) . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as the brachiosaurus statue makes a mesozoic statement ! another quality design toscano-exclusive dinosaur sculpture !\n\n"
+            ],
+            "responses": [
+                "```python\n[\"36619\", \"36633\", \"3276\", \"36645\", \"36621\", \"36620\", \"10561\", \"38628\", \"3756\", \"3754\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36619",
+                "36633",
+                "3276",
+                "36645",
+                "36621",
+                "36620",
+                "10561",
+                "38628",
+                "3756",
+                "3754"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "dinosaur",
+                "dinosaur toys or statues\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "36619",
+                    "36633",
+                    "3276",
+                    "10561",
+                    "38628",
+                    "36621",
+                    "3756",
+                    "36645",
+                    "3754",
+                    "36620"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7288928031921387,
+                    0.7280063629150391,
+                    0.7273521423339844,
+                    0.7193798422813416,
+                    0.7142761945724487,
+                    0.7141581773757935,
+                    0.7122166156768799,
+                    0.7105100154876709,
+                    0.7095788717269897,
+                    0.7082895636558533
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: dinosaur\n\nDocuments:\n\n36619: scaled jurassic t-rex raptor dinosaur statue. this jurassic-sized t-rex dinosaur statue promises to prowl your flowerbed with deadly impact ! realistically sculpted with prehistoric precision , with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing prehistoric color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as t-rex statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n36633: bad to the bone , jurassic t-rex raptor dinosaur statue. unearth design toscano very own raptor with this jurassic age dinosaur sculpture sure to shock and awe garden visitors as they discover an archaeological gem hidden right in design toscano flower bed . be design toscano very own back yard archaeologist with this sun-bleached discovery from the mesozoic era ! stretching nearly two feet long , this design toscano quality designer resin statue replicates the weathered bones of a extinct prehistoric monster that once roamed the earth . visitors will admire design toscano creative garden style as design toscano boney t-rex sculpture makes a mesozoic statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n3276: dinosaur cardboard standup. this is a life-size cardboard standup of a dinosaur t-rex . easy to set up , it features a single-sided high-quality print on cardboard with an easel on the back so it can stand on its own . it features a hole in the mouth so you can stand behind it and take pictures , cutouts make great decor for parties , photo ops , and events .\n\n10561: a spinosaurus dinosaur attacking snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n38628: dinosaur skull with base. nan\n\n36621: scaled jurassic pterodactyl dinosaur statue. realistically sculpted with prehistoric precision , this replica pterodactyl dinosaur sculpture easily belongs in a class all on its own ! pterodactyl shook the scientific world up as the first designated flying reptile . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as this pterodactyl statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n3756: duggins brontosaurus dinosaur coffee mug. give an adorable and humorous gift that both kids and adults can enjoy with this brontosaurus cartoon ceramic dinosaur mug . its neck is the cradle , and the rest is adorned with yellow spots and a deep green glazed finish . use this mug to serve coffee and tea , or use it as a novelty container for storing office supplies or small household items . give this a humorous gift to a friend or loved one , or keep it to yourself to enjoy .\n\n36645: velociraptor scaled dinosaur statue. this scaled jurassic velociraptor dinosaur statue promises to prowl your flowerbed with impact ! realistically sculpted with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture . visitors will admire your creative garden style as design toscano menacing velociraptor sculpture makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture !\n\n3754: dugger 3-d dinosaur design coffee mug. do n't miss this opportunity to add awesome dinosaur fun and charm to your daily coffee ( or other preferred drink ) routine . this mug boasts a 3-d ceramic design of a dinosaur with protruding head , arms , and legs . the handle doubles as the dinosaur 's tail . you wo n't be able to drink coffee or anything else without smiling with this novelty dinosaur mug . whether you give it as a gift to some lucky friend or keep it for yourself , this mug will bring dinosaur whimsy and humor to any occasion or purpose it 's used for .\n\n36620: scaled jurassic brachiosaurus dinosaur statue. realistically sculpted with prehistoric precision , this replica brachiosaurus dinosaur sculpture easily belongs in a class all on its own ! named the `` arm lizard '' for its front legs were longer than the hind legs , the design toscano brachiosaurus statue echoes its heritage as one of the world 's largest and oldest herbivore ( a full-grown brachiosaurus may well have reached the century mark ) . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as the brachiosaurus statue makes a mesozoic statement ! another quality design toscano-exclusive dinosaur sculpture !\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ndinosaur\n***\n\nDocuments:\n***\n\n36619: scaled jurassic t-rex raptor dinosaur statue. this jurassic-sized t-rex dinosaur statue promises to prowl your flowerbed with deadly impact ! realistically sculpted with prehistoric precision , with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing prehistoric color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as t-rex statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n36633: bad to the bone , jurassic t-rex raptor dinosaur statue. unearth design toscano very own raptor with this jurassic age dinosaur sculpture sure to shock and awe garden visitors as they discover an archaeological gem hidden right in design toscano flower bed . be design toscano very own back yard archaeologist with this sun-bleached discovery from the mesozoic era ! stretching nearly two feet long , this design toscano quality designer resin statue replicates the weathered bones of a extinct prehistoric monster that once roamed the earth . visitors will admire design toscano creative garden style as design toscano boney t-rex sculpture makes a mesozoic statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n3276: dinosaur cardboard standup. this is a life-size cardboard standup of a dinosaur t-rex . easy to set up , it features a single-sided high-quality print on cardboard with an easel on the back so it can stand on its own . it features a hole in the mouth so you can stand behind it and take pictures , cutouts make great decor for parties , photo ops , and events .\n\n36645: velociraptor scaled dinosaur statue. this scaled jurassic velociraptor dinosaur statue promises to prowl your flowerbed with impact ! realistically sculpted with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture . visitors will admire your creative garden style as design toscano menacing velociraptor sculpture makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture !\n\n36621: scaled jurassic pterodactyl dinosaur statue. realistically sculpted with prehistoric precision , this replica pterodactyl dinosaur sculpture easily belongs in a class all on its own ! pterodactyl shook the scientific world up as the first designated flying reptile . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as this pterodactyl statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n36620: scaled jurassic brachiosaurus dinosaur statue. realistically sculpted with prehistoric precision , this replica brachiosaurus dinosaur sculpture easily belongs in a class all on its own ! named the `` arm lizard '' for its front legs were longer than the hind legs , the design toscano brachiosaurus statue echoes its heritage as one of the world 's largest and oldest herbivore ( a full-grown brachiosaurus may well have reached the century mark ) . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as the brachiosaurus statue makes a mesozoic statement ! another quality design toscano-exclusive dinosaur sculpture !\n\n10561: a spinosaurus dinosaur attacking snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n38628: dinosaur skull with base. nan\n\n3756: duggins brontosaurus dinosaur coffee mug. give an adorable and humorous gift that both kids and adults can enjoy with this brontosaurus cartoon ceramic dinosaur mug . its neck is the cradle , and the rest is adorned with yellow spots and a deep green glazed finish . use this mug to serve coffee and tea , or use it as a novelty container for storing office supplies or small household items . give this a humorous gift to a friend or loved one , or keep it to yourself to enjoy .\n\n3754: dugger 3-d dinosaur design coffee mug. do n't miss this opportunity to add awesome dinosaur fun and charm to your daily coffee ( or other preferred drink ) routine . this mug boasts a 3-d ceramic design of a dinosaur with protruding head , arms , and legs . the handle doubles as the dinosaur 's tail . you wo n't be able to drink coffee or anything else without smiling with this novelty dinosaur mug . whether you give it as a gift to some lucky friend or keep it for yourself , this mug will bring dinosaur whimsy and humor to any occasion or purpose it 's used for .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\n[\"36619\", \"36633\", \"3276\", \"36645\", \"36621\", \"36620\", \"10561\", \"38628\", \"3756\", \"3754\"]\n```\n",
+                "dinosaur toys or statues\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36619",
+                "36633",
+                "3276",
+                "36645",
+                "36621",
+                "36620",
+                "10561",
+                "38628",
+                "3756",
+                "3754"
+            ],
+            "terminate": false
+        }
+    ]
+}
