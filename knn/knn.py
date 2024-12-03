@@ -69,17 +69,17 @@ class ExactKNN(KNN):
                         batch_embeddings = []
                         batch_doc_ids = []
 
-                # Process any remaining embeddings in the last batch
-                if batch_embeddings:
-                    batch_embeddings = torch.stack(batch_embeddings).to(self.device)
-                    batch_similarities = self.compute_similarity(query_embedding, batch_embeddings, similarity_fun_name)
-
-                    # Collect results for the last batch
-                    doc_ids.extend(batch_doc_ids)
-                    similarities.extend(batch_similarities.tolist())
-
             except EOFError:
                 pass
+
+            # Process any remaining embeddings in the last batch
+            if batch_embeddings:
+                batch_embeddings = torch.stack(batch_embeddings).to(self.device)
+                batch_similarities = self.compute_similarity(query_embedding, batch_embeddings, similarity_fun_name)
+
+                # Collect results for the last batch
+                doc_ids.extend(batch_doc_ids)
+                similarities.extend(batch_similarities.tolist())
 
         # Sort by similarity and get the top_k results
         sorted_results = sorted(zip(similarities, doc_ids), key=lambda x: x[0], reverse=True)[:top_k]
