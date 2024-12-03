@@ -1,7 +1,9 @@
 - forbid retrieval of documents already in previously retrieved lists
 - prompt engineer (FS, phrasing):
 	- format adherance
+	- context: all previous retrieved docs? query reform history?
 	- reformulation strategies
+		- q2d, q2e
 - test various llms
 - pre-retrieval query reformulation
 - start config writting notebook
