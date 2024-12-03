@@ -20,6 +20,12 @@ class AgentLogic():
 
         return state
 
+    def return_last_retrieved_list(self, state):
+        #to be used when there is no reranking
+        state["curr_top_k_docIDs"] = state['retrieved_lists'][-1]
+        state["terminate"] = True
+        return state
+
 #other misc helper functions
 def get_doc_text_list(ids, corpus_path):
     #ids: list of doc_ids
