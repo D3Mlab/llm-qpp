@@ -1,0 +1,199 @@
+{
+    "queries": [
+        "what is the proper name for a cartilage cell?"
+    ],
+    "retrieved_lists": [
+        [
+            "7771731",
+            "319964",
+            "8751537",
+            "6098688",
+            "2401495",
+            "250775",
+            "6234040",
+            "3986869",
+            "2075095",
+            "4298828"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6505881547927856,
+            0.2971142530441284,
+            0.24921652674674988,
+            0.2416052669286728,
+            0.22871962189674377,
+            0.16289575397968292,
+            0.1583784818649292,
+            0.14668375253677368,
+            0.12131241708993912,
+            0.11421512812376022
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what is the proper name for a cartilage cell?\n\nDocuments:\n\n7771731: The extracellular matrix of cartilage is secreted by chondroblasts, (chondro = cartilage), which are found in the outer covering layer of cartilage. As the chondroblasts secrete matrix and fibres, they become trapped inside it, and mature into cells called chondrocytes.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n8751537: The origin, or proximal attachment, of the extensor pollicis brevis muscle is on the posterior surface of the distal radius, as well as along the distal interosseous membrane between the radius and ulna. The insertion, or distal attachment, is located at the base of the proximal phalanx of the thumb, or digit one.\n\n6098688: Chloroplasts are organelles present in plant cells and some eukaryotic organisms. Chloroplasts are the most important plastids found in plant cells.It is the structure in a green plant cell in which photosynthesis occurs. Chloroplast is one of the three types of plastids.he chloroplast are double membrane bound organelles and are the site of photosynthesis The chloroplasts have a system of three membranes: the outer membrane, the inner membrane and the thylakoid system. The outer and the inner membrane of the chloroplast enclose a semi-gel-like fluid known as the stroma.\n\n2401495: epicanthic fold. A fold of skin of the upper eyelid that partially covers the inner corner of the eye. Also called epicanthus. The American Heritage\u00c2\u00ae Dictionary of the English Language, 5th edition Copyright \u00c2\u00a9 2013 by Houghton Mifflin Harcourt Publishing Company.\n\n250775: During translation, these tRNAs carry amino acids to the ribosome and join with their complementary codons. Then, the assembled amino acids are joined together as the ribosome, with its resident rRNAs, moves along the mRNA molecule in a ratchet-like motion.\n\n6234040: Low back pain is very common. It affects millions of people. In most cases, you don't need surgery for low back pain. But in rare cases, severe back pain can be a sign of cauda equina syndrome (CES), a condition that usually requires urgent surgical treatment.\n\n3986869: 1 A temporary interruption of any function. 2  A hanging from a support, as used in the treatment of spinal curvatures or during the application of a plaster jacket.  Fixation of an organ, such as the uterus, to other tissue for support.\n\n2075095: What are the heart and blood vessels? The heart is a muscular pump that pushes blood through blood vessels around the body. The heart beats continuously, pumping the equivalent of more than 14,000 litres of blood every day. Blood vessels form the living system of tubes that carry blood both to and from the heart.\n\n4298828: With pulmonary hypertension, the rise in blood pressure is caused by changes in the cells that line your pulmonary arteries. These changes can cause the walls of the arteries to become stiff and thick, and extra tissue may form. The blood vessels may also become inflamed and tight.\n\n"
+    ],
+    "responses": [
+        "[7771731, 319964, 8751537, 6098688, 2401495, 250775, 6234040, 3986869, 2075095, 4298828]"
+    ],
+    "curr_top_k_docIDs": [
+        7771731,
+        319964,
+        8751537,
+        6098688,
+        2401495,
+        250775,
+        6234040,
+        3986869,
+        2075095,
+        4298828
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "what is the proper name for a cartilage cell?"
+            ]
+        },
+        {
+            "queries": [
+                "what is the proper name for a cartilage cell?"
+            ],
+            "retrieved_lists": [
+                [
+                    "7771731",
+                    "319964",
+                    "8751537",
+                    "6098688",
+                    "2401495",
+                    "250775",
+                    "6234040",
+                    "3986869",
+                    "2075095",
+                    "4298828"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6505881547927856,
+                    0.2971142530441284,
+                    0.24921652674674988,
+                    0.2416052669286728,
+                    0.22871962189674377,
+                    0.16289575397968292,
+                    0.1583784818649292,
+                    0.14668375253677368,
+                    0.12131241708993912,
+                    0.11421512812376022
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "what is the proper name for a cartilage cell?"
+            ],
+            "retrieved_lists": [
+                [
+                    "7771731",
+                    "319964",
+                    "8751537",
+                    "6098688",
+                    "2401495",
+                    "250775",
+                    "6234040",
+                    "3986869",
+                    "2075095",
+                    "4298828"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6505881547927856,
+                    0.2971142530441284,
+                    0.24921652674674988,
+                    0.2416052669286728,
+                    0.22871962189674377,
+                    0.16289575397968292,
+                    0.1583784818649292,
+                    0.14668375253677368,
+                    0.12131241708993912,
+                    0.11421512812376022
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what is the proper name for a cartilage cell?\n\nDocuments:\n\n7771731: The extracellular matrix of cartilage is secreted by chondroblasts, (chondro = cartilage), which are found in the outer covering layer of cartilage. As the chondroblasts secrete matrix and fibres, they become trapped inside it, and mature into cells called chondrocytes.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n8751537: The origin, or proximal attachment, of the extensor pollicis brevis muscle is on the posterior surface of the distal radius, as well as along the distal interosseous membrane between the radius and ulna. The insertion, or distal attachment, is located at the base of the proximal phalanx of the thumb, or digit one.\n\n6098688: Chloroplasts are organelles present in plant cells and some eukaryotic organisms. Chloroplasts are the most important plastids found in plant cells.It is the structure in a green plant cell in which photosynthesis occurs. Chloroplast is one of the three types of plastids.he chloroplast are double membrane bound organelles and are the site of photosynthesis The chloroplasts have a system of three membranes: the outer membrane, the inner membrane and the thylakoid system. The outer and the inner membrane of the chloroplast enclose a semi-gel-like fluid known as the stroma.\n\n2401495: epicanthic fold. A fold of skin of the upper eyelid that partially covers the inner corner of the eye. Also called epicanthus. The American Heritage\u00c2\u00ae Dictionary of the English Language, 5th edition Copyright \u00c2\u00a9 2013 by Houghton Mifflin Harcourt Publishing Company.\n\n250775: During translation, these tRNAs carry amino acids to the ribosome and join with their complementary codons. Then, the assembled amino acids are joined together as the ribosome, with its resident rRNAs, moves along the mRNA molecule in a ratchet-like motion.\n\n6234040: Low back pain is very common. It affects millions of people. In most cases, you don't need surgery for low back pain. But in rare cases, severe back pain can be a sign of cauda equina syndrome (CES), a condition that usually requires urgent surgical treatment.\n\n3986869: 1 A temporary interruption of any function. 2  A hanging from a support, as used in the treatment of spinal curvatures or during the application of a plaster jacket.  Fixation of an organ, such as the uterus, to other tissue for support.\n\n2075095: What are the heart and blood vessels? The heart is a muscular pump that pushes blood through blood vessels around the body. The heart beats continuously, pumping the equivalent of more than 14,000 litres of blood every day. Blood vessels form the living system of tubes that carry blood both to and from the heart.\n\n4298828: With pulmonary hypertension, the rise in blood pressure is caused by changes in the cells that line your pulmonary arteries. These changes can cause the walls of the arteries to become stiff and thick, and extra tissue may form. The blood vessels may also become inflamed and tight.\n\n"
+            ],
+            "responses": [
+                "[7771731, 319964, 8751537, 6098688, 2401495, 250775, 6234040, 3986869, 2075095, 4298828]"
+            ],
+            "curr_top_k_docIDs": [
+                7771731,
+                319964,
+                8751537,
+                6098688,
+                2401495,
+                250775,
+                6234040,
+                3986869,
+                2075095,
+                4298828
+            ]
+        },
+        {
+            "queries": [
+                "what is the proper name for a cartilage cell?"
+            ],
+            "retrieved_lists": [
+                [
+                    "7771731",
+                    "319964",
+                    "8751537",
+                    "6098688",
+                    "2401495",
+                    "250775",
+                    "6234040",
+                    "3986869",
+                    "2075095",
+                    "4298828"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6505881547927856,
+                    0.2971142530441284,
+                    0.24921652674674988,
+                    0.2416052669286728,
+                    0.22871962189674377,
+                    0.16289575397968292,
+                    0.1583784818649292,
+                    0.14668375253677368,
+                    0.12131241708993912,
+                    0.11421512812376022
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what is the proper name for a cartilage cell?\n\nDocuments:\n\n7771731: The extracellular matrix of cartilage is secreted by chondroblasts, (chondro = cartilage), which are found in the outer covering layer of cartilage. As the chondroblasts secrete matrix and fibres, they become trapped inside it, and mature into cells called chondrocytes.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n8751537: The origin, or proximal attachment, of the extensor pollicis brevis muscle is on the posterior surface of the distal radius, as well as along the distal interosseous membrane between the radius and ulna. The insertion, or distal attachment, is located at the base of the proximal phalanx of the thumb, or digit one.\n\n6098688: Chloroplasts are organelles present in plant cells and some eukaryotic organisms. Chloroplasts are the most important plastids found in plant cells.It is the structure in a green plant cell in which photosynthesis occurs. Chloroplast is one of the three types of plastids.he chloroplast are double membrane bound organelles and are the site of photosynthesis The chloroplasts have a system of three membranes: the outer membrane, the inner membrane and the thylakoid system. The outer and the inner membrane of the chloroplast enclose a semi-gel-like fluid known as the stroma.\n\n2401495: epicanthic fold. A fold of skin of the upper eyelid that partially covers the inner corner of the eye. Also called epicanthus. The American Heritage\u00c2\u00ae Dictionary of the English Language, 5th edition Copyright \u00c2\u00a9 2013 by Houghton Mifflin Harcourt Publishing Company.\n\n250775: During translation, these tRNAs carry amino acids to the ribosome and join with their complementary codons. Then, the assembled amino acids are joined together as the ribosome, with its resident rRNAs, moves along the mRNA molecule in a ratchet-like motion.\n\n6234040: Low back pain is very common. It affects millions of people. In most cases, you don't need surgery for low back pain. But in rare cases, severe back pain can be a sign of cauda equina syndrome (CES), a condition that usually requires urgent surgical treatment.\n\n3986869: 1 A temporary interruption of any function. 2  A hanging from a support, as used in the treatment of spinal curvatures or during the application of a plaster jacket.  Fixation of an organ, such as the uterus, to other tissue for support.\n\n2075095: What are the heart and blood vessels? The heart is a muscular pump that pushes blood through blood vessels around the body. The heart beats continuously, pumping the equivalent of more than 14,000 litres of blood every day. Blood vessels form the living system of tubes that carry blood both to and from the heart.\n\n4298828: With pulmonary hypertension, the rise in blood pressure is caused by changes in the cells that line your pulmonary arteries. These changes can cause the walls of the arteries to become stiff and thick, and extra tissue may form. The blood vessels may also become inflamed and tight.\n\n"
+            ],
+            "responses": [
+                "[7771731, 319964, 8751537, 6098688, 2401495, 250775, 6234040, 3986869, 2075095, 4298828]"
+            ],
+            "curr_top_k_docIDs": [
+                7771731,
+                319964,
+                8751537,
+                6098688,
+                2401495,
+                250775,
+                6234040,
+                3986869,
+                2075095,
+                4298828
+            ],
+            "terminate": true
+        }
+    ]
+}

@@ -1,0 +1,199 @@
+{
+    "queries": [
+        "symptoms of flu a & b in children"
+    ],
+    "retrieved_lists": [
+        [
+            "7548862",
+            "175537",
+            "2069360",
+            "319964",
+            "3916125",
+            "7587261",
+            "5419866",
+            "250775",
+            "4500249",
+            "8416395"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7687093615531921,
+            0.14019280672073364,
+            0.12777894735336304,
+            0.12529030442237854,
+            0.10948556661605835,
+            0.09820540994405746,
+            0.09134349226951599,
+            0.08941549062728882,
+            0.08703173696994781,
+            0.08608874678611755
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: symptoms of flu a & b in children\n\nDocuments:\n\n7548862: A: Symptoms of influenza in children include a high-grade fever, extreme fatigue, a headache, body aches and a dry, hacking cough, according to WebMD. Children with influenza may also experience a sore throat, belly pain, vomiting, and chills and shakes.\n\n175537: A tremor is a repetitive movement of a part of your body. It is involuntary. This means that it is generally not controllable and happens without you deciding to move that body part. It is often felt as a trembling or shaking sensation.\n\n2069360: The Aries zodiac sign is straightforward, aggressive and adventurous and this is reflected in their approach to sex. Expect it to be physical, quick and rough, they like to dominate and have the upper position.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n3916125: MSF Modeling Scanning electron microscopy was used to locate the initiating particle sizes from which fatigue cracks incubated for the ABS copolymer (specimen S5, fatigued at 1 Hz at 0.01 strain amplitude) *Particles responsible of incubation of fatigue cracks for the ABS copolymer were found on or near the free surface of cylindrical dogbone fatigue specimens.\n\n7587261: While weather begins to mellow and the temperatures increase during this time of year, unpredictable weather conditions continue to dominate spring in Olympic. It is not uncommon for snowfall and heavy rain to occur into the month of June in the higher elevations. Springtime temperatures tend to be cool to mild.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n250775: During translation, these tRNAs carry amino acids to the ribosome and join with their complementary codons. Then, the assembled amino acids are joined together as the ribosome, with its resident rRNAs, moves along the mRNA molecule in a ratchet-like motion.\n\n4500249: Levels also rise with use of nicotine replacement products such as nicotine patches and gums. In large amounts, nicotine can be poisonous. Cotinine is usually the test of choice to evaluate tobacco use or exposure to tobacco smoke because it is stable and is only produced when nicotine is metabolized.\n\n8416395: Blue human eye. A phenotypic trait, or simply trait, is a distinct variant of a phenotypic characteristic of an organism that may be inherited, be environmentally determined or be a combination of the two. For example, eye color is a character or abstraction of an attribute, while blue, brown and hazel are traits. phenotypic trait, or simply trait, is a distinct variant of a phenotypic characteristic of an organism that may be inherited, be environmentally determined or be a combination of the two.\n\n"
+    ],
+    "responses": [
+        "[7548862, 175537, 2069360, 319964, 3916125, 7587261, 5419866, 250775, 4500249, 8416395]"
+    ],
+    "curr_top_k_docIDs": [
+        7548862,
+        175537,
+        2069360,
+        319964,
+        3916125,
+        7587261,
+        5419866,
+        250775,
+        4500249,
+        8416395
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "symptoms of flu a & b in children"
+            ]
+        },
+        {
+            "queries": [
+                "symptoms of flu a & b in children"
+            ],
+            "retrieved_lists": [
+                [
+                    "7548862",
+                    "175537",
+                    "2069360",
+                    "319964",
+                    "3916125",
+                    "7587261",
+                    "5419866",
+                    "250775",
+                    "4500249",
+                    "8416395"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7687093615531921,
+                    0.14019280672073364,
+                    0.12777894735336304,
+                    0.12529030442237854,
+                    0.10948556661605835,
+                    0.09820540994405746,
+                    0.09134349226951599,
+                    0.08941549062728882,
+                    0.08703173696994781,
+                    0.08608874678611755
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "symptoms of flu a & b in children"
+            ],
+            "retrieved_lists": [
+                [
+                    "7548862",
+                    "175537",
+                    "2069360",
+                    "319964",
+                    "3916125",
+                    "7587261",
+                    "5419866",
+                    "250775",
+                    "4500249",
+                    "8416395"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7687093615531921,
+                    0.14019280672073364,
+                    0.12777894735336304,
+                    0.12529030442237854,
+                    0.10948556661605835,
+                    0.09820540994405746,
+                    0.09134349226951599,
+                    0.08941549062728882,
+                    0.08703173696994781,
+                    0.08608874678611755
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: symptoms of flu a & b in children\n\nDocuments:\n\n7548862: A: Symptoms of influenza in children include a high-grade fever, extreme fatigue, a headache, body aches and a dry, hacking cough, according to WebMD. Children with influenza may also experience a sore throat, belly pain, vomiting, and chills and shakes.\n\n175537: A tremor is a repetitive movement of a part of your body. It is involuntary. This means that it is generally not controllable and happens without you deciding to move that body part. It is often felt as a trembling or shaking sensation.\n\n2069360: The Aries zodiac sign is straightforward, aggressive and adventurous and this is reflected in their approach to sex. Expect it to be physical, quick and rough, they like to dominate and have the upper position.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n3916125: MSF Modeling Scanning electron microscopy was used to locate the initiating particle sizes from which fatigue cracks incubated for the ABS copolymer (specimen S5, fatigued at 1 Hz at 0.01 strain amplitude) *Particles responsible of incubation of fatigue cracks for the ABS copolymer were found on or near the free surface of cylindrical dogbone fatigue specimens.\n\n7587261: While weather begins to mellow and the temperatures increase during this time of year, unpredictable weather conditions continue to dominate spring in Olympic. It is not uncommon for snowfall and heavy rain to occur into the month of June in the higher elevations. Springtime temperatures tend to be cool to mild.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n250775: During translation, these tRNAs carry amino acids to the ribosome and join with their complementary codons. Then, the assembled amino acids are joined together as the ribosome, with its resident rRNAs, moves along the mRNA molecule in a ratchet-like motion.\n\n4500249: Levels also rise with use of nicotine replacement products such as nicotine patches and gums. In large amounts, nicotine can be poisonous. Cotinine is usually the test of choice to evaluate tobacco use or exposure to tobacco smoke because it is stable and is only produced when nicotine is metabolized.\n\n8416395: Blue human eye. A phenotypic trait, or simply trait, is a distinct variant of a phenotypic characteristic of an organism that may be inherited, be environmentally determined or be a combination of the two. For example, eye color is a character or abstraction of an attribute, while blue, brown and hazel are traits. phenotypic trait, or simply trait, is a distinct variant of a phenotypic characteristic of an organism that may be inherited, be environmentally determined or be a combination of the two.\n\n"
+            ],
+            "responses": [
+                "[7548862, 175537, 2069360, 319964, 3916125, 7587261, 5419866, 250775, 4500249, 8416395]"
+            ],
+            "curr_top_k_docIDs": [
+                7548862,
+                175537,
+                2069360,
+                319964,
+                3916125,
+                7587261,
+                5419866,
+                250775,
+                4500249,
+                8416395
+            ]
+        },
+        {
+            "queries": [
+                "symptoms of flu a & b in children"
+            ],
+            "retrieved_lists": [
+                [
+                    "7548862",
+                    "175537",
+                    "2069360",
+                    "319964",
+                    "3916125",
+                    "7587261",
+                    "5419866",
+                    "250775",
+                    "4500249",
+                    "8416395"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7687093615531921,
+                    0.14019280672073364,
+                    0.12777894735336304,
+                    0.12529030442237854,
+                    0.10948556661605835,
+                    0.09820540994405746,
+                    0.09134349226951599,
+                    0.08941549062728882,
+                    0.08703173696994781,
+                    0.08608874678611755
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: symptoms of flu a & b in children\n\nDocuments:\n\n7548862: A: Symptoms of influenza in children include a high-grade fever, extreme fatigue, a headache, body aches and a dry, hacking cough, according to WebMD. Children with influenza may also experience a sore throat, belly pain, vomiting, and chills and shakes.\n\n175537: A tremor is a repetitive movement of a part of your body. It is involuntary. This means that it is generally not controllable and happens without you deciding to move that body part. It is often felt as a trembling or shaking sensation.\n\n2069360: The Aries zodiac sign is straightforward, aggressive and adventurous and this is reflected in their approach to sex. Expect it to be physical, quick and rough, they like to dominate and have the upper position.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n3916125: MSF Modeling Scanning electron microscopy was used to locate the initiating particle sizes from which fatigue cracks incubated for the ABS copolymer (specimen S5, fatigued at 1 Hz at 0.01 strain amplitude) *Particles responsible of incubation of fatigue cracks for the ABS copolymer were found on or near the free surface of cylindrical dogbone fatigue specimens.\n\n7587261: While weather begins to mellow and the temperatures increase during this time of year, unpredictable weather conditions continue to dominate spring in Olympic. It is not uncommon for snowfall and heavy rain to occur into the month of June in the higher elevations. Springtime temperatures tend to be cool to mild.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n250775: During translation, these tRNAs carry amino acids to the ribosome and join with their complementary codons. Then, the assembled amino acids are joined together as the ribosome, with its resident rRNAs, moves along the mRNA molecule in a ratchet-like motion.\n\n4500249: Levels also rise with use of nicotine replacement products such as nicotine patches and gums. In large amounts, nicotine can be poisonous. Cotinine is usually the test of choice to evaluate tobacco use or exposure to tobacco smoke because it is stable and is only produced when nicotine is metabolized.\n\n8416395: Blue human eye. A phenotypic trait, or simply trait, is a distinct variant of a phenotypic characteristic of an organism that may be inherited, be environmentally determined or be a combination of the two. For example, eye color is a character or abstraction of an attribute, while blue, brown and hazel are traits. phenotypic trait, or simply trait, is a distinct variant of a phenotypic characteristic of an organism that may be inherited, be environmentally determined or be a combination of the two.\n\n"
+            ],
+            "responses": [
+                "[7548862, 175537, 2069360, 319964, 3916125, 7587261, 5419866, 250775, 4500249, 8416395]"
+            ],
+            "curr_top_k_docIDs": [
+                7548862,
+                175537,
+                2069360,
+                319964,
+                3916125,
+                7587261,
+                5419866,
+                250775,
+                4500249,
+                8416395
+            ],
+            "terminate": true
+        }
+    ]
+}
