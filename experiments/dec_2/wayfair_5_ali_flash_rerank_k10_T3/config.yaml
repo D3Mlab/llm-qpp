@@ -16,7 +16,7 @@ agent:
       method: check_max_q_reforms
     - component: Prompter
       method: reform_q_post_retr
-  max_q_reforms: 3 # T, if pre-retrieval reformulation used, num_retrieval_operations = T; else if no pre-retrieval reformulation, num_retrieval_operations = T + 1 
+  max_q_reforms: 3 # T+1, if pre-retrieval reformulation used, num_retrieval_operations = T+1; else if no pre-retrieval reformulation, num_retrieval_operations = T 
 embedding:
   embedder_class: HuggingFaceEmbedder
   model_name: Alibaba-NLP/gte-large-en-v1.5
