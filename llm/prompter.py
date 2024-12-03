@@ -42,7 +42,7 @@ class Prompter():
         #rerank these 2xK docs to a list of length K
 
         curr_top_k_docIDs = state.get("curr_top_k_docIDs", [])
-        last_k_retrieved_docIDs = state["retrieved_docIDs"][-1]
+        last_k_retrieved_docIDs = state["retrieved_lists"][-1]
         doc_ids = curr_top_k_docIDs + last_k_retrieved_docIDs
 
         k = self.config['knn'].get('k')
@@ -60,7 +60,7 @@ class Prompter():
 
         template_dir = self.template_config["reranking"]
         prompt = self.render_prompt(prompt_dict, template_dir)
-        self.logger.debug(f"reranking prompt: {prompt}")
+        #self.logger.debug(f"reranking prompt: {prompt}")
         llm_output = self.llm.prompt(prompt)["message"]
         
         # Parse the LLM output
@@ -86,7 +86,7 @@ class Prompter():
 
         template_dir = self.template_config["termination"]
         prompt = self.render_prompt(prompt_dict, template_dir)
-        self.logger.debug(f"termination prompt: {prompt}")
+        #self.logger.debug(f"termination prompt: {prompt}")
         llm_output = self.llm.prompt(prompt)["message"]
         
         # Process Yes/No termination decision from LLM output
@@ -121,7 +121,7 @@ class Prompter():
 
         template_dir = self.template_config["post_retrieval_reformulation"]
         prompt = self.render_prompt(prompt_dict, template_dir)
-        self.logger.debug(f"post-retrieval reformulation prompt: {prompt}")
+        #self.logger.debug(f"post-retrieval reformulation prompt: {prompt}")
         llm_output = self.llm.prompt(prompt)["message"]
         
         state["queries"].append(llm_output)

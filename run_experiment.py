@@ -7,6 +7,6 @@ if __name__ == "__main__":
     # Load the .env file
     load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '.env'))
 
-    exp_dir = "experiments/nov_18_setup/trial6_dense_only"
+    exp_dir = "experiments/nov_18_setup/trial5_pipeline"
     experiment_manager = ExperimentManager()
     experiment_manager.run_experiment(exp_dir)
