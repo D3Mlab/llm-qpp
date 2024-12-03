@@ -53,6 +53,7 @@ class EvalManager():
         self.all_query_eval_results = {}
 
         for query_dir in results_dir.iterdir():
+            print("QUERY DIR", query_dir)
             if query_dir.is_dir():
                 self.evaluate_single_query(query_dir, selected_measures)
 
@@ -75,15 +76,19 @@ class EvalManager():
 
         # Parse deduplicated TREC results
         results = pytrec_eval.parse_run(deduped_lines)
+        print("RESULTS", results)
 
         # Evaluate using pytrec_eval
         evaluator = pytrec_eval.RelevanceEvaluator(self.load_qrels(), selected_measures)
         per_query_eval_results = evaluator.evaluate(results)
+        print("PER QUERY EVAL RESULTS", per_query_eval_results)
 
         # Write per-query evaluation results to JSONL
         self.write_jsonl(eval_results_path, per_query_eval_results)
 
         # Store results for calculating averages and confidence intervals
+        print("QUERY DIR NAME", query_dir.name)
+        print("PER QUERY EVAL RESULTS", per_query_eval_results)
         self.all_query_eval_results[query_dir.name] = per_query_eval_results[query_dir.name]
 
     def load_qrels(self):
