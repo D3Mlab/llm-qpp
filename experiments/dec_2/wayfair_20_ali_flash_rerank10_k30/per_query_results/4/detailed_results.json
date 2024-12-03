@@ -1,0 +1,359 @@
+{
+    "queries": [
+        "chair and a half recliner"
+    ],
+    "retrieved_lists": [
+        [
+            "23199",
+            "30255",
+            "17196",
+            "1073",
+            "17222",
+            "29994",
+            "42654",
+            "2656",
+            "3087",
+            "24877",
+            "40172",
+            "24881",
+            "31476",
+            "24889",
+            "24878",
+            "8831",
+            "31234",
+            "16790",
+            "20495",
+            "22558",
+            "35810",
+            "1526",
+            "16198",
+            "7727",
+            "18982",
+            "42393",
+            "14641",
+            "1953",
+            "31241",
+            "15437"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7652522325515747,
+            0.7641057968139648,
+            0.7610530257225037,
+            0.7591243386268616,
+            0.7583720684051514,
+            0.7583678960800171,
+            0.7574950456619263,
+            0.7571567893028259,
+            0.7571278810501099,
+            0.7547810077667236,
+            0.7544696927070618,
+            0.7542716264724731,
+            0.7520197033882141,
+            0.7517346143722534,
+            0.7498635053634644,
+            0.7492673397064209,
+            0.7492073178291321,
+            0.747366726398468,
+            0.7473174333572388,
+            0.7468568086624146,
+            0.7463219165802002,
+            0.7463015913963318,
+            0.7458610534667969,
+            0.7458080053329468,
+            0.7456179857254028,
+            0.7453750967979431,
+            0.7448662519454956,
+            0.7448433637619019,
+            0.744586706161499,
+            0.7443770170211792
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: chair and a half recliner\n\nDocuments:\n\n23199: 40 '' wide manual standard recliner. accent your living space or home theater in a casual , comfortable style with this reclining chair . this design features a tall , tight back with a defined headrest that cradles you in comfort . a tight seat cushion is an ideal place to rest and will retain its shape over time . lofty pad arms frame the piece and add even more comfort to this already plush frame . vertical seaming on the seat back and front rail lend a subtly tailored appearance , and the piece fully reclines for even more versatility . it rests on a base with no visible feet , giving it a low-profile silhouette . pair it with the coordinating reclining sofa or reclining console loveseat to complete the collection .\n\n30255: theodore 22.5 '' wide power glider standard recliner. this swivel recliner creates the ideal seat to kick back and catch up on your favorite shows . it 's built with a solid and engineered wood frame and features a bucket-like silhouette with curved arms . the swivel base allows you to turn a full 360\u00b0 , so you can easily spin out of conversations and towards the snack table . the polyester upholstery is filled with foam and has a spring seat construction for just the right amount of support as you sit . this power recliner is operated by a push button so you can effortlessly adjust from seating to napping .\n\n17196: routt 25.2 '' wide manual home theater recliner. offer your room an exceptional design and bring excellent comfort and a classic look . this recliner is the best choice to unwind and relax your body . this recliner is perfect for any place , including office , home theater , cozy living room , bedroom , rec room , dining establishment , or study . just simply push back and recline , you can enjoy the comfortable long-term sitting , tv viewing , or relax your body . conforming to the ergonomic principle , the recliner supports your neck , arm , back , and legs at the correct angle so as to offer utmost comfort . built on a sturdy frame and made of soft fabric and high-density foam , this recliner is built to last , withstand up to 275 lbs . a clean styling design offers a generous seat size and comfort . easy to assemble according to the instruction .\n\n1073: pakswith 40.55 '' wide top grain leather chair and a half. the perfect perch for your teen to get cozy while catching up on some summer reading or working on homework , this chair and a half is a must-have for your abode . crafted from a blend of solid and manufactured wood , the frame strikes a clean-lined silhouette for a dash of what \u2019 s modern , and features foam-filled genuine leather upholstery . boasting hues of black , chocolate , and beige , it complements a variety of design aesthetics from classic to industrial and more .\n\n17222: ingmari 35 '' wide manual glider standard recliner. the motion recliner has a soft linen upholstered seat and back , it provides you a relaxed leisure time . you can put the chair backward to lay down as a small bed . this recliner is ideal for any room where relaxation is the order , like the den , media room , or man cave .\n\n29994: aiken 34 '' wide faux leather power wall hugger standard recliner. the power motion recliner is the comfort you have been searching for . this chair features soft faux leather fabric and a power motion recline . if you are looking for a recliner that can save you some space , this is for you . which makes it perfect for small living spaces . also , the two-button operating system makes confirms this recliner is effortless to use . with its channel tufting back design and plush arms , just picture yourself enjoying your favorite television show in ultimate comfort . the transitional design of this recliner is sure to become the best seat in the house .\n\n42654: kai 36 '' wide manual standard recliner. this product is a single-seat recliner made for full-body support providing a weightless feel and total relaxation . featuring solid structure , dream coils\u00ae , and fine stitched tufted black or java faux leather , this great recliner is very durable and easy to clean . its manual pull handle gives a smooth , quiet , and effortless recline as you sit back and relax in style and ultimate comfort . the kai recliner is fitted with a padded cushion and back in high-density foam providing exceptional support . the engineered wooden frame sets the structure where design and elegance come together . built with longevity in mind , this must-have piece has been designed to help reduce stress on the spine providing proper body alignment . marring simplicity and style , the kai is ready for many years of enjoyment in your home .\n\n2656: daryana 26.5 '' wide manual rocker standard recliner. the faux leather recliner chair is a perfect piece for any room in your home . this chair exudes luxury and comfort when both backward and in the reclining position while the smooth bonded faux leather adds sophistication , giving you style with no cost to relaxation potential . the wing-back swivel recliner chair with faux leather is ideal for any casual or professional working area , living room , executive lounge , and even in the lobby . it provides comfortable support with a comfortable and convenient design . this chair can recline and features a 360-degree swivel , so you can sit upright to work , lounge back to read or watch tv , or simply take a nap in the afternoon sun .\n\n3087: chillicothe 32.5 '' wide manual rocker standard recliner. a slight back edge flare adds a playful modern accent to this charming product delivers comfort , making it an ideal addition to any room of the home . plush foam cushioning and a 360\u00e2\u00b0 swivel base function as a useful accent chair and a manual latch is within easy reach when it 's time to kick back and relax . the smooth reclining action moves the back and footrest incrementally in tandem , preventing the need to adjust each component separately . the 360\u00e2\u00b0 swivel base is ring-shaped for stability and wo n't lock or jam , allowing free and easy movement .\n\n24877: hermogenes 32 '' wide velvet manual standard recliner. the recliner offers comfort , style , and value for any home . reflects sleek styling , cozy seating and smooth upholstery provide relaxation from seat to toe with an easy-to-reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap , or read a book .\n\n40172: vondrus 32.75 '' wide manual rocker standard recliner. this eglinton 32.75 '' wide manual rocker standard recliner has covered sports in a modern style that will update your home . this comfortable chair allows you the option to either recline back to relax or to rock away your stress while reading or watching television . this chair provides padding in all the right places for ultimate comfort . perfect for living rooms , bedrooms , theater rooms , and media rooms . covered durable , easy clean suede-like fabric . firmly padded armrests add to the comfort but also allow for a stable grip . full chaise pad between the chair and the leg rest to support the legs for a truly comfortable recliner . convenient side handles to recline . cushions are filled with high-density foam , polyester fiber , and an independently wrapped pocketed coil spring system for a custom sit . constructed with a mixed hardwood frame . sturdy spring seating . steel reclining mechanism . insulated spring clips for noise reduction . imported , color may vary .\n\n24881: darnelle 38 '' wide manual ergonomic recliner. the recliner offers comfort , style , and value for any home . reflects sleek styling , cozy seating and smooth polished microfiber upholstery provides relaxation from seat to toe with an easy to reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap , or read a book . it 's available in 5 different finishes .\n\n31476: sanner 55 '' wide power standard recliner. a cozy spot to binge watch sitcoms and catch up on some reading , this recliner is a must-have for any living area . the seat of this recliner , measuring 34 '' wide , offers space for one person to sprawl out or two to snuggle up . lightly weathered polyester blend upholstery provides the appeal of leather and gives this recliner a well-worn , inviting look . pillowy rolled arms and nailhead trim complete the design with a nod to traditional style . this armchair can be ordered with a manual or power reclining mechanism .\n\n24889: dittmyre 38.6 '' wide manual standard recliner. expertly crafted for style , this lift chair can be used in the home , recreation room , and other business places for its sleek and sophisticated look . have it right away , enjoy your favorite entertainment more , and fully relax your body and mood . upholstered in soft and yarn-dyed fabric and filled with high-density sponge , this chair features an overstuffed back , thick cushions , and yarn-dyed upholstery , offering you more comfort than expected . extending footrest and reclining features allows you to fully stretch and relax , ideal for watching tv , movie , sleeping , and reading .\n\n24878: arife 32 '' wide manual standard recliner. the recliner offers comfort , style and value for any home . reflects sleek styling , cozy seating and smooth upholstery provides relaxation from seat to toe with an easy to reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap or read a book .\n\n8831: dazhane 32 '' wide manual standard recliner. this product offers comfort , style , and value for any home . reflects sleek styling , cozy seating and smooth upholstery provide relaxation from seat to toe with an easy-to-reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap , or read a book .\n\n31234: staciee 38 '' wide faux leather power home theater recliner. after a long day at work or running errands , you deserve to relax , so why not sit back in this reclining armchair to destress in style . a versatile design that can blend in with a variety of ensembles , it showcases a clean-lined frame with polyester upholstery and boxy arms . beyond the reclining design and rising footrest , it features a push-button storage in the arms , a usb port , and a handy swiveling tray table that stashes in an arms storage area when not in use .\n\n16790: minogue 32 '' wide power lift assist standard recliner. this recliner allows you to rise out of your seat with ease while providing padding in all the right places for added comfort . the infinite position recliner transitions between reclining , sitting and lifting and can stop at any position in-between with the easy to use wired attached remote . perfect for living rooms , bedrooms , theater rooms and media rooms . features round arms , tufted back cushion , and an attached headrest pillow to provide comfort and added style . firmly padded armrests add to the comfort but also allow for a stable grip . full chaise pad between the chair and the leg rest to support the legs for a truly comfortable recliner . ul approved , easy-to-use wired controller . features a backup to protect against power outages that will return you to the upright position . euro firm cushions are filled with high-density foam , polyester fiber and an independently wrapped pocketed coil spring system for a firm custom sit . insulated spring clips for noise reduction . backup 9-volt batteries not included .\n\n20495: lieb 47 '' wide manual standard recliner. kick back and relax in this med-century-modern-inspired manual recliner ! striking a chair-and-a-half silhouette , this dapper design is founded on a solid and manufactured wood frame with a wide , gently slanted backrest , tuxedo arms , and a hidden metal base . brushed polyester upholstery envelops each seat , accented by button tufting and piped edging for a tailored touch , while thick padding provides comfortable support . a quick pull of the side lever reclines the chair , flipping up a footrest so you can relax solo or with your significant other .\n\n22558: toyei 26.5 '' wide manual standard recliner with massager. their charming recliner club chair offers impressive comfort while maximizing your living space with its petite design . the recliner has an ergonomic design , product engineering , and uncompromising quality . this chair gives you the ultimate relaxation . made from the highest quality fabric over a sturdy construction , this is a piece that will last you for years to come . simply push back to recline , no levers or buttons required . comfortable seat and back support for long-term sitting , tv viewing , or a relaxed recline . clean styling offers a generous seat size and comfort . great for living room , media , and master bedrooms .\n\n35810: rio leather side chair. incorporating quintessential mid-century design with elements of rustic modern style . this collection is the perfect size for your space , featuring a high-density cushion seat , thick , pu cover , the chair is soft and supportive , helping to relieve stress and fatigue after a long day . the piece makes the perfect accompaniment to any dining room , breakfast , vanity , or office desk . although it 's standard dining measurement , the piece \u2019 s light . the chairs have built-in foot pads to prevent legs from scratching the floor and can be slightly adjusted for optimal balance .\n\n1526: kalgoorlie 34 '' wide manual club recliner. beautifully designed , this recliner chair makes a stunning statement in any room . the recliner chair features a high camelback and rolled arms in gray upholstery with an elegant fretwork print , for a chic transitional look . solid wood legs display finish creating a rich contrast that complements the design , while a removable cushion provides exceptional comfort . with an elegant silhouette , this recliner chair offers a luxurious and fashionable update to your home decor .\n\n16198: jarra 35 '' wide faux leather manual standard recliner. this 360-degree swivel recliner is the perfect addition to any room in your home . padded with high-density sponge , it provides extraordinary comfort ? you can sit upright to work , lounge back to read or watch tv , or simply take a nap in the afternoon sun.the rolled arm style and hand stitched details provides a modern , clean look . the swivel , gliding , and reclining features ensure unmatched comfort for relaxation .\n\n7727: arzoi 34.5 '' wide power lift assist standard recliner. this traditional lift chair provides comfortable seating and assistance for those who may need a little help getting out of their seat . the three positions , all-electric recliner provides lift , sit or recline functionality with just the push of a button . just stop the recliner in the position that you find most comfortable . features include a sturdy wood frame with a heavy-duty steel mechanism to support up to 330 lbs . upholstered in an easy to care for 100 % polyester fabric . simple assembly will have this chair ready for use in minutes . simply attach the back and plugin and you are ready to relax . the side pocket keeps the remote at hand so sit back , relax and enjoy !\n\n18982: abdelkarim 32 '' wide power lift assist standard recliner. expertly crafted for style , this power lift chair can be used in the home , recreation room , and other business places for its sleek and sophisticated look . have it right away , enjoy your favorite entertainment more , and fully relax your body and mood . upholstered in soft and comfy leather and filled with high-density sponge , this chair features overstuffed back , thick cushions , and faux leather upholstery , offering you more comfort than expected . extending footrest and reclining features allows you to fully stretch and relax , ideal for watching tv , movie , sleeping , and reading .\n\n42393: alday 35 '' wide manual wall hugger standard recliner. recliners invite you to relax with your favorite novel or sit back and watch the big game , and this polyester-upholstered design is no exception . its hardwood frames pair with a cushion back and pillow-top arms for a sturdy yet comfortable form . looking to flesh out your living room seating group in a contemporary style ? pair this piece with a streamlined and tufted sofa , then anchor the arrangement with an understated coffee table topped with planted succulents for a botanical accent . with its retractable footrest and solid color pattern , this comfy and handsome recliner is a must-have addition to your furniture arrangement .\n\n14641: goodrow 25 '' wide manual glider club recliner. create a corner of utmost coziness starting from this push-back recliner that features both gliding and swivel functions . from its tufted design to its plush seating , this contemporary piece brings both elegance and comfort to your home . the recliner \u2019 s many functions allow this chair to be extremely versatile , ranging from a perfect nursery recliner to the ideal place to relax in your living room . with its minimalistic style and soft colors , this practical recliner will blend seamlessly with any home d\u00e9cor .\n\n1953: leni 33.5 '' wide manual standard recliner. every household has a designated remote control holder . whether in the man cave or living room , this person needs a throne . this reclining armchair is here to help . crafted from wood , it showcases turned detailing on all four legs , while a dark espresso finish adds statement-making appeal to your seating ensemble . polyester fiber and foam filling with sinuous springs for added comfort . simply push back to recline : no levers or buttons are required for comfortable long-term sitting , tv viewing , or a relaxed recline .\n\n31241: claredon 33 '' wide power wall hugger standard recliner with massager. after work , after the errands , after the everyday tasks that fill up our schedule , there \u2019 s no better destination than this cozy recliner . a high back and curved arms give this piece its modern look , while genuine leather upholstery , complete with subtle stitching , rounds out the design with a touch of class . with the help of a push-button , this chair features customizable reclining positions up to 170\u00b0 . sturdy , too , this recliner is supported by a reinforced solid wood frame and a heavy-duty steel rail system . plus , a usb charging port is built right in !\n\n15437: pham 25.1 '' wide faux leather power lift assist standard recliner. this power lift assist recliner is a must-have addition to your living room to elevate your tv watching or daytime napping experience . it 's built on a solid wood frame and is upholstered in faux leather with a memory foam fill for just the right amount of support as you sit . to recline the chair partially or all the way , simply just push the buttons on the remote . plus , this chair features lift assist technology that helps to make getting out of the chair a little easier . two wheels on the base allow you to move the recliner without needing to lift it up .\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\"1073\", \"20495\", \"31476\", \"15437\", \"16790\", \"18982\", \"7727\", \"31241\", \"29994\", \"17196\"]\nprint(doc_ids)\n\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "1073",
+        "20495",
+        "31476",
+        "15437",
+        "16790",
+        "18982",
+        "7727",
+        "31241",
+        "29994",
+        "17196"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "chair and a half recliner"
+            ]
+        },
+        {
+            "queries": [
+                "chair and a half recliner"
+            ],
+            "retrieved_lists": [
+                [
+                    "23199",
+                    "30255",
+                    "17196",
+                    "1073",
+                    "17222",
+                    "29994",
+                    "42654",
+                    "2656",
+                    "3087",
+                    "24877",
+                    "40172",
+                    "24881",
+                    "31476",
+                    "24889",
+                    "24878",
+                    "8831",
+                    "31234",
+                    "16790",
+                    "20495",
+                    "22558",
+                    "35810",
+                    "1526",
+                    "16198",
+                    "7727",
+                    "18982",
+                    "42393",
+                    "14641",
+                    "1953",
+                    "31241",
+                    "15437"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7652522325515747,
+                    0.7641057968139648,
+                    0.7610530257225037,
+                    0.7591243386268616,
+                    0.7583720684051514,
+                    0.7583678960800171,
+                    0.7574950456619263,
+                    0.7571567893028259,
+                    0.7571278810501099,
+                    0.7547810077667236,
+                    0.7544696927070618,
+                    0.7542716264724731,
+                    0.7520197033882141,
+                    0.7517346143722534,
+                    0.7498635053634644,
+                    0.7492673397064209,
+                    0.7492073178291321,
+                    0.747366726398468,
+                    0.7473174333572388,
+                    0.7468568086624146,
+                    0.7463219165802002,
+                    0.7463015913963318,
+                    0.7458610534667969,
+                    0.7458080053329468,
+                    0.7456179857254028,
+                    0.7453750967979431,
+                    0.7448662519454956,
+                    0.7448433637619019,
+                    0.744586706161499,
+                    0.7443770170211792
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "chair and a half recliner"
+            ],
+            "retrieved_lists": [
+                [
+                    "23199",
+                    "30255",
+                    "17196",
+                    "1073",
+                    "17222",
+                    "29994",
+                    "42654",
+                    "2656",
+                    "3087",
+                    "24877",
+                    "40172",
+                    "24881",
+                    "31476",
+                    "24889",
+                    "24878",
+                    "8831",
+                    "31234",
+                    "16790",
+                    "20495",
+                    "22558",
+                    "35810",
+                    "1526",
+                    "16198",
+                    "7727",
+                    "18982",
+                    "42393",
+                    "14641",
+                    "1953",
+                    "31241",
+                    "15437"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7652522325515747,
+                    0.7641057968139648,
+                    0.7610530257225037,
+                    0.7591243386268616,
+                    0.7583720684051514,
+                    0.7583678960800171,
+                    0.7574950456619263,
+                    0.7571567893028259,
+                    0.7571278810501099,
+                    0.7547810077667236,
+                    0.7544696927070618,
+                    0.7542716264724731,
+                    0.7520197033882141,
+                    0.7517346143722534,
+                    0.7498635053634644,
+                    0.7492673397064209,
+                    0.7492073178291321,
+                    0.747366726398468,
+                    0.7473174333572388,
+                    0.7468568086624146,
+                    0.7463219165802002,
+                    0.7463015913963318,
+                    0.7458610534667969,
+                    0.7458080053329468,
+                    0.7456179857254028,
+                    0.7453750967979431,
+                    0.7448662519454956,
+                    0.7448433637619019,
+                    0.744586706161499,
+                    0.7443770170211792
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: chair and a half recliner\n\nDocuments:\n\n23199: 40 '' wide manual standard recliner. accent your living space or home theater in a casual , comfortable style with this reclining chair . this design features a tall , tight back with a defined headrest that cradles you in comfort . a tight seat cushion is an ideal place to rest and will retain its shape over time . lofty pad arms frame the piece and add even more comfort to this already plush frame . vertical seaming on the seat back and front rail lend a subtly tailored appearance , and the piece fully reclines for even more versatility . it rests on a base with no visible feet , giving it a low-profile silhouette . pair it with the coordinating reclining sofa or reclining console loveseat to complete the collection .\n\n30255: theodore 22.5 '' wide power glider standard recliner. this swivel recliner creates the ideal seat to kick back and catch up on your favorite shows . it 's built with a solid and engineered wood frame and features a bucket-like silhouette with curved arms . the swivel base allows you to turn a full 360\u00b0 , so you can easily spin out of conversations and towards the snack table . the polyester upholstery is filled with foam and has a spring seat construction for just the right amount of support as you sit . this power recliner is operated by a push button so you can effortlessly adjust from seating to napping .\n\n17196: routt 25.2 '' wide manual home theater recliner. offer your room an exceptional design and bring excellent comfort and a classic look . this recliner is the best choice to unwind and relax your body . this recliner is perfect for any place , including office , home theater , cozy living room , bedroom , rec room , dining establishment , or study . just simply push back and recline , you can enjoy the comfortable long-term sitting , tv viewing , or relax your body . conforming to the ergonomic principle , the recliner supports your neck , arm , back , and legs at the correct angle so as to offer utmost comfort . built on a sturdy frame and made of soft fabric and high-density foam , this recliner is built to last , withstand up to 275 lbs . a clean styling design offers a generous seat size and comfort . easy to assemble according to the instruction .\n\n1073: pakswith 40.55 '' wide top grain leather chair and a half. the perfect perch for your teen to get cozy while catching up on some summer reading or working on homework , this chair and a half is a must-have for your abode . crafted from a blend of solid and manufactured wood , the frame strikes a clean-lined silhouette for a dash of what \u2019 s modern , and features foam-filled genuine leather upholstery . boasting hues of black , chocolate , and beige , it complements a variety of design aesthetics from classic to industrial and more .\n\n17222: ingmari 35 '' wide manual glider standard recliner. the motion recliner has a soft linen upholstered seat and back , it provides you a relaxed leisure time . you can put the chair backward to lay down as a small bed . this recliner is ideal for any room where relaxation is the order , like the den , media room , or man cave .\n\n29994: aiken 34 '' wide faux leather power wall hugger standard recliner. the power motion recliner is the comfort you have been searching for . this chair features soft faux leather fabric and a power motion recline . if you are looking for a recliner that can save you some space , this is for you . which makes it perfect for small living spaces . also , the two-button operating system makes confirms this recliner is effortless to use . with its channel tufting back design and plush arms , just picture yourself enjoying your favorite television show in ultimate comfort . the transitional design of this recliner is sure to become the best seat in the house .\n\n42654: kai 36 '' wide manual standard recliner. this product is a single-seat recliner made for full-body support providing a weightless feel and total relaxation . featuring solid structure , dream coils\u00ae , and fine stitched tufted black or java faux leather , this great recliner is very durable and easy to clean . its manual pull handle gives a smooth , quiet , and effortless recline as you sit back and relax in style and ultimate comfort . the kai recliner is fitted with a padded cushion and back in high-density foam providing exceptional support . the engineered wooden frame sets the structure where design and elegance come together . built with longevity in mind , this must-have piece has been designed to help reduce stress on the spine providing proper body alignment . marring simplicity and style , the kai is ready for many years of enjoyment in your home .\n\n2656: daryana 26.5 '' wide manual rocker standard recliner. the faux leather recliner chair is a perfect piece for any room in your home . this chair exudes luxury and comfort when both backward and in the reclining position while the smooth bonded faux leather adds sophistication , giving you style with no cost to relaxation potential . the wing-back swivel recliner chair with faux leather is ideal for any casual or professional working area , living room , executive lounge , and even in the lobby . it provides comfortable support with a comfortable and convenient design . this chair can recline and features a 360-degree swivel , so you can sit upright to work , lounge back to read or watch tv , or simply take a nap in the afternoon sun .\n\n3087: chillicothe 32.5 '' wide manual rocker standard recliner. a slight back edge flare adds a playful modern accent to this charming product delivers comfort , making it an ideal addition to any room of the home . plush foam cushioning and a 360\u00e2\u00b0 swivel base function as a useful accent chair and a manual latch is within easy reach when it 's time to kick back and relax . the smooth reclining action moves the back and footrest incrementally in tandem , preventing the need to adjust each component separately . the 360\u00e2\u00b0 swivel base is ring-shaped for stability and wo n't lock or jam , allowing free and easy movement .\n\n24877: hermogenes 32 '' wide velvet manual standard recliner. the recliner offers comfort , style , and value for any home . reflects sleek styling , cozy seating and smooth upholstery provide relaxation from seat to toe with an easy-to-reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap , or read a book .\n\n40172: vondrus 32.75 '' wide manual rocker standard recliner. this eglinton 32.75 '' wide manual rocker standard recliner has covered sports in a modern style that will update your home . this comfortable chair allows you the option to either recline back to relax or to rock away your stress while reading or watching television . this chair provides padding in all the right places for ultimate comfort . perfect for living rooms , bedrooms , theater rooms , and media rooms . covered durable , easy clean suede-like fabric . firmly padded armrests add to the comfort but also allow for a stable grip . full chaise pad between the chair and the leg rest to support the legs for a truly comfortable recliner . convenient side handles to recline . cushions are filled with high-density foam , polyester fiber , and an independently wrapped pocketed coil spring system for a custom sit . constructed with a mixed hardwood frame . sturdy spring seating . steel reclining mechanism . insulated spring clips for noise reduction . imported , color may vary .\n\n24881: darnelle 38 '' wide manual ergonomic recliner. the recliner offers comfort , style , and value for any home . reflects sleek styling , cozy seating and smooth polished microfiber upholstery provides relaxation from seat to toe with an easy to reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap , or read a book . it 's available in 5 different finishes .\n\n31476: sanner 55 '' wide power standard recliner. a cozy spot to binge watch sitcoms and catch up on some reading , this recliner is a must-have for any living area . the seat of this recliner , measuring 34 '' wide , offers space for one person to sprawl out or two to snuggle up . lightly weathered polyester blend upholstery provides the appeal of leather and gives this recliner a well-worn , inviting look . pillowy rolled arms and nailhead trim complete the design with a nod to traditional style . this armchair can be ordered with a manual or power reclining mechanism .\n\n24889: dittmyre 38.6 '' wide manual standard recliner. expertly crafted for style , this lift chair can be used in the home , recreation room , and other business places for its sleek and sophisticated look . have it right away , enjoy your favorite entertainment more , and fully relax your body and mood . upholstered in soft and yarn-dyed fabric and filled with high-density sponge , this chair features an overstuffed back , thick cushions , and yarn-dyed upholstery , offering you more comfort than expected . extending footrest and reclining features allows you to fully stretch and relax , ideal for watching tv , movie , sleeping , and reading .\n\n24878: arife 32 '' wide manual standard recliner. the recliner offers comfort , style and value for any home . reflects sleek styling , cozy seating and smooth upholstery provides relaxation from seat to toe with an easy to reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap or read a book .\n\n8831: dazhane 32 '' wide manual standard recliner. this product offers comfort , style , and value for any home . reflects sleek styling , cozy seating and smooth upholstery provide relaxation from seat to toe with an easy-to-reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap , or read a book .\n\n31234: staciee 38 '' wide faux leather power home theater recliner. after a long day at work or running errands , you deserve to relax , so why not sit back in this reclining armchair to destress in style . a versatile design that can blend in with a variety of ensembles , it showcases a clean-lined frame with polyester upholstery and boxy arms . beyond the reclining design and rising footrest , it features a push-button storage in the arms , a usb port , and a handy swiveling tray table that stashes in an arms storage area when not in use .\n\n16790: minogue 32 '' wide power lift assist standard recliner. this recliner allows you to rise out of your seat with ease while providing padding in all the right places for added comfort . the infinite position recliner transitions between reclining , sitting and lifting and can stop at any position in-between with the easy to use wired attached remote . perfect for living rooms , bedrooms , theater rooms and media rooms . features round arms , tufted back cushion , and an attached headrest pillow to provide comfort and added style . firmly padded armrests add to the comfort but also allow for a stable grip . full chaise pad between the chair and the leg rest to support the legs for a truly comfortable recliner . ul approved , easy-to-use wired controller . features a backup to protect against power outages that will return you to the upright position . euro firm cushions are filled with high-density foam , polyester fiber and an independently wrapped pocketed coil spring system for a firm custom sit . insulated spring clips for noise reduction . backup 9-volt batteries not included .\n\n20495: lieb 47 '' wide manual standard recliner. kick back and relax in this med-century-modern-inspired manual recliner ! striking a chair-and-a-half silhouette , this dapper design is founded on a solid and manufactured wood frame with a wide , gently slanted backrest , tuxedo arms , and a hidden metal base . brushed polyester upholstery envelops each seat , accented by button tufting and piped edging for a tailored touch , while thick padding provides comfortable support . a quick pull of the side lever reclines the chair , flipping up a footrest so you can relax solo or with your significant other .\n\n22558: toyei 26.5 '' wide manual standard recliner with massager. their charming recliner club chair offers impressive comfort while maximizing your living space with its petite design . the recliner has an ergonomic design , product engineering , and uncompromising quality . this chair gives you the ultimate relaxation . made from the highest quality fabric over a sturdy construction , this is a piece that will last you for years to come . simply push back to recline , no levers or buttons required . comfortable seat and back support for long-term sitting , tv viewing , or a relaxed recline . clean styling offers a generous seat size and comfort . great for living room , media , and master bedrooms .\n\n35810: rio leather side chair. incorporating quintessential mid-century design with elements of rustic modern style . this collection is the perfect size for your space , featuring a high-density cushion seat , thick , pu cover , the chair is soft and supportive , helping to relieve stress and fatigue after a long day . the piece makes the perfect accompaniment to any dining room , breakfast , vanity , or office desk . although it 's standard dining measurement , the piece \u2019 s light . the chairs have built-in foot pads to prevent legs from scratching the floor and can be slightly adjusted for optimal balance .\n\n1526: kalgoorlie 34 '' wide manual club recliner. beautifully designed , this recliner chair makes a stunning statement in any room . the recliner chair features a high camelback and rolled arms in gray upholstery with an elegant fretwork print , for a chic transitional look . solid wood legs display finish creating a rich contrast that complements the design , while a removable cushion provides exceptional comfort . with an elegant silhouette , this recliner chair offers a luxurious and fashionable update to your home decor .\n\n16198: jarra 35 '' wide faux leather manual standard recliner. this 360-degree swivel recliner is the perfect addition to any room in your home . padded with high-density sponge , it provides extraordinary comfort ? you can sit upright to work , lounge back to read or watch tv , or simply take a nap in the afternoon sun.the rolled arm style and hand stitched details provides a modern , clean look . the swivel , gliding , and reclining features ensure unmatched comfort for relaxation .\n\n7727: arzoi 34.5 '' wide power lift assist standard recliner. this traditional lift chair provides comfortable seating and assistance for those who may need a little help getting out of their seat . the three positions , all-electric recliner provides lift , sit or recline functionality with just the push of a button . just stop the recliner in the position that you find most comfortable . features include a sturdy wood frame with a heavy-duty steel mechanism to support up to 330 lbs . upholstered in an easy to care for 100 % polyester fabric . simple assembly will have this chair ready for use in minutes . simply attach the back and plugin and you are ready to relax . the side pocket keeps the remote at hand so sit back , relax and enjoy !\n\n18982: abdelkarim 32 '' wide power lift assist standard recliner. expertly crafted for style , this power lift chair can be used in the home , recreation room , and other business places for its sleek and sophisticated look . have it right away , enjoy your favorite entertainment more , and fully relax your body and mood . upholstered in soft and comfy leather and filled with high-density sponge , this chair features overstuffed back , thick cushions , and faux leather upholstery , offering you more comfort than expected . extending footrest and reclining features allows you to fully stretch and relax , ideal for watching tv , movie , sleeping , and reading .\n\n42393: alday 35 '' wide manual wall hugger standard recliner. recliners invite you to relax with your favorite novel or sit back and watch the big game , and this polyester-upholstered design is no exception . its hardwood frames pair with a cushion back and pillow-top arms for a sturdy yet comfortable form . looking to flesh out your living room seating group in a contemporary style ? pair this piece with a streamlined and tufted sofa , then anchor the arrangement with an understated coffee table topped with planted succulents for a botanical accent . with its retractable footrest and solid color pattern , this comfy and handsome recliner is a must-have addition to your furniture arrangement .\n\n14641: goodrow 25 '' wide manual glider club recliner. create a corner of utmost coziness starting from this push-back recliner that features both gliding and swivel functions . from its tufted design to its plush seating , this contemporary piece brings both elegance and comfort to your home . the recliner \u2019 s many functions allow this chair to be extremely versatile , ranging from a perfect nursery recliner to the ideal place to relax in your living room . with its minimalistic style and soft colors , this practical recliner will blend seamlessly with any home d\u00e9cor .\n\n1953: leni 33.5 '' wide manual standard recliner. every household has a designated remote control holder . whether in the man cave or living room , this person needs a throne . this reclining armchair is here to help . crafted from wood , it showcases turned detailing on all four legs , while a dark espresso finish adds statement-making appeal to your seating ensemble . polyester fiber and foam filling with sinuous springs for added comfort . simply push back to recline : no levers or buttons are required for comfortable long-term sitting , tv viewing , or a relaxed recline .\n\n31241: claredon 33 '' wide power wall hugger standard recliner with massager. after work , after the errands , after the everyday tasks that fill up our schedule , there \u2019 s no better destination than this cozy recliner . a high back and curved arms give this piece its modern look , while genuine leather upholstery , complete with subtle stitching , rounds out the design with a touch of class . with the help of a push-button , this chair features customizable reclining positions up to 170\u00b0 . sturdy , too , this recliner is supported by a reinforced solid wood frame and a heavy-duty steel rail system . plus , a usb charging port is built right in !\n\n15437: pham 25.1 '' wide faux leather power lift assist standard recliner. this power lift assist recliner is a must-have addition to your living room to elevate your tv watching or daytime napping experience . it 's built on a solid wood frame and is upholstered in faux leather with a memory foam fill for just the right amount of support as you sit . to recline the chair partially or all the way , simply just push the buttons on the remote . plus , this chair features lift assist technology that helps to make getting out of the chair a little easier . two wheels on the base allow you to move the recliner without needing to lift it up .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"1073\", \"20495\", \"31476\", \"15437\", \"16790\", \"18982\", \"7727\", \"31241\", \"29994\", \"17196\"]\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "1073",
+                "20495",
+                "31476",
+                "15437",
+                "16790",
+                "18982",
+                "7727",
+                "31241",
+                "29994",
+                "17196"
+            ]
+        },
+        {
+            "queries": [
+                "chair and a half recliner"
+            ],
+            "retrieved_lists": [
+                [
+                    "23199",
+                    "30255",
+                    "17196",
+                    "1073",
+                    "17222",
+                    "29994",
+                    "42654",
+                    "2656",
+                    "3087",
+                    "24877",
+                    "40172",
+                    "24881",
+                    "31476",
+                    "24889",
+                    "24878",
+                    "8831",
+                    "31234",
+                    "16790",
+                    "20495",
+                    "22558",
+                    "35810",
+                    "1526",
+                    "16198",
+                    "7727",
+                    "18982",
+                    "42393",
+                    "14641",
+                    "1953",
+                    "31241",
+                    "15437"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7652522325515747,
+                    0.7641057968139648,
+                    0.7610530257225037,
+                    0.7591243386268616,
+                    0.7583720684051514,
+                    0.7583678960800171,
+                    0.7574950456619263,
+                    0.7571567893028259,
+                    0.7571278810501099,
+                    0.7547810077667236,
+                    0.7544696927070618,
+                    0.7542716264724731,
+                    0.7520197033882141,
+                    0.7517346143722534,
+                    0.7498635053634644,
+                    0.7492673397064209,
+                    0.7492073178291321,
+                    0.747366726398468,
+                    0.7473174333572388,
+                    0.7468568086624146,
+                    0.7463219165802002,
+                    0.7463015913963318,
+                    0.7458610534667969,
+                    0.7458080053329468,
+                    0.7456179857254028,
+                    0.7453750967979431,
+                    0.7448662519454956,
+                    0.7448433637619019,
+                    0.744586706161499,
+                    0.7443770170211792
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: chair and a half recliner\n\nDocuments:\n\n23199: 40 '' wide manual standard recliner. accent your living space or home theater in a casual , comfortable style with this reclining chair . this design features a tall , tight back with a defined headrest that cradles you in comfort . a tight seat cushion is an ideal place to rest and will retain its shape over time . lofty pad arms frame the piece and add even more comfort to this already plush frame . vertical seaming on the seat back and front rail lend a subtly tailored appearance , and the piece fully reclines for even more versatility . it rests on a base with no visible feet , giving it a low-profile silhouette . pair it with the coordinating reclining sofa or reclining console loveseat to complete the collection .\n\n30255: theodore 22.5 '' wide power glider standard recliner. this swivel recliner creates the ideal seat to kick back and catch up on your favorite shows . it 's built with a solid and engineered wood frame and features a bucket-like silhouette with curved arms . the swivel base allows you to turn a full 360\u00b0 , so you can easily spin out of conversations and towards the snack table . the polyester upholstery is filled with foam and has a spring seat construction for just the right amount of support as you sit . this power recliner is operated by a push button so you can effortlessly adjust from seating to napping .\n\n17196: routt 25.2 '' wide manual home theater recliner. offer your room an exceptional design and bring excellent comfort and a classic look . this recliner is the best choice to unwind and relax your body . this recliner is perfect for any place , including office , home theater , cozy living room , bedroom , rec room , dining establishment , or study . just simply push back and recline , you can enjoy the comfortable long-term sitting , tv viewing , or relax your body . conforming to the ergonomic principle , the recliner supports your neck , arm , back , and legs at the correct angle so as to offer utmost comfort . built on a sturdy frame and made of soft fabric and high-density foam , this recliner is built to last , withstand up to 275 lbs . a clean styling design offers a generous seat size and comfort . easy to assemble according to the instruction .\n\n1073: pakswith 40.55 '' wide top grain leather chair and a half. the perfect perch for your teen to get cozy while catching up on some summer reading or working on homework , this chair and a half is a must-have for your abode . crafted from a blend of solid and manufactured wood , the frame strikes a clean-lined silhouette for a dash of what \u2019 s modern , and features foam-filled genuine leather upholstery . boasting hues of black , chocolate , and beige , it complements a variety of design aesthetics from classic to industrial and more .\n\n17222: ingmari 35 '' wide manual glider standard recliner. the motion recliner has a soft linen upholstered seat and back , it provides you a relaxed leisure time . you can put the chair backward to lay down as a small bed . this recliner is ideal for any room where relaxation is the order , like the den , media room , or man cave .\n\n29994: aiken 34 '' wide faux leather power wall hugger standard recliner. the power motion recliner is the comfort you have been searching for . this chair features soft faux leather fabric and a power motion recline . if you are looking for a recliner that can save you some space , this is for you . which makes it perfect for small living spaces . also , the two-button operating system makes confirms this recliner is effortless to use . with its channel tufting back design and plush arms , just picture yourself enjoying your favorite television show in ultimate comfort . the transitional design of this recliner is sure to become the best seat in the house .\n\n42654: kai 36 '' wide manual standard recliner. this product is a single-seat recliner made for full-body support providing a weightless feel and total relaxation . featuring solid structure , dream coils\u00ae , and fine stitched tufted black or java faux leather , this great recliner is very durable and easy to clean . its manual pull handle gives a smooth , quiet , and effortless recline as you sit back and relax in style and ultimate comfort . the kai recliner is fitted with a padded cushion and back in high-density foam providing exceptional support . the engineered wooden frame sets the structure where design and elegance come together . built with longevity in mind , this must-have piece has been designed to help reduce stress on the spine providing proper body alignment . marring simplicity and style , the kai is ready for many years of enjoyment in your home .\n\n2656: daryana 26.5 '' wide manual rocker standard recliner. the faux leather recliner chair is a perfect piece for any room in your home . this chair exudes luxury and comfort when both backward and in the reclining position while the smooth bonded faux leather adds sophistication , giving you style with no cost to relaxation potential . the wing-back swivel recliner chair with faux leather is ideal for any casual or professional working area , living room , executive lounge , and even in the lobby . it provides comfortable support with a comfortable and convenient design . this chair can recline and features a 360-degree swivel , so you can sit upright to work , lounge back to read or watch tv , or simply take a nap in the afternoon sun .\n\n3087: chillicothe 32.5 '' wide manual rocker standard recliner. a slight back edge flare adds a playful modern accent to this charming product delivers comfort , making it an ideal addition to any room of the home . plush foam cushioning and a 360\u00e2\u00b0 swivel base function as a useful accent chair and a manual latch is within easy reach when it 's time to kick back and relax . the smooth reclining action moves the back and footrest incrementally in tandem , preventing the need to adjust each component separately . the 360\u00e2\u00b0 swivel base is ring-shaped for stability and wo n't lock or jam , allowing free and easy movement .\n\n24877: hermogenes 32 '' wide velvet manual standard recliner. the recliner offers comfort , style , and value for any home . reflects sleek styling , cozy seating and smooth upholstery provide relaxation from seat to toe with an easy-to-reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap , or read a book .\n\n40172: vondrus 32.75 '' wide manual rocker standard recliner. this eglinton 32.75 '' wide manual rocker standard recliner has covered sports in a modern style that will update your home . this comfortable chair allows you the option to either recline back to relax or to rock away your stress while reading or watching television . this chair provides padding in all the right places for ultimate comfort . perfect for living rooms , bedrooms , theater rooms , and media rooms . covered durable , easy clean suede-like fabric . firmly padded armrests add to the comfort but also allow for a stable grip . full chaise pad between the chair and the leg rest to support the legs for a truly comfortable recliner . convenient side handles to recline . cushions are filled with high-density foam , polyester fiber , and an independently wrapped pocketed coil spring system for a custom sit . constructed with a mixed hardwood frame . sturdy spring seating . steel reclining mechanism . insulated spring clips for noise reduction . imported , color may vary .\n\n24881: darnelle 38 '' wide manual ergonomic recliner. the recliner offers comfort , style , and value for any home . reflects sleek styling , cozy seating and smooth polished microfiber upholstery provides relaxation from seat to toe with an easy to reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap , or read a book . it 's available in 5 different finishes .\n\n31476: sanner 55 '' wide power standard recliner. a cozy spot to binge watch sitcoms and catch up on some reading , this recliner is a must-have for any living area . the seat of this recliner , measuring 34 '' wide , offers space for one person to sprawl out or two to snuggle up . lightly weathered polyester blend upholstery provides the appeal of leather and gives this recliner a well-worn , inviting look . pillowy rolled arms and nailhead trim complete the design with a nod to traditional style . this armchair can be ordered with a manual or power reclining mechanism .\n\n24889: dittmyre 38.6 '' wide manual standard recliner. expertly crafted for style , this lift chair can be used in the home , recreation room , and other business places for its sleek and sophisticated look . have it right away , enjoy your favorite entertainment more , and fully relax your body and mood . upholstered in soft and yarn-dyed fabric and filled with high-density sponge , this chair features an overstuffed back , thick cushions , and yarn-dyed upholstery , offering you more comfort than expected . extending footrest and reclining features allows you to fully stretch and relax , ideal for watching tv , movie , sleeping , and reading .\n\n24878: arife 32 '' wide manual standard recliner. the recliner offers comfort , style and value for any home . reflects sleek styling , cozy seating and smooth upholstery provides relaxation from seat to toe with an easy to reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap or read a book .\n\n8831: dazhane 32 '' wide manual standard recliner. this product offers comfort , style , and value for any home . reflects sleek styling , cozy seating and smooth upholstery provide relaxation from seat to toe with an easy-to-reach external handle for operating the reclining mechanism . update your living room environment with this comfortable , recliner chair it 's great for any space and makes it perfect to relax , take a nap , or read a book .\n\n31234: staciee 38 '' wide faux leather power home theater recliner. after a long day at work or running errands , you deserve to relax , so why not sit back in this reclining armchair to destress in style . a versatile design that can blend in with a variety of ensembles , it showcases a clean-lined frame with polyester upholstery and boxy arms . beyond the reclining design and rising footrest , it features a push-button storage in the arms , a usb port , and a handy swiveling tray table that stashes in an arms storage area when not in use .\n\n16790: minogue 32 '' wide power lift assist standard recliner. this recliner allows you to rise out of your seat with ease while providing padding in all the right places for added comfort . the infinite position recliner transitions between reclining , sitting and lifting and can stop at any position in-between with the easy to use wired attached remote . perfect for living rooms , bedrooms , theater rooms and media rooms . features round arms , tufted back cushion , and an attached headrest pillow to provide comfort and added style . firmly padded armrests add to the comfort but also allow for a stable grip . full chaise pad between the chair and the leg rest to support the legs for a truly comfortable recliner . ul approved , easy-to-use wired controller . features a backup to protect against power outages that will return you to the upright position . euro firm cushions are filled with high-density foam , polyester fiber and an independently wrapped pocketed coil spring system for a firm custom sit . insulated spring clips for noise reduction . backup 9-volt batteries not included .\n\n20495: lieb 47 '' wide manual standard recliner. kick back and relax in this med-century-modern-inspired manual recliner ! striking a chair-and-a-half silhouette , this dapper design is founded on a solid and manufactured wood frame with a wide , gently slanted backrest , tuxedo arms , and a hidden metal base . brushed polyester upholstery envelops each seat , accented by button tufting and piped edging for a tailored touch , while thick padding provides comfortable support . a quick pull of the side lever reclines the chair , flipping up a footrest so you can relax solo or with your significant other .\n\n22558: toyei 26.5 '' wide manual standard recliner with massager. their charming recliner club chair offers impressive comfort while maximizing your living space with its petite design . the recliner has an ergonomic design , product engineering , and uncompromising quality . this chair gives you the ultimate relaxation . made from the highest quality fabric over a sturdy construction , this is a piece that will last you for years to come . simply push back to recline , no levers or buttons required . comfortable seat and back support for long-term sitting , tv viewing , or a relaxed recline . clean styling offers a generous seat size and comfort . great for living room , media , and master bedrooms .\n\n35810: rio leather side chair. incorporating quintessential mid-century design with elements of rustic modern style . this collection is the perfect size for your space , featuring a high-density cushion seat , thick , pu cover , the chair is soft and supportive , helping to relieve stress and fatigue after a long day . the piece makes the perfect accompaniment to any dining room , breakfast , vanity , or office desk . although it 's standard dining measurement , the piece \u2019 s light . the chairs have built-in foot pads to prevent legs from scratching the floor and can be slightly adjusted for optimal balance .\n\n1526: kalgoorlie 34 '' wide manual club recliner. beautifully designed , this recliner chair makes a stunning statement in any room . the recliner chair features a high camelback and rolled arms in gray upholstery with an elegant fretwork print , for a chic transitional look . solid wood legs display finish creating a rich contrast that complements the design , while a removable cushion provides exceptional comfort . with an elegant silhouette , this recliner chair offers a luxurious and fashionable update to your home decor .\n\n16198: jarra 35 '' wide faux leather manual standard recliner. this 360-degree swivel recliner is the perfect addition to any room in your home . padded with high-density sponge , it provides extraordinary comfort ? you can sit upright to work , lounge back to read or watch tv , or simply take a nap in the afternoon sun.the rolled arm style and hand stitched details provides a modern , clean look . the swivel , gliding , and reclining features ensure unmatched comfort for relaxation .\n\n7727: arzoi 34.5 '' wide power lift assist standard recliner. this traditional lift chair provides comfortable seating and assistance for those who may need a little help getting out of their seat . the three positions , all-electric recliner provides lift , sit or recline functionality with just the push of a button . just stop the recliner in the position that you find most comfortable . features include a sturdy wood frame with a heavy-duty steel mechanism to support up to 330 lbs . upholstered in an easy to care for 100 % polyester fabric . simple assembly will have this chair ready for use in minutes . simply attach the back and plugin and you are ready to relax . the side pocket keeps the remote at hand so sit back , relax and enjoy !\n\n18982: abdelkarim 32 '' wide power lift assist standard recliner. expertly crafted for style , this power lift chair can be used in the home , recreation room , and other business places for its sleek and sophisticated look . have it right away , enjoy your favorite entertainment more , and fully relax your body and mood . upholstered in soft and comfy leather and filled with high-density sponge , this chair features overstuffed back , thick cushions , and faux leather upholstery , offering you more comfort than expected . extending footrest and reclining features allows you to fully stretch and relax , ideal for watching tv , movie , sleeping , and reading .\n\n42393: alday 35 '' wide manual wall hugger standard recliner. recliners invite you to relax with your favorite novel or sit back and watch the big game , and this polyester-upholstered design is no exception . its hardwood frames pair with a cushion back and pillow-top arms for a sturdy yet comfortable form . looking to flesh out your living room seating group in a contemporary style ? pair this piece with a streamlined and tufted sofa , then anchor the arrangement with an understated coffee table topped with planted succulents for a botanical accent . with its retractable footrest and solid color pattern , this comfy and handsome recliner is a must-have addition to your furniture arrangement .\n\n14641: goodrow 25 '' wide manual glider club recliner. create a corner of utmost coziness starting from this push-back recliner that features both gliding and swivel functions . from its tufted design to its plush seating , this contemporary piece brings both elegance and comfort to your home . the recliner \u2019 s many functions allow this chair to be extremely versatile , ranging from a perfect nursery recliner to the ideal place to relax in your living room . with its minimalistic style and soft colors , this practical recliner will blend seamlessly with any home d\u00e9cor .\n\n1953: leni 33.5 '' wide manual standard recliner. every household has a designated remote control holder . whether in the man cave or living room , this person needs a throne . this reclining armchair is here to help . crafted from wood , it showcases turned detailing on all four legs , while a dark espresso finish adds statement-making appeal to your seating ensemble . polyester fiber and foam filling with sinuous springs for added comfort . simply push back to recline : no levers or buttons are required for comfortable long-term sitting , tv viewing , or a relaxed recline .\n\n31241: claredon 33 '' wide power wall hugger standard recliner with massager. after work , after the errands , after the everyday tasks that fill up our schedule , there \u2019 s no better destination than this cozy recliner . a high back and curved arms give this piece its modern look , while genuine leather upholstery , complete with subtle stitching , rounds out the design with a touch of class . with the help of a push-button , this chair features customizable reclining positions up to 170\u00b0 . sturdy , too , this recliner is supported by a reinforced solid wood frame and a heavy-duty steel rail system . plus , a usb charging port is built right in !\n\n15437: pham 25.1 '' wide faux leather power lift assist standard recliner. this power lift assist recliner is a must-have addition to your living room to elevate your tv watching or daytime napping experience . it 's built on a solid wood frame and is upholstered in faux leather with a memory foam fill for just the right amount of support as you sit . to recline the chair partially or all the way , simply just push the buttons on the remote . plus , this chair features lift assist technology that helps to make getting out of the chair a little easier . two wheels on the base allow you to move the recliner without needing to lift it up .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"1073\", \"20495\", \"31476\", \"15437\", \"16790\", \"18982\", \"7727\", \"31241\", \"29994\", \"17196\"]\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "1073",
+                "20495",
+                "31476",
+                "15437",
+                "16790",
+                "18982",
+                "7727",
+                "31241",
+                "29994",
+                "17196"
+            ],
+            "terminate": true
+        }
+    ]
+}

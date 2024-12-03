@@ -1,0 +1,359 @@
+{
+    "queries": [
+        "home sweet home sign"
+    ],
+    "retrieved_lists": [
+        [
+            "19132",
+            "21275",
+            "30557",
+            "21994",
+            "11511",
+            "28089",
+            "8778",
+            "30083",
+            "8990",
+            "30562",
+            "10026",
+            "27496",
+            "30355",
+            "30936",
+            "37519",
+            "30045",
+            "15707",
+            "12109",
+            "8301",
+            "9663",
+            "3278",
+            "5196",
+            "30358",
+            "30558",
+            "889",
+            "40803",
+            "40801",
+            "2760",
+            "19340",
+            "34471"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.8440688848495483,
+            0.829281747341156,
+            0.8181918859481812,
+            0.8115997910499573,
+            0.8072992563247681,
+            0.8035677671432495,
+            0.8035310506820679,
+            0.7937213182449341,
+            0.7869841456413269,
+            0.7811301946640015,
+            0.7668406963348389,
+            0.7660394906997681,
+            0.7656852602958679,
+            0.7645710706710815,
+            0.7642987370491028,
+            0.7431343793869019,
+            0.7426742911338806,
+            0.7411635518074036,
+            0.7385127544403076,
+            0.7382373213768005,
+            0.7323925495147705,
+            0.7301403880119324,
+            0.7266431450843811,
+            0.7258275151252747,
+            0.7219685912132263,
+            0.7206814289093018,
+            0.7175215482711792,
+            0.7165412902832031,
+            0.7107944488525391,
+            0.7107048034667969
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: home sweet home sign\n\nDocuments:\n\n19132: home sweet home - unframed textual art print on metal. this is a painted metal sign with a simplistic , black , and white design . sign features a white background with embossed , black lettering , floral vine details , and an outlining border . item displays , `` home sweet home , '' in mixed-font lettering . hangs on two sawtooth hangers .\n\n21275: home sweet home sign door wall decor. this door decor features a faux wood background and the words `` home '' in black . the `` o '' is made with a floral wreath and continues the phrase with `` sweet home '' .\n\n30557: home sweet home sign plaque wall d\u00e9cor. made of quality solid wood . hangs securely with two pre-installed hangers on the back . a wood piece with black metal script `` home '' on the board , simple but unique ! makes a lovely housewarming , wedding , birthday , mother 's day or friendship gift . provides all the modern contemporary home decor needs : - classic , modern , natural , rustic , boho and shabby elegance appeal !\n\n21994: home decorative heart shaped metal wall sign inscribed `` home sweet home ''. heart-shaped metal wall sign inscribed `` home sweet home '' . attached hanging rope .\n\n11511: home sweet home sign. home sweet home whitewashed\n\n28089: home sweet home door sign wall d\u00e9cor. this home sweet home door sign wall d\u00e9cor gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n8778: home sweet home galvanized metal hanging sign wall d\u00e9cor. there \u2019 s nothing quite like returning to a cozy home after a long day . your home is your castle , your sanctuary , and the place where your loved ones gather . give yourself and others a warm welcome into that special space with this vintage home sweet home galvanized metal hanging sign wall d\u00e9cor . those three comforting words are scrawled in a script font across the galvanized metal in a way that feels like a handwritten note . a perfect piece to hang in your living room , den , entryway or foyer , this placard sign works in a variety of settings . lightweight and outfitted with rustic jute rope for hanging , this placard sign adds a vintage touch to your home decor needs as it marries charm and character with quality and retro appeal .\n\n30083: home sweet home tops wall d\u00e9cor. this circle sign resembles the lids of old wooden shipping barrels . a circle that is not often found in wall d\u00e9cor , includes a pocket mount for wall application .\n\n8990: home sweet home sign wall d\u00e9cor. this beautiful sign has been laser engraved on reclaimed wood and sanded for that perfect rustic farmhouse finish . it comes ready to hang . please keep in mind that this is reclaimed wood so old nail holes and cracks are a part of what adds the character to these one-of-a-kind signs .\n\n30562: thankful grateful blessed home sweet home double-sided wood wall hanging sign. this double-sided wooden framed sign features white inspirational sentiments on the background . one side with the message `` thankful grateful blessed '' , the other side with the message `` home sweet home '' . comes ready to hang with a jute rope . hang this decorative wall plaque to any wall in your home as a warm daily reminder . it is a wonderful addition to the kitchen wall , living room , hallway , covered porch , balcony , garage . send as a thoughtful gift for a friend , loved one , or keep for yourself and decorate your home . let the words on this plaque be a warm embrace each day .\n\n10026: lasalle metal sign camper. this metal `` home sweet camper '' circle sign is the perfect addition to any d\u00e9cor . its rustic galvanized steel makes it perfect for indoor and outdoor display . whether it 's for your home or as a part of your `` on-the-go '' road trip must-haves , you 'll always know that home is where you make it .\n\n27496: home sweet home galv wall d\u00e9cor. display this wood box sign with silkscreened design and galvanized metal house attachment .\n\n30355: saxapahaw home sweet home welcome sign. welcome guests , family and friends to your home with this small home sweet home sign .\n\n30936: home sweet home custom wall d\u00e9cor. nan\n\n37519: home sweet home framed textual art wall d\u00e9cor. these huge , handcrafted wooden signs add charm to any space in the home . assembled and finished in a georgia warehouse , these signs offer a unique decor piece and no two will ever look exactly alike . the frame is painted black and lightly distressed to give it a rustic look . the letters are dimensional and painted black for added interest . these make a perfect gift for weddings , birthdays , bridal showers , engagement parties , or holidays . please note : these items are not screen prints or reproductions .\n\n30045: swavar home sweet home word laser cut steel wall sign. an ideal way to add a stylish touch to any home . cut from 0.06 \u201d thick steel sheets and expertly powder coated in a variety of colors , this metal art decor is sturdy and designed to last both indoors or outdoors . it makes a perfect gift for weddings , housewarmings or to decorate one \u2019 s own home .\n\n15707: sweet home wall d\u00e9cor. whether you 're gifting the new homeowners in your life or trying to settle in to your brand new apartment , this eye-catching wall decor brings a bit of eye-catching and welcoming appeal to your walls . featuring a metal design with a simple white finish , this accent brings a bit of neutral appeal to your look , while its charming typographic design adds a dash of whimsy to your look . hang it up in the entryway over a clean-lined wood console table to invite guests in charming style at your next neighborhood gathering , or nestle it in with a vignette of other typographic accents for a cozy kitchen display .\n\n12109: home script wood cut sign wall d\u00e9cor. swimming in sentiment and dripping with charm , this wooden textual art wall decor is designed to delight ! inspired by houses filled with love the world over , this design showcases the word \u201c home \u201d in swirling lowercase cursive scrawl . made in the usa , this charming wall decor is laser-cut from 0.25 '' thick baltic birch plywood , and arrives unfinished with rustic charred edges for an on-trend , distressed appearance . designed to suit your space , this piece comes in a variety of sizes .\n\n8301: home sweet home block letters wall d\u00e9cor. wall decors not only cover empty walls , the right selection can help you create a certain mood , display your personality , or add that finishing touch to the room \u2019 s design . hang this wall decor in the kitchen , dining room , living room , or entryway as a welcome to your family and friends . you can also pair it with other inspirational decors and wall art to create your very own gallery wall in the living room , or along the stairs . wherever , and however you decide to style this decor , it will surely enhance the look of any room .\n\n9663: welcome home sign wall d\u00e9cor. welcome , home mdf sign has emerged as a leader , in the home d\u00e9cor industry , as an exceptional design and quality manufacturer that also providing artistic trendy designs . our high-quality material and workmanship can be seen through the products we provide such as decorative accessories , wall d\u00e9cor , candle holders , picture frames as well as seasonal goods . our designers and product development team constantly strive to find and develop new designs that lead the market in trends and creativity . we have built our reputation on quality , design , and innovation .\n\n3278: welcome home yard sign. this is a welcome home yard sign . our yard signs are made of weather resistant corrugated plastic , and come with yard stakes so that they are free standing . works great outdoors on grass or soft soil . what a great way to make a big statement outside your home or business ! size : 23 '' x 23 '' note : stakes may be sharp please exercise caution when assembling . signs are not designed for use in extreme wind or weather conditions . sku : 3071\n\n5196: home sweet home dog wall d\u00e9cor. who 's home sweet home is it ? woof !\n\n30358: saylorville home sweet home welcome sign. welcome guests to your home sweet home with this wooden welcome sign .\n\n30558: welcome to our home wooden and metal quote plaque sign wall d\u00e9cor. the sign says `` welcome to our home '' . show your guests a warm reminder they are always welcome to your home . a home accessory sign , crafted from real wood and metal . this sign will look great hung in any part of the house . give this gift with love to a friend or family member that has moved into their new house .\n\n889: home sweet home bird houses printed wall d\u00e9cor. nan\n\n40803: sweet serif block font wood sign home gallery wall d\u00e9cor. custom laser cut wood sign featuring the word sweet in a serif font . perfect for your family room , gallery wall , front door , entryway or kitchen . sign comes unfinished . if you plan to use outdoors , you will need to seal with paint or polyurethane sealer . made from 0.25 '' baltic birch plywood .\n\n40801: sweet arrow wood sign home gallery wall decor. custom laser cut wood sign featuring the word sweet within an arrow . perfect for your family room , gallery wall , front door , entryway or kitchen . sign comes unfinished . if you plan to use outdoors , you will need to seal with paint or polyurethane sealer . made from 0.25 '' baltic birch plywood .\n\n2760: bless this home wisdom sign wall d\u00e9cor. faux vintage metal sign . sign reads `` bless this home with happy hearts . '' can be hung using its metal hanger .\n\n19340: gold medal pub personalized bar sign wall d\u00e9cor. home wet bar know that not every beer can be a winner , but your home bar will certainly come in first with gold medal pub personalized bar sign wall d\u00e9cor . this striking bar sign features your name across a golden banner , making a truly unique piece of decor for your home . winning embellishments will make the walls of your home pop with style and color . uv protective finish , inviting all your friends to race in for another beer .\n\n34471: home sweet home framed wall d\u00e9cor. contemporary wall d\u00e9cor that will compliment any d\u00e9cor . framed modern rustic design .\n\n"
+    ],
+    "responses": [
+        "```python\nordered_docs = [\n    \"19132\", \"21275\", \"30557\", \"21994\", \"28089\", \"8778\", \"8990\", \"30562\", \"30355\", \"34471\"\n]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "19132",
+        "21275",
+        "30557",
+        "21994",
+        "28089",
+        "8778",
+        "8990",
+        "30562",
+        "30355",
+        "34471"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "home sweet home sign"
+            ]
+        },
+        {
+            "queries": [
+                "home sweet home sign"
+            ],
+            "retrieved_lists": [
+                [
+                    "19132",
+                    "21275",
+                    "30557",
+                    "21994",
+                    "11511",
+                    "28089",
+                    "8778",
+                    "30083",
+                    "8990",
+                    "30562",
+                    "10026",
+                    "27496",
+                    "30355",
+                    "30936",
+                    "37519",
+                    "30045",
+                    "15707",
+                    "12109",
+                    "8301",
+                    "9663",
+                    "3278",
+                    "5196",
+                    "30358",
+                    "30558",
+                    "889",
+                    "40803",
+                    "40801",
+                    "2760",
+                    "19340",
+                    "34471"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8440688848495483,
+                    0.829281747341156,
+                    0.8181918859481812,
+                    0.8115997910499573,
+                    0.8072992563247681,
+                    0.8035677671432495,
+                    0.8035310506820679,
+                    0.7937213182449341,
+                    0.7869841456413269,
+                    0.7811301946640015,
+                    0.7668406963348389,
+                    0.7660394906997681,
+                    0.7656852602958679,
+                    0.7645710706710815,
+                    0.7642987370491028,
+                    0.7431343793869019,
+                    0.7426742911338806,
+                    0.7411635518074036,
+                    0.7385127544403076,
+                    0.7382373213768005,
+                    0.7323925495147705,
+                    0.7301403880119324,
+                    0.7266431450843811,
+                    0.7258275151252747,
+                    0.7219685912132263,
+                    0.7206814289093018,
+                    0.7175215482711792,
+                    0.7165412902832031,
+                    0.7107944488525391,
+                    0.7107048034667969
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "home sweet home sign"
+            ],
+            "retrieved_lists": [
+                [
+                    "19132",
+                    "21275",
+                    "30557",
+                    "21994",
+                    "11511",
+                    "28089",
+                    "8778",
+                    "30083",
+                    "8990",
+                    "30562",
+                    "10026",
+                    "27496",
+                    "30355",
+                    "30936",
+                    "37519",
+                    "30045",
+                    "15707",
+                    "12109",
+                    "8301",
+                    "9663",
+                    "3278",
+                    "5196",
+                    "30358",
+                    "30558",
+                    "889",
+                    "40803",
+                    "40801",
+                    "2760",
+                    "19340",
+                    "34471"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8440688848495483,
+                    0.829281747341156,
+                    0.8181918859481812,
+                    0.8115997910499573,
+                    0.8072992563247681,
+                    0.8035677671432495,
+                    0.8035310506820679,
+                    0.7937213182449341,
+                    0.7869841456413269,
+                    0.7811301946640015,
+                    0.7668406963348389,
+                    0.7660394906997681,
+                    0.7656852602958679,
+                    0.7645710706710815,
+                    0.7642987370491028,
+                    0.7431343793869019,
+                    0.7426742911338806,
+                    0.7411635518074036,
+                    0.7385127544403076,
+                    0.7382373213768005,
+                    0.7323925495147705,
+                    0.7301403880119324,
+                    0.7266431450843811,
+                    0.7258275151252747,
+                    0.7219685912132263,
+                    0.7206814289093018,
+                    0.7175215482711792,
+                    0.7165412902832031,
+                    0.7107944488525391,
+                    0.7107048034667969
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: home sweet home sign\n\nDocuments:\n\n19132: home sweet home - unframed textual art print on metal. this is a painted metal sign with a simplistic , black , and white design . sign features a white background with embossed , black lettering , floral vine details , and an outlining border . item displays , `` home sweet home , '' in mixed-font lettering . hangs on two sawtooth hangers .\n\n21275: home sweet home sign door wall decor. this door decor features a faux wood background and the words `` home '' in black . the `` o '' is made with a floral wreath and continues the phrase with `` sweet home '' .\n\n30557: home sweet home sign plaque wall d\u00e9cor. made of quality solid wood . hangs securely with two pre-installed hangers on the back . a wood piece with black metal script `` home '' on the board , simple but unique ! makes a lovely housewarming , wedding , birthday , mother 's day or friendship gift . provides all the modern contemporary home decor needs : - classic , modern , natural , rustic , boho and shabby elegance appeal !\n\n21994: home decorative heart shaped metal wall sign inscribed `` home sweet home ''. heart-shaped metal wall sign inscribed `` home sweet home '' . attached hanging rope .\n\n11511: home sweet home sign. home sweet home whitewashed\n\n28089: home sweet home door sign wall d\u00e9cor. this home sweet home door sign wall d\u00e9cor gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n8778: home sweet home galvanized metal hanging sign wall d\u00e9cor. there \u2019 s nothing quite like returning to a cozy home after a long day . your home is your castle , your sanctuary , and the place where your loved ones gather . give yourself and others a warm welcome into that special space with this vintage home sweet home galvanized metal hanging sign wall d\u00e9cor . those three comforting words are scrawled in a script font across the galvanized metal in a way that feels like a handwritten note . a perfect piece to hang in your living room , den , entryway or foyer , this placard sign works in a variety of settings . lightweight and outfitted with rustic jute rope for hanging , this placard sign adds a vintage touch to your home decor needs as it marries charm and character with quality and retro appeal .\n\n30083: home sweet home tops wall d\u00e9cor. this circle sign resembles the lids of old wooden shipping barrels . a circle that is not often found in wall d\u00e9cor , includes a pocket mount for wall application .\n\n8990: home sweet home sign wall d\u00e9cor. this beautiful sign has been laser engraved on reclaimed wood and sanded for that perfect rustic farmhouse finish . it comes ready to hang . please keep in mind that this is reclaimed wood so old nail holes and cracks are a part of what adds the character to these one-of-a-kind signs .\n\n30562: thankful grateful blessed home sweet home double-sided wood wall hanging sign. this double-sided wooden framed sign features white inspirational sentiments on the background . one side with the message `` thankful grateful blessed '' , the other side with the message `` home sweet home '' . comes ready to hang with a jute rope . hang this decorative wall plaque to any wall in your home as a warm daily reminder . it is a wonderful addition to the kitchen wall , living room , hallway , covered porch , balcony , garage . send as a thoughtful gift for a friend , loved one , or keep for yourself and decorate your home . let the words on this plaque be a warm embrace each day .\n\n10026: lasalle metal sign camper. this metal `` home sweet camper '' circle sign is the perfect addition to any d\u00e9cor . its rustic galvanized steel makes it perfect for indoor and outdoor display . whether it 's for your home or as a part of your `` on-the-go '' road trip must-haves , you 'll always know that home is where you make it .\n\n27496: home sweet home galv wall d\u00e9cor. display this wood box sign with silkscreened design and galvanized metal house attachment .\n\n30355: saxapahaw home sweet home welcome sign. welcome guests , family and friends to your home with this small home sweet home sign .\n\n30936: home sweet home custom wall d\u00e9cor. nan\n\n37519: home sweet home framed textual art wall d\u00e9cor. these huge , handcrafted wooden signs add charm to any space in the home . assembled and finished in a georgia warehouse , these signs offer a unique decor piece and no two will ever look exactly alike . the frame is painted black and lightly distressed to give it a rustic look . the letters are dimensional and painted black for added interest . these make a perfect gift for weddings , birthdays , bridal showers , engagement parties , or holidays . please note : these items are not screen prints or reproductions .\n\n30045: swavar home sweet home word laser cut steel wall sign. an ideal way to add a stylish touch to any home . cut from 0.06 \u201d thick steel sheets and expertly powder coated in a variety of colors , this metal art decor is sturdy and designed to last both indoors or outdoors . it makes a perfect gift for weddings , housewarmings or to decorate one \u2019 s own home .\n\n15707: sweet home wall d\u00e9cor. whether you 're gifting the new homeowners in your life or trying to settle in to your brand new apartment , this eye-catching wall decor brings a bit of eye-catching and welcoming appeal to your walls . featuring a metal design with a simple white finish , this accent brings a bit of neutral appeal to your look , while its charming typographic design adds a dash of whimsy to your look . hang it up in the entryway over a clean-lined wood console table to invite guests in charming style at your next neighborhood gathering , or nestle it in with a vignette of other typographic accents for a cozy kitchen display .\n\n12109: home script wood cut sign wall d\u00e9cor. swimming in sentiment and dripping with charm , this wooden textual art wall decor is designed to delight ! inspired by houses filled with love the world over , this design showcases the word \u201c home \u201d in swirling lowercase cursive scrawl . made in the usa , this charming wall decor is laser-cut from 0.25 '' thick baltic birch plywood , and arrives unfinished with rustic charred edges for an on-trend , distressed appearance . designed to suit your space , this piece comes in a variety of sizes .\n\n8301: home sweet home block letters wall d\u00e9cor. wall decors not only cover empty walls , the right selection can help you create a certain mood , display your personality , or add that finishing touch to the room \u2019 s design . hang this wall decor in the kitchen , dining room , living room , or entryway as a welcome to your family and friends . you can also pair it with other inspirational decors and wall art to create your very own gallery wall in the living room , or along the stairs . wherever , and however you decide to style this decor , it will surely enhance the look of any room .\n\n9663: welcome home sign wall d\u00e9cor. welcome , home mdf sign has emerged as a leader , in the home d\u00e9cor industry , as an exceptional design and quality manufacturer that also providing artistic trendy designs . our high-quality material and workmanship can be seen through the products we provide such as decorative accessories , wall d\u00e9cor , candle holders , picture frames as well as seasonal goods . our designers and product development team constantly strive to find and develop new designs that lead the market in trends and creativity . we have built our reputation on quality , design , and innovation .\n\n3278: welcome home yard sign. this is a welcome home yard sign . our yard signs are made of weather resistant corrugated plastic , and come with yard stakes so that they are free standing . works great outdoors on grass or soft soil . what a great way to make a big statement outside your home or business ! size : 23 '' x 23 '' note : stakes may be sharp please exercise caution when assembling . signs are not designed for use in extreme wind or weather conditions . sku : 3071\n\n5196: home sweet home dog wall d\u00e9cor. who 's home sweet home is it ? woof !\n\n30358: saylorville home sweet home welcome sign. welcome guests to your home sweet home with this wooden welcome sign .\n\n30558: welcome to our home wooden and metal quote plaque sign wall d\u00e9cor. the sign says `` welcome to our home '' . show your guests a warm reminder they are always welcome to your home . a home accessory sign , crafted from real wood and metal . this sign will look great hung in any part of the house . give this gift with love to a friend or family member that has moved into their new house .\n\n889: home sweet home bird houses printed wall d\u00e9cor. nan\n\n40803: sweet serif block font wood sign home gallery wall d\u00e9cor. custom laser cut wood sign featuring the word sweet in a serif font . perfect for your family room , gallery wall , front door , entryway or kitchen . sign comes unfinished . if you plan to use outdoors , you will need to seal with paint or polyurethane sealer . made from 0.25 '' baltic birch plywood .\n\n40801: sweet arrow wood sign home gallery wall decor. custom laser cut wood sign featuring the word sweet within an arrow . perfect for your family room , gallery wall , front door , entryway or kitchen . sign comes unfinished . if you plan to use outdoors , you will need to seal with paint or polyurethane sealer . made from 0.25 '' baltic birch plywood .\n\n2760: bless this home wisdom sign wall d\u00e9cor. faux vintage metal sign . sign reads `` bless this home with happy hearts . '' can be hung using its metal hanger .\n\n19340: gold medal pub personalized bar sign wall d\u00e9cor. home wet bar know that not every beer can be a winner , but your home bar will certainly come in first with gold medal pub personalized bar sign wall d\u00e9cor . this striking bar sign features your name across a golden banner , making a truly unique piece of decor for your home . winning embellishments will make the walls of your home pop with style and color . uv protective finish , inviting all your friends to race in for another beer .\n\n34471: home sweet home framed wall d\u00e9cor. contemporary wall d\u00e9cor that will compliment any d\u00e9cor . framed modern rustic design .\n\n"
+            ],
+            "responses": [
+                "```python\nordered_docs = [\n    \"19132\", \"21275\", \"30557\", \"21994\", \"28089\", \"8778\", \"8990\", \"30562\", \"30355\", \"34471\"\n]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "19132",
+                "21275",
+                "30557",
+                "21994",
+                "28089",
+                "8778",
+                "8990",
+                "30562",
+                "30355",
+                "34471"
+            ]
+        },
+        {
+            "queries": [
+                "home sweet home sign"
+            ],
+            "retrieved_lists": [
+                [
+                    "19132",
+                    "21275",
+                    "30557",
+                    "21994",
+                    "11511",
+                    "28089",
+                    "8778",
+                    "30083",
+                    "8990",
+                    "30562",
+                    "10026",
+                    "27496",
+                    "30355",
+                    "30936",
+                    "37519",
+                    "30045",
+                    "15707",
+                    "12109",
+                    "8301",
+                    "9663",
+                    "3278",
+                    "5196",
+                    "30358",
+                    "30558",
+                    "889",
+                    "40803",
+                    "40801",
+                    "2760",
+                    "19340",
+                    "34471"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8440688848495483,
+                    0.829281747341156,
+                    0.8181918859481812,
+                    0.8115997910499573,
+                    0.8072992563247681,
+                    0.8035677671432495,
+                    0.8035310506820679,
+                    0.7937213182449341,
+                    0.7869841456413269,
+                    0.7811301946640015,
+                    0.7668406963348389,
+                    0.7660394906997681,
+                    0.7656852602958679,
+                    0.7645710706710815,
+                    0.7642987370491028,
+                    0.7431343793869019,
+                    0.7426742911338806,
+                    0.7411635518074036,
+                    0.7385127544403076,
+                    0.7382373213768005,
+                    0.7323925495147705,
+                    0.7301403880119324,
+                    0.7266431450843811,
+                    0.7258275151252747,
+                    0.7219685912132263,
+                    0.7206814289093018,
+                    0.7175215482711792,
+                    0.7165412902832031,
+                    0.7107944488525391,
+                    0.7107048034667969
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: home sweet home sign\n\nDocuments:\n\n19132: home sweet home - unframed textual art print on metal. this is a painted metal sign with a simplistic , black , and white design . sign features a white background with embossed , black lettering , floral vine details , and an outlining border . item displays , `` home sweet home , '' in mixed-font lettering . hangs on two sawtooth hangers .\n\n21275: home sweet home sign door wall decor. this door decor features a faux wood background and the words `` home '' in black . the `` o '' is made with a floral wreath and continues the phrase with `` sweet home '' .\n\n30557: home sweet home sign plaque wall d\u00e9cor. made of quality solid wood . hangs securely with two pre-installed hangers on the back . a wood piece with black metal script `` home '' on the board , simple but unique ! makes a lovely housewarming , wedding , birthday , mother 's day or friendship gift . provides all the modern contemporary home decor needs : - classic , modern , natural , rustic , boho and shabby elegance appeal !\n\n21994: home decorative heart shaped metal wall sign inscribed `` home sweet home ''. heart-shaped metal wall sign inscribed `` home sweet home '' . attached hanging rope .\n\n11511: home sweet home sign. home sweet home whitewashed\n\n28089: home sweet home door sign wall d\u00e9cor. this home sweet home door sign wall d\u00e9cor gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n8778: home sweet home galvanized metal hanging sign wall d\u00e9cor. there \u2019 s nothing quite like returning to a cozy home after a long day . your home is your castle , your sanctuary , and the place where your loved ones gather . give yourself and others a warm welcome into that special space with this vintage home sweet home galvanized metal hanging sign wall d\u00e9cor . those three comforting words are scrawled in a script font across the galvanized metal in a way that feels like a handwritten note . a perfect piece to hang in your living room , den , entryway or foyer , this placard sign works in a variety of settings . lightweight and outfitted with rustic jute rope for hanging , this placard sign adds a vintage touch to your home decor needs as it marries charm and character with quality and retro appeal .\n\n30083: home sweet home tops wall d\u00e9cor. this circle sign resembles the lids of old wooden shipping barrels . a circle that is not often found in wall d\u00e9cor , includes a pocket mount for wall application .\n\n8990: home sweet home sign wall d\u00e9cor. this beautiful sign has been laser engraved on reclaimed wood and sanded for that perfect rustic farmhouse finish . it comes ready to hang . please keep in mind that this is reclaimed wood so old nail holes and cracks are a part of what adds the character to these one-of-a-kind signs .\n\n30562: thankful grateful blessed home sweet home double-sided wood wall hanging sign. this double-sided wooden framed sign features white inspirational sentiments on the background . one side with the message `` thankful grateful blessed '' , the other side with the message `` home sweet home '' . comes ready to hang with a jute rope . hang this decorative wall plaque to any wall in your home as a warm daily reminder . it is a wonderful addition to the kitchen wall , living room , hallway , covered porch , balcony , garage . send as a thoughtful gift for a friend , loved one , or keep for yourself and decorate your home . let the words on this plaque be a warm embrace each day .\n\n10026: lasalle metal sign camper. this metal `` home sweet camper '' circle sign is the perfect addition to any d\u00e9cor . its rustic galvanized steel makes it perfect for indoor and outdoor display . whether it 's for your home or as a part of your `` on-the-go '' road trip must-haves , you 'll always know that home is where you make it .\n\n27496: home sweet home galv wall d\u00e9cor. display this wood box sign with silkscreened design and galvanized metal house attachment .\n\n30355: saxapahaw home sweet home welcome sign. welcome guests , family and friends to your home with this small home sweet home sign .\n\n30936: home sweet home custom wall d\u00e9cor. nan\n\n37519: home sweet home framed textual art wall d\u00e9cor. these huge , handcrafted wooden signs add charm to any space in the home . assembled and finished in a georgia warehouse , these signs offer a unique decor piece and no two will ever look exactly alike . the frame is painted black and lightly distressed to give it a rustic look . the letters are dimensional and painted black for added interest . these make a perfect gift for weddings , birthdays , bridal showers , engagement parties , or holidays . please note : these items are not screen prints or reproductions .\n\n30045: swavar home sweet home word laser cut steel wall sign. an ideal way to add a stylish touch to any home . cut from 0.06 \u201d thick steel sheets and expertly powder coated in a variety of colors , this metal art decor is sturdy and designed to last both indoors or outdoors . it makes a perfect gift for weddings , housewarmings or to decorate one \u2019 s own home .\n\n15707: sweet home wall d\u00e9cor. whether you 're gifting the new homeowners in your life or trying to settle in to your brand new apartment , this eye-catching wall decor brings a bit of eye-catching and welcoming appeal to your walls . featuring a metal design with a simple white finish , this accent brings a bit of neutral appeal to your look , while its charming typographic design adds a dash of whimsy to your look . hang it up in the entryway over a clean-lined wood console table to invite guests in charming style at your next neighborhood gathering , or nestle it in with a vignette of other typographic accents for a cozy kitchen display .\n\n12109: home script wood cut sign wall d\u00e9cor. swimming in sentiment and dripping with charm , this wooden textual art wall decor is designed to delight ! inspired by houses filled with love the world over , this design showcases the word \u201c home \u201d in swirling lowercase cursive scrawl . made in the usa , this charming wall decor is laser-cut from 0.25 '' thick baltic birch plywood , and arrives unfinished with rustic charred edges for an on-trend , distressed appearance . designed to suit your space , this piece comes in a variety of sizes .\n\n8301: home sweet home block letters wall d\u00e9cor. wall decors not only cover empty walls , the right selection can help you create a certain mood , display your personality , or add that finishing touch to the room \u2019 s design . hang this wall decor in the kitchen , dining room , living room , or entryway as a welcome to your family and friends . you can also pair it with other inspirational decors and wall art to create your very own gallery wall in the living room , or along the stairs . wherever , and however you decide to style this decor , it will surely enhance the look of any room .\n\n9663: welcome home sign wall d\u00e9cor. welcome , home mdf sign has emerged as a leader , in the home d\u00e9cor industry , as an exceptional design and quality manufacturer that also providing artistic trendy designs . our high-quality material and workmanship can be seen through the products we provide such as decorative accessories , wall d\u00e9cor , candle holders , picture frames as well as seasonal goods . our designers and product development team constantly strive to find and develop new designs that lead the market in trends and creativity . we have built our reputation on quality , design , and innovation .\n\n3278: welcome home yard sign. this is a welcome home yard sign . our yard signs are made of weather resistant corrugated plastic , and come with yard stakes so that they are free standing . works great outdoors on grass or soft soil . what a great way to make a big statement outside your home or business ! size : 23 '' x 23 '' note : stakes may be sharp please exercise caution when assembling . signs are not designed for use in extreme wind or weather conditions . sku : 3071\n\n5196: home sweet home dog wall d\u00e9cor. who 's home sweet home is it ? woof !\n\n30358: saylorville home sweet home welcome sign. welcome guests to your home sweet home with this wooden welcome sign .\n\n30558: welcome to our home wooden and metal quote plaque sign wall d\u00e9cor. the sign says `` welcome to our home '' . show your guests a warm reminder they are always welcome to your home . a home accessory sign , crafted from real wood and metal . this sign will look great hung in any part of the house . give this gift with love to a friend or family member that has moved into their new house .\n\n889: home sweet home bird houses printed wall d\u00e9cor. nan\n\n40803: sweet serif block font wood sign home gallery wall d\u00e9cor. custom laser cut wood sign featuring the word sweet in a serif font . perfect for your family room , gallery wall , front door , entryway or kitchen . sign comes unfinished . if you plan to use outdoors , you will need to seal with paint or polyurethane sealer . made from 0.25 '' baltic birch plywood .\n\n40801: sweet arrow wood sign home gallery wall decor. custom laser cut wood sign featuring the word sweet within an arrow . perfect for your family room , gallery wall , front door , entryway or kitchen . sign comes unfinished . if you plan to use outdoors , you will need to seal with paint or polyurethane sealer . made from 0.25 '' baltic birch plywood .\n\n2760: bless this home wisdom sign wall d\u00e9cor. faux vintage metal sign . sign reads `` bless this home with happy hearts . '' can be hung using its metal hanger .\n\n19340: gold medal pub personalized bar sign wall d\u00e9cor. home wet bar know that not every beer can be a winner , but your home bar will certainly come in first with gold medal pub personalized bar sign wall d\u00e9cor . this striking bar sign features your name across a golden banner , making a truly unique piece of decor for your home . winning embellishments will make the walls of your home pop with style and color . uv protective finish , inviting all your friends to race in for another beer .\n\n34471: home sweet home framed wall d\u00e9cor. contemporary wall d\u00e9cor that will compliment any d\u00e9cor . framed modern rustic design .\n\n"
+            ],
+            "responses": [
+                "```python\nordered_docs = [\n    \"19132\", \"21275\", \"30557\", \"21994\", \"28089\", \"8778\", \"8990\", \"30562\", \"30355\", \"34471\"\n]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "19132",
+                "21275",
+                "30557",
+                "21994",
+                "28089",
+                "8778",
+                "8990",
+                "30562",
+                "30355",
+                "34471"
+            ],
+            "terminate": true
+        }
+    ]
+}

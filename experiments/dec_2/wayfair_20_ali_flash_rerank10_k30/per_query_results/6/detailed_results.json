@@ -1,0 +1,359 @@
+{
+    "queries": [
+        "acrylic clear chair"
+    ],
+    "retrieved_lists": [
+        [
+            "25143",
+            "29488",
+            "33512",
+            "29496",
+            "5298",
+            "29497",
+            "19248",
+            "32575",
+            "18662",
+            "21914",
+            "30129",
+            "752",
+            "39368",
+            "21912",
+            "13200",
+            "25875",
+            "14494",
+            "39367",
+            "19247",
+            "14228",
+            "29550",
+            "4707",
+            "14488",
+            "29502",
+            "22343",
+            "16508",
+            "39742",
+            "39295",
+            "13199",
+            "34105"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7854301929473877,
+            0.7851703763008118,
+            0.7785990238189697,
+            0.7712411284446716,
+            0.7702881693840027,
+            0.7675490379333496,
+            0.7580682039260864,
+            0.757721483707428,
+            0.7510656714439392,
+            0.7456799149513245,
+            0.7442706227302551,
+            0.7401160001754761,
+            0.7363195419311523,
+            0.7324501276016235,
+            0.7312734723091125,
+            0.7293834686279297,
+            0.7278432846069336,
+            0.7252320051193237,
+            0.7246281504631042,
+            0.7169846892356873,
+            0.7156640291213989,
+            0.714625358581543,
+            0.7116108536720276,
+            0.711122453212738,
+            0.7110488414764404,
+            0.7107802033424377,
+            0.7106904983520508,
+            0.7104588747024536,
+            0.7076899409294128,
+            0.7069301605224609
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: acrylic clear chair\n\nDocuments:\n\n25143: tonsey office chair. clear desk chair , acrylic , adjustable\n\n29488: abel curved arm chair in clear. reinvent your surroundings as many time as you like , this transparent accent side chair will blend with any decorating theme . the crystal finish of this accent chair brings modern design , elegance and function to your home or office . this chair boasts near invisibility that highlights your artwork and other furniture , lightens a crowded space and can make a small room appear larger . smooth , gently curved arms provide style while allowing you to sit comfortably . the waterfall seat reduces pressure on your legs . the clear transparent finish and geometric base add an artistic appeal and will instantly modernize your living room , kitchen or office . the versatility of this chair will have you in the office negotiating deals or at home kicking back spending time with the family . adjustable floor glides protect your floor by sliding smoothly when you need to move these beautiful chairs . the understated elegance of this accent chair highlights almost any decor without blocking the view .\n\n33512: zeferino side chair in clear. update your dining room with prominent pieces . the molded acrylic chair is both flexible and comfortable with an exciting variety of base options . suitable for indoors or out and appropriate for the living and dining room , the versatile chair is a great addition to any home d\u00e9cor statement .\n\n29496: keeney contemporary king louis back side chair in clear. make a beautiful and artistic statement with this transparent accent chair . with its intricate cut-out design and modern shape , you 'll fall in love with this chair . the transparency of the chair allows it to take up less visual space than a solid chair . this chair was crafted with an ingenious combination of lightness and strength . due to its stacking capabilities , elegant design and use in indoor and outdoor locales this chair can be used in diverse environments .\n\n5298: krauthamer task chair. this simplistic design transparent acrylic adjustable office chair will instantly change the look of your room and add and poise . the chair features a clear acrylic seat and back with a chrome base and armrest . the swivel mechanism allows the seat to rotate 360 degrees whenever you want to go for a spin . the chair has a pneumatic gas lift lever to raise or lower the seat height to meet your specifications .\n\n29497: keeney king louis back side chair in clear. make a beautiful and artistic statement with this transparent accent chair . with its intricate cut-out design and modern shape , you 'll fall in love with this chair . the transparency of the chair allows it to take up less visual space than a solid chair . this chair was crafted with an ingenious combination of lightness and strength . due to its stacking capabilities , elegant design and use in indoor and outdoor locales this chair can be used in diverse environments .\n\n19248: santee arm chair in clear. chromed steel base . strong acrylic seat\n\n32575: esman arm chair in clear. dining chair with clear finish . the seat is supported by clear legs using a chrome steel frame .\n\n18662: jules queen anne back arm chair in clear. this dining chair pairs a modern design with classic tastes for one eye-catching seat at your dinner table . it 's crafted from clear , water-resistant acrylic with a molded design , so it delivers a contemporary , barely-there look . a queen anne back , cabriole legs , and beading detail add classic french country elements for a truly updated take on traditional design . plus , it 's fully assembled , so you can skip the setup headache .\n\n21914: koge upholstered side chair in clear. the koge acrylic side chair is a stunning combination of style and functionality . hand made in the united states using only the finest materials .\n\n30129: wiston king louis back side chair in clear. the transparent chair brings modern design , elegance and function to your home , restaurant and special events . this modern chair with its louis xvi styling and near invisibility highlights your artwork and other furniture , lightens a crowded space and can make a small room appear larger . a contoured seat makes this chair comfortable and its polycarbonate molded structure makes it shock , scratch and water-resistant . protective floor glides protect your floor by sliding smoothly when you need to move these beautiful chairs . designed for indoor-outdoor and commercial use , the understated chair is a classic accent chair that highlights almost any decor without blocking the view . classic style accent chair . transparent crystal finish .\n\n752: holleman stacking side chair in clear. this dining chair is beautiful and comfortable . high solid style backrest . it is made of polycarbonate material to give it greater strength over the acrylic versions . add this jewel-like seating to give your dining area some flair .\n\n39368: jalen stacking arm chair in clear. the eobard arm dining chair is both beautiful and comfortable . high victorian style back rest . it has extra comfort in this version with the arm rests . crafted from the polycarbonate to give it greater strength over the acrylic versions . it is available in clear color that taps into modern and contemporary trends , making this piece a true icon with a versatile design .\n\n21912: koge upholstered side chair in clear. nan\n\n13200: tatul 21.125 '' wide armchair. this set of four armchairs create seating in your space without visually crowding the room . each is made of transparent plastic and features a streamlined look with arms and four straight , tapered legs . the two back legs reach up to support a king louis style back for a touch of elegance . we love that the material reflects the light in a room , adding brightness and glam visual dimension . plus , this set of four accent chairs is stackable so they 're easy to store when not in use .\n\n25875: koski chiavari chair. the elegance crystal ice chair is ideal for weddings , banquets and special events from casual to the most elegant . constructed of ultra-strong polycarbonate , it is shock , scratch , and water resistant , while also being extremely strong and wobble free . these chairs ship fully assembled , and can be stacked 10 high for storage . with its durable , lightweight construction and classic styling , this beautiful chair will become the prime seating choice for all of your special events , from casual to elegant .\n\n14494: rosborough bubble swing chair. the acrylic and chrome chair remains as cutting edge in its design , despite being created over 40 year \u2019 s ago . chair bubble is made of acrylic and the framing edge and chain are polished chrome .\n\n39367: jalbert stacking side chair in clear. the fredrick dining chair is beautiful and comfortable . it is made of polycarbonate material to give it greater strength over the acrylic versions . add this transparent solid seating to give your dining area some flair . order is for two chairs .\n\n19247: clayburgh arm chair in clear. clear finish . natural wood legs\n\n14228: cleary twig upholstered dining chair. the cleary twig upholstered dining chair will make any dining room from ordinary to extraordinary ! beautiful twig design makes each chair uniquely made just for you !\n\n29550: lolley 20.75 '' wide barrel chair. taking cues from cutting-edge contemporary designs , this streamlined barrel chair is founded atop a c-shaped frame crafted from clear acrylic plastic to create the illusion that you \u2019 re floating as you sit . foam padding cushions the manufactured wood seat , while white faux leather upholstery ensures this design is easy to clean , match , and maintain . best of all , no assembly is required so you can take a seat as soon as it arrives .\n\n4707: esd chair. a vinyl cleanroom or esd chairs are constructed of highly durable molded polyurethane foam cushioning covered with easily cleaned static-dissipating vinyl in either blue or black . optional seat tilt provides 8 forward and 3 backward locking tilts for ergonomic posture support . these bench height chairs feature your choice of esd casters or esd glides on a polished cast aluminum base . each ergonomic chair is backed by blue ridge ergonomics 15-year warranty and lifetime on the pneumatic lift .\n\n14488: side chair in clear. the glosswood dining chair is a truly comfortable chair , it has a high flexible back with good 'give ' and a deep seat pocket supported by an elegant wood wire base .\n\n29502: quast modern acrylic dining chair. nan\n\n22343: bodak 40.2 '' wide balloon chair. aarnio designed the original chair in 1968 while residing in finland . the industrial modernist design of the chair provides for a seating experience that is simultaneously encapsulating and transparent at the same time . the floating feeling is accomplished by suspending the chair in mid-air using the built-in stainless steel frame arch or mounting to the ceiling using the ceiling mount version . aarnio selected a synthetic upholstery to provide the modern industrial feel he was intending for the chair . although the bodak chair takes up similar physical space as a standard chair , from a design perspective the transparent chair floating off the ground provides a whimsical feeling of airiness . this precision reproduction of the original uses the same high-quality acrylic shell , premium stainless steel frame , and retro-futuristic silver upholstery .\n\n16508: skin stackable chair. modern and innovative chairs with a minimalist yet sophisticated design can be matched with both modern and classic tables . featuring a slightly textured surface , skin consists of a polypropylene monoblock made using the airmoulding technology which guarantees high sturdiness and lightweight . it is stackable up to 6 chairs high and highly resistant interchangeable feet , making this a versatile product suitable for outdoor use .\n\n39742: demi armless stackable chair. expecting company ? a set of chairs like this four-piece group is perfect for those moments when you have more guests than seats . crafted of plastic acrylic in a clean white finish , this streamlined design strikes an armless silhouette with a full back , ideal for leaning against . the gently-contoured seat is founded on four flared legs , lending this piece an understated contemporary look . when the party \u2019 s over and it \u2019 s time to store these chairs , they \u2019 re designed to easily stack for space-saving performance .\n\n39295: ackermann transparent minori dining chair. with a strongly charismatic character and outstanding aesthetic appeal , this chair fits perfectly into every home or public area with elegance and charm .\n\n13199: kids vinyl padded folding chair. the kids resin folding chair is a delightful option to make kids feel like vips at your special events . these mini versions will fit right in with the classic adult-sized chairs . a frame made from ultra-strong resin makes them very lightweight , but extremely strong . in fact , they can hold up to 264 pounds . the smooth frame is double braced for added stability and the front brace can be used as a footrest . the color of the frame is the same all the way through , so you do n't have to worry about nicks and scratches . no re-painting or staining is ever needed ; your chairs will look great for years to come . this adorable little chair comes with a detachable , washable , waterproof seat cushion filled with fire retardant foam . the easy to clean , durable design of these chairs makes them the ideal choice for indoor and outdoor use . the chairs are portable and fold compactly to transport and store . designed for residential and commercial use , these kid-friendly folding chairs will make it an event to remember , whether it 's a recital in the backyard , a formal banquet or a special wedding .\n\n34105: dement side chair in clear. nan\n\n"
+    ],
+    "responses": [
+        "```python\nbest_ordering = [\n    \"29488\", \"33512\", \"29496\", \"5298\", \"29497\", \"19248\", \n    \"30129\", \"18662\", \"25143\", \"32575\" \n]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "29488",
+        "33512",
+        "29496",
+        "5298",
+        "29497",
+        "19248",
+        "30129",
+        "18662",
+        "25143",
+        "32575"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "acrylic clear chair"
+            ]
+        },
+        {
+            "queries": [
+                "acrylic clear chair"
+            ],
+            "retrieved_lists": [
+                [
+                    "25143",
+                    "29488",
+                    "33512",
+                    "29496",
+                    "5298",
+                    "29497",
+                    "19248",
+                    "32575",
+                    "18662",
+                    "21914",
+                    "30129",
+                    "752",
+                    "39368",
+                    "21912",
+                    "13200",
+                    "25875",
+                    "14494",
+                    "39367",
+                    "19247",
+                    "14228",
+                    "29550",
+                    "4707",
+                    "14488",
+                    "29502",
+                    "22343",
+                    "16508",
+                    "39742",
+                    "39295",
+                    "13199",
+                    "34105"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7854301929473877,
+                    0.7851703763008118,
+                    0.7785990238189697,
+                    0.7712411284446716,
+                    0.7702881693840027,
+                    0.7675490379333496,
+                    0.7580682039260864,
+                    0.757721483707428,
+                    0.7510656714439392,
+                    0.7456799149513245,
+                    0.7442706227302551,
+                    0.7401160001754761,
+                    0.7363195419311523,
+                    0.7324501276016235,
+                    0.7312734723091125,
+                    0.7293834686279297,
+                    0.7278432846069336,
+                    0.7252320051193237,
+                    0.7246281504631042,
+                    0.7169846892356873,
+                    0.7156640291213989,
+                    0.714625358581543,
+                    0.7116108536720276,
+                    0.711122453212738,
+                    0.7110488414764404,
+                    0.7107802033424377,
+                    0.7106904983520508,
+                    0.7104588747024536,
+                    0.7076899409294128,
+                    0.7069301605224609
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "acrylic clear chair"
+            ],
+            "retrieved_lists": [
+                [
+                    "25143",
+                    "29488",
+                    "33512",
+                    "29496",
+                    "5298",
+                    "29497",
+                    "19248",
+                    "32575",
+                    "18662",
+                    "21914",
+                    "30129",
+                    "752",
+                    "39368",
+                    "21912",
+                    "13200",
+                    "25875",
+                    "14494",
+                    "39367",
+                    "19247",
+                    "14228",
+                    "29550",
+                    "4707",
+                    "14488",
+                    "29502",
+                    "22343",
+                    "16508",
+                    "39742",
+                    "39295",
+                    "13199",
+                    "34105"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7854301929473877,
+                    0.7851703763008118,
+                    0.7785990238189697,
+                    0.7712411284446716,
+                    0.7702881693840027,
+                    0.7675490379333496,
+                    0.7580682039260864,
+                    0.757721483707428,
+                    0.7510656714439392,
+                    0.7456799149513245,
+                    0.7442706227302551,
+                    0.7401160001754761,
+                    0.7363195419311523,
+                    0.7324501276016235,
+                    0.7312734723091125,
+                    0.7293834686279297,
+                    0.7278432846069336,
+                    0.7252320051193237,
+                    0.7246281504631042,
+                    0.7169846892356873,
+                    0.7156640291213989,
+                    0.714625358581543,
+                    0.7116108536720276,
+                    0.711122453212738,
+                    0.7110488414764404,
+                    0.7107802033424377,
+                    0.7106904983520508,
+                    0.7104588747024536,
+                    0.7076899409294128,
+                    0.7069301605224609
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: acrylic clear chair\n\nDocuments:\n\n25143: tonsey office chair. clear desk chair , acrylic , adjustable\n\n29488: abel curved arm chair in clear. reinvent your surroundings as many time as you like , this transparent accent side chair will blend with any decorating theme . the crystal finish of this accent chair brings modern design , elegance and function to your home or office . this chair boasts near invisibility that highlights your artwork and other furniture , lightens a crowded space and can make a small room appear larger . smooth , gently curved arms provide style while allowing you to sit comfortably . the waterfall seat reduces pressure on your legs . the clear transparent finish and geometric base add an artistic appeal and will instantly modernize your living room , kitchen or office . the versatility of this chair will have you in the office negotiating deals or at home kicking back spending time with the family . adjustable floor glides protect your floor by sliding smoothly when you need to move these beautiful chairs . the understated elegance of this accent chair highlights almost any decor without blocking the view .\n\n33512: zeferino side chair in clear. update your dining room with prominent pieces . the molded acrylic chair is both flexible and comfortable with an exciting variety of base options . suitable for indoors or out and appropriate for the living and dining room , the versatile chair is a great addition to any home d\u00e9cor statement .\n\n29496: keeney contemporary king louis back side chair in clear. make a beautiful and artistic statement with this transparent accent chair . with its intricate cut-out design and modern shape , you 'll fall in love with this chair . the transparency of the chair allows it to take up less visual space than a solid chair . this chair was crafted with an ingenious combination of lightness and strength . due to its stacking capabilities , elegant design and use in indoor and outdoor locales this chair can be used in diverse environments .\n\n5298: krauthamer task chair. this simplistic design transparent acrylic adjustable office chair will instantly change the look of your room and add and poise . the chair features a clear acrylic seat and back with a chrome base and armrest . the swivel mechanism allows the seat to rotate 360 degrees whenever you want to go for a spin . the chair has a pneumatic gas lift lever to raise or lower the seat height to meet your specifications .\n\n29497: keeney king louis back side chair in clear. make a beautiful and artistic statement with this transparent accent chair . with its intricate cut-out design and modern shape , you 'll fall in love with this chair . the transparency of the chair allows it to take up less visual space than a solid chair . this chair was crafted with an ingenious combination of lightness and strength . due to its stacking capabilities , elegant design and use in indoor and outdoor locales this chair can be used in diverse environments .\n\n19248: santee arm chair in clear. chromed steel base . strong acrylic seat\n\n32575: esman arm chair in clear. dining chair with clear finish . the seat is supported by clear legs using a chrome steel frame .\n\n18662: jules queen anne back arm chair in clear. this dining chair pairs a modern design with classic tastes for one eye-catching seat at your dinner table . it 's crafted from clear , water-resistant acrylic with a molded design , so it delivers a contemporary , barely-there look . a queen anne back , cabriole legs , and beading detail add classic french country elements for a truly updated take on traditional design . plus , it 's fully assembled , so you can skip the setup headache .\n\n21914: koge upholstered side chair in clear. the koge acrylic side chair is a stunning combination of style and functionality . hand made in the united states using only the finest materials .\n\n30129: wiston king louis back side chair in clear. the transparent chair brings modern design , elegance and function to your home , restaurant and special events . this modern chair with its louis xvi styling and near invisibility highlights your artwork and other furniture , lightens a crowded space and can make a small room appear larger . a contoured seat makes this chair comfortable and its polycarbonate molded structure makes it shock , scratch and water-resistant . protective floor glides protect your floor by sliding smoothly when you need to move these beautiful chairs . designed for indoor-outdoor and commercial use , the understated chair is a classic accent chair that highlights almost any decor without blocking the view . classic style accent chair . transparent crystal finish .\n\n752: holleman stacking side chair in clear. this dining chair is beautiful and comfortable . high solid style backrest . it is made of polycarbonate material to give it greater strength over the acrylic versions . add this jewel-like seating to give your dining area some flair .\n\n39368: jalen stacking arm chair in clear. the eobard arm dining chair is both beautiful and comfortable . high victorian style back rest . it has extra comfort in this version with the arm rests . crafted from the polycarbonate to give it greater strength over the acrylic versions . it is available in clear color that taps into modern and contemporary trends , making this piece a true icon with a versatile design .\n\n21912: koge upholstered side chair in clear. nan\n\n13200: tatul 21.125 '' wide armchair. this set of four armchairs create seating in your space without visually crowding the room . each is made of transparent plastic and features a streamlined look with arms and four straight , tapered legs . the two back legs reach up to support a king louis style back for a touch of elegance . we love that the material reflects the light in a room , adding brightness and glam visual dimension . plus , this set of four accent chairs is stackable so they 're easy to store when not in use .\n\n25875: koski chiavari chair. the elegance crystal ice chair is ideal for weddings , banquets and special events from casual to the most elegant . constructed of ultra-strong polycarbonate , it is shock , scratch , and water resistant , while also being extremely strong and wobble free . these chairs ship fully assembled , and can be stacked 10 high for storage . with its durable , lightweight construction and classic styling , this beautiful chair will become the prime seating choice for all of your special events , from casual to elegant .\n\n14494: rosborough bubble swing chair. the acrylic and chrome chair remains as cutting edge in its design , despite being created over 40 year \u2019 s ago . chair bubble is made of acrylic and the framing edge and chain are polished chrome .\n\n39367: jalbert stacking side chair in clear. the fredrick dining chair is beautiful and comfortable . it is made of polycarbonate material to give it greater strength over the acrylic versions . add this transparent solid seating to give your dining area some flair . order is for two chairs .\n\n19247: clayburgh arm chair in clear. clear finish . natural wood legs\n\n14228: cleary twig upholstered dining chair. the cleary twig upholstered dining chair will make any dining room from ordinary to extraordinary ! beautiful twig design makes each chair uniquely made just for you !\n\n29550: lolley 20.75 '' wide barrel chair. taking cues from cutting-edge contemporary designs , this streamlined barrel chair is founded atop a c-shaped frame crafted from clear acrylic plastic to create the illusion that you \u2019 re floating as you sit . foam padding cushions the manufactured wood seat , while white faux leather upholstery ensures this design is easy to clean , match , and maintain . best of all , no assembly is required so you can take a seat as soon as it arrives .\n\n4707: esd chair. a vinyl cleanroom or esd chairs are constructed of highly durable molded polyurethane foam cushioning covered with easily cleaned static-dissipating vinyl in either blue or black . optional seat tilt provides 8 forward and 3 backward locking tilts for ergonomic posture support . these bench height chairs feature your choice of esd casters or esd glides on a polished cast aluminum base . each ergonomic chair is backed by blue ridge ergonomics 15-year warranty and lifetime on the pneumatic lift .\n\n14488: side chair in clear. the glosswood dining chair is a truly comfortable chair , it has a high flexible back with good 'give ' and a deep seat pocket supported by an elegant wood wire base .\n\n29502: quast modern acrylic dining chair. nan\n\n22343: bodak 40.2 '' wide balloon chair. aarnio designed the original chair in 1968 while residing in finland . the industrial modernist design of the chair provides for a seating experience that is simultaneously encapsulating and transparent at the same time . the floating feeling is accomplished by suspending the chair in mid-air using the built-in stainless steel frame arch or mounting to the ceiling using the ceiling mount version . aarnio selected a synthetic upholstery to provide the modern industrial feel he was intending for the chair . although the bodak chair takes up similar physical space as a standard chair , from a design perspective the transparent chair floating off the ground provides a whimsical feeling of airiness . this precision reproduction of the original uses the same high-quality acrylic shell , premium stainless steel frame , and retro-futuristic silver upholstery .\n\n16508: skin stackable chair. modern and innovative chairs with a minimalist yet sophisticated design can be matched with both modern and classic tables . featuring a slightly textured surface , skin consists of a polypropylene monoblock made using the airmoulding technology which guarantees high sturdiness and lightweight . it is stackable up to 6 chairs high and highly resistant interchangeable feet , making this a versatile product suitable for outdoor use .\n\n39742: demi armless stackable chair. expecting company ? a set of chairs like this four-piece group is perfect for those moments when you have more guests than seats . crafted of plastic acrylic in a clean white finish , this streamlined design strikes an armless silhouette with a full back , ideal for leaning against . the gently-contoured seat is founded on four flared legs , lending this piece an understated contemporary look . when the party \u2019 s over and it \u2019 s time to store these chairs , they \u2019 re designed to easily stack for space-saving performance .\n\n39295: ackermann transparent minori dining chair. with a strongly charismatic character and outstanding aesthetic appeal , this chair fits perfectly into every home or public area with elegance and charm .\n\n13199: kids vinyl padded folding chair. the kids resin folding chair is a delightful option to make kids feel like vips at your special events . these mini versions will fit right in with the classic adult-sized chairs . a frame made from ultra-strong resin makes them very lightweight , but extremely strong . in fact , they can hold up to 264 pounds . the smooth frame is double braced for added stability and the front brace can be used as a footrest . the color of the frame is the same all the way through , so you do n't have to worry about nicks and scratches . no re-painting or staining is ever needed ; your chairs will look great for years to come . this adorable little chair comes with a detachable , washable , waterproof seat cushion filled with fire retardant foam . the easy to clean , durable design of these chairs makes them the ideal choice for indoor and outdoor use . the chairs are portable and fold compactly to transport and store . designed for residential and commercial use , these kid-friendly folding chairs will make it an event to remember , whether it 's a recital in the backyard , a formal banquet or a special wedding .\n\n34105: dement side chair in clear. nan\n\n"
+            ],
+            "responses": [
+                "```python\nbest_ordering = [\n    \"29488\", \"33512\", \"29496\", \"5298\", \"29497\", \"19248\", \n    \"30129\", \"18662\", \"25143\", \"32575\" \n]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "29488",
+                "33512",
+                "29496",
+                "5298",
+                "29497",
+                "19248",
+                "30129",
+                "18662",
+                "25143",
+                "32575"
+            ]
+        },
+        {
+            "queries": [
+                "acrylic clear chair"
+            ],
+            "retrieved_lists": [
+                [
+                    "25143",
+                    "29488",
+                    "33512",
+                    "29496",
+                    "5298",
+                    "29497",
+                    "19248",
+                    "32575",
+                    "18662",
+                    "21914",
+                    "30129",
+                    "752",
+                    "39368",
+                    "21912",
+                    "13200",
+                    "25875",
+                    "14494",
+                    "39367",
+                    "19247",
+                    "14228",
+                    "29550",
+                    "4707",
+                    "14488",
+                    "29502",
+                    "22343",
+                    "16508",
+                    "39742",
+                    "39295",
+                    "13199",
+                    "34105"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7854301929473877,
+                    0.7851703763008118,
+                    0.7785990238189697,
+                    0.7712411284446716,
+                    0.7702881693840027,
+                    0.7675490379333496,
+                    0.7580682039260864,
+                    0.757721483707428,
+                    0.7510656714439392,
+                    0.7456799149513245,
+                    0.7442706227302551,
+                    0.7401160001754761,
+                    0.7363195419311523,
+                    0.7324501276016235,
+                    0.7312734723091125,
+                    0.7293834686279297,
+                    0.7278432846069336,
+                    0.7252320051193237,
+                    0.7246281504631042,
+                    0.7169846892356873,
+                    0.7156640291213989,
+                    0.714625358581543,
+                    0.7116108536720276,
+                    0.711122453212738,
+                    0.7110488414764404,
+                    0.7107802033424377,
+                    0.7106904983520508,
+                    0.7104588747024536,
+                    0.7076899409294128,
+                    0.7069301605224609
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: acrylic clear chair\n\nDocuments:\n\n25143: tonsey office chair. clear desk chair , acrylic , adjustable\n\n29488: abel curved arm chair in clear. reinvent your surroundings as many time as you like , this transparent accent side chair will blend with any decorating theme . the crystal finish of this accent chair brings modern design , elegance and function to your home or office . this chair boasts near invisibility that highlights your artwork and other furniture , lightens a crowded space and can make a small room appear larger . smooth , gently curved arms provide style while allowing you to sit comfortably . the waterfall seat reduces pressure on your legs . the clear transparent finish and geometric base add an artistic appeal and will instantly modernize your living room , kitchen or office . the versatility of this chair will have you in the office negotiating deals or at home kicking back spending time with the family . adjustable floor glides protect your floor by sliding smoothly when you need to move these beautiful chairs . the understated elegance of this accent chair highlights almost any decor without blocking the view .\n\n33512: zeferino side chair in clear. update your dining room with prominent pieces . the molded acrylic chair is both flexible and comfortable with an exciting variety of base options . suitable for indoors or out and appropriate for the living and dining room , the versatile chair is a great addition to any home d\u00e9cor statement .\n\n29496: keeney contemporary king louis back side chair in clear. make a beautiful and artistic statement with this transparent accent chair . with its intricate cut-out design and modern shape , you 'll fall in love with this chair . the transparency of the chair allows it to take up less visual space than a solid chair . this chair was crafted with an ingenious combination of lightness and strength . due to its stacking capabilities , elegant design and use in indoor and outdoor locales this chair can be used in diverse environments .\n\n5298: krauthamer task chair. this simplistic design transparent acrylic adjustable office chair will instantly change the look of your room and add and poise . the chair features a clear acrylic seat and back with a chrome base and armrest . the swivel mechanism allows the seat to rotate 360 degrees whenever you want to go for a spin . the chair has a pneumatic gas lift lever to raise or lower the seat height to meet your specifications .\n\n29497: keeney king louis back side chair in clear. make a beautiful and artistic statement with this transparent accent chair . with its intricate cut-out design and modern shape , you 'll fall in love with this chair . the transparency of the chair allows it to take up less visual space than a solid chair . this chair was crafted with an ingenious combination of lightness and strength . due to its stacking capabilities , elegant design and use in indoor and outdoor locales this chair can be used in diverse environments .\n\n19248: santee arm chair in clear. chromed steel base . strong acrylic seat\n\n32575: esman arm chair in clear. dining chair with clear finish . the seat is supported by clear legs using a chrome steel frame .\n\n18662: jules queen anne back arm chair in clear. this dining chair pairs a modern design with classic tastes for one eye-catching seat at your dinner table . it 's crafted from clear , water-resistant acrylic with a molded design , so it delivers a contemporary , barely-there look . a queen anne back , cabriole legs , and beading detail add classic french country elements for a truly updated take on traditional design . plus , it 's fully assembled , so you can skip the setup headache .\n\n21914: koge upholstered side chair in clear. the koge acrylic side chair is a stunning combination of style and functionality . hand made in the united states using only the finest materials .\n\n30129: wiston king louis back side chair in clear. the transparent chair brings modern design , elegance and function to your home , restaurant and special events . this modern chair with its louis xvi styling and near invisibility highlights your artwork and other furniture , lightens a crowded space and can make a small room appear larger . a contoured seat makes this chair comfortable and its polycarbonate molded structure makes it shock , scratch and water-resistant . protective floor glides protect your floor by sliding smoothly when you need to move these beautiful chairs . designed for indoor-outdoor and commercial use , the understated chair is a classic accent chair that highlights almost any decor without blocking the view . classic style accent chair . transparent crystal finish .\n\n752: holleman stacking side chair in clear. this dining chair is beautiful and comfortable . high solid style backrest . it is made of polycarbonate material to give it greater strength over the acrylic versions . add this jewel-like seating to give your dining area some flair .\n\n39368: jalen stacking arm chair in clear. the eobard arm dining chair is both beautiful and comfortable . high victorian style back rest . it has extra comfort in this version with the arm rests . crafted from the polycarbonate to give it greater strength over the acrylic versions . it is available in clear color that taps into modern and contemporary trends , making this piece a true icon with a versatile design .\n\n21912: koge upholstered side chair in clear. nan\n\n13200: tatul 21.125 '' wide armchair. this set of four armchairs create seating in your space without visually crowding the room . each is made of transparent plastic and features a streamlined look with arms and four straight , tapered legs . the two back legs reach up to support a king louis style back for a touch of elegance . we love that the material reflects the light in a room , adding brightness and glam visual dimension . plus , this set of four accent chairs is stackable so they 're easy to store when not in use .\n\n25875: koski chiavari chair. the elegance crystal ice chair is ideal for weddings , banquets and special events from casual to the most elegant . constructed of ultra-strong polycarbonate , it is shock , scratch , and water resistant , while also being extremely strong and wobble free . these chairs ship fully assembled , and can be stacked 10 high for storage . with its durable , lightweight construction and classic styling , this beautiful chair will become the prime seating choice for all of your special events , from casual to elegant .\n\n14494: rosborough bubble swing chair. the acrylic and chrome chair remains as cutting edge in its design , despite being created over 40 year \u2019 s ago . chair bubble is made of acrylic and the framing edge and chain are polished chrome .\n\n39367: jalbert stacking side chair in clear. the fredrick dining chair is beautiful and comfortable . it is made of polycarbonate material to give it greater strength over the acrylic versions . add this transparent solid seating to give your dining area some flair . order is for two chairs .\n\n19247: clayburgh arm chair in clear. clear finish . natural wood legs\n\n14228: cleary twig upholstered dining chair. the cleary twig upholstered dining chair will make any dining room from ordinary to extraordinary ! beautiful twig design makes each chair uniquely made just for you !\n\n29550: lolley 20.75 '' wide barrel chair. taking cues from cutting-edge contemporary designs , this streamlined barrel chair is founded atop a c-shaped frame crafted from clear acrylic plastic to create the illusion that you \u2019 re floating as you sit . foam padding cushions the manufactured wood seat , while white faux leather upholstery ensures this design is easy to clean , match , and maintain . best of all , no assembly is required so you can take a seat as soon as it arrives .\n\n4707: esd chair. a vinyl cleanroom or esd chairs are constructed of highly durable molded polyurethane foam cushioning covered with easily cleaned static-dissipating vinyl in either blue or black . optional seat tilt provides 8 forward and 3 backward locking tilts for ergonomic posture support . these bench height chairs feature your choice of esd casters or esd glides on a polished cast aluminum base . each ergonomic chair is backed by blue ridge ergonomics 15-year warranty and lifetime on the pneumatic lift .\n\n14488: side chair in clear. the glosswood dining chair is a truly comfortable chair , it has a high flexible back with good 'give ' and a deep seat pocket supported by an elegant wood wire base .\n\n29502: quast modern acrylic dining chair. nan\n\n22343: bodak 40.2 '' wide balloon chair. aarnio designed the original chair in 1968 while residing in finland . the industrial modernist design of the chair provides for a seating experience that is simultaneously encapsulating and transparent at the same time . the floating feeling is accomplished by suspending the chair in mid-air using the built-in stainless steel frame arch or mounting to the ceiling using the ceiling mount version . aarnio selected a synthetic upholstery to provide the modern industrial feel he was intending for the chair . although the bodak chair takes up similar physical space as a standard chair , from a design perspective the transparent chair floating off the ground provides a whimsical feeling of airiness . this precision reproduction of the original uses the same high-quality acrylic shell , premium stainless steel frame , and retro-futuristic silver upholstery .\n\n16508: skin stackable chair. modern and innovative chairs with a minimalist yet sophisticated design can be matched with both modern and classic tables . featuring a slightly textured surface , skin consists of a polypropylene monoblock made using the airmoulding technology which guarantees high sturdiness and lightweight . it is stackable up to 6 chairs high and highly resistant interchangeable feet , making this a versatile product suitable for outdoor use .\n\n39742: demi armless stackable chair. expecting company ? a set of chairs like this four-piece group is perfect for those moments when you have more guests than seats . crafted of plastic acrylic in a clean white finish , this streamlined design strikes an armless silhouette with a full back , ideal for leaning against . the gently-contoured seat is founded on four flared legs , lending this piece an understated contemporary look . when the party \u2019 s over and it \u2019 s time to store these chairs , they \u2019 re designed to easily stack for space-saving performance .\n\n39295: ackermann transparent minori dining chair. with a strongly charismatic character and outstanding aesthetic appeal , this chair fits perfectly into every home or public area with elegance and charm .\n\n13199: kids vinyl padded folding chair. the kids resin folding chair is a delightful option to make kids feel like vips at your special events . these mini versions will fit right in with the classic adult-sized chairs . a frame made from ultra-strong resin makes them very lightweight , but extremely strong . in fact , they can hold up to 264 pounds . the smooth frame is double braced for added stability and the front brace can be used as a footrest . the color of the frame is the same all the way through , so you do n't have to worry about nicks and scratches . no re-painting or staining is ever needed ; your chairs will look great for years to come . this adorable little chair comes with a detachable , washable , waterproof seat cushion filled with fire retardant foam . the easy to clean , durable design of these chairs makes them the ideal choice for indoor and outdoor use . the chairs are portable and fold compactly to transport and store . designed for residential and commercial use , these kid-friendly folding chairs will make it an event to remember , whether it 's a recital in the backyard , a formal banquet or a special wedding .\n\n34105: dement side chair in clear. nan\n\n"
+            ],
+            "responses": [
+                "```python\nbest_ordering = [\n    \"29488\", \"33512\", \"29496\", \"5298\", \"29497\", \"19248\", \n    \"30129\", \"18662\", \"25143\", \"32575\" \n]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "29488",
+                "33512",
+                "29496",
+                "5298",
+                "29497",
+                "19248",
+                "30129",
+                "18662",
+                "25143",
+                "32575"
+            ],
+            "terminate": true
+        }
+    ]
+}
