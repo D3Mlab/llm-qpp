@@ -101,7 +101,7 @@ class EvalManager():
         """
         if not trec_file_path.exists() or trec_file_path.stat().st_size == 0:
             query_id = trec_file_path.parent.name  # Use the parent directory name as the query ID
-            self.experiment_logger.warning(f"TREC results file {trec_file_path} is empty or missing. Adding a dummy line.")
+            self.experiment_logger.warning(f"Query {query_id}: TREC results file {trec_file_path} is empty or missing. Adding a dummy line.")
             dummy_line = f"{query_id} Q0 dummy_doc_id 1 0.0 dummy_run\n"
             with open(dedup_trec_file_path, "w") as dedup_file:
                 dedup_file.write(dummy_line)
