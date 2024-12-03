@@ -41,7 +41,7 @@ class GeneralAgent(BaseAgent):
             #replace any updated state values in the previous state with act_result values
             curr_state = {**self.state_hist[-1], **act_result}
             curr_state.update({'last_action_method' : act_method.__name__})
-            self.logger.debug(curr_state)
+            #self.logger.debug(curr_state)
             self.state_hist.append(curr_state)
 
         
