@@ -59,7 +59,7 @@ class PipelinePolicy(BasePolicy):
             comp_inst = comp_class(config=self.config)
             self.components[comp_name] = comp_inst
         else:
-            comp_inst = self.comonents[comp_name]
+            comp_inst = self.components[comp_name]
 
         # Get the method from the component instance, e.g. rank() from DenseRetriever
         act_method = getattr(comp_inst, method_name)

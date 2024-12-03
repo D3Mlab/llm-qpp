@@ -16,7 +16,7 @@ agent:
       method: check_max_q_reforms
     - component: Prompter
       method: reform_q_post_retr
-  max_q_reforms: 4 # T, if pre-retrieval reformulation used, num_retrieval_operations = T; else if no pre-retrieval reformulation, num_retrieval_operations = T + 1 
+  max_q_reforms: 0 # T, if pre-retrieval reformulation used, num_retrieval_operations = T; else if no pre-retrieval reformulation, num_retrieval_operations = T + 1 
 embedding:
   embedder_class: HuggingFaceEmbedder
   model_name: sentence-transformers/all-MiniLM-L6-v2
