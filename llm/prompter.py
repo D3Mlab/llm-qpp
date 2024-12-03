@@ -32,7 +32,11 @@ class Prompter():
         prompt_dict = {"query" : init_q}
         template_dir = self.template_config["pre_retrieval_reformulation"]
         prompt = self.render_prompt(prompt_dict, template_dir)
-        reformed_q = self.llm.prompt(prompt)["message"]
+        self.add_prompt_to_state(state,prompt)
+
+        llm_output = self.llm.prompt(prompt)["message"]
+        self.add_response_to_state(state,llm_output)
+        reformed_q = llm_output
 
         state["queries"].append(reformed_q)
         return state
@@ -60,15 +64,17 @@ class Prompter():
 
         template_dir = self.template_config["reranking"]
         prompt = self.render_prompt(prompt_dict, template_dir)
+        self.add_prompt_to_state(state,prompt)
         #self.logger.debug(f"reranking prompt: {prompt}")
+
         llm_output = self.llm.prompt(prompt)["message"]
-        
+        self.add_response_to_state(state,llm_output)
+
         # Parse the LLM output
         curr_top_k_docIDs = self.parse_llm_list(llm_output)
 
         state["curr_top_k_docIDs"] = curr_top_k_docIDs
         return state
-
 
     def decide_termination_best_docs(self, state):
         #given the best K doc IDs (e.g. from reranking): curr_top_k_docIDs
@@ -86,8 +92,10 @@ class Prompter():
 
         template_dir = self.template_config["termination"]
         prompt = self.render_prompt(prompt_dict, template_dir)
+        self.add_prompt_to_state(state,prompt)
         #self.logger.debug(f"termination prompt: {prompt}")
         llm_output = self.llm.prompt(prompt)["message"]
+        self.add_response_to_state(state,llm_output)
         
         # Process Yes/No termination decision from LLM output
         if isinstance(llm_output, str) and llm_output.strip().lower() == 'yes':
@@ -121,12 +129,23 @@ class Prompter():
 
         template_dir = self.template_config["post_retrieval_reformulation"]
         prompt = self.render_prompt(prompt_dict, template_dir)
+        self.add_prompt_to_state(state,prompt)
         #self.logger.debug(f"post-retrieval reformulation prompt: {prompt}")
         llm_output = self.llm.prompt(prompt)["message"]
-        
+        self.add_response_to_state(state,llm_output)
+
         state["queries"].append(llm_output)
         return state
 
+    def add_prompt_to_state(state,prompt):
+        if "prompts" not in state:
+            state["prompts"] = []  
+        state["prompts"].append(prompt)
+
+    def add_response_to_state(state,response):
+        if "responses" not in state:
+            state["responses"] = []  
+        state["responses"].append(response)
 
     def get_init_q(self,state):
         return state["queries"][0]
