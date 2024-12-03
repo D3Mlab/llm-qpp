@@ -1,0 +1,1090 @@
+{
+    "queries": [
+        "owl",
+        "owl statue, owl art, owl decor, owl figurines\n",
+        "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n",
+        "owl figurines, owl statues, owl home decor, owl garden decor, owl art,  types of owls, owl lights, halloween owl decorations\n"
+    ],
+    "retrieved_lists": [
+        [
+            "26428",
+            "36661",
+            "17909",
+            "7700",
+            "13493",
+            "32595",
+            "6438",
+            "40933",
+            "3731",
+            "18549"
+        ],
+        [
+            "33157",
+            "40823",
+            "24423",
+            "920",
+            "40763",
+            "7691",
+            "17682",
+            "8054",
+            "6456",
+            "36661"
+        ],
+        [
+            "40823",
+            "920",
+            "24423",
+            "36637",
+            "33157",
+            "17682",
+            "40763",
+            "18142",
+            "8054",
+            "40821"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7009904384613037,
+            0.7005279064178467,
+            0.698199987411499,
+            0.6968955993652344,
+            0.6901237964630127,
+            0.6891689300537109,
+            0.6873095631599426,
+            0.6854436993598938,
+            0.68485027551651,
+            0.6839308738708496
+        ],
+        [
+            0.7769343852996826,
+            0.7710391283035278,
+            0.7640155553817749,
+            0.7556354999542236,
+            0.7555223703384399,
+            0.7525913715362549,
+            0.7511266469955444,
+            0.7499417066574097,
+            0.7487802505493164,
+            0.7468998432159424
+        ],
+        [
+            0.7848750948905945,
+            0.782974123954773,
+            0.7744830846786499,
+            0.7618842124938965,
+            0.7601655721664429,
+            0.7521936893463135,
+            0.7503216862678528,
+            0.7486597299575806,
+            0.7474183440208435,
+            0.747126042842865
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n7691: baby barn owl statue. nan\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n6456: stringham stacking owl family statue. are you ready to welcome friends and neighbors with something fun and unique element ? look no further than this friendly owl family statue . featuring three adorable owls stacked on each other , this statue will the hearts of any passerby ! the owl family members have the largest most lovely eyes and beautiful feathers painted in different colors that add a playful look and whimsical accent to any space in your home . made from a superior quality resin , this cute animal statue was designed to withstand the elements yet is light enough to easily move around . great gift for a friend or family member for mother \u2019 s day , birthday , and housewarming .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n***\n\nPrevious query reformulations:\n***\n\nowl statue, owl art, owl decor, owl figurines\n\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n36637: 2 piece ogling outdoor owl garden statue set. what a hoot ! design toscano 's absolutely adorable , matching set of outdoor owls will ogle amorously , flirtatiously or impertinently while adding charm and wisdom from the perch of your choosing . place design toscano feathered fowls in your garden and watch as their wise , wide-eyed gazes follow you from deck to pond . hand-crafted in quality designer resin with a hand-painted finish exclusively for design toscano , this pair of bird statues is a true flight of fancy flanking a garden gate , nesting near a favorite tree or alighting beside a pond or pool . design toscano bird sculptures make great gifts for nature lovers - and whooo does n't love owls ?\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n18142: winter owl totem figurine. this stack of winter owls has a holiday look with red and green scarves and a santa hat . the totem includes three brown owls with large eyes . this product is suitable for indoor or outdoor use . made of polystone .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n40821: kardier wise owl ceramic sculpture. update your style with this charming ceramic owl figure featuring oversized eyes and a quizzical look . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n***\n\nPrevious query reformulations:\n***\n\nowl statue, owl art, owl decor, owl figurines\n\n\nowl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n",
+        "owl statue, owl art, owl decor, owl figurines\n",
+        "```python\ndoc_ids = [\n    \"36661\", \"40933\", \"26428\", \"3731\", \"33157\", \"40823\", \"24423\", \"920\", \n    \"40763\", \"36661\"\n]\nprint(doc_ids)\n```\n",
+        "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n",
+        "```python\ndoc_ids = [\n    \"36661\", \"40823\", \"920\", \"24423\", \"33157\", \"40933\", \"26428\", \"3731\", \n    \"40763\", \"17682\"\n]\nprint(doc_ids)\n```\n",
+        "owl figurines, owl statues, owl home decor, owl garden decor, owl art,  types of owls, owl lights, halloween owl decorations\n"
+    ],
+    "curr_top_k_docIDs": [
+        "36661",
+        "40823",
+        "920",
+        "24423",
+        "33157",
+        "40933",
+        "26428",
+        "3731",
+        "40763",
+        "17682"
+    ],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "owl"
+            ]
+        },
+        {
+            "queries": [
+                "owl"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "owl"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "26428",
+                "36661",
+                "40933",
+                "3731",
+                "7700",
+                "13493",
+                "32595",
+                "6438",
+                "17909",
+                "18549"
+            ]
+        },
+        {
+            "queries": [
+                "owl"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "26428",
+                "36661",
+                "40933",
+                "3731",
+                "7700",
+                "13493",
+                "32595",
+                "6438",
+                "17909",
+                "18549"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "owl",
+                "owl statue, owl art, owl decor, owl figurines\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n",
+                "owl statue, owl art, owl decor, owl figurines\n"
+            ],
+            "curr_top_k_docIDs": [
+                "26428",
+                "36661",
+                "40933",
+                "3731",
+                "7700",
+                "13493",
+                "32595",
+                "6438",
+                "17909",
+                "18549"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "owl",
+                "owl statue, owl art, owl decor, owl figurines\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ],
+                [
+                    "33157",
+                    "40823",
+                    "24423",
+                    "920",
+                    "40763",
+                    "7691",
+                    "17682",
+                    "8054",
+                    "6456",
+                    "36661"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ],
+                [
+                    0.7769343852996826,
+                    0.7710391283035278,
+                    0.7640155553817749,
+                    0.7556354999542236,
+                    0.7555223703384399,
+                    0.7525913715362549,
+                    0.7511266469955444,
+                    0.7499417066574097,
+                    0.7487802505493164,
+                    0.7468998432159424
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n",
+                "owl statue, owl art, owl decor, owl figurines\n"
+            ],
+            "curr_top_k_docIDs": [
+                "26428",
+                "36661",
+                "40933",
+                "3731",
+                "7700",
+                "13493",
+                "32595",
+                "6438",
+                "17909",
+                "18549"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "owl",
+                "owl statue, owl art, owl decor, owl figurines\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ],
+                [
+                    "33157",
+                    "40823",
+                    "24423",
+                    "920",
+                    "40763",
+                    "7691",
+                    "17682",
+                    "8054",
+                    "6456",
+                    "36661"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ],
+                [
+                    0.7769343852996826,
+                    0.7710391283035278,
+                    0.7640155553817749,
+                    0.7556354999542236,
+                    0.7555223703384399,
+                    0.7525913715362549,
+                    0.7511266469955444,
+                    0.7499417066574097,
+                    0.7487802505493164,
+                    0.7468998432159424
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n7691: baby barn owl statue. nan\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n6456: stringham stacking owl family statue. are you ready to welcome friends and neighbors with something fun and unique element ? look no further than this friendly owl family statue . featuring three adorable owls stacked on each other , this statue will the hearts of any passerby ! the owl family members have the largest most lovely eyes and beautiful feathers painted in different colors that add a playful look and whimsical accent to any space in your home . made from a superior quality resin , this cute animal statue was designed to withstand the elements yet is light enough to easily move around . great gift for a friend or family member for mother \u2019 s day , birthday , and housewarming .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "```python\ndoc_ids = [\n    \"36661\", \"40933\", \"26428\", \"3731\", \"33157\", \"40823\", \"24423\", \"920\", \n    \"40763\", \"36661\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36661",
+                "40933",
+                "26428",
+                "3731",
+                "33157",
+                "40823",
+                "24423",
+                "920",
+                "40763",
+                "36661"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "owl",
+                "owl statue, owl art, owl decor, owl figurines\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ],
+                [
+                    "33157",
+                    "40823",
+                    "24423",
+                    "920",
+                    "40763",
+                    "7691",
+                    "17682",
+                    "8054",
+                    "6456",
+                    "36661"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ],
+                [
+                    0.7769343852996826,
+                    0.7710391283035278,
+                    0.7640155553817749,
+                    0.7556354999542236,
+                    0.7555223703384399,
+                    0.7525913715362549,
+                    0.7511266469955444,
+                    0.7499417066574097,
+                    0.7487802505493164,
+                    0.7468998432159424
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n7691: baby barn owl statue. nan\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n6456: stringham stacking owl family statue. are you ready to welcome friends and neighbors with something fun and unique element ? look no further than this friendly owl family statue . featuring three adorable owls stacked on each other , this statue will the hearts of any passerby ! the owl family members have the largest most lovely eyes and beautiful feathers painted in different colors that add a playful look and whimsical accent to any space in your home . made from a superior quality resin , this cute animal statue was designed to withstand the elements yet is light enough to easily move around . great gift for a friend or family member for mother \u2019 s day , birthday , and housewarming .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "```python\ndoc_ids = [\n    \"36661\", \"40933\", \"26428\", \"3731\", \"33157\", \"40823\", \"24423\", \"920\", \n    \"40763\", \"36661\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36661",
+                "40933",
+                "26428",
+                "3731",
+                "33157",
+                "40823",
+                "24423",
+                "920",
+                "40763",
+                "36661"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "owl",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ],
+                [
+                    "33157",
+                    "40823",
+                    "24423",
+                    "920",
+                    "40763",
+                    "7691",
+                    "17682",
+                    "8054",
+                    "6456",
+                    "36661"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ],
+                [
+                    0.7769343852996826,
+                    0.7710391283035278,
+                    0.7640155553817749,
+                    0.7556354999542236,
+                    0.7555223703384399,
+                    0.7525913715362549,
+                    0.7511266469955444,
+                    0.7499417066574097,
+                    0.7487802505493164,
+                    0.7468998432159424
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n7691: baby barn owl statue. nan\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n6456: stringham stacking owl family statue. are you ready to welcome friends and neighbors with something fun and unique element ? look no further than this friendly owl family statue . featuring three adorable owls stacked on each other , this statue will the hearts of any passerby ! the owl family members have the largest most lovely eyes and beautiful feathers painted in different colors that add a playful look and whimsical accent to any space in your home . made from a superior quality resin , this cute animal statue was designed to withstand the elements yet is light enough to easily move around . great gift for a friend or family member for mother \u2019 s day , birthday , and housewarming .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n***\n\nPrevious query reformulations:\n***\n\nowl statue, owl art, owl decor, owl figurines\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "```python\ndoc_ids = [\n    \"36661\", \"40933\", \"26428\", \"3731\", \"33157\", \"40823\", \"24423\", \"920\", \n    \"40763\", \"36661\"\n]\nprint(doc_ids)\n```\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36661",
+                "40933",
+                "26428",
+                "3731",
+                "33157",
+                "40823",
+                "24423",
+                "920",
+                "40763",
+                "36661"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "owl",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ],
+                [
+                    "33157",
+                    "40823",
+                    "24423",
+                    "920",
+                    "40763",
+                    "7691",
+                    "17682",
+                    "8054",
+                    "6456",
+                    "36661"
+                ],
+                [
+                    "40823",
+                    "920",
+                    "24423",
+                    "36637",
+                    "33157",
+                    "17682",
+                    "40763",
+                    "18142",
+                    "8054",
+                    "40821"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ],
+                [
+                    0.7769343852996826,
+                    0.7710391283035278,
+                    0.7640155553817749,
+                    0.7556354999542236,
+                    0.7555223703384399,
+                    0.7525913715362549,
+                    0.7511266469955444,
+                    0.7499417066574097,
+                    0.7487802505493164,
+                    0.7468998432159424
+                ],
+                [
+                    0.7848750948905945,
+                    0.782974123954773,
+                    0.7744830846786499,
+                    0.7618842124938965,
+                    0.7601655721664429,
+                    0.7521936893463135,
+                    0.7503216862678528,
+                    0.7486597299575806,
+                    0.7474183440208435,
+                    0.747126042842865
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n7691: baby barn owl statue. nan\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n6456: stringham stacking owl family statue. are you ready to welcome friends and neighbors with something fun and unique element ? look no further than this friendly owl family statue . featuring three adorable owls stacked on each other , this statue will the hearts of any passerby ! the owl family members have the largest most lovely eyes and beautiful feathers painted in different colors that add a playful look and whimsical accent to any space in your home . made from a superior quality resin , this cute animal statue was designed to withstand the elements yet is light enough to easily move around . great gift for a friend or family member for mother \u2019 s day , birthday , and housewarming .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n***\n\nPrevious query reformulations:\n***\n\nowl statue, owl art, owl decor, owl figurines\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "```python\ndoc_ids = [\n    \"36661\", \"40933\", \"26428\", \"3731\", \"33157\", \"40823\", \"24423\", \"920\", \n    \"40763\", \"36661\"\n]\nprint(doc_ids)\n```\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36661",
+                "40933",
+                "26428",
+                "3731",
+                "33157",
+                "40823",
+                "24423",
+                "920",
+                "40763",
+                "36661"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "owl",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ],
+                [
+                    "33157",
+                    "40823",
+                    "24423",
+                    "920",
+                    "40763",
+                    "7691",
+                    "17682",
+                    "8054",
+                    "6456",
+                    "36661"
+                ],
+                [
+                    "40823",
+                    "920",
+                    "24423",
+                    "36637",
+                    "33157",
+                    "17682",
+                    "40763",
+                    "18142",
+                    "8054",
+                    "40821"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ],
+                [
+                    0.7769343852996826,
+                    0.7710391283035278,
+                    0.7640155553817749,
+                    0.7556354999542236,
+                    0.7555223703384399,
+                    0.7525913715362549,
+                    0.7511266469955444,
+                    0.7499417066574097,
+                    0.7487802505493164,
+                    0.7468998432159424
+                ],
+                [
+                    0.7848750948905945,
+                    0.782974123954773,
+                    0.7744830846786499,
+                    0.7618842124938965,
+                    0.7601655721664429,
+                    0.7521936893463135,
+                    0.7503216862678528,
+                    0.7486597299575806,
+                    0.7474183440208435,
+                    0.747126042842865
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n7691: baby barn owl statue. nan\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n6456: stringham stacking owl family statue. are you ready to welcome friends and neighbors with something fun and unique element ? look no further than this friendly owl family statue . featuring three adorable owls stacked on each other , this statue will the hearts of any passerby ! the owl family members have the largest most lovely eyes and beautiful feathers painted in different colors that add a playful look and whimsical accent to any space in your home . made from a superior quality resin , this cute animal statue was designed to withstand the elements yet is light enough to easily move around . great gift for a friend or family member for mother \u2019 s day , birthday , and housewarming .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n***\n\nPrevious query reformulations:\n***\n\nowl statue, owl art, owl decor, owl figurines\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n36637: 2 piece ogling outdoor owl garden statue set. what a hoot ! design toscano 's absolutely adorable , matching set of outdoor owls will ogle amorously , flirtatiously or impertinently while adding charm and wisdom from the perch of your choosing . place design toscano feathered fowls in your garden and watch as their wise , wide-eyed gazes follow you from deck to pond . hand-crafted in quality designer resin with a hand-painted finish exclusively for design toscano , this pair of bird statues is a true flight of fancy flanking a garden gate , nesting near a favorite tree or alighting beside a pond or pool . design toscano bird sculptures make great gifts for nature lovers - and whooo does n't love owls ?\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n18142: winter owl totem figurine. this stack of winter owls has a holiday look with red and green scarves and a santa hat . the totem includes three brown owls with large eyes . this product is suitable for indoor or outdoor use . made of polystone .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n40821: kardier wise owl ceramic sculpture. update your style with this charming ceramic owl figure featuring oversized eyes and a quizzical look . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "```python\ndoc_ids = [\n    \"36661\", \"40933\", \"26428\", \"3731\", \"33157\", \"40823\", \"24423\", \"920\", \n    \"40763\", \"36661\"\n]\nprint(doc_ids)\n```\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n",
+                "```python\ndoc_ids = [\n    \"36661\", \"40823\", \"920\", \"24423\", \"33157\", \"40933\", \"26428\", \"3731\", \n    \"40763\", \"17682\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36661",
+                "40823",
+                "920",
+                "24423",
+                "33157",
+                "40933",
+                "26428",
+                "3731",
+                "40763",
+                "17682"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "owl",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ],
+                [
+                    "33157",
+                    "40823",
+                    "24423",
+                    "920",
+                    "40763",
+                    "7691",
+                    "17682",
+                    "8054",
+                    "6456",
+                    "36661"
+                ],
+                [
+                    "40823",
+                    "920",
+                    "24423",
+                    "36637",
+                    "33157",
+                    "17682",
+                    "40763",
+                    "18142",
+                    "8054",
+                    "40821"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ],
+                [
+                    0.7769343852996826,
+                    0.7710391283035278,
+                    0.7640155553817749,
+                    0.7556354999542236,
+                    0.7555223703384399,
+                    0.7525913715362549,
+                    0.7511266469955444,
+                    0.7499417066574097,
+                    0.7487802505493164,
+                    0.7468998432159424
+                ],
+                [
+                    0.7848750948905945,
+                    0.782974123954773,
+                    0.7744830846786499,
+                    0.7618842124938965,
+                    0.7601655721664429,
+                    0.7521936893463135,
+                    0.7503216862678528,
+                    0.7486597299575806,
+                    0.7474183440208435,
+                    0.747126042842865
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n7691: baby barn owl statue. nan\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n6456: stringham stacking owl family statue. are you ready to welcome friends and neighbors with something fun and unique element ? look no further than this friendly owl family statue . featuring three adorable owls stacked on each other , this statue will the hearts of any passerby ! the owl family members have the largest most lovely eyes and beautiful feathers painted in different colors that add a playful look and whimsical accent to any space in your home . made from a superior quality resin , this cute animal statue was designed to withstand the elements yet is light enough to easily move around . great gift for a friend or family member for mother \u2019 s day , birthday , and housewarming .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n***\n\nPrevious query reformulations:\n***\n\nowl statue, owl art, owl decor, owl figurines\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n36637: 2 piece ogling outdoor owl garden statue set. what a hoot ! design toscano 's absolutely adorable , matching set of outdoor owls will ogle amorously , flirtatiously or impertinently while adding charm and wisdom from the perch of your choosing . place design toscano feathered fowls in your garden and watch as their wise , wide-eyed gazes follow you from deck to pond . hand-crafted in quality designer resin with a hand-painted finish exclusively for design toscano , this pair of bird statues is a true flight of fancy flanking a garden gate , nesting near a favorite tree or alighting beside a pond or pool . design toscano bird sculptures make great gifts for nature lovers - and whooo does n't love owls ?\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n18142: winter owl totem figurine. this stack of winter owls has a holiday look with red and green scarves and a santa hat . the totem includes three brown owls with large eyes . this product is suitable for indoor or outdoor use . made of polystone .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n40821: kardier wise owl ceramic sculpture. update your style with this charming ceramic owl figure featuring oversized eyes and a quizzical look . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "```python\ndoc_ids = [\n    \"36661\", \"40933\", \"26428\", \"3731\", \"33157\", \"40823\", \"24423\", \"920\", \n    \"40763\", \"36661\"\n]\nprint(doc_ids)\n```\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n",
+                "```python\ndoc_ids = [\n    \"36661\", \"40823\", \"920\", \"24423\", \"33157\", \"40933\", \"26428\", \"3731\", \n    \"40763\", \"17682\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36661",
+                "40823",
+                "920",
+                "24423",
+                "33157",
+                "40933",
+                "26428",
+                "3731",
+                "40763",
+                "17682"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "owl",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art,  types of owls, owl lights, halloween owl decorations\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "26428",
+                    "36661",
+                    "17909",
+                    "7700",
+                    "13493",
+                    "32595",
+                    "6438",
+                    "40933",
+                    "3731",
+                    "18549"
+                ],
+                [
+                    "33157",
+                    "40823",
+                    "24423",
+                    "920",
+                    "40763",
+                    "7691",
+                    "17682",
+                    "8054",
+                    "6456",
+                    "36661"
+                ],
+                [
+                    "40823",
+                    "920",
+                    "24423",
+                    "36637",
+                    "33157",
+                    "17682",
+                    "40763",
+                    "18142",
+                    "8054",
+                    "40821"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7009904384613037,
+                    0.7005279064178467,
+                    0.698199987411499,
+                    0.6968955993652344,
+                    0.6901237964630127,
+                    0.6891689300537109,
+                    0.6873095631599426,
+                    0.6854436993598938,
+                    0.68485027551651,
+                    0.6839308738708496
+                ],
+                [
+                    0.7769343852996826,
+                    0.7710391283035278,
+                    0.7640155553817749,
+                    0.7556354999542236,
+                    0.7555223703384399,
+                    0.7525913715362549,
+                    0.7511266469955444,
+                    0.7499417066574097,
+                    0.7487802505493164,
+                    0.7468998432159424
+                ],
+                [
+                    0.7848750948905945,
+                    0.782974123954773,
+                    0.7744830846786499,
+                    0.7618842124938965,
+                    0.7601655721664429,
+                    0.7521936893463135,
+                    0.7503216862678528,
+                    0.7486597299575806,
+                    0.7474183440208435,
+                    0.747126042842865
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n17909: burlap owl. nan\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n18549: owl napkin holder. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n7700: scholarly owl statue. nan\n\n13493: owl bird tree throw pillow. nan\n\n32595: royal worcester wrendale designs single what a hoot ( owl ) fine bone china 8 '' plate. nan\n\n6438: herculaneum ceramic faux grain owl. nan\n\n17909: burlap owl. nan\n\n18549: owl napkin holder. nan\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n7691: baby barn owl statue. nan\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n6456: stringham stacking owl family statue. are you ready to welcome friends and neighbors with something fun and unique element ? look no further than this friendly owl family statue . featuring three adorable owls stacked on each other , this statue will the hearts of any passerby ! the owl family members have the largest most lovely eyes and beautiful feathers painted in different colors that add a playful look and whimsical accent to any space in your home . made from a superior quality resin , this cute animal statue was designed to withstand the elements yet is light enough to easily move around . great gift for a friend or family member for mother \u2019 s day , birthday , and housewarming .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n***\n\nPrevious query reformulations:\n***\n\nowl statue, owl art, owl decor, owl figurines\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: owl\n\nDocuments:\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n36637: 2 piece ogling outdoor owl garden statue set. what a hoot ! design toscano 's absolutely adorable , matching set of outdoor owls will ogle amorously , flirtatiously or impertinently while adding charm and wisdom from the perch of your choosing . place design toscano feathered fowls in your garden and watch as their wise , wide-eyed gazes follow you from deck to pond . hand-crafted in quality designer resin with a hand-painted finish exclusively for design toscano , this pair of bird statues is a true flight of fancy flanking a garden gate , nesting near a favorite tree or alighting beside a pond or pool . design toscano bird sculptures make great gifts for nature lovers - and whooo does n't love owls ?\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n18142: winter owl totem figurine. this stack of winter owls has a holiday look with red and green scarves and a santa hat . the totem includes three brown owls with large eyes . this product is suitable for indoor or outdoor use . made of polystone .\n\n8054: harmoni see no evil owl figurine. pairing a whimsical owl silhouette with a solid color pattern , this eye-catching ceramic figurine set is a playful addition to your decor . its understated design blends effortlessly into both casual and formal aesthetics while its playful design brings woodland charm to any space . add this piece to the dining room to complement a cozy cottage arrangement or use it to level out a factory-inspired look in the living room .\n\n40821: kardier wise owl ceramic sculpture. update your style with this charming ceramic owl figure featuring oversized eyes and a quizzical look . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nowl\n***\n\nDocuments:\n***\n\n36661: owl wall d\u00e9cor. whooo will usher in the symbol of the feminine , the moon , magic and wisdom ? why , design toscano mystical snowy owl with a wingspan of almost two feet ! painstakingly sculpted from each feather and talon to wide dark eyes and powerful beak , this work of decorative wall art is cast in quality designer resin and hand painted in nature 's perfect palette . owl mythology attributes the power of intuition to this powerful bird . if you had it too , you 'd know that it was available only at design toscano .\n\n40823: helmville debossed dotted owl. this charming resin owl figure features a painted debossed textured dot pattern to highlight its modern form . set this sculpture in the entryway for a cheerful nature-inspired greeting when you walk in the door , or on your office desk to brighten up the day . this whimsical decorative figurine would make a fun , yet bold statement when perched on a shelf or table in the living room or bedroom . place next to your favorite potted plants to create a charismatic indoor garden . a delightful way to bring the joy of the outdoors in and a great gift for any owl enthusiast .\n\n920: dunmore farmhouse owl figurine. come and take a page off alice and wonderland 's magical and enchanted forest as you walk through an imaginary garden and see all of her furry animal friends ! intricately crafted to perfection , this gray owl garden decor features a stone line sculpture of a perched owl figure with round eyes , a brown bill , and facial discs made of polystone material . they are designed with a steady and flat molded base and are lightweight enough to be carried and re-arranged all around your pretty little gardens , home balconies , and outdoor patios . this stunning garden decor is an ideal piece for country cottage , rustic , and farmhouse home interior styles . this item ships in 1 carton . suitable for indoor or outdoor use . country inspired .\n\n24423: owl solar led 2 piece light statue set. the owl solar led 2 piece light statue by pure garden gives off a soft solar light while providing delightful accent lighting making it a wonderful addition to any home or yard . the solar light soaks up the sun 's energy during the day and turns on at dusk . the realistic owl set of 2 statues is made from durable , long-lasting and weather resistant polyresin that will be adored for years to come .\n\n33157: busch ceramic owl figurine. charming and whimsical , this figurine paints a beautiful picture with its big round eyes and adorable lovable shape . it features a beautifully crafted owl with etched lines and delicate features along . it has been painstakingly detailed . the ears , eyes , and feathers are all beautifully crafted and handsomely sculpted . the figurine is just what you need to adorn your home with .\n\n40933: owl by pablo picasso - picture frame print on paper. this work of continuous line product type framed print features a simple image of an owl . it has a curved beak and a large eye created by a loop in the line .\n\n26428: owl. light up owl is the perfect purchase to help you celebrate halloween .\n\n3731: lovey the owl. a grouping of natural pumpkins and owls make a festival table piece .\n\n40763: standing owl. this figurine is with a unique design . it makes a dramatic addition to your halloween d\u00e9cor . it is suitable for any decor style .\n\n17682: oakhur owl statue. the statue with his head high to get a good look around with two big lovely eyes . this statue sealed for indoor or outdoor use . every statue has some form of imperfections and none are the same , making it a unique piece of work . it \u2019 s the perfect size to move easily and stands out as well . the owl face and winds are made with cobblestones . works great in the garden , alongside a potted plant , at your entryway , or indoors , or a grave marker of your furry friend .\n\n***\n\nPrevious query reformulations:\n***\n\nowl statue, owl art, owl decor, owl figurines\n\n\nowl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"26428\", \"36661\", \"40933\", \"3731\", \"7700\", \"13493\", \"32595\", \"6438\", \"17909\", \"18549\"\n]\n\nprint(doc_ids)\n```\n",
+                "owl statue, owl art, owl decor, owl figurines\n",
+                "```python\ndoc_ids = [\n    \"36661\", \"40933\", \"26428\", \"3731\", \"33157\", \"40823\", \"24423\", \"920\", \n    \"40763\", \"36661\"\n]\nprint(doc_ids)\n```\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art, types of owls\n",
+                "```python\ndoc_ids = [\n    \"36661\", \"40823\", \"920\", \"24423\", \"33157\", \"40933\", \"26428\", \"3731\", \n    \"40763\", \"17682\"\n]\nprint(doc_ids)\n```\n",
+                "owl figurines, owl statues, owl home decor, owl garden decor, owl art,  types of owls, owl lights, halloween owl decorations\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36661",
+                "40823",
+                "920",
+                "24423",
+                "33157",
+                "40933",
+                "26428",
+                "3731",
+                "40763",
+                "17682"
+            ],
+            "terminate": false
+        }
+    ]
+}

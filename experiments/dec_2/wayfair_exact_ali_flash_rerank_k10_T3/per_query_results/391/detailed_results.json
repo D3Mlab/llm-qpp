@@ -1,0 +1,958 @@
+{
+    "queries": [
+        "writing desk 48\"",
+        "writing desk 48 inches wide, solid wood, modern design\n",
+        "writing desk 48 inches wide, materials, style\n",
+        "writing desk 48 inches wide,  available colors, storage options\n"
+    ],
+    "retrieved_lists": [
+        [
+            "2075",
+            "39702",
+            "11104",
+            "26349",
+            "19916",
+            "12750",
+            "8462",
+            "14079",
+            "29401",
+            "7744"
+        ],
+        [
+            "32213",
+            "40580",
+            "26770",
+            "38868",
+            "12750",
+            "39541",
+            "19254",
+            "42739",
+            "23690",
+            "42737"
+        ],
+        [
+            "32213",
+            "38868",
+            "39541",
+            "42739",
+            "12750",
+            "34506",
+            "40580",
+            "40590",
+            "13608",
+            "26770"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7428098917007446,
+            0.728337287902832,
+            0.7219446897506714,
+            0.7215420007705688,
+            0.718101441860199,
+            0.7165207862854004,
+            0.7153987884521484,
+            0.7152487635612488,
+            0.7143566608428955,
+            0.7137470245361328
+        ],
+        [
+            0.82350754737854,
+            0.8001524209976196,
+            0.7990536689758301,
+            0.7974900603294373,
+            0.7961453199386597,
+            0.7940689921379089,
+            0.791691780090332,
+            0.7914748191833496,
+            0.7913789749145508,
+            0.7896214723587036
+        ],
+        [
+            0.8001381158828735,
+            0.7929072976112366,
+            0.7901632785797119,
+            0.7868388891220093,
+            0.7857635021209717,
+            0.7852687239646912,
+            0.7770180702209473,
+            0.7744890451431274,
+            0.7740077376365662,
+            0.7723304033279419
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n19254: jamari solid wood desk. marrying modern minimalism and farmhouse influence , this 50 '' writing desk sets an understated foundation in your study . it 's made of a neutral black iron frame with solid reclaimed fir wood surfaces that add rustic appeal to this practical piece . this writing desk features a rectangular tabletop balanced on an angular frame with a sled base , with two open shelves on one side great for storing books and displaying decor . we love that this desk provides enough space for your computer , work materials , or study sessions . pair with an office chair or stool to make it a welcoming part of your office or living room .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n23690: nicholas solid wood desk. whether tackling taxes or working on your next big novel , this writing desk is here to help . crafted from poplar wood , this piece features four shelves , perfect for tucking away papers , books , files , and more . measuring 30 '' h x 60 '' w x 28 '' d , it fits in well with the rest of your arrangement , while a two-toned neutral finish allows it to blend with your existing color scheme . plus , after assembly , it can support up to 50 lbs .\n\n42737: aliyah writing desk. bring a streamlined style to your home office with this contemporary desk . crafted of engineered wood with scratch- and stain-resistant melamine veneers , this desk strikes a clean-lined rectangular silhouette on a sled base . set on smooth-operating glides , two drawers offer out-of-sight storage for folders , files , and office supplies , while the expansive desktop provides plenty of space for your laptop and accessories . measuring 29.75 '' h x 47.25 '' w x 17.69 '' d overall , this desk has a 33 lbs . weight capacity .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\nwriting desk 48 inches wide, solid wood, modern design\n\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n34506: kaelin desk. this writing desk has a rustic and industrial-inspired look that we love . it 's made from a blend of metal and engineered wood with a rich black and distressed brown finish for tons of coastal farmhouse charm . the base features x-shaped accents and sleek lines on the side for an open and airy design in your home office . on top , the rectangular surface measures 39 '' wide , giving you space for a laptop , lamp , and a few framed photos . plus , this desk can even be folded in the corner when you 're not using it to save on floor space .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n40590: colston writing desk. this writing desk showcases x-shaped accents on the side for a glam art deco look in your home office or bedroom . it 's crafted from a blend of iron and engineered wood , and it 's built on an open base with a sleek gold finish . the rectangular top measures 47.5 '' wide , making it ideal for setting down a laptop , small lamp , or framed photo . it also comes with two soft-close drawers on roller glides that let you tuck away writing utensils and other office supplies . plus , this desk features safety stops on the drawers to prevent little fingers ( and big fingers ! ) from getting pinched .\n\n13608: adam priester coral pattern i writing desk. this desk has a bright , abstract design on the surface that brings a pop of contemporary color to your teen 's space . it has a slim metal base with a glam gold finish in an angular take on mid-century modern sled legs . the tabletop is made of solid birch wood and features a whimsical design of bold black squiggles on a chic white background . this desk was made in the usa and measures 48 '' wide with plenty of space for your favorite office decor .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\nwriting desk 48 inches wide, solid wood, modern design\n\n\nwriting desk 48 inches wide, materials, style\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n",
+        "writing desk 48 inches wide, solid wood, modern design\n",
+        "```python\ndoc_ids = [\n    \"40580\",  # 48'' long\n    \"38868\",  # 47.25'' desktop width\n    \"26770\",  # 50'' wide desktop\n    \"32213\",  # 44'' wide (close to query)\n    \"19254\",  # 50'' writing desk\n    \"39541\",  # 52'' wide\n    \"42739\",  # 53.15'' w\n    \"23690\",  # 60'' w (large but relevant)\n    \"42737\",  # 47.25'' w\n    \"12750\"   # 40.55'' (smaller but still a writing desk)\n\n]\n\nprint(doc_ids)\n```\n",
+        "writing desk 48 inches wide, materials, style\n",
+        "```python\ndoc_ids = [\n    \"40580\",  # 48\" long glass desktop\n    \"13608\",  # 48\" wide desk\n    \"38868\",  # 47.25\" desktop width\n    \"40590\",  # 47.5\" wide top\n    \"26770\",  # 50\" wide desktop\n    \"39541\",  # 52\" wide design\n    \"42739\",  # 53.15\" wide desk\n    \"32213\",  # 44\" wide desk\n    \"12750\",  # 40.55\" wide desk\n    \"34506\"   # 39\" wide desk\n\n]\n\nprint(doc_ids)\n```\n",
+        "writing desk 48 inches wide,  available colors, storage options\n"
+    ],
+    "curr_top_k_docIDs": [],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "writing desk 48\""
+            ]
+        },
+        {
+            "queries": [
+                "writing desk 48\""
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "writing desk 48\""
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": []
+        },
+        {
+            "queries": [
+                "writing desk 48\""
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "writing desk 48\"",
+                "writing desk 48 inches wide, solid wood, modern design\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, solid wood, modern design\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "writing desk 48\"",
+                "writing desk 48 inches wide, solid wood, modern design\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ],
+                [
+                    "32213",
+                    "40580",
+                    "26770",
+                    "38868",
+                    "12750",
+                    "39541",
+                    "19254",
+                    "42739",
+                    "23690",
+                    "42737"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ],
+                [
+                    0.82350754737854,
+                    0.8001524209976196,
+                    0.7990536689758301,
+                    0.7974900603294373,
+                    0.7961453199386597,
+                    0.7940689921379089,
+                    0.791691780090332,
+                    0.7914748191833496,
+                    0.7913789749145508,
+                    0.7896214723587036
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, solid wood, modern design\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "writing desk 48\"",
+                "writing desk 48 inches wide, solid wood, modern design\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ],
+                [
+                    "32213",
+                    "40580",
+                    "26770",
+                    "38868",
+                    "12750",
+                    "39541",
+                    "19254",
+                    "42739",
+                    "23690",
+                    "42737"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ],
+                [
+                    0.82350754737854,
+                    0.8001524209976196,
+                    0.7990536689758301,
+                    0.7974900603294373,
+                    0.7961453199386597,
+                    0.7940689921379089,
+                    0.791691780090332,
+                    0.7914748191833496,
+                    0.7913789749145508,
+                    0.7896214723587036
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n19254: jamari solid wood desk. marrying modern minimalism and farmhouse influence , this 50 '' writing desk sets an understated foundation in your study . it 's made of a neutral black iron frame with solid reclaimed fir wood surfaces that add rustic appeal to this practical piece . this writing desk features a rectangular tabletop balanced on an angular frame with a sled base , with two open shelves on one side great for storing books and displaying decor . we love that this desk provides enough space for your computer , work materials , or study sessions . pair with an office chair or stool to make it a welcoming part of your office or living room .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n23690: nicholas solid wood desk. whether tackling taxes or working on your next big novel , this writing desk is here to help . crafted from poplar wood , this piece features four shelves , perfect for tucking away papers , books , files , and more . measuring 30 '' h x 60 '' w x 28 '' d , it fits in well with the rest of your arrangement , while a two-toned neutral finish allows it to blend with your existing color scheme . plus , after assembly , it can support up to 50 lbs .\n\n42737: aliyah writing desk. bring a streamlined style to your home office with this contemporary desk . crafted of engineered wood with scratch- and stain-resistant melamine veneers , this desk strikes a clean-lined rectangular silhouette on a sled base . set on smooth-operating glides , two drawers offer out-of-sight storage for folders , files , and office supplies , while the expansive desktop provides plenty of space for your laptop and accessories . measuring 29.75 '' h x 47.25 '' w x 17.69 '' d overall , this desk has a 33 lbs . weight capacity .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "```python\ndoc_ids = [\n    \"40580\",  # 48'' long\n    \"38868\",  # 47.25'' desktop width\n    \"26770\",  # 50'' wide desktop\n    \"32213\",  # 44'' wide (close to query)\n    \"19254\",  # 50'' writing desk\n    \"39541\",  # 52'' wide\n    \"42739\",  # 53.15'' w\n    \"23690\",  # 60'' w (large but relevant)\n    \"42737\",  # 47.25'' w\n    \"12750\"   # 40.55'' (smaller but still a writing desk)\n\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "writing desk 48\"",
+                "writing desk 48 inches wide, solid wood, modern design\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ],
+                [
+                    "32213",
+                    "40580",
+                    "26770",
+                    "38868",
+                    "12750",
+                    "39541",
+                    "19254",
+                    "42739",
+                    "23690",
+                    "42737"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ],
+                [
+                    0.82350754737854,
+                    0.8001524209976196,
+                    0.7990536689758301,
+                    0.7974900603294373,
+                    0.7961453199386597,
+                    0.7940689921379089,
+                    0.791691780090332,
+                    0.7914748191833496,
+                    0.7913789749145508,
+                    0.7896214723587036
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n19254: jamari solid wood desk. marrying modern minimalism and farmhouse influence , this 50 '' writing desk sets an understated foundation in your study . it 's made of a neutral black iron frame with solid reclaimed fir wood surfaces that add rustic appeal to this practical piece . this writing desk features a rectangular tabletop balanced on an angular frame with a sled base , with two open shelves on one side great for storing books and displaying decor . we love that this desk provides enough space for your computer , work materials , or study sessions . pair with an office chair or stool to make it a welcoming part of your office or living room .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n23690: nicholas solid wood desk. whether tackling taxes or working on your next big novel , this writing desk is here to help . crafted from poplar wood , this piece features four shelves , perfect for tucking away papers , books , files , and more . measuring 30 '' h x 60 '' w x 28 '' d , it fits in well with the rest of your arrangement , while a two-toned neutral finish allows it to blend with your existing color scheme . plus , after assembly , it can support up to 50 lbs .\n\n42737: aliyah writing desk. bring a streamlined style to your home office with this contemporary desk . crafted of engineered wood with scratch- and stain-resistant melamine veneers , this desk strikes a clean-lined rectangular silhouette on a sled base . set on smooth-operating glides , two drawers offer out-of-sight storage for folders , files , and office supplies , while the expansive desktop provides plenty of space for your laptop and accessories . measuring 29.75 '' h x 47.25 '' w x 17.69 '' d overall , this desk has a 33 lbs . weight capacity .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "```python\ndoc_ids = [\n    \"40580\",  # 48'' long\n    \"38868\",  # 47.25'' desktop width\n    \"26770\",  # 50'' wide desktop\n    \"32213\",  # 44'' wide (close to query)\n    \"19254\",  # 50'' writing desk\n    \"39541\",  # 52'' wide\n    \"42739\",  # 53.15'' w\n    \"23690\",  # 60'' w (large but relevant)\n    \"42737\",  # 47.25'' w\n    \"12750\"   # 40.55'' (smaller but still a writing desk)\n\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "writing desk 48\"",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "writing desk 48 inches wide, materials, style\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ],
+                [
+                    "32213",
+                    "40580",
+                    "26770",
+                    "38868",
+                    "12750",
+                    "39541",
+                    "19254",
+                    "42739",
+                    "23690",
+                    "42737"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ],
+                [
+                    0.82350754737854,
+                    0.8001524209976196,
+                    0.7990536689758301,
+                    0.7974900603294373,
+                    0.7961453199386597,
+                    0.7940689921379089,
+                    0.791691780090332,
+                    0.7914748191833496,
+                    0.7913789749145508,
+                    0.7896214723587036
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n19254: jamari solid wood desk. marrying modern minimalism and farmhouse influence , this 50 '' writing desk sets an understated foundation in your study . it 's made of a neutral black iron frame with solid reclaimed fir wood surfaces that add rustic appeal to this practical piece . this writing desk features a rectangular tabletop balanced on an angular frame with a sled base , with two open shelves on one side great for storing books and displaying decor . we love that this desk provides enough space for your computer , work materials , or study sessions . pair with an office chair or stool to make it a welcoming part of your office or living room .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n23690: nicholas solid wood desk. whether tackling taxes or working on your next big novel , this writing desk is here to help . crafted from poplar wood , this piece features four shelves , perfect for tucking away papers , books , files , and more . measuring 30 '' h x 60 '' w x 28 '' d , it fits in well with the rest of your arrangement , while a two-toned neutral finish allows it to blend with your existing color scheme . plus , after assembly , it can support up to 50 lbs .\n\n42737: aliyah writing desk. bring a streamlined style to your home office with this contemporary desk . crafted of engineered wood with scratch- and stain-resistant melamine veneers , this desk strikes a clean-lined rectangular silhouette on a sled base . set on smooth-operating glides , two drawers offer out-of-sight storage for folders , files , and office supplies , while the expansive desktop provides plenty of space for your laptop and accessories . measuring 29.75 '' h x 47.25 '' w x 17.69 '' d overall , this desk has a 33 lbs . weight capacity .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\nwriting desk 48 inches wide, solid wood, modern design\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "```python\ndoc_ids = [\n    \"40580\",  # 48'' long\n    \"38868\",  # 47.25'' desktop width\n    \"26770\",  # 50'' wide desktop\n    \"32213\",  # 44'' wide (close to query)\n    \"19254\",  # 50'' writing desk\n    \"39541\",  # 52'' wide\n    \"42739\",  # 53.15'' w\n    \"23690\",  # 60'' w (large but relevant)\n    \"42737\",  # 47.25'' w\n    \"12750\"   # 40.55'' (smaller but still a writing desk)\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, materials, style\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "writing desk 48\"",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "writing desk 48 inches wide, materials, style\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ],
+                [
+                    "32213",
+                    "40580",
+                    "26770",
+                    "38868",
+                    "12750",
+                    "39541",
+                    "19254",
+                    "42739",
+                    "23690",
+                    "42737"
+                ],
+                [
+                    "32213",
+                    "38868",
+                    "39541",
+                    "42739",
+                    "12750",
+                    "34506",
+                    "40580",
+                    "40590",
+                    "13608",
+                    "26770"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ],
+                [
+                    0.82350754737854,
+                    0.8001524209976196,
+                    0.7990536689758301,
+                    0.7974900603294373,
+                    0.7961453199386597,
+                    0.7940689921379089,
+                    0.791691780090332,
+                    0.7914748191833496,
+                    0.7913789749145508,
+                    0.7896214723587036
+                ],
+                [
+                    0.8001381158828735,
+                    0.7929072976112366,
+                    0.7901632785797119,
+                    0.7868388891220093,
+                    0.7857635021209717,
+                    0.7852687239646912,
+                    0.7770180702209473,
+                    0.7744890451431274,
+                    0.7740077376365662,
+                    0.7723304033279419
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n19254: jamari solid wood desk. marrying modern minimalism and farmhouse influence , this 50 '' writing desk sets an understated foundation in your study . it 's made of a neutral black iron frame with solid reclaimed fir wood surfaces that add rustic appeal to this practical piece . this writing desk features a rectangular tabletop balanced on an angular frame with a sled base , with two open shelves on one side great for storing books and displaying decor . we love that this desk provides enough space for your computer , work materials , or study sessions . pair with an office chair or stool to make it a welcoming part of your office or living room .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n23690: nicholas solid wood desk. whether tackling taxes or working on your next big novel , this writing desk is here to help . crafted from poplar wood , this piece features four shelves , perfect for tucking away papers , books , files , and more . measuring 30 '' h x 60 '' w x 28 '' d , it fits in well with the rest of your arrangement , while a two-toned neutral finish allows it to blend with your existing color scheme . plus , after assembly , it can support up to 50 lbs .\n\n42737: aliyah writing desk. bring a streamlined style to your home office with this contemporary desk . crafted of engineered wood with scratch- and stain-resistant melamine veneers , this desk strikes a clean-lined rectangular silhouette on a sled base . set on smooth-operating glides , two drawers offer out-of-sight storage for folders , files , and office supplies , while the expansive desktop provides plenty of space for your laptop and accessories . measuring 29.75 '' h x 47.25 '' w x 17.69 '' d overall , this desk has a 33 lbs . weight capacity .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\nwriting desk 48 inches wide, solid wood, modern design\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "```python\ndoc_ids = [\n    \"40580\",  # 48'' long\n    \"38868\",  # 47.25'' desktop width\n    \"26770\",  # 50'' wide desktop\n    \"32213\",  # 44'' wide (close to query)\n    \"19254\",  # 50'' writing desk\n    \"39541\",  # 52'' wide\n    \"42739\",  # 53.15'' w\n    \"23690\",  # 60'' w (large but relevant)\n    \"42737\",  # 47.25'' w\n    \"12750\"   # 40.55'' (smaller but still a writing desk)\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, materials, style\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "writing desk 48\"",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "writing desk 48 inches wide, materials, style\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ],
+                [
+                    "32213",
+                    "40580",
+                    "26770",
+                    "38868",
+                    "12750",
+                    "39541",
+                    "19254",
+                    "42739",
+                    "23690",
+                    "42737"
+                ],
+                [
+                    "32213",
+                    "38868",
+                    "39541",
+                    "42739",
+                    "12750",
+                    "34506",
+                    "40580",
+                    "40590",
+                    "13608",
+                    "26770"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ],
+                [
+                    0.82350754737854,
+                    0.8001524209976196,
+                    0.7990536689758301,
+                    0.7974900603294373,
+                    0.7961453199386597,
+                    0.7940689921379089,
+                    0.791691780090332,
+                    0.7914748191833496,
+                    0.7913789749145508,
+                    0.7896214723587036
+                ],
+                [
+                    0.8001381158828735,
+                    0.7929072976112366,
+                    0.7901632785797119,
+                    0.7868388891220093,
+                    0.7857635021209717,
+                    0.7852687239646912,
+                    0.7770180702209473,
+                    0.7744890451431274,
+                    0.7740077376365662,
+                    0.7723304033279419
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n19254: jamari solid wood desk. marrying modern minimalism and farmhouse influence , this 50 '' writing desk sets an understated foundation in your study . it 's made of a neutral black iron frame with solid reclaimed fir wood surfaces that add rustic appeal to this practical piece . this writing desk features a rectangular tabletop balanced on an angular frame with a sled base , with two open shelves on one side great for storing books and displaying decor . we love that this desk provides enough space for your computer , work materials , or study sessions . pair with an office chair or stool to make it a welcoming part of your office or living room .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n23690: nicholas solid wood desk. whether tackling taxes or working on your next big novel , this writing desk is here to help . crafted from poplar wood , this piece features four shelves , perfect for tucking away papers , books , files , and more . measuring 30 '' h x 60 '' w x 28 '' d , it fits in well with the rest of your arrangement , while a two-toned neutral finish allows it to blend with your existing color scheme . plus , after assembly , it can support up to 50 lbs .\n\n42737: aliyah writing desk. bring a streamlined style to your home office with this contemporary desk . crafted of engineered wood with scratch- and stain-resistant melamine veneers , this desk strikes a clean-lined rectangular silhouette on a sled base . set on smooth-operating glides , two drawers offer out-of-sight storage for folders , files , and office supplies , while the expansive desktop provides plenty of space for your laptop and accessories . measuring 29.75 '' h x 47.25 '' w x 17.69 '' d overall , this desk has a 33 lbs . weight capacity .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\nwriting desk 48 inches wide, solid wood, modern design\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n34506: kaelin desk. this writing desk has a rustic and industrial-inspired look that we love . it 's made from a blend of metal and engineered wood with a rich black and distressed brown finish for tons of coastal farmhouse charm . the base features x-shaped accents and sleek lines on the side for an open and airy design in your home office . on top , the rectangular surface measures 39 '' wide , giving you space for a laptop , lamp , and a few framed photos . plus , this desk can even be folded in the corner when you 're not using it to save on floor space .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n40590: colston writing desk. this writing desk showcases x-shaped accents on the side for a glam art deco look in your home office or bedroom . it 's crafted from a blend of iron and engineered wood , and it 's built on an open base with a sleek gold finish . the rectangular top measures 47.5 '' wide , making it ideal for setting down a laptop , small lamp , or framed photo . it also comes with two soft-close drawers on roller glides that let you tuck away writing utensils and other office supplies . plus , this desk features safety stops on the drawers to prevent little fingers ( and big fingers ! ) from getting pinched .\n\n13608: adam priester coral pattern i writing desk. this desk has a bright , abstract design on the surface that brings a pop of contemporary color to your teen 's space . it has a slim metal base with a glam gold finish in an angular take on mid-century modern sled legs . the tabletop is made of solid birch wood and features a whimsical design of bold black squiggles on a chic white background . this desk was made in the usa and measures 48 '' wide with plenty of space for your favorite office decor .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "```python\ndoc_ids = [\n    \"40580\",  # 48'' long\n    \"38868\",  # 47.25'' desktop width\n    \"26770\",  # 50'' wide desktop\n    \"32213\",  # 44'' wide (close to query)\n    \"19254\",  # 50'' writing desk\n    \"39541\",  # 52'' wide\n    \"42739\",  # 53.15'' w\n    \"23690\",  # 60'' w (large but relevant)\n    \"42737\",  # 47.25'' w\n    \"12750\"   # 40.55'' (smaller but still a writing desk)\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, materials, style\n",
+                "```python\ndoc_ids = [\n    \"40580\",  # 48\" long glass desktop\n    \"13608\",  # 48\" wide desk\n    \"38868\",  # 47.25\" desktop width\n    \"40590\",  # 47.5\" wide top\n    \"26770\",  # 50\" wide desktop\n    \"39541\",  # 52\" wide design\n    \"42739\",  # 53.15\" wide desk\n    \"32213\",  # 44\" wide desk\n    \"12750\",  # 40.55\" wide desk\n    \"34506\"   # 39\" wide desk\n\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "writing desk 48\"",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "writing desk 48 inches wide, materials, style\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ],
+                [
+                    "32213",
+                    "40580",
+                    "26770",
+                    "38868",
+                    "12750",
+                    "39541",
+                    "19254",
+                    "42739",
+                    "23690",
+                    "42737"
+                ],
+                [
+                    "32213",
+                    "38868",
+                    "39541",
+                    "42739",
+                    "12750",
+                    "34506",
+                    "40580",
+                    "40590",
+                    "13608",
+                    "26770"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ],
+                [
+                    0.82350754737854,
+                    0.8001524209976196,
+                    0.7990536689758301,
+                    0.7974900603294373,
+                    0.7961453199386597,
+                    0.7940689921379089,
+                    0.791691780090332,
+                    0.7914748191833496,
+                    0.7913789749145508,
+                    0.7896214723587036
+                ],
+                [
+                    0.8001381158828735,
+                    0.7929072976112366,
+                    0.7901632785797119,
+                    0.7868388891220093,
+                    0.7857635021209717,
+                    0.7852687239646912,
+                    0.7770180702209473,
+                    0.7744890451431274,
+                    0.7740077376365662,
+                    0.7723304033279419
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n19254: jamari solid wood desk. marrying modern minimalism and farmhouse influence , this 50 '' writing desk sets an understated foundation in your study . it 's made of a neutral black iron frame with solid reclaimed fir wood surfaces that add rustic appeal to this practical piece . this writing desk features a rectangular tabletop balanced on an angular frame with a sled base , with two open shelves on one side great for storing books and displaying decor . we love that this desk provides enough space for your computer , work materials , or study sessions . pair with an office chair or stool to make it a welcoming part of your office or living room .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n23690: nicholas solid wood desk. whether tackling taxes or working on your next big novel , this writing desk is here to help . crafted from poplar wood , this piece features four shelves , perfect for tucking away papers , books , files , and more . measuring 30 '' h x 60 '' w x 28 '' d , it fits in well with the rest of your arrangement , while a two-toned neutral finish allows it to blend with your existing color scheme . plus , after assembly , it can support up to 50 lbs .\n\n42737: aliyah writing desk. bring a streamlined style to your home office with this contemporary desk . crafted of engineered wood with scratch- and stain-resistant melamine veneers , this desk strikes a clean-lined rectangular silhouette on a sled base . set on smooth-operating glides , two drawers offer out-of-sight storage for folders , files , and office supplies , while the expansive desktop provides plenty of space for your laptop and accessories . measuring 29.75 '' h x 47.25 '' w x 17.69 '' d overall , this desk has a 33 lbs . weight capacity .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\nwriting desk 48 inches wide, solid wood, modern design\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n34506: kaelin desk. this writing desk has a rustic and industrial-inspired look that we love . it 's made from a blend of metal and engineered wood with a rich black and distressed brown finish for tons of coastal farmhouse charm . the base features x-shaped accents and sleek lines on the side for an open and airy design in your home office . on top , the rectangular surface measures 39 '' wide , giving you space for a laptop , lamp , and a few framed photos . plus , this desk can even be folded in the corner when you 're not using it to save on floor space .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n40590: colston writing desk. this writing desk showcases x-shaped accents on the side for a glam art deco look in your home office or bedroom . it 's crafted from a blend of iron and engineered wood , and it 's built on an open base with a sleek gold finish . the rectangular top measures 47.5 '' wide , making it ideal for setting down a laptop , small lamp , or framed photo . it also comes with two soft-close drawers on roller glides that let you tuck away writing utensils and other office supplies . plus , this desk features safety stops on the drawers to prevent little fingers ( and big fingers ! ) from getting pinched .\n\n13608: adam priester coral pattern i writing desk. this desk has a bright , abstract design on the surface that brings a pop of contemporary color to your teen 's space . it has a slim metal base with a glam gold finish in an angular take on mid-century modern sled legs . the tabletop is made of solid birch wood and features a whimsical design of bold black squiggles on a chic white background . this desk was made in the usa and measures 48 '' wide with plenty of space for your favorite office decor .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "```python\ndoc_ids = [\n    \"40580\",  # 48'' long\n    \"38868\",  # 47.25'' desktop width\n    \"26770\",  # 50'' wide desktop\n    \"32213\",  # 44'' wide (close to query)\n    \"19254\",  # 50'' writing desk\n    \"39541\",  # 52'' wide\n    \"42739\",  # 53.15'' w\n    \"23690\",  # 60'' w (large but relevant)\n    \"42737\",  # 47.25'' w\n    \"12750\"   # 40.55'' (smaller but still a writing desk)\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, materials, style\n",
+                "```python\ndoc_ids = [\n    \"40580\",  # 48\" long glass desktop\n    \"13608\",  # 48\" wide desk\n    \"38868\",  # 47.25\" desktop width\n    \"40590\",  # 47.5\" wide top\n    \"26770\",  # 50\" wide desktop\n    \"39541\",  # 52\" wide design\n    \"42739\",  # 53.15\" wide desk\n    \"32213\",  # 44\" wide desk\n    \"12750\",  # 40.55\" wide desk\n    \"34506\"   # 39\" wide desk\n\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "writing desk 48\"",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "writing desk 48 inches wide, materials, style\n",
+                "writing desk 48 inches wide,  available colors, storage options\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "2075",
+                    "39702",
+                    "11104",
+                    "26349",
+                    "19916",
+                    "12750",
+                    "8462",
+                    "14079",
+                    "29401",
+                    "7744"
+                ],
+                [
+                    "32213",
+                    "40580",
+                    "26770",
+                    "38868",
+                    "12750",
+                    "39541",
+                    "19254",
+                    "42739",
+                    "23690",
+                    "42737"
+                ],
+                [
+                    "32213",
+                    "38868",
+                    "39541",
+                    "42739",
+                    "12750",
+                    "34506",
+                    "40580",
+                    "40590",
+                    "13608",
+                    "26770"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7428098917007446,
+                    0.728337287902832,
+                    0.7219446897506714,
+                    0.7215420007705688,
+                    0.718101441860199,
+                    0.7165207862854004,
+                    0.7153987884521484,
+                    0.7152487635612488,
+                    0.7143566608428955,
+                    0.7137470245361328
+                ],
+                [
+                    0.82350754737854,
+                    0.8001524209976196,
+                    0.7990536689758301,
+                    0.7974900603294373,
+                    0.7961453199386597,
+                    0.7940689921379089,
+                    0.791691780090332,
+                    0.7914748191833496,
+                    0.7913789749145508,
+                    0.7896214723587036
+                ],
+                [
+                    0.8001381158828735,
+                    0.7929072976112366,
+                    0.7901632785797119,
+                    0.7868388891220093,
+                    0.7857635021209717,
+                    0.7852687239646912,
+                    0.7770180702209473,
+                    0.7744890451431274,
+                    0.7740077376365662,
+                    0.7723304033279419
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n2075: writing desk. nan\n\n39702: holmestrand manufactured wood writing desk. the holmestrand writing desk is the perfect option for both large and small home offices . the beautiful curved solid top has plenty of room for your laptop , lamp , and projects while the large drawer offers concealed storage for your pens , papers , and other office supplies . this unique desk can also be used as a console table .\n\n11104: writing desk with 5 drawers and hutch shelf , modern computer workstation for home office , vanity table ( white ). whether used to complete homework assignments , work on creative fiction , or draft a college admissions essay , this writing desk is your best choice.5 drawers gives you room to store your writing accessories , at the same time , it is also a beautiful vanity table , it can meet almost all your daily storage needs . compact in design , it is ideal for small homes and best gift for your daughter , girlfriend etc. ,\n\n26349: azariyah writing desk with hutch. this simple yet contemporary designed writing desk with a hutch creates a spacious and attractive look to your home office workstation . featuring a wide desk , open-top hutch , and a wide under-desk shelf , it is perfect for smaller spaces and is apartment friendly . put your books , binders , and papers within arms reach with the attached hutch or use the extra shelf space to decorate your desk with your favorite pictures , displays , plants , and decor .\n\n19916: leifsson writing desk. nan\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n8462: catelyn rectangular writing desk. our multifunctional writing table is especially designed for studying use or office use , perfect for home and office . made of mdf board and particle board , the computer desk is not only beautiful but also durable . and it is also stable with strong wood structure so that you can place your items as much as possible . the drawer provides you with extra storage space as well . the pads at the bottom provide stability and prevent floor scratching . take this mid-century style writing desk to decorate your home and office .\n\n14079: jonelie writing desk with hutch. the red cocoa desk is perfect for complementing your home office . this desk is equipped with 4 open shelves and 2 drawers for storing your books , home decorative accessories , and office supplies . the 2 usb ports and 2 electrical outlets provide a useful environment for your home computer use .\n\n29401: boland writing desk. nan\n\n7744: kennedy writing desk. the kennedy flip top desk is a unique desk which provides a place to store and use your laptop . this desk also features a cork board so that you can keep your notes and reminders handy . when you are in need of a writing surface or would just like to keep your laptop safely out of sight the desk can be used with the top compartment closed . this versatile , casually styled desk is the perfect addition to a living room , office , or bedroom .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n19254: jamari solid wood desk. marrying modern minimalism and farmhouse influence , this 50 '' writing desk sets an understated foundation in your study . it 's made of a neutral black iron frame with solid reclaimed fir wood surfaces that add rustic appeal to this practical piece . this writing desk features a rectangular tabletop balanced on an angular frame with a sled base , with two open shelves on one side great for storing books and displaying decor . we love that this desk provides enough space for your computer , work materials , or study sessions . pair with an office chair or stool to make it a welcoming part of your office or living room .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n23690: nicholas solid wood desk. whether tackling taxes or working on your next big novel , this writing desk is here to help . crafted from poplar wood , this piece features four shelves , perfect for tucking away papers , books , files , and more . measuring 30 '' h x 60 '' w x 28 '' d , it fits in well with the rest of your arrangement , while a two-toned neutral finish allows it to blend with your existing color scheme . plus , after assembly , it can support up to 50 lbs .\n\n42737: aliyah writing desk. bring a streamlined style to your home office with this contemporary desk . crafted of engineered wood with scratch- and stain-resistant melamine veneers , this desk strikes a clean-lined rectangular silhouette on a sled base . set on smooth-operating glides , two drawers offer out-of-sight storage for folders , files , and office supplies , while the expansive desktop provides plenty of space for your laptop and accessories . measuring 29.75 '' h x 47.25 '' w x 17.69 '' d overall , this desk has a 33 lbs . weight capacity .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\nwriting desk 48 inches wide, solid wood, modern design\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: writing desk 48\"\n\nDocuments:\n\n32213: antonina desk. give your home office a contemporary glam foundation with this writing desk . it 's made from solid and engineered wood in your choice of chic neutral or bold finish . the trestle base has two x-shaped legs and two stretcher bars for additional style and support . two soft-close drawers give you plenty of storage space for your pens , notebooks , and chargers . metallic drop pulls adorn the drawers for a nod to styles . it measures 44 '' wide , so it can fit in smaller work spaces .\n\n38868: kosmas desk. give everyone on your team a spot to call their own while they work with a desk like this one ! this writing desk is crafted with commercial-use materials like stainless steel sled legs and a clean-lined manufactured wood surface . and thanks to the streamlined , airy design and neutral hues , it 's perfect for a contemporary feel anywhere in your office . this piece features a 47.25 '' desktop width , so it 's perfect for housing laptops , monitors , and other computer clutter .\n\n39541: valerie glass writing desk. this writing desk brings ample work space and glam style to your home office . its clean-lined design is made from engineered wood with a gleaming silver finish , and it 's built on a-shaped legs . this piece has a glossy mirrored glass surface that 's easy to clean . we also love that its 52 '' wide design has enough space for your laptop , a small lamp , and a few framed photos . plus , this desk has one drawer on ball bearing glides that let you tuck away writing supplies and notebooks . assembly is required .\n\n42739: adalyn sawhorse writing desk. bring a streamlined style to your home office with this simply-chic writing desk ! crafted of engineered wood with white melamine laminate veneers , this writing desk strikes a clean-lined rectangular silhouette on a sawhorse-inspired base . four lower shelves offer storage or display space for folders , framed photos , or baskets of office supplies , while the open , expansive desktop provides plenty of space for your laptop and accessories . measures 29.73 '' h x 53.15 '' w x 21.26 '' d overall .\n\n12750: julia desk. this foldable writing desk is the perfect addition to your space for an instant work-from-home setup . it 's made of powder-coated steel in a simple , modern frame that folds into 3 '' deep making it much easier to move or store . the engineered wood top measures 40.55 '' wide \u2013 it fits into smaller rooms , while still providing enough space for your computer , books , and mugs of caffeinated beverages . we love the modern , rustic look of this desk with its black frame and gray wood grain finish on the surface : it 's right at home in your industrial or modern farmhouse space .\n\n34506: kaelin desk. this writing desk has a rustic and industrial-inspired look that we love . it 's made from a blend of metal and engineered wood with a rich black and distressed brown finish for tons of coastal farmhouse charm . the base features x-shaped accents and sleek lines on the side for an open and airy design in your home office . on top , the rectangular surface measures 39 '' wide , giving you space for a laptop , lamp , and a few framed photos . plus , this desk can even be folded in the corner when you 're not using it to save on floor space .\n\n40580: reanna glass desk. this writing desk fills your home office or living room with contemporary glam style and gives you a spot to create and complete various work tasks . it 's crafted from solid wood with both silver and beige finishes , and it features a streamlined silhouette with inset mirrored paneling for an eye-catching look . at 48 '' long , the glass desktop gives you a spot to keep your laptop and other necessary office supplies close at hand . an upper drawer offers ample space for legal pads and other smaller items .\n\n40590: colston writing desk. this writing desk showcases x-shaped accents on the side for a glam art deco look in your home office or bedroom . it 's crafted from a blend of iron and engineered wood , and it 's built on an open base with a sleek gold finish . the rectangular top measures 47.5 '' wide , making it ideal for setting down a laptop , small lamp , or framed photo . it also comes with two soft-close drawers on roller glides that let you tuck away writing utensils and other office supplies . plus , this desk features safety stops on the drawers to prevent little fingers ( and big fingers ! ) from getting pinched .\n\n13608: adam priester coral pattern i writing desk. this desk has a bright , abstract design on the surface that brings a pop of contemporary color to your teen 's space . it has a slim metal base with a glam gold finish in an angular take on mid-century modern sled legs . the tabletop is made of solid birch wood and features a whimsical design of bold black squiggles on a chic white background . this desk was made in the usa and measures 48 '' wide with plenty of space for your favorite office decor .\n\n26770: andersen desk. anchor your home office or study space in mid-century modern style with this streamlined writing desk . its frame is crafted from solid rubberwood and engineered wood with acacia veneers . this desk strikes a clean-lined rectangular silhouette that 's built on a trestle base with four flared dowel legs . featuring dark bronze hardware , three soft-close drawers on wooden slides offer out-of-sight storage for files , folders , and office supplies . plus , the expansive 50 '' wide desktop provides a perfect platform for your laptop , a table lamp , and a few framed photos . this desk requires full assembly , so make sure you have a key and an allen wrench ready .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nwriting desk 48\"\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\nwriting desk 48 inches wide, solid wood, modern design\n\n\nwriting desk 48 inches wide, materials, style\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"39702\",  # Contains \"writing desk\" and is detailed.\n    \"11104\",  # Contains \"writing desk\" and mentions use cases.\n    \"26349\",  # Contains \"writing desk\" and describes features.\n    \"8462\",   # Contains \"writing desk\" and mentions functionality.\n    \"14079\",  # Contains \"writing desk\" and mentions storage.\n    \"12750\",  # Contains \"writing desk\" and mentions size (though not 48\").\n    \"7744\",   # Contains \"writing desk\" and describes unique features.\n    \"19916\",  # Contains \"writing desk\" (minimal information).\n    \"29401\",  # Contains \"writing desk\" (minimal information).\n    \"2075\"    # Contains \"writing desk\" (minimal information).\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, solid wood, modern design\n",
+                "```python\ndoc_ids = [\n    \"40580\",  # 48'' long\n    \"38868\",  # 47.25'' desktop width\n    \"26770\",  # 50'' wide desktop\n    \"32213\",  # 44'' wide (close to query)\n    \"19254\",  # 50'' writing desk\n    \"39541\",  # 52'' wide\n    \"42739\",  # 53.15'' w\n    \"23690\",  # 60'' w (large but relevant)\n    \"42737\",  # 47.25'' w\n    \"12750\"   # 40.55'' (smaller but still a writing desk)\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide, materials, style\n",
+                "```python\ndoc_ids = [\n    \"40580\",  # 48\" long glass desktop\n    \"13608\",  # 48\" wide desk\n    \"38868\",  # 47.25\" desktop width\n    \"40590\",  # 47.5\" wide top\n    \"26770\",  # 50\" wide desktop\n    \"39541\",  # 52\" wide design\n    \"42739\",  # 53.15\" wide desk\n    \"32213\",  # 44\" wide desk\n    \"12750\",  # 40.55\" wide desk\n    \"34506\"   # 39\" wide desk\n\n]\n\nprint(doc_ids)\n```\n",
+                "writing desk 48 inches wide,  available colors, storage options\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        }
+    ]
+}

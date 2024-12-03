@@ -1,0 +1,1046 @@
+{
+    "queries": [
+        "queen wingback chair",
+        "queen anne wingback chair\n",
+        "queen wingback chair, velvet upholstery\n",
+        "queen wingback chair, dimensions\n"
+    ],
+    "retrieved_lists": [
+        [
+            "39544",
+            "15079",
+            "4743",
+            "14159",
+            "14158",
+            "14165",
+            "474",
+            "7721",
+            "37294",
+            "4742"
+        ],
+        [
+            "15079",
+            "14159",
+            "14158",
+            "7721",
+            "14165",
+            "4743",
+            "39544",
+            "24759",
+            "474",
+            "4742"
+        ],
+        [
+            "4743",
+            "14159",
+            "14158",
+            "4742",
+            "39544",
+            "14165",
+            "15079",
+            "13754",
+            "18644",
+            "33074"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.8000476956367493,
+            0.797044038772583,
+            0.7956697344779968,
+            0.7949033975601196,
+            0.7927011847496033,
+            0.7877312898635864,
+            0.771547794342041,
+            0.7657662034034729,
+            0.7617546319961548,
+            0.760937511920929
+        ],
+        [
+            0.8041859269142151,
+            0.7932802438735962,
+            0.7918123006820679,
+            0.7883605360984802,
+            0.7872098088264465,
+            0.7840282917022705,
+            0.7703348398208618,
+            0.7668153643608093,
+            0.7619926929473877,
+            0.7580047845840454
+        ],
+        [
+            0.855440616607666,
+            0.8388321399688721,
+            0.834304928779602,
+            0.8329023122787476,
+            0.8326690196990967,
+            0.8317567110061646,
+            0.8227053880691528,
+            0.8145541548728943,
+            0.813506007194519,
+            0.8055576682090759
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n***\n\nPrevious query reformulations:\n***\n\nqueen anne wingback chair\n\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n13754: dowland 26 '' wide velvet wingback chair. this chair is the perfect finishing note for your bedroom or living room . you\u00e2\u20ac\u2122ll appreciate the craftsmanship in the details , such as the piping along the edges that feature a slightly different color to help accentuate the overall chair . upholstered from the highest quality materials according to exacting standards , this is a piece that\u00e2\u20ac\u2122s built to last .\n\n18644: carolina 50.25 '' velvet recessed arm loveseat. our charming high back loveseat takes a traditional look and gives it a glamorous upgrade to create something fresh for your home . featuring an exquisite wingback design and soft velvet upholstery , this stunning loveseat is the perfect addition to any living room , bedroom , or foyer . using deep button-tufted diamond stitching , this classic style will easily anchor your d\u00e9cor in an atmosphere of elegance . this loveseat is finished with beautifully turned legs , bringing a striking modern look and outstanding durability to your home .\n\n33074: faircloth tufted velvet upholstered wingback parsons chair. velvet fabric cover dining chair perfect for desks , dining rooms , or sitting areas , this upholstered side chair strikes a traditional silhouette . featuring a curved high back , plush cushioned seat , and deeply tufted velvet upholstery studded with nailheads , this dining chair is sure to take your dining experience to a whole new level . antique color wood legs provide sturdy support and complement the stunning upholstery for a sleek , contemporary design . the accent dining chairs are upholstered in classic velvet to create cozy and elegant . features sturdy oak wood legs to guarantee sturdy . small anti-scratch feet on the bottom of each leg to prevent damage to the floor . our dining chair backrest has a curved shape so that it can greatly support your back . in addition , the armless frame and soft , slab foam filling of the cushion allows and encourages an ideal posture during your dinner .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n13754: dowland 26 '' wide velvet wingback chair. this chair is the perfect finishing note for your bedroom or living room . you\u00e2\u20ac\u2122ll appreciate the craftsmanship in the details , such as the piping along the edges that feature a slightly different color to help accentuate the overall chair . upholstered from the highest quality materials according to exacting standards , this is a piece that\u00e2\u20ac\u2122s built to last .\n\n33074: faircloth tufted velvet upholstered wingback parsons chair. velvet fabric cover dining chair perfect for desks , dining rooms , or sitting areas , this upholstered side chair strikes a traditional silhouette . featuring a curved high back , plush cushioned seat , and deeply tufted velvet upholstery studded with nailheads , this dining chair is sure to take your dining experience to a whole new level . antique color wood legs provide sturdy support and complement the stunning upholstery for a sleek , contemporary design . the accent dining chairs are upholstered in classic velvet to create cozy and elegant . features sturdy oak wood legs to guarantee sturdy . small anti-scratch feet on the bottom of each leg to prevent damage to the floor . our dining chair backrest has a curved shape so that it can greatly support your back . in addition , the armless frame and soft , slab foam filling of the cushion allows and encourages an ideal posture during your dinner .\n\n18644: carolina 50.25 '' velvet recessed arm loveseat. our charming high back loveseat takes a traditional look and gives it a glamorous upgrade to create something fresh for your home . featuring an exquisite wingback design and soft velvet upholstery , this stunning loveseat is the perfect addition to any living room , bedroom , or foyer . using deep button-tufted diamond stitching , this classic style will easily anchor your d\u00e9cor in an atmosphere of elegance . this loveseat is finished with beautifully turned legs , bringing a striking modern look and outstanding durability to your home .\n\n***\n\nPrevious query reformulations:\n***\n\nqueen anne wingback chair\n\n\nqueen wingback chair, velvet upholstery\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n",
+        "queen anne wingback chair\n",
+        "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"14159\", \"14158\", \"14165\", \"474\", \"24759\"\n]\nprint(doc_ids)\n\n```\n",
+        "queen wingback chair, velvet upholstery\n",
+        "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"474\", \"24759\", \"13754\", \"33074\", \"18644\"\n]\nprint(doc_ids)\n```\n",
+        "queen wingback chair, dimensions\n"
+    ],
+    "curr_top_k_docIDs": [
+        "15079",
+        "7721",
+        "39544",
+        "4743",
+        "4742",
+        "474",
+        "24759",
+        "13754",
+        "33074",
+        "18644"
+    ],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "queen wingback chair"
+            ]
+        },
+        {
+            "queries": [
+                "queen wingback chair"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "queen wingback chair"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": []
+        },
+        {
+            "queries": [
+                "queen wingback chair"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "queen wingback chair",
+                "queen anne wingback chair\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n",
+                "queen anne wingback chair\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "queen wingback chair",
+                "queen anne wingback chair\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ],
+                [
+                    "15079",
+                    "14159",
+                    "14158",
+                    "7721",
+                    "14165",
+                    "4743",
+                    "39544",
+                    "24759",
+                    "474",
+                    "4742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ],
+                [
+                    0.8041859269142151,
+                    0.7932802438735962,
+                    0.7918123006820679,
+                    0.7883605360984802,
+                    0.7872098088264465,
+                    0.7840282917022705,
+                    0.7703348398208618,
+                    0.7668153643608093,
+                    0.7619926929473877,
+                    0.7580047845840454
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n",
+                "queen anne wingback chair\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "queen wingback chair",
+                "queen anne wingback chair\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ],
+                [
+                    "15079",
+                    "14159",
+                    "14158",
+                    "7721",
+                    "14165",
+                    "4743",
+                    "39544",
+                    "24759",
+                    "474",
+                    "4742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ],
+                [
+                    0.8041859269142151,
+                    0.7932802438735962,
+                    0.7918123006820679,
+                    0.7883605360984802,
+                    0.7872098088264465,
+                    0.7840282917022705,
+                    0.7703348398208618,
+                    0.7668153643608093,
+                    0.7619926929473877,
+                    0.7580047845840454
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n",
+                "queen anne wingback chair\n",
+                "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"14159\", \"14158\", \"14165\", \"474\", \"24759\"\n]\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "15079",
+                "7721",
+                "39544",
+                "4743",
+                "4742",
+                "14159",
+                "14158",
+                "14165",
+                "474",
+                "24759"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "queen wingback chair",
+                "queen anne wingback chair\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ],
+                [
+                    "15079",
+                    "14159",
+                    "14158",
+                    "7721",
+                    "14165",
+                    "4743",
+                    "39544",
+                    "24759",
+                    "474",
+                    "4742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ],
+                [
+                    0.8041859269142151,
+                    0.7932802438735962,
+                    0.7918123006820679,
+                    0.7883605360984802,
+                    0.7872098088264465,
+                    0.7840282917022705,
+                    0.7703348398208618,
+                    0.7668153643608093,
+                    0.7619926929473877,
+                    0.7580047845840454
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n",
+                "queen anne wingback chair\n",
+                "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"14159\", \"14158\", \"14165\", \"474\", \"24759\"\n]\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "15079",
+                "7721",
+                "39544",
+                "4743",
+                "4742",
+                "14159",
+                "14158",
+                "14165",
+                "474",
+                "24759"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "queen wingback chair",
+                "queen anne wingback chair\n",
+                "queen wingback chair, velvet upholstery\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ],
+                [
+                    "15079",
+                    "14159",
+                    "14158",
+                    "7721",
+                    "14165",
+                    "4743",
+                    "39544",
+                    "24759",
+                    "474",
+                    "4742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ],
+                [
+                    0.8041859269142151,
+                    0.7932802438735962,
+                    0.7918123006820679,
+                    0.7883605360984802,
+                    0.7872098088264465,
+                    0.7840282917022705,
+                    0.7703348398208618,
+                    0.7668153643608093,
+                    0.7619926929473877,
+                    0.7580047845840454
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n***\n\nPrevious query reformulations:\n***\n\nqueen anne wingback chair\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n",
+                "queen anne wingback chair\n",
+                "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"14159\", \"14158\", \"14165\", \"474\", \"24759\"\n]\nprint(doc_ids)\n\n```\n",
+                "queen wingback chair, velvet upholstery\n"
+            ],
+            "curr_top_k_docIDs": [
+                "15079",
+                "7721",
+                "39544",
+                "4743",
+                "4742",
+                "14159",
+                "14158",
+                "14165",
+                "474",
+                "24759"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "queen wingback chair",
+                "queen anne wingback chair\n",
+                "queen wingback chair, velvet upholstery\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ],
+                [
+                    "15079",
+                    "14159",
+                    "14158",
+                    "7721",
+                    "14165",
+                    "4743",
+                    "39544",
+                    "24759",
+                    "474",
+                    "4742"
+                ],
+                [
+                    "4743",
+                    "14159",
+                    "14158",
+                    "4742",
+                    "39544",
+                    "14165",
+                    "15079",
+                    "13754",
+                    "18644",
+                    "33074"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ],
+                [
+                    0.8041859269142151,
+                    0.7932802438735962,
+                    0.7918123006820679,
+                    0.7883605360984802,
+                    0.7872098088264465,
+                    0.7840282917022705,
+                    0.7703348398208618,
+                    0.7668153643608093,
+                    0.7619926929473877,
+                    0.7580047845840454
+                ],
+                [
+                    0.855440616607666,
+                    0.8388321399688721,
+                    0.834304928779602,
+                    0.8329023122787476,
+                    0.8326690196990967,
+                    0.8317567110061646,
+                    0.8227053880691528,
+                    0.8145541548728943,
+                    0.813506007194519,
+                    0.8055576682090759
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n***\n\nPrevious query reformulations:\n***\n\nqueen anne wingback chair\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n",
+                "queen anne wingback chair\n",
+                "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"14159\", \"14158\", \"14165\", \"474\", \"24759\"\n]\nprint(doc_ids)\n\n```\n",
+                "queen wingback chair, velvet upholstery\n"
+            ],
+            "curr_top_k_docIDs": [
+                "15079",
+                "7721",
+                "39544",
+                "4743",
+                "4742",
+                "14159",
+                "14158",
+                "14165",
+                "474",
+                "24759"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "queen wingback chair",
+                "queen anne wingback chair\n",
+                "queen wingback chair, velvet upholstery\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ],
+                [
+                    "15079",
+                    "14159",
+                    "14158",
+                    "7721",
+                    "14165",
+                    "4743",
+                    "39544",
+                    "24759",
+                    "474",
+                    "4742"
+                ],
+                [
+                    "4743",
+                    "14159",
+                    "14158",
+                    "4742",
+                    "39544",
+                    "14165",
+                    "15079",
+                    "13754",
+                    "18644",
+                    "33074"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ],
+                [
+                    0.8041859269142151,
+                    0.7932802438735962,
+                    0.7918123006820679,
+                    0.7883605360984802,
+                    0.7872098088264465,
+                    0.7840282917022705,
+                    0.7703348398208618,
+                    0.7668153643608093,
+                    0.7619926929473877,
+                    0.7580047845840454
+                ],
+                [
+                    0.855440616607666,
+                    0.8388321399688721,
+                    0.834304928779602,
+                    0.8329023122787476,
+                    0.8326690196990967,
+                    0.8317567110061646,
+                    0.8227053880691528,
+                    0.8145541548728943,
+                    0.813506007194519,
+                    0.8055576682090759
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n***\n\nPrevious query reformulations:\n***\n\nqueen anne wingback chair\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n13754: dowland 26 '' wide velvet wingback chair. this chair is the perfect finishing note for your bedroom or living room . you\u00e2\u20ac\u2122ll appreciate the craftsmanship in the details , such as the piping along the edges that feature a slightly different color to help accentuate the overall chair . upholstered from the highest quality materials according to exacting standards , this is a piece that\u00e2\u20ac\u2122s built to last .\n\n18644: carolina 50.25 '' velvet recessed arm loveseat. our charming high back loveseat takes a traditional look and gives it a glamorous upgrade to create something fresh for your home . featuring an exquisite wingback design and soft velvet upholstery , this stunning loveseat is the perfect addition to any living room , bedroom , or foyer . using deep button-tufted diamond stitching , this classic style will easily anchor your d\u00e9cor in an atmosphere of elegance . this loveseat is finished with beautifully turned legs , bringing a striking modern look and outstanding durability to your home .\n\n33074: faircloth tufted velvet upholstered wingback parsons chair. velvet fabric cover dining chair perfect for desks , dining rooms , or sitting areas , this upholstered side chair strikes a traditional silhouette . featuring a curved high back , plush cushioned seat , and deeply tufted velvet upholstery studded with nailheads , this dining chair is sure to take your dining experience to a whole new level . antique color wood legs provide sturdy support and complement the stunning upholstery for a sleek , contemporary design . the accent dining chairs are upholstered in classic velvet to create cozy and elegant . features sturdy oak wood legs to guarantee sturdy . small anti-scratch feet on the bottom of each leg to prevent damage to the floor . our dining chair backrest has a curved shape so that it can greatly support your back . in addition , the armless frame and soft , slab foam filling of the cushion allows and encourages an ideal posture during your dinner .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n",
+                "queen anne wingback chair\n",
+                "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"14159\", \"14158\", \"14165\", \"474\", \"24759\"\n]\nprint(doc_ids)\n\n```\n",
+                "queen wingback chair, velvet upholstery\n",
+                "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"474\", \"24759\", \"13754\", \"33074\", \"18644\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "15079",
+                "7721",
+                "39544",
+                "4743",
+                "4742",
+                "474",
+                "24759",
+                "13754",
+                "33074",
+                "18644"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "queen wingback chair",
+                "queen anne wingback chair\n",
+                "queen wingback chair, velvet upholstery\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ],
+                [
+                    "15079",
+                    "14159",
+                    "14158",
+                    "7721",
+                    "14165",
+                    "4743",
+                    "39544",
+                    "24759",
+                    "474",
+                    "4742"
+                ],
+                [
+                    "4743",
+                    "14159",
+                    "14158",
+                    "4742",
+                    "39544",
+                    "14165",
+                    "15079",
+                    "13754",
+                    "18644",
+                    "33074"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ],
+                [
+                    0.8041859269142151,
+                    0.7932802438735962,
+                    0.7918123006820679,
+                    0.7883605360984802,
+                    0.7872098088264465,
+                    0.7840282917022705,
+                    0.7703348398208618,
+                    0.7668153643608093,
+                    0.7619926929473877,
+                    0.7580047845840454
+                ],
+                [
+                    0.855440616607666,
+                    0.8388321399688721,
+                    0.834304928779602,
+                    0.8329023122787476,
+                    0.8326690196990967,
+                    0.8317567110061646,
+                    0.8227053880691528,
+                    0.8145541548728943,
+                    0.813506007194519,
+                    0.8055576682090759
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n***\n\nPrevious query reformulations:\n***\n\nqueen anne wingback chair\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n13754: dowland 26 '' wide velvet wingback chair. this chair is the perfect finishing note for your bedroom or living room . you\u00e2\u20ac\u2122ll appreciate the craftsmanship in the details , such as the piping along the edges that feature a slightly different color to help accentuate the overall chair . upholstered from the highest quality materials according to exacting standards , this is a piece that\u00e2\u20ac\u2122s built to last .\n\n18644: carolina 50.25 '' velvet recessed arm loveseat. our charming high back loveseat takes a traditional look and gives it a glamorous upgrade to create something fresh for your home . featuring an exquisite wingback design and soft velvet upholstery , this stunning loveseat is the perfect addition to any living room , bedroom , or foyer . using deep button-tufted diamond stitching , this classic style will easily anchor your d\u00e9cor in an atmosphere of elegance . this loveseat is finished with beautifully turned legs , bringing a striking modern look and outstanding durability to your home .\n\n33074: faircloth tufted velvet upholstered wingback parsons chair. velvet fabric cover dining chair perfect for desks , dining rooms , or sitting areas , this upholstered side chair strikes a traditional silhouette . featuring a curved high back , plush cushioned seat , and deeply tufted velvet upholstery studded with nailheads , this dining chair is sure to take your dining experience to a whole new level . antique color wood legs provide sturdy support and complement the stunning upholstery for a sleek , contemporary design . the accent dining chairs are upholstered in classic velvet to create cozy and elegant . features sturdy oak wood legs to guarantee sturdy . small anti-scratch feet on the bottom of each leg to prevent damage to the floor . our dining chair backrest has a curved shape so that it can greatly support your back . in addition , the armless frame and soft , slab foam filling of the cushion allows and encourages an ideal posture during your dinner .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n",
+                "queen anne wingback chair\n",
+                "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"14159\", \"14158\", \"14165\", \"474\", \"24759\"\n]\nprint(doc_ids)\n\n```\n",
+                "queen wingback chair, velvet upholstery\n",
+                "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"474\", \"24759\", \"13754\", \"33074\", \"18644\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "15079",
+                "7721",
+                "39544",
+                "4743",
+                "4742",
+                "474",
+                "24759",
+                "13754",
+                "33074",
+                "18644"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "queen wingback chair",
+                "queen anne wingback chair\n",
+                "queen wingback chair, velvet upholstery\n",
+                "queen wingback chair, dimensions\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "39544",
+                    "15079",
+                    "4743",
+                    "14159",
+                    "14158",
+                    "14165",
+                    "474",
+                    "7721",
+                    "37294",
+                    "4742"
+                ],
+                [
+                    "15079",
+                    "14159",
+                    "14158",
+                    "7721",
+                    "14165",
+                    "4743",
+                    "39544",
+                    "24759",
+                    "474",
+                    "4742"
+                ],
+                [
+                    "4743",
+                    "14159",
+                    "14158",
+                    "4742",
+                    "39544",
+                    "14165",
+                    "15079",
+                    "13754",
+                    "18644",
+                    "33074"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8000476956367493,
+                    0.797044038772583,
+                    0.7956697344779968,
+                    0.7949033975601196,
+                    0.7927011847496033,
+                    0.7877312898635864,
+                    0.771547794342041,
+                    0.7657662034034729,
+                    0.7617546319961548,
+                    0.760937511920929
+                ],
+                [
+                    0.8041859269142151,
+                    0.7932802438735962,
+                    0.7918123006820679,
+                    0.7883605360984802,
+                    0.7872098088264465,
+                    0.7840282917022705,
+                    0.7703348398208618,
+                    0.7668153643608093,
+                    0.7619926929473877,
+                    0.7580047845840454
+                ],
+                [
+                    0.855440616607666,
+                    0.8388321399688721,
+                    0.834304928779602,
+                    0.8329023122787476,
+                    0.8326690196990967,
+                    0.8317567110061646,
+                    0.8227053880691528,
+                    0.8145541548728943,
+                    0.813506007194519,
+                    0.8055576682090759
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n37294: shawnda 23 '' wide wingback chair. this accent chair brings a rustic touch to your bedroom , living room , or reading . it 's made of engineered wood with an espresso finish and faux leather upholstery . this chair features a curved wingback silhouette with low sloped arms and gold nailhead trim . round tapered legs hold up a curved foam-filled seat for a cushioned place to read , work , or relax . we love that this chair is easy to clean whenever it needs a refresh \u2013 simply wipe away dust with a damp cloth .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n***\n\nPrevious query reformulations:\n***\n\nqueen anne wingback chair\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: queen wingback chair\n\nDocuments:\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n14165: 24 '' wide velvet wingback chair. nan\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n14159: 26 '' wide velvet wingback chair. nan\n\n14158: 35.37 '' wide velvet wingback chair. nan\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n14165: 24 '' wide velvet wingback chair. nan\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n13754: dowland 26 '' wide velvet wingback chair. this chair is the perfect finishing note for your bedroom or living room . you\u00e2\u20ac\u2122ll appreciate the craftsmanship in the details , such as the piping along the edges that feature a slightly different color to help accentuate the overall chair . upholstered from the highest quality materials according to exacting standards , this is a piece that\u00e2\u20ac\u2122s built to last .\n\n18644: carolina 50.25 '' velvet recessed arm loveseat. our charming high back loveseat takes a traditional look and gives it a glamorous upgrade to create something fresh for your home . featuring an exquisite wingback design and soft velvet upholstery , this stunning loveseat is the perfect addition to any living room , bedroom , or foyer . using deep button-tufted diamond stitching , this classic style will easily anchor your d\u00e9cor in an atmosphere of elegance . this loveseat is finished with beautifully turned legs , bringing a striking modern look and outstanding durability to your home .\n\n33074: faircloth tufted velvet upholstered wingback parsons chair. velvet fabric cover dining chair perfect for desks , dining rooms , or sitting areas , this upholstered side chair strikes a traditional silhouette . featuring a curved high back , plush cushioned seat , and deeply tufted velvet upholstery studded with nailheads , this dining chair is sure to take your dining experience to a whole new level . antique color wood legs provide sturdy support and complement the stunning upholstery for a sleek , contemporary design . the accent dining chairs are upholstered in classic velvet to create cozy and elegant . features sturdy oak wood legs to guarantee sturdy . small anti-scratch feet on the bottom of each leg to prevent damage to the floor . our dining chair backrest has a curved shape so that it can greatly support your back . in addition , the armless frame and soft , slab foam filling of the cushion allows and encourages an ideal posture during your dinner .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nqueen wingback chair\n***\n\nDocuments:\n***\n\n15079: sherwen 28.5 '' wide velvet wingback chair. give your room the royal treatment with this chair . inspired by the silhouette designed for marie antoinette , this chair is a modern take on this classic french design . it has the same wingback , angled arms , and firm seat as a traditional wingback updated with delicious , supple velvet or microfiber fabric . this glamorous accent chair is finished with tapered legs for a modern look that is sophisticated and on-trend .\n\n7721: pensford 30.5 '' wide polyester wingback chair. bring timeless refinement to your living room , bedroom , or parlor with this armchair . made with solid and engineered wood , it 's upholstered with 100 % polyester over foam filling for a cushioned seat . a classic wingback silhouette pairs well with a traditional home style , while the nailhead details on the rolled arms add a modern touch . the cushion is reversible for easy cleaning , and the queen anne legs glide across the carpet or flooring without scratching . plus , the shallow 19 '' seat makes sitting down and getting up easy .\n\n39544: quesada velvet wingback chair. a stylish option for rounding out a seating group or sprucing up an unused corner of your master suite , this classic wingback chair brings a dash of glamour to any arrangement . founded atop four espresso-finished legs that support up to 250 lbs. , this piece is crafted with a solid poplar frame and foam fill to offer a firm feel . solid-hued upholstery envelops the design for a touch of texture , while nailhead trim completes the look with a subtle shimmer . assembly is required .\n\n4743: lauretta 27.5 '' wide velvet wingback chair. it is upholstered , soft , stain-resistant performance velvet upholstery covering dense foam padding , detailed welting on the back and inside channels . four tapered and splayed brushed gold stainless steel dowel legs support the glamorous eye-catching elegance of this luxurious accent wingback chair . created to enhance your home or office , the chair is a great way to add enchanting personality to your space .\n\n4742: twining 29 '' wide velvet wingback chair. classic and traditional style accent chair with pleated details . made with premium velvet fabric , comfortable for skin touch . this piece is crafted with a solid rubberwood frame , web suspension seating , and high-density foam fill to offer a medium-soft seating firmness . curved edges are set off by a meticulous nailhead trim that adds a touch of class to any home d\u00e9cor .\n\n474: brookport 30.7 '' wide wingback chair. this armchair is a must-have , whether you 're using it during a movie night or when you \u2019 re short a seat playing a hand of cards . it 's built with a solid wood frame and has curved , tapered feet , and a wingback design that works well in a variety of aesthetics . the faux leather upholstery is filled with foam and has a web suspension seat construction for just the right amount of sink as you sit . nailhead trim along the wingback adds an understated glam appeal .\n\n24759: queen anne back side chair in white. we like a dining chair with a little bit of french country flair ! hand-curated by kelly clarkson , this chair is made from solid and engineered wood in an antique white finish with some antiqued accents . it showcases a scrolling , open queen anne back design , a molded seat , and turned front legs . plus , this chair arrives in a set of two so you do n't have to worry about finding a matching one ! full assembly is required .\n\n13754: dowland 26 '' wide velvet wingback chair. this chair is the perfect finishing note for your bedroom or living room . you\u00e2\u20ac\u2122ll appreciate the craftsmanship in the details , such as the piping along the edges that feature a slightly different color to help accentuate the overall chair . upholstered from the highest quality materials according to exacting standards , this is a piece that\u00e2\u20ac\u2122s built to last .\n\n33074: faircloth tufted velvet upholstered wingback parsons chair. velvet fabric cover dining chair perfect for desks , dining rooms , or sitting areas , this upholstered side chair strikes a traditional silhouette . featuring a curved high back , plush cushioned seat , and deeply tufted velvet upholstery studded with nailheads , this dining chair is sure to take your dining experience to a whole new level . antique color wood legs provide sturdy support and complement the stunning upholstery for a sleek , contemporary design . the accent dining chairs are upholstered in classic velvet to create cozy and elegant . features sturdy oak wood legs to guarantee sturdy . small anti-scratch feet on the bottom of each leg to prevent damage to the floor . our dining chair backrest has a curved shape so that it can greatly support your back . in addition , the armless frame and soft , slab foam filling of the cushion allows and encourages an ideal posture during your dinner .\n\n18644: carolina 50.25 '' velvet recessed arm loveseat. our charming high back loveseat takes a traditional look and gives it a glamorous upgrade to create something fresh for your home . featuring an exquisite wingback design and soft velvet upholstery , this stunning loveseat is the perfect addition to any living room , bedroom , or foyer . using deep button-tufted diamond stitching , this classic style will easily anchor your d\u00e9cor in an atmosphere of elegance . this loveseat is finished with beautifully turned legs , bringing a striking modern look and outstanding durability to your home .\n\n***\n\nPrevious query reformulations:\n***\n\nqueen anne wingback chair\n\n\nqueen wingback chair, velvet upholstery\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"15079\",  # Explicitly mentions \"Marie Antoinette\" and \"royal treatment\"\n    \"39544\",  # Mentions \"classic wingback chair\" and \"glamour\"\n    \"4742\",   # Mentions \"classic and traditional style\"\n    \"4743\",   # Describes a luxurious wingback chair\n    \"7721\",   # Mentions \"queen anne legs\" (close enough to \"queen\")\n    \"474\",    # Simple and comfortable wingback chair\n    \"37294\",  # Rustic wingback chair, less relevant but still a wingback\n    \"14159\",  # Placeholder, lacks description\n    \"14158\",  # Placeholder, lacks description\n    \"14165\"   # Placeholder, lacks description\n\n]\n\nprint(doc_ids)\n```\n",
+                "queen anne wingback chair\n",
+                "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"14159\", \"14158\", \"14165\", \"474\", \"24759\"\n]\nprint(doc_ids)\n\n```\n",
+                "queen wingback chair, velvet upholstery\n",
+                "```python\ndoc_ids = [\n    \"15079\", \"7721\", \"39544\", \"4743\", \"4742\", \"474\", \"24759\", \"13754\", \"33074\", \"18644\"\n]\nprint(doc_ids)\n```\n",
+                "queen wingback chair, dimensions\n"
+            ],
+            "curr_top_k_docIDs": [
+                "15079",
+                "7721",
+                "39544",
+                "4743",
+                "4742",
+                "474",
+                "24759",
+                "13754",
+                "33074",
+                "18644"
+            ],
+            "terminate": false
+        }
+    ]
+}
