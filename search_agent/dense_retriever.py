@@ -23,29 +23,16 @@ class DenseRetriever(BaseAgent):
         self.logger.debug("Initialized Dense Retreiver")
 
     def rank(self, state):
+
+        #get the most recent query
+        query = state["queries"][-1]
         
-
-        #if state is just a string query:
-        if isinstance(state,str):
-            query = state
-            retriever_result = {"queries" : [query]}
-        #if state has more elements
-        elif isinstance(state,dict):
-            #get the most recent query
-            query = state["queries"][-1]
-            self.logger.debug(f"query: {query}")
-            retriever_result = copy.deepcopy(state)
-        else:
-            self.logger.warning('unexpected state format')
-            return
-
         # Embed query
         query_embedding = self.embedder.embed([query])[0].to(dtype=torch.float32)
-        #start building result dictionary
         
         #todo: update for multiple query embeddings
         #temp remove query embedding from state
-        #retriever_result["query_embedding"] = query_embedding
+        #state["query_embedding"] = query_embedding
 
         #read knn implementation \in {load_all, load_iteratively}
         knn_implmentation = self.knn_config.get('implementation')
@@ -55,10 +42,12 @@ class DenseRetriever(BaseAgent):
         #knn_result = {"ranked_list": <docID list>, 
         #                   "sim_scores": <list of sim scores>, 
 
+        if "retrieved_lists" not in state:
+            state["retrieved_lists"] = []  
+        state["retrieved_lists"].append(knn_result["ranked_list"])
+        
+        if "all_sim_scores" not in state:
+            state["all_sim_scores"] = []  
+        state["all_sim_scores"].append(knn_result["sim_scores"]) 
 
-        retriever_result.update(knn_result)
-        #retriever_result = {"ranked_list": <docID list>, 
-        #                   "sim_scores": <list of sim scores>, 
-        #                   "query_embedding" : query_embedding,
-        #                   "query" : <q> }
-        return retriever_result
+        return state
