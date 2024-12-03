@@ -1,0 +1,199 @@
+{
+    "queries": [
+        "when was itsfunneh born"
+    ],
+    "retrieved_lists": [
+        [
+            "7258856",
+            "4904965",
+            "7776894",
+            "3171127",
+            "7259547",
+            "4224737",
+            "2401495",
+            "893239",
+            "5419866",
+            "3132936"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7301863431930542,
+            0.16235563158988953,
+            0.14383645355701447,
+            0.14165915548801422,
+            0.14154164493083954,
+            0.13054969906806946,
+            0.1207772046327591,
+            0.0969209372997284,
+            0.086065873503685,
+            0.08436006307601929
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: when was itsfunneh born\n\nDocuments:\n\n7258856: ItsFunneh is best known as a YouTube Star who was born in Canada on Tuesday, October 31, 1995. ItsFunneh is currently 22 years old. ItsFunneh's birth sign is Scorpio. Scroll below and go to Page 2 to see our most recent 2017 and 2018 Estimated Net Worth for ItsFunneh as well as ItsFunneh's estimated 2017 earnings, income, and salary!\n\n4904965: Keisha (actress) Keisha (born October 25, 1966) is the stage name of an American erotic dancer and retired pornographic actress. She is an AVN and XRCO Hall of Fame inductee.\n\n7776894: Chrissy Teigen Makes Her Sports Illustrated Comeback After Baby Luna. WOW. Chrissy Teigen is a Sports Illustrated Swimsuit Issue vet. She first appeared in its pages as Rookie of the Year in 2010, then appeared every year up to 2014, when she graced the cover alongside Nina Agdal and Lily Aldridge. Advertisement - Continue Reading Below.\n\n3171127: Hebrews Hall of Faith: Who was Barak? Hebrews 11, the great faith chapter, highlights great acts of faith by many Old Testament characters. The first three verses say, \u00e2\u0080\u009cNow faith is the substance of things hoped for, the evidence of things not seen.\n\n7259547: As I look back on my part in the advent story I am in awe of the way God worked through the lives of ordinary people to change the course of human history. My name is Zechariah, I am the father of the boy who became John the Baptist, God\u00e2\u0080\u0099s messenger for the coming of the Christ.\n\n4224737: awards and honors. Barack Obama, in full Barack Hussein Obama II (born August 4, 1961, Honolulu, Hawaii, U.S.), 44th president of the United States (2009\u00e2\u0080\u009317) and the first African American to hold the office. Before winning the presidency, Obama represented Illinois in the U.S. Senate (2005\u00e2\u0080\u009308).\n\n2401495: epicanthic fold. A fold of skin of the upper eyelid that partially covers the inner corner of the eye. Also called epicanthus. The American Heritage\u00c2\u00ae Dictionary of the English Language, 5th edition Copyright \u00c2\u00a9 2013 by Houghton Mifflin Harcourt Publishing Company.\n\n893239: Word Cloud Definition. A word cloud is a popular visualization of words typically associated with Internet keywords and text data. They are most commonly used to highlight popular or trending terms based on frequency of use and prominence. A word cloud is a beautiful, informative image that communicates much in a single glance.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n3132936: But to give you an idea of just how tall this tree really is, check out the previous world's tallest tree title holder \u00e2\u0080\u0093 the Stratosphere Giant \u00e2\u0080\u0093 which is 10 feet shorter than the Hyperion. Note the 3 climbers in blue.\n\n"
+    ],
+    "responses": [
+        "[7258856, 4904965, 7776894, 3171127, 7259547, 4224737, 2401495, 893239, 5419866, 3132936]"
+    ],
+    "curr_top_k_docIDs": [
+        7258856,
+        4904965,
+        7776894,
+        3171127,
+        7259547,
+        4224737,
+        2401495,
+        893239,
+        5419866,
+        3132936
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "when was itsfunneh born"
+            ]
+        },
+        {
+            "queries": [
+                "when was itsfunneh born"
+            ],
+            "retrieved_lists": [
+                [
+                    "7258856",
+                    "4904965",
+                    "7776894",
+                    "3171127",
+                    "7259547",
+                    "4224737",
+                    "2401495",
+                    "893239",
+                    "5419866",
+                    "3132936"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7301863431930542,
+                    0.16235563158988953,
+                    0.14383645355701447,
+                    0.14165915548801422,
+                    0.14154164493083954,
+                    0.13054969906806946,
+                    0.1207772046327591,
+                    0.0969209372997284,
+                    0.086065873503685,
+                    0.08436006307601929
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "when was itsfunneh born"
+            ],
+            "retrieved_lists": [
+                [
+                    "7258856",
+                    "4904965",
+                    "7776894",
+                    "3171127",
+                    "7259547",
+                    "4224737",
+                    "2401495",
+                    "893239",
+                    "5419866",
+                    "3132936"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7301863431930542,
+                    0.16235563158988953,
+                    0.14383645355701447,
+                    0.14165915548801422,
+                    0.14154164493083954,
+                    0.13054969906806946,
+                    0.1207772046327591,
+                    0.0969209372997284,
+                    0.086065873503685,
+                    0.08436006307601929
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: when was itsfunneh born\n\nDocuments:\n\n7258856: ItsFunneh is best known as a YouTube Star who was born in Canada on Tuesday, October 31, 1995. ItsFunneh is currently 22 years old. ItsFunneh's birth sign is Scorpio. Scroll below and go to Page 2 to see our most recent 2017 and 2018 Estimated Net Worth for ItsFunneh as well as ItsFunneh's estimated 2017 earnings, income, and salary!\n\n4904965: Keisha (actress) Keisha (born October 25, 1966) is the stage name of an American erotic dancer and retired pornographic actress. She is an AVN and XRCO Hall of Fame inductee.\n\n7776894: Chrissy Teigen Makes Her Sports Illustrated Comeback After Baby Luna. WOW. Chrissy Teigen is a Sports Illustrated Swimsuit Issue vet. She first appeared in its pages as Rookie of the Year in 2010, then appeared every year up to 2014, when she graced the cover alongside Nina Agdal and Lily Aldridge. Advertisement - Continue Reading Below.\n\n3171127: Hebrews Hall of Faith: Who was Barak? Hebrews 11, the great faith chapter, highlights great acts of faith by many Old Testament characters. The first three verses say, \u00e2\u0080\u009cNow faith is the substance of things hoped for, the evidence of things not seen.\n\n7259547: As I look back on my part in the advent story I am in awe of the way God worked through the lives of ordinary people to change the course of human history. My name is Zechariah, I am the father of the boy who became John the Baptist, God\u00e2\u0080\u0099s messenger for the coming of the Christ.\n\n4224737: awards and honors. Barack Obama, in full Barack Hussein Obama II (born August 4, 1961, Honolulu, Hawaii, U.S.), 44th president of the United States (2009\u00e2\u0080\u009317) and the first African American to hold the office. Before winning the presidency, Obama represented Illinois in the U.S. Senate (2005\u00e2\u0080\u009308).\n\n2401495: epicanthic fold. A fold of skin of the upper eyelid that partially covers the inner corner of the eye. Also called epicanthus. The American Heritage\u00c2\u00ae Dictionary of the English Language, 5th edition Copyright \u00c2\u00a9 2013 by Houghton Mifflin Harcourt Publishing Company.\n\n893239: Word Cloud Definition. A word cloud is a popular visualization of words typically associated with Internet keywords and text data. They are most commonly used to highlight popular or trending terms based on frequency of use and prominence. A word cloud is a beautiful, informative image that communicates much in a single glance.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n3132936: But to give you an idea of just how tall this tree really is, check out the previous world's tallest tree title holder \u00e2\u0080\u0093 the Stratosphere Giant \u00e2\u0080\u0093 which is 10 feet shorter than the Hyperion. Note the 3 climbers in blue.\n\n"
+            ],
+            "responses": [
+                "[7258856, 4904965, 7776894, 3171127, 7259547, 4224737, 2401495, 893239, 5419866, 3132936]"
+            ],
+            "curr_top_k_docIDs": [
+                7258856,
+                4904965,
+                7776894,
+                3171127,
+                7259547,
+                4224737,
+                2401495,
+                893239,
+                5419866,
+                3132936
+            ]
+        },
+        {
+            "queries": [
+                "when was itsfunneh born"
+            ],
+            "retrieved_lists": [
+                [
+                    "7258856",
+                    "4904965",
+                    "7776894",
+                    "3171127",
+                    "7259547",
+                    "4224737",
+                    "2401495",
+                    "893239",
+                    "5419866",
+                    "3132936"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7301863431930542,
+                    0.16235563158988953,
+                    0.14383645355701447,
+                    0.14165915548801422,
+                    0.14154164493083954,
+                    0.13054969906806946,
+                    0.1207772046327591,
+                    0.0969209372997284,
+                    0.086065873503685,
+                    0.08436006307601929
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: when was itsfunneh born\n\nDocuments:\n\n7258856: ItsFunneh is best known as a YouTube Star who was born in Canada on Tuesday, October 31, 1995. ItsFunneh is currently 22 years old. ItsFunneh's birth sign is Scorpio. Scroll below and go to Page 2 to see our most recent 2017 and 2018 Estimated Net Worth for ItsFunneh as well as ItsFunneh's estimated 2017 earnings, income, and salary!\n\n4904965: Keisha (actress) Keisha (born October 25, 1966) is the stage name of an American erotic dancer and retired pornographic actress. She is an AVN and XRCO Hall of Fame inductee.\n\n7776894: Chrissy Teigen Makes Her Sports Illustrated Comeback After Baby Luna. WOW. Chrissy Teigen is a Sports Illustrated Swimsuit Issue vet. She first appeared in its pages as Rookie of the Year in 2010, then appeared every year up to 2014, when she graced the cover alongside Nina Agdal and Lily Aldridge. Advertisement - Continue Reading Below.\n\n3171127: Hebrews Hall of Faith: Who was Barak? Hebrews 11, the great faith chapter, highlights great acts of faith by many Old Testament characters. The first three verses say, \u00e2\u0080\u009cNow faith is the substance of things hoped for, the evidence of things not seen.\n\n7259547: As I look back on my part in the advent story I am in awe of the way God worked through the lives of ordinary people to change the course of human history. My name is Zechariah, I am the father of the boy who became John the Baptist, God\u00e2\u0080\u0099s messenger for the coming of the Christ.\n\n4224737: awards and honors. Barack Obama, in full Barack Hussein Obama II (born August 4, 1961, Honolulu, Hawaii, U.S.), 44th president of the United States (2009\u00e2\u0080\u009317) and the first African American to hold the office. Before winning the presidency, Obama represented Illinois in the U.S. Senate (2005\u00e2\u0080\u009308).\n\n2401495: epicanthic fold. A fold of skin of the upper eyelid that partially covers the inner corner of the eye. Also called epicanthus. The American Heritage\u00c2\u00ae Dictionary of the English Language, 5th edition Copyright \u00c2\u00a9 2013 by Houghton Mifflin Harcourt Publishing Company.\n\n893239: Word Cloud Definition. A word cloud is a popular visualization of words typically associated with Internet keywords and text data. They are most commonly used to highlight popular or trending terms based on frequency of use and prominence. A word cloud is a beautiful, informative image that communicates much in a single glance.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n3132936: But to give you an idea of just how tall this tree really is, check out the previous world's tallest tree title holder \u00e2\u0080\u0093 the Stratosphere Giant \u00e2\u0080\u0093 which is 10 feet shorter than the Hyperion. Note the 3 climbers in blue.\n\n"
+            ],
+            "responses": [
+                "[7258856, 4904965, 7776894, 3171127, 7259547, 4224737, 2401495, 893239, 5419866, 3132936]"
+            ],
+            "curr_top_k_docIDs": [
+                7258856,
+                4904965,
+                7776894,
+                3171127,
+                7259547,
+                4224737,
+                2401495,
+                893239,
+                5419866,
+                3132936
+            ],
+            "terminate": true
+        }
+    ]
+}
