@@ -1,0 +1,1046 @@
+{
+    "queries": [
+        "zodiac pillow",
+        "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+        "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n",
+        "zodiac pillow, specifying zodiac sign, throw pillow, lumbar pillow, cushion, pillow cover\n"
+    ],
+    "retrieved_lists": [
+        [
+            "11479",
+            "11482",
+            "9555",
+            "11484",
+            "10467",
+            "11477",
+            "9552",
+            "11481",
+            "10469",
+            "9557"
+        ],
+        [
+            "9556",
+            "9555",
+            "9554",
+            "9552",
+            "9559",
+            "9551",
+            "9558",
+            "9557",
+            "9553",
+            "9550"
+        ],
+        [
+            "9554",
+            "9557",
+            "9559",
+            "9555",
+            "9552",
+            "11013",
+            "9551",
+            "9553",
+            "9556",
+            "9558"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.8175437450408936,
+            0.8088569045066833,
+            0.8068791031837463,
+            0.8011094331741333,
+            0.7976509928703308,
+            0.7975674867630005,
+            0.7971934080123901,
+            0.7944716811180115,
+            0.7940454483032227,
+            0.7937657833099365
+        ],
+        [
+            0.8298229575157166,
+            0.8143988251686096,
+            0.809472918510437,
+            0.8084638714790344,
+            0.8053416013717651,
+            0.8051608800888062,
+            0.8041129112243652,
+            0.8036539554595947,
+            0.8010302186012268,
+            0.7938106656074524
+        ],
+        [
+            0.8139320611953735,
+            0.807529866695404,
+            0.8053871393203735,
+            0.8037223815917969,
+            0.8036044836044312,
+            0.8015995621681213,
+            0.8009370565414429,
+            0.8003758192062378,
+            0.7991580963134766,
+            0.796899676322937
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9550: dulin aquarius zodiac sign astrological constellation throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n***\n\nPrevious query reformulations:\n***\n\nzodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\nzodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n\n\nzodiac pillow, all zodiac signs, throw pillow, specifying size and material\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+        "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+        "```python\ndoc_ids = [\n    \"9555\", \"9552\", \"9557\", \"10467\", \"10469\", \"9556\", \"9554\", \"9559\", \"9551\", \"9558\"\n]\n\nprint(doc_ids)\n\n```\n",
+        "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n",
+        "```python\ndoc_ids = {\n    9555: \"9555\", 9552: \"9552\", 9557: \"9557\", 10467: \"10467\", 10469: \"10469\",\n    9556: \"9556\", 9554: \"9554\", 9559: \"9559\", 9551: \"9551\", 9558: \"9558\",\n    11013: \"11013\", 9553: \"9553\"\n}\n\n#Prioritize documents containing both \"zodiac\" and \"pillow\"\n#Then prioritize documents containing \"zodiac sign pillow\"\n#Then prioritize documents containing \"throw pillow\"\n\nordered_docs = []\nfor doc_id, text in doc_ids.items():\n    if \"zodiac\" in text.lower() and \"pillow\" in text.lower():\n        ordered_docs.append(text)\n\nordered_docs_2 = []\nfor doc_id, text in doc_ids.items():\n    if \"zodiac sign pillow\" in text.lower():\n        ordered_docs_2.append(text)\n\nordered_docs_3 = []\nfor doc_id, text in doc_ids.items():\n    if \"throw pillow\" in text.lower():\n        ordered_docs_3.append(text)\n\nfinal_list = ordered_docs + ordered_docs_2 + ordered_docs_3\n\n#Return only the top 10\nresult = final_list[:10]\n\nprint(result)\n\n```",
+        "zodiac pillow, specifying zodiac sign, throw pillow, lumbar pillow, cushion, pillow cover\n"
+    ],
+    "curr_top_k_docIDs": [],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "zodiac pillow"
+            ]
+        },
+        {
+            "queries": [
+                "zodiac pillow"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "zodiac pillow"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "11479",
+                "11482",
+                "11484",
+                "11477",
+                "11481",
+                "9555",
+                "9552",
+                "9557",
+                "10467",
+                "10469"
+            ]
+        },
+        {
+            "queries": [
+                "zodiac pillow"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "11479",
+                "11482",
+                "11484",
+                "11477",
+                "11481",
+                "9555",
+                "9552",
+                "9557",
+                "10467",
+                "10469"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "zodiac pillow",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n"
+            ],
+            "curr_top_k_docIDs": [
+                "11479",
+                "11482",
+                "11484",
+                "11477",
+                "11481",
+                "9555",
+                "9552",
+                "9557",
+                "10467",
+                "10469"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "zodiac pillow",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ],
+                [
+                    "9556",
+                    "9555",
+                    "9554",
+                    "9552",
+                    "9559",
+                    "9551",
+                    "9558",
+                    "9557",
+                    "9553",
+                    "9550"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ],
+                [
+                    0.8298229575157166,
+                    0.8143988251686096,
+                    0.809472918510437,
+                    0.8084638714790344,
+                    0.8053416013717651,
+                    0.8051608800888062,
+                    0.8041129112243652,
+                    0.8036539554595947,
+                    0.8010302186012268,
+                    0.7938106656074524
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n"
+            ],
+            "curr_top_k_docIDs": [
+                "11479",
+                "11482",
+                "11484",
+                "11477",
+                "11481",
+                "9555",
+                "9552",
+                "9557",
+                "10467",
+                "10469"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "zodiac pillow",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ],
+                [
+                    "9556",
+                    "9555",
+                    "9554",
+                    "9552",
+                    "9559",
+                    "9551",
+                    "9558",
+                    "9557",
+                    "9553",
+                    "9550"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ],
+                [
+                    0.8298229575157166,
+                    0.8143988251686096,
+                    0.809472918510437,
+                    0.8084638714790344,
+                    0.8053416013717651,
+                    0.8051608800888062,
+                    0.8041129112243652,
+                    0.8036539554595947,
+                    0.8010302186012268,
+                    0.7938106656074524
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9550: dulin aquarius zodiac sign astrological constellation throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "```python\ndoc_ids = [\n    \"9555\", \"9552\", \"9557\", \"10467\", \"10469\", \"9556\", \"9554\", \"9559\", \"9551\", \"9558\"\n]\n\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "9555",
+                "9552",
+                "9557",
+                "10467",
+                "10469",
+                "9556",
+                "9554",
+                "9559",
+                "9551",
+                "9558"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "zodiac pillow",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ],
+                [
+                    "9556",
+                    "9555",
+                    "9554",
+                    "9552",
+                    "9559",
+                    "9551",
+                    "9558",
+                    "9557",
+                    "9553",
+                    "9550"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ],
+                [
+                    0.8298229575157166,
+                    0.8143988251686096,
+                    0.809472918510437,
+                    0.8084638714790344,
+                    0.8053416013717651,
+                    0.8051608800888062,
+                    0.8041129112243652,
+                    0.8036539554595947,
+                    0.8010302186012268,
+                    0.7938106656074524
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9550: dulin aquarius zodiac sign astrological constellation throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "```python\ndoc_ids = [\n    \"9555\", \"9552\", \"9557\", \"10467\", \"10469\", \"9556\", \"9554\", \"9559\", \"9551\", \"9558\"\n]\n\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "9555",
+                "9552",
+                "9557",
+                "10467",
+                "10469",
+                "9556",
+                "9554",
+                "9559",
+                "9551",
+                "9558"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "zodiac pillow",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ],
+                [
+                    "9556",
+                    "9555",
+                    "9554",
+                    "9552",
+                    "9559",
+                    "9551",
+                    "9558",
+                    "9557",
+                    "9553",
+                    "9550"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ],
+                [
+                    0.8298229575157166,
+                    0.8143988251686096,
+                    0.809472918510437,
+                    0.8084638714790344,
+                    0.8053416013717651,
+                    0.8051608800888062,
+                    0.8041129112243652,
+                    0.8036539554595947,
+                    0.8010302186012268,
+                    0.7938106656074524
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9550: dulin aquarius zodiac sign astrological constellation throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n***\n\nPrevious query reformulations:\n***\n\nzodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "```python\ndoc_ids = [\n    \"9555\", \"9552\", \"9557\", \"10467\", \"10469\", \"9556\", \"9554\", \"9559\", \"9551\", \"9558\"\n]\n\nprint(doc_ids)\n\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n"
+            ],
+            "curr_top_k_docIDs": [
+                "9555",
+                "9552",
+                "9557",
+                "10467",
+                "10469",
+                "9556",
+                "9554",
+                "9559",
+                "9551",
+                "9558"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "zodiac pillow",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ],
+                [
+                    "9556",
+                    "9555",
+                    "9554",
+                    "9552",
+                    "9559",
+                    "9551",
+                    "9558",
+                    "9557",
+                    "9553",
+                    "9550"
+                ],
+                [
+                    "9554",
+                    "9557",
+                    "9559",
+                    "9555",
+                    "9552",
+                    "11013",
+                    "9551",
+                    "9553",
+                    "9556",
+                    "9558"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ],
+                [
+                    0.8298229575157166,
+                    0.8143988251686096,
+                    0.809472918510437,
+                    0.8084638714790344,
+                    0.8053416013717651,
+                    0.8051608800888062,
+                    0.8041129112243652,
+                    0.8036539554595947,
+                    0.8010302186012268,
+                    0.7938106656074524
+                ],
+                [
+                    0.8139320611953735,
+                    0.807529866695404,
+                    0.8053871393203735,
+                    0.8037223815917969,
+                    0.8036044836044312,
+                    0.8015995621681213,
+                    0.8009370565414429,
+                    0.8003758192062378,
+                    0.7991580963134766,
+                    0.796899676322937
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9550: dulin aquarius zodiac sign astrological constellation throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n***\n\nPrevious query reformulations:\n***\n\nzodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "```python\ndoc_ids = [\n    \"9555\", \"9552\", \"9557\", \"10467\", \"10469\", \"9556\", \"9554\", \"9559\", \"9551\", \"9558\"\n]\n\nprint(doc_ids)\n\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n"
+            ],
+            "curr_top_k_docIDs": [
+                "9555",
+                "9552",
+                "9557",
+                "10467",
+                "10469",
+                "9556",
+                "9554",
+                "9559",
+                "9551",
+                "9558"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "zodiac pillow",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ],
+                [
+                    "9556",
+                    "9555",
+                    "9554",
+                    "9552",
+                    "9559",
+                    "9551",
+                    "9558",
+                    "9557",
+                    "9553",
+                    "9550"
+                ],
+                [
+                    "9554",
+                    "9557",
+                    "9559",
+                    "9555",
+                    "9552",
+                    "11013",
+                    "9551",
+                    "9553",
+                    "9556",
+                    "9558"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ],
+                [
+                    0.8298229575157166,
+                    0.8143988251686096,
+                    0.809472918510437,
+                    0.8084638714790344,
+                    0.8053416013717651,
+                    0.8051608800888062,
+                    0.8041129112243652,
+                    0.8036539554595947,
+                    0.8010302186012268,
+                    0.7938106656074524
+                ],
+                [
+                    0.8139320611953735,
+                    0.807529866695404,
+                    0.8053871393203735,
+                    0.8037223815917969,
+                    0.8036044836044312,
+                    0.8015995621681213,
+                    0.8009370565414429,
+                    0.8003758192062378,
+                    0.7991580963134766,
+                    0.796899676322937
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9550: dulin aquarius zodiac sign astrological constellation throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n***\n\nPrevious query reformulations:\n***\n\nzodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "```python\ndoc_ids = [\n    \"9555\", \"9552\", \"9557\", \"10467\", \"10469\", \"9556\", \"9554\", \"9559\", \"9551\", \"9558\"\n]\n\nprint(doc_ids)\n\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n",
+                "```python\ndoc_ids = {\n    9555: \"9555\", 9552: \"9552\", 9557: \"9557\", 10467: \"10467\", 10469: \"10469\",\n    9556: \"9556\", 9554: \"9554\", 9559: \"9559\", 9551: \"9551\", 9558: \"9558\",\n    11013: \"11013\", 9553: \"9553\"\n}\n\n#Prioritize documents containing both \"zodiac\" and \"pillow\"\n#Then prioritize documents containing \"zodiac sign pillow\"\n#Then prioritize documents containing \"throw pillow\"\n\nordered_docs = []\nfor doc_id, text in doc_ids.items():\n    if \"zodiac\" in text.lower() and \"pillow\" in text.lower():\n        ordered_docs.append(text)\n\nordered_docs_2 = []\nfor doc_id, text in doc_ids.items():\n    if \"zodiac sign pillow\" in text.lower():\n        ordered_docs_2.append(text)\n\nordered_docs_3 = []\nfor doc_id, text in doc_ids.items():\n    if \"throw pillow\" in text.lower():\n        ordered_docs_3.append(text)\n\nfinal_list = ordered_docs + ordered_docs_2 + ordered_docs_3\n\n#Return only the top 10\nresult = final_list[:10]\n\nprint(result)\n\n```"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "zodiac pillow",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ],
+                [
+                    "9556",
+                    "9555",
+                    "9554",
+                    "9552",
+                    "9559",
+                    "9551",
+                    "9558",
+                    "9557",
+                    "9553",
+                    "9550"
+                ],
+                [
+                    "9554",
+                    "9557",
+                    "9559",
+                    "9555",
+                    "9552",
+                    "11013",
+                    "9551",
+                    "9553",
+                    "9556",
+                    "9558"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ],
+                [
+                    0.8298229575157166,
+                    0.8143988251686096,
+                    0.809472918510437,
+                    0.8084638714790344,
+                    0.8053416013717651,
+                    0.8051608800888062,
+                    0.8041129112243652,
+                    0.8036539554595947,
+                    0.8010302186012268,
+                    0.7938106656074524
+                ],
+                [
+                    0.8139320611953735,
+                    0.807529866695404,
+                    0.8053871393203735,
+                    0.8037223815917969,
+                    0.8036044836044312,
+                    0.8015995621681213,
+                    0.8009370565414429,
+                    0.8003758192062378,
+                    0.7991580963134766,
+                    0.796899676322937
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9550: dulin aquarius zodiac sign astrological constellation throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n***\n\nPrevious query reformulations:\n***\n\nzodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "```python\ndoc_ids = [\n    \"9555\", \"9552\", \"9557\", \"10467\", \"10469\", \"9556\", \"9554\", \"9559\", \"9551\", \"9558\"\n]\n\nprint(doc_ids)\n\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n",
+                "```python\ndoc_ids = {\n    9555: \"9555\", 9552: \"9552\", 9557: \"9557\", 10467: \"10467\", 10469: \"10469\",\n    9556: \"9556\", 9554: \"9554\", 9559: \"9559\", 9551: \"9551\", 9558: \"9558\",\n    11013: \"11013\", 9553: \"9553\"\n}\n\n#Prioritize documents containing both \"zodiac\" and \"pillow\"\n#Then prioritize documents containing \"zodiac sign pillow\"\n#Then prioritize documents containing \"throw pillow\"\n\nordered_docs = []\nfor doc_id, text in doc_ids.items():\n    if \"zodiac\" in text.lower() and \"pillow\" in text.lower():\n        ordered_docs.append(text)\n\nordered_docs_2 = []\nfor doc_id, text in doc_ids.items():\n    if \"zodiac sign pillow\" in text.lower():\n        ordered_docs_2.append(text)\n\nordered_docs_3 = []\nfor doc_id, text in doc_ids.items():\n    if \"throw pillow\" in text.lower():\n        ordered_docs_3.append(text)\n\nfinal_list = ordered_docs + ordered_docs_2 + ordered_docs_3\n\n#Return only the top 10\nresult = final_list[:10]\n\nprint(result)\n\n```"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "zodiac pillow",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n",
+                "zodiac pillow, specifying zodiac sign, throw pillow, lumbar pillow, cushion, pillow cover\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "11479",
+                    "11482",
+                    "9555",
+                    "11484",
+                    "10467",
+                    "11477",
+                    "9552",
+                    "11481",
+                    "10469",
+                    "9557"
+                ],
+                [
+                    "9556",
+                    "9555",
+                    "9554",
+                    "9552",
+                    "9559",
+                    "9551",
+                    "9558",
+                    "9557",
+                    "9553",
+                    "9550"
+                ],
+                [
+                    "9554",
+                    "9557",
+                    "9559",
+                    "9555",
+                    "9552",
+                    "11013",
+                    "9551",
+                    "9553",
+                    "9556",
+                    "9558"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8175437450408936,
+                    0.8088569045066833,
+                    0.8068791031837463,
+                    0.8011094331741333,
+                    0.7976509928703308,
+                    0.7975674867630005,
+                    0.7971934080123901,
+                    0.7944716811180115,
+                    0.7940454483032227,
+                    0.7937657833099365
+                ],
+                [
+                    0.8298229575157166,
+                    0.8143988251686096,
+                    0.809472918510437,
+                    0.8084638714790344,
+                    0.8053416013717651,
+                    0.8051608800888062,
+                    0.8041129112243652,
+                    0.8036539554595947,
+                    0.8010302186012268,
+                    0.7938106656074524
+                ],
+                [
+                    0.8139320611953735,
+                    0.807529866695404,
+                    0.8053871393203735,
+                    0.8037223815917969,
+                    0.8036044836044312,
+                    0.8015995621681213,
+                    0.8009370565414429,
+                    0.8003758192062378,
+                    0.7991580963134766,
+                    0.796899676322937
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n11482: leo zodiac sign lumbar pillow. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11477: pisces zodiac sign lumbar pillow. nan\n\n11481: cancer zodiac sign lumbar pillow. nan\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9550: dulin aquarius zodiac sign astrological constellation throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n***\n\nPrevious query reformulations:\n***\n\nzodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: zodiac pillow\n\nDocuments:\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n10467: leo zodiac sign pillow cover. leo zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9554: dulin gemini zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9557: dulin pisces zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9559: dulin scorpio zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9555: dulin leo zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9552: dulin cancer zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n9551: dulin aries zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9556: dulin libra zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9558: dulin sagittarius zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nzodiac pillow\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\nzodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n\n\nzodiac pillow, all zodiac signs, throw pillow, specifying size and material\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11479\", \"11482\", \"11484\", \"11477\", \"11481\", \"9555\", \"9552\", \"9557\", \"10467\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow or lumbar pillow\n",
+                "```python\ndoc_ids = [\n    \"9555\", \"9552\", \"9557\", \"10467\", \"10469\", \"9556\", \"9554\", \"9559\", \"9551\", \"9558\"\n]\n\nprint(doc_ids)\n\n```\n",
+                "zodiac pillow, all zodiac signs, throw pillow, specifying size and material\n",
+                "```python\ndoc_ids = {\n    9555: \"9555\", 9552: \"9552\", 9557: \"9557\", 10467: \"10467\", 10469: \"10469\",\n    9556: \"9556\", 9554: \"9554\", 9559: \"9559\", 9551: \"9551\", 9558: \"9558\",\n    11013: \"11013\", 9553: \"9553\"\n}\n\n#Prioritize documents containing both \"zodiac\" and \"pillow\"\n#Then prioritize documents containing \"zodiac sign pillow\"\n#Then prioritize documents containing \"throw pillow\"\n\nordered_docs = []\nfor doc_id, text in doc_ids.items():\n    if \"zodiac\" in text.lower() and \"pillow\" in text.lower():\n        ordered_docs.append(text)\n\nordered_docs_2 = []\nfor doc_id, text in doc_ids.items():\n    if \"zodiac sign pillow\" in text.lower():\n        ordered_docs_2.append(text)\n\nordered_docs_3 = []\nfor doc_id, text in doc_ids.items():\n    if \"throw pillow\" in text.lower():\n        ordered_docs_3.append(text)\n\nfinal_list = ordered_docs + ordered_docs_2 + ordered_docs_3\n\n#Return only the top 10\nresult = final_list[:10]\n\nprint(result)\n\n```",
+                "zodiac pillow, specifying zodiac sign, throw pillow, lumbar pillow, cushion, pillow cover\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        }
+    ]
+}

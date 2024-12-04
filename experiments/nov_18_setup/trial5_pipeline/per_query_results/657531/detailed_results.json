@@ -1,0 +1,199 @@
+{
+    "queries": [
+        "what enzyme is used in translation"
+    ],
+    "retrieved_lists": [
+        [
+            "250775",
+            "2506722",
+            "3453477",
+            "7331212",
+            "6433324",
+            "1304918",
+            "6098688",
+            "8751537",
+            "7331211",
+            "7548862"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.5254716277122498,
+            0.21803653240203857,
+            0.19943886995315552,
+            0.18232735991477966,
+            0.1509471982717514,
+            0.12980902194976807,
+            0.12608574330806732,
+            0.11939352750778198,
+            0.10884980112314224,
+            0.1068110391497612
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what enzyme is used in translation\n\nDocuments:\n\n250775: During translation, these tRNAs carry amino acids to the ribosome and join with their complementary codons. Then, the assembled amino acids are joined together as the ribosome, with its resident rRNAs, moves along the mRNA molecule in a ratchet-like motion.\n\n2506722: Sodium bicarbonate (IUPAC name: sodium hydrogen carbonate) is a chemical compound with the formula Na HCO3. Sodium bicarbonate is a white solid that is crystalline but often appears as a fine powder.\n\n3453477: Languages similar to the Aztec language have existed in Central Mexico for perhaps 1400 years. As early as 600AD, languages known as Nahuan were spoken by peoples in the area.It is believed that these language speakers came from the north in waves, settling in central Mexico.ou can learn more about the letters of the Aztec language here. The Nahuatl language is an agglutinant language, which means that words and phrases are put together by combining prefixes, suffixes, and root words, in order to form an idea.\n\n7331212: Fill a tall glass with warm water (as hot as you can tolerate), add the juice of half a lemon and one teaspoon of honey to it. Now stir the mixture well and drink it. If you are diabetic, there is no need to shy away from this drink, here is why it is safe for you to add honey to this elixir.\n\n6433324: The microgram (mcg or \u00c2\u00b5g) is the unit of mass in the metric system (SI, International System of Units). 1 microgram (mcg or \u00c2\u00b5g) = 0.000001 grams (g) = 0.001 milligrams (mg) = 0.000000001 kilogram (kg) = 0.0000000352739619 ounces (oz).his calculator-converter provides conversion of micrograms to grams (mcg to g) and backwards grams to micrograms (g to mcg). Convert micrograms to grams (mcg to g) and grams to micrograms (g to mcg) Online Conversion Calculator-Converter.\n\n1304918: RediCalm is the safest and most effective dietary suppliment for stress and anxiety relief. Website: https://www.nutreance.com/.\n\n6098688: Chloroplasts are organelles present in plant cells and some eukaryotic organisms. Chloroplasts are the most important plastids found in plant cells.It is the structure in a green plant cell in which photosynthesis occurs. Chloroplast is one of the three types of plastids.he chloroplast are double membrane bound organelles and are the site of photosynthesis The chloroplasts have a system of three membranes: the outer membrane, the inner membrane and the thylakoid system. The outer and the inner membrane of the chloroplast enclose a semi-gel-like fluid known as the stroma.\n\n8751537: The origin, or proximal attachment, of the extensor pollicis brevis muscle is on the posterior surface of the distal radius, as well as along the distal interosseous membrane between the radius and ulna. The insertion, or distal attachment, is located at the base of the proximal phalanx of the thumb, or digit one.\n\n7331211: Boil the water. Pour into a cup or 2 as much room temperature water and boiled water to your desired temperature to make up 2 cups. (Some people prefer hot while others prefer warm). Mix in the lemon and lime juice with the sliced or grated ginger and turmeric.\n\n7548862: A: Symptoms of influenza in children include a high-grade fever, extreme fatigue, a headache, body aches and a dry, hacking cough, according to WebMD. Children with influenza may also experience a sore throat, belly pain, vomiting, and chills and shakes.\n\n"
+    ],
+    "responses": [
+        "[250775, 6098688, 2506722, 3453477, 7331212, 6433324, 1304918, 8751537, 7331211, 7548862]"
+    ],
+    "curr_top_k_docIDs": [
+        250775,
+        6098688,
+        2506722,
+        3453477,
+        7331212,
+        6433324,
+        1304918,
+        8751537,
+        7331211,
+        7548862
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "what enzyme is used in translation"
+            ]
+        },
+        {
+            "queries": [
+                "what enzyme is used in translation"
+            ],
+            "retrieved_lists": [
+                [
+                    "250775",
+                    "2506722",
+                    "3453477",
+                    "7331212",
+                    "6433324",
+                    "1304918",
+                    "6098688",
+                    "8751537",
+                    "7331211",
+                    "7548862"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5254716277122498,
+                    0.21803653240203857,
+                    0.19943886995315552,
+                    0.18232735991477966,
+                    0.1509471982717514,
+                    0.12980902194976807,
+                    0.12608574330806732,
+                    0.11939352750778198,
+                    0.10884980112314224,
+                    0.1068110391497612
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "what enzyme is used in translation"
+            ],
+            "retrieved_lists": [
+                [
+                    "250775",
+                    "2506722",
+                    "3453477",
+                    "7331212",
+                    "6433324",
+                    "1304918",
+                    "6098688",
+                    "8751537",
+                    "7331211",
+                    "7548862"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5254716277122498,
+                    0.21803653240203857,
+                    0.19943886995315552,
+                    0.18232735991477966,
+                    0.1509471982717514,
+                    0.12980902194976807,
+                    0.12608574330806732,
+                    0.11939352750778198,
+                    0.10884980112314224,
+                    0.1068110391497612
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what enzyme is used in translation\n\nDocuments:\n\n250775: During translation, these tRNAs carry amino acids to the ribosome and join with their complementary codons. Then, the assembled amino acids are joined together as the ribosome, with its resident rRNAs, moves along the mRNA molecule in a ratchet-like motion.\n\n2506722: Sodium bicarbonate (IUPAC name: sodium hydrogen carbonate) is a chemical compound with the formula Na HCO3. Sodium bicarbonate is a white solid that is crystalline but often appears as a fine powder.\n\n3453477: Languages similar to the Aztec language have existed in Central Mexico for perhaps 1400 years. As early as 600AD, languages known as Nahuan were spoken by peoples in the area.It is believed that these language speakers came from the north in waves, settling in central Mexico.ou can learn more about the letters of the Aztec language here. The Nahuatl language is an agglutinant language, which means that words and phrases are put together by combining prefixes, suffixes, and root words, in order to form an idea.\n\n7331212: Fill a tall glass with warm water (as hot as you can tolerate), add the juice of half a lemon and one teaspoon of honey to it. Now stir the mixture well and drink it. If you are diabetic, there is no need to shy away from this drink, here is why it is safe for you to add honey to this elixir.\n\n6433324: The microgram (mcg or \u00c2\u00b5g) is the unit of mass in the metric system (SI, International System of Units). 1 microgram (mcg or \u00c2\u00b5g) = 0.000001 grams (g) = 0.001 milligrams (mg) = 0.000000001 kilogram (kg) = 0.0000000352739619 ounces (oz).his calculator-converter provides conversion of micrograms to grams (mcg to g) and backwards grams to micrograms (g to mcg). Convert micrograms to grams (mcg to g) and grams to micrograms (g to mcg) Online Conversion Calculator-Converter.\n\n1304918: RediCalm is the safest and most effective dietary suppliment for stress and anxiety relief. Website: https://www.nutreance.com/.\n\n6098688: Chloroplasts are organelles present in plant cells and some eukaryotic organisms. Chloroplasts are the most important plastids found in plant cells.It is the structure in a green plant cell in which photosynthesis occurs. Chloroplast is one of the three types of plastids.he chloroplast are double membrane bound organelles and are the site of photosynthesis The chloroplasts have a system of three membranes: the outer membrane, the inner membrane and the thylakoid system. The outer and the inner membrane of the chloroplast enclose a semi-gel-like fluid known as the stroma.\n\n8751537: The origin, or proximal attachment, of the extensor pollicis brevis muscle is on the posterior surface of the distal radius, as well as along the distal interosseous membrane between the radius and ulna. The insertion, or distal attachment, is located at the base of the proximal phalanx of the thumb, or digit one.\n\n7331211: Boil the water. Pour into a cup or 2 as much room temperature water and boiled water to your desired temperature to make up 2 cups. (Some people prefer hot while others prefer warm). Mix in the lemon and lime juice with the sliced or grated ginger and turmeric.\n\n7548862: A: Symptoms of influenza in children include a high-grade fever, extreme fatigue, a headache, body aches and a dry, hacking cough, according to WebMD. Children with influenza may also experience a sore throat, belly pain, vomiting, and chills and shakes.\n\n"
+            ],
+            "responses": [
+                "[250775, 6098688, 2506722, 3453477, 7331212, 6433324, 1304918, 8751537, 7331211, 7548862]"
+            ],
+            "curr_top_k_docIDs": [
+                250775,
+                6098688,
+                2506722,
+                3453477,
+                7331212,
+                6433324,
+                1304918,
+                8751537,
+                7331211,
+                7548862
+            ]
+        },
+        {
+            "queries": [
+                "what enzyme is used in translation"
+            ],
+            "retrieved_lists": [
+                [
+                    "250775",
+                    "2506722",
+                    "3453477",
+                    "7331212",
+                    "6433324",
+                    "1304918",
+                    "6098688",
+                    "8751537",
+                    "7331211",
+                    "7548862"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5254716277122498,
+                    0.21803653240203857,
+                    0.19943886995315552,
+                    0.18232735991477966,
+                    0.1509471982717514,
+                    0.12980902194976807,
+                    0.12608574330806732,
+                    0.11939352750778198,
+                    0.10884980112314224,
+                    0.1068110391497612
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what enzyme is used in translation\n\nDocuments:\n\n250775: During translation, these tRNAs carry amino acids to the ribosome and join with their complementary codons. Then, the assembled amino acids are joined together as the ribosome, with its resident rRNAs, moves along the mRNA molecule in a ratchet-like motion.\n\n2506722: Sodium bicarbonate (IUPAC name: sodium hydrogen carbonate) is a chemical compound with the formula Na HCO3. Sodium bicarbonate is a white solid that is crystalline but often appears as a fine powder.\n\n3453477: Languages similar to the Aztec language have existed in Central Mexico for perhaps 1400 years. As early as 600AD, languages known as Nahuan were spoken by peoples in the area.It is believed that these language speakers came from the north in waves, settling in central Mexico.ou can learn more about the letters of the Aztec language here. The Nahuatl language is an agglutinant language, which means that words and phrases are put together by combining prefixes, suffixes, and root words, in order to form an idea.\n\n7331212: Fill a tall glass with warm water (as hot as you can tolerate), add the juice of half a lemon and one teaspoon of honey to it. Now stir the mixture well and drink it. If you are diabetic, there is no need to shy away from this drink, here is why it is safe for you to add honey to this elixir.\n\n6433324: The microgram (mcg or \u00c2\u00b5g) is the unit of mass in the metric system (SI, International System of Units). 1 microgram (mcg or \u00c2\u00b5g) = 0.000001 grams (g) = 0.001 milligrams (mg) = 0.000000001 kilogram (kg) = 0.0000000352739619 ounces (oz).his calculator-converter provides conversion of micrograms to grams (mcg to g) and backwards grams to micrograms (g to mcg). Convert micrograms to grams (mcg to g) and grams to micrograms (g to mcg) Online Conversion Calculator-Converter.\n\n1304918: RediCalm is the safest and most effective dietary suppliment for stress and anxiety relief. Website: https://www.nutreance.com/.\n\n6098688: Chloroplasts are organelles present in plant cells and some eukaryotic organisms. Chloroplasts are the most important plastids found in plant cells.It is the structure in a green plant cell in which photosynthesis occurs. Chloroplast is one of the three types of plastids.he chloroplast are double membrane bound organelles and are the site of photosynthesis The chloroplasts have a system of three membranes: the outer membrane, the inner membrane and the thylakoid system. The outer and the inner membrane of the chloroplast enclose a semi-gel-like fluid known as the stroma.\n\n8751537: The origin, or proximal attachment, of the extensor pollicis brevis muscle is on the posterior surface of the distal radius, as well as along the distal interosseous membrane between the radius and ulna. The insertion, or distal attachment, is located at the base of the proximal phalanx of the thumb, or digit one.\n\n7331211: Boil the water. Pour into a cup or 2 as much room temperature water and boiled water to your desired temperature to make up 2 cups. (Some people prefer hot while others prefer warm). Mix in the lemon and lime juice with the sliced or grated ginger and turmeric.\n\n7548862: A: Symptoms of influenza in children include a high-grade fever, extreme fatigue, a headache, body aches and a dry, hacking cough, according to WebMD. Children with influenza may also experience a sore throat, belly pain, vomiting, and chills and shakes.\n\n"
+            ],
+            "responses": [
+                "[250775, 6098688, 2506722, 3453477, 7331212, 6433324, 1304918, 8751537, 7331211, 7548862]"
+            ],
+            "curr_top_k_docIDs": [
+                250775,
+                6098688,
+                2506722,
+                3453477,
+                7331212,
+                6433324,
+                1304918,
+                8751537,
+                7331211,
+                7548862
+            ],
+            "terminate": true
+        }
+    ]
+}

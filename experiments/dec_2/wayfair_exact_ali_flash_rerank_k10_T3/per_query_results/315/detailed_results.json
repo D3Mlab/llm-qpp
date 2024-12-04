@@ -1,0 +1,1090 @@
+{
+    "queries": [
+        "medium clips",
+        "medium sized binder clips and other medium sized clips for office use\n",
+        "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n",
+        "medium binder clips and paper clips;  different materials, sizes, and quantities\n"
+    ],
+    "retrieved_lists": [
+        [
+            "36809",
+            "12210",
+            "38638",
+            "6981",
+            "31974",
+            "26060",
+            "37398",
+            "7262",
+            "31967",
+            "17212"
+        ],
+        [
+            "36809",
+            "37398",
+            "37397",
+            "36813",
+            "12210",
+            "37007",
+            "37128",
+            "22880",
+            "42010",
+            "2962"
+        ],
+        [
+            "36809",
+            "37398",
+            "37397",
+            "36813",
+            "37007",
+            "12210",
+            "37396",
+            "2962",
+            "37399",
+            "36413"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6345330476760864,
+            0.6139734387397766,
+            0.6111445426940918,
+            0.6064063310623169,
+            0.6019130349159241,
+            0.600253164768219,
+            0.599744975566864,
+            0.5974046587944031,
+            0.5961480140686035,
+            0.5950049161911011
+        ],
+        [
+            0.7636607885360718,
+            0.7473437190055847,
+            0.6869549751281738,
+            0.6791202425956726,
+            0.6634374856948853,
+            0.6617485880851746,
+            0.6367144584655762,
+            0.6226752996444702,
+            0.6210739612579346,
+            0.6134896874427795
+        ],
+        [
+            0.8323886394500732,
+            0.7708172798156738,
+            0.75636225938797,
+            0.7446529865264893,
+            0.7336934804916382,
+            0.7014561891555786,
+            0.6964074373245239,
+            0.6625280976295471,
+            0.6598007678985596,
+            0.6589970588684082
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n37128: desk organizer w/dividers , 47-1/4 '' x9-1/2 '' x18-3/8 '' , black. desk organizer offers three movable dividers for versatile organizing . right side features three movable letter-size , horizontal file compartments , and left side features two extra-long shelves for maximum versatility . solid enclosed back prevents documents from falling behind organizer and features cableway holes to run electronic cords and wire through instead of around . easily store many combinations of office supplies , files , forms , folders , binders , magazines , catalogs , manuals , clocks , radios , and books . nonslip , nonmar pads provide a scratch-free , secure grip . durable heavy-gauge steel has a scratch-resistant , chip-resistant finish . desk organizer also has rounded corners and recessed shelves to make loading and retrieval of documents fast and easy .\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n***\n\nPrevious query reformulations:\n***\n\nmedium sized binder clips and other medium sized clips for office use\n\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37396: paper clips , coated , jumbo , 80 clips per pack , pink. breast cancer awareness paper clips come in a distinctive pink , the color that represents the fight against breast cancer . paper clips are jumbo-sized for thick stacks of paper and pvc-free coated for easy use . paper clips come in a reusable tub .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n37399: binder clip. nan\n\n36413: simple signholder clips. holds rigid substrates up to 1/4 '' thick . adjustable top and bottom holders .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n***\n\nPrevious query reformulations:\n***\n\nmedium sized binder clips and other medium sized clips for office use\n\n\nmedium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n",
+        "medium sized binder clips and other medium sized clips for office use\n",
+        "```python\ndoc_ids = [\n    \"36809\",\n    \"37398\",\n    \"37397\",\n    \"36813\",\n    \"12210\",\n    \"37007\",\n    \"2962\",\n    \"42010\",\n    \"22880\",\n    \"12210\"\n]\n\nprint(doc_ids)\n\n```\n",
+        "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n",
+        "```python\ndoc_ids = [\n    \"36809\", \"37398\", \"37397\", \"36813\", \"37007\", \"12210\", \"12210\", \"12210\", \"36809\", \"37398\"\n]\nprint(doc_ids)\n\n```\n",
+        "medium binder clips and paper clips;  different materials, sizes, and quantities\n"
+    ],
+    "curr_top_k_docIDs": [
+        "36809",
+        "37398",
+        "37397",
+        "36813",
+        "37007",
+        "12210",
+        "12210",
+        "12210",
+        "36809",
+        "37398"
+    ],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "medium clips"
+            ]
+        },
+        {
+            "queries": [
+                "medium clips"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "medium clips"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36809",
+                "37398",
+                "12210",
+                "6981",
+                "7262",
+                "38638",
+                "31974",
+                "26060",
+                "31967",
+                "17212"
+            ]
+        },
+        {
+            "queries": [
+                "medium clips"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36809",
+                "37398",
+                "12210",
+                "6981",
+                "7262",
+                "38638",
+                "31974",
+                "26060",
+                "31967",
+                "17212"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "medium clips",
+                "medium sized binder clips and other medium sized clips for office use\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n",
+                "medium sized binder clips and other medium sized clips for office use\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36809",
+                "37398",
+                "12210",
+                "6981",
+                "7262",
+                "38638",
+                "31974",
+                "26060",
+                "31967",
+                "17212"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "medium clips",
+                "medium sized binder clips and other medium sized clips for office use\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "12210",
+                    "37007",
+                    "37128",
+                    "22880",
+                    "42010",
+                    "2962"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ],
+                [
+                    0.7636607885360718,
+                    0.7473437190055847,
+                    0.6869549751281738,
+                    0.6791202425956726,
+                    0.6634374856948853,
+                    0.6617485880851746,
+                    0.6367144584655762,
+                    0.6226752996444702,
+                    0.6210739612579346,
+                    0.6134896874427795
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n",
+                "medium sized binder clips and other medium sized clips for office use\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36809",
+                "37398",
+                "12210",
+                "6981",
+                "7262",
+                "38638",
+                "31974",
+                "26060",
+                "31967",
+                "17212"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "medium clips",
+                "medium sized binder clips and other medium sized clips for office use\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "12210",
+                    "37007",
+                    "37128",
+                    "22880",
+                    "42010",
+                    "2962"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ],
+                [
+                    0.7636607885360718,
+                    0.7473437190055847,
+                    0.6869549751281738,
+                    0.6791202425956726,
+                    0.6634374856948853,
+                    0.6617485880851746,
+                    0.6367144584655762,
+                    0.6226752996444702,
+                    0.6210739612579346,
+                    0.6134896874427795
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n37128: desk organizer w/dividers , 47-1/4 '' x9-1/2 '' x18-3/8 '' , black. desk organizer offers three movable dividers for versatile organizing . right side features three movable letter-size , horizontal file compartments , and left side features two extra-long shelves for maximum versatility . solid enclosed back prevents documents from falling behind organizer and features cableway holes to run electronic cords and wire through instead of around . easily store many combinations of office supplies , files , forms , folders , binders , magazines , catalogs , manuals , clocks , radios , and books . nonslip , nonmar pads provide a scratch-free , secure grip . durable heavy-gauge steel has a scratch-resistant , chip-resistant finish . desk organizer also has rounded corners and recessed shelves to make loading and retrieval of documents fast and easy .\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "```python\ndoc_ids = [\n    \"36809\",\n    \"37398\",\n    \"37397\",\n    \"36813\",\n    \"12210\",\n    \"37007\",\n    \"2962\",\n    \"42010\",\n    \"22880\",\n    \"12210\"\n]\n\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36809",
+                "37398",
+                "37397",
+                "36813",
+                "12210",
+                "37007",
+                "2962",
+                "42010",
+                "22880",
+                "12210"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "medium clips",
+                "medium sized binder clips and other medium sized clips for office use\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "12210",
+                    "37007",
+                    "37128",
+                    "22880",
+                    "42010",
+                    "2962"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ],
+                [
+                    0.7636607885360718,
+                    0.7473437190055847,
+                    0.6869549751281738,
+                    0.6791202425956726,
+                    0.6634374856948853,
+                    0.6617485880851746,
+                    0.6367144584655762,
+                    0.6226752996444702,
+                    0.6210739612579346,
+                    0.6134896874427795
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n37128: desk organizer w/dividers , 47-1/4 '' x9-1/2 '' x18-3/8 '' , black. desk organizer offers three movable dividers for versatile organizing . right side features three movable letter-size , horizontal file compartments , and left side features two extra-long shelves for maximum versatility . solid enclosed back prevents documents from falling behind organizer and features cableway holes to run electronic cords and wire through instead of around . easily store many combinations of office supplies , files , forms , folders , binders , magazines , catalogs , manuals , clocks , radios , and books . nonslip , nonmar pads provide a scratch-free , secure grip . durable heavy-gauge steel has a scratch-resistant , chip-resistant finish . desk organizer also has rounded corners and recessed shelves to make loading and retrieval of documents fast and easy .\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "```python\ndoc_ids = [\n    \"36809\",\n    \"37398\",\n    \"37397\",\n    \"36813\",\n    \"12210\",\n    \"37007\",\n    \"2962\",\n    \"42010\",\n    \"22880\",\n    \"12210\"\n]\n\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36809",
+                "37398",
+                "37397",
+                "36813",
+                "12210",
+                "37007",
+                "2962",
+                "42010",
+                "22880",
+                "12210"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "medium clips",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "12210",
+                    "37007",
+                    "37128",
+                    "22880",
+                    "42010",
+                    "2962"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ],
+                [
+                    0.7636607885360718,
+                    0.7473437190055847,
+                    0.6869549751281738,
+                    0.6791202425956726,
+                    0.6634374856948853,
+                    0.6617485880851746,
+                    0.6367144584655762,
+                    0.6226752996444702,
+                    0.6210739612579346,
+                    0.6134896874427795
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n37128: desk organizer w/dividers , 47-1/4 '' x9-1/2 '' x18-3/8 '' , black. desk organizer offers three movable dividers for versatile organizing . right side features three movable letter-size , horizontal file compartments , and left side features two extra-long shelves for maximum versatility . solid enclosed back prevents documents from falling behind organizer and features cableway holes to run electronic cords and wire through instead of around . easily store many combinations of office supplies , files , forms , folders , binders , magazines , catalogs , manuals , clocks , radios , and books . nonslip , nonmar pads provide a scratch-free , secure grip . durable heavy-gauge steel has a scratch-resistant , chip-resistant finish . desk organizer also has rounded corners and recessed shelves to make loading and retrieval of documents fast and easy .\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n***\n\nPrevious query reformulations:\n***\n\nmedium sized binder clips and other medium sized clips for office use\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "```python\ndoc_ids = [\n    \"36809\",\n    \"37398\",\n    \"37397\",\n    \"36813\",\n    \"12210\",\n    \"37007\",\n    \"2962\",\n    \"42010\",\n    \"22880\",\n    \"12210\"\n]\n\nprint(doc_ids)\n\n```\n",
+                "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36809",
+                "37398",
+                "37397",
+                "36813",
+                "12210",
+                "37007",
+                "2962",
+                "42010",
+                "22880",
+                "12210"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "medium clips",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "12210",
+                    "37007",
+                    "37128",
+                    "22880",
+                    "42010",
+                    "2962"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "37007",
+                    "12210",
+                    "37396",
+                    "2962",
+                    "37399",
+                    "36413"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ],
+                [
+                    0.7636607885360718,
+                    0.7473437190055847,
+                    0.6869549751281738,
+                    0.6791202425956726,
+                    0.6634374856948853,
+                    0.6617485880851746,
+                    0.6367144584655762,
+                    0.6226752996444702,
+                    0.6210739612579346,
+                    0.6134896874427795
+                ],
+                [
+                    0.8323886394500732,
+                    0.7708172798156738,
+                    0.75636225938797,
+                    0.7446529865264893,
+                    0.7336934804916382,
+                    0.7014561891555786,
+                    0.6964074373245239,
+                    0.6625280976295471,
+                    0.6598007678985596,
+                    0.6589970588684082
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n37128: desk organizer w/dividers , 47-1/4 '' x9-1/2 '' x18-3/8 '' , black. desk organizer offers three movable dividers for versatile organizing . right side features three movable letter-size , horizontal file compartments , and left side features two extra-long shelves for maximum versatility . solid enclosed back prevents documents from falling behind organizer and features cableway holes to run electronic cords and wire through instead of around . easily store many combinations of office supplies , files , forms , folders , binders , magazines , catalogs , manuals , clocks , radios , and books . nonslip , nonmar pads provide a scratch-free , secure grip . durable heavy-gauge steel has a scratch-resistant , chip-resistant finish . desk organizer also has rounded corners and recessed shelves to make loading and retrieval of documents fast and easy .\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n***\n\nPrevious query reformulations:\n***\n\nmedium sized binder clips and other medium sized clips for office use\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "```python\ndoc_ids = [\n    \"36809\",\n    \"37398\",\n    \"37397\",\n    \"36813\",\n    \"12210\",\n    \"37007\",\n    \"2962\",\n    \"42010\",\n    \"22880\",\n    \"12210\"\n]\n\nprint(doc_ids)\n\n```\n",
+                "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36809",
+                "37398",
+                "37397",
+                "36813",
+                "12210",
+                "37007",
+                "2962",
+                "42010",
+                "22880",
+                "12210"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "medium clips",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "12210",
+                    "37007",
+                    "37128",
+                    "22880",
+                    "42010",
+                    "2962"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "37007",
+                    "12210",
+                    "37396",
+                    "2962",
+                    "37399",
+                    "36413"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ],
+                [
+                    0.7636607885360718,
+                    0.7473437190055847,
+                    0.6869549751281738,
+                    0.6791202425956726,
+                    0.6634374856948853,
+                    0.6617485880851746,
+                    0.6367144584655762,
+                    0.6226752996444702,
+                    0.6210739612579346,
+                    0.6134896874427795
+                ],
+                [
+                    0.8323886394500732,
+                    0.7708172798156738,
+                    0.75636225938797,
+                    0.7446529865264893,
+                    0.7336934804916382,
+                    0.7014561891555786,
+                    0.6964074373245239,
+                    0.6625280976295471,
+                    0.6598007678985596,
+                    0.6589970588684082
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n37128: desk organizer w/dividers , 47-1/4 '' x9-1/2 '' x18-3/8 '' , black. desk organizer offers three movable dividers for versatile organizing . right side features three movable letter-size , horizontal file compartments , and left side features two extra-long shelves for maximum versatility . solid enclosed back prevents documents from falling behind organizer and features cableway holes to run electronic cords and wire through instead of around . easily store many combinations of office supplies , files , forms , folders , binders , magazines , catalogs , manuals , clocks , radios , and books . nonslip , nonmar pads provide a scratch-free , secure grip . durable heavy-gauge steel has a scratch-resistant , chip-resistant finish . desk organizer also has rounded corners and recessed shelves to make loading and retrieval of documents fast and easy .\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n***\n\nPrevious query reformulations:\n***\n\nmedium sized binder clips and other medium sized clips for office use\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37396: paper clips , coated , jumbo , 80 clips per pack , pink. breast cancer awareness paper clips come in a distinctive pink , the color that represents the fight against breast cancer . paper clips are jumbo-sized for thick stacks of paper and pvc-free coated for easy use . paper clips come in a reusable tub .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n37399: binder clip. nan\n\n36413: simple signholder clips. holds rigid substrates up to 1/4 '' thick . adjustable top and bottom holders .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "```python\ndoc_ids = [\n    \"36809\",\n    \"37398\",\n    \"37397\",\n    \"36813\",\n    \"12210\",\n    \"37007\",\n    \"2962\",\n    \"42010\",\n    \"22880\",\n    \"12210\"\n]\n\nprint(doc_ids)\n\n```\n",
+                "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n",
+                "```python\ndoc_ids = [\n    \"36809\", \"37398\", \"37397\", \"36813\", \"37007\", \"12210\", \"12210\", \"12210\", \"36809\", \"37398\"\n]\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36809",
+                "37398",
+                "37397",
+                "36813",
+                "37007",
+                "12210",
+                "12210",
+                "12210",
+                "36809",
+                "37398"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "medium clips",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "12210",
+                    "37007",
+                    "37128",
+                    "22880",
+                    "42010",
+                    "2962"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "37007",
+                    "12210",
+                    "37396",
+                    "2962",
+                    "37399",
+                    "36413"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ],
+                [
+                    0.7636607885360718,
+                    0.7473437190055847,
+                    0.6869549751281738,
+                    0.6791202425956726,
+                    0.6634374856948853,
+                    0.6617485880851746,
+                    0.6367144584655762,
+                    0.6226752996444702,
+                    0.6210739612579346,
+                    0.6134896874427795
+                ],
+                [
+                    0.8323886394500732,
+                    0.7708172798156738,
+                    0.75636225938797,
+                    0.7446529865264893,
+                    0.7336934804916382,
+                    0.7014561891555786,
+                    0.6964074373245239,
+                    0.6625280976295471,
+                    0.6598007678985596,
+                    0.6589970588684082
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n37128: desk organizer w/dividers , 47-1/4 '' x9-1/2 '' x18-3/8 '' , black. desk organizer offers three movable dividers for versatile organizing . right side features three movable letter-size , horizontal file compartments , and left side features two extra-long shelves for maximum versatility . solid enclosed back prevents documents from falling behind organizer and features cableway holes to run electronic cords and wire through instead of around . easily store many combinations of office supplies , files , forms , folders , binders , magazines , catalogs , manuals , clocks , radios , and books . nonslip , nonmar pads provide a scratch-free , secure grip . durable heavy-gauge steel has a scratch-resistant , chip-resistant finish . desk organizer also has rounded corners and recessed shelves to make loading and retrieval of documents fast and easy .\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n***\n\nPrevious query reformulations:\n***\n\nmedium sized binder clips and other medium sized clips for office use\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37396: paper clips , coated , jumbo , 80 clips per pack , pink. breast cancer awareness paper clips come in a distinctive pink , the color that represents the fight against breast cancer . paper clips are jumbo-sized for thick stacks of paper and pvc-free coated for easy use . paper clips come in a reusable tub .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n37399: binder clip. nan\n\n36413: simple signholder clips. holds rigid substrates up to 1/4 '' thick . adjustable top and bottom holders .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "```python\ndoc_ids = [\n    \"36809\",\n    \"37398\",\n    \"37397\",\n    \"36813\",\n    \"12210\",\n    \"37007\",\n    \"2962\",\n    \"42010\",\n    \"22880\",\n    \"12210\"\n]\n\nprint(doc_ids)\n\n```\n",
+                "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n",
+                "```python\ndoc_ids = [\n    \"36809\", \"37398\", \"37397\", \"36813\", \"37007\", \"12210\", \"12210\", \"12210\", \"36809\", \"37398\"\n]\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36809",
+                "37398",
+                "37397",
+                "36813",
+                "37007",
+                "12210",
+                "12210",
+                "12210",
+                "36809",
+                "37398"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "medium clips",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n",
+                "medium binder clips and paper clips;  different materials, sizes, and quantities\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "36809",
+                    "12210",
+                    "38638",
+                    "6981",
+                    "31974",
+                    "26060",
+                    "37398",
+                    "7262",
+                    "31967",
+                    "17212"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "12210",
+                    "37007",
+                    "37128",
+                    "22880",
+                    "42010",
+                    "2962"
+                ],
+                [
+                    "36809",
+                    "37398",
+                    "37397",
+                    "36813",
+                    "37007",
+                    "12210",
+                    "37396",
+                    "2962",
+                    "37399",
+                    "36413"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6345330476760864,
+                    0.6139734387397766,
+                    0.6111445426940918,
+                    0.6064063310623169,
+                    0.6019130349159241,
+                    0.600253164768219,
+                    0.599744975566864,
+                    0.5974046587944031,
+                    0.5961480140686035,
+                    0.5950049161911011
+                ],
+                [
+                    0.7636607885360718,
+                    0.7473437190055847,
+                    0.6869549751281738,
+                    0.6791202425956726,
+                    0.6634374856948853,
+                    0.6617485880851746,
+                    0.6367144584655762,
+                    0.6226752996444702,
+                    0.6210739612579346,
+                    0.6134896874427795
+                ],
+                [
+                    0.8323886394500732,
+                    0.7708172798156738,
+                    0.75636225938797,
+                    0.7446529865264893,
+                    0.7336934804916382,
+                    0.7014561891555786,
+                    0.6964074373245239,
+                    0.6625280976295471,
+                    0.6598007678985596,
+                    0.6589970588684082
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n38638: clip. nan\n\n6981: plan clips. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n6981: plan clips. nan\n\n7262: standard clips. century home living deck board clips are designed to anchor the board down as well as let the board contract and expand freely . the standard clips are used to fasten the first or last deck board , and the standard clips are used to expand the deck boards . both screws are designed to help you install the deck boards quick , easy , and free of exposed screw heads . they will be hidden under the deck boards after the installation .\n\n38638: clip. nan\n\n31974: 3 '' center to centerrecessed pull. nan\n\n26060: midea 6.5 qt . slow cooker. this slow cooker is an affordable and ideal way to cook the food that requires long and slow simmering . simply put in all the ingredients , select the right setting , and the cooker will do the work for you ! the capacity is large enough to serve dinner for the whole family .\n\n31967: 1 1/4 '' center to centerfinger pull. nan\n\n17212: 1 1/4 '' center finger pull multipack. nan\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n37128: desk organizer w/dividers , 47-1/4 '' x9-1/2 '' x18-3/8 '' , black. desk organizer offers three movable dividers for versatile organizing . right side features three movable letter-size , horizontal file compartments , and left side features two extra-long shelves for maximum versatility . solid enclosed back prevents documents from falling behind organizer and features cableway holes to run electronic cords and wire through instead of around . easily store many combinations of office supplies , files , forms , folders , binders , magazines , catalogs , manuals , clocks , radios , and books . nonslip , nonmar pads provide a scratch-free , secure grip . durable heavy-gauge steel has a scratch-resistant , chip-resistant finish . desk organizer also has rounded corners and recessed shelves to make loading and retrieval of documents fast and easy .\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n***\n\nPrevious query reformulations:\n***\n\nmedium sized binder clips and other medium sized clips for office use\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: medium clips\n\nDocuments:\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n42010: 24.84 '' h x 37.52 '' w x 11 '' d cube. meet the clip & cube\u2122 \u2014 whitmor \u2019 s modular storage system designed to evolve , to fit your space again and again . completely customizable , whitmor \u2019 s clip & cube\u2122 organizers can be used separately or together to build and create multiple configurations . what \u2019 s included : 10 locking clips 2-cubes 11 x 12.17 x 12.17 inches 1-small rectangle 11 x 12.17 x 5.83 inches 1-medium rectangle 11 x 12.17 x 18.5 inches 1-large rectangle 11 x 12.17 x 24 inches assembly tools and hardware\n\n22880: wayfair basics\u00ae 6 piece desk organizer set. ideal for dorms and home offices alike , this 6-piece desk set offers everything you need for your work space . this set includes a waste basket , dual-section filer , stick pad holder , business card tray , pencil cup , and a paperclip holder . we love to keep small notepads or index cards organized with the small filer . each piece is made from steel with an openwork wire design and solid finish for a cohesive look . best of all , this product comes backed by a lifetime warranty from the manufacturer .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n37396: paper clips , coated , jumbo , 80 clips per pack , pink. breast cancer awareness paper clips come in a distinctive pink , the color that represents the fight against breast cancer . paper clips are jumbo-sized for thick stacks of paper and pvc-free coated for easy use . paper clips come in a reusable tub .\n\n2962: bulldog magnetic clips , steel , 2-1/4 '' w , nickel-plated , 12 per box. sturdy clips hold fast to all your important documents . strong magnet attaches to any steel surface so you can position papers where you need them . heavy-duty construction for strength and durability .\n\n37399: binder clip. nan\n\n36413: simple signholder clips. holds rigid substrates up to 1/4 '' thick . adjustable top and bottom holders .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nmedium clips\n***\n\nDocuments:\n***\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n37397: medium binder clips , 24/pack. metal binder clips in assorted colors for easy color coding . handy tub for storage .\n\n36813: gem paper clips , plastic , medium size , 500/box. bright assorted colored plastic medium clips hold papers securely and prevent tearing . perfect for coding and flagging . will not discolor paper or film . non-magnetic .\n\n37007: binder clips 1 1/4 wide medium. tempered spring steel construction is corrosion resistant . nickel plated handles fold flat when not in use , or may be removed for permanent binding . 12 per box .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n12210: clip storage plastic box set. the medium clip box is a great solution for storing and organizing smaller items in the home and office . the clear base and lid allow contents to be easily identified from any angle , and the tight-clasping latches ensure that the lid remains secure to the base .\n\n36809: medium binder clips , steel wire , 5/8 '' capacity , 12/pack. durable binder clips provide a secure hold . handles can be hung , folded flat , or removed for permanent binding . efficient triangular design delivers a powerful grip , yet releases easily . rust-resistance adds quality to value .\n\n37398: binder clips , medium,1-1/4 '' wide,5/8 '' cap , 12/bx , black/silver. officemate binder clipsdurable clips offer wire handles upright for hanging . fold flat for everyday use . ideal for temporary binding . each clip is made with a corrosion-resistant coating.additional\n\n***\n\nPrevious query reformulations:\n***\n\nmedium sized binder clips and other medium sized clips for office use\n\n\nmedium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"36809\", \"37398\", \"12210\", \"6981\", \"7262\", \"38638\", \"31974\", \"26060\", \"31967\", \"17212\"]\nprint(doc_ids)\n```\n",
+                "medium sized binder clips and other medium sized clips for office use\n",
+                "```python\ndoc_ids = [\n    \"36809\",\n    \"37398\",\n    \"37397\",\n    \"36813\",\n    \"12210\",\n    \"37007\",\n    \"2962\",\n    \"42010\",\n    \"22880\",\n    \"12210\"\n]\n\nprint(doc_ids)\n\n```\n",
+                "medium binder clips, paper clips, and other medium sized clips;  types, materials, and quantities\n",
+                "```python\ndoc_ids = [\n    \"36809\", \"37398\", \"37397\", \"36813\", \"37007\", \"12210\", \"12210\", \"12210\", \"36809\", \"37398\"\n]\nprint(doc_ids)\n\n```\n",
+                "medium binder clips and paper clips;  different materials, sizes, and quantities\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36809",
+                "37398",
+                "37397",
+                "36813",
+                "37007",
+                "12210",
+                "12210",
+                "12210",
+                "36809",
+                "37398"
+            ],
+            "terminate": false
+        }
+    ]
+}

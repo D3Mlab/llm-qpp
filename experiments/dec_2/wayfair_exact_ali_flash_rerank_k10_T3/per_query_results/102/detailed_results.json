@@ -1,0 +1,1090 @@
+{
+    "queries": [
+        "flamingo",
+        "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+        "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n",
+        "flamingo art:  types of art (painting, print, sculpture, etc.),  artist, style (e.g., vintage, modern, realistic, abstract), and size/dimensions.\n"
+    ],
+    "retrieved_lists": [
+        [
+            "28007",
+            "12161",
+            "36735",
+            "12151",
+            "31126",
+            "20553",
+            "34307",
+            "3248",
+            "13595",
+            "20554"
+        ],
+        [
+            "11808",
+            "13575",
+            "13450",
+            "2777",
+            "12154",
+            "3251",
+            "12151",
+            "37491",
+            "3400",
+            "13594"
+        ],
+        [
+            "2777",
+            "13450",
+            "3400",
+            "12154",
+            "13596",
+            "12151",
+            "3251",
+            "12142",
+            "13575",
+            "37491"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7488625049591064,
+            0.7150639295578003,
+            0.703108012676239,
+            0.6972394585609436,
+            0.6966960430145264,
+            0.6923040151596069,
+            0.6919711828231812,
+            0.6881063580513,
+            0.686984121799469,
+            0.6868371963500977
+        ],
+        [
+            0.8053672313690186,
+            0.7948160171508789,
+            0.7878124117851257,
+            0.7839423418045044,
+            0.7810426354408264,
+            0.7809601426124573,
+            0.7774143815040588,
+            0.7744736671447754,
+            0.7711930274963379,
+            0.7710937261581421
+        ],
+        [
+            0.8368200659751892,
+            0.812201976776123,
+            0.8042958974838257,
+            0.8018977642059326,
+            0.8013472557067871,
+            0.7969092130661011,
+            0.7907390594482422,
+            0.7868953943252563,
+            0.7772862315177917,
+            0.7711069583892822
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n***\n\nPrevious query reformulations:\n***\n\nflamingo artwork, including paintings, prints, sculptures, and home decor\n\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n13596: flamingo framed graphic art. gallery print ; framed and ready-to-hang ; 250 grams per square meter poster paper ; open-edition ; 100 % original by east urban home ; framed wood moulding with plexi front , d-ring hangers .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12142: placido flamingo - print on canvas. this beautiful wall art is printed using the highest quality fade resistant ink on canvas . each print is stretched tightly ensuring the canvas is taught and does not buckle . the canvas art print is gallery-wrapped , giving it a real art gallery feel . all of the framed canvas prints are carefully packaged with corner protection , fragile labeling , and sturdy boxes to ensure safe delivery . every canvas print arrives ready to hang on the wall , with the hanging kits included .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n***\n\nPrevious query reformulations:\n***\n\nflamingo artwork, including paintings, prints, sculptures, and home decor\n\n\nflamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n",
+        "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+        "```python\ndoc_ids = [\n    \"12151\",\n    \"12161\",\n    \"12154\",\n    \"2777\",\n    \"11808\",\n    \"13575\",\n    \"13450\",\n    \"3251\",\n    \"37491\",\n    \"13594\"\n]\n\nprint(doc_ids)\n```\n",
+        "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n",
+        "```python\n[\"12151\", \"12161\", \"12154\", \"2777\", \"11808\", \"13575\", \"13450\", \"3251\", \"37491\", \"13594\"]\n```\n",
+        "flamingo art:  types of art (painting, print, sculpture, etc.),  artist, style (e.g., vintage, modern, realistic, abstract), and size/dimensions.\n"
+    ],
+    "curr_top_k_docIDs": [
+        "12151",
+        "12161",
+        "12154",
+        "2777",
+        "11808",
+        "13575",
+        "13450",
+        "3251",
+        "37491",
+        "13594"
+    ],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "flamingo"
+            ]
+        },
+        {
+            "queries": [
+                "flamingo"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "flamingo"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "12161",
+                "12151",
+                "20553",
+                "20554",
+                "36735",
+                "28007",
+                "31126",
+                "13595",
+                "3248",
+                "34307"
+            ]
+        },
+        {
+            "queries": [
+                "flamingo"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "12161",
+                "12151",
+                "20553",
+                "20554",
+                "36735",
+                "28007",
+                "31126",
+                "13595",
+                "3248",
+                "34307"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "flamingo",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n"
+            ],
+            "curr_top_k_docIDs": [
+                "12161",
+                "12151",
+                "20553",
+                "20554",
+                "36735",
+                "28007",
+                "31126",
+                "13595",
+                "3248",
+                "34307"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "flamingo",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ],
+                [
+                    "11808",
+                    "13575",
+                    "13450",
+                    "2777",
+                    "12154",
+                    "3251",
+                    "12151",
+                    "37491",
+                    "3400",
+                    "13594"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ],
+                [
+                    0.8053672313690186,
+                    0.7948160171508789,
+                    0.7878124117851257,
+                    0.7839423418045044,
+                    0.7810426354408264,
+                    0.7809601426124573,
+                    0.7774143815040588,
+                    0.7744736671447754,
+                    0.7711930274963379,
+                    0.7710937261581421
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n"
+            ],
+            "curr_top_k_docIDs": [
+                "12161",
+                "12151",
+                "20553",
+                "20554",
+                "36735",
+                "28007",
+                "31126",
+                "13595",
+                "3248",
+                "34307"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "flamingo",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ],
+                [
+                    "11808",
+                    "13575",
+                    "13450",
+                    "2777",
+                    "12154",
+                    "3251",
+                    "12151",
+                    "37491",
+                    "3400",
+                    "13594"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ],
+                [
+                    0.8053672313690186,
+                    0.7948160171508789,
+                    0.7878124117851257,
+                    0.7839423418045044,
+                    0.7810426354408264,
+                    0.7809601426124573,
+                    0.7774143815040588,
+                    0.7744736671447754,
+                    0.7711930274963379,
+                    0.7710937261581421
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "```python\ndoc_ids = [\n    \"12151\",\n    \"12161\",\n    \"12154\",\n    \"2777\",\n    \"11808\",\n    \"13575\",\n    \"13450\",\n    \"3251\",\n    \"37491\",\n    \"13594\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "12151",
+                "12161",
+                "12154",
+                "2777",
+                "11808",
+                "13575",
+                "13450",
+                "3251",
+                "37491",
+                "13594"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "flamingo",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ],
+                [
+                    "11808",
+                    "13575",
+                    "13450",
+                    "2777",
+                    "12154",
+                    "3251",
+                    "12151",
+                    "37491",
+                    "3400",
+                    "13594"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ],
+                [
+                    0.8053672313690186,
+                    0.7948160171508789,
+                    0.7878124117851257,
+                    0.7839423418045044,
+                    0.7810426354408264,
+                    0.7809601426124573,
+                    0.7774143815040588,
+                    0.7744736671447754,
+                    0.7711930274963379,
+                    0.7710937261581421
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "```python\ndoc_ids = [\n    \"12151\",\n    \"12161\",\n    \"12154\",\n    \"2777\",\n    \"11808\",\n    \"13575\",\n    \"13450\",\n    \"3251\",\n    \"37491\",\n    \"13594\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "12151",
+                "12161",
+                "12154",
+                "2777",
+                "11808",
+                "13575",
+                "13450",
+                "3251",
+                "37491",
+                "13594"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "flamingo",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ],
+                [
+                    "11808",
+                    "13575",
+                    "13450",
+                    "2777",
+                    "12154",
+                    "3251",
+                    "12151",
+                    "37491",
+                    "3400",
+                    "13594"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ],
+                [
+                    0.8053672313690186,
+                    0.7948160171508789,
+                    0.7878124117851257,
+                    0.7839423418045044,
+                    0.7810426354408264,
+                    0.7809601426124573,
+                    0.7774143815040588,
+                    0.7744736671447754,
+                    0.7711930274963379,
+                    0.7710937261581421
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n***\n\nPrevious query reformulations:\n***\n\nflamingo artwork, including paintings, prints, sculptures, and home decor\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "```python\ndoc_ids = [\n    \"12151\",\n    \"12161\",\n    \"12154\",\n    \"2777\",\n    \"11808\",\n    \"13575\",\n    \"13450\",\n    \"3251\",\n    \"37491\",\n    \"13594\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n"
+            ],
+            "curr_top_k_docIDs": [
+                "12151",
+                "12161",
+                "12154",
+                "2777",
+                "11808",
+                "13575",
+                "13450",
+                "3251",
+                "37491",
+                "13594"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "flamingo",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ],
+                [
+                    "11808",
+                    "13575",
+                    "13450",
+                    "2777",
+                    "12154",
+                    "3251",
+                    "12151",
+                    "37491",
+                    "3400",
+                    "13594"
+                ],
+                [
+                    "2777",
+                    "13450",
+                    "3400",
+                    "12154",
+                    "13596",
+                    "12151",
+                    "3251",
+                    "12142",
+                    "13575",
+                    "37491"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ],
+                [
+                    0.8053672313690186,
+                    0.7948160171508789,
+                    0.7878124117851257,
+                    0.7839423418045044,
+                    0.7810426354408264,
+                    0.7809601426124573,
+                    0.7774143815040588,
+                    0.7744736671447754,
+                    0.7711930274963379,
+                    0.7710937261581421
+                ],
+                [
+                    0.8368200659751892,
+                    0.812201976776123,
+                    0.8042958974838257,
+                    0.8018977642059326,
+                    0.8013472557067871,
+                    0.7969092130661011,
+                    0.7907390594482422,
+                    0.7868953943252563,
+                    0.7772862315177917,
+                    0.7711069583892822
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n***\n\nPrevious query reformulations:\n***\n\nflamingo artwork, including paintings, prints, sculptures, and home decor\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "```python\ndoc_ids = [\n    \"12151\",\n    \"12161\",\n    \"12154\",\n    \"2777\",\n    \"11808\",\n    \"13575\",\n    \"13450\",\n    \"3251\",\n    \"37491\",\n    \"13594\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n"
+            ],
+            "curr_top_k_docIDs": [
+                "12151",
+                "12161",
+                "12154",
+                "2777",
+                "11808",
+                "13575",
+                "13450",
+                "3251",
+                "37491",
+                "13594"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "flamingo",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ],
+                [
+                    "11808",
+                    "13575",
+                    "13450",
+                    "2777",
+                    "12154",
+                    "3251",
+                    "12151",
+                    "37491",
+                    "3400",
+                    "13594"
+                ],
+                [
+                    "2777",
+                    "13450",
+                    "3400",
+                    "12154",
+                    "13596",
+                    "12151",
+                    "3251",
+                    "12142",
+                    "13575",
+                    "37491"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ],
+                [
+                    0.8053672313690186,
+                    0.7948160171508789,
+                    0.7878124117851257,
+                    0.7839423418045044,
+                    0.7810426354408264,
+                    0.7809601426124573,
+                    0.7774143815040588,
+                    0.7744736671447754,
+                    0.7711930274963379,
+                    0.7710937261581421
+                ],
+                [
+                    0.8368200659751892,
+                    0.812201976776123,
+                    0.8042958974838257,
+                    0.8018977642059326,
+                    0.8013472557067871,
+                    0.7969092130661011,
+                    0.7907390594482422,
+                    0.7868953943252563,
+                    0.7772862315177917,
+                    0.7711069583892822
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n***\n\nPrevious query reformulations:\n***\n\nflamingo artwork, including paintings, prints, sculptures, and home decor\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n13596: flamingo framed graphic art. gallery print ; framed and ready-to-hang ; 250 grams per square meter poster paper ; open-edition ; 100 % original by east urban home ; framed wood moulding with plexi front , d-ring hangers .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12142: placido flamingo - print on canvas. this beautiful wall art is printed using the highest quality fade resistant ink on canvas . each print is stretched tightly ensuring the canvas is taught and does not buckle . the canvas art print is gallery-wrapped , giving it a real art gallery feel . all of the framed canvas prints are carefully packaged with corner protection , fragile labeling , and sturdy boxes to ensure safe delivery . every canvas print arrives ready to hang on the wall , with the hanging kits included .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "```python\ndoc_ids = [\n    \"12151\",\n    \"12161\",\n    \"12154\",\n    \"2777\",\n    \"11808\",\n    \"13575\",\n    \"13450\",\n    \"3251\",\n    \"37491\",\n    \"13594\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n",
+                "```python\n[\"12151\", \"12161\", \"12154\", \"2777\", \"11808\", \"13575\", \"13450\", \"3251\", \"37491\", \"13594\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "12151",
+                "12161",
+                "12154",
+                "2777",
+                "11808",
+                "13575",
+                "13450",
+                "3251",
+                "37491",
+                "13594"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "flamingo",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ],
+                [
+                    "11808",
+                    "13575",
+                    "13450",
+                    "2777",
+                    "12154",
+                    "3251",
+                    "12151",
+                    "37491",
+                    "3400",
+                    "13594"
+                ],
+                [
+                    "2777",
+                    "13450",
+                    "3400",
+                    "12154",
+                    "13596",
+                    "12151",
+                    "3251",
+                    "12142",
+                    "13575",
+                    "37491"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ],
+                [
+                    0.8053672313690186,
+                    0.7948160171508789,
+                    0.7878124117851257,
+                    0.7839423418045044,
+                    0.7810426354408264,
+                    0.7809601426124573,
+                    0.7774143815040588,
+                    0.7744736671447754,
+                    0.7711930274963379,
+                    0.7710937261581421
+                ],
+                [
+                    0.8368200659751892,
+                    0.812201976776123,
+                    0.8042958974838257,
+                    0.8018977642059326,
+                    0.8013472557067871,
+                    0.7969092130661011,
+                    0.7907390594482422,
+                    0.7868953943252563,
+                    0.7772862315177917,
+                    0.7711069583892822
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n***\n\nPrevious query reformulations:\n***\n\nflamingo artwork, including paintings, prints, sculptures, and home decor\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n13596: flamingo framed graphic art. gallery print ; framed and ready-to-hang ; 250 grams per square meter poster paper ; open-edition ; 100 % original by east urban home ; framed wood moulding with plexi front , d-ring hangers .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12142: placido flamingo - print on canvas. this beautiful wall art is printed using the highest quality fade resistant ink on canvas . each print is stretched tightly ensuring the canvas is taught and does not buckle . the canvas art print is gallery-wrapped , giving it a real art gallery feel . all of the framed canvas prints are carefully packaged with corner protection , fragile labeling , and sturdy boxes to ensure safe delivery . every canvas print arrives ready to hang on the wall , with the hanging kits included .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "```python\ndoc_ids = [\n    \"12151\",\n    \"12161\",\n    \"12154\",\n    \"2777\",\n    \"11808\",\n    \"13575\",\n    \"13450\",\n    \"3251\",\n    \"37491\",\n    \"13594\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n",
+                "```python\n[\"12151\", \"12161\", \"12154\", \"2777\", \"11808\", \"13575\", \"13450\", \"3251\", \"37491\", \"13594\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "12151",
+                "12161",
+                "12154",
+                "2777",
+                "11808",
+                "13575",
+                "13450",
+                "3251",
+                "37491",
+                "13594"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "flamingo",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n",
+                "flamingo art:  types of art (painting, print, sculpture, etc.),  artist, style (e.g., vintage, modern, realistic, abstract), and size/dimensions.\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "28007",
+                    "12161",
+                    "36735",
+                    "12151",
+                    "31126",
+                    "20553",
+                    "34307",
+                    "3248",
+                    "13595",
+                    "20554"
+                ],
+                [
+                    "11808",
+                    "13575",
+                    "13450",
+                    "2777",
+                    "12154",
+                    "3251",
+                    "12151",
+                    "37491",
+                    "3400",
+                    "13594"
+                ],
+                [
+                    "2777",
+                    "13450",
+                    "3400",
+                    "12154",
+                    "13596",
+                    "12151",
+                    "3251",
+                    "12142",
+                    "13575",
+                    "37491"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7488625049591064,
+                    0.7150639295578003,
+                    0.703108012676239,
+                    0.6972394585609436,
+                    0.6966960430145264,
+                    0.6923040151596069,
+                    0.6919711828231812,
+                    0.6881063580513,
+                    0.686984121799469,
+                    0.6868371963500977
+                ],
+                [
+                    0.8053672313690186,
+                    0.7948160171508789,
+                    0.7878124117851257,
+                    0.7839423418045044,
+                    0.7810426354408264,
+                    0.7809601426124573,
+                    0.7774143815040588,
+                    0.7744736671447754,
+                    0.7711930274963379,
+                    0.7710937261581421
+                ],
+                [
+                    0.8368200659751892,
+                    0.812201976776123,
+                    0.8042958974838257,
+                    0.8018977642059326,
+                    0.8013472557067871,
+                    0.7969092130661011,
+                    0.7907390594482422,
+                    0.7868953943252563,
+                    0.7772862315177917,
+                    0.7711069583892822
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n28007: standing feathered flamingo decoration. nan\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n31126: raining color flamingo graphic art. nan\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n34307: flamingos cardboard standup. nan\n\n3248: palm sprints flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n20553: flamingo i - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n20554: flamingo ii - wrapped canvas print. refresh your home with this exciting and inspiring giclee canvas wall art .\n\n36735: flamingo clock with thermometer. fade resistant , hand painted designs paired with a thermometer/clock combination blend perfectly to add style and functionality to your d\u00e9cor .\n\n28007: standing feathered flamingo decoration. nan\n\n31126: raining color flamingo graphic art. nan\n\n13595: flamingo graphic art. gallery print , 250 grams per square meter poster paper , open-edition , 100 % original\n\n3248: palm sprints flamingo graphic art. nan\n\n34307: flamingos cardboard standup. nan\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n***\n\nPrevious query reformulations:\n***\n\nflamingo artwork, including paintings, prints, sculptures, and home decor\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: flamingo\n\nDocuments:\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3400: vintage flamingo - wrapped canvas print. make any space in your home innovative and unique by adding this modern & contemporary art piece made by real artists . with an overarching gray color and painted texture that will add a dynamic feel to your home d\u00e9cor . this animals wall d\u00e9cor is printed using ultra-premium and fade resistant inks to guarantee high definition and vivid colors . each piece is made with museum grade canvas professionally hand stretched in a 1.5 inch-thick wood frame . our wall art is carefully wrapped with a layer of shrink-wrap that protects the surface and then wrapped with heavy-duty bubble cushion , ensuring its safe arrival to its new home . this animals art print is the perfect finishing touch to your home d\u00e9cor theme .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n13596: flamingo framed graphic art. gallery print ; framed and ready-to-hang ; 250 grams per square meter poster paper ; open-edition ; 100 % original by east urban home ; framed wood moulding with plexi front , d-ring hangers .\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n12142: placido flamingo - print on canvas. this beautiful wall art is printed using the highest quality fade resistant ink on canvas . each print is stretched tightly ensuring the canvas is taught and does not buckle . the canvas art print is gallery-wrapped , giving it a real art gallery feel . all of the framed canvas prints are carefully packaged with corner protection , fragile labeling , and sturdy boxes to ensure safe delivery . every canvas print arrives ready to hang on the wall , with the hanging kits included .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nflamingo\n***\n\nDocuments:\n***\n\n12151: flamingo best by slava fokk - graphic art print. our museum quality fine art prints are , hand-framed , subjected to the highest standards of quality , and printed using state-of-the-art technology only available in the fine-art world . acid-free material , in tandem with fade-resistant archival inks . show off your love for art with this high-end fine art paper print .\n\n12161: flamingo by suren nersisyan - print. open edition print for ultimate creative expression in every interior .\n\n12154: festive flamingos by turnowsky - graphic art print. great art deserves to be on canvas ! unlike thin posters and paper prints , giclee canvas artwork offers the texture , look , and feel of fine-art paintings . this artwork is crafted in the united kingdom with artist-grade canvas , professionally hand-stretched , and stapled over north american pine-wood bars in gallery wrap style ; a method utilized by artists to present artwork in galleries . fade-resistant epson ultra-chrome archival inks guarantee perfect color reproduction that remains vibrant for decades even when exposed to strong light . add brilliance in color and exceptional detail to your space with this contemporary and uncompromising style !\n\n2777: flamingo- unframed print on canvas. bay isle home 15 '' x30 '' flamingo i & ii set of 2 wall art . a matching set of 2 framed fine art prints , expertly finished in a 2 '' white colored frame , designed with double mats in 2 complimentary colors . each framed piece is under glass . the outside dimensions of each artwork is 16x16 . there is a sawtooth hanging hardware on the back of each picture . all you need are the nails !\n\n11808: be a flamingo art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . lovely to paired with a complementing color palette or hung in smart spaces for a clear statement that is uniquely you .\n\n13575: flamingos graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13450: flamingo vintage advertisement. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n3251: tropical flamingo graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . we love it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n37491: flamingo pattern framed graphic art. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n13594: two flamingos painting print. express your artistic side and transform your interior space into a living work of art with this stunning museum-quality print . created and curated to provide the perfect focal point or unifying feature to bring to life any room with style . it paired with a complementing color palette or hung in clever spaces for a distinct statement that is uniquely you .\n\n***\n\nPrevious query reformulations:\n***\n\nflamingo artwork, including paintings, prints, sculptures, and home decor\n\n\nflamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"12161\", \"12151\", \"20553\", \"20554\", \"36735\", \"28007\", \"31126\", \"13595\", \"3248\", \"34307\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo artwork, including paintings, prints, sculptures, and home decor\n",
+                "```python\ndoc_ids = [\n    \"12151\",\n    \"12161\",\n    \"12154\",\n    \"2777\",\n    \"11808\",\n    \"13575\",\n    \"13450\",\n    \"3251\",\n    \"37491\",\n    \"13594\"\n]\n\nprint(doc_ids)\n```\n",
+                "flamingo art print, specifying size, style (e.g., vintage, modern, tropical), and framing options.\n",
+                "```python\n[\"12151\", \"12161\", \"12154\", \"2777\", \"11808\", \"13575\", \"13450\", \"3251\", \"37491\", \"13594\"]\n```\n",
+                "flamingo art:  types of art (painting, print, sculpture, etc.),  artist, style (e.g., vintage, modern, realistic, abstract), and size/dimensions.\n"
+            ],
+            "curr_top_k_docIDs": [
+                "12151",
+                "12161",
+                "12154",
+                "2777",
+                "11808",
+                "13575",
+                "13450",
+                "3251",
+                "37491",
+                "13594"
+            ],
+            "terminate": false
+        }
+    ]
+}
