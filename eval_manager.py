@@ -6,6 +6,8 @@ from utils.setup_logging import setup_logging
 import pytrec_eval
 import numpy as np
 from scipy.stats import norm
+from fpdf import FPDF  
+from utils.utils import get_doc_text_list 
 
 
 # EvalManager class for evaluation
@@ -81,11 +83,62 @@ class EvalManager():
         evaluator = pytrec_eval.RelevanceEvaluator(self.load_qrels(), selected_measures)
         per_query_eval_results = evaluator.evaluate(results)
 
-        # Write per-query evaluation results to JSONL
+        # Write per-query evaluation results
         self.write_jsonl(eval_results_path, per_query_eval_results)
+        self.gen_pdf(query_dir)
 
         # Store results for calculating averages and confidence intervals
         self.all_query_eval_results[query_dir.name] = per_query_eval_results[query_dir.name]
+
+    def gen_pdf(self, query_dir): 
+        """
+        Generates a PDF file with detailed results for the query.
+        """
+        detailed_results_path = query_dir / "detailed_results.json"
+        pdf_path = query_dir / "detailed_results.pdf"
+        corpus_path = self.config.get("corpus_path")
+        qrels = self.load_qrels()
+        query_id = query_dir.name
+
+        with open(detailed_results_path, "r") as json_file:
+            detailed_results = json.load(json_file)
+        
+        query_text = detailed_results["queries"][0]
+        retrieved_docs = detailed_results["curr_top_k_docIDs"]
+        doc_texts = get_doc_text_list(retrieved_docs, corpus_path)
+        relevant_docs = qrels.get(query_id, {})
+        
+        pdf = FPDF()
+        pdf.set_auto_page_break(auto=True, margin=15)
+        pdf.add_page()
+        pdf.set_font("Arial", size=12)
+
+        pdf.cell(200, 10, txt=f"Query ID: {query_id}", ln=True, align="L")
+        pdf.cell(200, 10, txt=f"Query Text: {query_text}", ln=True, align="L")
+
+        pdf.ln(10)
+        pdf.set_font("Arial", size=10)
+        pdf.cell(200, 10, txt="Retrieved Documents:", ln=True, align="L")
+
+        for doc in doc_texts:
+            doc_id = doc["docID"]
+            doc_text = doc["text"][:200]
+            relevance = "1" if relevant_docs.get(doc_id, 0) > 0 else "0"
+            pdf.cell(200, 10, txt=f"{relevance}\t{doc_id}\t{doc_text}", ln=True, align="L")
+        
+        pdf.ln(10)
+        pdf.cell(200, 10, txt="Non-retrieved Relevant Documents:", ln=True, align="L")
+        
+        retrieved_set = set(retrieved_docs)
+        non_retrieved_docs = [doc_id for doc_id in relevant_docs if doc_id not in retrieved_set]
+        non_retrieved_texts = get_doc_text_list(non_retrieved_docs, corpus_path)
+
+        for doc in non_retrieved_texts:
+            doc_id = doc["docID"]
+            doc_text = doc["text"][:200]
+            pdf.cell(200, 10, txt=f"0\t{doc_id}\t{doc_text}", ln=True, align="L")
+
+        pdf.output(str(pdf_path))
 
     def load_qrels(self):
         """
