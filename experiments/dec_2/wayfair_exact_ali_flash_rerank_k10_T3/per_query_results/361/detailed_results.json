@@ -1,0 +1,1090 @@
+{
+    "queries": [
+        "kisner",
+        "kisner furniture\n",
+        "kisner products and furniture\n",
+        "kisner furniture catalog\n"
+    ],
+    "retrieved_lists": [
+        [
+            "32796",
+            "9546",
+            "38313",
+            "37411",
+            "40582",
+            "7480",
+            "9153",
+            "30206",
+            "13758",
+            "28125"
+        ],
+        [
+            "32796",
+            "40582",
+            "37411",
+            "38313",
+            "7480",
+            "9546",
+            "9889",
+            "13758",
+            "40386",
+            "39575"
+        ],
+        [
+            "32796",
+            "37411",
+            "40582",
+            "9546",
+            "38313",
+            "13758",
+            "7480",
+            "9889",
+            "41979",
+            "9656"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6895121335983276,
+            0.6758464574813843,
+            0.6756832003593445,
+            0.6655130982398987,
+            0.6482880711555481,
+            0.6453075408935547,
+            0.6432747840881348,
+            0.6418372988700867,
+            0.6411722898483276,
+            0.6381820440292358
+        ],
+        [
+            0.7561454176902771,
+            0.7460312843322754,
+            0.7412269711494446,
+            0.7234361171722412,
+            0.7232518196105957,
+            0.7191798090934753,
+            0.7180222868919373,
+            0.7136940956115723,
+            0.6964448690414429,
+            0.6946361064910889
+        ],
+        [
+            0.7225258350372314,
+            0.719224214553833,
+            0.7102843523025513,
+            0.6983692646026611,
+            0.6937804222106934,
+            0.6895370483398438,
+            0.6886393427848816,
+            0.6857286691665649,
+            0.6834991574287415,
+            0.6827168464660645
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n38313: kisner convertible dining chair. nan\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n40386: kinsley recliner chair. simplify the family room with a little sleek and shined reclining chair . top grain leather match ensures a smooth exterior to enhance the plush cushions within . the reclining seat offers comfort at any hour and the brown coloring is sure to match well with any existing d\u00e9cor .\n\n39575: kiven bar cart. a bar cart with smooth wheels for optimal mobility with attached handles and spacious shelving . looks stylish in your living room or kitchen as a serving tray or as a decor stand . an optimal mobility piece of furniture that will show to wow your guests for any occasion . this item comes shipped in one carton . designed with a gold rectangular handle and four splayed legs with wheels . suitable for indoor use only . some assembly required . contemporary design . maximum weight limit for shelf is 30 lbs .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n***\n\nPrevious query reformulations:\n***\n\nkisner furniture\n\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n41979: elsner 27.55 '' w writing desk and chair set. kids multifunctional desk and chair set are made of high-quality materials . both the table and chair can be adjusted in height . the mesh backrest and seat cushion of the backrest increase air circulation , which is safe and comfortable . a variety of practical functions : tilt table 0-40\u00b0 non-reflective desktop ; pull out the drawer , the embedded groove can store stationery and books ; hooks hang school bags ; equipped with another cup holder , place cups , etc . and the angle of the bookshelf and desk can be adjusted , which is suitable for various occasions . this is the best choice for children to grow up .\n\n9656: kristoffer wood table top figurine. we have emerged as a leader , in the home d\u00e9cor industry , as an exceptional design and quality manufacturer that also providing artistic trendy designs . our high-quality material and workmanship can be seen through the products we provide such as decorative accessories , wall d\u00e9cor , candle holders , picture frames as well as seasonal goods . our designers and product development team constantly strive to find and develop new designs that lead the market in trends and creativity . we have built our reputation on quality , design , and innovation .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n***\n\nPrevious query reformulations:\n***\n\nkisner furniture\n\n\nkisner products and furniture\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n",
+        "kisner furniture\n",
+        "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\",\n    \"28125\", \"32796\"\n]\nprint(doc_ids)\n\n```\n",
+        "kisner products and furniture\n",
+        "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \n    \"28125\", \"9889\"\n]\nprint(doc_ids)\n```\n",
+        "kisner furniture catalog\n"
+    ],
+    "curr_top_k_docIDs": [
+        "32796",
+        "9546",
+        "38313",
+        "37411",
+        "7480",
+        "9153",
+        "30206",
+        "13758",
+        "28125",
+        "9889"
+    ],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "kisner"
+            ]
+        },
+        {
+            "queries": [
+                "kisner"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "kisner"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "32796",
+                "9546",
+                "38313",
+                "37411",
+                "7480",
+                "9153",
+                "30206",
+                "13758",
+                "28125",
+                "0"
+            ]
+        },
+        {
+            "queries": [
+                "kisner"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "32796",
+                "9546",
+                "38313",
+                "37411",
+                "7480",
+                "9153",
+                "30206",
+                "13758",
+                "28125",
+                "0"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "kisner",
+                "kisner furniture\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n",
+                "kisner furniture\n"
+            ],
+            "curr_top_k_docIDs": [
+                "32796",
+                "9546",
+                "38313",
+                "37411",
+                "7480",
+                "9153",
+                "30206",
+                "13758",
+                "28125",
+                "0"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "kisner",
+                "kisner furniture\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ],
+                [
+                    "32796",
+                    "40582",
+                    "37411",
+                    "38313",
+                    "7480",
+                    "9546",
+                    "9889",
+                    "13758",
+                    "40386",
+                    "39575"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ],
+                [
+                    0.7561454176902771,
+                    0.7460312843322754,
+                    0.7412269711494446,
+                    0.7234361171722412,
+                    0.7232518196105957,
+                    0.7191798090934753,
+                    0.7180222868919373,
+                    0.7136940956115723,
+                    0.6964448690414429,
+                    0.6946361064910889
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n",
+                "kisner furniture\n"
+            ],
+            "curr_top_k_docIDs": [
+                "32796",
+                "9546",
+                "38313",
+                "37411",
+                "7480",
+                "9153",
+                "30206",
+                "13758",
+                "28125",
+                "0"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "kisner",
+                "kisner furniture\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ],
+                [
+                    "32796",
+                    "40582",
+                    "37411",
+                    "38313",
+                    "7480",
+                    "9546",
+                    "9889",
+                    "13758",
+                    "40386",
+                    "39575"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ],
+                [
+                    0.7561454176902771,
+                    0.7460312843322754,
+                    0.7412269711494446,
+                    0.7234361171722412,
+                    0.7232518196105957,
+                    0.7191798090934753,
+                    0.7180222868919373,
+                    0.7136940956115723,
+                    0.6964448690414429,
+                    0.6946361064910889
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n38313: kisner convertible dining chair. nan\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n40386: kinsley recliner chair. simplify the family room with a little sleek and shined reclining chair . top grain leather match ensures a smooth exterior to enhance the plush cushions within . the reclining seat offers comfort at any hour and the brown coloring is sure to match well with any existing d\u00e9cor .\n\n39575: kiven bar cart. a bar cart with smooth wheels for optimal mobility with attached handles and spacious shelving . looks stylish in your living room or kitchen as a serving tray or as a decor stand . an optimal mobility piece of furniture that will show to wow your guests for any occasion . this item comes shipped in one carton . designed with a gold rectangular handle and four splayed legs with wheels . suitable for indoor use only . some assembly required . contemporary design . maximum weight limit for shelf is 30 lbs .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n",
+                "kisner furniture\n",
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\",\n    \"28125\", \"32796\"\n]\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "32796",
+                "9546",
+                "38313",
+                "37411",
+                "7480",
+                "9153",
+                "30206",
+                "13758",
+                "28125",
+                "32796"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "kisner",
+                "kisner furniture\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ],
+                [
+                    "32796",
+                    "40582",
+                    "37411",
+                    "38313",
+                    "7480",
+                    "9546",
+                    "9889",
+                    "13758",
+                    "40386",
+                    "39575"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ],
+                [
+                    0.7561454176902771,
+                    0.7460312843322754,
+                    0.7412269711494446,
+                    0.7234361171722412,
+                    0.7232518196105957,
+                    0.7191798090934753,
+                    0.7180222868919373,
+                    0.7136940956115723,
+                    0.6964448690414429,
+                    0.6946361064910889
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n38313: kisner convertible dining chair. nan\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n40386: kinsley recliner chair. simplify the family room with a little sleek and shined reclining chair . top grain leather match ensures a smooth exterior to enhance the plush cushions within . the reclining seat offers comfort at any hour and the brown coloring is sure to match well with any existing d\u00e9cor .\n\n39575: kiven bar cart. a bar cart with smooth wheels for optimal mobility with attached handles and spacious shelving . looks stylish in your living room or kitchen as a serving tray or as a decor stand . an optimal mobility piece of furniture that will show to wow your guests for any occasion . this item comes shipped in one carton . designed with a gold rectangular handle and four splayed legs with wheels . suitable for indoor use only . some assembly required . contemporary design . maximum weight limit for shelf is 30 lbs .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n",
+                "kisner furniture\n",
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\",\n    \"28125\", \"32796\"\n]\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "32796",
+                "9546",
+                "38313",
+                "37411",
+                "7480",
+                "9153",
+                "30206",
+                "13758",
+                "28125",
+                "32796"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "kisner",
+                "kisner furniture\n",
+                "kisner products and furniture\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ],
+                [
+                    "32796",
+                    "40582",
+                    "37411",
+                    "38313",
+                    "7480",
+                    "9546",
+                    "9889",
+                    "13758",
+                    "40386",
+                    "39575"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ],
+                [
+                    0.7561454176902771,
+                    0.7460312843322754,
+                    0.7412269711494446,
+                    0.7234361171722412,
+                    0.7232518196105957,
+                    0.7191798090934753,
+                    0.7180222868919373,
+                    0.7136940956115723,
+                    0.6964448690414429,
+                    0.6946361064910889
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n38313: kisner convertible dining chair. nan\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n40386: kinsley recliner chair. simplify the family room with a little sleek and shined reclining chair . top grain leather match ensures a smooth exterior to enhance the plush cushions within . the reclining seat offers comfort at any hour and the brown coloring is sure to match well with any existing d\u00e9cor .\n\n39575: kiven bar cart. a bar cart with smooth wheels for optimal mobility with attached handles and spacious shelving . looks stylish in your living room or kitchen as a serving tray or as a decor stand . an optimal mobility piece of furniture that will show to wow your guests for any occasion . this item comes shipped in one carton . designed with a gold rectangular handle and four splayed legs with wheels . suitable for indoor use only . some assembly required . contemporary design . maximum weight limit for shelf is 30 lbs .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n***\n\nPrevious query reformulations:\n***\n\nkisner furniture\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n",
+                "kisner furniture\n",
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\",\n    \"28125\", \"32796\"\n]\nprint(doc_ids)\n\n```\n",
+                "kisner products and furniture\n"
+            ],
+            "curr_top_k_docIDs": [
+                "32796",
+                "9546",
+                "38313",
+                "37411",
+                "7480",
+                "9153",
+                "30206",
+                "13758",
+                "28125",
+                "32796"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "kisner",
+                "kisner furniture\n",
+                "kisner products and furniture\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ],
+                [
+                    "32796",
+                    "40582",
+                    "37411",
+                    "38313",
+                    "7480",
+                    "9546",
+                    "9889",
+                    "13758",
+                    "40386",
+                    "39575"
+                ],
+                [
+                    "32796",
+                    "37411",
+                    "40582",
+                    "9546",
+                    "38313",
+                    "13758",
+                    "7480",
+                    "9889",
+                    "41979",
+                    "9656"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ],
+                [
+                    0.7561454176902771,
+                    0.7460312843322754,
+                    0.7412269711494446,
+                    0.7234361171722412,
+                    0.7232518196105957,
+                    0.7191798090934753,
+                    0.7180222868919373,
+                    0.7136940956115723,
+                    0.6964448690414429,
+                    0.6946361064910889
+                ],
+                [
+                    0.7225258350372314,
+                    0.719224214553833,
+                    0.7102843523025513,
+                    0.6983692646026611,
+                    0.6937804222106934,
+                    0.6895370483398438,
+                    0.6886393427848816,
+                    0.6857286691665649,
+                    0.6834991574287415,
+                    0.6827168464660645
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n38313: kisner convertible dining chair. nan\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n40386: kinsley recliner chair. simplify the family room with a little sleek and shined reclining chair . top grain leather match ensures a smooth exterior to enhance the plush cushions within . the reclining seat offers comfort at any hour and the brown coloring is sure to match well with any existing d\u00e9cor .\n\n39575: kiven bar cart. a bar cart with smooth wheels for optimal mobility with attached handles and spacious shelving . looks stylish in your living room or kitchen as a serving tray or as a decor stand . an optimal mobility piece of furniture that will show to wow your guests for any occasion . this item comes shipped in one carton . designed with a gold rectangular handle and four splayed legs with wheels . suitable for indoor use only . some assembly required . contemporary design . maximum weight limit for shelf is 30 lbs .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n***\n\nPrevious query reformulations:\n***\n\nkisner furniture\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n",
+                "kisner furniture\n",
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\",\n    \"28125\", \"32796\"\n]\nprint(doc_ids)\n\n```\n",
+                "kisner products and furniture\n"
+            ],
+            "curr_top_k_docIDs": [
+                "32796",
+                "9546",
+                "38313",
+                "37411",
+                "7480",
+                "9153",
+                "30206",
+                "13758",
+                "28125",
+                "32796"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "kisner",
+                "kisner furniture\n",
+                "kisner products and furniture\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ],
+                [
+                    "32796",
+                    "40582",
+                    "37411",
+                    "38313",
+                    "7480",
+                    "9546",
+                    "9889",
+                    "13758",
+                    "40386",
+                    "39575"
+                ],
+                [
+                    "32796",
+                    "37411",
+                    "40582",
+                    "9546",
+                    "38313",
+                    "13758",
+                    "7480",
+                    "9889",
+                    "41979",
+                    "9656"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ],
+                [
+                    0.7561454176902771,
+                    0.7460312843322754,
+                    0.7412269711494446,
+                    0.7234361171722412,
+                    0.7232518196105957,
+                    0.7191798090934753,
+                    0.7180222868919373,
+                    0.7136940956115723,
+                    0.6964448690414429,
+                    0.6946361064910889
+                ],
+                [
+                    0.7225258350372314,
+                    0.719224214553833,
+                    0.7102843523025513,
+                    0.6983692646026611,
+                    0.6937804222106934,
+                    0.6895370483398438,
+                    0.6886393427848816,
+                    0.6857286691665649,
+                    0.6834991574287415,
+                    0.6827168464660645
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n38313: kisner convertible dining chair. nan\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n40386: kinsley recliner chair. simplify the family room with a little sleek and shined reclining chair . top grain leather match ensures a smooth exterior to enhance the plush cushions within . the reclining seat offers comfort at any hour and the brown coloring is sure to match well with any existing d\u00e9cor .\n\n39575: kiven bar cart. a bar cart with smooth wheels for optimal mobility with attached handles and spacious shelving . looks stylish in your living room or kitchen as a serving tray or as a decor stand . an optimal mobility piece of furniture that will show to wow your guests for any occasion . this item comes shipped in one carton . designed with a gold rectangular handle and four splayed legs with wheels . suitable for indoor use only . some assembly required . contemporary design . maximum weight limit for shelf is 30 lbs .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n***\n\nPrevious query reformulations:\n***\n\nkisner furniture\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n41979: elsner 27.55 '' w writing desk and chair set. kids multifunctional desk and chair set are made of high-quality materials . both the table and chair can be adjusted in height . the mesh backrest and seat cushion of the backrest increase air circulation , which is safe and comfortable . a variety of practical functions : tilt table 0-40\u00b0 non-reflective desktop ; pull out the drawer , the embedded groove can store stationery and books ; hooks hang school bags ; equipped with another cup holder , place cups , etc . and the angle of the bookshelf and desk can be adjusted , which is suitable for various occasions . this is the best choice for children to grow up .\n\n9656: kristoffer wood table top figurine. we have emerged as a leader , in the home d\u00e9cor industry , as an exceptional design and quality manufacturer that also providing artistic trendy designs . our high-quality material and workmanship can be seen through the products we provide such as decorative accessories , wall d\u00e9cor , candle holders , picture frames as well as seasonal goods . our designers and product development team constantly strive to find and develop new designs that lead the market in trends and creativity . we have built our reputation on quality , design , and innovation .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n",
+                "kisner furniture\n",
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\",\n    \"28125\", \"32796\"\n]\nprint(doc_ids)\n\n```\n",
+                "kisner products and furniture\n",
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \n    \"28125\", \"9889\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "32796",
+                "9546",
+                "38313",
+                "37411",
+                "7480",
+                "9153",
+                "30206",
+                "13758",
+                "28125",
+                "9889"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "kisner",
+                "kisner furniture\n",
+                "kisner products and furniture\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ],
+                [
+                    "32796",
+                    "40582",
+                    "37411",
+                    "38313",
+                    "7480",
+                    "9546",
+                    "9889",
+                    "13758",
+                    "40386",
+                    "39575"
+                ],
+                [
+                    "32796",
+                    "37411",
+                    "40582",
+                    "9546",
+                    "38313",
+                    "13758",
+                    "7480",
+                    "9889",
+                    "41979",
+                    "9656"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ],
+                [
+                    0.7561454176902771,
+                    0.7460312843322754,
+                    0.7412269711494446,
+                    0.7234361171722412,
+                    0.7232518196105957,
+                    0.7191798090934753,
+                    0.7180222868919373,
+                    0.7136940956115723,
+                    0.6964448690414429,
+                    0.6946361064910889
+                ],
+                [
+                    0.7225258350372314,
+                    0.719224214553833,
+                    0.7102843523025513,
+                    0.6983692646026611,
+                    0.6937804222106934,
+                    0.6895370483398438,
+                    0.6886393427848816,
+                    0.6857286691665649,
+                    0.6834991574287415,
+                    0.6827168464660645
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n38313: kisner convertible dining chair. nan\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n40386: kinsley recliner chair. simplify the family room with a little sleek and shined reclining chair . top grain leather match ensures a smooth exterior to enhance the plush cushions within . the reclining seat offers comfort at any hour and the brown coloring is sure to match well with any existing d\u00e9cor .\n\n39575: kiven bar cart. a bar cart with smooth wheels for optimal mobility with attached handles and spacious shelving . looks stylish in your living room or kitchen as a serving tray or as a decor stand . an optimal mobility piece of furniture that will show to wow your guests for any occasion . this item comes shipped in one carton . designed with a gold rectangular handle and four splayed legs with wheels . suitable for indoor use only . some assembly required . contemporary design . maximum weight limit for shelf is 30 lbs .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n***\n\nPrevious query reformulations:\n***\n\nkisner furniture\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n41979: elsner 27.55 '' w writing desk and chair set. kids multifunctional desk and chair set are made of high-quality materials . both the table and chair can be adjusted in height . the mesh backrest and seat cushion of the backrest increase air circulation , which is safe and comfortable . a variety of practical functions : tilt table 0-40\u00b0 non-reflective desktop ; pull out the drawer , the embedded groove can store stationery and books ; hooks hang school bags ; equipped with another cup holder , place cups , etc . and the angle of the bookshelf and desk can be adjusted , which is suitable for various occasions . this is the best choice for children to grow up .\n\n9656: kristoffer wood table top figurine. we have emerged as a leader , in the home d\u00e9cor industry , as an exceptional design and quality manufacturer that also providing artistic trendy designs . our high-quality material and workmanship can be seen through the products we provide such as decorative accessories , wall d\u00e9cor , candle holders , picture frames as well as seasonal goods . our designers and product development team constantly strive to find and develop new designs that lead the market in trends and creativity . we have built our reputation on quality , design , and innovation .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n",
+                "kisner furniture\n",
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\",\n    \"28125\", \"32796\"\n]\nprint(doc_ids)\n\n```\n",
+                "kisner products and furniture\n",
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \n    \"28125\", \"9889\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "32796",
+                "9546",
+                "38313",
+                "37411",
+                "7480",
+                "9153",
+                "30206",
+                "13758",
+                "28125",
+                "9889"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "kisner",
+                "kisner furniture\n",
+                "kisner products and furniture\n",
+                "kisner furniture catalog\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "32796",
+                    "9546",
+                    "38313",
+                    "37411",
+                    "40582",
+                    "7480",
+                    "9153",
+                    "30206",
+                    "13758",
+                    "28125"
+                ],
+                [
+                    "32796",
+                    "40582",
+                    "37411",
+                    "38313",
+                    "7480",
+                    "9546",
+                    "9889",
+                    "13758",
+                    "40386",
+                    "39575"
+                ],
+                [
+                    "32796",
+                    "37411",
+                    "40582",
+                    "9546",
+                    "38313",
+                    "13758",
+                    "7480",
+                    "9889",
+                    "41979",
+                    "9656"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6895121335983276,
+                    0.6758464574813843,
+                    0.6756832003593445,
+                    0.6655130982398987,
+                    0.6482880711555481,
+                    0.6453075408935547,
+                    0.6432747840881348,
+                    0.6418372988700867,
+                    0.6411722898483276,
+                    0.6381820440292358
+                ],
+                [
+                    0.7561454176902771,
+                    0.7460312843322754,
+                    0.7412269711494446,
+                    0.7234361171722412,
+                    0.7232518196105957,
+                    0.7191798090934753,
+                    0.7180222868919373,
+                    0.7136940956115723,
+                    0.6964448690414429,
+                    0.6946361064910889
+                ],
+                [
+                    0.7225258350372314,
+                    0.719224214553833,
+                    0.7102843523025513,
+                    0.6983692646026611,
+                    0.6937804222106934,
+                    0.6895370483398438,
+                    0.6886393427848816,
+                    0.6857286691665649,
+                    0.6834991574287415,
+                    0.6827168464660645
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n0: solid wood platform bed. good , deep sleep can be quite difficult to have in this busy age . fortunately , there \u2019 s an antidote to such a problem : a nice , quality bed frame like the acacia kaylin . solidly constructed from acacia wood , this bed frame will stand the test of time and is fit to rest your shoulders on for years and years . its sleek , natural wood grain appearance provides a pleasant aesthetic to adorn any bedroom , acting both as a decorative piece as well as a place to give comfort after a hard day of work . our bed frame is designed to give ample under-bed space for easy cleaning and other usages , with a headboard attached to further express the craftiness . it can be used with other accessories such as a nightstand or bookcase headboard and is compatible with many types of mattresses including memory foam , spring , or hybrid ones . there \u2019 s nowhere better to relax than your own home , and with this bed frame that feeling of homeliness will even be more emphasized . rest comfortably and in style .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n38313: kisner convertible dining chair. nan\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n40386: kinsley recliner chair. simplify the family room with a little sleek and shined reclining chair . top grain leather match ensures a smooth exterior to enhance the plush cushions within . the reclining seat offers comfort at any hour and the brown coloring is sure to match well with any existing d\u00e9cor .\n\n39575: kiven bar cart. a bar cart with smooth wheels for optimal mobility with attached handles and spacious shelving . looks stylish in your living room or kitchen as a serving tray or as a decor stand . an optimal mobility piece of furniture that will show to wow your guests for any occasion . this item comes shipped in one carton . designed with a gold rectangular handle and four splayed legs with wheels . suitable for indoor use only . some assembly required . contemporary design . maximum weight limit for shelf is 30 lbs .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n***\n\nPrevious query reformulations:\n***\n\nkisner furniture\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: kisner\n\nDocuments:\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n40582: currier tufted upholstered standard bed. a bedroom fit for royalty . the elsner collection by rosdorf park brings glam and style to any bedroom in your home . crafted beautifully with solid kiln-dried birch wood , upholstered with high-quality fabrics , and accented with diamond hand tufts along the entire headboard and footboard , the elsner is an excellent choice for any guestroom or your own master suite !\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n41979: elsner 27.55 '' w writing desk and chair set. kids multifunctional desk and chair set are made of high-quality materials . both the table and chair can be adjusted in height . the mesh backrest and seat cushion of the backrest increase air circulation , which is safe and comfortable . a variety of practical functions : tilt table 0-40\u00b0 non-reflective desktop ; pull out the drawer , the embedded groove can store stationery and books ; hooks hang school bags ; equipped with another cup holder , place cups , etc . and the angle of the bookshelf and desk can be adjusted , which is suitable for various occasions . this is the best choice for children to grow up .\n\n9656: kristoffer wood table top figurine. we have emerged as a leader , in the home d\u00e9cor industry , as an exceptional design and quality manufacturer that also providing artistic trendy designs . our high-quality material and workmanship can be seen through the products we provide such as decorative accessories , wall d\u00e9cor , candle holders , picture frames as well as seasonal goods . our designers and product development team constantly strive to find and develop new designs that lead the market in trends and creativity . we have built our reputation on quality , design , and innovation .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nkisner\n***\n\nDocuments:\n***\n\n32796: kisner coffee table. combination of antique wood creates this modern round coffee table .\n\n9546: kisner home sweet home throw pillow. add style and flair to your space with this accent pillow . designed and printed in the united states , this piece is sure to bring the joy of the season to your room .\n\n38313: kisner convertible dining chair. nan\n\n37411: kisner 2 drawer nightstand. the anaheim nightstand is durably designed and features a versatile weathered oak finish . its features two drawers and an open shelf that \u2019 s perfect for stowing bedroom essentials . a built-in usb power dock offers an added convenience .\n\n7480: kisner 5 drawer accent chest. based on an antique english chest of drawers this high-quality mahogany bachelors chest from furniture is both versatile and attractive in appearance . the shaped top rests over the two half-width drawers , over top three full sizes graduated drawers all constructed with dovetailed construction . the entire mahogany bachelors chest supported on tall bracket feet . beautiful mahogany solids combined with brass pulls give the chest a stunning appearance .\n\n9153: kisner geometric black area rug. nan\n\n30206: kisner height adjustable standing desk converter. this desk has a single display surface with plenty of space for monitors , documents , and other accessories . designed to fit seamlessly into your new sit-stand desk , you can be sure you 're adequately charged for when you have to be away from your desk .\n\n13758: kisner server. 9 drawers and acrylic legs and pulls gives this kisner 9 drawer accent chest a glam feeling .\n\n28125: kisner dolphins figurine. this decor piece gives a unique touch to your home and enhances the style of the room . show off your style and character with this beautiful accent piece .\n\n9889: kisner 92 '' recessed arm sofa. the sofa is a sophisticated traditional design , with its soft curve upholstered tight back wrapping around with a half ellipse cut out at the center top . this inviting surround appeal is accented by loose pillows upon coil seat cushions to allow for any configuration for a comfort level desired . the sofa is accented with a solid wood rail that flows into a concave arched front arm which creates a great visual silhouette . the detail of the wood trim is emphasized by having a skirted base and allowing the contrasting wood trim to be more prominent . the elegant simplicity of this sofa allows it to fit into any room decor .\n\n***\n\nPrevious query reformulations:\n***\n\nkisner furniture\n\n\nkisner products and furniture\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \"28125\", \"0\"\n]\n```\n",
+                "kisner furniture\n",
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\",\n    \"28125\", \"32796\"\n]\nprint(doc_ids)\n\n```\n",
+                "kisner products and furniture\n",
+                "```python\ndoc_ids = [\n    \"32796\", \"9546\", \"38313\", \"37411\", \"7480\", \"9153\", \"30206\", \"13758\", \n    \"28125\", \"9889\"\n]\nprint(doc_ids)\n```\n",
+                "kisner furniture catalog\n"
+            ],
+            "curr_top_k_docIDs": [
+                "32796",
+                "9546",
+                "38313",
+                "37411",
+                "7480",
+                "9153",
+                "30206",
+                "13758",
+                "28125",
+                "9889"
+            ],
+            "terminate": false
+        }
+    ]
+}

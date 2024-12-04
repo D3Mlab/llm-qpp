@@ -1,0 +1,199 @@
+{
+    "queries": [
+        "how to drink warm lemon water"
+    ],
+    "retrieved_lists": [
+        [
+            "7331211",
+            "7331212",
+            "5861716",
+            "3461924",
+            "1304918",
+            "7367896",
+            "2641989",
+            "5408595",
+            "3171127",
+            "7490677"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6730666160583496,
+            0.4409778118133545,
+            0.3100928068161011,
+            0.20041242241859436,
+            0.17178155481815338,
+            0.15195521712303162,
+            0.14534808695316315,
+            0.13640674948692322,
+            0.12498091161251068,
+            0.11125954240560532
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: how to drink warm lemon water\n\nDocuments:\n\n7331211: Boil the water. Pour into a cup or 2 as much room temperature water and boiled water to your desired temperature to make up 2 cups. (Some people prefer hot while others prefer warm). Mix in the lemon and lime juice with the sliced or grated ginger and turmeric.\n\n7331212: Fill a tall glass with warm water (as hot as you can tolerate), add the juice of half a lemon and one teaspoon of honey to it. Now stir the mixture well and drink it. If you are diabetic, there is no need to shy away from this drink, here is why it is safe for you to add honey to this elixir.\n\n5861716: Relax in front of the limestone rock fireplace and enjoy a movie on the Satellite TV system. After dinner, take your sweetheart to the back porch and enjoy a relaxing dip in the hot tub that we completely sanitize and refill with fresh water for every guest.\n\n3461924: The vitamins & minerals in bamboo shoots are ideal for improving the body\u00e2\u0080\u0099s immune system. It contains high amounts of potassium highly beneficial as an electrolyte & is very good for lowering & maintaining blood pressure. According to studies, phytosterols & phytonutrients found in shoots are ideal for dissolving harmful LDL cholesterol. Bamboo is rich in B-complex vitamins, good in minerals, especially manganese & copper with small amounts of calcium, iron, & phosphorus. #dherbs\u00e2\u0080\u00a6.\n\n1304918: RediCalm is the safest and most effective dietary suppliment for stress and anxiety relief. Website: https://www.nutreance.com/.\n\n7367896: Most dentists recommend that you brush at least twice a day -- once in the morning and once before bed. If you can fit in a third time somewhere in the middle, even better! Try brushing at a 45\u00c2\u00b0 angle as this helps remove plaque and food/drink particles on your teeth better than if you did it normally.\n\n2641989: In the New Testament, the apostle Paul had (earlier) distilled the various commandments of the Torah to this same principle of faith (see Romans 1:17, Galatians 3:11, and Hebrews 10:38).\n\n5408595: Average Weather in Toms River New Jersey, United States. Toms River has a warm humid temperate climate with hot summers and no dry season. The temperature typically varies from 24\u00c2\u00b0F to 85\u00c2\u00b0F over the course of the year, and is rarely below 10\u00c2\u00b0F or above 93\u00c2\u00b0F. The hot season lasts for 106 days, from June 1 to September 15, with an average daily high temperature above 77\u00c2\u00b0F.\n\n3171127: Hebrews Hall of Faith: Who was Barak? Hebrews 11, the great faith chapter, highlights great acts of faith by many Old Testament characters. The first three verses say, \u00e2\u0080\u009cNow faith is the substance of things hoped for, the evidence of things not seen.\n\n7490677: Cashews, almonds, and pumpkin seeds are excellent sources of iron. Brazil nuts help your thyroid in two ways. Not only are they a good source of iron, but they're also rich in selenium, another mineral that supports your thyroid. Just a few each day give you the selenium you need.\n\n"
+    ],
+    "responses": [
+        "[7331212, 7331211, 5408595, 5861716, 3461924, 1304918, 7367896, 2641989, 3171127, 7490677]"
+    ],
+    "curr_top_k_docIDs": [
+        7331212,
+        7331211,
+        5408595,
+        5861716,
+        3461924,
+        1304918,
+        7367896,
+        2641989,
+        3171127,
+        7490677
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "how to drink warm lemon water"
+            ]
+        },
+        {
+            "queries": [
+                "how to drink warm lemon water"
+            ],
+            "retrieved_lists": [
+                [
+                    "7331211",
+                    "7331212",
+                    "5861716",
+                    "3461924",
+                    "1304918",
+                    "7367896",
+                    "2641989",
+                    "5408595",
+                    "3171127",
+                    "7490677"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6730666160583496,
+                    0.4409778118133545,
+                    0.3100928068161011,
+                    0.20041242241859436,
+                    0.17178155481815338,
+                    0.15195521712303162,
+                    0.14534808695316315,
+                    0.13640674948692322,
+                    0.12498091161251068,
+                    0.11125954240560532
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "how to drink warm lemon water"
+            ],
+            "retrieved_lists": [
+                [
+                    "7331211",
+                    "7331212",
+                    "5861716",
+                    "3461924",
+                    "1304918",
+                    "7367896",
+                    "2641989",
+                    "5408595",
+                    "3171127",
+                    "7490677"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6730666160583496,
+                    0.4409778118133545,
+                    0.3100928068161011,
+                    0.20041242241859436,
+                    0.17178155481815338,
+                    0.15195521712303162,
+                    0.14534808695316315,
+                    0.13640674948692322,
+                    0.12498091161251068,
+                    0.11125954240560532
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: how to drink warm lemon water\n\nDocuments:\n\n7331211: Boil the water. Pour into a cup or 2 as much room temperature water and boiled water to your desired temperature to make up 2 cups. (Some people prefer hot while others prefer warm). Mix in the lemon and lime juice with the sliced or grated ginger and turmeric.\n\n7331212: Fill a tall glass with warm water (as hot as you can tolerate), add the juice of half a lemon and one teaspoon of honey to it. Now stir the mixture well and drink it. If you are diabetic, there is no need to shy away from this drink, here is why it is safe for you to add honey to this elixir.\n\n5861716: Relax in front of the limestone rock fireplace and enjoy a movie on the Satellite TV system. After dinner, take your sweetheart to the back porch and enjoy a relaxing dip in the hot tub that we completely sanitize and refill with fresh water for every guest.\n\n3461924: The vitamins & minerals in bamboo shoots are ideal for improving the body\u00e2\u0080\u0099s immune system. It contains high amounts of potassium highly beneficial as an electrolyte & is very good for lowering & maintaining blood pressure. According to studies, phytosterols & phytonutrients found in shoots are ideal for dissolving harmful LDL cholesterol. Bamboo is rich in B-complex vitamins, good in minerals, especially manganese & copper with small amounts of calcium, iron, & phosphorus. #dherbs\u00e2\u0080\u00a6.\n\n1304918: RediCalm is the safest and most effective dietary suppliment for stress and anxiety relief. Website: https://www.nutreance.com/.\n\n7367896: Most dentists recommend that you brush at least twice a day -- once in the morning and once before bed. If you can fit in a third time somewhere in the middle, even better! Try brushing at a 45\u00c2\u00b0 angle as this helps remove plaque and food/drink particles on your teeth better than if you did it normally.\n\n2641989: In the New Testament, the apostle Paul had (earlier) distilled the various commandments of the Torah to this same principle of faith (see Romans 1:17, Galatians 3:11, and Hebrews 10:38).\n\n5408595: Average Weather in Toms River New Jersey, United States. Toms River has a warm humid temperate climate with hot summers and no dry season. The temperature typically varies from 24\u00c2\u00b0F to 85\u00c2\u00b0F over the course of the year, and is rarely below 10\u00c2\u00b0F or above 93\u00c2\u00b0F. The hot season lasts for 106 days, from June 1 to September 15, with an average daily high temperature above 77\u00c2\u00b0F.\n\n3171127: Hebrews Hall of Faith: Who was Barak? Hebrews 11, the great faith chapter, highlights great acts of faith by many Old Testament characters. The first three verses say, \u00e2\u0080\u009cNow faith is the substance of things hoped for, the evidence of things not seen.\n\n7490677: Cashews, almonds, and pumpkin seeds are excellent sources of iron. Brazil nuts help your thyroid in two ways. Not only are they a good source of iron, but they're also rich in selenium, another mineral that supports your thyroid. Just a few each day give you the selenium you need.\n\n"
+            ],
+            "responses": [
+                "[7331212, 7331211, 5408595, 5861716, 3461924, 1304918, 7367896, 2641989, 3171127, 7490677]"
+            ],
+            "curr_top_k_docIDs": [
+                7331212,
+                7331211,
+                5408595,
+                5861716,
+                3461924,
+                1304918,
+                7367896,
+                2641989,
+                3171127,
+                7490677
+            ]
+        },
+        {
+            "queries": [
+                "how to drink warm lemon water"
+            ],
+            "retrieved_lists": [
+                [
+                    "7331211",
+                    "7331212",
+                    "5861716",
+                    "3461924",
+                    "1304918",
+                    "7367896",
+                    "2641989",
+                    "5408595",
+                    "3171127",
+                    "7490677"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6730666160583496,
+                    0.4409778118133545,
+                    0.3100928068161011,
+                    0.20041242241859436,
+                    0.17178155481815338,
+                    0.15195521712303162,
+                    0.14534808695316315,
+                    0.13640674948692322,
+                    0.12498091161251068,
+                    0.11125954240560532
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: how to drink warm lemon water\n\nDocuments:\n\n7331211: Boil the water. Pour into a cup or 2 as much room temperature water and boiled water to your desired temperature to make up 2 cups. (Some people prefer hot while others prefer warm). Mix in the lemon and lime juice with the sliced or grated ginger and turmeric.\n\n7331212: Fill a tall glass with warm water (as hot as you can tolerate), add the juice of half a lemon and one teaspoon of honey to it. Now stir the mixture well and drink it. If you are diabetic, there is no need to shy away from this drink, here is why it is safe for you to add honey to this elixir.\n\n5861716: Relax in front of the limestone rock fireplace and enjoy a movie on the Satellite TV system. After dinner, take your sweetheart to the back porch and enjoy a relaxing dip in the hot tub that we completely sanitize and refill with fresh water for every guest.\n\n3461924: The vitamins & minerals in bamboo shoots are ideal for improving the body\u00e2\u0080\u0099s immune system. It contains high amounts of potassium highly beneficial as an electrolyte & is very good for lowering & maintaining blood pressure. According to studies, phytosterols & phytonutrients found in shoots are ideal for dissolving harmful LDL cholesterol. Bamboo is rich in B-complex vitamins, good in minerals, especially manganese & copper with small amounts of calcium, iron, & phosphorus. #dherbs\u00e2\u0080\u00a6.\n\n1304918: RediCalm is the safest and most effective dietary suppliment for stress and anxiety relief. Website: https://www.nutreance.com/.\n\n7367896: Most dentists recommend that you brush at least twice a day -- once in the morning and once before bed. If you can fit in a third time somewhere in the middle, even better! Try brushing at a 45\u00c2\u00b0 angle as this helps remove plaque and food/drink particles on your teeth better than if you did it normally.\n\n2641989: In the New Testament, the apostle Paul had (earlier) distilled the various commandments of the Torah to this same principle of faith (see Romans 1:17, Galatians 3:11, and Hebrews 10:38).\n\n5408595: Average Weather in Toms River New Jersey, United States. Toms River has a warm humid temperate climate with hot summers and no dry season. The temperature typically varies from 24\u00c2\u00b0F to 85\u00c2\u00b0F over the course of the year, and is rarely below 10\u00c2\u00b0F or above 93\u00c2\u00b0F. The hot season lasts for 106 days, from June 1 to September 15, with an average daily high temperature above 77\u00c2\u00b0F.\n\n3171127: Hebrews Hall of Faith: Who was Barak? Hebrews 11, the great faith chapter, highlights great acts of faith by many Old Testament characters. The first three verses say, \u00e2\u0080\u009cNow faith is the substance of things hoped for, the evidence of things not seen.\n\n7490677: Cashews, almonds, and pumpkin seeds are excellent sources of iron. Brazil nuts help your thyroid in two ways. Not only are they a good source of iron, but they're also rich in selenium, another mineral that supports your thyroid. Just a few each day give you the selenium you need.\n\n"
+            ],
+            "responses": [
+                "[7331212, 7331211, 5408595, 5861716, 3461924, 1304918, 7367896, 2641989, 3171127, 7490677]"
+            ],
+            "curr_top_k_docIDs": [
+                7331212,
+                7331211,
+                5408595,
+                5861716,
+                3461924,
+                1304918,
+                7367896,
+                2641989,
+                3171127,
+                7490677
+            ],
+            "terminate": true
+        }
+    ]
+}

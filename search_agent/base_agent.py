@@ -17,7 +17,7 @@ class BaseAgent(ABC):
     def rank(self, query: str) -> dict:
    #return:
    #results = { 
-        #        'ranked_list': [<list of ranked docIDs>]
+        #        'curr_top_k_docIDs': [<list of ranked docIDs>]
         #    ...
         #  }
          raise NotImplementedError("This method must be implemented by a subclass.")

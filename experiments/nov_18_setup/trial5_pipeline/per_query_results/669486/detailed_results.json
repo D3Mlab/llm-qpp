@@ -1,0 +1,199 @@
+{
+    "queries": [
+        "what hormones cause labor"
+    ],
+    "retrieved_lists": [
+        [
+            "7571751",
+            "4298828",
+            "7771731",
+            "3586759",
+            "319964",
+            "572087",
+            "2069360",
+            "7490677",
+            "7587261",
+            "5419866"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6445757150650024,
+            0.19127610325813293,
+            0.18077172338962555,
+            0.1395600438117981,
+            0.13887257874011993,
+            0.12269917875528336,
+            0.10559603571891785,
+            0.10268356651067734,
+            0.08911284804344177,
+            0.08886639773845673
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what hormones cause labor\n\nDocuments:\n\n7571751: Four of the major hormonal systems are active during labor and birth. These involve oxytocin, the hormone of love; endorphins, hormones of pleasure and transcendence; adrenaline and noradrenaline (epinephrine and norepinephrine), hormones of excitement; and prolactin, the mothering hormone.\n\n4298828: With pulmonary hypertension, the rise in blood pressure is caused by changes in the cells that line your pulmonary arteries. These changes can cause the walls of the arteries to become stiff and thick, and extra tissue may form. The blood vessels may also become inflamed and tight.\n\n7771731: The extracellular matrix of cartilage is secreted by chondroblasts, (chondro = cartilage), which are found in the outer covering layer of cartilage. As the chondroblasts secrete matrix and fibres, they become trapped inside it, and mature into cells called chondrocytes.\n\n3586759: [29/M] My Girlfriend [24/f] wants a baby now or it's game over, I'm an entrepreneur and stability isn't my thing right now. (self.relationship_advice) submitted 1 year ago * by didijustobama. Writing this to get my thoughts in a line as much as I'm seeking advice.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n572087: Erosion can have a number of causes, but the effects are usually the same. The most visually noticeable effect is soil erosion. The flow of wind or water can displace both topsoil and deeper dirt, which leads to shifting nutrients and resources.\n\n2069360: The Aries zodiac sign is straightforward, aggressive and adventurous and this is reflected in their approach to sex. Expect it to be physical, quick and rough, they like to dominate and have the upper position.\n\n7490677: Cashews, almonds, and pumpkin seeds are excellent sources of iron. Brazil nuts help your thyroid in two ways. Not only are they a good source of iron, but they're also rich in selenium, another mineral that supports your thyroid. Just a few each day give you the selenium you need.\n\n7587261: While weather begins to mellow and the temperatures increase during this time of year, unpredictable weather conditions continue to dominate spring in Olympic. It is not uncommon for snowfall and heavy rain to occur into the month of June in the higher elevations. Springtime temperatures tend to be cool to mild.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n"
+    ],
+    "responses": [
+        "```python\n['7571751', '4298828', '7771731', '3586759', '319964', '572087', '2069360', '7490677', '7587261', '5419866']\n```"
+    ],
+    "curr_top_k_docIDs": [
+        "7571751",
+        "4298828",
+        "7771731",
+        "3586759",
+        "319964",
+        "572087",
+        "2069360",
+        "7490677",
+        "7587261",
+        "5419866"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "what hormones cause labor"
+            ]
+        },
+        {
+            "queries": [
+                "what hormones cause labor"
+            ],
+            "retrieved_lists": [
+                [
+                    "7571751",
+                    "4298828",
+                    "7771731",
+                    "3586759",
+                    "319964",
+                    "572087",
+                    "2069360",
+                    "7490677",
+                    "7587261",
+                    "5419866"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6445757150650024,
+                    0.19127610325813293,
+                    0.18077172338962555,
+                    0.1395600438117981,
+                    0.13887257874011993,
+                    0.12269917875528336,
+                    0.10559603571891785,
+                    0.10268356651067734,
+                    0.08911284804344177,
+                    0.08886639773845673
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "what hormones cause labor"
+            ],
+            "retrieved_lists": [
+                [
+                    "7571751",
+                    "4298828",
+                    "7771731",
+                    "3586759",
+                    "319964",
+                    "572087",
+                    "2069360",
+                    "7490677",
+                    "7587261",
+                    "5419866"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6445757150650024,
+                    0.19127610325813293,
+                    0.18077172338962555,
+                    0.1395600438117981,
+                    0.13887257874011993,
+                    0.12269917875528336,
+                    0.10559603571891785,
+                    0.10268356651067734,
+                    0.08911284804344177,
+                    0.08886639773845673
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what hormones cause labor\n\nDocuments:\n\n7571751: Four of the major hormonal systems are active during labor and birth. These involve oxytocin, the hormone of love; endorphins, hormones of pleasure and transcendence; adrenaline and noradrenaline (epinephrine and norepinephrine), hormones of excitement; and prolactin, the mothering hormone.\n\n4298828: With pulmonary hypertension, the rise in blood pressure is caused by changes in the cells that line your pulmonary arteries. These changes can cause the walls of the arteries to become stiff and thick, and extra tissue may form. The blood vessels may also become inflamed and tight.\n\n7771731: The extracellular matrix of cartilage is secreted by chondroblasts, (chondro = cartilage), which are found in the outer covering layer of cartilage. As the chondroblasts secrete matrix and fibres, they become trapped inside it, and mature into cells called chondrocytes.\n\n3586759: [29/M] My Girlfriend [24/f] wants a baby now or it's game over, I'm an entrepreneur and stability isn't my thing right now. (self.relationship_advice) submitted 1 year ago * by didijustobama. Writing this to get my thoughts in a line as much as I'm seeking advice.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n572087: Erosion can have a number of causes, but the effects are usually the same. The most visually noticeable effect is soil erosion. The flow of wind or water can displace both topsoil and deeper dirt, which leads to shifting nutrients and resources.\n\n2069360: The Aries zodiac sign is straightforward, aggressive and adventurous and this is reflected in their approach to sex. Expect it to be physical, quick and rough, they like to dominate and have the upper position.\n\n7490677: Cashews, almonds, and pumpkin seeds are excellent sources of iron. Brazil nuts help your thyroid in two ways. Not only are they a good source of iron, but they're also rich in selenium, another mineral that supports your thyroid. Just a few each day give you the selenium you need.\n\n7587261: While weather begins to mellow and the temperatures increase during this time of year, unpredictable weather conditions continue to dominate spring in Olympic. It is not uncommon for snowfall and heavy rain to occur into the month of June in the higher elevations. Springtime temperatures tend to be cool to mild.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n"
+            ],
+            "responses": [
+                "```python\n['7571751', '4298828', '7771731', '3586759', '319964', '572087', '2069360', '7490677', '7587261', '5419866']\n```"
+            ],
+            "curr_top_k_docIDs": [
+                "7571751",
+                "4298828",
+                "7771731",
+                "3586759",
+                "319964",
+                "572087",
+                "2069360",
+                "7490677",
+                "7587261",
+                "5419866"
+            ]
+        },
+        {
+            "queries": [
+                "what hormones cause labor"
+            ],
+            "retrieved_lists": [
+                [
+                    "7571751",
+                    "4298828",
+                    "7771731",
+                    "3586759",
+                    "319964",
+                    "572087",
+                    "2069360",
+                    "7490677",
+                    "7587261",
+                    "5419866"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6445757150650024,
+                    0.19127610325813293,
+                    0.18077172338962555,
+                    0.1395600438117981,
+                    0.13887257874011993,
+                    0.12269917875528336,
+                    0.10559603571891785,
+                    0.10268356651067734,
+                    0.08911284804344177,
+                    0.08886639773845673
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what hormones cause labor\n\nDocuments:\n\n7571751: Four of the major hormonal systems are active during labor and birth. These involve oxytocin, the hormone of love; endorphins, hormones of pleasure and transcendence; adrenaline and noradrenaline (epinephrine and norepinephrine), hormones of excitement; and prolactin, the mothering hormone.\n\n4298828: With pulmonary hypertension, the rise in blood pressure is caused by changes in the cells that line your pulmonary arteries. These changes can cause the walls of the arteries to become stiff and thick, and extra tissue may form. The blood vessels may also become inflamed and tight.\n\n7771731: The extracellular matrix of cartilage is secreted by chondroblasts, (chondro = cartilage), which are found in the outer covering layer of cartilage. As the chondroblasts secrete matrix and fibres, they become trapped inside it, and mature into cells called chondrocytes.\n\n3586759: [29/M] My Girlfriend [24/f] wants a baby now or it's game over, I'm an entrepreneur and stability isn't my thing right now. (self.relationship_advice) submitted 1 year ago * by didijustobama. Writing this to get my thoughts in a line as much as I'm seeking advice.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n572087: Erosion can have a number of causes, but the effects are usually the same. The most visually noticeable effect is soil erosion. The flow of wind or water can displace both topsoil and deeper dirt, which leads to shifting nutrients and resources.\n\n2069360: The Aries zodiac sign is straightforward, aggressive and adventurous and this is reflected in their approach to sex. Expect it to be physical, quick and rough, they like to dominate and have the upper position.\n\n7490677: Cashews, almonds, and pumpkin seeds are excellent sources of iron. Brazil nuts help your thyroid in two ways. Not only are they a good source of iron, but they're also rich in selenium, another mineral that supports your thyroid. Just a few each day give you the selenium you need.\n\n7587261: While weather begins to mellow and the temperatures increase during this time of year, unpredictable weather conditions continue to dominate spring in Olympic. It is not uncommon for snowfall and heavy rain to occur into the month of June in the higher elevations. Springtime temperatures tend to be cool to mild.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n"
+            ],
+            "responses": [
+                "```python\n['7571751', '4298828', '7771731', '3586759', '319964', '572087', '2069360', '7490677', '7587261', '5419866']\n```"
+            ],
+            "curr_top_k_docIDs": [
+                "7571751",
+                "4298828",
+                "7771731",
+                "3586759",
+                "319964",
+                "572087",
+                "2069360",
+                "7490677",
+                "7587261",
+                "5419866"
+            ],
+            "terminate": true
+        }
+    ]
+}

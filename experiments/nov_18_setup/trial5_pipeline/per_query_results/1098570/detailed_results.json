@@ -1,0 +1,199 @@
+{
+    "queries": [
+        "how long did barack obama be president"
+    ],
+    "retrieved_lists": [
+        [
+            "4224737",
+            "1229106",
+            "3117723",
+            "8679767",
+            "8236698",
+            "7258856",
+            "3586759",
+            "319964",
+            "893239",
+            "4024430"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6861525774002075,
+            0.4173348546028137,
+            0.11950444430112839,
+            0.11353225260972977,
+            0.10482622683048248,
+            0.09584757685661316,
+            0.09481119364500046,
+            0.08120233565568924,
+            0.080442413687706,
+            0.07903705537319183
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: how long did barack obama be president\n\nDocuments:\n\n4224737: awards and honors. Barack Obama, in full Barack Hussein Obama II (born August 4, 1961, Honolulu, Hawaii, U.S.), 44th president of the United States (2009\u00e2\u0080\u009317) and the first African American to hold the office. Before winning the presidency, Obama represented Illinois in the U.S. Senate (2005\u00e2\u0080\u009308).\n\n1229106: President Obama's salary of $400,000 a year hasn't changed. Pay at the White House reflects higher salaries for federal government employees, in general. Federal workers on average make $77,414 a year in wages, about 44% more than private-sector employees' $53,463, according to the Bureau of Economic Analysis.\n\n3117723: The range is mostly located in the United States but extends into southeastern Canada, forming a zone from 100 to 300 mi (160 to 480 km) wide, running from the island of Newfoundland 1,500 mi (2,400 km) southwestward to Central Alabama in the United States.he Appalachian Trail is a 2,175-mile (3,500 km) hiking trail that runs all the way from Mount Katahdin in Maine to Springer Mountain in Georgia, passing over or past a large part of the Appalachian system.\n\n8679767: While you had one year after Lima's foundation in 1536 a population of around 250 inhabitants, the population grew until 1614 to 26,400, until 1791 to 56,600. One year before Peru's independence in 1820 the city had 64,000 citizens. In 1861 Lima's population reached for the first time the 100,000 mark.\n\n8236698: How long do the batteries in the sensors last? It depends on a variety of factors including the sample rate, drive cycle of the customer and even the environment. If a sensor transmits the pressure every 10 seconds, it will not last as long as a sensor that transmits the pressure every 15 seconds. Some sensors may last as long as 10 years, while some may last only three to five years.\n\n7258856: ItsFunneh is best known as a YouTube Star who was born in Canada on Tuesday, October 31, 1995. ItsFunneh is currently 22 years old. ItsFunneh's birth sign is Scorpio. Scroll below and go to Page 2 to see our most recent 2017 and 2018 Estimated Net Worth for ItsFunneh as well as ItsFunneh's estimated 2017 earnings, income, and salary!\n\n3586759: [29/M] My Girlfriend [24/f] wants a baby now or it's game over, I'm an entrepreneur and stability isn't my thing right now. (self.relationship_advice) submitted 1 year ago * by didijustobama. Writing this to get my thoughts in a line as much as I'm seeking advice.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n893239: Word Cloud Definition. A word cloud is a popular visualization of words typically associated with Internet keywords and text data. They are most commonly used to highlight popular or trending terms based on frequency of use and prominence. A word cloud is a beautiful, informative image that communicates much in a single glance.\n\n4024430: Financial Underwriting An evaluation of the financial need and purpose for a proposed life insurance policy is a key part of the underwriting process. The writing agent is a key source of information, and we depend heavily on their ability to help us understand and resolve any financial issues.o other adverse underwriting considerations per underwriting judgment, to include; cancer, heart disease, stroke, diabetes, or alcohol/substance abuse. Blood Pressure Average from current medical exam and history readings within the last year do not exceed 135/85 through age 60 or 140/85 for ages 61-70.\n\n"
+    ],
+    "responses": [
+        "[4224737, 1229106, 8236698, 7258856, 8679767, 3117723, 3586759, 319964, 893239, 4024430]"
+    ],
+    "curr_top_k_docIDs": [
+        4224737,
+        1229106,
+        8236698,
+        7258856,
+        8679767,
+        3117723,
+        3586759,
+        319964,
+        893239,
+        4024430
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "how long did barack obama be president"
+            ]
+        },
+        {
+            "queries": [
+                "how long did barack obama be president"
+            ],
+            "retrieved_lists": [
+                [
+                    "4224737",
+                    "1229106",
+                    "3117723",
+                    "8679767",
+                    "8236698",
+                    "7258856",
+                    "3586759",
+                    "319964",
+                    "893239",
+                    "4024430"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6861525774002075,
+                    0.4173348546028137,
+                    0.11950444430112839,
+                    0.11353225260972977,
+                    0.10482622683048248,
+                    0.09584757685661316,
+                    0.09481119364500046,
+                    0.08120233565568924,
+                    0.080442413687706,
+                    0.07903705537319183
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "how long did barack obama be president"
+            ],
+            "retrieved_lists": [
+                [
+                    "4224737",
+                    "1229106",
+                    "3117723",
+                    "8679767",
+                    "8236698",
+                    "7258856",
+                    "3586759",
+                    "319964",
+                    "893239",
+                    "4024430"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6861525774002075,
+                    0.4173348546028137,
+                    0.11950444430112839,
+                    0.11353225260972977,
+                    0.10482622683048248,
+                    0.09584757685661316,
+                    0.09481119364500046,
+                    0.08120233565568924,
+                    0.080442413687706,
+                    0.07903705537319183
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: how long did barack obama be president\n\nDocuments:\n\n4224737: awards and honors. Barack Obama, in full Barack Hussein Obama II (born August 4, 1961, Honolulu, Hawaii, U.S.), 44th president of the United States (2009\u00e2\u0080\u009317) and the first African American to hold the office. Before winning the presidency, Obama represented Illinois in the U.S. Senate (2005\u00e2\u0080\u009308).\n\n1229106: President Obama's salary of $400,000 a year hasn't changed. Pay at the White House reflects higher salaries for federal government employees, in general. Federal workers on average make $77,414 a year in wages, about 44% more than private-sector employees' $53,463, according to the Bureau of Economic Analysis.\n\n3117723: The range is mostly located in the United States but extends into southeastern Canada, forming a zone from 100 to 300 mi (160 to 480 km) wide, running from the island of Newfoundland 1,500 mi (2,400 km) southwestward to Central Alabama in the United States.he Appalachian Trail is a 2,175-mile (3,500 km) hiking trail that runs all the way from Mount Katahdin in Maine to Springer Mountain in Georgia, passing over or past a large part of the Appalachian system.\n\n8679767: While you had one year after Lima's foundation in 1536 a population of around 250 inhabitants, the population grew until 1614 to 26,400, until 1791 to 56,600. One year before Peru's independence in 1820 the city had 64,000 citizens. In 1861 Lima's population reached for the first time the 100,000 mark.\n\n8236698: How long do the batteries in the sensors last? It depends on a variety of factors including the sample rate, drive cycle of the customer and even the environment. If a sensor transmits the pressure every 10 seconds, it will not last as long as a sensor that transmits the pressure every 15 seconds. Some sensors may last as long as 10 years, while some may last only three to five years.\n\n7258856: ItsFunneh is best known as a YouTube Star who was born in Canada on Tuesday, October 31, 1995. ItsFunneh is currently 22 years old. ItsFunneh's birth sign is Scorpio. Scroll below and go to Page 2 to see our most recent 2017 and 2018 Estimated Net Worth for ItsFunneh as well as ItsFunneh's estimated 2017 earnings, income, and salary!\n\n3586759: [29/M] My Girlfriend [24/f] wants a baby now or it's game over, I'm an entrepreneur and stability isn't my thing right now. (self.relationship_advice) submitted 1 year ago * by didijustobama. Writing this to get my thoughts in a line as much as I'm seeking advice.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n893239: Word Cloud Definition. A word cloud is a popular visualization of words typically associated with Internet keywords and text data. They are most commonly used to highlight popular or trending terms based on frequency of use and prominence. A word cloud is a beautiful, informative image that communicates much in a single glance.\n\n4024430: Financial Underwriting An evaluation of the financial need and purpose for a proposed life insurance policy is a key part of the underwriting process. The writing agent is a key source of information, and we depend heavily on their ability to help us understand and resolve any financial issues.o other adverse underwriting considerations per underwriting judgment, to include; cancer, heart disease, stroke, diabetes, or alcohol/substance abuse. Blood Pressure Average from current medical exam and history readings within the last year do not exceed 135/85 through age 60 or 140/85 for ages 61-70.\n\n"
+            ],
+            "responses": [
+                "[4224737, 1229106, 8236698, 7258856, 8679767, 3117723, 3586759, 319964, 893239, 4024430]"
+            ],
+            "curr_top_k_docIDs": [
+                4224737,
+                1229106,
+                8236698,
+                7258856,
+                8679767,
+                3117723,
+                3586759,
+                319964,
+                893239,
+                4024430
+            ]
+        },
+        {
+            "queries": [
+                "how long did barack obama be president"
+            ],
+            "retrieved_lists": [
+                [
+                    "4224737",
+                    "1229106",
+                    "3117723",
+                    "8679767",
+                    "8236698",
+                    "7258856",
+                    "3586759",
+                    "319964",
+                    "893239",
+                    "4024430"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6861525774002075,
+                    0.4173348546028137,
+                    0.11950444430112839,
+                    0.11353225260972977,
+                    0.10482622683048248,
+                    0.09584757685661316,
+                    0.09481119364500046,
+                    0.08120233565568924,
+                    0.080442413687706,
+                    0.07903705537319183
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: how long did barack obama be president\n\nDocuments:\n\n4224737: awards and honors. Barack Obama, in full Barack Hussein Obama II (born August 4, 1961, Honolulu, Hawaii, U.S.), 44th president of the United States (2009\u00e2\u0080\u009317) and the first African American to hold the office. Before winning the presidency, Obama represented Illinois in the U.S. Senate (2005\u00e2\u0080\u009308).\n\n1229106: President Obama's salary of $400,000 a year hasn't changed. Pay at the White House reflects higher salaries for federal government employees, in general. Federal workers on average make $77,414 a year in wages, about 44% more than private-sector employees' $53,463, according to the Bureau of Economic Analysis.\n\n3117723: The range is mostly located in the United States but extends into southeastern Canada, forming a zone from 100 to 300 mi (160 to 480 km) wide, running from the island of Newfoundland 1,500 mi (2,400 km) southwestward to Central Alabama in the United States.he Appalachian Trail is a 2,175-mile (3,500 km) hiking trail that runs all the way from Mount Katahdin in Maine to Springer Mountain in Georgia, passing over or past a large part of the Appalachian system.\n\n8679767: While you had one year after Lima's foundation in 1536 a population of around 250 inhabitants, the population grew until 1614 to 26,400, until 1791 to 56,600. One year before Peru's independence in 1820 the city had 64,000 citizens. In 1861 Lima's population reached for the first time the 100,000 mark.\n\n8236698: How long do the batteries in the sensors last? It depends on a variety of factors including the sample rate, drive cycle of the customer and even the environment. If a sensor transmits the pressure every 10 seconds, it will not last as long as a sensor that transmits the pressure every 15 seconds. Some sensors may last as long as 10 years, while some may last only three to five years.\n\n7258856: ItsFunneh is best known as a YouTube Star who was born in Canada on Tuesday, October 31, 1995. ItsFunneh is currently 22 years old. ItsFunneh's birth sign is Scorpio. Scroll below and go to Page 2 to see our most recent 2017 and 2018 Estimated Net Worth for ItsFunneh as well as ItsFunneh's estimated 2017 earnings, income, and salary!\n\n3586759: [29/M] My Girlfriend [24/f] wants a baby now or it's game over, I'm an entrepreneur and stability isn't my thing right now. (self.relationship_advice) submitted 1 year ago * by didijustobama. Writing this to get my thoughts in a line as much as I'm seeking advice.\n\n319964: The loss of cells early in their developmentresults in \u00e2\u0080\u009cineffective production\u00e2\u0080\u009d and severe neutropeniawith ANCs usually o0.5 10 9 /L, and often lower. InCyN, bone marrow maturation, and hence peripheralblood neutrophil counts, follow a regular oscillatingpattern with consistent, usually 21-day, periodicity.\n\n893239: Word Cloud Definition. A word cloud is a popular visualization of words typically associated with Internet keywords and text data. They are most commonly used to highlight popular or trending terms based on frequency of use and prominence. A word cloud is a beautiful, informative image that communicates much in a single glance.\n\n4024430: Financial Underwriting An evaluation of the financial need and purpose for a proposed life insurance policy is a key part of the underwriting process. The writing agent is a key source of information, and we depend heavily on their ability to help us understand and resolve any financial issues.o other adverse underwriting considerations per underwriting judgment, to include; cancer, heart disease, stroke, diabetes, or alcohol/substance abuse. Blood Pressure Average from current medical exam and history readings within the last year do not exceed 135/85 through age 60 or 140/85 for ages 61-70.\n\n"
+            ],
+            "responses": [
+                "[4224737, 1229106, 8236698, 7258856, 8679767, 3117723, 3586759, 319964, 893239, 4024430]"
+            ],
+            "curr_top_k_docIDs": [
+                4224737,
+                1229106,
+                8236698,
+                7258856,
+                8679767,
+                3117723,
+                3586759,
+                319964,
+                893239,
+                4024430
+            ],
+            "terminate": true
+        }
+    ]
+}

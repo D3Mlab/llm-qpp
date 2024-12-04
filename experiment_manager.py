@@ -73,7 +73,7 @@ class ExperimentManager():
                 self.experiment_logger.info(f'Ranking query: {qid} {query}')
                 result = self.agent.rank(query)
                 #results = {
-                #        'ranked_list': [<list of ranked docIDs>]
+                #        'curr_top_k_docIDs': [<list of ranked docIDs>]
                 #    ...
                 #  }
                 self.experiment_logger.info('Rank successful')
@@ -109,9 +109,9 @@ class ExperimentManager():
 
         # Write TREC results
         trec_results = []
-        ranked_list = result.get('ranked_list', [])
-        for doc_index, doc_id in enumerate(ranked_list):
-            score = len(ranked_list) - doc_index
+        top_k_docIDs = result.get('curr_top_k_docIDs', [])
+        for doc_index, doc_id in enumerate(top_k_docIDs):
+            score = len(top_k_docIDs) - doc_index
             trec_results.append(f"{qid} Q0 {doc_id} {doc_index + 1} {score} my_run")
 
         with open(trec_file_path, "w") as trec_file:
