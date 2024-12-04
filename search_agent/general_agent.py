@@ -29,7 +29,7 @@ class GeneralAgent(BaseAgent):
 
             if not next_action:
                 #put state history into result format (dict with current state plus a state history element) and return
-                self.logger.debug(f"Next action is None. Returning with state history {self.state_hist} ")
+                #self.logger.debug(f"Next action is None. Returning with state history {self.state_hist} ")
                 result = copy.deepcopy(self.state_hist[-1])
                 result.update({'state_history' : self.state_hist})
                 return result
@@ -41,7 +41,7 @@ class GeneralAgent(BaseAgent):
             #replace any updated state values in the previous state with act_result values
             curr_state = {**self.state_hist[-1], **act_result}
             curr_state.update({'last_action_method' : act_method.__name__})
-            self.logger.debug(curr_state)
+            #self.logger.debug(curr_state)
             self.state_hist.append(curr_state)
 
         

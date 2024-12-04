@@ -33,7 +33,8 @@ class EvalManager():
         """
         Evaluates a single experiment directory.
         """
-       
+        experiment_dir = Path(experiment_dir)
+
         eval_config_path = Path(experiment_dir)  / "eval_config.yaml"
         
         if eval_config_path.exists():
@@ -98,6 +99,14 @@ class EvalManager():
         """
         Removes duplicate documents from a TREC results file and saves deduplicated version.
         """
+        if not trec_file_path.exists() or trec_file_path.stat().st_size == 0:
+            query_id = trec_file_path.parent.name  # Use the parent directory name as the query ID
+            self.experiment_logger.warning(f"Query {query_id}: TREC results file {trec_file_path} is empty or missing. Adding a dummy line.")
+            dummy_line = f"{query_id} Q0 dummy_doc_id 1 0.0 dummy_run\n"
+            with open(dedup_trec_file_path, "w") as dedup_file:
+                dedup_file.write(dummy_line)
+            return [dummy_line]
+        
         with open(trec_file_path, "r") as trec_file:
             lines = trec_file.readlines()
             seen_docs = set()

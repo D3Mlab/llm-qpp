@@ -1,0 +1,36 @@
+logging: 
+  level: DEBUG
+data_paths:
+  corpus_text_path: data/MS-MARCO/subset_qVOLCANO_d100/collection.jsonl
+  emb_path: data/MS-MARCO/subset_qVOLCANO_d100/collection_sentence-transformers-all-MiniLM-L6-v2.pkl
+  queries_path: data/MS-MARCO/subset_qVOLCANO_d100/queries.tsv
+agent:
+  agent_class: GeneralAgent
+  policy: PipelinePolicy
+  policy_steps:
+    - component: DenseRetriever
+      method: rank
+    - component: Prompter
+      method: rerank_best_and_latest
+    - component: AgentLogic
+      method: check_max_q_reforms
+    - component: Prompter
+      method: reform_q_post_retr
+  max_q_reforms: 0 # T, if pre-retrieval reformulation used, num_retrieval_operations = T; else if no pre-retrieval reformulation, num_retrieval_operations = T + 1 
+embedding:
+  embedder_class: HuggingFaceEmbedder
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+knn:
+  knn_class: ExactKNN
+  sim_f: cosine
+  k: 10
+  implementation: load_all_in_batches #load_all_in_batches or load_iteratively (for batch = 1) if corpus doesn't fit in memory
+llm:
+  model_class: OpenAILLM #GeminiLLM 
+  model_name:  gpt-4o #gemini-1.5-flash #gpt-4o
+  template_dir: templates
+templates:
+  post_retrieval_reformulation: post_r_reform/expand_best_and_query_hist.jinja2
+  pre_retrieval_reformulation: pre_r_reform/uninformed_q2d.jinja2
+  reranking: reranking/listwise_rerank.jinja2
+  termination: termination/termination.jinja2

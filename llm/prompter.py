@@ -32,7 +32,11 @@ class Prompter():
         prompt_dict = {"query" : init_q}
         template_dir = self.template_config["pre_retrieval_reformulation"]
         prompt = self.render_prompt(prompt_dict, template_dir)
-        reformed_q = self.llm.prompt(prompt)["message"]
+        self.add_prompt_to_state(state,prompt)
+
+        llm_output = self.llm.prompt(prompt)["message"]
+        self.add_response_to_state(state,llm_output)
+        reformed_q = llm_output
 
         state["queries"].append(reformed_q)
         return state
@@ -42,7 +46,7 @@ class Prompter():
         #rerank these 2xK docs to a list of length K
 
         curr_top_k_docIDs = state.get("curr_top_k_docIDs", [])
-        last_k_retrieved_docIDs = state["retrieved_docIDs"][-1]
+        last_k_retrieved_docIDs = state["retrieved_lists"][-1]
         doc_ids = curr_top_k_docIDs + last_k_retrieved_docIDs
 
         k = self.config['knn'].get('k')
@@ -60,15 +64,17 @@ class Prompter():
 
         template_dir = self.template_config["reranking"]
         prompt = self.render_prompt(prompt_dict, template_dir)
-        self.logger.debug(f"reranking prompt: {prompt}")
+        self.add_prompt_to_state(state,prompt)
+        #self.logger.debug(f"reranking prompt: {prompt}")
+
         llm_output = self.llm.prompt(prompt)["message"]
-        
+        self.add_response_to_state(state,llm_output)
+
         # Parse the LLM output
         curr_top_k_docIDs = self.parse_llm_list(llm_output)
 
         state["curr_top_k_docIDs"] = curr_top_k_docIDs
         return state
-
 
     def decide_termination_best_docs(self, state):
         #given the best K doc IDs (e.g. from reranking): curr_top_k_docIDs
@@ -86,8 +92,10 @@ class Prompter():
 
         template_dir = self.template_config["termination"]
         prompt = self.render_prompt(prompt_dict, template_dir)
-        self.logger.debug(f"termination prompt: {prompt}")
+        self.add_prompt_to_state(state,prompt)
+        #self.logger.debug(f"termination prompt: {prompt}")
         llm_output = self.llm.prompt(prompt)["message"]
+        self.add_response_to_state(state,llm_output)
         
         # Process Yes/No termination decision from LLM output
         if isinstance(llm_output, str) and llm_output.strip().lower() == 'yes':
@@ -121,12 +129,23 @@ class Prompter():
 
         template_dir = self.template_config["post_retrieval_reformulation"]
         prompt = self.render_prompt(prompt_dict, template_dir)
-        self.logger.debug(f"post-retrieval reformulation prompt: {prompt}")
+        self.add_prompt_to_state(state,prompt)
+        #self.logger.debug(f"post-retrieval reformulation prompt: {prompt}")
         llm_output = self.llm.prompt(prompt)["message"]
-        
+        self.add_response_to_state(state,llm_output)
+
         state["queries"].append(llm_output)
         return state
 
+    def add_prompt_to_state(self,state,prompt):
+        if "prompts" not in state:
+            state["prompts"] = []  
+        state["prompts"].append(prompt)
+
+    def add_response_to_state(self,state,response):
+        if "responses" not in state:
+            state["responses"] = []  
+        state["responses"].append(response)
 
     def get_init_q(self,state):
         return state["queries"][0]
@@ -142,12 +161,14 @@ class Prompter():
         except json.JSONDecodeError:
             # Use regex as a fallback to extract a list
             self.logger.warning(f"Could not parse LLM output as list of docIDs, using regex parsing to look for list in LLM output: {llm_output}")
-            match = re.search(r'\[\s*"(.*?)"(?:\s*,\s*".*?")*\s*\]', llm_output)
+            match = re.search(r'\[.*?\]', llm_output, re.DOTALL)
             if match:
                 try:
-                    return json.loads(match.group(0))
+                    # Extract and convert single-quoted strings to double quotes for JSON compatibility
+                    extracted_list = match.group(0).replace("'", '"')
+                    return json.loads(extracted_list)
                 except json.JSONDecodeError:
                     self.logger.warning(f"Regex extraction failed to parse as JSON: {llm_output}")
-        
+    
         self.logger.warning(f"No valid list of docIDs found in LLM output: {llm_output}")
         return []

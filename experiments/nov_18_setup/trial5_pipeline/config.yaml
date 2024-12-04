@@ -16,7 +16,7 @@ agent:
       method: check_max_q_reforms
     - component: Prompter
       method: reform_q_post_retr
-  max_q_reforms: 4 # T, if pre-retrieval reformulation used, num_retrieval_operations = T; else if no pre-retrieval reformulation, num_retrieval_operations = T + 1 
+  max_q_reforms: 0 # T, if pre-retrieval reformulation used, num_retrieval_operations = T; else if no pre-retrieval reformulation, num_retrieval_operations = T + 1 
 embedding:
   embedder_class: HuggingFaceEmbedder
   model_name: sentence-transformers/all-MiniLM-L6-v2
@@ -27,7 +27,7 @@ knn:
   implementation: load_all_in_batches #load_all_in_batches or load_iteratively (for batch = 1) if corpus doesn't fit in memory
 llm:
   model_class: OpenAILLM #GeminiLLM 
-  model_name:  gpt-4o-mini #gemini-1.5-flash #gpt-4o
+  model_name:  gpt-4o #gemini-1.5-flash #gpt-4o
   template_dir: templates
 templates:
   post_retrieval_reformulation: post_r_reform/expand_best_and_query_hist.jinja2
