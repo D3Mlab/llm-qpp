@@ -1,0 +1,199 @@
+{
+    "queries": [
+        "what types of volcanoes"
+    ],
+    "retrieved_lists": [
+        [
+            "7872235",
+            "6098688",
+            "6170073",
+            "5861716",
+            "2506722",
+            "572087",
+            "5394642",
+            "4500249",
+            "7380609",
+            "159521"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.8381779193878174,
+            0.1791802942752838,
+            0.1600179374217987,
+            0.1552978903055191,
+            0.13357096910476685,
+            0.1263222098350525,
+            0.11038956046104431,
+            0.0985703244805336,
+            0.09726294875144958,
+            0.09683074057102203
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what types of volcanoes\n\nDocuments:\n\n7872235: The Four Types of Volcanoes. Volcanoes are grouped into cinder cones, composite volcanoes, shield volcanoes and lava domes. Cinder cones are circular or oval cones (left) made up of small fragments of lava from a single vent that have been blown into the air, cooled and fallen around the vent.\n\n6098688: Chloroplasts are organelles present in plant cells and some eukaryotic organisms. Chloroplasts are the most important plastids found in plant cells.It is the structure in a green plant cell in which photosynthesis occurs. Chloroplast is one of the three types of plastids.he chloroplast are double membrane bound organelles and are the site of photosynthesis The chloroplasts have a system of three membranes: the outer membrane, the inner membrane and the thylakoid system. The outer and the inner membrane of the chloroplast enclose a semi-gel-like fluid known as the stroma.\n\n6170073: Access hourly, 10 day and 15 day forecasts along with up to the minute reports and videos for Mount Pocono, PA 18344 from AccuWeather.com Get the Mount Pocono weather forecast. Access hourly, 10 day and 15 day forecasts along with up to the minute reports and videos for Mount Pocono, PA 18344 from AccuWeather.com Get the Mount Pocono weather forecast. Access hourly, 10 day and 15 day forecasts along with up to the minute reports and videos for Mount Pocono, PA 18344 from AccuWeather.com my recent locations \u00c2\u00b0f\n\n5861716: Relax in front of the limestone rock fireplace and enjoy a movie on the Satellite TV system. After dinner, take your sweetheart to the back porch and enjoy a relaxing dip in the hot tub that we completely sanitize and refill with fresh water for every guest.\n\n2506722: Sodium bicarbonate (IUPAC name: sodium hydrogen carbonate) is a chemical compound with the formula Na HCO3. Sodium bicarbonate is a white solid that is crystalline but often appears as a fine powder.\n\n572087: Erosion can have a number of causes, but the effects are usually the same. The most visually noticeable effect is soil erosion. The flow of wind or water can displace both topsoil and deeper dirt, which leads to shifting nutrients and resources.\n\n5394642: Once your selected alert is placed on your credit file, we will forward your alert request to Experian and TransUnion so you don't need to contact each of them separately. Choose Alert Type You may only select one alert type at a time\n\n4500249: Levels also rise with use of nicotine replacement products such as nicotine patches and gums. In large amounts, nicotine can be poisonous. Cotinine is usually the test of choice to evaluate tobacco use or exposure to tobacco smoke because it is stable and is only produced when nicotine is metabolized.\n\n7380609: Their targets include foreign civilians\u00e2\u0080\u0094mainly Westerners affiliated with its oil-based economy \u00e2\u0080\u0094as well as Saudi Arabian civilians and security forces. Anti-Western attacks have occurred in Saudi Arabia dating back to 1995.Saudi Arabia itself has been accused of funding terrorism in other countries, namely Syria.fter the September 11, 2001 attacks, there was continued world pressure for the Saudi government to crack down on the radical imams preaching anti-American rhetoric in Saudi mosques. These calls grew as it turned out that 17 of the 19 hijackers were from Saudi Arabia.\n\n159521: Hospitality industry. The hospitality industry is a broad category of fields within the service industry that includes lodging, restaurants, event planning, theme parks, transportation, cruise line, and additional fields within the tourism industry.ospitality industry. The hospitality industry is a broad category of fields within the service industry that includes lodging, restaurants, event planning, theme parks, transportation, cruise line, and additional fields within the tourism industry.\n\n"
+    ],
+    "responses": [
+        "[7872235, 6098688, 6170073, 5861716, 2506722, 572087, 5394642, 4500249, 7380609, 159521]"
+    ],
+    "curr_top_k_docIDs": [
+        7872235,
+        6098688,
+        6170073,
+        5861716,
+        2506722,
+        572087,
+        5394642,
+        4500249,
+        7380609,
+        159521
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "what types of volcanoes"
+            ]
+        },
+        {
+            "queries": [
+                "what types of volcanoes"
+            ],
+            "retrieved_lists": [
+                [
+                    "7872235",
+                    "6098688",
+                    "6170073",
+                    "5861716",
+                    "2506722",
+                    "572087",
+                    "5394642",
+                    "4500249",
+                    "7380609",
+                    "159521"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8381779193878174,
+                    0.1791802942752838,
+                    0.1600179374217987,
+                    0.1552978903055191,
+                    0.13357096910476685,
+                    0.1263222098350525,
+                    0.11038956046104431,
+                    0.0985703244805336,
+                    0.09726294875144958,
+                    0.09683074057102203
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "what types of volcanoes"
+            ],
+            "retrieved_lists": [
+                [
+                    "7872235",
+                    "6098688",
+                    "6170073",
+                    "5861716",
+                    "2506722",
+                    "572087",
+                    "5394642",
+                    "4500249",
+                    "7380609",
+                    "159521"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8381779193878174,
+                    0.1791802942752838,
+                    0.1600179374217987,
+                    0.1552978903055191,
+                    0.13357096910476685,
+                    0.1263222098350525,
+                    0.11038956046104431,
+                    0.0985703244805336,
+                    0.09726294875144958,
+                    0.09683074057102203
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what types of volcanoes\n\nDocuments:\n\n7872235: The Four Types of Volcanoes. Volcanoes are grouped into cinder cones, composite volcanoes, shield volcanoes and lava domes. Cinder cones are circular or oval cones (left) made up of small fragments of lava from a single vent that have been blown into the air, cooled and fallen around the vent.\n\n6098688: Chloroplasts are organelles present in plant cells and some eukaryotic organisms. Chloroplasts are the most important plastids found in plant cells.It is the structure in a green plant cell in which photosynthesis occurs. Chloroplast is one of the three types of plastids.he chloroplast are double membrane bound organelles and are the site of photosynthesis The chloroplasts have a system of three membranes: the outer membrane, the inner membrane and the thylakoid system. The outer and the inner membrane of the chloroplast enclose a semi-gel-like fluid known as the stroma.\n\n6170073: Access hourly, 10 day and 15 day forecasts along with up to the minute reports and videos for Mount Pocono, PA 18344 from AccuWeather.com Get the Mount Pocono weather forecast. Access hourly, 10 day and 15 day forecasts along with up to the minute reports and videos for Mount Pocono, PA 18344 from AccuWeather.com Get the Mount Pocono weather forecast. Access hourly, 10 day and 15 day forecasts along with up to the minute reports and videos for Mount Pocono, PA 18344 from AccuWeather.com my recent locations \u00c2\u00b0f\n\n5861716: Relax in front of the limestone rock fireplace and enjoy a movie on the Satellite TV system. After dinner, take your sweetheart to the back porch and enjoy a relaxing dip in the hot tub that we completely sanitize and refill with fresh water for every guest.\n\n2506722: Sodium bicarbonate (IUPAC name: sodium hydrogen carbonate) is a chemical compound with the formula Na HCO3. Sodium bicarbonate is a white solid that is crystalline but often appears as a fine powder.\n\n572087: Erosion can have a number of causes, but the effects are usually the same. The most visually noticeable effect is soil erosion. The flow of wind or water can displace both topsoil and deeper dirt, which leads to shifting nutrients and resources.\n\n5394642: Once your selected alert is placed on your credit file, we will forward your alert request to Experian and TransUnion so you don't need to contact each of them separately. Choose Alert Type You may only select one alert type at a time\n\n4500249: Levels also rise with use of nicotine replacement products such as nicotine patches and gums. In large amounts, nicotine can be poisonous. Cotinine is usually the test of choice to evaluate tobacco use or exposure to tobacco smoke because it is stable and is only produced when nicotine is metabolized.\n\n7380609: Their targets include foreign civilians\u00e2\u0080\u0094mainly Westerners affiliated with its oil-based economy \u00e2\u0080\u0094as well as Saudi Arabian civilians and security forces. Anti-Western attacks have occurred in Saudi Arabia dating back to 1995.Saudi Arabia itself has been accused of funding terrorism in other countries, namely Syria.fter the September 11, 2001 attacks, there was continued world pressure for the Saudi government to crack down on the radical imams preaching anti-American rhetoric in Saudi mosques. These calls grew as it turned out that 17 of the 19 hijackers were from Saudi Arabia.\n\n159521: Hospitality industry. The hospitality industry is a broad category of fields within the service industry that includes lodging, restaurants, event planning, theme parks, transportation, cruise line, and additional fields within the tourism industry.ospitality industry. The hospitality industry is a broad category of fields within the service industry that includes lodging, restaurants, event planning, theme parks, transportation, cruise line, and additional fields within the tourism industry.\n\n"
+            ],
+            "responses": [
+                "[7872235, 6098688, 6170073, 5861716, 2506722, 572087, 5394642, 4500249, 7380609, 159521]"
+            ],
+            "curr_top_k_docIDs": [
+                7872235,
+                6098688,
+                6170073,
+                5861716,
+                2506722,
+                572087,
+                5394642,
+                4500249,
+                7380609,
+                159521
+            ]
+        },
+        {
+            "queries": [
+                "what types of volcanoes"
+            ],
+            "retrieved_lists": [
+                [
+                    "7872235",
+                    "6098688",
+                    "6170073",
+                    "5861716",
+                    "2506722",
+                    "572087",
+                    "5394642",
+                    "4500249",
+                    "7380609",
+                    "159521"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8381779193878174,
+                    0.1791802942752838,
+                    0.1600179374217987,
+                    0.1552978903055191,
+                    0.13357096910476685,
+                    0.1263222098350525,
+                    0.11038956046104431,
+                    0.0985703244805336,
+                    0.09726294875144958,
+                    0.09683074057102203
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: what types of volcanoes\n\nDocuments:\n\n7872235: The Four Types of Volcanoes. Volcanoes are grouped into cinder cones, composite volcanoes, shield volcanoes and lava domes. Cinder cones are circular or oval cones (left) made up of small fragments of lava from a single vent that have been blown into the air, cooled and fallen around the vent.\n\n6098688: Chloroplasts are organelles present in plant cells and some eukaryotic organisms. Chloroplasts are the most important plastids found in plant cells.It is the structure in a green plant cell in which photosynthesis occurs. Chloroplast is one of the three types of plastids.he chloroplast are double membrane bound organelles and are the site of photosynthesis The chloroplasts have a system of three membranes: the outer membrane, the inner membrane and the thylakoid system. The outer and the inner membrane of the chloroplast enclose a semi-gel-like fluid known as the stroma.\n\n6170073: Access hourly, 10 day and 15 day forecasts along with up to the minute reports and videos for Mount Pocono, PA 18344 from AccuWeather.com Get the Mount Pocono weather forecast. Access hourly, 10 day and 15 day forecasts along with up to the minute reports and videos for Mount Pocono, PA 18344 from AccuWeather.com Get the Mount Pocono weather forecast. Access hourly, 10 day and 15 day forecasts along with up to the minute reports and videos for Mount Pocono, PA 18344 from AccuWeather.com my recent locations \u00c2\u00b0f\n\n5861716: Relax in front of the limestone rock fireplace and enjoy a movie on the Satellite TV system. After dinner, take your sweetheart to the back porch and enjoy a relaxing dip in the hot tub that we completely sanitize and refill with fresh water for every guest.\n\n2506722: Sodium bicarbonate (IUPAC name: sodium hydrogen carbonate) is a chemical compound with the formula Na HCO3. Sodium bicarbonate is a white solid that is crystalline but often appears as a fine powder.\n\n572087: Erosion can have a number of causes, but the effects are usually the same. The most visually noticeable effect is soil erosion. The flow of wind or water can displace both topsoil and deeper dirt, which leads to shifting nutrients and resources.\n\n5394642: Once your selected alert is placed on your credit file, we will forward your alert request to Experian and TransUnion so you don't need to contact each of them separately. Choose Alert Type You may only select one alert type at a time\n\n4500249: Levels also rise with use of nicotine replacement products such as nicotine patches and gums. In large amounts, nicotine can be poisonous. Cotinine is usually the test of choice to evaluate tobacco use or exposure to tobacco smoke because it is stable and is only produced when nicotine is metabolized.\n\n7380609: Their targets include foreign civilians\u00e2\u0080\u0094mainly Westerners affiliated with its oil-based economy \u00e2\u0080\u0094as well as Saudi Arabian civilians and security forces. Anti-Western attacks have occurred in Saudi Arabia dating back to 1995.Saudi Arabia itself has been accused of funding terrorism in other countries, namely Syria.fter the September 11, 2001 attacks, there was continued world pressure for the Saudi government to crack down on the radical imams preaching anti-American rhetoric in Saudi mosques. These calls grew as it turned out that 17 of the 19 hijackers were from Saudi Arabia.\n\n159521: Hospitality industry. The hospitality industry is a broad category of fields within the service industry that includes lodging, restaurants, event planning, theme parks, transportation, cruise line, and additional fields within the tourism industry.ospitality industry. The hospitality industry is a broad category of fields within the service industry that includes lodging, restaurants, event planning, theme parks, transportation, cruise line, and additional fields within the tourism industry.\n\n"
+            ],
+            "responses": [
+                "[7872235, 6098688, 6170073, 5861716, 2506722, 572087, 5394642, 4500249, 7380609, 159521]"
+            ],
+            "curr_top_k_docIDs": [
+                7872235,
+                6098688,
+                6170073,
+                5861716,
+                2506722,
+                572087,
+                5394642,
+                4500249,
+                7380609,
+                159521
+            ],
+            "terminate": true
+        }
+    ]
+}

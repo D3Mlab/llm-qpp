@@ -1,0 +1,199 @@
+{
+    "queries": [
+        "who narrated the uncola commercial"
+    ],
+    "retrieved_lists": [
+        [
+            "7289184",
+            "3857457",
+            "7331212",
+            "6495640",
+            "7776894",
+            "5861716",
+            "4628299",
+            "3886251",
+            "108035",
+            "7331211"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.18492235243320465,
+            0.17049577832221985,
+            0.1656697392463684,
+            0.164706289768219,
+            0.16142909228801727,
+            0.14555244147777557,
+            0.12374313175678253,
+            0.11846762895584106,
+            0.11347038298845291,
+            0.10586290806531906
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: who narrated the uncola commercial\n\nDocuments:\n\n7289184: He was the Un-cola pitchman for 7Up, a Bond villain in Live and Let Die and a dance and acting star Geoffrey Holder has died at 84. He was the Un-cola pitchman for 7Up, a Bond villain in Live and Let Die and a dance and acting star Geoffrey Holder has died at 84.\n\n3857457: Contact us. Stoneridge Corporate Headquarters. 39675 MacKenzie Drive, Suite 400. Novi, Michigan 48377. Tel: (248) 489-9300. Fax: (248) 489-3970. E-mail: corporate@stoneridge.com.\n\n7331212: Fill a tall glass with warm water (as hot as you can tolerate), add the juice of half a lemon and one teaspoon of honey to it. Now stir the mixture well and drink it. If you are diabetic, there is no need to shy away from this drink, here is why it is safe for you to add honey to this elixir.\n\n6495640: To install mineral fiber tiles directly to existing drywall or plaster ceilings with adhesive, use the recommended tile adhesive, such as Henry #237B Acoustical Adhesive*. Follow the adhesive manufacturers\u00e2\u0080\u0099 instructions for application and usage.\n\n7776894: Chrissy Teigen Makes Her Sports Illustrated Comeback After Baby Luna. WOW. Chrissy Teigen is a Sports Illustrated Swimsuit Issue vet. She first appeared in its pages as Rookie of the Year in 2010, then appeared every year up to 2014, when she graced the cover alongside Nina Agdal and Lily Aldridge. Advertisement - Continue Reading Below.\n\n5861716: Relax in front of the limestone rock fireplace and enjoy a movie on the Satellite TV system. After dinner, take your sweetheart to the back porch and enjoy a relaxing dip in the hot tub that we completely sanitize and refill with fresh water for every guest.\n\n4628299: Headquartered in Leuven, Belgium, InBev employs almost 89,000 people worldwide and has sales in over 130 countries. The company has iconic high-end beer brands across the globe, such as Leffe and Hoegaarden. A portfolio of around 200 local brands forms the bedrock of the business, according to InBev's Web site. It lists Skol, the leading beer brand in the Brazilian market, Jupiler, the No. 1-selling beer in Belgium and Siberian Crown, a leading premium brand sold throughout Russia, among its star brands.\n\n3886251: Dirk hosts \u00e2\u0080\u009cDare Me Bro!\u00e2\u0080\u009d from his Dare Lair studio, he takes requests from hardcore fans who dare him to do crazy and weird stunts, such as head-butting a ram or jumping on a pogo stick for a week straight. Dirk enjoys living life as a daredevil, but he also has a big heart and is always there for his friends.\n\n108035: Ever wonder how much people playing music on the street pull in? Speculate no longer. Over at Priceonomics, Mark Sandusky, one half of the music duo The Dirty Little Blondes, has made his financials public. During 12.5 hours of performing, the pair made a total of $532, which works out to $21.22 per hour each. Assuming a 40-hour work week, that's an annual salary of $44,137. But before you quit your day job, know that even the pros can't hit the streets and pull in that much cash every day. (And as the Sandusky notes, you're not going to make any money if your music isn't good.)\n\n7331211: Boil the water. Pour into a cup or 2 as much room temperature water and boiled water to your desired temperature to make up 2 cups. (Some people prefer hot while others prefer warm). Mix in the lemon and lime juice with the sliced or grated ginger and turmeric.\n\n"
+    ],
+    "responses": [
+        "[7289184, 3857457, 7331212, 6495640, 7776894, 5861716, 4628299, 3886251, 108035, 7331211]"
+    ],
+    "curr_top_k_docIDs": [
+        7289184,
+        3857457,
+        7331212,
+        6495640,
+        7776894,
+        5861716,
+        4628299,
+        3886251,
+        108035,
+        7331211
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "who narrated the uncola commercial"
+            ]
+        },
+        {
+            "queries": [
+                "who narrated the uncola commercial"
+            ],
+            "retrieved_lists": [
+                [
+                    "7289184",
+                    "3857457",
+                    "7331212",
+                    "6495640",
+                    "7776894",
+                    "5861716",
+                    "4628299",
+                    "3886251",
+                    "108035",
+                    "7331211"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.18492235243320465,
+                    0.17049577832221985,
+                    0.1656697392463684,
+                    0.164706289768219,
+                    0.16142909228801727,
+                    0.14555244147777557,
+                    0.12374313175678253,
+                    0.11846762895584106,
+                    0.11347038298845291,
+                    0.10586290806531906
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "who narrated the uncola commercial"
+            ],
+            "retrieved_lists": [
+                [
+                    "7289184",
+                    "3857457",
+                    "7331212",
+                    "6495640",
+                    "7776894",
+                    "5861716",
+                    "4628299",
+                    "3886251",
+                    "108035",
+                    "7331211"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.18492235243320465,
+                    0.17049577832221985,
+                    0.1656697392463684,
+                    0.164706289768219,
+                    0.16142909228801727,
+                    0.14555244147777557,
+                    0.12374313175678253,
+                    0.11846762895584106,
+                    0.11347038298845291,
+                    0.10586290806531906
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: who narrated the uncola commercial\n\nDocuments:\n\n7289184: He was the Un-cola pitchman for 7Up, a Bond villain in Live and Let Die and a dance and acting star Geoffrey Holder has died at 84. He was the Un-cola pitchman for 7Up, a Bond villain in Live and Let Die and a dance and acting star Geoffrey Holder has died at 84.\n\n3857457: Contact us. Stoneridge Corporate Headquarters. 39675 MacKenzie Drive, Suite 400. Novi, Michigan 48377. Tel: (248) 489-9300. Fax: (248) 489-3970. E-mail: corporate@stoneridge.com.\n\n7331212: Fill a tall glass with warm water (as hot as you can tolerate), add the juice of half a lemon and one teaspoon of honey to it. Now stir the mixture well and drink it. If you are diabetic, there is no need to shy away from this drink, here is why it is safe for you to add honey to this elixir.\n\n6495640: To install mineral fiber tiles directly to existing drywall or plaster ceilings with adhesive, use the recommended tile adhesive, such as Henry #237B Acoustical Adhesive*. Follow the adhesive manufacturers\u00e2\u0080\u0099 instructions for application and usage.\n\n7776894: Chrissy Teigen Makes Her Sports Illustrated Comeback After Baby Luna. WOW. Chrissy Teigen is a Sports Illustrated Swimsuit Issue vet. She first appeared in its pages as Rookie of the Year in 2010, then appeared every year up to 2014, when she graced the cover alongside Nina Agdal and Lily Aldridge. Advertisement - Continue Reading Below.\n\n5861716: Relax in front of the limestone rock fireplace and enjoy a movie on the Satellite TV system. After dinner, take your sweetheart to the back porch and enjoy a relaxing dip in the hot tub that we completely sanitize and refill with fresh water for every guest.\n\n4628299: Headquartered in Leuven, Belgium, InBev employs almost 89,000 people worldwide and has sales in over 130 countries. The company has iconic high-end beer brands across the globe, such as Leffe and Hoegaarden. A portfolio of around 200 local brands forms the bedrock of the business, according to InBev's Web site. It lists Skol, the leading beer brand in the Brazilian market, Jupiler, the No. 1-selling beer in Belgium and Siberian Crown, a leading premium brand sold throughout Russia, among its star brands.\n\n3886251: Dirk hosts \u00e2\u0080\u009cDare Me Bro!\u00e2\u0080\u009d from his Dare Lair studio, he takes requests from hardcore fans who dare him to do crazy and weird stunts, such as head-butting a ram or jumping on a pogo stick for a week straight. Dirk enjoys living life as a daredevil, but he also has a big heart and is always there for his friends.\n\n108035: Ever wonder how much people playing music on the street pull in? Speculate no longer. Over at Priceonomics, Mark Sandusky, one half of the music duo The Dirty Little Blondes, has made his financials public. During 12.5 hours of performing, the pair made a total of $532, which works out to $21.22 per hour each. Assuming a 40-hour work week, that's an annual salary of $44,137. But before you quit your day job, know that even the pros can't hit the streets and pull in that much cash every day. (And as the Sandusky notes, you're not going to make any money if your music isn't good.)\n\n7331211: Boil the water. Pour into a cup or 2 as much room temperature water and boiled water to your desired temperature to make up 2 cups. (Some people prefer hot while others prefer warm). Mix in the lemon and lime juice with the sliced or grated ginger and turmeric.\n\n"
+            ],
+            "responses": [
+                "[7289184, 3857457, 7331212, 6495640, 7776894, 5861716, 4628299, 3886251, 108035, 7331211]"
+            ],
+            "curr_top_k_docIDs": [
+                7289184,
+                3857457,
+                7331212,
+                6495640,
+                7776894,
+                5861716,
+                4628299,
+                3886251,
+                108035,
+                7331211
+            ]
+        },
+        {
+            "queries": [
+                "who narrated the uncola commercial"
+            ],
+            "retrieved_lists": [
+                [
+                    "7289184",
+                    "3857457",
+                    "7331212",
+                    "6495640",
+                    "7776894",
+                    "5861716",
+                    "4628299",
+                    "3886251",
+                    "108035",
+                    "7331211"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.18492235243320465,
+                    0.17049577832221985,
+                    0.1656697392463684,
+                    0.164706289768219,
+                    0.16142909228801727,
+                    0.14555244147777557,
+                    0.12374313175678253,
+                    0.11846762895584106,
+                    0.11347038298845291,
+                    0.10586290806531906
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: who narrated the uncola commercial\n\nDocuments:\n\n7289184: He was the Un-cola pitchman for 7Up, a Bond villain in Live and Let Die and a dance and acting star Geoffrey Holder has died at 84. He was the Un-cola pitchman for 7Up, a Bond villain in Live and Let Die and a dance and acting star Geoffrey Holder has died at 84.\n\n3857457: Contact us. Stoneridge Corporate Headquarters. 39675 MacKenzie Drive, Suite 400. Novi, Michigan 48377. Tel: (248) 489-9300. Fax: (248) 489-3970. E-mail: corporate@stoneridge.com.\n\n7331212: Fill a tall glass with warm water (as hot as you can tolerate), add the juice of half a lemon and one teaspoon of honey to it. Now stir the mixture well and drink it. If you are diabetic, there is no need to shy away from this drink, here is why it is safe for you to add honey to this elixir.\n\n6495640: To install mineral fiber tiles directly to existing drywall or plaster ceilings with adhesive, use the recommended tile adhesive, such as Henry #237B Acoustical Adhesive*. Follow the adhesive manufacturers\u00e2\u0080\u0099 instructions for application and usage.\n\n7776894: Chrissy Teigen Makes Her Sports Illustrated Comeback After Baby Luna. WOW. Chrissy Teigen is a Sports Illustrated Swimsuit Issue vet. She first appeared in its pages as Rookie of the Year in 2010, then appeared every year up to 2014, when she graced the cover alongside Nina Agdal and Lily Aldridge. Advertisement - Continue Reading Below.\n\n5861716: Relax in front of the limestone rock fireplace and enjoy a movie on the Satellite TV system. After dinner, take your sweetheart to the back porch and enjoy a relaxing dip in the hot tub that we completely sanitize and refill with fresh water for every guest.\n\n4628299: Headquartered in Leuven, Belgium, InBev employs almost 89,000 people worldwide and has sales in over 130 countries. The company has iconic high-end beer brands across the globe, such as Leffe and Hoegaarden. A portfolio of around 200 local brands forms the bedrock of the business, according to InBev's Web site. It lists Skol, the leading beer brand in the Brazilian market, Jupiler, the No. 1-selling beer in Belgium and Siberian Crown, a leading premium brand sold throughout Russia, among its star brands.\n\n3886251: Dirk hosts \u00e2\u0080\u009cDare Me Bro!\u00e2\u0080\u009d from his Dare Lair studio, he takes requests from hardcore fans who dare him to do crazy and weird stunts, such as head-butting a ram or jumping on a pogo stick for a week straight. Dirk enjoys living life as a daredevil, but he also has a big heart and is always there for his friends.\n\n108035: Ever wonder how much people playing music on the street pull in? Speculate no longer. Over at Priceonomics, Mark Sandusky, one half of the music duo The Dirty Little Blondes, has made his financials public. During 12.5 hours of performing, the pair made a total of $532, which works out to $21.22 per hour each. Assuming a 40-hour work week, that's an annual salary of $44,137. But before you quit your day job, know that even the pros can't hit the streets and pull in that much cash every day. (And as the Sandusky notes, you're not going to make any money if your music isn't good.)\n\n7331211: Boil the water. Pour into a cup or 2 as much room temperature water and boiled water to your desired temperature to make up 2 cups. (Some people prefer hot while others prefer warm). Mix in the lemon and lime juice with the sliced or grated ginger and turmeric.\n\n"
+            ],
+            "responses": [
+                "[7289184, 3857457, 7331212, 6495640, 7776894, 5861716, 4628299, 3886251, 108035, 7331211]"
+            ],
+            "curr_top_k_docIDs": [
+                7289184,
+                3857457,
+                7331212,
+                6495640,
+                7776894,
+                5861716,
+                4628299,
+                3886251,
+                108035,
+                7331211
+            ],
+            "terminate": true
+        }
+    ]
+}

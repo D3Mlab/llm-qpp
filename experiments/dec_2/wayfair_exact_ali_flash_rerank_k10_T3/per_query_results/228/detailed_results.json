@@ -1,0 +1,1054 @@
+{
+    "queries": [
+        "bee",
+        "honeybee life cycle\n",
+        "beekeeping equipment and supplies\n",
+        "types of bees and their habitats\n"
+    ],
+    "retrieved_lists": [
+        [
+            "29779",
+            "34998",
+            "29780",
+            "21905",
+            "21903",
+            "38051",
+            "10559",
+            "11008",
+            "11697",
+            "15376"
+        ],
+        [
+            "37963",
+            "29780",
+            "10535",
+            "11697",
+            "20923",
+            "26668",
+            "29779",
+            "38053",
+            "38051",
+            "27573"
+        ],
+        [
+            "41376",
+            "37963",
+            "11697",
+            "11008",
+            "26669",
+            "42869",
+            "9718",
+            "9666",
+            "10526",
+            "26668"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7180679440498352,
+            0.7180210947990417,
+            0.7129853963851929,
+            0.7103837728500366,
+            0.7068336009979248,
+            0.705793023109436,
+            0.7036716938018799,
+            0.6998363733291626,
+            0.698236346244812,
+            0.6965129971504211
+        ],
+        [
+            0.6613860130310059,
+            0.6353000998497009,
+            0.6244531869888306,
+            0.618838369846344,
+            0.6140921115875244,
+            0.6128391027450562,
+            0.6124151945114136,
+            0.6038230061531067,
+            0.6028960347175598,
+            0.6025902032852173
+        ],
+        [
+            0.7069947719573975,
+            0.697230339050293,
+            0.6859893202781677,
+            0.6812933087348938,
+            0.6774258017539978,
+            0.676399827003479,
+            0.671424388885498,
+            0.6678293943405151,
+            0.6677621603012085,
+            0.6670240759849548
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n***\n\nPrevious query reformulations:\n***\n\nhoneybee life cycle\n\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n41376: honey bee 4 piece coffee , tea , & sugar jar sets. since 1988 , providing customers with quality giftware , home d\u00e9cor , and fashion accessories at affordable prices . committed to making sure passion has remained the same since the beginning - to design and provide the exceptional home decor , giftware , and fashion products to customers at a great value . organize the pantry while adding a touch of charm to the kitchen counter with this ceramic honey bee canister set . this set is perfect for stashing flour , tea leaves , coffee beans , and sugar .\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n11008: bee drying mat. nan\n\n26669: honey bee signature napkin holder. inspired by the honey bees , this handcrafted honey bee signature napkin box is enlivened with honey bee napkins and adorned with the beloved honey bee napkin weight - it 's a must-have addition to your next cocktail party or tablescape . handcrafted from 100 % recycled aluminum .\n\n42869: susquehanna glass wood vintage bee cherry artisan cutting board. this wood vintage bee artisan cutting board is hand sanded to a smooth finish and rubbed with food-safe mineral oil . it is laser etched with a bee themed design , creating a dramatic contrast against the rosy-hued wood . this hardy board can be used as both a serving piece for charcuterie or as a durable surface for cutting .\n\n9718: amaya 4 piece coffee mug set. \u201c bee sweet \u201d is a charming ceramic dinnerware and serveware . designed by susan winget , it features busy bees and flowers along with sweet sentiments and a unique 3-d beehive teapot .\n\n9666: bee napkin ring. bring natural beauty to your table and leave your guests impressed with this alloy set of 6 napkin rings . each of the napkin rings highlights a lovely honeybee sitting on a flower in a vintage gold finish . whether you want to organize your dining or coffee table for an everyday meal or snack time , or you \u2019 ve invited your friends for a celebration of any special event , these bee and flower napkin rings should not be missed . made of resilient alloy , they promise to stay rust-free . you can safely put your cloth or paper serviette in these napkin holders for convenient access when needed . can \u2019 t decide what to gift your beloved family member or friend on a birthday or any occasion ? don \u2019 t think too much and get this set of decorative serviette rings for them .\n\n10526: 3drose pretty honey bees around bee hive on honeycomb background potholder. this pot holder is perfect for daily use , while coordinating well with any kitchen decor . it features a quilted design which allows for more flexibility when using . handy attached loop offers the option to hang for display or storage . heat resistant for safely removing dishes from the oven and hot pots from the stove . great as a hostess or housewarming gift .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n***\n\nPrevious query reformulations:\n***\n\nhoneybee life cycle\n\n\nbeekeeping equipment and supplies\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+        "honeybee life cycle\n",
+        "```python\ndoc_ids = [\n    \"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \n    \"38051\", \"27573\"\n]\nprint(doc_ids)\n```\n",
+        "beekeeping equipment and supplies\n",
+        "```python\n[\"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \"38051\", \"27573\"]\n```\n",
+        "types of bees and their habitats\n"
+    ],
+    "curr_top_k_docIDs": [
+        "37963",
+        "29780",
+        "10535",
+        "11697",
+        "20923",
+        "26668",
+        "29779",
+        "38053",
+        "38051",
+        "27573"
+    ],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "bee"
+            ]
+        },
+        {
+            "queries": [
+                "bee"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "bee"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```"
+            ],
+            "curr_top_k_docIDs": [
+                1
+            ]
+        },
+        {
+            "queries": [
+                "bee"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```"
+            ],
+            "curr_top_k_docIDs": [
+                1
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "bee",
+                "honeybee life cycle\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "honeybee life cycle\n"
+            ],
+            "curr_top_k_docIDs": [
+                1
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "bee",
+                "honeybee life cycle\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ],
+                [
+                    "37963",
+                    "29780",
+                    "10535",
+                    "11697",
+                    "20923",
+                    "26668",
+                    "29779",
+                    "38053",
+                    "38051",
+                    "27573"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ],
+                [
+                    0.6613860130310059,
+                    0.6353000998497009,
+                    0.6244531869888306,
+                    0.618838369846344,
+                    0.6140921115875244,
+                    0.6128391027450562,
+                    0.6124151945114136,
+                    0.6038230061531067,
+                    0.6028960347175598,
+                    0.6025902032852173
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "honeybee life cycle\n"
+            ],
+            "curr_top_k_docIDs": [
+                1
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "bee",
+                "honeybee life cycle\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ],
+                [
+                    "37963",
+                    "29780",
+                    "10535",
+                    "11697",
+                    "20923",
+                    "26668",
+                    "29779",
+                    "38053",
+                    "38051",
+                    "27573"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ],
+                [
+                    0.6613860130310059,
+                    0.6353000998497009,
+                    0.6244531869888306,
+                    0.618838369846344,
+                    0.6140921115875244,
+                    0.6128391027450562,
+                    0.6124151945114136,
+                    0.6038230061531067,
+                    0.6028960347175598,
+                    0.6025902032852173
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "honeybee life cycle\n",
+                "```python\ndoc_ids = [\n    \"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \n    \"38051\", \"27573\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "37963",
+                "29780",
+                "10535",
+                "11697",
+                "20923",
+                "26668",
+                "29779",
+                "38053",
+                "38051",
+                "27573"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "bee",
+                "honeybee life cycle\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ],
+                [
+                    "37963",
+                    "29780",
+                    "10535",
+                    "11697",
+                    "20923",
+                    "26668",
+                    "29779",
+                    "38053",
+                    "38051",
+                    "27573"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ],
+                [
+                    0.6613860130310059,
+                    0.6353000998497009,
+                    0.6244531869888306,
+                    0.618838369846344,
+                    0.6140921115875244,
+                    0.6128391027450562,
+                    0.6124151945114136,
+                    0.6038230061531067,
+                    0.6028960347175598,
+                    0.6025902032852173
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "honeybee life cycle\n",
+                "```python\ndoc_ids = [\n    \"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \n    \"38051\", \"27573\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "37963",
+                "29780",
+                "10535",
+                "11697",
+                "20923",
+                "26668",
+                "29779",
+                "38053",
+                "38051",
+                "27573"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "bee",
+                "honeybee life cycle\n",
+                "beekeeping equipment and supplies\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ],
+                [
+                    "37963",
+                    "29780",
+                    "10535",
+                    "11697",
+                    "20923",
+                    "26668",
+                    "29779",
+                    "38053",
+                    "38051",
+                    "27573"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ],
+                [
+                    0.6613860130310059,
+                    0.6353000998497009,
+                    0.6244531869888306,
+                    0.618838369846344,
+                    0.6140921115875244,
+                    0.6128391027450562,
+                    0.6124151945114136,
+                    0.6038230061531067,
+                    0.6028960347175598,
+                    0.6025902032852173
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n***\n\nPrevious query reformulations:\n***\n\nhoneybee life cycle\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "honeybee life cycle\n",
+                "```python\ndoc_ids = [\n    \"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \n    \"38051\", \"27573\"\n]\nprint(doc_ids)\n```\n",
+                "beekeeping equipment and supplies\n"
+            ],
+            "curr_top_k_docIDs": [
+                "37963",
+                "29780",
+                "10535",
+                "11697",
+                "20923",
+                "26668",
+                "29779",
+                "38053",
+                "38051",
+                "27573"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "bee",
+                "honeybee life cycle\n",
+                "beekeeping equipment and supplies\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ],
+                [
+                    "37963",
+                    "29780",
+                    "10535",
+                    "11697",
+                    "20923",
+                    "26668",
+                    "29779",
+                    "38053",
+                    "38051",
+                    "27573"
+                ],
+                [
+                    "41376",
+                    "37963",
+                    "11697",
+                    "11008",
+                    "26669",
+                    "42869",
+                    "9718",
+                    "9666",
+                    "10526",
+                    "26668"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ],
+                [
+                    0.6613860130310059,
+                    0.6353000998497009,
+                    0.6244531869888306,
+                    0.618838369846344,
+                    0.6140921115875244,
+                    0.6128391027450562,
+                    0.6124151945114136,
+                    0.6038230061531067,
+                    0.6028960347175598,
+                    0.6025902032852173
+                ],
+                [
+                    0.7069947719573975,
+                    0.697230339050293,
+                    0.6859893202781677,
+                    0.6812933087348938,
+                    0.6774258017539978,
+                    0.676399827003479,
+                    0.671424388885498,
+                    0.6678293943405151,
+                    0.6677621603012085,
+                    0.6670240759849548
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n***\n\nPrevious query reformulations:\n***\n\nhoneybee life cycle\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "honeybee life cycle\n",
+                "```python\ndoc_ids = [\n    \"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \n    \"38051\", \"27573\"\n]\nprint(doc_ids)\n```\n",
+                "beekeeping equipment and supplies\n"
+            ],
+            "curr_top_k_docIDs": [
+                "37963",
+                "29780",
+                "10535",
+                "11697",
+                "20923",
+                "26668",
+                "29779",
+                "38053",
+                "38051",
+                "27573"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "bee",
+                "honeybee life cycle\n",
+                "beekeeping equipment and supplies\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ],
+                [
+                    "37963",
+                    "29780",
+                    "10535",
+                    "11697",
+                    "20923",
+                    "26668",
+                    "29779",
+                    "38053",
+                    "38051",
+                    "27573"
+                ],
+                [
+                    "41376",
+                    "37963",
+                    "11697",
+                    "11008",
+                    "26669",
+                    "42869",
+                    "9718",
+                    "9666",
+                    "10526",
+                    "26668"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ],
+                [
+                    0.6613860130310059,
+                    0.6353000998497009,
+                    0.6244531869888306,
+                    0.618838369846344,
+                    0.6140921115875244,
+                    0.6128391027450562,
+                    0.6124151945114136,
+                    0.6038230061531067,
+                    0.6028960347175598,
+                    0.6025902032852173
+                ],
+                [
+                    0.7069947719573975,
+                    0.697230339050293,
+                    0.6859893202781677,
+                    0.6812933087348938,
+                    0.6774258017539978,
+                    0.676399827003479,
+                    0.671424388885498,
+                    0.6678293943405151,
+                    0.6677621603012085,
+                    0.6670240759849548
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n***\n\nPrevious query reformulations:\n***\n\nhoneybee life cycle\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n41376: honey bee 4 piece coffee , tea , & sugar jar sets. since 1988 , providing customers with quality giftware , home d\u00e9cor , and fashion accessories at affordable prices . committed to making sure passion has remained the same since the beginning - to design and provide the exceptional home decor , giftware , and fashion products to customers at a great value . organize the pantry while adding a touch of charm to the kitchen counter with this ceramic honey bee canister set . this set is perfect for stashing flour , tea leaves , coffee beans , and sugar .\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n11008: bee drying mat. nan\n\n26669: honey bee signature napkin holder. inspired by the honey bees , this handcrafted honey bee signature napkin box is enlivened with honey bee napkins and adorned with the beloved honey bee napkin weight - it 's a must-have addition to your next cocktail party or tablescape . handcrafted from 100 % recycled aluminum .\n\n42869: susquehanna glass wood vintage bee cherry artisan cutting board. this wood vintage bee artisan cutting board is hand sanded to a smooth finish and rubbed with food-safe mineral oil . it is laser etched with a bee themed design , creating a dramatic contrast against the rosy-hued wood . this hardy board can be used as both a serving piece for charcuterie or as a durable surface for cutting .\n\n9718: amaya 4 piece coffee mug set. \u201c bee sweet \u201d is a charming ceramic dinnerware and serveware . designed by susan winget , it features busy bees and flowers along with sweet sentiments and a unique 3-d beehive teapot .\n\n9666: bee napkin ring. bring natural beauty to your table and leave your guests impressed with this alloy set of 6 napkin rings . each of the napkin rings highlights a lovely honeybee sitting on a flower in a vintage gold finish . whether you want to organize your dining or coffee table for an everyday meal or snack time , or you \u2019 ve invited your friends for a celebration of any special event , these bee and flower napkin rings should not be missed . made of resilient alloy , they promise to stay rust-free . you can safely put your cloth or paper serviette in these napkin holders for convenient access when needed . can \u2019 t decide what to gift your beloved family member or friend on a birthday or any occasion ? don \u2019 t think too much and get this set of decorative serviette rings for them .\n\n10526: 3drose pretty honey bees around bee hive on honeycomb background potholder. this pot holder is perfect for daily use , while coordinating well with any kitchen decor . it features a quilted design which allows for more flexibility when using . handy attached loop offers the option to hang for display or storage . heat resistant for safely removing dishes from the oven and hot pots from the stove . great as a hostess or housewarming gift .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "honeybee life cycle\n",
+                "```python\ndoc_ids = [\n    \"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \n    \"38051\", \"27573\"\n]\nprint(doc_ids)\n```\n",
+                "beekeeping equipment and supplies\n",
+                "```python\n[\"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \"38051\", \"27573\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "37963",
+                "29780",
+                "10535",
+                "11697",
+                "20923",
+                "26668",
+                "29779",
+                "38053",
+                "38051",
+                "27573"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "bee",
+                "honeybee life cycle\n",
+                "beekeeping equipment and supplies\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ],
+                [
+                    "37963",
+                    "29780",
+                    "10535",
+                    "11697",
+                    "20923",
+                    "26668",
+                    "29779",
+                    "38053",
+                    "38051",
+                    "27573"
+                ],
+                [
+                    "41376",
+                    "37963",
+                    "11697",
+                    "11008",
+                    "26669",
+                    "42869",
+                    "9718",
+                    "9666",
+                    "10526",
+                    "26668"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ],
+                [
+                    0.6613860130310059,
+                    0.6353000998497009,
+                    0.6244531869888306,
+                    0.618838369846344,
+                    0.6140921115875244,
+                    0.6128391027450562,
+                    0.6124151945114136,
+                    0.6038230061531067,
+                    0.6028960347175598,
+                    0.6025902032852173
+                ],
+                [
+                    0.7069947719573975,
+                    0.697230339050293,
+                    0.6859893202781677,
+                    0.6812933087348938,
+                    0.6774258017539978,
+                    0.676399827003479,
+                    0.671424388885498,
+                    0.6678293943405151,
+                    0.6677621603012085,
+                    0.6670240759849548
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n***\n\nPrevious query reformulations:\n***\n\nhoneybee life cycle\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n41376: honey bee 4 piece coffee , tea , & sugar jar sets. since 1988 , providing customers with quality giftware , home d\u00e9cor , and fashion accessories at affordable prices . committed to making sure passion has remained the same since the beginning - to design and provide the exceptional home decor , giftware , and fashion products to customers at a great value . organize the pantry while adding a touch of charm to the kitchen counter with this ceramic honey bee canister set . this set is perfect for stashing flour , tea leaves , coffee beans , and sugar .\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n11008: bee drying mat. nan\n\n26669: honey bee signature napkin holder. inspired by the honey bees , this handcrafted honey bee signature napkin box is enlivened with honey bee napkins and adorned with the beloved honey bee napkin weight - it 's a must-have addition to your next cocktail party or tablescape . handcrafted from 100 % recycled aluminum .\n\n42869: susquehanna glass wood vintage bee cherry artisan cutting board. this wood vintage bee artisan cutting board is hand sanded to a smooth finish and rubbed with food-safe mineral oil . it is laser etched with a bee themed design , creating a dramatic contrast against the rosy-hued wood . this hardy board can be used as both a serving piece for charcuterie or as a durable surface for cutting .\n\n9718: amaya 4 piece coffee mug set. \u201c bee sweet \u201d is a charming ceramic dinnerware and serveware . designed by susan winget , it features busy bees and flowers along with sweet sentiments and a unique 3-d beehive teapot .\n\n9666: bee napkin ring. bring natural beauty to your table and leave your guests impressed with this alloy set of 6 napkin rings . each of the napkin rings highlights a lovely honeybee sitting on a flower in a vintage gold finish . whether you want to organize your dining or coffee table for an everyday meal or snack time , or you \u2019 ve invited your friends for a celebration of any special event , these bee and flower napkin rings should not be missed . made of resilient alloy , they promise to stay rust-free . you can safely put your cloth or paper serviette in these napkin holders for convenient access when needed . can \u2019 t decide what to gift your beloved family member or friend on a birthday or any occasion ? don \u2019 t think too much and get this set of decorative serviette rings for them .\n\n10526: 3drose pretty honey bees around bee hive on honeycomb background potholder. this pot holder is perfect for daily use , while coordinating well with any kitchen decor . it features a quilted design which allows for more flexibility when using . handy attached loop offers the option to hang for display or storage . heat resistant for safely removing dishes from the oven and hot pots from the stove . great as a hostess or housewarming gift .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "honeybee life cycle\n",
+                "```python\ndoc_ids = [\n    \"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \n    \"38051\", \"27573\"\n]\nprint(doc_ids)\n```\n",
+                "beekeeping equipment and supplies\n",
+                "```python\n[\"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \"38051\", \"27573\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "37963",
+                "29780",
+                "10535",
+                "11697",
+                "20923",
+                "26668",
+                "29779",
+                "38053",
+                "38051",
+                "27573"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "bee",
+                "honeybee life cycle\n",
+                "beekeeping equipment and supplies\n",
+                "types of bees and their habitats\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "29779",
+                    "34998",
+                    "29780",
+                    "21905",
+                    "21903",
+                    "38051",
+                    "10559",
+                    "11008",
+                    "11697",
+                    "15376"
+                ],
+                [
+                    "37963",
+                    "29780",
+                    "10535",
+                    "11697",
+                    "20923",
+                    "26668",
+                    "29779",
+                    "38053",
+                    "38051",
+                    "27573"
+                ],
+                [
+                    "41376",
+                    "37963",
+                    "11697",
+                    "11008",
+                    "26669",
+                    "42869",
+                    "9718",
+                    "9666",
+                    "10526",
+                    "26668"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7180679440498352,
+                    0.7180210947990417,
+                    0.7129853963851929,
+                    0.7103837728500366,
+                    0.7068336009979248,
+                    0.705793023109436,
+                    0.7036716938018799,
+                    0.6998363733291626,
+                    0.698236346244812,
+                    0.6965129971504211
+                ],
+                [
+                    0.6613860130310059,
+                    0.6353000998497009,
+                    0.6244531869888306,
+                    0.618838369846344,
+                    0.6140921115875244,
+                    0.6128391027450562,
+                    0.6124151945114136,
+                    0.6038230061531067,
+                    0.6028960347175598,
+                    0.6025902032852173
+                ],
+                [
+                    0.7069947719573975,
+                    0.697230339050293,
+                    0.6859893202781677,
+                    0.6812933087348938,
+                    0.6774258017539978,
+                    0.676399827003479,
+                    0.671424388885498,
+                    0.6678293943405151,
+                    0.6677621603012085,
+                    0.6670240759849548
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n29779: honey bee ornament. nan\n\n34998: topher bee-flower wind chime. perfect for your home and garden !\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n21905: bee hive stimulant. nan\n\n21903: bee veil. nan\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n10559: bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n11008: bee drying mat. nan\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n15376: esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n***\n\nPrevious query reformulations:\n***\n\nhoneybee life cycle\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: bee\n\nDocuments:\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n41376: honey bee 4 piece coffee , tea , & sugar jar sets. since 1988 , providing customers with quality giftware , home d\u00e9cor , and fashion accessories at affordable prices . committed to making sure passion has remained the same since the beginning - to design and provide the exceptional home decor , giftware , and fashion products to customers at a great value . organize the pantry while adding a touch of charm to the kitchen counter with this ceramic honey bee canister set . this set is perfect for stashing flour , tea leaves , coffee beans , and sugar .\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n11008: bee drying mat. nan\n\n26669: honey bee signature napkin holder. inspired by the honey bees , this handcrafted honey bee signature napkin box is enlivened with honey bee napkins and adorned with the beloved honey bee napkin weight - it 's a must-have addition to your next cocktail party or tablescape . handcrafted from 100 % recycled aluminum .\n\n42869: susquehanna glass wood vintage bee cherry artisan cutting board. this wood vintage bee artisan cutting board is hand sanded to a smooth finish and rubbed with food-safe mineral oil . it is laser etched with a bee themed design , creating a dramatic contrast against the rosy-hued wood . this hardy board can be used as both a serving piece for charcuterie or as a durable surface for cutting .\n\n9718: amaya 4 piece coffee mug set. \u201c bee sweet \u201d is a charming ceramic dinnerware and serveware . designed by susan winget , it features busy bees and flowers along with sweet sentiments and a unique 3-d beehive teapot .\n\n9666: bee napkin ring. bring natural beauty to your table and leave your guests impressed with this alloy set of 6 napkin rings . each of the napkin rings highlights a lovely honeybee sitting on a flower in a vintage gold finish . whether you want to organize your dining or coffee table for an everyday meal or snack time , or you \u2019 ve invited your friends for a celebration of any special event , these bee and flower napkin rings should not be missed . made of resilient alloy , they promise to stay rust-free . you can safely put your cloth or paper serviette in these napkin holders for convenient access when needed . can \u2019 t decide what to gift your beloved family member or friend on a birthday or any occasion ? don \u2019 t think too much and get this set of decorative serviette rings for them .\n\n10526: 3drose pretty honey bees around bee hive on honeycomb background potholder. this pot holder is perfect for daily use , while coordinating well with any kitchen decor . it features a quilted design which allows for more flexibility when using . handy attached loop offers the option to hang for display or storage . heat resistant for safely removing dishes from the oven and hot pots from the stove . great as a hostess or housewarming gift .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nbee\n***\n\nDocuments:\n***\n\n37963: vivohome wooden langstroth honey bee hive box. wooden beehive complete box durable construction & large volume & rainproof metal roof . do you want to keep fresh honey ? are you a beekeeper beginner and want to keep your bees in a sweet home ? the bee hive has all the parts to help you create a healthy , honey-producing colony . it 's constructed of natural cedar wood with a rainproof and uv-resistant meta-capped rooftop . it is easy to install and takes up very little space . equipped with everything you need to build a sturdy beehive , a great choice for beekeepers ! made of natural wood with precise polishing on both sides , durable and safe . pre-cut finger joints fit together easily and can be fixed with incidental screws kit . built with a telescoping galvanized metal rooftop to maintain the purity as well as the freshness of honey . an excluder is included to separate queen bee from bee groups , make sure the queen bee stays , or lay eggs at where you want . the bottom board can be assembled or detached separately for easy cleaning of the inner impurities of the hive .\n\n29780: bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\n\n10535: pretty honey bees around bee hive on honeycomb background porcelain decorative plate. this plate made of porcelain featuring two 24k gold rims . excellent to give as a gift commemorating a special person or event .\n\n11697: wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\n\n20923: honey bee unscented jar candle. accent your home with this chic pair of operated honeybee motion flame candles . the natural moving flame creates the illusion of a real candle . the glass includes genuine poured wax and an enclosed flickering led light with a timer . the moving flame looks so real and casts natural light , you 'll think it 's a real flame .\n\n26668: honey bee and honeycomb ring holder. inspired by the honeybees , this ring dish is enlivened with honeycomb embossing and adorned with the beloved honeybee - it 's a must-have treasure keeper for your dresser or nightstand . handcrafted from 100 % recycled aluminum .\n\n29779: honey bee ornament. nan\n\n38053: arche of bees honey dessert bowl. crafted in the signature pewter , three bees act as legs for this honey bowl as their bodies lift the glass off the ground . the insects show tremendous definition in their hairy thoraxes , striped abdomens , and intricate wings as they glow against the golden liquid . pair this affordable bowl with any of the honey dippers for a sweet presentation .\n\n38051: arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\n\n27573: 2 piece canister set. this charming canister introduces a bee theme into any space with sophistication and style . the bee motif is etched into the base with a chalky finish while the honeycomb pattern adds texture and interest .\n\n***\n\nPrevious query reformulations:\n***\n\nhoneybee life cycle\n\n\nbeekeeping equipment and supplies\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    29779: \"honey bee ornament. nan\",\n    34998: \"topher bee-flower wind chime. perfect for your home and garden !\",\n    29780: \"bee skep hanging figurine ornament. a bee skep is a coiled straw hive that was used before today 's modern hives . bees are very industrious , and they must work together to produce the honey to insure the hive 's survival . this glass ornament symbolizes the diligence and teamwork that are often necessary to achieve life s great rewards .\",\n    21905: \"bee hive stimulant. nan\",\n    21903: \"bee veil. nan\",\n    38051: \"arche of bees pewter daisy and bee teaspoon. this daisy and bee spoon illustrates the 's environmental importance in pure-pewter form . a honeybee sips on pollen from the edge of a flower blooming at the end of this piece . fine detail in the creature 's wings and petals make the two designs appear darker than the rest of the spoon .\",\n    10559: \"bee do , bee do , bee do snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\",\n    11008: \"bee drying mat. nan\",\n    11697: \"wildlife busy honey bumblebee bee hive beehive cookie jar. this beehive cookie jar is made of high-quality ceramic , hand polished and painted . the lid is equipped with a silicon seal tight ring to keep your cookies and snacks fresh longer . color tone may vary slightly from pictures .\",\n    15376: \"esschertdesign bumble bee house. nest box for i.e . the bumblebee with zinc roof .\"\n}\n\n# Sort documents based on relevance to the query \"bee\" (simple frequency-based ranking)\nsorted_docs = sorted(doc_ids.items(), key=lambda item: item[1].lower().count(\"bee\"), reverse=True)\n\n# Select the top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, _ in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "honeybee life cycle\n",
+                "```python\ndoc_ids = [\n    \"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \n    \"38051\", \"27573\"\n]\nprint(doc_ids)\n```\n",
+                "beekeeping equipment and supplies\n",
+                "```python\n[\"37963\", \"29780\", \"10535\", \"11697\", \"20923\", \"26668\", \"29779\", \"38053\", \"38051\", \"27573\"]\n```\n",
+                "types of bees and their habitats\n"
+            ],
+            "curr_top_k_docIDs": [
+                "37963",
+                "29780",
+                "10535",
+                "11697",
+                "20923",
+                "26668",
+                "29779",
+                "38053",
+                "38051",
+                "27573"
+            ],
+            "terminate": false
+        }
+    ]
+}
