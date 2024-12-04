@@ -42,7 +42,7 @@ class DenseRetriever(BaseAgent):
         if "retrieved_lists" not in state:
             state["retrieved_lists"] = []  
         prev_retrieved = {doc_id for sublist in state["retrieved_lists"] for doc_id in sublist}
-        self.logger.debug(f"prev_retrieved {prev_retrieved}")
+        #self.logger.debug(f"prev_retrieved {prev_retrieved}")
 
         knn_result = self.knn.get_top_k(query_embedding,sim_f,k,knn_implmentation,prev_retrieved)
         #knn_result = {"ranked_list": <docID list>, 

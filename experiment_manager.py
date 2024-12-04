@@ -147,7 +147,7 @@ class ExperimentManager():
         queries_path = self.config['data_paths'].get('queries_path')
         queries_dict = {}
         try:
-            with open(queries_path, 'r') as file:
+            with open(queries_path, 'r', encoding='utf-8') as file:
                 tsv_reader = csv.reader(file, delimiter='\t')
                 for row in tsv_reader:
                     qid, query_text = row
