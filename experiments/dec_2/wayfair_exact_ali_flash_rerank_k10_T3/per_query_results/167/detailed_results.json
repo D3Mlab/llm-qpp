@@ -1,0 +1,1046 @@
+{
+    "queries": [
+        "camper",
+        "types of campers and their features\n",
+        "camper accessories and decor\n",
+        "camper trailers and related merchandise\n"
+    ],
+    "retrieved_lists": [
+        [
+            "9249",
+            "35733",
+            "30454",
+            "7529",
+            "13780",
+            "27586",
+            "30384",
+            "32859",
+            "24455",
+            "35958"
+        ],
+        [
+            "29047",
+            "857",
+            "9249",
+            "34992",
+            "30454",
+            "29999",
+            "33352",
+            "11176",
+            "28211",
+            "7529"
+        ],
+        [
+            "24455",
+            "11029",
+            "15623",
+            "42088",
+            "33352",
+            "9249",
+            "8035",
+            "11028",
+            "10527",
+            "30384"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7410306930541992,
+            0.6968716382980347,
+            0.6962707042694092,
+            0.6906729936599731,
+            0.6895772218704224,
+            0.689401388168335,
+            0.6855875253677368,
+            0.6825475692749023,
+            0.6789883375167847,
+            0.6775981187820435
+        ],
+        [
+            0.6673920750617981,
+            0.6356133222579956,
+            0.6324285864830017,
+            0.6300628185272217,
+            0.6249781847000122,
+            0.6246340870857239,
+            0.624030351638794,
+            0.6215465068817139,
+            0.6214495897293091,
+            0.6207930445671082
+        ],
+        [
+            0.7428246140480042,
+            0.741350531578064,
+            0.7321406006813049,
+            0.7265880107879639,
+            0.724030613899231,
+            0.7234052419662476,
+            0.7228513956069946,
+            0.7204641699790955,
+            0.7180306911468506,
+            0.7178844213485718
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9249: camper wall mount. nan\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n9249: camper wall mount. nan\n\n***\n\nPrevious query reformulations:\n***\n\ntypes of campers and their features\n\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n9249: camper wall mount. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n11029: airstream camper camping wander wall d\u00e9cor. indoor or outdoor aluminum artwork prints will add a special touch to your kitchen , bath , front door , outdoor patio or any special place . 8 inches by 12 inches and full of color . this item will take direct sun for a while before it starts to fade . rust and fade resistant . aluminum print with hanging rope . rounded corners .\n\n15623: personalized welcome to the camper metal wall d\u00e9cor. this welcome to the camper metal sign would look great in any home . the sign measures 8x12 and is made of aluminum . the sign can be used inside or outside . the welcome to the camper metal sign comes with two pre-drilled holes for easy hanging . the signs are made and printed in the united states . due to the personalized nature of the sign we are not able to accept returns unless of course we did something wrong . the personalized welcome to the camper metal sign will be enjoyed for many years .\n\n42088: lannon california camper. reminisce of the days spent on the beach , absorbing the sun , and catching waves with our model california camper trailer . this handcrafted decorative piece is made from 100 % quality iron and hand-painted with exquisite details . makes a great desktop or shelf display and an even better gift .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n9249: camper wall mount. nan\n\n8035: sianna happy camper personalized camping mug. enjoy your morning cup of joe with this super cute mug ! made of stainless steel , this sturdy camp mug features rolled-lip , camp-themed accents and the phrase `` happy camper '' in a colorful text . personalize with a name , up to 9 characters , across the back and create a wonderful gift for your outdoor adventurer !\n\n11028: rv camper camping wander hanging prints wall d\u00e9cor. indoor or outdoor aluminum artwork prints will add a special touch to your kitchen , bath , front door , outdoor patio or any special place . 12 inches by 16 inches and full of color . this item will take direct sun for a while before it starts to fade . rust and fade resistant . aluminum print with hanging rope . rounded corners .\n\n10527: 3drose home is where we park it with a cute and aqua camper potholder. this pot holder is perfect for daily use , while coordinating well with any kitchen decor . it features a quilted design which allows for more flexibility when using . handy attached loop offers the option to hang for display or storage . heat resistant for safely removing dishes from the oven and hot pots from the stove . great as a hostess or housewarming gift .\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n***\n\nPrevious query reformulations:\n***\n\ntypes of campers and their features\n\n\ncamper accessories and decor\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+        "types of campers and their features\n",
+        "```python\ndoc_ids = [\n    \"29047\", \"857\", \"30454\", \"29999\", \"33352\", \"11176\", \"34992\", \"28211\", \"7529\", \"9249\"\n]\nprint(doc_ids)\n```\n",
+        "camper accessories and decor\n",
+        "```python\n[\"29047\", \"30454\", \"29999\", \"33352\", \"857\", \"11176\", \"34992\", \"28211\", \"7529\", \"24455\"]\n```\n",
+        "camper trailers and related merchandise\n"
+    ],
+    "curr_top_k_docIDs": [
+        "29047",
+        "30454",
+        "29999",
+        "33352",
+        "857",
+        "11176",
+        "34992",
+        "28211",
+        "7529",
+        "24455"
+    ],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "camper"
+            ]
+        },
+        {
+            "queries": [
+                "camper"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "camper"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```"
+            ],
+            "curr_top_k_docIDs": []
+        },
+        {
+            "queries": [
+                "camper"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "camper",
+                "types of campers and their features\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "types of campers and their features\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "camper",
+                "types of campers and their features\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ],
+                [
+                    "29047",
+                    "857",
+                    "9249",
+                    "34992",
+                    "30454",
+                    "29999",
+                    "33352",
+                    "11176",
+                    "28211",
+                    "7529"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ],
+                [
+                    0.6673920750617981,
+                    0.6356133222579956,
+                    0.6324285864830017,
+                    0.6300628185272217,
+                    0.6249781847000122,
+                    0.6246340870857239,
+                    0.624030351638794,
+                    0.6215465068817139,
+                    0.6214495897293091,
+                    0.6207930445671082
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "types of campers and their features\n"
+            ],
+            "curr_top_k_docIDs": [],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "camper",
+                "types of campers and their features\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ],
+                [
+                    "29047",
+                    "857",
+                    "9249",
+                    "34992",
+                    "30454",
+                    "29999",
+                    "33352",
+                    "11176",
+                    "28211",
+                    "7529"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ],
+                [
+                    0.6673920750617981,
+                    0.6356133222579956,
+                    0.6324285864830017,
+                    0.6300628185272217,
+                    0.6249781847000122,
+                    0.6246340870857239,
+                    0.624030351638794,
+                    0.6215465068817139,
+                    0.6214495897293091,
+                    0.6207930445671082
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9249: camper wall mount. nan\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "types of campers and their features\n",
+                "```python\ndoc_ids = [\n    \"29047\", \"857\", \"30454\", \"29999\", \"33352\", \"11176\", \"34992\", \"28211\", \"7529\", \"9249\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "29047",
+                "857",
+                "30454",
+                "29999",
+                "33352",
+                "11176",
+                "34992",
+                "28211",
+                "7529",
+                "9249"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "camper",
+                "types of campers and their features\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ],
+                [
+                    "29047",
+                    "857",
+                    "9249",
+                    "34992",
+                    "30454",
+                    "29999",
+                    "33352",
+                    "11176",
+                    "28211",
+                    "7529"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ],
+                [
+                    0.6673920750617981,
+                    0.6356133222579956,
+                    0.6324285864830017,
+                    0.6300628185272217,
+                    0.6249781847000122,
+                    0.6246340870857239,
+                    0.624030351638794,
+                    0.6215465068817139,
+                    0.6214495897293091,
+                    0.6207930445671082
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9249: camper wall mount. nan\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "types of campers and their features\n",
+                "```python\ndoc_ids = [\n    \"29047\", \"857\", \"30454\", \"29999\", \"33352\", \"11176\", \"34992\", \"28211\", \"7529\", \"9249\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "29047",
+                "857",
+                "30454",
+                "29999",
+                "33352",
+                "11176",
+                "34992",
+                "28211",
+                "7529",
+                "9249"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "camper",
+                "types of campers and their features\n",
+                "camper accessories and decor\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ],
+                [
+                    "29047",
+                    "857",
+                    "9249",
+                    "34992",
+                    "30454",
+                    "29999",
+                    "33352",
+                    "11176",
+                    "28211",
+                    "7529"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ],
+                [
+                    0.6673920750617981,
+                    0.6356133222579956,
+                    0.6324285864830017,
+                    0.6300628185272217,
+                    0.6249781847000122,
+                    0.6246340870857239,
+                    0.624030351638794,
+                    0.6215465068817139,
+                    0.6214495897293091,
+                    0.6207930445671082
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9249: camper wall mount. nan\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n9249: camper wall mount. nan\n\n***\n\nPrevious query reformulations:\n***\n\ntypes of campers and their features\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "types of campers and their features\n",
+                "```python\ndoc_ids = [\n    \"29047\", \"857\", \"30454\", \"29999\", \"33352\", \"11176\", \"34992\", \"28211\", \"7529\", \"9249\"\n]\nprint(doc_ids)\n```\n",
+                "camper accessories and decor\n"
+            ],
+            "curr_top_k_docIDs": [
+                "29047",
+                "857",
+                "30454",
+                "29999",
+                "33352",
+                "11176",
+                "34992",
+                "28211",
+                "7529",
+                "9249"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "camper",
+                "types of campers and their features\n",
+                "camper accessories and decor\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ],
+                [
+                    "29047",
+                    "857",
+                    "9249",
+                    "34992",
+                    "30454",
+                    "29999",
+                    "33352",
+                    "11176",
+                    "28211",
+                    "7529"
+                ],
+                [
+                    "24455",
+                    "11029",
+                    "15623",
+                    "42088",
+                    "33352",
+                    "9249",
+                    "8035",
+                    "11028",
+                    "10527",
+                    "30384"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ],
+                [
+                    0.6673920750617981,
+                    0.6356133222579956,
+                    0.6324285864830017,
+                    0.6300628185272217,
+                    0.6249781847000122,
+                    0.6246340870857239,
+                    0.624030351638794,
+                    0.6215465068817139,
+                    0.6214495897293091,
+                    0.6207930445671082
+                ],
+                [
+                    0.7428246140480042,
+                    0.741350531578064,
+                    0.7321406006813049,
+                    0.7265880107879639,
+                    0.724030613899231,
+                    0.7234052419662476,
+                    0.7228513956069946,
+                    0.7204641699790955,
+                    0.7180306911468506,
+                    0.7178844213485718
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9249: camper wall mount. nan\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n9249: camper wall mount. nan\n\n***\n\nPrevious query reformulations:\n***\n\ntypes of campers and their features\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "types of campers and their features\n",
+                "```python\ndoc_ids = [\n    \"29047\", \"857\", \"30454\", \"29999\", \"33352\", \"11176\", \"34992\", \"28211\", \"7529\", \"9249\"\n]\nprint(doc_ids)\n```\n",
+                "camper accessories and decor\n"
+            ],
+            "curr_top_k_docIDs": [
+                "29047",
+                "857",
+                "30454",
+                "29999",
+                "33352",
+                "11176",
+                "34992",
+                "28211",
+                "7529",
+                "9249"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "camper",
+                "types of campers and their features\n",
+                "camper accessories and decor\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ],
+                [
+                    "29047",
+                    "857",
+                    "9249",
+                    "34992",
+                    "30454",
+                    "29999",
+                    "33352",
+                    "11176",
+                    "28211",
+                    "7529"
+                ],
+                [
+                    "24455",
+                    "11029",
+                    "15623",
+                    "42088",
+                    "33352",
+                    "9249",
+                    "8035",
+                    "11028",
+                    "10527",
+                    "30384"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ],
+                [
+                    0.6673920750617981,
+                    0.6356133222579956,
+                    0.6324285864830017,
+                    0.6300628185272217,
+                    0.6249781847000122,
+                    0.6246340870857239,
+                    0.624030351638794,
+                    0.6215465068817139,
+                    0.6214495897293091,
+                    0.6207930445671082
+                ],
+                [
+                    0.7428246140480042,
+                    0.741350531578064,
+                    0.7321406006813049,
+                    0.7265880107879639,
+                    0.724030613899231,
+                    0.7234052419662476,
+                    0.7228513956069946,
+                    0.7204641699790955,
+                    0.7180306911468506,
+                    0.7178844213485718
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9249: camper wall mount. nan\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n9249: camper wall mount. nan\n\n***\n\nPrevious query reformulations:\n***\n\ntypes of campers and their features\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n9249: camper wall mount. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n11029: airstream camper camping wander wall d\u00e9cor. indoor or outdoor aluminum artwork prints will add a special touch to your kitchen , bath , front door , outdoor patio or any special place . 8 inches by 12 inches and full of color . this item will take direct sun for a while before it starts to fade . rust and fade resistant . aluminum print with hanging rope . rounded corners .\n\n15623: personalized welcome to the camper metal wall d\u00e9cor. this welcome to the camper metal sign would look great in any home . the sign measures 8x12 and is made of aluminum . the sign can be used inside or outside . the welcome to the camper metal sign comes with two pre-drilled holes for easy hanging . the signs are made and printed in the united states . due to the personalized nature of the sign we are not able to accept returns unless of course we did something wrong . the personalized welcome to the camper metal sign will be enjoyed for many years .\n\n42088: lannon california camper. reminisce of the days spent on the beach , absorbing the sun , and catching waves with our model california camper trailer . this handcrafted decorative piece is made from 100 % quality iron and hand-painted with exquisite details . makes a great desktop or shelf display and an even better gift .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n9249: camper wall mount. nan\n\n8035: sianna happy camper personalized camping mug. enjoy your morning cup of joe with this super cute mug ! made of stainless steel , this sturdy camp mug features rolled-lip , camp-themed accents and the phrase `` happy camper '' in a colorful text . personalize with a name , up to 9 characters , across the back and create a wonderful gift for your outdoor adventurer !\n\n11028: rv camper camping wander hanging prints wall d\u00e9cor. indoor or outdoor aluminum artwork prints will add a special touch to your kitchen , bath , front door , outdoor patio or any special place . 12 inches by 16 inches and full of color . this item will take direct sun for a while before it starts to fade . rust and fade resistant . aluminum print with hanging rope . rounded corners .\n\n10527: 3drose home is where we park it with a cute and aqua camper potholder. this pot holder is perfect for daily use , while coordinating well with any kitchen decor . it features a quilted design which allows for more flexibility when using . handy attached loop offers the option to hang for display or storage . heat resistant for safely removing dishes from the oven and hot pots from the stove . great as a hostess or housewarming gift .\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "types of campers and their features\n",
+                "```python\ndoc_ids = [\n    \"29047\", \"857\", \"30454\", \"29999\", \"33352\", \"11176\", \"34992\", \"28211\", \"7529\", \"9249\"\n]\nprint(doc_ids)\n```\n",
+                "camper accessories and decor\n",
+                "```python\n[\"29047\", \"30454\", \"29999\", \"33352\", \"857\", \"11176\", \"34992\", \"28211\", \"7529\", \"24455\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "29047",
+                "30454",
+                "29999",
+                "33352",
+                "857",
+                "11176",
+                "34992",
+                "28211",
+                "7529",
+                "24455"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "camper",
+                "types of campers and their features\n",
+                "camper accessories and decor\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ],
+                [
+                    "29047",
+                    "857",
+                    "9249",
+                    "34992",
+                    "30454",
+                    "29999",
+                    "33352",
+                    "11176",
+                    "28211",
+                    "7529"
+                ],
+                [
+                    "24455",
+                    "11029",
+                    "15623",
+                    "42088",
+                    "33352",
+                    "9249",
+                    "8035",
+                    "11028",
+                    "10527",
+                    "30384"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ],
+                [
+                    0.6673920750617981,
+                    0.6356133222579956,
+                    0.6324285864830017,
+                    0.6300628185272217,
+                    0.6249781847000122,
+                    0.6246340870857239,
+                    0.624030351638794,
+                    0.6215465068817139,
+                    0.6214495897293091,
+                    0.6207930445671082
+                ],
+                [
+                    0.7428246140480042,
+                    0.741350531578064,
+                    0.7321406006813049,
+                    0.7265880107879639,
+                    0.724030613899231,
+                    0.7234052419662476,
+                    0.7228513956069946,
+                    0.7204641699790955,
+                    0.7180306911468506,
+                    0.7178844213485718
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9249: camper wall mount. nan\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n9249: camper wall mount. nan\n\n***\n\nPrevious query reformulations:\n***\n\ntypes of campers and their features\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n9249: camper wall mount. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n11029: airstream camper camping wander wall d\u00e9cor. indoor or outdoor aluminum artwork prints will add a special touch to your kitchen , bath , front door , outdoor patio or any special place . 8 inches by 12 inches and full of color . this item will take direct sun for a while before it starts to fade . rust and fade resistant . aluminum print with hanging rope . rounded corners .\n\n15623: personalized welcome to the camper metal wall d\u00e9cor. this welcome to the camper metal sign would look great in any home . the sign measures 8x12 and is made of aluminum . the sign can be used inside or outside . the welcome to the camper metal sign comes with two pre-drilled holes for easy hanging . the signs are made and printed in the united states . due to the personalized nature of the sign we are not able to accept returns unless of course we did something wrong . the personalized welcome to the camper metal sign will be enjoyed for many years .\n\n42088: lannon california camper. reminisce of the days spent on the beach , absorbing the sun , and catching waves with our model california camper trailer . this handcrafted decorative piece is made from 100 % quality iron and hand-painted with exquisite details . makes a great desktop or shelf display and an even better gift .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n9249: camper wall mount. nan\n\n8035: sianna happy camper personalized camping mug. enjoy your morning cup of joe with this super cute mug ! made of stainless steel , this sturdy camp mug features rolled-lip , camp-themed accents and the phrase `` happy camper '' in a colorful text . personalize with a name , up to 9 characters , across the back and create a wonderful gift for your outdoor adventurer !\n\n11028: rv camper camping wander hanging prints wall d\u00e9cor. indoor or outdoor aluminum artwork prints will add a special touch to your kitchen , bath , front door , outdoor patio or any special place . 12 inches by 16 inches and full of color . this item will take direct sun for a while before it starts to fade . rust and fade resistant . aluminum print with hanging rope . rounded corners .\n\n10527: 3drose home is where we park it with a cute and aqua camper potholder. this pot holder is perfect for daily use , while coordinating well with any kitchen decor . it features a quilted design which allows for more flexibility when using . handy attached loop offers the option to hang for display or storage . heat resistant for safely removing dishes from the oven and hot pots from the stove . great as a hostess or housewarming gift .\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "types of campers and their features\n",
+                "```python\ndoc_ids = [\n    \"29047\", \"857\", \"30454\", \"29999\", \"33352\", \"11176\", \"34992\", \"28211\", \"7529\", \"9249\"\n]\nprint(doc_ids)\n```\n",
+                "camper accessories and decor\n",
+                "```python\n[\"29047\", \"30454\", \"29999\", \"33352\", \"857\", \"11176\", \"34992\", \"28211\", \"7529\", \"24455\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "29047",
+                "30454",
+                "29999",
+                "33352",
+                "857",
+                "11176",
+                "34992",
+                "28211",
+                "7529",
+                "24455"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "camper",
+                "types of campers and their features\n",
+                "camper accessories and decor\n",
+                "camper trailers and related merchandise\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "9249",
+                    "35733",
+                    "30454",
+                    "7529",
+                    "13780",
+                    "27586",
+                    "30384",
+                    "32859",
+                    "24455",
+                    "35958"
+                ],
+                [
+                    "29047",
+                    "857",
+                    "9249",
+                    "34992",
+                    "30454",
+                    "29999",
+                    "33352",
+                    "11176",
+                    "28211",
+                    "7529"
+                ],
+                [
+                    "24455",
+                    "11029",
+                    "15623",
+                    "42088",
+                    "33352",
+                    "9249",
+                    "8035",
+                    "11028",
+                    "10527",
+                    "30384"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7410306930541992,
+                    0.6968716382980347,
+                    0.6962707042694092,
+                    0.6906729936599731,
+                    0.6895772218704224,
+                    0.689401388168335,
+                    0.6855875253677368,
+                    0.6825475692749023,
+                    0.6789883375167847,
+                    0.6775981187820435
+                ],
+                [
+                    0.6673920750617981,
+                    0.6356133222579956,
+                    0.6324285864830017,
+                    0.6300628185272217,
+                    0.6249781847000122,
+                    0.6246340870857239,
+                    0.624030351638794,
+                    0.6215465068817139,
+                    0.6214495897293091,
+                    0.6207930445671082
+                ],
+                [
+                    0.7428246140480042,
+                    0.741350531578064,
+                    0.7321406006813049,
+                    0.7265880107879639,
+                    0.724030613899231,
+                    0.7234052419662476,
+                    0.7228513956069946,
+                    0.7204641699790955,
+                    0.7180306911468506,
+                    0.7178844213485718
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n9249: camper wall mount. nan\n\n35733: happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n13780: camping cube tent. nan\n\n27586: blairmore camper. nan\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n32859: merry christmas camper. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n35958: 31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n9249: camper wall mount. nan\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n9249: camper wall mount. nan\n\n***\n\nPrevious query reformulations:\n***\n\ntypes of campers and their features\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: camper\n\nDocuments:\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n9249: camper wall mount. nan\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n11029: airstream camper camping wander wall d\u00e9cor. indoor or outdoor aluminum artwork prints will add a special touch to your kitchen , bath , front door , outdoor patio or any special place . 8 inches by 12 inches and full of color . this item will take direct sun for a while before it starts to fade . rust and fade resistant . aluminum print with hanging rope . rounded corners .\n\n15623: personalized welcome to the camper metal wall d\u00e9cor. this welcome to the camper metal sign would look great in any home . the sign measures 8x12 and is made of aluminum . the sign can be used inside or outside . the welcome to the camper metal sign comes with two pre-drilled holes for easy hanging . the signs are made and printed in the united states . due to the personalized nature of the sign we are not able to accept returns unless of course we did something wrong . the personalized welcome to the camper metal sign will be enjoyed for many years .\n\n42088: lannon california camper. reminisce of the days spent on the beach , absorbing the sun , and catching waves with our model california camper trailer . this handcrafted decorative piece is made from 100 % quality iron and hand-painted with exquisite details . makes a great desktop or shelf display and an even better gift .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n9249: camper wall mount. nan\n\n8035: sianna happy camper personalized camping mug. enjoy your morning cup of joe with this super cute mug ! made of stainless steel , this sturdy camp mug features rolled-lip , camp-themed accents and the phrase `` happy camper '' in a colorful text . personalize with a name , up to 9 characters , across the back and create a wonderful gift for your outdoor adventurer !\n\n11028: rv camper camping wander hanging prints wall d\u00e9cor. indoor or outdoor aluminum artwork prints will add a special touch to your kitchen , bath , front door , outdoor patio or any special place . 12 inches by 16 inches and full of color . this item will take direct sun for a while before it starts to fade . rust and fade resistant . aluminum print with hanging rope . rounded corners .\n\n10527: 3drose home is where we park it with a cute and aqua camper potholder. this pot holder is perfect for daily use , while coordinating well with any kitchen decor . it features a quilted design which allows for more flexibility when using . handy attached loop offers the option to hang for display or storage . heat resistant for safely removing dishes from the oven and hot pots from the stove . great as a hostess or housewarming gift .\n\n30384: santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncamper\n***\n\nDocuments:\n***\n\n29047: matta classic camper with photo frame piggy bank metal. this camper trailer model will remind you of the beautiful memories of family day trips or inspiring you to take the next trip with your loved ones . it is not only a display model but also serve as a piggy bank and a picture frame . it is 100 % and handpainted that includes intricate amazing details such as propane gas , satellite disc , tent , surfboard , and luggage ... features : - 100 % out of tin - handpainted in blue and white - functional piggy bank and photo frame - include painted surfboard and painted luggage\n\n30454: vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\n\n29999: happy camper script and steel laser cut wall d\u00e9cor. happy camper artwork features the silhouette of a camper with the script `` happy '' and is a great way to show your love of camping . the attractive precision laser cut script design metal wall art would be an attractive addition to your home or rv . this steel piece is a sturdy 18 gauge thick and can be mounted with a nail , hook , magnet or bracket . this attractive piece will enhance your home or office .\n\n33352: ahedo camper 2 piece 100 % cotton hand towel set. you 'll be one `` happy camper '' with this 2-piece hand towel set . made of soft cotton velour , each towel features dobby trim and cute camper embroidery . these towels can be used in the bath or kitchen and also make a fun gift ! ebern designs by saturday knight ltd. brings personality , fun and flair to the most intimate spaces in your home with products ranging from bath accessories and shower curtains , to towels , curtains and beyond . whether your style is upbeat and modern , or classic and cozy , ebern designs provides a look to compliment almost any d\u00e9cor . combining 40+ years \u2019 experience , global design inspiration and premium fabrications , ebern designs continues to lead the way in home accessories .\n\n857: dubon-claros camper throw pillow. with a fun vintage camper design , this spun polyester throw pillow is an excellent patriotic accent piece for your home . the heavyweight stretch provides great definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11176: ilwell happy camper 3 piece crib bedding set. the zoomie kids retro happy camper 3-piece crib bedding set includes a comforter , fitted crib sheet and dust ruffle . the set fits a standard crib mattress that measures 28 '' x 52 '' . all pieces are made of super-soft fabrics for a snuggly night 's sleep . beautiful colors combined with a retro camping adventure-inspired theme make this set one that will stand out in your baby \u2019 s room . the comforter measures 34 '' x 43 '' and includes a coordinating fabric on the back with a solid grey border . shades of green , blue , orange , grey and brown and white make this zoomie kids bedding set cute and versatile . easy to clean and care for !\n\n34992: baghdig camping and jars wind chime. this chime clinker features 2 model zephyr style 1950 's campers , two mason jars ( `` happy campers welcome '' & `` camping is out happy place '' ) , and vintage style coffee pot .\n\n28211: camper sale polyester 180 x 30 in . flag set. this flag is constructed from uv treated , lightweight , affordable polyester , balancing quality and affordability . graphics are imprinted using dye sublimation printing for fade resistance . graphics are visible on the reverse side . great way to advertise your company . this flag also comes with a ground spike and a pole to hang your flag .\n\n7529: 2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\n\n24455: retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\n\n***\n\nPrevious query reformulations:\n***\n\ntypes of campers and their features\n\n\ncamper accessories and decor\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = {\n    9249: \"camper wall mount. nan\",\n    35733: \"happy camper two person tent with carry bag. this lightweight two person tent is great for hiking and camping with its compact pack size and full feature operation .\",\n    30454: \"vintage camper. this sweet little camper is so detailed . it has a real cloth awning . this is the perfect gift for a wanderlust friend or to remind yourself to get outdoors .\",\n    7529: \"2-piece cutlery campers flatware set. the perfect compact tool for any mess kit is the coleman\u00ae 2-piece cutlery campers utensil set . this multi-tool might remind you of a pocket knife , but it \u2019 s a stainless steel fork , spoon , knife and bottle opener that folds out . the fork and spoon sections separate for easy mealtime use and then snap back together for simple storage .\",\n    13780: \"camping cube tent. nan\",\n    27586: \"blairmore camper. nan\",\n    30384: \"santa camper inflatable. fan of camping or glamping ? this santa sure is ! add this adorable christmas santa in camper to your traditional seasonal yard decor . this sweet holiday friend lights up at night for a fun festive outdoor display . also great for indoor holiday parties .\",\n    32859: \"merry christmas camper. nan\",\n    24455: \"retro camper ceramic lantern. a cute indoor/outdoor decorative accessory . this is a must-have for any recreational vehicle or camping enthusiast . comes equipped with a candle holder that can be lifted for easy placement of votive or tea light candle .\",\n    35958: \"31 '' rectangular adjustable folding table. this convenient portable table easily folds in half and is perfect for bringing camping , to a tailgate or picnic . made from lightweight aluminum and with a built in carry handle , the table is easily transported and stored . the height adjust . surface can easily be cleaned with a damp cloth .\"\n}\n\nquery = \"camper\"\n\n# Simple ranking based on query term frequency in document title and description\nscores = {}\nfor doc_id, text in doc_ids.items():\n    score = text.lower().count(query)\n    scores[doc_id] = score\n\n# Sort documents by score in descending order\nsorted_docs = sorted(scores.items(), key=lambda item: item[1], reverse=True)\n\n# Return top 10 docIDs\ntop_10_doc_ids = [str(doc_id) for doc_id, score in sorted_docs[:10]]\n\nprint(top_10_doc_ids)\n```",
+                "types of campers and their features\n",
+                "```python\ndoc_ids = [\n    \"29047\", \"857\", \"30454\", \"29999\", \"33352\", \"11176\", \"34992\", \"28211\", \"7529\", \"9249\"\n]\nprint(doc_ids)\n```\n",
+                "camper accessories and decor\n",
+                "```python\n[\"29047\", \"30454\", \"29999\", \"33352\", \"857\", \"11176\", \"34992\", \"28211\", \"7529\", \"24455\"]\n```\n",
+                "camper trailers and related merchandise\n"
+            ],
+            "curr_top_k_docIDs": [
+                "29047",
+                "30454",
+                "29999",
+                "33352",
+                "857",
+                "11176",
+                "34992",
+                "28211",
+                "7529",
+                "24455"
+            ],
+            "terminate": false
+        }
+    ]
+}

@@ -1,0 +1,1090 @@
+{
+    "queries": [
+        "capricorn chest",
+        "capricorn chest of drawers\n",
+        "capricorn chest of drawers dimensions\n",
+        "capricorn chest dimensions and materials\n"
+    ],
+    "retrieved_lists": [
+        [
+            "30849",
+            "11486",
+            "10469",
+            "10474",
+            "9553",
+            "30848",
+            "11484",
+            "11013",
+            "11479",
+            "30851"
+        ],
+        [
+            "30849",
+            "30848",
+            "30851",
+            "30850",
+            "38952",
+            "34649",
+            "15472",
+            "34225",
+            "11356",
+            "35197"
+        ],
+        [
+            "30849",
+            "30848",
+            "30851",
+            "10033",
+            "34222",
+            "22447",
+            "3101",
+            "36201",
+            "34207",
+            "41742"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.728789210319519,
+            0.7212182283401489,
+            0.7062137722969055,
+            0.7000212669372559,
+            0.6777695417404175,
+            0.6672195792198181,
+            0.6585080623626709,
+            0.6576029062271118,
+            0.6512647867202759,
+            0.6491801738739014
+        ],
+        [
+            0.8082315325737,
+            0.8040190935134888,
+            0.7916021943092346,
+            0.7293155789375305,
+            0.7290046811103821,
+            0.7266537547111511,
+            0.7253457307815552,
+            0.7242559790611267,
+            0.7229827046394348,
+            0.722942590713501
+        ],
+        [
+            0.7615455985069275,
+            0.7560696005821228,
+            0.7469624280929565,
+            0.720340371131897,
+            0.7179912328720093,
+            0.7176403999328613,
+            0.7122188806533813,
+            0.7037436962127686,
+            0.7021997570991516,
+            0.7014997005462646
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30850: capricorn rustic dresser mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\ncapricorn chest of drawers\n\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n10033: villalvazo 4 drawer accent chest. if your home is losing in a battle against clutter , do n't raise a white flag ! call for reinforcements , and add an accent chest like this . perfect for rounding out a room in french country character , this 31.5 '' h x 17.7 '' w x 12 '' d dresser is crafted from solid paulownia wood , it features a brown-finished frame with a contrasting weathered white finish on the drawers . thanks to its slim size , this piece is perfectly proportioned for narrow nooks and cramped corners .\n\n34222: ezran 5 drawer dresser. a must-have accent piece from the abbigail collection is this wood chest for the youth or guest bedroom . standing just at four feet tall , it features five roomy drawers that hold all types of clothes - even an extra blanket or two . top is broad enough for knickknacks and photos , even a place to drape clothes at the end of a long day ( do n't worry - we wo n't tell your mom ! ) . metal accents and straight lines give the chest a clean , modern look . finished in glorious white , perfectly matching any airy beach decor .\n\n22447: schroeders 4 drawer storage chest. features : made of thick environmentally friendly pp plastic , durable and practical , smooth finish , dust-proof and waterproof , easy to clean 4-tier drawer unit : approximate dimensions is 14.76 x 13 x 46.06 inches ( length x width x height ) chest of 4 deep drawers can be opened or closed smoothly , provides considerable amounts of storage space for your items and protect your items while keeping them tidy slim out trolley design , make use of narrow space , easily fit in small corners in your room this drawer unit is blend seamlessly with any interior style , suitable for use in the living room , kitchen , bedroom , and bathroom , etc .\n\n3101: cothran 6 drawer double dresser. storage and style together ? this 6-drawer dresser is what we call an organization win-win . it 's crafted from a blend of solid and engineered wood , and features six drawers on smooth-open ball bearing glides , so it 's ready to help you stow everything from t-shirts to slacks . plus , it shows off a streamlined silhouette , tapered dowel feet , and gold-finished button pulls for a mid-century-inspired look in your bedroom . this low-profile piece measures 32 '' h x 64 '' w x 20 '' d , so it 's easily mixed in to even space-conscious bedrooms .\n\n36201: long ashton 3 drawer accent chest. between plank-like accents , distressed details , and a weathered multi-hued finish , this eye-catching accent chest is bursting with vintage appeal . crafted from iron and wood , it features a rectangular top and a lower open tier that provide a place to show off artful sculptures , framed family photos , or a few potted plants . three drawers on full-extension wooden glides below offer out-of-sight storage for any odds and ends strewn about your abode . measuring just 33 '' h x 12 '' w x 11 '' d overall , this piece is narrow enough to fit in cramped corners and smaller spaces .\n\n34207: carrico 5 drawer dresser. no bedroom is complete without a good-looking dresser . this 5-drawer chest from the carrico view collection is as stylish as it is functional . it features five drawers that open and close on smooth metal runners , perfect for storing blouses , slacks , and accessories ! finished in antiqued white and detailed with solid wood knobs and turned feet , this cottage inspired chest of drawers is just what your bedroom needs . safety tested for stability to help reduce tip-over accidents . drawers with metal runners and safety stops feature patented t-lock assembly system to save you time . detailing includes solid wood knobs and turned feet for an extra touch of class . this chest has been thoroughly tested in an iso 17025 accredited lab that is underwriters laboratories certified . it meets astm international \u2019 s industry standard astm f2057-19 safety specification for clothing storage units , which is intended to reduce hazards to children 5 and under due to tip-over of furniture . antiqued white finish . unit information overall dimensions w : 31 '' ( 78.8 cm ) d : 17 5/8 '' ( 44.8 cm ) h : 49 3/4 '' ( 126.3 cm ) country of origin usa carton information number of cartons : 1 l : 53 '' ( 134.6 cm ) w : 19 7/8 '' ( 50.5 cm ) h : 9 1/8 '' ( 23.2 cm ) weight : 137.4 lbs ( 62.3 kg )\n\n41742: johnathon mid-century modern wood 6 drawer dresser. ideal for providing extra storage space in your master suite or guest room , this sleek 6-drawer dresser is a stylish and functional addition to your space . crafted from engineered wood , it showcases a two-tone white and walnut brown finish for a cool , contemporary feel . six drawers provide ample space to store clothes , linens , and other personal items . each drawer is fitted with metal glides for smooth movement . elongated drawer handles complete the clean , streamlined look of this chest . this dresser requires assembly . this roduct complies with astm f2057-19 .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\ncapricorn chest of drawers\n\n\ncapricorn chest of drawers dimensions\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n",
+        "capricorn chest of drawers\n",
+        "```python\nordered_docs = [\"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \"15472\", \"34225\", \"35197\", \"10469\"]\nprint(ordered_docs)\n```\n",
+        "capricorn chest of drawers dimensions\n",
+        "```python\ndoc_ids = [\n    \"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \n    \"15472\", \"34225\", \"35197\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+        "capricorn chest dimensions and materials\n"
+    ],
+    "curr_top_k_docIDs": [
+        "30849",
+        "30848",
+        "30851",
+        "38952",
+        "11356",
+        "34649",
+        "15472",
+        "34225",
+        "35197",
+        "10469"
+    ],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "capricorn chest"
+            ]
+        },
+        {
+            "queries": [
+                "capricorn chest"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "capricorn chest"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "30849",
+                "11486",
+                "10469",
+                "10474",
+                "9553",
+                "11013",
+                "30848",
+                "11484",
+                "11479",
+                "30851"
+            ]
+        },
+        {
+            "queries": [
+                "capricorn chest"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "30849",
+                "11486",
+                "10469",
+                "10474",
+                "9553",
+                "11013",
+                "30848",
+                "11484",
+                "11479",
+                "30851"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "capricorn chest",
+                "capricorn chest of drawers\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n",
+                "capricorn chest of drawers\n"
+            ],
+            "curr_top_k_docIDs": [
+                "30849",
+                "11486",
+                "10469",
+                "10474",
+                "9553",
+                "11013",
+                "30848",
+                "11484",
+                "11479",
+                "30851"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "capricorn chest",
+                "capricorn chest of drawers\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "30850",
+                    "38952",
+                    "34649",
+                    "15472",
+                    "34225",
+                    "11356",
+                    "35197"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ],
+                [
+                    0.8082315325737,
+                    0.8040190935134888,
+                    0.7916021943092346,
+                    0.7293155789375305,
+                    0.7290046811103821,
+                    0.7266537547111511,
+                    0.7253457307815552,
+                    0.7242559790611267,
+                    0.7229827046394348,
+                    0.722942590713501
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n",
+                "capricorn chest of drawers\n"
+            ],
+            "curr_top_k_docIDs": [
+                "30849",
+                "11486",
+                "10469",
+                "10474",
+                "9553",
+                "11013",
+                "30848",
+                "11484",
+                "11479",
+                "30851"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "capricorn chest",
+                "capricorn chest of drawers\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "30850",
+                    "38952",
+                    "34649",
+                    "15472",
+                    "34225",
+                    "11356",
+                    "35197"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ],
+                [
+                    0.8082315325737,
+                    0.8040190935134888,
+                    0.7916021943092346,
+                    0.7293155789375305,
+                    0.7290046811103821,
+                    0.7266537547111511,
+                    0.7253457307815552,
+                    0.7242559790611267,
+                    0.7229827046394348,
+                    0.722942590713501
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30850: capricorn rustic dresser mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n",
+                "capricorn chest of drawers\n",
+                "```python\nordered_docs = [\"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \"15472\", \"34225\", \"35197\", \"10469\"]\nprint(ordered_docs)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "30849",
+                "30848",
+                "30851",
+                "38952",
+                "11356",
+                "34649",
+                "15472",
+                "34225",
+                "35197",
+                "10469"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "capricorn chest",
+                "capricorn chest of drawers\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "30850",
+                    "38952",
+                    "34649",
+                    "15472",
+                    "34225",
+                    "11356",
+                    "35197"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ],
+                [
+                    0.8082315325737,
+                    0.8040190935134888,
+                    0.7916021943092346,
+                    0.7293155789375305,
+                    0.7290046811103821,
+                    0.7266537547111511,
+                    0.7253457307815552,
+                    0.7242559790611267,
+                    0.7229827046394348,
+                    0.722942590713501
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30850: capricorn rustic dresser mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n",
+                "capricorn chest of drawers\n",
+                "```python\nordered_docs = [\"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \"15472\", \"34225\", \"35197\", \"10469\"]\nprint(ordered_docs)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "30849",
+                "30848",
+                "30851",
+                "38952",
+                "11356",
+                "34649",
+                "15472",
+                "34225",
+                "35197",
+                "10469"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "capricorn chest",
+                "capricorn chest of drawers\n",
+                "capricorn chest of drawers dimensions\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "30850",
+                    "38952",
+                    "34649",
+                    "15472",
+                    "34225",
+                    "11356",
+                    "35197"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ],
+                [
+                    0.8082315325737,
+                    0.8040190935134888,
+                    0.7916021943092346,
+                    0.7293155789375305,
+                    0.7290046811103821,
+                    0.7266537547111511,
+                    0.7253457307815552,
+                    0.7242559790611267,
+                    0.7229827046394348,
+                    0.722942590713501
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30850: capricorn rustic dresser mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\ncapricorn chest of drawers\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n",
+                "capricorn chest of drawers\n",
+                "```python\nordered_docs = [\"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \"15472\", \"34225\", \"35197\", \"10469\"]\nprint(ordered_docs)\n```\n",
+                "capricorn chest of drawers dimensions\n"
+            ],
+            "curr_top_k_docIDs": [
+                "30849",
+                "30848",
+                "30851",
+                "38952",
+                "11356",
+                "34649",
+                "15472",
+                "34225",
+                "35197",
+                "10469"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "capricorn chest",
+                "capricorn chest of drawers\n",
+                "capricorn chest of drawers dimensions\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "30850",
+                    "38952",
+                    "34649",
+                    "15472",
+                    "34225",
+                    "11356",
+                    "35197"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "10033",
+                    "34222",
+                    "22447",
+                    "3101",
+                    "36201",
+                    "34207",
+                    "41742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ],
+                [
+                    0.8082315325737,
+                    0.8040190935134888,
+                    0.7916021943092346,
+                    0.7293155789375305,
+                    0.7290046811103821,
+                    0.7266537547111511,
+                    0.7253457307815552,
+                    0.7242559790611267,
+                    0.7229827046394348,
+                    0.722942590713501
+                ],
+                [
+                    0.7615455985069275,
+                    0.7560696005821228,
+                    0.7469624280929565,
+                    0.720340371131897,
+                    0.7179912328720093,
+                    0.7176403999328613,
+                    0.7122188806533813,
+                    0.7037436962127686,
+                    0.7021997570991516,
+                    0.7014997005462646
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30850: capricorn rustic dresser mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\ncapricorn chest of drawers\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n",
+                "capricorn chest of drawers\n",
+                "```python\nordered_docs = [\"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \"15472\", \"34225\", \"35197\", \"10469\"]\nprint(ordered_docs)\n```\n",
+                "capricorn chest of drawers dimensions\n"
+            ],
+            "curr_top_k_docIDs": [
+                "30849",
+                "30848",
+                "30851",
+                "38952",
+                "11356",
+                "34649",
+                "15472",
+                "34225",
+                "35197",
+                "10469"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "capricorn chest",
+                "capricorn chest of drawers\n",
+                "capricorn chest of drawers dimensions\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "30850",
+                    "38952",
+                    "34649",
+                    "15472",
+                    "34225",
+                    "11356",
+                    "35197"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "10033",
+                    "34222",
+                    "22447",
+                    "3101",
+                    "36201",
+                    "34207",
+                    "41742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ],
+                [
+                    0.8082315325737,
+                    0.8040190935134888,
+                    0.7916021943092346,
+                    0.7293155789375305,
+                    0.7290046811103821,
+                    0.7266537547111511,
+                    0.7253457307815552,
+                    0.7242559790611267,
+                    0.7229827046394348,
+                    0.722942590713501
+                ],
+                [
+                    0.7615455985069275,
+                    0.7560696005821228,
+                    0.7469624280929565,
+                    0.720340371131897,
+                    0.7179912328720093,
+                    0.7176403999328613,
+                    0.7122188806533813,
+                    0.7037436962127686,
+                    0.7021997570991516,
+                    0.7014997005462646
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30850: capricorn rustic dresser mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\ncapricorn chest of drawers\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n10033: villalvazo 4 drawer accent chest. if your home is losing in a battle against clutter , do n't raise a white flag ! call for reinforcements , and add an accent chest like this . perfect for rounding out a room in french country character , this 31.5 '' h x 17.7 '' w x 12 '' d dresser is crafted from solid paulownia wood , it features a brown-finished frame with a contrasting weathered white finish on the drawers . thanks to its slim size , this piece is perfectly proportioned for narrow nooks and cramped corners .\n\n34222: ezran 5 drawer dresser. a must-have accent piece from the abbigail collection is this wood chest for the youth or guest bedroom . standing just at four feet tall , it features five roomy drawers that hold all types of clothes - even an extra blanket or two . top is broad enough for knickknacks and photos , even a place to drape clothes at the end of a long day ( do n't worry - we wo n't tell your mom ! ) . metal accents and straight lines give the chest a clean , modern look . finished in glorious white , perfectly matching any airy beach decor .\n\n22447: schroeders 4 drawer storage chest. features : made of thick environmentally friendly pp plastic , durable and practical , smooth finish , dust-proof and waterproof , easy to clean 4-tier drawer unit : approximate dimensions is 14.76 x 13 x 46.06 inches ( length x width x height ) chest of 4 deep drawers can be opened or closed smoothly , provides considerable amounts of storage space for your items and protect your items while keeping them tidy slim out trolley design , make use of narrow space , easily fit in small corners in your room this drawer unit is blend seamlessly with any interior style , suitable for use in the living room , kitchen , bedroom , and bathroom , etc .\n\n3101: cothran 6 drawer double dresser. storage and style together ? this 6-drawer dresser is what we call an organization win-win . it 's crafted from a blend of solid and engineered wood , and features six drawers on smooth-open ball bearing glides , so it 's ready to help you stow everything from t-shirts to slacks . plus , it shows off a streamlined silhouette , tapered dowel feet , and gold-finished button pulls for a mid-century-inspired look in your bedroom . this low-profile piece measures 32 '' h x 64 '' w x 20 '' d , so it 's easily mixed in to even space-conscious bedrooms .\n\n36201: long ashton 3 drawer accent chest. between plank-like accents , distressed details , and a weathered multi-hued finish , this eye-catching accent chest is bursting with vintage appeal . crafted from iron and wood , it features a rectangular top and a lower open tier that provide a place to show off artful sculptures , framed family photos , or a few potted plants . three drawers on full-extension wooden glides below offer out-of-sight storage for any odds and ends strewn about your abode . measuring just 33 '' h x 12 '' w x 11 '' d overall , this piece is narrow enough to fit in cramped corners and smaller spaces .\n\n34207: carrico 5 drawer dresser. no bedroom is complete without a good-looking dresser . this 5-drawer chest from the carrico view collection is as stylish as it is functional . it features five drawers that open and close on smooth metal runners , perfect for storing blouses , slacks , and accessories ! finished in antiqued white and detailed with solid wood knobs and turned feet , this cottage inspired chest of drawers is just what your bedroom needs . safety tested for stability to help reduce tip-over accidents . drawers with metal runners and safety stops feature patented t-lock assembly system to save you time . detailing includes solid wood knobs and turned feet for an extra touch of class . this chest has been thoroughly tested in an iso 17025 accredited lab that is underwriters laboratories certified . it meets astm international \u2019 s industry standard astm f2057-19 safety specification for clothing storage units , which is intended to reduce hazards to children 5 and under due to tip-over of furniture . antiqued white finish . unit information overall dimensions w : 31 '' ( 78.8 cm ) d : 17 5/8 '' ( 44.8 cm ) h : 49 3/4 '' ( 126.3 cm ) country of origin usa carton information number of cartons : 1 l : 53 '' ( 134.6 cm ) w : 19 7/8 '' ( 50.5 cm ) h : 9 1/8 '' ( 23.2 cm ) weight : 137.4 lbs ( 62.3 kg )\n\n41742: johnathon mid-century modern wood 6 drawer dresser. ideal for providing extra storage space in your master suite or guest room , this sleek 6-drawer dresser is a stylish and functional addition to your space . crafted from engineered wood , it showcases a two-tone white and walnut brown finish for a cool , contemporary feel . six drawers provide ample space to store clothes , linens , and other personal items . each drawer is fitted with metal glides for smooth movement . elongated drawer handles complete the clean , streamlined look of this chest . this dresser requires assembly . this roduct complies with astm f2057-19 .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n",
+                "capricorn chest of drawers\n",
+                "```python\nordered_docs = [\"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \"15472\", \"34225\", \"35197\", \"10469\"]\nprint(ordered_docs)\n```\n",
+                "capricorn chest of drawers dimensions\n",
+                "```python\ndoc_ids = [\n    \"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \n    \"15472\", \"34225\", \"35197\", \"10469\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "30849",
+                "30848",
+                "30851",
+                "38952",
+                "11356",
+                "34649",
+                "15472",
+                "34225",
+                "35197",
+                "10469"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "capricorn chest",
+                "capricorn chest of drawers\n",
+                "capricorn chest of drawers dimensions\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "30850",
+                    "38952",
+                    "34649",
+                    "15472",
+                    "34225",
+                    "11356",
+                    "35197"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "10033",
+                    "34222",
+                    "22447",
+                    "3101",
+                    "36201",
+                    "34207",
+                    "41742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ],
+                [
+                    0.8082315325737,
+                    0.8040190935134888,
+                    0.7916021943092346,
+                    0.7293155789375305,
+                    0.7290046811103821,
+                    0.7266537547111511,
+                    0.7253457307815552,
+                    0.7242559790611267,
+                    0.7229827046394348,
+                    0.722942590713501
+                ],
+                [
+                    0.7615455985069275,
+                    0.7560696005821228,
+                    0.7469624280929565,
+                    0.720340371131897,
+                    0.7179912328720093,
+                    0.7176403999328613,
+                    0.7122188806533813,
+                    0.7037436962127686,
+                    0.7021997570991516,
+                    0.7014997005462646
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30850: capricorn rustic dresser mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\ncapricorn chest of drawers\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n10033: villalvazo 4 drawer accent chest. if your home is losing in a battle against clutter , do n't raise a white flag ! call for reinforcements , and add an accent chest like this . perfect for rounding out a room in french country character , this 31.5 '' h x 17.7 '' w x 12 '' d dresser is crafted from solid paulownia wood , it features a brown-finished frame with a contrasting weathered white finish on the drawers . thanks to its slim size , this piece is perfectly proportioned for narrow nooks and cramped corners .\n\n34222: ezran 5 drawer dresser. a must-have accent piece from the abbigail collection is this wood chest for the youth or guest bedroom . standing just at four feet tall , it features five roomy drawers that hold all types of clothes - even an extra blanket or two . top is broad enough for knickknacks and photos , even a place to drape clothes at the end of a long day ( do n't worry - we wo n't tell your mom ! ) . metal accents and straight lines give the chest a clean , modern look . finished in glorious white , perfectly matching any airy beach decor .\n\n22447: schroeders 4 drawer storage chest. features : made of thick environmentally friendly pp plastic , durable and practical , smooth finish , dust-proof and waterproof , easy to clean 4-tier drawer unit : approximate dimensions is 14.76 x 13 x 46.06 inches ( length x width x height ) chest of 4 deep drawers can be opened or closed smoothly , provides considerable amounts of storage space for your items and protect your items while keeping them tidy slim out trolley design , make use of narrow space , easily fit in small corners in your room this drawer unit is blend seamlessly with any interior style , suitable for use in the living room , kitchen , bedroom , and bathroom , etc .\n\n3101: cothran 6 drawer double dresser. storage and style together ? this 6-drawer dresser is what we call an organization win-win . it 's crafted from a blend of solid and engineered wood , and features six drawers on smooth-open ball bearing glides , so it 's ready to help you stow everything from t-shirts to slacks . plus , it shows off a streamlined silhouette , tapered dowel feet , and gold-finished button pulls for a mid-century-inspired look in your bedroom . this low-profile piece measures 32 '' h x 64 '' w x 20 '' d , so it 's easily mixed in to even space-conscious bedrooms .\n\n36201: long ashton 3 drawer accent chest. between plank-like accents , distressed details , and a weathered multi-hued finish , this eye-catching accent chest is bursting with vintage appeal . crafted from iron and wood , it features a rectangular top and a lower open tier that provide a place to show off artful sculptures , framed family photos , or a few potted plants . three drawers on full-extension wooden glides below offer out-of-sight storage for any odds and ends strewn about your abode . measuring just 33 '' h x 12 '' w x 11 '' d overall , this piece is narrow enough to fit in cramped corners and smaller spaces .\n\n34207: carrico 5 drawer dresser. no bedroom is complete without a good-looking dresser . this 5-drawer chest from the carrico view collection is as stylish as it is functional . it features five drawers that open and close on smooth metal runners , perfect for storing blouses , slacks , and accessories ! finished in antiqued white and detailed with solid wood knobs and turned feet , this cottage inspired chest of drawers is just what your bedroom needs . safety tested for stability to help reduce tip-over accidents . drawers with metal runners and safety stops feature patented t-lock assembly system to save you time . detailing includes solid wood knobs and turned feet for an extra touch of class . this chest has been thoroughly tested in an iso 17025 accredited lab that is underwriters laboratories certified . it meets astm international \u2019 s industry standard astm f2057-19 safety specification for clothing storage units , which is intended to reduce hazards to children 5 and under due to tip-over of furniture . antiqued white finish . unit information overall dimensions w : 31 '' ( 78.8 cm ) d : 17 5/8 '' ( 44.8 cm ) h : 49 3/4 '' ( 126.3 cm ) country of origin usa carton information number of cartons : 1 l : 53 '' ( 134.6 cm ) w : 19 7/8 '' ( 50.5 cm ) h : 9 1/8 '' ( 23.2 cm ) weight : 137.4 lbs ( 62.3 kg )\n\n41742: johnathon mid-century modern wood 6 drawer dresser. ideal for providing extra storage space in your master suite or guest room , this sleek 6-drawer dresser is a stylish and functional addition to your space . crafted from engineered wood , it showcases a two-tone white and walnut brown finish for a cool , contemporary feel . six drawers provide ample space to store clothes , linens , and other personal items . each drawer is fitted with metal glides for smooth movement . elongated drawer handles complete the clean , streamlined look of this chest . this dresser requires assembly . this roduct complies with astm f2057-19 .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n",
+                "capricorn chest of drawers\n",
+                "```python\nordered_docs = [\"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \"15472\", \"34225\", \"35197\", \"10469\"]\nprint(ordered_docs)\n```\n",
+                "capricorn chest of drawers dimensions\n",
+                "```python\ndoc_ids = [\n    \"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \n    \"15472\", \"34225\", \"35197\", \"10469\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "30849",
+                "30848",
+                "30851",
+                "38952",
+                "11356",
+                "34649",
+                "15472",
+                "34225",
+                "35197",
+                "10469"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "capricorn chest",
+                "capricorn chest of drawers\n",
+                "capricorn chest of drawers dimensions\n",
+                "capricorn chest dimensions and materials\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "30849",
+                    "11486",
+                    "10469",
+                    "10474",
+                    "9553",
+                    "30848",
+                    "11484",
+                    "11013",
+                    "11479",
+                    "30851"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "30850",
+                    "38952",
+                    "34649",
+                    "15472",
+                    "34225",
+                    "11356",
+                    "35197"
+                ],
+                [
+                    "30849",
+                    "30848",
+                    "30851",
+                    "10033",
+                    "34222",
+                    "22447",
+                    "3101",
+                    "36201",
+                    "34207",
+                    "41742"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.728789210319519,
+                    0.7212182283401489,
+                    0.7062137722969055,
+                    0.7000212669372559,
+                    0.6777695417404175,
+                    0.6672195792198181,
+                    0.6585080623626709,
+                    0.6576029062271118,
+                    0.6512647867202759,
+                    0.6491801738739014
+                ],
+                [
+                    0.8082315325737,
+                    0.8040190935134888,
+                    0.7916021943092346,
+                    0.7293155789375305,
+                    0.7290046811103821,
+                    0.7266537547111511,
+                    0.7253457307815552,
+                    0.7242559790611267,
+                    0.7229827046394348,
+                    0.722942590713501
+                ],
+                [
+                    0.7615455985069275,
+                    0.7560696005821228,
+                    0.7469624280929565,
+                    0.720340371131897,
+                    0.7179912328720093,
+                    0.7176403999328613,
+                    0.7122188806533813,
+                    0.7037436962127686,
+                    0.7021997570991516,
+                    0.7014997005462646
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n11486: capricorn zodiac sign lumbar pillow. nan\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n10474: capricorn zodiac sign illustration pillow cover. this pillowcase is a great way to add a splash of style to any room . the unique design of this throw pillowcase is sure to turn heads .\n\n9553: dulin capricorn zodiac sign throw pillow. show off your zodiac sign with this astrological constellation throw pillow . the heavyweight stretch material provides great color definition and quality . the result is a fun pillow that is sure to add some personality to your space .\n\n11013: capricorn zodiac sign indoor/outdoor throw pillow. this pillow is constructed from heavyweight polyester canvas material . 100 % polyester fabric pillow . fade resistant . machine washable .\n\n30848: capricorn 7 drawer dresser. nan\n\n11484: scorpio zodiac sign lumbar pillow. nan\n\n11479: taurus zodiac sign lumbar pillow. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n30850: capricorn rustic dresser mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\ncapricorn chest of drawers\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: capricorn chest\n\nDocuments:\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n10033: villalvazo 4 drawer accent chest. if your home is losing in a battle against clutter , do n't raise a white flag ! call for reinforcements , and add an accent chest like this . perfect for rounding out a room in french country character , this 31.5 '' h x 17.7 '' w x 12 '' d dresser is crafted from solid paulownia wood , it features a brown-finished frame with a contrasting weathered white finish on the drawers . thanks to its slim size , this piece is perfectly proportioned for narrow nooks and cramped corners .\n\n34222: ezran 5 drawer dresser. a must-have accent piece from the abbigail collection is this wood chest for the youth or guest bedroom . standing just at four feet tall , it features five roomy drawers that hold all types of clothes - even an extra blanket or two . top is broad enough for knickknacks and photos , even a place to drape clothes at the end of a long day ( do n't worry - we wo n't tell your mom ! ) . metal accents and straight lines give the chest a clean , modern look . finished in glorious white , perfectly matching any airy beach decor .\n\n22447: schroeders 4 drawer storage chest. features : made of thick environmentally friendly pp plastic , durable and practical , smooth finish , dust-proof and waterproof , easy to clean 4-tier drawer unit : approximate dimensions is 14.76 x 13 x 46.06 inches ( length x width x height ) chest of 4 deep drawers can be opened or closed smoothly , provides considerable amounts of storage space for your items and protect your items while keeping them tidy slim out trolley design , make use of narrow space , easily fit in small corners in your room this drawer unit is blend seamlessly with any interior style , suitable for use in the living room , kitchen , bedroom , and bathroom , etc .\n\n3101: cothran 6 drawer double dresser. storage and style together ? this 6-drawer dresser is what we call an organization win-win . it 's crafted from a blend of solid and engineered wood , and features six drawers on smooth-open ball bearing glides , so it 's ready to help you stow everything from t-shirts to slacks . plus , it shows off a streamlined silhouette , tapered dowel feet , and gold-finished button pulls for a mid-century-inspired look in your bedroom . this low-profile piece measures 32 '' h x 64 '' w x 20 '' d , so it 's easily mixed in to even space-conscious bedrooms .\n\n36201: long ashton 3 drawer accent chest. between plank-like accents , distressed details , and a weathered multi-hued finish , this eye-catching accent chest is bursting with vintage appeal . crafted from iron and wood , it features a rectangular top and a lower open tier that provide a place to show off artful sculptures , framed family photos , or a few potted plants . three drawers on full-extension wooden glides below offer out-of-sight storage for any odds and ends strewn about your abode . measuring just 33 '' h x 12 '' w x 11 '' d overall , this piece is narrow enough to fit in cramped corners and smaller spaces .\n\n34207: carrico 5 drawer dresser. no bedroom is complete without a good-looking dresser . this 5-drawer chest from the carrico view collection is as stylish as it is functional . it features five drawers that open and close on smooth metal runners , perfect for storing blouses , slacks , and accessories ! finished in antiqued white and detailed with solid wood knobs and turned feet , this cottage inspired chest of drawers is just what your bedroom needs . safety tested for stability to help reduce tip-over accidents . drawers with metal runners and safety stops feature patented t-lock assembly system to save you time . detailing includes solid wood knobs and turned feet for an extra touch of class . this chest has been thoroughly tested in an iso 17025 accredited lab that is underwriters laboratories certified . it meets astm international \u2019 s industry standard astm f2057-19 safety specification for clothing storage units , which is intended to reduce hazards to children 5 and under due to tip-over of furniture . antiqued white finish . unit information overall dimensions w : 31 '' ( 78.8 cm ) d : 17 5/8 '' ( 44.8 cm ) h : 49 3/4 '' ( 126.3 cm ) country of origin usa carton information number of cartons : 1 l : 53 '' ( 134.6 cm ) w : 19 7/8 '' ( 50.5 cm ) h : 9 1/8 '' ( 23.2 cm ) weight : 137.4 lbs ( 62.3 kg )\n\n41742: johnathon mid-century modern wood 6 drawer dresser. ideal for providing extra storage space in your master suite or guest room , this sleek 6-drawer dresser is a stylish and functional addition to your space . crafted from engineered wood , it showcases a two-tone white and walnut brown finish for a cool , contemporary feel . six drawers provide ample space to store clothes , linens , and other personal items . each drawer is fitted with metal glides for smooth movement . elongated drawer handles complete the clean , streamlined look of this chest . this dresser requires assembly . this roduct complies with astm f2057-19 .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\ncapricorn chest\n***\n\nDocuments:\n***\n\n30849: capricorn 5 drawer chest. nan\n\n30848: capricorn 7 drawer dresser. nan\n\n30851: capricorn 7 drawer dresser with mirror. nan\n\n38952: aries 5 standard chest. stow your wardrobe in sleek style with this 5-drawer chest . a great way to introduce contemporary design into your bedroom ensemble , it showcases a clean-lined frame crafted from wood . the five drawers provide ample space to tuck away your belongings , and each one has a carved pull that runs the length of the drawer for easy operation . for added convenience , it features power-strips in the top drawer for easy , clutter-free charging . the chocolate brown finish includes tones ranging from dark brown to golden brown for a dynamic look .\n\n11356: cresent chest. the cresent chest is made from solid showcasing a farmhouse appearance that is warm and inviting . designed for maximum storage space , four smaller drawers on top of three larger drawers below , provide ample room for clothing or linens . a double-cross motif is found on the side panels as well as planked drawer fronts enhancing its chic rustic style . all drawers are built with high sides front & back , corner blocking and full-extension , ball-bearing glides , for years of easy use .\n\n34649: lobardy 9 drawer apothecary accent chest. bring a burst of eclectic style to your space with this nine-drawer chest . crafted of solid wood in a light , natural stain , this chest strikes a clean-lined square silhouette with simple recessed paneling on four straight square legs adorned with bracket accents . set on safety stop glides , nine drawers with elaborate silver drawer faces offer plenty of storage options for everything from matchbooks and candles to craft supplies , while the smooth top surface provides a perfect platform for flowers , framed photos , or a stylish lamp .\n\n15472: tasha 3 drawer accent chest. a stunning fusion of country charm and modern glamour , this tasha 3 drawer chest breathes new life into any interior . mirrored drawer fronts form a striking guilloche pattern that shines against its soft grey frame , making for timeless , fashion forward d\u00e9cor .\n\n34225: mcneal 5 drawer dresser. with chic , rounded edges and cool , angled legs , this chest infuses a room with modern glamour . a warm , rich finish of dark walnut elegantly accentuates its design . simple , metal hardware adds an attractive touch of polish . five spacious drawers offer lots of versatile storage space . this chest is ideal for adding charm and character to a guest or child 's bedroom .\n\n35197: libra 4 drawer chest. contemporary lines and finish this libra 4-drawer dresser has a timeless look and blends in easily with any decor . the contemporary lines are softened by the classic kick plate , and metal handles add character and value to the furniture . the neutral , modern style makes it suitable for your kid 's bedrooms , providing plenty of storage space in this attractive piece of furniture . small footprint with big storage with tall , stacked drawers , this dresser from the libra collection was designed just for tighter spaces ! featuring 4 large drawers with curved metal handles , the dresser provides plenty of room for clothes , linens , or general storage keeping your space organized and neat . included with metal slides for easy and quiet use , there 's no wrestling required to access your belongings.5-year limited guarantee south shore is proud to stand behind this 4-drawer chest dresser with an exclusive 5-year limited guarantee . shop with confidence knowing your purchase is always covered . all our products meet or exceed north american safety standards and our packaging is tested and certified to reduce the risk of damage during shipment . there is a wall anchor kit included in the box to prevent tip-over incidents , thus ensuring your family 's safety ... this item is shipped in 1 box , make sure to have a friend with you . assembly is required by 2 adults and tools are not included . if you have questions regarding this product or need assistance do not hesitate to contact south shore furniture 7 days support . this product is made in north america with laminated particleboard . accessories not included .\n\n10469: capricorn zodiac sign throw pillow. capricorn zodiac sign pillow cover is a great way to add a splash of style to any room . the unique design of this pillow cover is sure to turn heads .\n\n***\n\nPrevious query reformulations:\n***\n\ncapricorn chest of drawers\n\n\ncapricorn chest of drawers dimensions\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"30849\", \"11486\", \"10469\", \"10474\", \"9553\", \"11013\", \"30848\", \"11484\", \"11479\", \"30851\"\n]\n\nprint(doc_ids)\n```\n",
+                "capricorn chest of drawers\n",
+                "```python\nordered_docs = [\"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \"15472\", \"34225\", \"35197\", \"10469\"]\nprint(ordered_docs)\n```\n",
+                "capricorn chest of drawers dimensions\n",
+                "```python\ndoc_ids = [\n    \"30849\", \"30848\", \"30851\", \"38952\", \"11356\", \"34649\", \n    \"15472\", \"34225\", \"35197\", \"10469\"\n]\n\nprint(doc_ids)\n```\n",
+                "capricorn chest dimensions and materials\n"
+            ],
+            "curr_top_k_docIDs": [
+                "30849",
+                "30848",
+                "30851",
+                "38952",
+                "11356",
+                "34649",
+                "15472",
+                "34225",
+                "35197",
+                "10469"
+            ],
+            "terminate": false
+        }
+    ]
+}

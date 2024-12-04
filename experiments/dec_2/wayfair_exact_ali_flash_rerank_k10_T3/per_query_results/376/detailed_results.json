@@ -1,0 +1,1090 @@
+{
+    "queries": [
+        "island estate coffee table",
+        "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+        "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n",
+        "island estate coffee table, specifying models (e.g., Key Largo, with storage),  including details on materials, dimensions, color options, and style (e.g., coastal, farmhouse), and whether it includes a matching end table or set.\n"
+    ],
+    "retrieved_lists": [
+        [
+            "34769",
+            "34771",
+            "34784",
+            "34768",
+            "21186",
+            "34767",
+            "18588",
+            "6138",
+            "34776",
+            "17336"
+        ],
+        [
+            "34769",
+            "17336",
+            "20902",
+            "34768",
+            "17338",
+            "36230",
+            "39808",
+            "26105",
+            "23648",
+            "3498"
+        ],
+        [
+            "34768",
+            "34769",
+            "3498",
+            "17336",
+            "36230",
+            "41349",
+            "15572",
+            "40966",
+            "10985",
+            "34778"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.8308718204498291,
+            0.8114094138145447,
+            0.7855309844017029,
+            0.7831265926361084,
+            0.7827150821685791,
+            0.7744613885879517,
+            0.7685853242874146,
+            0.7672222852706909,
+            0.7628395557403564,
+            0.7598822116851807
+        ],
+        [
+            0.8191674947738647,
+            0.794743537902832,
+            0.7820913791656494,
+            0.7764472961425781,
+            0.7695196866989136,
+            0.7626441717147827,
+            0.7592752575874329,
+            0.7565885186195374,
+            0.7495564222335815,
+            0.7469996213912964
+        ],
+        [
+            0.8638790845870972,
+            0.8340741395950317,
+            0.776889979839325,
+            0.7733629941940308,
+            0.7695785760879517,
+            0.7659399509429932,
+            0.7637328505516052,
+            0.7615215182304382,
+            0.7588959336280823,
+            0.7584664821624756
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n20902: lummus coffee table. this round coffee table brings boho flair to your living room with its novel shape and rattan weave . it 's made from abaca , which are woven fibers derived from banana leaves , and sits on four short , turned legs . this table features a purposefully distressed finish that feels right at home in a beachy bungalow or modern farmhouse space , and is highly versatile , doubling as a spare seat or ottoman . it measures 35 '' in diameter and comes fully assembled , so it 's ready to make a statement in your home from the moment it arrives .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n17338: mar vista block coffee table. round out your coastal farmhouse decor with this clean-lined coffee table . its airy design is handwoven from natural wicker and water hyacinth in your choice of neutral color . this piece features a tapered silhouette and a black base that measures 28 '' wide , offering you lots of room for a vanity tray , coasters , or a vase of flowers for that perfect beachy feel in your living room or den . plus , this rectangular coffee table arrives fully assembled , so there 's no need to break out your toolbelt .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n39808: richins coffee table with storage. this coffee table has a neutral two-tone color scheme that complements coastal farmhouse decors . the tabletop is made from solid pine wood , while the base is made from a mix of solid and engineered wood . an open bottom shelf offers additional storage for your books or a few storage baskets . plus , the base is decorated with openwork vs on the sides for a breezy silhouette . this side table measures 48 '' tall , making it ideal in any sized seating areas .\n\n26105: tia solid coffee table. seating ensemble feeling empty ? try a coffee table ! not only do they anchor your space , but they offer room to stage a display and serve up trays of treats when you find yourself entertaining . this one , for example , made in indonesia , its round frame is wrapped in rattan abaca with natural finishes that work well in beachy abodes and bohemian bungalows alike . measures 18 '' h x 32 '' l x 32 '' w .\n\n23648: isakson trestle coffee table. center your living room or den around coastal farmhouse charm with this coffee table . its butcher block-style tabletop is made from engineered wood with distressed details and visible wood grain for a rustic look . the metal trestle base has four flared legs with x-shaped supports on the sides . this table 's open bottom shelf gives you a spot to keep stacks of books or storage baskets . it measures 47.25 '' long , making it ideal in larger living rooms .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\nisland estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n41349: iolanthe solid wood coffee table with storage. our colonial-style coffee table is a timeless living accessory for your home . its wood top provides a stable and secure surface for holding your glasses , vases , fruits or ornaments , etc . this coffee table is made of wood with a natural finish , known for its exceptional strength . every step of the process is carried out with the most excellent care , be it polishing , painting , or lacquering . the large compartment underneath the table provides you with extra room for storage . colors and grains may vary from piece to piece , making each of our coffee tables unique . the delivery is random as well .\n\n15572: marson solid wood coffee table. at once elegant and rustic , this coffee table is a fabulous study in design fusion . the product \u2019 s gray whitewashes kubu rattan surface pairs beautifully with a sculpted bamboo style frame , giving any living room an artistic sense of depth and motion with rich , tropical vibes .\n\n40966: pancoast coffee table. breezy all-weather wicker coffee table will whisk you away to a tropical island . with the light gray frame and glass top , this table is unique and versatile . perfect for your porch or patio this table provides the perfect resting spot for your accessories , books , morning coffee or perhaps even your feet . durable all-weather wicker construction will withstand many weather conditions .\n\n10985: fotopoulos wooden coffee table. create a relaxed and airy atmosphere in your garden or your balcony with this coffee table . carefully crafted from exotic indonesian teak a strong and robust wood that famous for its natural teak grain and wide slat design for a stylish , durable and versatile design . inspired by modern farmhouse style , bringing an element of simplicity and class to your outdoor area .\n\n34778: island fusion abstract coffee table. a signature item in the collection , the cocktail table base features a stylized asian design in hammered metal . its top is made of molded fused glass with a soft undulation on the top surface and an pattern on its bottom .\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\nisland estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n\n\nisland estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n",
+        "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+        "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \"34776\", \n    \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n",
+        "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n",
+        "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \n    \"34776\", \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n",
+        "island estate coffee table, specifying models (e.g., Key Largo, with storage),  including details on materials, dimensions, color options, and style (e.g., coastal, farmhouse), and whether it includes a matching end table or set.\n"
+    ],
+    "curr_top_k_docIDs": [
+        "34769",
+        "34768",
+        "21186",
+        "18588",
+        "34771",
+        "6138",
+        "34784",
+        "34776",
+        "34767",
+        "17336"
+    ],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "island estate coffee table"
+            ]
+        },
+        {
+            "queries": [
+                "island estate coffee table"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "island estate coffee table"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34769",
+                "34768",
+                "21186",
+                "18588",
+                "34771",
+                "6138",
+                "34784",
+                "34776",
+                "34767",
+                "17336"
+            ]
+        },
+        {
+            "queries": [
+                "island estate coffee table"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34769",
+                "34768",
+                "21186",
+                "18588",
+                "34771",
+                "6138",
+                "34784",
+                "34776",
+                "34767",
+                "17336"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "island estate coffee table",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34769",
+                "34768",
+                "21186",
+                "18588",
+                "34771",
+                "6138",
+                "34784",
+                "34776",
+                "34767",
+                "17336"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "island estate coffee table",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ],
+                [
+                    "34769",
+                    "17336",
+                    "20902",
+                    "34768",
+                    "17338",
+                    "36230",
+                    "39808",
+                    "26105",
+                    "23648",
+                    "3498"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ],
+                [
+                    0.8191674947738647,
+                    0.794743537902832,
+                    0.7820913791656494,
+                    0.7764472961425781,
+                    0.7695196866989136,
+                    0.7626441717147827,
+                    0.7592752575874329,
+                    0.7565885186195374,
+                    0.7495564222335815,
+                    0.7469996213912964
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34769",
+                "34768",
+                "21186",
+                "18588",
+                "34771",
+                "6138",
+                "34784",
+                "34776",
+                "34767",
+                "17336"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "island estate coffee table",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ],
+                [
+                    "34769",
+                    "17336",
+                    "20902",
+                    "34768",
+                    "17338",
+                    "36230",
+                    "39808",
+                    "26105",
+                    "23648",
+                    "3498"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ],
+                [
+                    0.8191674947738647,
+                    0.794743537902832,
+                    0.7820913791656494,
+                    0.7764472961425781,
+                    0.7695196866989136,
+                    0.7626441717147827,
+                    0.7592752575874329,
+                    0.7565885186195374,
+                    0.7495564222335815,
+                    0.7469996213912964
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n20902: lummus coffee table. this round coffee table brings boho flair to your living room with its novel shape and rattan weave . it 's made from abaca , which are woven fibers derived from banana leaves , and sits on four short , turned legs . this table features a purposefully distressed finish that feels right at home in a beachy bungalow or modern farmhouse space , and is highly versatile , doubling as a spare seat or ottoman . it measures 35 '' in diameter and comes fully assembled , so it 's ready to make a statement in your home from the moment it arrives .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n17338: mar vista block coffee table. round out your coastal farmhouse decor with this clean-lined coffee table . its airy design is handwoven from natural wicker and water hyacinth in your choice of neutral color . this piece features a tapered silhouette and a black base that measures 28 '' wide , offering you lots of room for a vanity tray , coasters , or a vase of flowers for that perfect beachy feel in your living room or den . plus , this rectangular coffee table arrives fully assembled , so there 's no need to break out your toolbelt .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n39808: richins coffee table with storage. this coffee table has a neutral two-tone color scheme that complements coastal farmhouse decors . the tabletop is made from solid pine wood , while the base is made from a mix of solid and engineered wood . an open bottom shelf offers additional storage for your books or a few storage baskets . plus , the base is decorated with openwork vs on the sides for a breezy silhouette . this side table measures 48 '' tall , making it ideal in any sized seating areas .\n\n26105: tia solid coffee table. seating ensemble feeling empty ? try a coffee table ! not only do they anchor your space , but they offer room to stage a display and serve up trays of treats when you find yourself entertaining . this one , for example , made in indonesia , its round frame is wrapped in rattan abaca with natural finishes that work well in beachy abodes and bohemian bungalows alike . measures 18 '' h x 32 '' l x 32 '' w .\n\n23648: isakson trestle coffee table. center your living room or den around coastal farmhouse charm with this coffee table . its butcher block-style tabletop is made from engineered wood with distressed details and visible wood grain for a rustic look . the metal trestle base has four flared legs with x-shaped supports on the sides . this table 's open bottom shelf gives you a spot to keep stacks of books or storage baskets . it measures 47.25 '' long , making it ideal in larger living rooms .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \"34776\", \n    \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34769",
+                "34768",
+                "21186",
+                "18588",
+                "34771",
+                "6138",
+                "34784",
+                "34776",
+                "34767",
+                "17336"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "island estate coffee table",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ],
+                [
+                    "34769",
+                    "17336",
+                    "20902",
+                    "34768",
+                    "17338",
+                    "36230",
+                    "39808",
+                    "26105",
+                    "23648",
+                    "3498"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ],
+                [
+                    0.8191674947738647,
+                    0.794743537902832,
+                    0.7820913791656494,
+                    0.7764472961425781,
+                    0.7695196866989136,
+                    0.7626441717147827,
+                    0.7592752575874329,
+                    0.7565885186195374,
+                    0.7495564222335815,
+                    0.7469996213912964
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n20902: lummus coffee table. this round coffee table brings boho flair to your living room with its novel shape and rattan weave . it 's made from abaca , which are woven fibers derived from banana leaves , and sits on four short , turned legs . this table features a purposefully distressed finish that feels right at home in a beachy bungalow or modern farmhouse space , and is highly versatile , doubling as a spare seat or ottoman . it measures 35 '' in diameter and comes fully assembled , so it 's ready to make a statement in your home from the moment it arrives .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n17338: mar vista block coffee table. round out your coastal farmhouse decor with this clean-lined coffee table . its airy design is handwoven from natural wicker and water hyacinth in your choice of neutral color . this piece features a tapered silhouette and a black base that measures 28 '' wide , offering you lots of room for a vanity tray , coasters , or a vase of flowers for that perfect beachy feel in your living room or den . plus , this rectangular coffee table arrives fully assembled , so there 's no need to break out your toolbelt .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n39808: richins coffee table with storage. this coffee table has a neutral two-tone color scheme that complements coastal farmhouse decors . the tabletop is made from solid pine wood , while the base is made from a mix of solid and engineered wood . an open bottom shelf offers additional storage for your books or a few storage baskets . plus , the base is decorated with openwork vs on the sides for a breezy silhouette . this side table measures 48 '' tall , making it ideal in any sized seating areas .\n\n26105: tia solid coffee table. seating ensemble feeling empty ? try a coffee table ! not only do they anchor your space , but they offer room to stage a display and serve up trays of treats when you find yourself entertaining . this one , for example , made in indonesia , its round frame is wrapped in rattan abaca with natural finishes that work well in beachy abodes and bohemian bungalows alike . measures 18 '' h x 32 '' l x 32 '' w .\n\n23648: isakson trestle coffee table. center your living room or den around coastal farmhouse charm with this coffee table . its butcher block-style tabletop is made from engineered wood with distressed details and visible wood grain for a rustic look . the metal trestle base has four flared legs with x-shaped supports on the sides . this table 's open bottom shelf gives you a spot to keep stacks of books or storage baskets . it measures 47.25 '' long , making it ideal in larger living rooms .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \"34776\", \n    \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34769",
+                "34768",
+                "21186",
+                "18588",
+                "34771",
+                "6138",
+                "34784",
+                "34776",
+                "34767",
+                "17336"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "island estate coffee table",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ],
+                [
+                    "34769",
+                    "17336",
+                    "20902",
+                    "34768",
+                    "17338",
+                    "36230",
+                    "39808",
+                    "26105",
+                    "23648",
+                    "3498"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ],
+                [
+                    0.8191674947738647,
+                    0.794743537902832,
+                    0.7820913791656494,
+                    0.7764472961425781,
+                    0.7695196866989136,
+                    0.7626441717147827,
+                    0.7592752575874329,
+                    0.7565885186195374,
+                    0.7495564222335815,
+                    0.7469996213912964
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n20902: lummus coffee table. this round coffee table brings boho flair to your living room with its novel shape and rattan weave . it 's made from abaca , which are woven fibers derived from banana leaves , and sits on four short , turned legs . this table features a purposefully distressed finish that feels right at home in a beachy bungalow or modern farmhouse space , and is highly versatile , doubling as a spare seat or ottoman . it measures 35 '' in diameter and comes fully assembled , so it 's ready to make a statement in your home from the moment it arrives .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n17338: mar vista block coffee table. round out your coastal farmhouse decor with this clean-lined coffee table . its airy design is handwoven from natural wicker and water hyacinth in your choice of neutral color . this piece features a tapered silhouette and a black base that measures 28 '' wide , offering you lots of room for a vanity tray , coasters , or a vase of flowers for that perfect beachy feel in your living room or den . plus , this rectangular coffee table arrives fully assembled , so there 's no need to break out your toolbelt .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n39808: richins coffee table with storage. this coffee table has a neutral two-tone color scheme that complements coastal farmhouse decors . the tabletop is made from solid pine wood , while the base is made from a mix of solid and engineered wood . an open bottom shelf offers additional storage for your books or a few storage baskets . plus , the base is decorated with openwork vs on the sides for a breezy silhouette . this side table measures 48 '' tall , making it ideal in any sized seating areas .\n\n26105: tia solid coffee table. seating ensemble feeling empty ? try a coffee table ! not only do they anchor your space , but they offer room to stage a display and serve up trays of treats when you find yourself entertaining . this one , for example , made in indonesia , its round frame is wrapped in rattan abaca with natural finishes that work well in beachy abodes and bohemian bungalows alike . measures 18 '' h x 32 '' l x 32 '' w .\n\n23648: isakson trestle coffee table. center your living room or den around coastal farmhouse charm with this coffee table . its butcher block-style tabletop is made from engineered wood with distressed details and visible wood grain for a rustic look . the metal trestle base has four flared legs with x-shaped supports on the sides . this table 's open bottom shelf gives you a spot to keep stacks of books or storage baskets . it measures 47.25 '' long , making it ideal in larger living rooms .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\nisland estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \"34776\", \n    \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n",
+                "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34769",
+                "34768",
+                "21186",
+                "18588",
+                "34771",
+                "6138",
+                "34784",
+                "34776",
+                "34767",
+                "17336"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "island estate coffee table",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ],
+                [
+                    "34769",
+                    "17336",
+                    "20902",
+                    "34768",
+                    "17338",
+                    "36230",
+                    "39808",
+                    "26105",
+                    "23648",
+                    "3498"
+                ],
+                [
+                    "34768",
+                    "34769",
+                    "3498",
+                    "17336",
+                    "36230",
+                    "41349",
+                    "15572",
+                    "40966",
+                    "10985",
+                    "34778"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ],
+                [
+                    0.8191674947738647,
+                    0.794743537902832,
+                    0.7820913791656494,
+                    0.7764472961425781,
+                    0.7695196866989136,
+                    0.7626441717147827,
+                    0.7592752575874329,
+                    0.7565885186195374,
+                    0.7495564222335815,
+                    0.7469996213912964
+                ],
+                [
+                    0.8638790845870972,
+                    0.8340741395950317,
+                    0.776889979839325,
+                    0.7733629941940308,
+                    0.7695785760879517,
+                    0.7659399509429932,
+                    0.7637328505516052,
+                    0.7615215182304382,
+                    0.7588959336280823,
+                    0.7584664821624756
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n20902: lummus coffee table. this round coffee table brings boho flair to your living room with its novel shape and rattan weave . it 's made from abaca , which are woven fibers derived from banana leaves , and sits on four short , turned legs . this table features a purposefully distressed finish that feels right at home in a beachy bungalow or modern farmhouse space , and is highly versatile , doubling as a spare seat or ottoman . it measures 35 '' in diameter and comes fully assembled , so it 's ready to make a statement in your home from the moment it arrives .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n17338: mar vista block coffee table. round out your coastal farmhouse decor with this clean-lined coffee table . its airy design is handwoven from natural wicker and water hyacinth in your choice of neutral color . this piece features a tapered silhouette and a black base that measures 28 '' wide , offering you lots of room for a vanity tray , coasters , or a vase of flowers for that perfect beachy feel in your living room or den . plus , this rectangular coffee table arrives fully assembled , so there 's no need to break out your toolbelt .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n39808: richins coffee table with storage. this coffee table has a neutral two-tone color scheme that complements coastal farmhouse decors . the tabletop is made from solid pine wood , while the base is made from a mix of solid and engineered wood . an open bottom shelf offers additional storage for your books or a few storage baskets . plus , the base is decorated with openwork vs on the sides for a breezy silhouette . this side table measures 48 '' tall , making it ideal in any sized seating areas .\n\n26105: tia solid coffee table. seating ensemble feeling empty ? try a coffee table ! not only do they anchor your space , but they offer room to stage a display and serve up trays of treats when you find yourself entertaining . this one , for example , made in indonesia , its round frame is wrapped in rattan abaca with natural finishes that work well in beachy abodes and bohemian bungalows alike . measures 18 '' h x 32 '' l x 32 '' w .\n\n23648: isakson trestle coffee table. center your living room or den around coastal farmhouse charm with this coffee table . its butcher block-style tabletop is made from engineered wood with distressed details and visible wood grain for a rustic look . the metal trestle base has four flared legs with x-shaped supports on the sides . this table 's open bottom shelf gives you a spot to keep stacks of books or storage baskets . it measures 47.25 '' long , making it ideal in larger living rooms .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\nisland estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \"34776\", \n    \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n",
+                "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34769",
+                "34768",
+                "21186",
+                "18588",
+                "34771",
+                "6138",
+                "34784",
+                "34776",
+                "34767",
+                "17336"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "island estate coffee table",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ],
+                [
+                    "34769",
+                    "17336",
+                    "20902",
+                    "34768",
+                    "17338",
+                    "36230",
+                    "39808",
+                    "26105",
+                    "23648",
+                    "3498"
+                ],
+                [
+                    "34768",
+                    "34769",
+                    "3498",
+                    "17336",
+                    "36230",
+                    "41349",
+                    "15572",
+                    "40966",
+                    "10985",
+                    "34778"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ],
+                [
+                    0.8191674947738647,
+                    0.794743537902832,
+                    0.7820913791656494,
+                    0.7764472961425781,
+                    0.7695196866989136,
+                    0.7626441717147827,
+                    0.7592752575874329,
+                    0.7565885186195374,
+                    0.7495564222335815,
+                    0.7469996213912964
+                ],
+                [
+                    0.8638790845870972,
+                    0.8340741395950317,
+                    0.776889979839325,
+                    0.7733629941940308,
+                    0.7695785760879517,
+                    0.7659399509429932,
+                    0.7637328505516052,
+                    0.7615215182304382,
+                    0.7588959336280823,
+                    0.7584664821624756
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n20902: lummus coffee table. this round coffee table brings boho flair to your living room with its novel shape and rattan weave . it 's made from abaca , which are woven fibers derived from banana leaves , and sits on four short , turned legs . this table features a purposefully distressed finish that feels right at home in a beachy bungalow or modern farmhouse space , and is highly versatile , doubling as a spare seat or ottoman . it measures 35 '' in diameter and comes fully assembled , so it 's ready to make a statement in your home from the moment it arrives .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n17338: mar vista block coffee table. round out your coastal farmhouse decor with this clean-lined coffee table . its airy design is handwoven from natural wicker and water hyacinth in your choice of neutral color . this piece features a tapered silhouette and a black base that measures 28 '' wide , offering you lots of room for a vanity tray , coasters , or a vase of flowers for that perfect beachy feel in your living room or den . plus , this rectangular coffee table arrives fully assembled , so there 's no need to break out your toolbelt .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n39808: richins coffee table with storage. this coffee table has a neutral two-tone color scheme that complements coastal farmhouse decors . the tabletop is made from solid pine wood , while the base is made from a mix of solid and engineered wood . an open bottom shelf offers additional storage for your books or a few storage baskets . plus , the base is decorated with openwork vs on the sides for a breezy silhouette . this side table measures 48 '' tall , making it ideal in any sized seating areas .\n\n26105: tia solid coffee table. seating ensemble feeling empty ? try a coffee table ! not only do they anchor your space , but they offer room to stage a display and serve up trays of treats when you find yourself entertaining . this one , for example , made in indonesia , its round frame is wrapped in rattan abaca with natural finishes that work well in beachy abodes and bohemian bungalows alike . measures 18 '' h x 32 '' l x 32 '' w .\n\n23648: isakson trestle coffee table. center your living room or den around coastal farmhouse charm with this coffee table . its butcher block-style tabletop is made from engineered wood with distressed details and visible wood grain for a rustic look . the metal trestle base has four flared legs with x-shaped supports on the sides . this table 's open bottom shelf gives you a spot to keep stacks of books or storage baskets . it measures 47.25 '' long , making it ideal in larger living rooms .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\nisland estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n41349: iolanthe solid wood coffee table with storage. our colonial-style coffee table is a timeless living accessory for your home . its wood top provides a stable and secure surface for holding your glasses , vases , fruits or ornaments , etc . this coffee table is made of wood with a natural finish , known for its exceptional strength . every step of the process is carried out with the most excellent care , be it polishing , painting , or lacquering . the large compartment underneath the table provides you with extra room for storage . colors and grains may vary from piece to piece , making each of our coffee tables unique . the delivery is random as well .\n\n15572: marson solid wood coffee table. at once elegant and rustic , this coffee table is a fabulous study in design fusion . the product \u2019 s gray whitewashes kubu rattan surface pairs beautifully with a sculpted bamboo style frame , giving any living room an artistic sense of depth and motion with rich , tropical vibes .\n\n40966: pancoast coffee table. breezy all-weather wicker coffee table will whisk you away to a tropical island . with the light gray frame and glass top , this table is unique and versatile . perfect for your porch or patio this table provides the perfect resting spot for your accessories , books , morning coffee or perhaps even your feet . durable all-weather wicker construction will withstand many weather conditions .\n\n10985: fotopoulos wooden coffee table. create a relaxed and airy atmosphere in your garden or your balcony with this coffee table . carefully crafted from exotic indonesian teak a strong and robust wood that famous for its natural teak grain and wide slat design for a stylish , durable and versatile design . inspired by modern farmhouse style , bringing an element of simplicity and class to your outdoor area .\n\n34778: island fusion abstract coffee table. a signature item in the collection , the cocktail table base features a stylized asian design in hammered metal . its top is made of molded fused glass with a soft undulation on the top surface and an pattern on its bottom .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \"34776\", \n    \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n",
+                "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n",
+                "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \n    \"34776\", \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34769",
+                "34768",
+                "21186",
+                "18588",
+                "34771",
+                "6138",
+                "34784",
+                "34776",
+                "34767",
+                "17336"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "island estate coffee table",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ],
+                [
+                    "34769",
+                    "17336",
+                    "20902",
+                    "34768",
+                    "17338",
+                    "36230",
+                    "39808",
+                    "26105",
+                    "23648",
+                    "3498"
+                ],
+                [
+                    "34768",
+                    "34769",
+                    "3498",
+                    "17336",
+                    "36230",
+                    "41349",
+                    "15572",
+                    "40966",
+                    "10985",
+                    "34778"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ],
+                [
+                    0.8191674947738647,
+                    0.794743537902832,
+                    0.7820913791656494,
+                    0.7764472961425781,
+                    0.7695196866989136,
+                    0.7626441717147827,
+                    0.7592752575874329,
+                    0.7565885186195374,
+                    0.7495564222335815,
+                    0.7469996213912964
+                ],
+                [
+                    0.8638790845870972,
+                    0.8340741395950317,
+                    0.776889979839325,
+                    0.7733629941940308,
+                    0.7695785760879517,
+                    0.7659399509429932,
+                    0.7637328505516052,
+                    0.7615215182304382,
+                    0.7588959336280823,
+                    0.7584664821624756
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n20902: lummus coffee table. this round coffee table brings boho flair to your living room with its novel shape and rattan weave . it 's made from abaca , which are woven fibers derived from banana leaves , and sits on four short , turned legs . this table features a purposefully distressed finish that feels right at home in a beachy bungalow or modern farmhouse space , and is highly versatile , doubling as a spare seat or ottoman . it measures 35 '' in diameter and comes fully assembled , so it 's ready to make a statement in your home from the moment it arrives .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n17338: mar vista block coffee table. round out your coastal farmhouse decor with this clean-lined coffee table . its airy design is handwoven from natural wicker and water hyacinth in your choice of neutral color . this piece features a tapered silhouette and a black base that measures 28 '' wide , offering you lots of room for a vanity tray , coasters , or a vase of flowers for that perfect beachy feel in your living room or den . plus , this rectangular coffee table arrives fully assembled , so there 's no need to break out your toolbelt .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n39808: richins coffee table with storage. this coffee table has a neutral two-tone color scheme that complements coastal farmhouse decors . the tabletop is made from solid pine wood , while the base is made from a mix of solid and engineered wood . an open bottom shelf offers additional storage for your books or a few storage baskets . plus , the base is decorated with openwork vs on the sides for a breezy silhouette . this side table measures 48 '' tall , making it ideal in any sized seating areas .\n\n26105: tia solid coffee table. seating ensemble feeling empty ? try a coffee table ! not only do they anchor your space , but they offer room to stage a display and serve up trays of treats when you find yourself entertaining . this one , for example , made in indonesia , its round frame is wrapped in rattan abaca with natural finishes that work well in beachy abodes and bohemian bungalows alike . measures 18 '' h x 32 '' l x 32 '' w .\n\n23648: isakson trestle coffee table. center your living room or den around coastal farmhouse charm with this coffee table . its butcher block-style tabletop is made from engineered wood with distressed details and visible wood grain for a rustic look . the metal trestle base has four flared legs with x-shaped supports on the sides . this table 's open bottom shelf gives you a spot to keep stacks of books or storage baskets . it measures 47.25 '' long , making it ideal in larger living rooms .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\nisland estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n41349: iolanthe solid wood coffee table with storage. our colonial-style coffee table is a timeless living accessory for your home . its wood top provides a stable and secure surface for holding your glasses , vases , fruits or ornaments , etc . this coffee table is made of wood with a natural finish , known for its exceptional strength . every step of the process is carried out with the most excellent care , be it polishing , painting , or lacquering . the large compartment underneath the table provides you with extra room for storage . colors and grains may vary from piece to piece , making each of our coffee tables unique . the delivery is random as well .\n\n15572: marson solid wood coffee table. at once elegant and rustic , this coffee table is a fabulous study in design fusion . the product \u2019 s gray whitewashes kubu rattan surface pairs beautifully with a sculpted bamboo style frame , giving any living room an artistic sense of depth and motion with rich , tropical vibes .\n\n40966: pancoast coffee table. breezy all-weather wicker coffee table will whisk you away to a tropical island . with the light gray frame and glass top , this table is unique and versatile . perfect for your porch or patio this table provides the perfect resting spot for your accessories , books , morning coffee or perhaps even your feet . durable all-weather wicker construction will withstand many weather conditions .\n\n10985: fotopoulos wooden coffee table. create a relaxed and airy atmosphere in your garden or your balcony with this coffee table . carefully crafted from exotic indonesian teak a strong and robust wood that famous for its natural teak grain and wide slat design for a stylish , durable and versatile design . inspired by modern farmhouse style , bringing an element of simplicity and class to your outdoor area .\n\n34778: island fusion abstract coffee table. a signature item in the collection , the cocktail table base features a stylized asian design in hammered metal . its top is made of molded fused glass with a soft undulation on the top surface and an pattern on its bottom .\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \"34776\", \n    \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n",
+                "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n",
+                "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \n    \"34776\", \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34769",
+                "34768",
+                "21186",
+                "18588",
+                "34771",
+                "6138",
+                "34784",
+                "34776",
+                "34767",
+                "17336"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "island estate coffee table",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n",
+                "island estate coffee table, specifying models (e.g., Key Largo, with storage),  including details on materials, dimensions, color options, and style (e.g., coastal, farmhouse), and whether it includes a matching end table or set.\n"
+            ],
+            "retrieved_lists": [
+                [
+                    "34769",
+                    "34771",
+                    "34784",
+                    "34768",
+                    "21186",
+                    "34767",
+                    "18588",
+                    "6138",
+                    "34776",
+                    "17336"
+                ],
+                [
+                    "34769",
+                    "17336",
+                    "20902",
+                    "34768",
+                    "17338",
+                    "36230",
+                    "39808",
+                    "26105",
+                    "23648",
+                    "3498"
+                ],
+                [
+                    "34768",
+                    "34769",
+                    "3498",
+                    "17336",
+                    "36230",
+                    "41349",
+                    "15572",
+                    "40966",
+                    "10985",
+                    "34778"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8308718204498291,
+                    0.8114094138145447,
+                    0.7855309844017029,
+                    0.7831265926361084,
+                    0.7827150821685791,
+                    0.7744613885879517,
+                    0.7685853242874146,
+                    0.7672222852706909,
+                    0.7628395557403564,
+                    0.7598822116851807
+                ],
+                [
+                    0.8191674947738647,
+                    0.794743537902832,
+                    0.7820913791656494,
+                    0.7764472961425781,
+                    0.7695196866989136,
+                    0.7626441717147827,
+                    0.7592752575874329,
+                    0.7565885186195374,
+                    0.7495564222335815,
+                    0.7469996213912964
+                ],
+                [
+                    0.8638790845870972,
+                    0.8340741395950317,
+                    0.776889979839325,
+                    0.7733629941940308,
+                    0.7695785760879517,
+                    0.7659399509429932,
+                    0.7637328505516052,
+                    0.7615215182304382,
+                    0.7588959336280823,
+                    0.7584664821624756
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34771: island estate 2 piece coffee table set. nan\n\n34784: island fusion coffee table set. nan\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n34767: island estate end table with storage. nan\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34776: island fusion nobu coffee table. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n20902: lummus coffee table. this round coffee table brings boho flair to your living room with its novel shape and rattan weave . it 's made from abaca , which are woven fibers derived from banana leaves , and sits on four short , turned legs . this table features a purposefully distressed finish that feels right at home in a beachy bungalow or modern farmhouse space , and is highly versatile , doubling as a spare seat or ottoman . it measures 35 '' in diameter and comes fully assembled , so it 's ready to make a statement in your home from the moment it arrives .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n17338: mar vista block coffee table. round out your coastal farmhouse decor with this clean-lined coffee table . its airy design is handwoven from natural wicker and water hyacinth in your choice of neutral color . this piece features a tapered silhouette and a black base that measures 28 '' wide , offering you lots of room for a vanity tray , coasters , or a vase of flowers for that perfect beachy feel in your living room or den . plus , this rectangular coffee table arrives fully assembled , so there 's no need to break out your toolbelt .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n39808: richins coffee table with storage. this coffee table has a neutral two-tone color scheme that complements coastal farmhouse decors . the tabletop is made from solid pine wood , while the base is made from a mix of solid and engineered wood . an open bottom shelf offers additional storage for your books or a few storage baskets . plus , the base is decorated with openwork vs on the sides for a breezy silhouette . this side table measures 48 '' tall , making it ideal in any sized seating areas .\n\n26105: tia solid coffee table. seating ensemble feeling empty ? try a coffee table ! not only do they anchor your space , but they offer room to stage a display and serve up trays of treats when you find yourself entertaining . this one , for example , made in indonesia , its round frame is wrapped in rattan abaca with natural finishes that work well in beachy abodes and bohemian bungalows alike . measures 18 '' h x 32 '' l x 32 '' w .\n\n23648: isakson trestle coffee table. center your living room or den around coastal farmhouse charm with this coffee table . its butcher block-style tabletop is made from engineered wood with distressed details and visible wood grain for a rustic look . the metal trestle base has four flared legs with x-shaped supports on the sides . this table 's open bottom shelf gives you a spot to keep stacks of books or storage baskets . it measures 47.25 '' long , making it ideal in larger living rooms .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\nisland estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: island estate coffee table\n\nDocuments:\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n3498: adelajde coffee table with storage. blending simple sophistication with coastal charm , this coffee table is a lovely centerpiece for your seating ensemble , whether you live close to the ocean or a little more inland . the crisp neutral finish and geometric open side framework anchor this piece in beach-chic style , while the lower shelf provides must-have storage space . this coffee table is crafted from mdf and solid wood , making it a budget-friendly , yet still stylish , pick for your home .\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n36230: kinsella coffee table with storage. this coffee table leans into its coastal farmhouse look with natural wood finishes and a mixed material design . the tabletop is made from solid pine wood and has a butcher block style with visible wood grain and knots for a rustic , antique look . four flared legs with x-shaped supports to create a farmhouse base . plus , there 's an open bottom shelf where you can keep stacks of books or storage baskets . it measures 48 '' long , making it ideal in any living room .\n\n41349: iolanthe solid wood coffee table with storage. our colonial-style coffee table is a timeless living accessory for your home . its wood top provides a stable and secure surface for holding your glasses , vases , fruits or ornaments , etc . this coffee table is made of wood with a natural finish , known for its exceptional strength . every step of the process is carried out with the most excellent care , be it polishing , painting , or lacquering . the large compartment underneath the table provides you with extra room for storage . colors and grains may vary from piece to piece , making each of our coffee tables unique . the delivery is random as well .\n\n15572: marson solid wood coffee table. at once elegant and rustic , this coffee table is a fabulous study in design fusion . the product \u2019 s gray whitewashes kubu rattan surface pairs beautifully with a sculpted bamboo style frame , giving any living room an artistic sense of depth and motion with rich , tropical vibes .\n\n40966: pancoast coffee table. breezy all-weather wicker coffee table will whisk you away to a tropical island . with the light gray frame and glass top , this table is unique and versatile . perfect for your porch or patio this table provides the perfect resting spot for your accessories , books , morning coffee or perhaps even your feet . durable all-weather wicker construction will withstand many weather conditions .\n\n10985: fotopoulos wooden coffee table. create a relaxed and airy atmosphere in your garden or your balcony with this coffee table . carefully crafted from exotic indonesian teak a strong and robust wood that famous for its natural teak grain and wide slat design for a stylish , durable and versatile design . inspired by modern farmhouse style , bringing an element of simplicity and class to your outdoor area .\n\n34778: island fusion abstract coffee table. a signature item in the collection , the cocktail table base features a stylized asian design in hammered metal . its top is made of molded fused glass with a soft undulation on the top surface and an pattern on its bottom .\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nisland estate coffee table\n***\n\nDocuments:\n***\n\n34769: island estate coffee table with storage. the four woven rattan drawer fronts provide ideal storage and the butterfly and book-matched veneers with a perimeter frame on the top make a perfect place for display or clear to appreciate the craftsmanship .\n\n34768: island estate key largo coffee table. the six-sided woven rattan base with leather binding is reflected in the matching angles of the enlarged glass top . similarly , the woven lampakani is presented in six triangles to replicate yet draw the entire design to a center focal point .\n\n21186: island coffee table. our beautiful island blue and cave gray coffee tables allow you to bring a taste of beautiful views home with you . mesmerizing is the perfect word to describe these tables . equip with black stainless steel legs , the tables are sure to turn heads and be the talk of all who see .\n\n18588: island pedestal coffee table. simple and functional , the coffee table is designed by namik ozkaynak .\n\n34771: island estate 2 piece coffee table set. nan\n\n6138: island 2 piece coffee table set. the tray set includes two trays made of resin to look like coral . these ivory trays are born when hand-carved molds are made and resin is poured into them . each is so strikingly real , they are the perfect substitute for real coral , which can not be sold for ethical reasons .\n\n34784: island fusion coffee table set. nan\n\n34776: island fusion nobu coffee table. nan\n\n34767: island estate end table with storage. nan\n\n17336: acme 2 piece coffee table set. this coffee table set creates a coastal farmhouse focal point in your living room or screened-in porch . it includes a coffee table and an end table made from rattan wicker with an openwork diamond trellis design along the sides that accent the convex drum silhouette . the woven tabletops create a flat surface to rest your morning coffee or display a few plants . the coffee table sits on four flared legs , while the end table sits directly on your floor for a modern look .\n\n***\n\nPrevious query reformulations:\n***\n\nisland estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n\n\nisland estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"34769\",\n    \"34768\",\n    \"21186\",\n    \"18588\",\n    \"34771\",\n    \"6138\",\n    \"34784\",\n    \"34776\",\n    \"34767\",\n    \"17336\"\n]\n\nprint(doc_ids)\n```\n",
+                "island estate coffee table, materials (rattan, wood, glass), dimensions, and style (coastal, farmhouse)\n",
+                "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \"34776\", \n    \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n",
+                "island estate coffee table, specifying models like \"key largo\" or \"with storage\", including details on materials (e.g., rattan, veneer, glass), dimensions, and style (e.g., coastal, farmhouse).\n",
+                "```python\ndoc_ids = [\n    \"34769\", \"34768\", \"21186\", \"18588\", \"34771\", \"6138\", \"34784\", \n    \"34776\", \"34767\", \"17336\"\n]\nprint(doc_ids)\n```\n",
+                "island estate coffee table, specifying models (e.g., Key Largo, with storage),  including details on materials, dimensions, color options, and style (e.g., coastal, farmhouse), and whether it includes a matching end table or set.\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34769",
+                "34768",
+                "21186",
+                "18588",
+                "34771",
+                "6138",
+                "34784",
+                "34776",
+                "34767",
+                "17336"
+            ],
+            "terminate": false
+        }
+    ]
+}

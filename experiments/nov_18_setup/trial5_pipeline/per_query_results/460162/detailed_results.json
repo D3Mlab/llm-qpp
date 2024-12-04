@@ -1,0 +1,199 @@
+{
+    "queries": [
+        "mri what to expect"
+    ],
+    "retrieved_lists": [
+        [
+            "7548961",
+            "6234040",
+            "2551368",
+            "2697809",
+            "8662720",
+            "2069360",
+            "4024430",
+            "175537",
+            "4025316",
+            "5419866"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6693016290664673,
+            0.26218968629837036,
+            0.2090623378753662,
+            0.1856333464384079,
+            0.1641264706850052,
+            0.1608782708644867,
+            0.14225837588310242,
+            0.13891682028770447,
+            0.1323891580104828,
+            0.11891413480043411
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: mri what to expect\n\nDocuments:\n\n7548961: What to Expect: MRI. MRI machines use a strong magnetic field to produce images of many different structures within the body. For safety reasons, you will be pre-screened during the scheduling process and again prior to your exam by a registered technologist.\n\n6234040: Low back pain is very common. It affects millions of people. In most cases, you don't need surgery for low back pain. But in rare cases, severe back pain can be a sign of cauda equina syndrome (CES), a condition that usually requires urgent surgical treatment.\n\n2551368: Preparing Your Home. The following tips can help make your return home more comfortable, and can be addressed before your surgery: 1  Rearrange furniture so you can maneuver with a cane, walker, or crutches. 2  You may temporarily change rooms (make the living room your bedroom, for example) to minimize the use of stairs.\n\n2697809: The websites, email your doctor, and the Hillcrest Clinics Patient Portal are for NON-EMERGENCY USE ONLY. Please allow up to 48 hours for a reply when using \u00e2\u0080\u009cEmail Your Doctor\u00e2\u0080\u009d or the \u00e2\u0080\u009cHillcrest Clinics Patient Portal\u00e2\u0080\u009d. If you are experiencing an emergency, please call 9-1-1 or go to your nearest emergency room.\n\n8662720: Rhode Island nursing home residents are assured respectful and dignified treatment by staff and medical providers. This includes the right to proper medical treatment. Under the law, each resident\u00e2\u0080\u0099s medical needs must be properly met, and the patient may not be subjected to any form of neglect or abuse.\n\n2069360: The Aries zodiac sign is straightforward, aggressive and adventurous and this is reflected in their approach to sex. Expect it to be physical, quick and rough, they like to dominate and have the upper position.\n\n4024430: Financial Underwriting An evaluation of the financial need and purpose for a proposed life insurance policy is a key part of the underwriting process. The writing agent is a key source of information, and we depend heavily on their ability to help us understand and resolve any financial issues.o other adverse underwriting considerations per underwriting judgment, to include; cancer, heart disease, stroke, diabetes, or alcohol/substance abuse. Blood Pressure Average from current medical exam and history readings within the last year do not exceed 135/85 through age 60 or 140/85 for ages 61-70.\n\n175537: A tremor is a repetitive movement of a part of your body. It is involuntary. This means that it is generally not controllable and happens without you deciding to move that body part. It is often felt as a trembling or shaking sensation.\n\n4025316: Clinical Definition of Benign Prostatic Hyperplasia (BPH). A sound definition of benign prostatic hyperplasia (BPH) combines the pathologic definition with the presence of symptoms, which are thought to be due to the prostate hyperplasia (e.g. LUTS, hematuria, bladder stones or kidney failure).he prevalence of benign prostate hyperplasia is age dependent: starting with the age of 35, the prevalence increases each decade by 15%. Nearly 100% of 90 year old men have benign prostate hyperplasia (pathologic definition). The pathologic prevalence does not correlate with the clinical significance.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n"
+    ],
+    "responses": [
+        "```python\n['7548961', '6234040', '2551368', '2697809', '8662720', '2069360', '4024430', '175537', '4025316', '5419866']\n```"
+    ],
+    "curr_top_k_docIDs": [
+        "7548961",
+        "6234040",
+        "2551368",
+        "2697809",
+        "8662720",
+        "2069360",
+        "4024430",
+        "175537",
+        "4025316",
+        "5419866"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "mri what to expect"
+            ]
+        },
+        {
+            "queries": [
+                "mri what to expect"
+            ],
+            "retrieved_lists": [
+                [
+                    "7548961",
+                    "6234040",
+                    "2551368",
+                    "2697809",
+                    "8662720",
+                    "2069360",
+                    "4024430",
+                    "175537",
+                    "4025316",
+                    "5419866"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6693016290664673,
+                    0.26218968629837036,
+                    0.2090623378753662,
+                    0.1856333464384079,
+                    0.1641264706850052,
+                    0.1608782708644867,
+                    0.14225837588310242,
+                    0.13891682028770447,
+                    0.1323891580104828,
+                    0.11891413480043411
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "mri what to expect"
+            ],
+            "retrieved_lists": [
+                [
+                    "7548961",
+                    "6234040",
+                    "2551368",
+                    "2697809",
+                    "8662720",
+                    "2069360",
+                    "4024430",
+                    "175537",
+                    "4025316",
+                    "5419866"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6693016290664673,
+                    0.26218968629837036,
+                    0.2090623378753662,
+                    0.1856333464384079,
+                    0.1641264706850052,
+                    0.1608782708644867,
+                    0.14225837588310242,
+                    0.13891682028770447,
+                    0.1323891580104828,
+                    0.11891413480043411
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: mri what to expect\n\nDocuments:\n\n7548961: What to Expect: MRI. MRI machines use a strong magnetic field to produce images of many different structures within the body. For safety reasons, you will be pre-screened during the scheduling process and again prior to your exam by a registered technologist.\n\n6234040: Low back pain is very common. It affects millions of people. In most cases, you don't need surgery for low back pain. But in rare cases, severe back pain can be a sign of cauda equina syndrome (CES), a condition that usually requires urgent surgical treatment.\n\n2551368: Preparing Your Home. The following tips can help make your return home more comfortable, and can be addressed before your surgery: 1  Rearrange furniture so you can maneuver with a cane, walker, or crutches. 2  You may temporarily change rooms (make the living room your bedroom, for example) to minimize the use of stairs.\n\n2697809: The websites, email your doctor, and the Hillcrest Clinics Patient Portal are for NON-EMERGENCY USE ONLY. Please allow up to 48 hours for a reply when using \u00e2\u0080\u009cEmail Your Doctor\u00e2\u0080\u009d or the \u00e2\u0080\u009cHillcrest Clinics Patient Portal\u00e2\u0080\u009d. If you are experiencing an emergency, please call 9-1-1 or go to your nearest emergency room.\n\n8662720: Rhode Island nursing home residents are assured respectful and dignified treatment by staff and medical providers. This includes the right to proper medical treatment. Under the law, each resident\u00e2\u0080\u0099s medical needs must be properly met, and the patient may not be subjected to any form of neglect or abuse.\n\n2069360: The Aries zodiac sign is straightforward, aggressive and adventurous and this is reflected in their approach to sex. Expect it to be physical, quick and rough, they like to dominate and have the upper position.\n\n4024430: Financial Underwriting An evaluation of the financial need and purpose for a proposed life insurance policy is a key part of the underwriting process. The writing agent is a key source of information, and we depend heavily on their ability to help us understand and resolve any financial issues.o other adverse underwriting considerations per underwriting judgment, to include; cancer, heart disease, stroke, diabetes, or alcohol/substance abuse. Blood Pressure Average from current medical exam and history readings within the last year do not exceed 135/85 through age 60 or 140/85 for ages 61-70.\n\n175537: A tremor is a repetitive movement of a part of your body. It is involuntary. This means that it is generally not controllable and happens without you deciding to move that body part. It is often felt as a trembling or shaking sensation.\n\n4025316: Clinical Definition of Benign Prostatic Hyperplasia (BPH). A sound definition of benign prostatic hyperplasia (BPH) combines the pathologic definition with the presence of symptoms, which are thought to be due to the prostate hyperplasia (e.g. LUTS, hematuria, bladder stones or kidney failure).he prevalence of benign prostate hyperplasia is age dependent: starting with the age of 35, the prevalence increases each decade by 15%. Nearly 100% of 90 year old men have benign prostate hyperplasia (pathologic definition). The pathologic prevalence does not correlate with the clinical significance.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n"
+            ],
+            "responses": [
+                "```python\n['7548961', '6234040', '2551368', '2697809', '8662720', '2069360', '4024430', '175537', '4025316', '5419866']\n```"
+            ],
+            "curr_top_k_docIDs": [
+                "7548961",
+                "6234040",
+                "2551368",
+                "2697809",
+                "8662720",
+                "2069360",
+                "4024430",
+                "175537",
+                "4025316",
+                "5419866"
+            ]
+        },
+        {
+            "queries": [
+                "mri what to expect"
+            ],
+            "retrieved_lists": [
+                [
+                    "7548961",
+                    "6234040",
+                    "2551368",
+                    "2697809",
+                    "8662720",
+                    "2069360",
+                    "4024430",
+                    "175537",
+                    "4025316",
+                    "5419866"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6693016290664673,
+                    0.26218968629837036,
+                    0.2090623378753662,
+                    0.1856333464384079,
+                    0.1641264706850052,
+                    0.1608782708644867,
+                    0.14225837588310242,
+                    0.13891682028770447,
+                    0.1323891580104828,
+                    0.11891413480043411
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [<docID1>,...,<dockID10>]\n\nQuery: mri what to expect\n\nDocuments:\n\n7548961: What to Expect: MRI. MRI machines use a strong magnetic field to produce images of many different structures within the body. For safety reasons, you will be pre-screened during the scheduling process and again prior to your exam by a registered technologist.\n\n6234040: Low back pain is very common. It affects millions of people. In most cases, you don't need surgery for low back pain. But in rare cases, severe back pain can be a sign of cauda equina syndrome (CES), a condition that usually requires urgent surgical treatment.\n\n2551368: Preparing Your Home. The following tips can help make your return home more comfortable, and can be addressed before your surgery: 1  Rearrange furniture so you can maneuver with a cane, walker, or crutches. 2  You may temporarily change rooms (make the living room your bedroom, for example) to minimize the use of stairs.\n\n2697809: The websites, email your doctor, and the Hillcrest Clinics Patient Portal are for NON-EMERGENCY USE ONLY. Please allow up to 48 hours for a reply when using \u00e2\u0080\u009cEmail Your Doctor\u00e2\u0080\u009d or the \u00e2\u0080\u009cHillcrest Clinics Patient Portal\u00e2\u0080\u009d. If you are experiencing an emergency, please call 9-1-1 or go to your nearest emergency room.\n\n8662720: Rhode Island nursing home residents are assured respectful and dignified treatment by staff and medical providers. This includes the right to proper medical treatment. Under the law, each resident\u00e2\u0080\u0099s medical needs must be properly met, and the patient may not be subjected to any form of neglect or abuse.\n\n2069360: The Aries zodiac sign is straightforward, aggressive and adventurous and this is reflected in their approach to sex. Expect it to be physical, quick and rough, they like to dominate and have the upper position.\n\n4024430: Financial Underwriting An evaluation of the financial need and purpose for a proposed life insurance policy is a key part of the underwriting process. The writing agent is a key source of information, and we depend heavily on their ability to help us understand and resolve any financial issues.o other adverse underwriting considerations per underwriting judgment, to include; cancer, heart disease, stroke, diabetes, or alcohol/substance abuse. Blood Pressure Average from current medical exam and history readings within the last year do not exceed 135/85 through age 60 or 140/85 for ages 61-70.\n\n175537: A tremor is a repetitive movement of a part of your body. It is involuntary. This means that it is generally not controllable and happens without you deciding to move that body part. It is often felt as a trembling or shaking sensation.\n\n4025316: Clinical Definition of Benign Prostatic Hyperplasia (BPH). A sound definition of benign prostatic hyperplasia (BPH) combines the pathologic definition with the presence of symptoms, which are thought to be due to the prostate hyperplasia (e.g. LUTS, hematuria, bladder stones or kidney failure).he prevalence of benign prostate hyperplasia is age dependent: starting with the age of 35, the prevalence increases each decade by 15%. Nearly 100% of 90 year old men have benign prostate hyperplasia (pathologic definition). The pathologic prevalence does not correlate with the clinical significance.\n\n5419866: Why a widowmaker heart attack is so dangerous. Matt Easley\u00e2\u0080\u0099s heart attack story began with a headache. The 40-year-old father of two woke up early one morning with severe pain. Easley took some over-the-counter pain medication, and then went back to bed, thinking the pain would go away.\n\n"
+            ],
+            "responses": [
+                "```python\n['7548961', '6234040', '2551368', '2697809', '8662720', '2069360', '4024430', '175537', '4025316', '5419866']\n```"
+            ],
+            "curr_top_k_docIDs": [
+                "7548961",
+                "6234040",
+                "2551368",
+                "2697809",
+                "8662720",
+                "2069360",
+                "4024430",
+                "175537",
+                "4025316",
+                "5419866"
+            ],
+            "terminate": true
+        }
+    ]
+}

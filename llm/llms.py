@@ -22,8 +22,8 @@ class BaseLLM(ABC):
         self.model_name = model_name
 
         llm_config = self.config.get('llm', {})
-        self.dwell_time = llm_config.get('dwell_time', 2) 
-        self.num_retries = llm_config.get('num_retries', 3)
+        self.dwell_time = llm_config.get('dwell_time', 60) 
+        self.num_retries = llm_config.get('num_retries', 5)
         
     def prompt(self, *args, **kwargs):
         """Prompts with retries and catches errors"""
