@@ -38,6 +38,8 @@ class PipelinePolicy(BasePolicy):
         if self.current_step >= len(self.steps):
             self.current_step = 0
             self.iteration_count += 1
+            state["iteration"] = self.iteration_count
+
             if self.iteration_count >= self.max_iterations:
                 #this is a backup... we're expecting earlier termination via checks in QPP functions that set state["terminate"] = True to avoid an un-necessary extra reformulation step at the end of the pipeline
                 return None

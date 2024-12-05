@@ -19,7 +19,8 @@ class GeneralAgent(BaseAgent):
 
         #state_hist[t] is state at step t
         self.state_hist = [{
-            'queries' : [query]
+            'queries' : [query],
+            'iteration' : 0
             }]
 
         while True:

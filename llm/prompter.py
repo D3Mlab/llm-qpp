@@ -48,8 +48,8 @@ class Prompter():
         curr_top_k_docIDs = state.get("curr_top_k_docIDs", [])
         last_k_retrieved_docIDs = state["retrieved_lists"][-1]
         doc_ids = curr_top_k_docIDs + last_k_retrieved_docIDs
+        k = self.config['rerank'].get('k')
 
-        k = self.config['knn'].get('k')
 
         corpus_path = self.config['data_paths']['corpus_text_path']
         doc_ids_and_texts = get_doc_text_list(doc_ids,corpus_path)
