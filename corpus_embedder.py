@@ -59,7 +59,7 @@ if __name__ == "__main__":
     #embedder = embedding.RandomEmbedder(model_name = model_name)
 
     #data_path = "data/Wayfair_products/"
-    data_path = "data/Wayfair_products/exact_relevance_only/"
+    data_path = "data/ROEGEN/q50_d570/"
 
 
     #setup logging
@@ -73,6 +73,6 @@ if __name__ == "__main__":
     logger = setup_logging(f"{model_name}", config)
 
     corpus_path = f"{data_path}collection.jsonl"
-    emb_path = f"{data_path}collection_{model_name}.pkl"
+    emb_path = f"{data_path}collection_{model_name}_attention_mask_1.pkl"
 
-    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 100)
+    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1)

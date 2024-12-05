@@ -57,7 +57,6 @@ class EvalManager():
         self.all_query_eval_results = {}
 
         for query_dir in results_dir.iterdir():
-            print("QUERY DIR", query_dir)
             if query_dir.is_dir():
                 self.evaluate_single_query(query_dir, selected_measures)
 
@@ -80,20 +79,17 @@ class EvalManager():
 
         # Parse deduplicated TREC results
         results = pytrec_eval.parse_run(deduped_lines)
-        print("RESULTS", results)
+
 
         # Evaluate using pytrec_eval
         evaluator = pytrec_eval.RelevanceEvaluator(self.load_qrels(), selected_measures)
         per_query_eval_results = evaluator.evaluate(results)
-        print("PER QUERY EVAL RESULTS", per_query_eval_results)
 
         # Write per-query evaluation results
         self.write_jsonl(eval_results_path, per_query_eval_results)
         self.gen_pdf(query_dir)
 
         # Store results for calculating averages and confidence intervals
-        print("QUERY DIR NAME", query_dir.name)
-        print("PER QUERY EVAL RESULTS", per_query_eval_results)
         self.all_query_eval_results[query_dir.name] = per_query_eval_results[query_dir.name]
 
     def gen_pdf(self, query_dir):
@@ -233,11 +229,11 @@ class EvalManager():
         mean_results = {}
         ci_results = {}
 
-        self.experiment_logger.debug(f"self.all_query_eval_results {self.all_query_eval_results} ")
+        #self.experiment_logger.debug(f"self.all_query_eval_results {self.all_query_eval_results} ")
 
         for measure in selected_measures:
             values = [result.get(measure) for result in self.all_query_eval_results.values() if result.get(measure) is not None]
-            self.experiment_logger.debug(f"Values for measure {measure}: {values}")
+            #self.experiment_logger.debug(f"Values for measure {measure}: {values}")
             if values:
                 mean_value = np.mean(values)
                 std_dev = np.std(values, ddof=1)

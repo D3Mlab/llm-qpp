@@ -1,0 +1,139 @@
+{
+    "queries": [
+        "Top destinations renowned for their architectural landmarks"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "193",
+            "415",
+            "427",
+            "334",
+            "42",
+            "407",
+            "22",
+            "245",
+            "301",
+            "332"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.38379615545272827,
+            0.37505269050598145,
+            0.3733138144016266,
+            0.36041754484176636,
+            0.35919249057769775,
+            0.35066649317741394,
+            0.3480154275894165,
+            0.3456602096557617,
+            0.34372955560684204,
+            0.3430468738079071
+        ]
+    ],
+    "last_action_method": "return_last_retrieved_list",
+    "curr_top_k_docIDs": [
+        "193",
+        "415",
+        "427",
+        "334",
+        "42",
+        "407",
+        "22",
+        "245",
+        "301",
+        "332"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Top destinations renowned for their architectural landmarks"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Top destinations renowned for their architectural landmarks"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "193",
+                    "415",
+                    "427",
+                    "334",
+                    "42",
+                    "407",
+                    "22",
+                    "245",
+                    "301",
+                    "332"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.38379615545272827,
+                    0.37505269050598145,
+                    0.3733138144016266,
+                    0.36041754484176636,
+                    0.35919249057769775,
+                    0.35066649317741394,
+                    0.3480154275894165,
+                    0.3456602096557617,
+                    0.34372955560684204,
+                    0.3430468738079071
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Top destinations renowned for their architectural landmarks"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "193",
+                    "415",
+                    "427",
+                    "334",
+                    "42",
+                    "407",
+                    "22",
+                    "245",
+                    "301",
+                    "332"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.38379615545272827,
+                    0.37505269050598145,
+                    0.3733138144016266,
+                    0.36041754484176636,
+                    0.35919249057769775,
+                    0.35066649317741394,
+                    0.3480154275894165,
+                    0.3456602096557617,
+                    0.34372955560684204,
+                    0.3430468738079071
+                ]
+            ],
+            "last_action_method": "return_last_retrieved_list",
+            "curr_top_k_docIDs": [
+                "193",
+                "415",
+                "427",
+                "334",
+                "42",
+                "407",
+                "22",
+                "245",
+                "301",
+                "332"
+            ],
+            "terminate": true
+        }
+    ]
+}

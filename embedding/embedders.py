@@ -104,8 +104,12 @@ class HuggingFaceEmbedder(BaseEmbedder):
                 # Get the model's last hidden states
                 outputs = self.model(**inputs)
                 if self.pooling_type == 'mean':
-                    # Mean pooling
-                    embedding = outputs.last_hidden_state.mean(dim=1)
+                    # Mean pooling excluding padding tokens
+                    attention_mask = inputs['attention_mask']
+                    input_mask_expanded = attention_mask.unsqueeze(-1).expand(outputs.last_hidden_state.size()).float()
+                    sum_embeddings = torch.sum(outputs.last_hidden_state * input_mask_expanded, dim=1)
+                    sum_mask = input_mask_expanded.sum(dim=1)
+                    embedding = sum_embeddings / sum_mask.clamp(min=1e-9)
                 elif self.pooling_type == 'cls':
                     # CLS token pooling
                     embedding = outputs.last_hidden_state[:, 0, :]
