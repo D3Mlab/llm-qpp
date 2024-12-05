@@ -3,5 +3,4 @@ logging:
 conf_level: 0.95
 qrels_path: data/Wayfair_products/exact_relevance_first_20_q/qrels.qrels
 corpus_text_path: data/Wayfair_products/exact_relevance_first_20_q/collection.jsonl
-
 measures: ["map_cut_10", "recall_10"]
