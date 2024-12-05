@@ -10,10 +10,10 @@ class AgentLogic():
         self.logger = setup_logging(self.__class__.__name__, self.config)
 
     def check_max_q_reforms(self,state):
-        max_q_reforms = self.config['agent'].get("max_q_reforms")
-        num_q_reforms = len(state['queries'])-1 #number of total queries - 1 (for initial query)
+        max_queries = self.config['agent'].get("max_queries")
+        num_queries = len(state['queries'])
 
-        if num_q_reforms < max_q_reforms:
+        if num_queries < max_queries:
             state["terminate"] = False
         else:
             state["terminate"] = True

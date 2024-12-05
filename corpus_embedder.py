@@ -61,6 +61,7 @@ if __name__ == "__main__":
     #data_path = "data/Wayfair_products/"
     data_path = "data/Wayfair_products/exact_relevance_only/"
 
+
     #setup logging
     config = {
         "logging": {

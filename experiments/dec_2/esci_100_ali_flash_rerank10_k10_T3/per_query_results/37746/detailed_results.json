@@ -1,0 +1,626 @@
+{
+    "queries": [
+        "english version bible",
+        "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n",
+        "english version bible, including different formats like hardcover, paperback, and digital versions\n"
+    ],
+    "iteration": 2,
+    "retrieved_lists": [
+        [
+            "706529",
+            "716931",
+            "1594615",
+            "752132",
+            "1216177",
+            "1461288",
+            "1619977",
+            "918959",
+            "1566428",
+            "465682"
+        ],
+        [
+            "1138725",
+            "1481476",
+            "1246709",
+            "1386953",
+            "862811",
+            "1044003",
+            "1562062",
+            "22931",
+            "1008106",
+            "1556421"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7906259298324585,
+            0.7402369976043701,
+            0.724153995513916,
+            0.6983242034912109,
+            0.6900819540023804,
+            0.6814043521881104,
+            0.6664520502090454,
+            0.6640926599502563,
+            0.6572070121765137,
+            0.6532531976699829
+        ],
+        [
+            0.6558678150177002,
+            0.6503137350082397,
+            0.6469724178314209,
+            0.6450725793838501,
+            0.6372199654579163,
+            0.6335233449935913,
+            0.6279552578926086,
+            0.625987708568573,
+            0.6216589212417603,
+            0.6182774305343628
+        ]
+    ],
+    "last_action_method": "reform_q_post_retr",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nenglish version bible\n***\n\nDocuments:\n***\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n1138725: NKJV, Precious Moments Holy Bible, Hardcover, Pink: Small Hands Bible\n\n1481476: ESV Large Print Compact Bible (FONT SIZE: 8 pt., TruTone, Berry, Floral Design)\n\n1246709: ESV Large Print Bible (TruTone, Tan, Ornament Design)\n\n1386953: Bridawn Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian\tProduct Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian Product Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case ChristianFrom the manufacturer Read more About Bridawn Felt Bible Cover Case We aim to bring a high-quality, healthy and colorful lifestyle to every customer and make every effort to develop well-made, beautiful, casual, and comfortable products. Our Bridawn felt bible cover is made from thick felt, which is soft, durable and sturdy enough to protect your Bibles and other valuables from scratching. This Bible bag not only for men, but also for women. You can use it as a church bag, tote bag, iPad Bag, Business Briefcase, Casual Bag, Travel Bag, Handbag. With this simple stylish cross design bag, no matter where you go, you'll be the central. Read more Product Details High-end PU Leather Handles Premium PU Leather handles offer comfortable carrying experiences. This Bible case can be perfectly used for study, business, leisure and travel, with stylish and decent in appearance, you will be delighted with our bible bag. Unique Carved Cross Hollowed cross makes the thick felt become light and breathable. This cover is a rare beauty not to be missed, a genuine collector's item & the result of masterly workmanship. Spacious & Convenient Size: 13.8(H)*9.4(L)*3.10(W). Roomy enough to hold your Lord\u2019s Day supplies and bible study items. Magnetic snap is easy and quick to open/ close, convenient to get your items. Read more\n\n862811: ESV Study Bible (TruTone, Brown/Cordovan, Portfolio Design, Indexed)\n\n1044003: Biblia Biling\u00fce, NVI/NIV, Leathersoft, Azul / Spanish Bilingual Bible, NVI/NIV, Leathersoft, Blue (Spanish Edition)\n\n1562062: ESV Large Print Value Thinline Bible (TruTone, Tan, Ornament Design)\n\n22931: KJV Holy Bible, Compact Aqua and Red Faux Leather w/Ribbon Marker, Red Letter, King James Version\n\n1008106: Biblia Biling\u00fce Reina Valera 1960/KJV Letra grande, negro, imitaci\u00f3n piel / Bilingual Bible RVR 1960/KJV Large print, Black, Imitation Leather (Spanish Edition)\n\n1556421: REALTREE\u2122 MAJESTIC BIBLE TABS - CAMO VERSION\n\n",
+        "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nenglish version bible\n***\n\nDocuments:\n***\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n1481476: ESV Large Print Compact Bible (FONT SIZE: 8 pt., TruTone, Berry, Floral Design)\n\n1246709: ESV Large Print Bible (TruTone, Tan, Ornament Design)\n\n862811: ESV Study Bible (TruTone, Brown/Cordovan, Portfolio Design, Indexed)\n\n1562062: ESV Large Print Value Thinline Bible (TruTone, Tan, Ornament Design)\n\n***\n\nPrevious query reformulations:\n***\n\nenglish version bible, including different translations like KJV, NKJV, NIV, and NLT\n\n\n***\n\nOutput only your reformulated query:"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"706529\", \"716931\", \"1594615\", \"752132\", \"1216177\", \"1461288\",\n    \"1619977\", \"918959\", \"1566428\", \"465682\"\n]\n\n# Prioritize documents with \"English Version\" or \"English Standard Version\" in their titles.\n# Then prioritize documents that mention \"Bible\" prominently.\n\nordered_doc_ids = sorted(doc_ids, key=lambda doc_id: (\n    -(\"English Version\" in doc_id_to_title(doc_id)),  # Higher score for \"English Version\"\n    -(\"English Standard Version\" in doc_id_to_title(doc_id)), # Higher score for \"English Standard Version\"\n    -(\"Bible\" in doc_id_to_title(doc_id).split()[0]), # Higher score if \"Bible\" is at the beginning\n    -(\"Bible\" in doc_id_to_title(doc_id)) # Higher score if \"Bible\" is present\n), reverse=True)\n\n#Return only the top 10\nordered_doc_ids = ordered_doc_ids[:10]\n\nprint(ordered_doc_ids)\n\n\ndef doc_id_to_title(doc_id):\n    \"\"\"Maps doc_id to title (for demonstration, replace with actual lookup).\"\"\"\n    doc_id_title_map = {\n        \"706529\": \"Holy Bible: Contemporary English Version\",\n        \"716931\": \"The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\",\n        \"1594615\": \"Text Bible-Good News\",\n        \"752132\": \"MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\",\n        \"1216177\": \"ESV Large Print Bible (TruTone, Black)\",\n        \"1461288\": \"MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\",\n        \"1619977\": \"Extreme Faith Bible: Contemporary English Version\",\n        \"918959\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\",\n        \"1566428\": \"ESV Pew and Worship Bible, Large Print (Black)\",\n        \"465682\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\"\n    }\n    return doc_id_title_map.get(doc_id, \"\")\n\n```",
+        "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n",
+        "```python\ndoc_ids = [\n    \"706529\",\n    \"716931\",\n    \"1461288\",\n    \"1619977\",\n    \"1216177\",\n    \"1566428\",\n    \"1481476\",\n    \"1246709\",\n    \"862811\",\n    \"1562062\"\n]\n\nprint(doc_ids)\n```\n",
+        "english version bible, including different formats like hardcover, paperback, and digital versions\n"
+    ],
+    "curr_top_k_docIDs": [
+        "706529",
+        "716931",
+        "1461288",
+        "1619977",
+        "1216177",
+        "1566428",
+        "1481476",
+        "1246709",
+        "862811",
+        "1562062"
+    ],
+    "terminate": false,
+    "state_history": [
+        {
+            "queries": [
+                "english version bible"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "english version bible"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "706529",
+                    "716931",
+                    "1594615",
+                    "752132",
+                    "1216177",
+                    "1461288",
+                    "1619977",
+                    "918959",
+                    "1566428",
+                    "465682"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7906259298324585,
+                    0.7402369976043701,
+                    0.724153995513916,
+                    0.6983242034912109,
+                    0.6900819540023804,
+                    0.6814043521881104,
+                    0.6664520502090454,
+                    0.6640926599502563,
+                    0.6572070121765137,
+                    0.6532531976699829
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "english version bible"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "706529",
+                    "716931",
+                    "1594615",
+                    "752132",
+                    "1216177",
+                    "1461288",
+                    "1619977",
+                    "918959",
+                    "1566428",
+                    "465682"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7906259298324585,
+                    0.7402369976043701,
+                    0.724153995513916,
+                    0.6983242034912109,
+                    0.6900819540023804,
+                    0.6814043521881104,
+                    0.6664520502090454,
+                    0.6640926599502563,
+                    0.6572070121765137,
+                    0.6532531976699829
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"706529\", \"716931\", \"1594615\", \"752132\", \"1216177\", \"1461288\",\n    \"1619977\", \"918959\", \"1566428\", \"465682\"\n]\n\n# Prioritize documents with \"English Version\" or \"English Standard Version\" in their titles.\n# Then prioritize documents that mention \"Bible\" prominently.\n\nordered_doc_ids = sorted(doc_ids, key=lambda doc_id: (\n    -(\"English Version\" in doc_id_to_title(doc_id)),  # Higher score for \"English Version\"\n    -(\"English Standard Version\" in doc_id_to_title(doc_id)), # Higher score for \"English Standard Version\"\n    -(\"Bible\" in doc_id_to_title(doc_id).split()[0]), # Higher score if \"Bible\" is at the beginning\n    -(\"Bible\" in doc_id_to_title(doc_id)) # Higher score if \"Bible\" is present\n), reverse=True)\n\n#Return only the top 10\nordered_doc_ids = ordered_doc_ids[:10]\n\nprint(ordered_doc_ids)\n\n\ndef doc_id_to_title(doc_id):\n    \"\"\"Maps doc_id to title (for demonstration, replace with actual lookup).\"\"\"\n    doc_id_title_map = {\n        \"706529\": \"Holy Bible: Contemporary English Version\",\n        \"716931\": \"The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\",\n        \"1594615\": \"Text Bible-Good News\",\n        \"752132\": \"MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\",\n        \"1216177\": \"ESV Large Print Bible (TruTone, Black)\",\n        \"1461288\": \"MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\",\n        \"1619977\": \"Extreme Faith Bible: Contemporary English Version\",\n        \"918959\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\",\n        \"1566428\": \"ESV Pew and Worship Bible, Large Print (Black)\",\n        \"465682\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\"\n    }\n    return doc_id_title_map.get(doc_id, \"\")\n\n```"
+            ],
+            "curr_top_k_docIDs": [
+                "706529",
+                "716931",
+                "1594615",
+                "752132",
+                "1216177",
+                "1461288",
+                "1619977",
+                "918959",
+                "1566428",
+                "465682"
+            ]
+        },
+        {
+            "queries": [
+                "english version bible"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "706529",
+                    "716931",
+                    "1594615",
+                    "752132",
+                    "1216177",
+                    "1461288",
+                    "1619977",
+                    "918959",
+                    "1566428",
+                    "465682"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7906259298324585,
+                    0.7402369976043701,
+                    0.724153995513916,
+                    0.6983242034912109,
+                    0.6900819540023804,
+                    0.6814043521881104,
+                    0.6664520502090454,
+                    0.6640926599502563,
+                    0.6572070121765137,
+                    0.6532531976699829
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"706529\", \"716931\", \"1594615\", \"752132\", \"1216177\", \"1461288\",\n    \"1619977\", \"918959\", \"1566428\", \"465682\"\n]\n\n# Prioritize documents with \"English Version\" or \"English Standard Version\" in their titles.\n# Then prioritize documents that mention \"Bible\" prominently.\n\nordered_doc_ids = sorted(doc_ids, key=lambda doc_id: (\n    -(\"English Version\" in doc_id_to_title(doc_id)),  # Higher score for \"English Version\"\n    -(\"English Standard Version\" in doc_id_to_title(doc_id)), # Higher score for \"English Standard Version\"\n    -(\"Bible\" in doc_id_to_title(doc_id).split()[0]), # Higher score if \"Bible\" is at the beginning\n    -(\"Bible\" in doc_id_to_title(doc_id)) # Higher score if \"Bible\" is present\n), reverse=True)\n\n#Return only the top 10\nordered_doc_ids = ordered_doc_ids[:10]\n\nprint(ordered_doc_ids)\n\n\ndef doc_id_to_title(doc_id):\n    \"\"\"Maps doc_id to title (for demonstration, replace with actual lookup).\"\"\"\n    doc_id_title_map = {\n        \"706529\": \"Holy Bible: Contemporary English Version\",\n        \"716931\": \"The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\",\n        \"1594615\": \"Text Bible-Good News\",\n        \"752132\": \"MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\",\n        \"1216177\": \"ESV Large Print Bible (TruTone, Black)\",\n        \"1461288\": \"MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\",\n        \"1619977\": \"Extreme Faith Bible: Contemporary English Version\",\n        \"918959\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\",\n        \"1566428\": \"ESV Pew and Worship Bible, Large Print (Black)\",\n        \"465682\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\"\n    }\n    return doc_id_title_map.get(doc_id, \"\")\n\n```"
+            ],
+            "curr_top_k_docIDs": [
+                "706529",
+                "716931",
+                "1594615",
+                "752132",
+                "1216177",
+                "1461288",
+                "1619977",
+                "918959",
+                "1566428",
+                "465682"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "english version bible",
+                "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n"
+            ],
+            "iteration": 1,
+            "retrieved_lists": [
+                [
+                    "706529",
+                    "716931",
+                    "1594615",
+                    "752132",
+                    "1216177",
+                    "1461288",
+                    "1619977",
+                    "918959",
+                    "1566428",
+                    "465682"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7906259298324585,
+                    0.7402369976043701,
+                    0.724153995513916,
+                    0.6983242034912109,
+                    0.6900819540023804,
+                    0.6814043521881104,
+                    0.6664520502090454,
+                    0.6640926599502563,
+                    0.6572070121765137,
+                    0.6532531976699829
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nenglish version bible\n***\n\nDocuments:\n***\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"706529\", \"716931\", \"1594615\", \"752132\", \"1216177\", \"1461288\",\n    \"1619977\", \"918959\", \"1566428\", \"465682\"\n]\n\n# Prioritize documents with \"English Version\" or \"English Standard Version\" in their titles.\n# Then prioritize documents that mention \"Bible\" prominently.\n\nordered_doc_ids = sorted(doc_ids, key=lambda doc_id: (\n    -(\"English Version\" in doc_id_to_title(doc_id)),  # Higher score for \"English Version\"\n    -(\"English Standard Version\" in doc_id_to_title(doc_id)), # Higher score for \"English Standard Version\"\n    -(\"Bible\" in doc_id_to_title(doc_id).split()[0]), # Higher score if \"Bible\" is at the beginning\n    -(\"Bible\" in doc_id_to_title(doc_id)) # Higher score if \"Bible\" is present\n), reverse=True)\n\n#Return only the top 10\nordered_doc_ids = ordered_doc_ids[:10]\n\nprint(ordered_doc_ids)\n\n\ndef doc_id_to_title(doc_id):\n    \"\"\"Maps doc_id to title (for demonstration, replace with actual lookup).\"\"\"\n    doc_id_title_map = {\n        \"706529\": \"Holy Bible: Contemporary English Version\",\n        \"716931\": \"The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\",\n        \"1594615\": \"Text Bible-Good News\",\n        \"752132\": \"MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\",\n        \"1216177\": \"ESV Large Print Bible (TruTone, Black)\",\n        \"1461288\": \"MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\",\n        \"1619977\": \"Extreme Faith Bible: Contemporary English Version\",\n        \"918959\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\",\n        \"1566428\": \"ESV Pew and Worship Bible, Large Print (Black)\",\n        \"465682\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\"\n    }\n    return doc_id_title_map.get(doc_id, \"\")\n\n```",
+                "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n"
+            ],
+            "curr_top_k_docIDs": [
+                "706529",
+                "716931",
+                "1594615",
+                "752132",
+                "1216177",
+                "1461288",
+                "1619977",
+                "918959",
+                "1566428",
+                "465682"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "english version bible",
+                "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n"
+            ],
+            "iteration": 1,
+            "retrieved_lists": [
+                [
+                    "706529",
+                    "716931",
+                    "1594615",
+                    "752132",
+                    "1216177",
+                    "1461288",
+                    "1619977",
+                    "918959",
+                    "1566428",
+                    "465682"
+                ],
+                [
+                    "1138725",
+                    "1481476",
+                    "1246709",
+                    "1386953",
+                    "862811",
+                    "1044003",
+                    "1562062",
+                    "22931",
+                    "1008106",
+                    "1556421"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7906259298324585,
+                    0.7402369976043701,
+                    0.724153995513916,
+                    0.6983242034912109,
+                    0.6900819540023804,
+                    0.6814043521881104,
+                    0.6664520502090454,
+                    0.6640926599502563,
+                    0.6572070121765137,
+                    0.6532531976699829
+                ],
+                [
+                    0.6558678150177002,
+                    0.6503137350082397,
+                    0.6469724178314209,
+                    0.6450725793838501,
+                    0.6372199654579163,
+                    0.6335233449935913,
+                    0.6279552578926086,
+                    0.625987708568573,
+                    0.6216589212417603,
+                    0.6182774305343628
+                ]
+            ],
+            "last_action_method": "rank",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nenglish version bible\n***\n\nDocuments:\n***\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"706529\", \"716931\", \"1594615\", \"752132\", \"1216177\", \"1461288\",\n    \"1619977\", \"918959\", \"1566428\", \"465682\"\n]\n\n# Prioritize documents with \"English Version\" or \"English Standard Version\" in their titles.\n# Then prioritize documents that mention \"Bible\" prominently.\n\nordered_doc_ids = sorted(doc_ids, key=lambda doc_id: (\n    -(\"English Version\" in doc_id_to_title(doc_id)),  # Higher score for \"English Version\"\n    -(\"English Standard Version\" in doc_id_to_title(doc_id)), # Higher score for \"English Standard Version\"\n    -(\"Bible\" in doc_id_to_title(doc_id).split()[0]), # Higher score if \"Bible\" is at the beginning\n    -(\"Bible\" in doc_id_to_title(doc_id)) # Higher score if \"Bible\" is present\n), reverse=True)\n\n#Return only the top 10\nordered_doc_ids = ordered_doc_ids[:10]\n\nprint(ordered_doc_ids)\n\n\ndef doc_id_to_title(doc_id):\n    \"\"\"Maps doc_id to title (for demonstration, replace with actual lookup).\"\"\"\n    doc_id_title_map = {\n        \"706529\": \"Holy Bible: Contemporary English Version\",\n        \"716931\": \"The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\",\n        \"1594615\": \"Text Bible-Good News\",\n        \"752132\": \"MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\",\n        \"1216177\": \"ESV Large Print Bible (TruTone, Black)\",\n        \"1461288\": \"MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\",\n        \"1619977\": \"Extreme Faith Bible: Contemporary English Version\",\n        \"918959\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\",\n        \"1566428\": \"ESV Pew and Worship Bible, Large Print (Black)\",\n        \"465682\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\"\n    }\n    return doc_id_title_map.get(doc_id, \"\")\n\n```",
+                "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n"
+            ],
+            "curr_top_k_docIDs": [
+                "706529",
+                "716931",
+                "1594615",
+                "752132",
+                "1216177",
+                "1461288",
+                "1619977",
+                "918959",
+                "1566428",
+                "465682"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "english version bible",
+                "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n"
+            ],
+            "iteration": 1,
+            "retrieved_lists": [
+                [
+                    "706529",
+                    "716931",
+                    "1594615",
+                    "752132",
+                    "1216177",
+                    "1461288",
+                    "1619977",
+                    "918959",
+                    "1566428",
+                    "465682"
+                ],
+                [
+                    "1138725",
+                    "1481476",
+                    "1246709",
+                    "1386953",
+                    "862811",
+                    "1044003",
+                    "1562062",
+                    "22931",
+                    "1008106",
+                    "1556421"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7906259298324585,
+                    0.7402369976043701,
+                    0.724153995513916,
+                    0.6983242034912109,
+                    0.6900819540023804,
+                    0.6814043521881104,
+                    0.6664520502090454,
+                    0.6640926599502563,
+                    0.6572070121765137,
+                    0.6532531976699829
+                ],
+                [
+                    0.6558678150177002,
+                    0.6503137350082397,
+                    0.6469724178314209,
+                    0.6450725793838501,
+                    0.6372199654579163,
+                    0.6335233449935913,
+                    0.6279552578926086,
+                    0.625987708568573,
+                    0.6216589212417603,
+                    0.6182774305343628
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nenglish version bible\n***\n\nDocuments:\n***\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n1138725: NKJV, Precious Moments Holy Bible, Hardcover, Pink: Small Hands Bible\n\n1481476: ESV Large Print Compact Bible (FONT SIZE: 8 pt., TruTone, Berry, Floral Design)\n\n1246709: ESV Large Print Bible (TruTone, Tan, Ornament Design)\n\n1386953: Bridawn Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian\tProduct Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian Product Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case ChristianFrom the manufacturer Read more About Bridawn Felt Bible Cover Case We aim to bring a high-quality, healthy and colorful lifestyle to every customer and make every effort to develop well-made, beautiful, casual, and comfortable products. Our Bridawn felt bible cover is made from thick felt, which is soft, durable and sturdy enough to protect your Bibles and other valuables from scratching. This Bible bag not only for men, but also for women. You can use it as a church bag, tote bag, iPad Bag, Business Briefcase, Casual Bag, Travel Bag, Handbag. With this simple stylish cross design bag, no matter where you go, you'll be the central. Read more Product Details High-end PU Leather Handles Premium PU Leather handles offer comfortable carrying experiences. This Bible case can be perfectly used for study, business, leisure and travel, with stylish and decent in appearance, you will be delighted with our bible bag. Unique Carved Cross Hollowed cross makes the thick felt become light and breathable. This cover is a rare beauty not to be missed, a genuine collector's item & the result of masterly workmanship. Spacious & Convenient Size: 13.8(H)*9.4(L)*3.10(W). Roomy enough to hold your Lord\u2019s Day supplies and bible study items. Magnetic snap is easy and quick to open/ close, convenient to get your items. Read more\n\n862811: ESV Study Bible (TruTone, Brown/Cordovan, Portfolio Design, Indexed)\n\n1044003: Biblia Biling\u00fce, NVI/NIV, Leathersoft, Azul / Spanish Bilingual Bible, NVI/NIV, Leathersoft, Blue (Spanish Edition)\n\n1562062: ESV Large Print Value Thinline Bible (TruTone, Tan, Ornament Design)\n\n22931: KJV Holy Bible, Compact Aqua and Red Faux Leather w/Ribbon Marker, Red Letter, King James Version\n\n1008106: Biblia Biling\u00fce Reina Valera 1960/KJV Letra grande, negro, imitaci\u00f3n piel / Bilingual Bible RVR 1960/KJV Large print, Black, Imitation Leather (Spanish Edition)\n\n1556421: REALTREE\u2122 MAJESTIC BIBLE TABS - CAMO VERSION\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"706529\", \"716931\", \"1594615\", \"752132\", \"1216177\", \"1461288\",\n    \"1619977\", \"918959\", \"1566428\", \"465682\"\n]\n\n# Prioritize documents with \"English Version\" or \"English Standard Version\" in their titles.\n# Then prioritize documents that mention \"Bible\" prominently.\n\nordered_doc_ids = sorted(doc_ids, key=lambda doc_id: (\n    -(\"English Version\" in doc_id_to_title(doc_id)),  # Higher score for \"English Version\"\n    -(\"English Standard Version\" in doc_id_to_title(doc_id)), # Higher score for \"English Standard Version\"\n    -(\"Bible\" in doc_id_to_title(doc_id).split()[0]), # Higher score if \"Bible\" is at the beginning\n    -(\"Bible\" in doc_id_to_title(doc_id)) # Higher score if \"Bible\" is present\n), reverse=True)\n\n#Return only the top 10\nordered_doc_ids = ordered_doc_ids[:10]\n\nprint(ordered_doc_ids)\n\n\ndef doc_id_to_title(doc_id):\n    \"\"\"Maps doc_id to title (for demonstration, replace with actual lookup).\"\"\"\n    doc_id_title_map = {\n        \"706529\": \"Holy Bible: Contemporary English Version\",\n        \"716931\": \"The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\",\n        \"1594615\": \"Text Bible-Good News\",\n        \"752132\": \"MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\",\n        \"1216177\": \"ESV Large Print Bible (TruTone, Black)\",\n        \"1461288\": \"MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\",\n        \"1619977\": \"Extreme Faith Bible: Contemporary English Version\",\n        \"918959\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\",\n        \"1566428\": \"ESV Pew and Worship Bible, Large Print (Black)\",\n        \"465682\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\"\n    }\n    return doc_id_title_map.get(doc_id, \"\")\n\n```",
+                "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n",
+                "```python\ndoc_ids = [\n    \"706529\",\n    \"716931\",\n    \"1461288\",\n    \"1619977\",\n    \"1216177\",\n    \"1566428\",\n    \"1481476\",\n    \"1246709\",\n    \"862811\",\n    \"1562062\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "706529",
+                "716931",
+                "1461288",
+                "1619977",
+                "1216177",
+                "1566428",
+                "1481476",
+                "1246709",
+                "862811",
+                "1562062"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "english version bible",
+                "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n"
+            ],
+            "iteration": 1,
+            "retrieved_lists": [
+                [
+                    "706529",
+                    "716931",
+                    "1594615",
+                    "752132",
+                    "1216177",
+                    "1461288",
+                    "1619977",
+                    "918959",
+                    "1566428",
+                    "465682"
+                ],
+                [
+                    "1138725",
+                    "1481476",
+                    "1246709",
+                    "1386953",
+                    "862811",
+                    "1044003",
+                    "1562062",
+                    "22931",
+                    "1008106",
+                    "1556421"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7906259298324585,
+                    0.7402369976043701,
+                    0.724153995513916,
+                    0.6983242034912109,
+                    0.6900819540023804,
+                    0.6814043521881104,
+                    0.6664520502090454,
+                    0.6640926599502563,
+                    0.6572070121765137,
+                    0.6532531976699829
+                ],
+                [
+                    0.6558678150177002,
+                    0.6503137350082397,
+                    0.6469724178314209,
+                    0.6450725793838501,
+                    0.6372199654579163,
+                    0.6335233449935913,
+                    0.6279552578926086,
+                    0.625987708568573,
+                    0.6216589212417603,
+                    0.6182774305343628
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nenglish version bible\n***\n\nDocuments:\n***\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n1138725: NKJV, Precious Moments Holy Bible, Hardcover, Pink: Small Hands Bible\n\n1481476: ESV Large Print Compact Bible (FONT SIZE: 8 pt., TruTone, Berry, Floral Design)\n\n1246709: ESV Large Print Bible (TruTone, Tan, Ornament Design)\n\n1386953: Bridawn Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian\tProduct Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian Product Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case ChristianFrom the manufacturer Read more About Bridawn Felt Bible Cover Case We aim to bring a high-quality, healthy and colorful lifestyle to every customer and make every effort to develop well-made, beautiful, casual, and comfortable products. Our Bridawn felt bible cover is made from thick felt, which is soft, durable and sturdy enough to protect your Bibles and other valuables from scratching. This Bible bag not only for men, but also for women. You can use it as a church bag, tote bag, iPad Bag, Business Briefcase, Casual Bag, Travel Bag, Handbag. With this simple stylish cross design bag, no matter where you go, you'll be the central. Read more Product Details High-end PU Leather Handles Premium PU Leather handles offer comfortable carrying experiences. This Bible case can be perfectly used for study, business, leisure and travel, with stylish and decent in appearance, you will be delighted with our bible bag. Unique Carved Cross Hollowed cross makes the thick felt become light and breathable. This cover is a rare beauty not to be missed, a genuine collector's item & the result of masterly workmanship. Spacious & Convenient Size: 13.8(H)*9.4(L)*3.10(W). Roomy enough to hold your Lord\u2019s Day supplies and bible study items. Magnetic snap is easy and quick to open/ close, convenient to get your items. Read more\n\n862811: ESV Study Bible (TruTone, Brown/Cordovan, Portfolio Design, Indexed)\n\n1044003: Biblia Biling\u00fce, NVI/NIV, Leathersoft, Azul / Spanish Bilingual Bible, NVI/NIV, Leathersoft, Blue (Spanish Edition)\n\n1562062: ESV Large Print Value Thinline Bible (TruTone, Tan, Ornament Design)\n\n22931: KJV Holy Bible, Compact Aqua and Red Faux Leather w/Ribbon Marker, Red Letter, King James Version\n\n1008106: Biblia Biling\u00fce Reina Valera 1960/KJV Letra grande, negro, imitaci\u00f3n piel / Bilingual Bible RVR 1960/KJV Large print, Black, Imitation Leather (Spanish Edition)\n\n1556421: REALTREE\u2122 MAJESTIC BIBLE TABS - CAMO VERSION\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"706529\", \"716931\", \"1594615\", \"752132\", \"1216177\", \"1461288\",\n    \"1619977\", \"918959\", \"1566428\", \"465682\"\n]\n\n# Prioritize documents with \"English Version\" or \"English Standard Version\" in their titles.\n# Then prioritize documents that mention \"Bible\" prominently.\n\nordered_doc_ids = sorted(doc_ids, key=lambda doc_id: (\n    -(\"English Version\" in doc_id_to_title(doc_id)),  # Higher score for \"English Version\"\n    -(\"English Standard Version\" in doc_id_to_title(doc_id)), # Higher score for \"English Standard Version\"\n    -(\"Bible\" in doc_id_to_title(doc_id).split()[0]), # Higher score if \"Bible\" is at the beginning\n    -(\"Bible\" in doc_id_to_title(doc_id)) # Higher score if \"Bible\" is present\n), reverse=True)\n\n#Return only the top 10\nordered_doc_ids = ordered_doc_ids[:10]\n\nprint(ordered_doc_ids)\n\n\ndef doc_id_to_title(doc_id):\n    \"\"\"Maps doc_id to title (for demonstration, replace with actual lookup).\"\"\"\n    doc_id_title_map = {\n        \"706529\": \"Holy Bible: Contemporary English Version\",\n        \"716931\": \"The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\",\n        \"1594615\": \"Text Bible-Good News\",\n        \"752132\": \"MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\",\n        \"1216177\": \"ESV Large Print Bible (TruTone, Black)\",\n        \"1461288\": \"MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\",\n        \"1619977\": \"Extreme Faith Bible: Contemporary English Version\",\n        \"918959\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\",\n        \"1566428\": \"ESV Pew and Worship Bible, Large Print (Black)\",\n        \"465682\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\"\n    }\n    return doc_id_title_map.get(doc_id, \"\")\n\n```",
+                "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n",
+                "```python\ndoc_ids = [\n    \"706529\",\n    \"716931\",\n    \"1461288\",\n    \"1619977\",\n    \"1216177\",\n    \"1566428\",\n    \"1481476\",\n    \"1246709\",\n    \"862811\",\n    \"1562062\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "706529",
+                "716931",
+                "1461288",
+                "1619977",
+                "1216177",
+                "1566428",
+                "1481476",
+                "1246709",
+                "862811",
+                "1562062"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "english version bible",
+                "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n",
+                "english version bible, including different formats like hardcover, paperback, and digital versions\n"
+            ],
+            "iteration": 2,
+            "retrieved_lists": [
+                [
+                    "706529",
+                    "716931",
+                    "1594615",
+                    "752132",
+                    "1216177",
+                    "1461288",
+                    "1619977",
+                    "918959",
+                    "1566428",
+                    "465682"
+                ],
+                [
+                    "1138725",
+                    "1481476",
+                    "1246709",
+                    "1386953",
+                    "862811",
+                    "1044003",
+                    "1562062",
+                    "22931",
+                    "1008106",
+                    "1556421"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7906259298324585,
+                    0.7402369976043701,
+                    0.724153995513916,
+                    0.6983242034912109,
+                    0.6900819540023804,
+                    0.6814043521881104,
+                    0.6664520502090454,
+                    0.6640926599502563,
+                    0.6572070121765137,
+                    0.6532531976699829
+                ],
+                [
+                    0.6558678150177002,
+                    0.6503137350082397,
+                    0.6469724178314209,
+                    0.6450725793838501,
+                    0.6372199654579163,
+                    0.6335233449935913,
+                    0.6279552578926086,
+                    0.625987708568573,
+                    0.6216589212417603,
+                    0.6182774305343628
+                ]
+            ],
+            "last_action_method": "reform_q_post_retr",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nenglish version bible\n***\n\nDocuments:\n***\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n***\n\nPrevious query reformulations:\n***\n\n***\n\nOutput only your reformulated query:",
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n1138725: NKJV, Precious Moments Holy Bible, Hardcover, Pink: Small Hands Bible\n\n1481476: ESV Large Print Compact Bible (FONT SIZE: 8 pt., TruTone, Berry, Floral Design)\n\n1246709: ESV Large Print Bible (TruTone, Tan, Ornament Design)\n\n1386953: Bridawn Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian\tProduct Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian Product Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case ChristianFrom the manufacturer Read more About Bridawn Felt Bible Cover Case We aim to bring a high-quality, healthy and colorful lifestyle to every customer and make every effort to develop well-made, beautiful, casual, and comfortable products. Our Bridawn felt bible cover is made from thick felt, which is soft, durable and sturdy enough to protect your Bibles and other valuables from scratching. This Bible bag not only for men, but also for women. You can use it as a church bag, tote bag, iPad Bag, Business Briefcase, Casual Bag, Travel Bag, Handbag. With this simple stylish cross design bag, no matter where you go, you'll be the central. Read more Product Details High-end PU Leather Handles Premium PU Leather handles offer comfortable carrying experiences. This Bible case can be perfectly used for study, business, leisure and travel, with stylish and decent in appearance, you will be delighted with our bible bag. Unique Carved Cross Hollowed cross makes the thick felt become light and breathable. This cover is a rare beauty not to be missed, a genuine collector's item & the result of masterly workmanship. Spacious & Convenient Size: 13.8(H)*9.4(L)*3.10(W). Roomy enough to hold your Lord\u2019s Day supplies and bible study items. Magnetic snap is easy and quick to open/ close, convenient to get your items. Read more\n\n862811: ESV Study Bible (TruTone, Brown/Cordovan, Portfolio Design, Indexed)\n\n1044003: Biblia Biling\u00fce, NVI/NIV, Leathersoft, Azul / Spanish Bilingual Bible, NVI/NIV, Leathersoft, Blue (Spanish Edition)\n\n1562062: ESV Large Print Value Thinline Bible (TruTone, Tan, Ornament Design)\n\n22931: KJV Holy Bible, Compact Aqua and Red Faux Leather w/Ribbon Marker, Red Letter, King James Version\n\n1008106: Biblia Biling\u00fce Reina Valera 1960/KJV Letra grande, negro, imitaci\u00f3n piel / Bilingual Bible RVR 1960/KJV Large print, Black, Imitation Leather (Spanish Edition)\n\n1556421: REALTREE\u2122 MAJESTIC BIBLE TABS - CAMO VERSION\n\n",
+                "You are given a query and list of documents that were retrieved to address the query.\n\nFirst, consider what is failing to be addressed about the query given the documents.\nThen, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents.\nEnsure that you do not remove any important elements from the query. \n\nYou are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.\n\nQuery:\n***\nenglish version bible\n***\n\nDocuments:\n***\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n1481476: ESV Large Print Compact Bible (FONT SIZE: 8 pt., TruTone, Berry, Floral Design)\n\n1246709: ESV Large Print Bible (TruTone, Tan, Ornament Design)\n\n862811: ESV Study Bible (TruTone, Brown/Cordovan, Portfolio Design, Indexed)\n\n1562062: ESV Large Print Value Thinline Bible (TruTone, Tan, Ornament Design)\n\n***\n\nPrevious query reformulations:\n***\n\nenglish version bible, including different translations like KJV, NKJV, NIV, and NLT\n\n\n***\n\nOutput only your reformulated query:"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"706529\", \"716931\", \"1594615\", \"752132\", \"1216177\", \"1461288\",\n    \"1619977\", \"918959\", \"1566428\", \"465682\"\n]\n\n# Prioritize documents with \"English Version\" or \"English Standard Version\" in their titles.\n# Then prioritize documents that mention \"Bible\" prominently.\n\nordered_doc_ids = sorted(doc_ids, key=lambda doc_id: (\n    -(\"English Version\" in doc_id_to_title(doc_id)),  # Higher score for \"English Version\"\n    -(\"English Standard Version\" in doc_id_to_title(doc_id)), # Higher score for \"English Standard Version\"\n    -(\"Bible\" in doc_id_to_title(doc_id).split()[0]), # Higher score if \"Bible\" is at the beginning\n    -(\"Bible\" in doc_id_to_title(doc_id)) # Higher score if \"Bible\" is present\n), reverse=True)\n\n#Return only the top 10\nordered_doc_ids = ordered_doc_ids[:10]\n\nprint(ordered_doc_ids)\n\n\ndef doc_id_to_title(doc_id):\n    \"\"\"Maps doc_id to title (for demonstration, replace with actual lookup).\"\"\"\n    doc_id_title_map = {\n        \"706529\": \"Holy Bible: Contemporary English Version\",\n        \"716931\": \"The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\",\n        \"1594615\": \"Text Bible-Good News\",\n        \"752132\": \"MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\",\n        \"1216177\": \"ESV Large Print Bible (TruTone, Black)\",\n        \"1461288\": \"MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\",\n        \"1619977\": \"Extreme Faith Bible: Contemporary English Version\",\n        \"918959\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\",\n        \"1566428\": \"ESV Pew and Worship Bible, Large Print (Black)\",\n        \"465682\": \"CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\"\n    }\n    return doc_id_title_map.get(doc_id, \"\")\n\n```",
+                "english version bible, including different translations like KJV, NKJV, NIV, and NLT\n",
+                "```python\ndoc_ids = [\n    \"706529\",\n    \"716931\",\n    \"1461288\",\n    \"1619977\",\n    \"1216177\",\n    \"1566428\",\n    \"1481476\",\n    \"1246709\",\n    \"862811\",\n    \"1562062\"\n]\n\nprint(doc_ids)\n```\n",
+                "english version bible, including different formats like hardcover, paperback, and digital versions\n"
+            ],
+            "curr_top_k_docIDs": [
+                "706529",
+                "716931",
+                "1461288",
+                "1619977",
+                "1216177",
+                "1566428",
+                "1481476",
+                "1246709",
+                "862811",
+                "1562062"
+            ],
+            "terminate": false
+        }
+    ]
+}
