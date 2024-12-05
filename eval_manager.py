@@ -7,7 +7,8 @@ import pytrec_eval
 import numpy as np
 from scipy.stats import norm
 from fpdf import FPDF  
-from utils.utils import get_doc_text_list 
+from utils.utils import get_doc_text_list
+import unicodedata
 
 
 # EvalManager class for evaluation
@@ -90,55 +91,88 @@ class EvalManager():
         # Store results for calculating averages and confidence intervals
         self.all_query_eval_results[query_dir.name] = per_query_eval_results[query_dir.name]
 
-    def gen_pdf(self, query_dir): 
+    def gen_pdf(self, query_dir):
         """
         Generates a PDF file with detailed results for the query.
         """
         detailed_results_path = query_dir / "detailed_results.json"
         pdf_path = query_dir / "detailed_results.pdf"
-        corpus_path = self.config.get("corpus_path")
+        corpus_path = self.config.get("corpus_text_path")
+        if not corpus_path:
+            raise ValueError("The 'corpus_path' is not defined in the eval_config.yaml configuration.")
+
         qrels = self.load_qrels()
         query_id = query_dir.name
 
-        with open(detailed_results_path, "r") as json_file:
+        with open(detailed_results_path, "r", encoding="utf-8") as json_file:
             detailed_results = json.load(json_file)
-        
-        query_text = detailed_results["queries"][0]
+
+        query_text = self.clean_text(detailed_results["queries"][0])
         retrieved_docs = detailed_results["curr_top_k_docIDs"]
         doc_texts = get_doc_text_list(retrieved_docs, corpus_path)
         relevant_docs = qrels.get(query_id, {})
-        
+
         pdf = FPDF()
         pdf.set_auto_page_break(auto=True, margin=15)
         pdf.add_page()
         pdf.set_font("Arial", size=12)
 
-        pdf.cell(200, 10, txt=f"Query ID: {query_id}", ln=True, align="L")
-        pdf.cell(200, 10, txt=f"Query Text: {query_text}", ln=True, align="L")
+        # Add Query ID and Text
+        pdf.cell(0, 10, txt=f"Query ID: {query_id}", ln=True, align="L")
+        pdf.cell(0, 10, txt=f"Query Text: {query_text}", ln=True, align="L")
 
-        pdf.ln(10)
-        pdf.set_font("Arial", size=10)
-        pdf.cell(200, 10, txt="Retrieved Documents:", ln=True, align="L")
+        # Retrieved Documents Section
+        pdf.ln(5)  # Reduced space
+        pdf.set_font("Arial", size=10, style="B")
+        pdf.cell(0, 8, txt="Retrieved Documents:", ln=True, align="L")  # Reduced height
+        pdf.set_font("Arial", size=9)  # Smaller font for document details
 
         for doc in doc_texts:
             doc_id = doc["docID"]
-            doc_text = doc["text"][:200]
-            relevance = "1" if relevant_docs.get(doc_id, 0) > 0 else "0"
-            pdf.cell(200, 10, txt=f"{relevance}\t{doc_id}\t{doc_text}", ln=True, align="L")
-        
-        pdf.ln(10)
-        pdf.cell(200, 10, txt="Non-retrieved Relevant Documents:", ln=True, align="L")
-        
+            doc_text = self.clean_text(doc["text"][:200])
+            relevance = relevant_docs.get(doc_id, 0)
+
+            # Use colors for relevance
+            pdf.set_text_color(0, 128, 0) if relevance > 0 else pdf.set_text_color(255, 0, 0)
+            pdf.cell(10, 6, txt=f"{relevance}", border=0)  # Reduced height
+            pdf.set_text_color(0, 0, 0)  # Reset to black for other fields
+            pdf.cell(30, 6, txt=f"{doc_id}", border=0)  # Reduced height
+            pdf.multi_cell(0, 6, txt=f"{doc_text}", border=0)  # Reduced height
+
+
+        # Non-retrieved Relevant Documents Section
+        pdf.ln(5)  # Reduced space
+        pdf.set_font("Arial", size=10, style="B")
+        pdf.cell(0, 8, txt="Non-retrieved Relevant Documents:", ln=True, align="L")  # Reduced height
+        pdf.set_font("Arial", size=9)  # Smaller font for document details
+
         retrieved_set = set(retrieved_docs)
         non_retrieved_docs = [doc_id for doc_id in relevant_docs if doc_id not in retrieved_set]
         non_retrieved_texts = get_doc_text_list(non_retrieved_docs, corpus_path)
 
         for doc in non_retrieved_texts:
             doc_id = doc["docID"]
-            doc_text = doc["text"][:200]
-            pdf.cell(200, 10, txt=f"0\t{doc_id}\t{doc_text}", ln=True, align="L")
+            doc_text = self.clean_text(doc["text"][:200])
+
+            # Use green for relevance 1 (relevant but not retrieved)
+            pdf.set_text_color(0, 128, 0)  # Green
+            pdf.cell(10, 6, txt="1", border=0)  # Relevance score, reduced height
+            pdf.set_text_color(0, 0, 0)  # Reset to black for other fields
+            pdf.cell(30, 6, txt=f"{doc_id}", border=0)  # Document ID, reduced height
+            pdf.multi_cell(0, 6, txt=f"{doc_text}", border=0)  # Document text wrapped, reduced height
 
         pdf.output(str(pdf_path))
+
+
+
+    def clean_text(self, text):
+        """
+        Cleans text by removing non-ASCII characters and normalizing Unicode.
+        """
+        # Normalize text to NFKD form and encode in ASCII (ignore unsupported characters)
+        normalized = unicodedata.normalize('NFKD', text)
+        ascii_text = normalized.encode('ascii', 'ignore').decode('ascii')
+        return ascii_text
 
     def load_qrels(self):
         """
