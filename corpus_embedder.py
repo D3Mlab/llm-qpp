@@ -61,6 +61,7 @@ if __name__ == "__main__":
     #data_path = "data/Wayfair_products/"
     data_path = "data/MS-MARCO/subset_q100_d10000/"
 
+
     #setup logging
     config = {
         "logging": {

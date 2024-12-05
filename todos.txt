@@ -1,3 +1,4 @@
+
 - fix derivation over time steps 
 - prompt engineer (FS, phrasing):
 	- format adherance (e.g. "length is not 10!" - buggy llm output)
@@ -9,4 +10,3 @@
 - start config writting notebook
 - track duplicates
 - Store a dict of docIDs-texts for recently looked up docs (after each new retrieval stage) to avoid second and third corpus search during the termination decision (2) and query reformulation (3) prompt
-
