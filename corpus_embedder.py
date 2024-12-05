@@ -28,6 +28,7 @@ def embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1):
             if len(batch_texts) == batch_size:
                 embeddings = embedder.embed(batch_texts)
                 for doc_id, embedding in zip(batch_ids, embeddings):
+                    embedding = embedding.cpu().numpy()
                     pickle.dump({"doc_id": doc_id, "embedding": embedding}, emb_file)
                 batch_texts = []
                 batch_ids = []
@@ -38,6 +39,7 @@ def embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1):
         if batch_texts:
             embeddings = embedder.embed(batch_texts)
             for doc_id, embedding in zip(batch_ids, embeddings):
+                embedding = embedding.cpu().numpy()
                 pickle.dump({"doc_id": doc_id, "embedding": embedding}, emb_file)
             processed_count += len(batch_texts)
 
@@ -47,8 +49,8 @@ def embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1):
 
 if __name__ == "__main__":
 
-    #model_name = 'sentence-transformers/all-MiniLM-L6-v2'
-    model_name = 'Alibaba-NLP/gte-large-en-v1.5'
+    model_name = 'sentence-transformers/all-MiniLM-L6-v2'
+    #model_name = 'Alibaba-NLP/gte-large-en-v1.5'
     embedder = embedding.HuggingFaceEmbedder(model_name = model_name)
     model_name = model_name.replace('/', '-')
 
@@ -73,6 +75,6 @@ if __name__ == "__main__":
     logger = setup_logging(f"{model_name}", config)
 
     corpus_path = f"{data_path}collection.jsonl"
-    emb_path = f"{data_path}collection_{model_name}_attention_mask_1.pkl"
+    emb_path = f"{data_path}collection_{model_name}_attention_mask_100_np.pkl"
 
-    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 1)
+    embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 100)
