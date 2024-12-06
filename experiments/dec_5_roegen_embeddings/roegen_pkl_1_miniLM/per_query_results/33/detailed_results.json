@@ -1,0 +1,139 @@
+{
+    "queries": [
+        "Cities with the most interesting and unique content for vloggers"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "320",
+            "497",
+            "283",
+            "177",
+            "199",
+            "560",
+            "401",
+            "376",
+            "249",
+            "204"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.35953032970428467,
+            0.3571522533893585,
+            0.35421222448349,
+            0.3481007516384125,
+            0.34549105167388916,
+            0.3384382128715515,
+            0.3280743956565857,
+            0.327644944190979,
+            0.32438597083091736,
+            0.32168495655059814
+        ]
+    ],
+    "last_action_method": "return_last_retrieved_list",
+    "curr_top_k_docIDs": [
+        "320",
+        "497",
+        "283",
+        "177",
+        "199",
+        "560",
+        "401",
+        "376",
+        "249",
+        "204"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Cities with the most interesting and unique content for vloggers"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Cities with the most interesting and unique content for vloggers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "320",
+                    "497",
+                    "283",
+                    "177",
+                    "199",
+                    "560",
+                    "401",
+                    "376",
+                    "249",
+                    "204"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.35953032970428467,
+                    0.3571522533893585,
+                    0.35421222448349,
+                    0.3481007516384125,
+                    0.34549105167388916,
+                    0.3384382128715515,
+                    0.3280743956565857,
+                    0.327644944190979,
+                    0.32438597083091736,
+                    0.32168495655059814
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Cities with the most interesting and unique content for vloggers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "320",
+                    "497",
+                    "283",
+                    "177",
+                    "199",
+                    "560",
+                    "401",
+                    "376",
+                    "249",
+                    "204"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.35953032970428467,
+                    0.3571522533893585,
+                    0.35421222448349,
+                    0.3481007516384125,
+                    0.34549105167388916,
+                    0.3384382128715515,
+                    0.3280743956565857,
+                    0.327644944190979,
+                    0.32438597083091736,
+                    0.32168495655059814
+                ]
+            ],
+            "last_action_method": "return_last_retrieved_list",
+            "curr_top_k_docIDs": [
+                "320",
+                "497",
+                "283",
+                "177",
+                "199",
+                "560",
+                "401",
+                "376",
+                "249",
+                "204"
+            ],
+            "terminate": true
+        }
+    ]
+}

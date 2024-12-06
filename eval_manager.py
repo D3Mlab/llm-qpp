@@ -6,6 +6,9 @@ from utils.setup_logging import setup_logging
 import pytrec_eval
 import numpy as np
 from scipy.stats import norm
+from fpdf import FPDF  
+from utils.utils import get_doc_text_list
+import unicodedata
 
 
 # EvalManager class for evaluation
@@ -80,13 +83,97 @@ class EvalManager():
         # Evaluate using pytrec_eval
         evaluator = pytrec_eval.RelevanceEvaluator(self.load_qrels(), selected_measures)
         per_query_eval_results = evaluator.evaluate(results)
-        print("PER QUERY EVAL RESULTS", per_query_eval_results)
 
-        # Write per-query evaluation results to JSONL
+        # Write per-query evaluation results
         self.write_jsonl(eval_results_path, per_query_eval_results)
+        self.gen_pdf(query_dir)
 
         # Store results for calculating averages and confidence intervals
         self.all_query_eval_results[query_dir.name] = per_query_eval_results[query_dir.name]
+
+    def gen_pdf(self, query_dir):
+        """
+        Generates a PDF file with detailed results for the query.
+        """
+        detailed_results_path = query_dir / "detailed_results.json"
+        pdf_path = query_dir / "detailed_results.pdf"
+        corpus_path = self.config.get("corpus_text_path")
+        if not corpus_path:
+            raise ValueError("The 'corpus_path' is not defined in the eval_config.yaml configuration.")
+
+        qrels = self.load_qrels()
+        query_id = query_dir.name
+
+        with open(detailed_results_path, "r", encoding="utf-8") as json_file:
+            detailed_results = json.load(json_file)
+
+        query_text = self.clean_text(detailed_results["queries"][0])
+        retrieved_docs = detailed_results["curr_top_k_docIDs"]
+        doc_texts = get_doc_text_list(retrieved_docs, corpus_path)
+        relevant_docs = qrels.get(query_id, {})
+
+        pdf = FPDF()
+        pdf.set_auto_page_break(auto=True, margin=15)
+        pdf.add_page()
+        pdf.set_font("Arial", size=12)
+
+        # Add Query ID and Text
+        pdf.cell(0, 10, txt=f"Query ID: {query_id}", ln=True, align="L")
+        pdf.cell(0, 10, txt=f"Query Text: {query_text}", ln=True, align="L")
+
+        # Retrieved Documents Section
+        pdf.ln(5)  # Reduced space
+        pdf.set_font("Arial", size=10, style="B")
+        pdf.cell(0, 8, txt="Retrieved Documents:", ln=True, align="L")  # Reduced height
+        pdf.set_font("Arial", size=9)  # Smaller font for document details
+
+        for doc in doc_texts:
+            doc_id = doc["docID"]
+            doc_text = self.clean_text(doc["text"][:200])
+            relevance = relevant_docs.get(doc_id, 0)
+
+            # Use colors for relevance
+            pdf.set_text_color(0, 128, 0) if relevance > 0 else pdf.set_text_color(255, 0, 0)
+            pdf.cell(10, 6, txt=f"{relevance}", border=0)  # Reduced height
+            pdf.set_text_color(0, 0, 0)  # Reset to black for other fields
+            pdf.cell(30, 6, txt=f"{doc_id}", border=0)  # Reduced height
+            pdf.multi_cell(0, 6, txt=f"{doc_text}", border=0)  # Reduced height
+
+
+        # Non-retrieved Relevant Documents Section
+        pdf.ln(5)  # Reduced space
+        pdf.set_font("Arial", size=10, style="B")
+        pdf.cell(0, 8, txt="Non-retrieved Relevant Documents:", ln=True, align="L")  # Reduced height
+        pdf.set_font("Arial", size=9)  # Smaller font for document details
+
+        retrieved_set = set(retrieved_docs)
+        non_retrieved_docs = [doc_id for doc_id in relevant_docs if doc_id not in retrieved_set]
+        non_retrieved_texts = get_doc_text_list(non_retrieved_docs, corpus_path)
+
+        for doc in non_retrieved_texts:
+            doc_id = doc["docID"]
+            doc_text = self.clean_text(doc["text"][:200])
+
+            # Use green for relevance 1 (relevant but not retrieved)
+            pdf.set_text_color(0, 128, 0)  # Green
+            pdf.cell(10, 6, txt="1", border=0)  # Relevance score, reduced height
+            pdf.set_text_color(0, 0, 0)  # Reset to black for other fields
+            pdf.cell(30, 6, txt=f"{doc_id}", border=0)  # Document ID, reduced height
+            pdf.multi_cell(0, 6, txt=f"{doc_text}", border=0)  # Document text wrapped, reduced height
+
+        pdf.output(str(pdf_path))
+
+
+
+    def clean_text(self, text):
+        """
+        Cleans text by removing non-ASCII characters and normalizing Unicode.
+        """
+        # Normalize text to NFKD form and encode in ASCII (ignore unsupported characters)
+        normalized = unicodedata.normalize('NFKD', text)
+        ascii_text = normalized.encode('ascii', 'ignore').decode('ascii')
+        return ascii_text
+
 
     def load_qrels(self):
         """
@@ -141,11 +228,11 @@ class EvalManager():
         mean_results = {}
         ci_results = {}
 
-        self.experiment_logger.debug(f"self.all_query_eval_results {self.all_query_eval_results} ")
+        #self.experiment_logger.debug(f"self.all_query_eval_results {self.all_query_eval_results} ")
 
         for measure in selected_measures:
             values = [result.get(measure) for result in self.all_query_eval_results.values() if result.get(measure) is not None]
-            self.experiment_logger.debug(f"Values for measure {measure}: {values}")
+            #self.experiment_logger.debug(f"Values for measure {measure}: {values}")
             if values:
                 mean_value = np.mean(values)
                 std_dev = np.std(values, ddof=1)

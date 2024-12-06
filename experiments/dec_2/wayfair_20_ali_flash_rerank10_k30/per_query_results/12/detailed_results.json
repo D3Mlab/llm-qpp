@@ -1,0 +1,359 @@
+{
+    "queries": [
+        "large spoon and fork wall decor"
+    ],
+    "retrieved_lists": [
+        [
+            "11321",
+            "23580",
+            "42458",
+            "32789",
+            "31929",
+            "6675",
+            "34946",
+            "6674",
+            "41506",
+            "2687",
+            "34349",
+            "41507",
+            "28495",
+            "41431",
+            "31081",
+            "25779",
+            "5044",
+            "5096",
+            "10599",
+            "1354",
+            "25477",
+            "26661",
+            "28501",
+            "26662",
+            "224",
+            "24594",
+            "28080",
+            "12125",
+            "2489",
+            "31589"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.8599966764450073,
+            0.858134388923645,
+            0.8460743427276611,
+            0.838887631893158,
+            0.8230900764465332,
+            0.8213684558868408,
+            0.8083162903785706,
+            0.8027284145355225,
+            0.8025541305541992,
+            0.8006131649017334,
+            0.7980449199676514,
+            0.7962437868118286,
+            0.7923178672790527,
+            0.7912672162055969,
+            0.7910940647125244,
+            0.7893162965774536,
+            0.7847704291343689,
+            0.7830148935317993,
+            0.7802432775497437,
+            0.7796773910522461,
+            0.7788012027740479,
+            0.7709833979606628,
+            0.7669816017150879,
+            0.7643911838531494,
+            0.7623499035835266,
+            0.7605749368667603,
+            0.7561477422714233,
+            0.7531028985977173,
+            0.7517955303192139,
+            0.74783855676651
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: large spoon and fork wall decor\n\nDocuments:\n\n11321: 2 piece spoon and fork metal wall d\u00e9cor set. made in india , this set of kitchen decor can find a new home on your wall . these oversized utensils aren \u2019 t for eating with , but they can help add some personality to your kitchen or dining room . the handles of the fork and spoon are made of smooth and solid mango wood . the heads of the utensils feature sleek , black aluminum . they \u2019 re easy to hang and complement a variety of decor styles . these items hang via keyhole hardware at the handle sections . suitable for indoor use only . this is a 2-piece set of kitchen wall decorations . contemporary theme . this item comes shipped in one carton .\n\n23580: fork , knife and spoon wall d\u00e9cor. looking to add delicious decor to your kitchen ? this wall decor serves up chef-worthy style ! crafted of metal in a powder-coated finish , this wall decor features three rectangular panels showcasing cutlery-shaped cutouts \u2013 one spoon , one knife , and one fork . hang it above your stove , adorn a bare cabinet , place it in a with other cutlery-inspired objects , or more ! made in the usa , this decor measures 14 '' h x 11 '' w x 0.25 '' d overall .\n\n42458: 3 piece galvanized metal fork spoon knife kitchen wall d\u00e9cor set. these oversized utensils are a feast for the eyes and a fun and creative way to make a plain wall really stand out . you take pride in your home and your decor shows it , but if you 're looking for something a little different , then these wall hangings are it . the three-piece set of a fork , spoon , and knife in a classic design is made of metal in a rustic galvanized finish with beautifully distressed edges that gives them a wonderfully weathered patina . the set arrives ready to hang with a pre-installed triangle mounting hanger on the back of each and brings a stunning farmhouse look to your kitchen or dining area , and is sure to have your family and guests wondering what 's on the menu . bon appetite !\n\n32789: 2 piece spoon and fork wall d\u00e9cor set. decorate with the spoon and fork wall art . it features a jute board and galvanized metal utensils on a natural wood frame for a traditional vintage look . the simple and soft colors create a space that everyone will enjoy ! this set is a great size for a filling a large space . features one sawtooth hanger on the back center of each piece for easy hanging .\n\n31929: 2 piece resin galvanized utensils wall d\u00e9cor set. oversized and sure to make an impression , this 22 '' resin spoon and fork utensil set will add an appealing country touch to your kitchen d\u00e9cor . these intriguing pieces of art are made of resin and have a galvanized finish to create a realistic , metal appearance . hang in the kitchen , dining area or in a restaurant common area .\n\n6675: kitchen utensil fork wall d\u00e9cor. charming vintage d\u00e9cor - give your home an instant update . this plaque flaunts a country-inspired look that pairs well with any home d\u00e9cor . a distressed wood gives it a chic appearance and it \u2019 s the perfect way to elevate your kitchen , dining room , or living room . if you love a classic vintage aesthetic , you \u2019 ll love this plaque ! bring effortless style to your kitchen or living room ! the metal fork or spoon on wood wall plaque from design styles is the perfect way to spruce up your kitchen or dining area . this piece of authentic culinary decor instantly adds a touch of rustic charm to your household .\n\n34946: wood and metal kitchen utensil wall d\u00e9cor. uplift the vibe in your kitchen and dining area with the right wall decor . your family and guests usually stay in the kitchen area to bond , eat , and cook together . it makes perfect sense to make your kitchen looks bright , stylish , and elegant . make your kitchen look vibrant and inviting with this classy cutlery-style wall decor . uplift the look of your kitchen with the wall decor . this decorative piece features an elegant wooden spoon , fork , and knife , lined up with cutlery outlines - creating a wall decor that truly belongs in the kitchen , dining area , or cafe .\n\n6674: kitchen utensil wall d\u00e9cor. charming vintage d\u00e9cor - give your home an instant update . this plaque flaunts a country-inspired look that pairs well with any home d\u00e9cor . a distressed wood gives it a chic appearance and it \u2019 s the perfect way to elevate your kitchen , dining room , or living room . if you love a classic vintage aesthetic , you \u2019 ll love this plaque ! bring effortless style to your kitchen or living room ! the metal fork or spoon on wood wall plaque from design styles is the perfect way to spruce up your kitchen or dining area . this piece of authentic culinary decor instantly adds a touch of rustic charm to your household .\n\n41506: decorative spoon wall d\u00e3\u00a9cor. add a vintage touch to the kitchen d\u00e9cor with this oversized wall spoon . made from mango wood , it has been hand-painted with a beautiful white patterned accent . pair with other oversized wood utensils for a complete and cohesive setting .\n\n2687: spoon wall decor. nan\n\n34349: wall d\u00e9cor. this upcycled spoon and fork plaque is a unique addition to anyone \u2019 s kitchen . it would make a great gift for foodie friends , newly remodeled kitchens and that hard to buy for friends , etc . the plaque itself does come ready to hang .\n\n41507: fish-shaped spoon wall d\u00e3\u00a9cor. add a vintage touch to the kitchen d\u00e9cor with this oversized wall spoon . made from mango wood , it has been hand-painted with a beautiful white patterned accent . pair with other oversized wood utensils for a complete and cohesive setting .\n\n28495: wood and aluminum decorative spoon wall d\u00e9cor. nan\n\n41431: manger fork wall d\u00e9cor. a rustic wood plaque adorned with an ornate fork silkscreen , this eye-catching wall decor is a unique addition to your dining room or kitchen .\n\n31081: manger spoon wall d\u00e9cor. a rustic wood plaque adorned with an ornate spoon silkscreen , this eye-catching wall decor is a unique addition to your dining room or kitchen .\n\n25779: 3 piece fork , knife and spoon wall d\u00e9cor set. nan\n\n5044: bon appetit painted wall d\u00e9cor. add a rustic touch to your home decor with the setting up of this stylish rectangular wall art , available in a set of 2. featuring a galvanized metal frame , it showcases a bon appetit print complemented with a spoon and fork design on the right that completes the overall look .\n\n5096: 3 piece cutlery wall decor. showcase your love for food by adorning your walls with the inclusion of this sturdy wooden constructed wall decor . replicating cutleries such as a knife , fork , and spoon design , it has a distressed finish and handcrafted feature makes it a piece worth addition .\n\n10599: fork and spoon kitchen d\u00e9cor and art 1-gang toggle light switch wall plate. vintage fork and spoon - kitchen decor and art light switch cover is made of durable scratch resistant metal that will not fade , chip or peel . featuring a high gloss finish , along with matching screws makes this cover the perfect finishing touch .\n\n1354: utensil 3 piece wall d\u00e9cor set. create an excellent focal point on your walls paired with some cute accent tables , and level up your home with this amazing wall decor . it makes a great centerpiece over your sofa or in your dining room . the timeless appeal of these utensil wall decors will definitely trigger some old vintage vibes in any kitchen or dining room it will be displayed in . suitable for indoor use . this set includes 3 wall decor utensils . traditional design . hardware on the back allows for easy hanging . this item comes shipped in one carton . made in india .\n\n25477: fork and spoon wood wall adornment. this charming decorative spoon and fork pair make a gracious accent to any decor . ghanaian artisan carves the pair of wall sculptures by hand from native sese wood , etching the handles with curved grooves and perpendicular lines . the ghanaian culture places great emphasis on hospitality .\n\n26661: baltic birch jumbo fork wall d\u00e9cor. nan\n\n28501: spoon and fork african wall d\u00e9cor. sculpted by hand , sese wood intertwines to form the handle of a traditional fork , while a spoon encloses a wood ball . masks at the top represent the ghanaian ancestors who used these implements . chief carver nana recreates them as handsome wall sculptures .\n\n26662: baltic birch jumbo spoon wall d\u00e9cor. nan\n\n224: sunflower decorative spoon and fork wall decor set. the flower and leave are embossed with excellent attention to detail and such vibrant colors .\n\n24594: 3 piece wall decor set. all spaces can benefit from a decorative touch that shows off your style , and that includes the kitchen ! a set of decorative items like this , for example , is a great way to dress up your kitchen walls with a rustic-inspired touch . crafted from a blend of metal and wood , this set of three includes a spoon , knife , and fork , each with slight distressing for a country look . perfect when hung horizontally or vertically , this set is assembled with hanging hardware .\n\n28080: utensils vintage block sign wall decor. this decor piece gives a unique touch to your home and enhances the style of the room . can be used on a tabletop , mantel or hung on a wall . show off your style and character with this distinctive accent piece .\n\n12125: metal wall d\u00e9cor. looking to spice things up in your kitchen ? lend your walls fun and quirky accent with this flatware-inspired metal wall decor ! this adorable wall decor showcases openwork outlines of overlapping forks , spoons , and knives made from thin gray metal wire . ready to hang right out of the box , this artwork incorporates two nail loops into its design .\n\n2489: 3 piece wall d\u00e9cor set. lightweight kiri wood in a classic shape but large in scale place setting . each utensil hangs with a sawtooth hanger .\n\n31589: peanut butter & spoon wall d\u00e9cor. nan\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"11321\", \"42458\", \"23580\", \"32789\", \"34946\", \"31929\", \"24594\", \"1354\", \"25477\", \"224\"\n]\nprint(doc_ids)\n\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "11321",
+        "42458",
+        "23580",
+        "32789",
+        "34946",
+        "31929",
+        "24594",
+        "1354",
+        "25477",
+        "224"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "large spoon and fork wall decor"
+            ]
+        },
+        {
+            "queries": [
+                "large spoon and fork wall decor"
+            ],
+            "retrieved_lists": [
+                [
+                    "11321",
+                    "23580",
+                    "42458",
+                    "32789",
+                    "31929",
+                    "6675",
+                    "34946",
+                    "6674",
+                    "41506",
+                    "2687",
+                    "34349",
+                    "41507",
+                    "28495",
+                    "41431",
+                    "31081",
+                    "25779",
+                    "5044",
+                    "5096",
+                    "10599",
+                    "1354",
+                    "25477",
+                    "26661",
+                    "28501",
+                    "26662",
+                    "224",
+                    "24594",
+                    "28080",
+                    "12125",
+                    "2489",
+                    "31589"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8599966764450073,
+                    0.858134388923645,
+                    0.8460743427276611,
+                    0.838887631893158,
+                    0.8230900764465332,
+                    0.8213684558868408,
+                    0.8083162903785706,
+                    0.8027284145355225,
+                    0.8025541305541992,
+                    0.8006131649017334,
+                    0.7980449199676514,
+                    0.7962437868118286,
+                    0.7923178672790527,
+                    0.7912672162055969,
+                    0.7910940647125244,
+                    0.7893162965774536,
+                    0.7847704291343689,
+                    0.7830148935317993,
+                    0.7802432775497437,
+                    0.7796773910522461,
+                    0.7788012027740479,
+                    0.7709833979606628,
+                    0.7669816017150879,
+                    0.7643911838531494,
+                    0.7623499035835266,
+                    0.7605749368667603,
+                    0.7561477422714233,
+                    0.7531028985977173,
+                    0.7517955303192139,
+                    0.74783855676651
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "large spoon and fork wall decor"
+            ],
+            "retrieved_lists": [
+                [
+                    "11321",
+                    "23580",
+                    "42458",
+                    "32789",
+                    "31929",
+                    "6675",
+                    "34946",
+                    "6674",
+                    "41506",
+                    "2687",
+                    "34349",
+                    "41507",
+                    "28495",
+                    "41431",
+                    "31081",
+                    "25779",
+                    "5044",
+                    "5096",
+                    "10599",
+                    "1354",
+                    "25477",
+                    "26661",
+                    "28501",
+                    "26662",
+                    "224",
+                    "24594",
+                    "28080",
+                    "12125",
+                    "2489",
+                    "31589"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8599966764450073,
+                    0.858134388923645,
+                    0.8460743427276611,
+                    0.838887631893158,
+                    0.8230900764465332,
+                    0.8213684558868408,
+                    0.8083162903785706,
+                    0.8027284145355225,
+                    0.8025541305541992,
+                    0.8006131649017334,
+                    0.7980449199676514,
+                    0.7962437868118286,
+                    0.7923178672790527,
+                    0.7912672162055969,
+                    0.7910940647125244,
+                    0.7893162965774536,
+                    0.7847704291343689,
+                    0.7830148935317993,
+                    0.7802432775497437,
+                    0.7796773910522461,
+                    0.7788012027740479,
+                    0.7709833979606628,
+                    0.7669816017150879,
+                    0.7643911838531494,
+                    0.7623499035835266,
+                    0.7605749368667603,
+                    0.7561477422714233,
+                    0.7531028985977173,
+                    0.7517955303192139,
+                    0.74783855676651
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: large spoon and fork wall decor\n\nDocuments:\n\n11321: 2 piece spoon and fork metal wall d\u00e9cor set. made in india , this set of kitchen decor can find a new home on your wall . these oversized utensils aren \u2019 t for eating with , but they can help add some personality to your kitchen or dining room . the handles of the fork and spoon are made of smooth and solid mango wood . the heads of the utensils feature sleek , black aluminum . they \u2019 re easy to hang and complement a variety of decor styles . these items hang via keyhole hardware at the handle sections . suitable for indoor use only . this is a 2-piece set of kitchen wall decorations . contemporary theme . this item comes shipped in one carton .\n\n23580: fork , knife and spoon wall d\u00e9cor. looking to add delicious decor to your kitchen ? this wall decor serves up chef-worthy style ! crafted of metal in a powder-coated finish , this wall decor features three rectangular panels showcasing cutlery-shaped cutouts \u2013 one spoon , one knife , and one fork . hang it above your stove , adorn a bare cabinet , place it in a with other cutlery-inspired objects , or more ! made in the usa , this decor measures 14 '' h x 11 '' w x 0.25 '' d overall .\n\n42458: 3 piece galvanized metal fork spoon knife kitchen wall d\u00e9cor set. these oversized utensils are a feast for the eyes and a fun and creative way to make a plain wall really stand out . you take pride in your home and your decor shows it , but if you 're looking for something a little different , then these wall hangings are it . the three-piece set of a fork , spoon , and knife in a classic design is made of metal in a rustic galvanized finish with beautifully distressed edges that gives them a wonderfully weathered patina . the set arrives ready to hang with a pre-installed triangle mounting hanger on the back of each and brings a stunning farmhouse look to your kitchen or dining area , and is sure to have your family and guests wondering what 's on the menu . bon appetite !\n\n32789: 2 piece spoon and fork wall d\u00e9cor set. decorate with the spoon and fork wall art . it features a jute board and galvanized metal utensils on a natural wood frame for a traditional vintage look . the simple and soft colors create a space that everyone will enjoy ! this set is a great size for a filling a large space . features one sawtooth hanger on the back center of each piece for easy hanging .\n\n31929: 2 piece resin galvanized utensils wall d\u00e9cor set. oversized and sure to make an impression , this 22 '' resin spoon and fork utensil set will add an appealing country touch to your kitchen d\u00e9cor . these intriguing pieces of art are made of resin and have a galvanized finish to create a realistic , metal appearance . hang in the kitchen , dining area or in a restaurant common area .\n\n6675: kitchen utensil fork wall d\u00e9cor. charming vintage d\u00e9cor - give your home an instant update . this plaque flaunts a country-inspired look that pairs well with any home d\u00e9cor . a distressed wood gives it a chic appearance and it \u2019 s the perfect way to elevate your kitchen , dining room , or living room . if you love a classic vintage aesthetic , you \u2019 ll love this plaque ! bring effortless style to your kitchen or living room ! the metal fork or spoon on wood wall plaque from design styles is the perfect way to spruce up your kitchen or dining area . this piece of authentic culinary decor instantly adds a touch of rustic charm to your household .\n\n34946: wood and metal kitchen utensil wall d\u00e9cor. uplift the vibe in your kitchen and dining area with the right wall decor . your family and guests usually stay in the kitchen area to bond , eat , and cook together . it makes perfect sense to make your kitchen looks bright , stylish , and elegant . make your kitchen look vibrant and inviting with this classy cutlery-style wall decor . uplift the look of your kitchen with the wall decor . this decorative piece features an elegant wooden spoon , fork , and knife , lined up with cutlery outlines - creating a wall decor that truly belongs in the kitchen , dining area , or cafe .\n\n6674: kitchen utensil wall d\u00e9cor. charming vintage d\u00e9cor - give your home an instant update . this plaque flaunts a country-inspired look that pairs well with any home d\u00e9cor . a distressed wood gives it a chic appearance and it \u2019 s the perfect way to elevate your kitchen , dining room , or living room . if you love a classic vintage aesthetic , you \u2019 ll love this plaque ! bring effortless style to your kitchen or living room ! the metal fork or spoon on wood wall plaque from design styles is the perfect way to spruce up your kitchen or dining area . this piece of authentic culinary decor instantly adds a touch of rustic charm to your household .\n\n41506: decorative spoon wall d\u00e3\u00a9cor. add a vintage touch to the kitchen d\u00e9cor with this oversized wall spoon . made from mango wood , it has been hand-painted with a beautiful white patterned accent . pair with other oversized wood utensils for a complete and cohesive setting .\n\n2687: spoon wall decor. nan\n\n34349: wall d\u00e9cor. this upcycled spoon and fork plaque is a unique addition to anyone \u2019 s kitchen . it would make a great gift for foodie friends , newly remodeled kitchens and that hard to buy for friends , etc . the plaque itself does come ready to hang .\n\n41507: fish-shaped spoon wall d\u00e3\u00a9cor. add a vintage touch to the kitchen d\u00e9cor with this oversized wall spoon . made from mango wood , it has been hand-painted with a beautiful white patterned accent . pair with other oversized wood utensils for a complete and cohesive setting .\n\n28495: wood and aluminum decorative spoon wall d\u00e9cor. nan\n\n41431: manger fork wall d\u00e9cor. a rustic wood plaque adorned with an ornate fork silkscreen , this eye-catching wall decor is a unique addition to your dining room or kitchen .\n\n31081: manger spoon wall d\u00e9cor. a rustic wood plaque adorned with an ornate spoon silkscreen , this eye-catching wall decor is a unique addition to your dining room or kitchen .\n\n25779: 3 piece fork , knife and spoon wall d\u00e9cor set. nan\n\n5044: bon appetit painted wall d\u00e9cor. add a rustic touch to your home decor with the setting up of this stylish rectangular wall art , available in a set of 2. featuring a galvanized metal frame , it showcases a bon appetit print complemented with a spoon and fork design on the right that completes the overall look .\n\n5096: 3 piece cutlery wall decor. showcase your love for food by adorning your walls with the inclusion of this sturdy wooden constructed wall decor . replicating cutleries such as a knife , fork , and spoon design , it has a distressed finish and handcrafted feature makes it a piece worth addition .\n\n10599: fork and spoon kitchen d\u00e9cor and art 1-gang toggle light switch wall plate. vintage fork and spoon - kitchen decor and art light switch cover is made of durable scratch resistant metal that will not fade , chip or peel . featuring a high gloss finish , along with matching screws makes this cover the perfect finishing touch .\n\n1354: utensil 3 piece wall d\u00e9cor set. create an excellent focal point on your walls paired with some cute accent tables , and level up your home with this amazing wall decor . it makes a great centerpiece over your sofa or in your dining room . the timeless appeal of these utensil wall decors will definitely trigger some old vintage vibes in any kitchen or dining room it will be displayed in . suitable for indoor use . this set includes 3 wall decor utensils . traditional design . hardware on the back allows for easy hanging . this item comes shipped in one carton . made in india .\n\n25477: fork and spoon wood wall adornment. this charming decorative spoon and fork pair make a gracious accent to any decor . ghanaian artisan carves the pair of wall sculptures by hand from native sese wood , etching the handles with curved grooves and perpendicular lines . the ghanaian culture places great emphasis on hospitality .\n\n26661: baltic birch jumbo fork wall d\u00e9cor. nan\n\n28501: spoon and fork african wall d\u00e9cor. sculpted by hand , sese wood intertwines to form the handle of a traditional fork , while a spoon encloses a wood ball . masks at the top represent the ghanaian ancestors who used these implements . chief carver nana recreates them as handsome wall sculptures .\n\n26662: baltic birch jumbo spoon wall d\u00e9cor. nan\n\n224: sunflower decorative spoon and fork wall decor set. the flower and leave are embossed with excellent attention to detail and such vibrant colors .\n\n24594: 3 piece wall decor set. all spaces can benefit from a decorative touch that shows off your style , and that includes the kitchen ! a set of decorative items like this , for example , is a great way to dress up your kitchen walls with a rustic-inspired touch . crafted from a blend of metal and wood , this set of three includes a spoon , knife , and fork , each with slight distressing for a country look . perfect when hung horizontally or vertically , this set is assembled with hanging hardware .\n\n28080: utensils vintage block sign wall decor. this decor piece gives a unique touch to your home and enhances the style of the room . can be used on a tabletop , mantel or hung on a wall . show off your style and character with this distinctive accent piece .\n\n12125: metal wall d\u00e9cor. looking to spice things up in your kitchen ? lend your walls fun and quirky accent with this flatware-inspired metal wall decor ! this adorable wall decor showcases openwork outlines of overlapping forks , spoons , and knives made from thin gray metal wire . ready to hang right out of the box , this artwork incorporates two nail loops into its design .\n\n2489: 3 piece wall d\u00e9cor set. lightweight kiri wood in a classic shape but large in scale place setting . each utensil hangs with a sawtooth hanger .\n\n31589: peanut butter & spoon wall d\u00e9cor. nan\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11321\", \"42458\", \"23580\", \"32789\", \"34946\", \"31929\", \"24594\", \"1354\", \"25477\", \"224\"\n]\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "11321",
+                "42458",
+                "23580",
+                "32789",
+                "34946",
+                "31929",
+                "24594",
+                "1354",
+                "25477",
+                "224"
+            ]
+        },
+        {
+            "queries": [
+                "large spoon and fork wall decor"
+            ],
+            "retrieved_lists": [
+                [
+                    "11321",
+                    "23580",
+                    "42458",
+                    "32789",
+                    "31929",
+                    "6675",
+                    "34946",
+                    "6674",
+                    "41506",
+                    "2687",
+                    "34349",
+                    "41507",
+                    "28495",
+                    "41431",
+                    "31081",
+                    "25779",
+                    "5044",
+                    "5096",
+                    "10599",
+                    "1354",
+                    "25477",
+                    "26661",
+                    "28501",
+                    "26662",
+                    "224",
+                    "24594",
+                    "28080",
+                    "12125",
+                    "2489",
+                    "31589"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8599966764450073,
+                    0.858134388923645,
+                    0.8460743427276611,
+                    0.838887631893158,
+                    0.8230900764465332,
+                    0.8213684558868408,
+                    0.8083162903785706,
+                    0.8027284145355225,
+                    0.8025541305541992,
+                    0.8006131649017334,
+                    0.7980449199676514,
+                    0.7962437868118286,
+                    0.7923178672790527,
+                    0.7912672162055969,
+                    0.7910940647125244,
+                    0.7893162965774536,
+                    0.7847704291343689,
+                    0.7830148935317993,
+                    0.7802432775497437,
+                    0.7796773910522461,
+                    0.7788012027740479,
+                    0.7709833979606628,
+                    0.7669816017150879,
+                    0.7643911838531494,
+                    0.7623499035835266,
+                    0.7605749368667603,
+                    0.7561477422714233,
+                    0.7531028985977173,
+                    0.7517955303192139,
+                    0.74783855676651
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: large spoon and fork wall decor\n\nDocuments:\n\n11321: 2 piece spoon and fork metal wall d\u00e9cor set. made in india , this set of kitchen decor can find a new home on your wall . these oversized utensils aren \u2019 t for eating with , but they can help add some personality to your kitchen or dining room . the handles of the fork and spoon are made of smooth and solid mango wood . the heads of the utensils feature sleek , black aluminum . they \u2019 re easy to hang and complement a variety of decor styles . these items hang via keyhole hardware at the handle sections . suitable for indoor use only . this is a 2-piece set of kitchen wall decorations . contemporary theme . this item comes shipped in one carton .\n\n23580: fork , knife and spoon wall d\u00e9cor. looking to add delicious decor to your kitchen ? this wall decor serves up chef-worthy style ! crafted of metal in a powder-coated finish , this wall decor features three rectangular panels showcasing cutlery-shaped cutouts \u2013 one spoon , one knife , and one fork . hang it above your stove , adorn a bare cabinet , place it in a with other cutlery-inspired objects , or more ! made in the usa , this decor measures 14 '' h x 11 '' w x 0.25 '' d overall .\n\n42458: 3 piece galvanized metal fork spoon knife kitchen wall d\u00e9cor set. these oversized utensils are a feast for the eyes and a fun and creative way to make a plain wall really stand out . you take pride in your home and your decor shows it , but if you 're looking for something a little different , then these wall hangings are it . the three-piece set of a fork , spoon , and knife in a classic design is made of metal in a rustic galvanized finish with beautifully distressed edges that gives them a wonderfully weathered patina . the set arrives ready to hang with a pre-installed triangle mounting hanger on the back of each and brings a stunning farmhouse look to your kitchen or dining area , and is sure to have your family and guests wondering what 's on the menu . bon appetite !\n\n32789: 2 piece spoon and fork wall d\u00e9cor set. decorate with the spoon and fork wall art . it features a jute board and galvanized metal utensils on a natural wood frame for a traditional vintage look . the simple and soft colors create a space that everyone will enjoy ! this set is a great size for a filling a large space . features one sawtooth hanger on the back center of each piece for easy hanging .\n\n31929: 2 piece resin galvanized utensils wall d\u00e9cor set. oversized and sure to make an impression , this 22 '' resin spoon and fork utensil set will add an appealing country touch to your kitchen d\u00e9cor . these intriguing pieces of art are made of resin and have a galvanized finish to create a realistic , metal appearance . hang in the kitchen , dining area or in a restaurant common area .\n\n6675: kitchen utensil fork wall d\u00e9cor. charming vintage d\u00e9cor - give your home an instant update . this plaque flaunts a country-inspired look that pairs well with any home d\u00e9cor . a distressed wood gives it a chic appearance and it \u2019 s the perfect way to elevate your kitchen , dining room , or living room . if you love a classic vintage aesthetic , you \u2019 ll love this plaque ! bring effortless style to your kitchen or living room ! the metal fork or spoon on wood wall plaque from design styles is the perfect way to spruce up your kitchen or dining area . this piece of authentic culinary decor instantly adds a touch of rustic charm to your household .\n\n34946: wood and metal kitchen utensil wall d\u00e9cor. uplift the vibe in your kitchen and dining area with the right wall decor . your family and guests usually stay in the kitchen area to bond , eat , and cook together . it makes perfect sense to make your kitchen looks bright , stylish , and elegant . make your kitchen look vibrant and inviting with this classy cutlery-style wall decor . uplift the look of your kitchen with the wall decor . this decorative piece features an elegant wooden spoon , fork , and knife , lined up with cutlery outlines - creating a wall decor that truly belongs in the kitchen , dining area , or cafe .\n\n6674: kitchen utensil wall d\u00e9cor. charming vintage d\u00e9cor - give your home an instant update . this plaque flaunts a country-inspired look that pairs well with any home d\u00e9cor . a distressed wood gives it a chic appearance and it \u2019 s the perfect way to elevate your kitchen , dining room , or living room . if you love a classic vintage aesthetic , you \u2019 ll love this plaque ! bring effortless style to your kitchen or living room ! the metal fork or spoon on wood wall plaque from design styles is the perfect way to spruce up your kitchen or dining area . this piece of authentic culinary decor instantly adds a touch of rustic charm to your household .\n\n41506: decorative spoon wall d\u00e3\u00a9cor. add a vintage touch to the kitchen d\u00e9cor with this oversized wall spoon . made from mango wood , it has been hand-painted with a beautiful white patterned accent . pair with other oversized wood utensils for a complete and cohesive setting .\n\n2687: spoon wall decor. nan\n\n34349: wall d\u00e9cor. this upcycled spoon and fork plaque is a unique addition to anyone \u2019 s kitchen . it would make a great gift for foodie friends , newly remodeled kitchens and that hard to buy for friends , etc . the plaque itself does come ready to hang .\n\n41507: fish-shaped spoon wall d\u00e3\u00a9cor. add a vintage touch to the kitchen d\u00e9cor with this oversized wall spoon . made from mango wood , it has been hand-painted with a beautiful white patterned accent . pair with other oversized wood utensils for a complete and cohesive setting .\n\n28495: wood and aluminum decorative spoon wall d\u00e9cor. nan\n\n41431: manger fork wall d\u00e9cor. a rustic wood plaque adorned with an ornate fork silkscreen , this eye-catching wall decor is a unique addition to your dining room or kitchen .\n\n31081: manger spoon wall d\u00e9cor. a rustic wood plaque adorned with an ornate spoon silkscreen , this eye-catching wall decor is a unique addition to your dining room or kitchen .\n\n25779: 3 piece fork , knife and spoon wall d\u00e9cor set. nan\n\n5044: bon appetit painted wall d\u00e9cor. add a rustic touch to your home decor with the setting up of this stylish rectangular wall art , available in a set of 2. featuring a galvanized metal frame , it showcases a bon appetit print complemented with a spoon and fork design on the right that completes the overall look .\n\n5096: 3 piece cutlery wall decor. showcase your love for food by adorning your walls with the inclusion of this sturdy wooden constructed wall decor . replicating cutleries such as a knife , fork , and spoon design , it has a distressed finish and handcrafted feature makes it a piece worth addition .\n\n10599: fork and spoon kitchen d\u00e9cor and art 1-gang toggle light switch wall plate. vintage fork and spoon - kitchen decor and art light switch cover is made of durable scratch resistant metal that will not fade , chip or peel . featuring a high gloss finish , along with matching screws makes this cover the perfect finishing touch .\n\n1354: utensil 3 piece wall d\u00e9cor set. create an excellent focal point on your walls paired with some cute accent tables , and level up your home with this amazing wall decor . it makes a great centerpiece over your sofa or in your dining room . the timeless appeal of these utensil wall decors will definitely trigger some old vintage vibes in any kitchen or dining room it will be displayed in . suitable for indoor use . this set includes 3 wall decor utensils . traditional design . hardware on the back allows for easy hanging . this item comes shipped in one carton . made in india .\n\n25477: fork and spoon wood wall adornment. this charming decorative spoon and fork pair make a gracious accent to any decor . ghanaian artisan carves the pair of wall sculptures by hand from native sese wood , etching the handles with curved grooves and perpendicular lines . the ghanaian culture places great emphasis on hospitality .\n\n26661: baltic birch jumbo fork wall d\u00e9cor. nan\n\n28501: spoon and fork african wall d\u00e9cor. sculpted by hand , sese wood intertwines to form the handle of a traditional fork , while a spoon encloses a wood ball . masks at the top represent the ghanaian ancestors who used these implements . chief carver nana recreates them as handsome wall sculptures .\n\n26662: baltic birch jumbo spoon wall d\u00e9cor. nan\n\n224: sunflower decorative spoon and fork wall decor set. the flower and leave are embossed with excellent attention to detail and such vibrant colors .\n\n24594: 3 piece wall decor set. all spaces can benefit from a decorative touch that shows off your style , and that includes the kitchen ! a set of decorative items like this , for example , is a great way to dress up your kitchen walls with a rustic-inspired touch . crafted from a blend of metal and wood , this set of three includes a spoon , knife , and fork , each with slight distressing for a country look . perfect when hung horizontally or vertically , this set is assembled with hanging hardware .\n\n28080: utensils vintage block sign wall decor. this decor piece gives a unique touch to your home and enhances the style of the room . can be used on a tabletop , mantel or hung on a wall . show off your style and character with this distinctive accent piece .\n\n12125: metal wall d\u00e9cor. looking to spice things up in your kitchen ? lend your walls fun and quirky accent with this flatware-inspired metal wall decor ! this adorable wall decor showcases openwork outlines of overlapping forks , spoons , and knives made from thin gray metal wire . ready to hang right out of the box , this artwork incorporates two nail loops into its design .\n\n2489: 3 piece wall d\u00e9cor set. lightweight kiri wood in a classic shape but large in scale place setting . each utensil hangs with a sawtooth hanger .\n\n31589: peanut butter & spoon wall d\u00e9cor. nan\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"11321\", \"42458\", \"23580\", \"32789\", \"34946\", \"31929\", \"24594\", \"1354\", \"25477\", \"224\"\n]\nprint(doc_ids)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "11321",
+                "42458",
+                "23580",
+                "32789",
+                "34946",
+                "31929",
+                "24594",
+                "1354",
+                "25477",
+                "224"
+            ],
+            "terminate": true
+        }
+    ]
+}

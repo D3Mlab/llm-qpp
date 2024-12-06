@@ -1,0 +1,25 @@
+Return the best ordering of {{ k }} of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly {{ k }} strings.
+
+Example
+***
+Query: an example query
+
+Documents:
+d1: doc 1 text
+d4: doc 4 text
+d2456: doc 2456 text
+
+Output: ["d4", "d1", "d2456"]
+***
+
+Inputs:
+***
+Query: {{ query }}
+
+Documents:
+{% for doc in doc_ids_and_texts %}
+{{ doc.docID }}: {{ doc.text }}
+{% endfor %}
+***
+
+Output:

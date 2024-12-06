@@ -1,0 +1,359 @@
+{
+    "queries": [
+        "english version bible"
+    ],
+    "retrieved_lists": [
+        [
+            "706529",
+            "716931",
+            "1594615",
+            "752132",
+            "1216177",
+            "1461288",
+            "1619977",
+            "918959",
+            "1566428",
+            "465682",
+            "1386953",
+            "862811",
+            "1246709",
+            "1481476",
+            "1138725",
+            "1562062",
+            "22931",
+            "1008106",
+            "1371380",
+            "1044003",
+            "545466",
+            "1556421",
+            "960402",
+            "1211294",
+            "1560190",
+            "78632",
+            "856898",
+            "1186678",
+            "28320",
+            "1183015"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7906259298324585,
+            0.7402369976043701,
+            0.724153995513916,
+            0.6983242034912109,
+            0.6900819540023804,
+            0.6814043521881104,
+            0.6664520502090454,
+            0.6640926599502563,
+            0.6572070121765137,
+            0.6532531976699829,
+            0.6398558020591736,
+            0.6394737958908081,
+            0.6347912549972534,
+            0.6316523551940918,
+            0.6270106434822083,
+            0.6220304369926453,
+            0.62116539478302,
+            0.6060934066772461,
+            0.6055088043212891,
+            0.6011790037155151,
+            0.5923159122467041,
+            0.5878393054008484,
+            0.5869194269180298,
+            0.5827988386154175,
+            0.5827370285987854,
+            0.579680323600769,
+            0.5743634700775146,
+            0.5724616050720215,
+            0.5713294744491577,
+            0.5680979490280151
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n1386953: Bridawn Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian\tProduct Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian Product Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case ChristianFrom the manufacturer Read more About Bridawn Felt Bible Cover Case We aim to bring a high-quality, healthy and colorful lifestyle to every customer and make every effort to develop well-made, beautiful, casual, and comfortable products. Our Bridawn felt bible cover is made from thick felt, which is soft, durable and sturdy enough to protect your Bibles and other valuables from scratching. This Bible bag not only for men, but also for women. You can use it as a church bag, tote bag, iPad Bag, Business Briefcase, Casual Bag, Travel Bag, Handbag. With this simple stylish cross design bag, no matter where you go, you'll be the central. Read more Product Details High-end PU Leather Handles Premium PU Leather handles offer comfortable carrying experiences. This Bible case can be perfectly used for study, business, leisure and travel, with stylish and decent in appearance, you will be delighted with our bible bag. Unique Carved Cross Hollowed cross makes the thick felt become light and breathable. This cover is a rare beauty not to be missed, a genuine collector's item & the result of masterly workmanship. Spacious & Convenient Size: 13.8(H)*9.4(L)*3.10(W). Roomy enough to hold your Lord\u2019s Day supplies and bible study items. Magnetic snap is easy and quick to open/ close, convenient to get your items. Read more\n\n862811: ESV Study Bible (TruTone, Brown/Cordovan, Portfolio Design, Indexed)\n\n1246709: ESV Large Print Bible (TruTone, Tan, Ornament Design)\n\n1481476: ESV Large Print Compact Bible (FONT SIZE: 8 pt., TruTone, Berry, Floral Design)\n\n1138725: NKJV, Precious Moments Holy Bible, Hardcover, Pink: Small Hands Bible\n\n1562062: ESV Large Print Value Thinline Bible (TruTone, Tan, Ornament Design)\n\n22931: KJV Holy Bible, Compact Aqua and Red Faux Leather w/Ribbon Marker, Red Letter, King James Version\n\n1008106: Biblia Biling\u00fce Reina Valera 1960/KJV Letra grande, negro, imitaci\u00f3n piel / Bilingual Bible RVR 1960/KJV Large print, Black, Imitation Leather (Spanish Edition)\n\n1371380: NASB, MacArthur Study Bible, 2nd Edition, Premium Goatskin Leather, Brown, Premier Collection, Comfort Print: Unleashing God's Truth One Verse at a Time\n\n1044003: Biblia Biling\u00fce, NVI/NIV, Leathersoft, Azul / Spanish Bilingual Bible, NVI/NIV, Leathersoft, Blue (Spanish Edition)\n\n545466: ESV Premium Gift Bible (TruTone, Teal, Floral Design)\n\n1556421: REALTREE\u2122 MAJESTIC BIBLE TABS - CAMO VERSION\n\n960402: Superbook Volume 6 Three Prophets (The Lion's Den/Nehemiah and the Walls of Jerusalem/Big Fish Little Fish)\tProduct Description vhs video tape format Product Description vhs video tape format\n\n1211294: ESV Premium Gift Bible (TruTone, Midnight, Flame Design)\n\n1560190: Creative Brands Faithworks-French Press Mornings Canvas Bible Cover, 7 x 10-Inch, Wonderfully Made\tProduct Description Navy blue, sturdy canvas bible cover with a pretty floral design and verse that reads \"I praise you because I am fearfully and Wonderfully Made - Psalm 139:14\". Features a convenient carry handle and wrap-around zipper to keep contents secure. Measures 7 x 10 x 2-inches and is easy to clean, just wipe with a damp cloth. Includes a zippered mesh pocket, 2 flap pockets to hold papers and other study materials or to keep bible securely in place, a pen holder and attached bookmark. Combine with a coordinating tote from the French Press Mornings collection to create a gift for church members, bible study friends and more. Look for gifts and d\u00e9cor for every day and every occasion that encourage, resonate with and uplift the soul from Faithworks at Creative Brands. Creative Brands focuses on gifts that will be a source of inspiration, fun, and encouragement to all with an emphasis on quality, whether for special occasions, social expression, or just for fun. Product Description Navy blue, sturdy canvas bible cover with a pretty floral design and verse that reads \"I praise you because I am fearfully and Wonderfully Made - Psalm 139:14\". Features a convenient carry handle and wrap-around zipper to keep contents secure. Measures 7 x 10 x 2-inches and is easy to clean, just wipe with a damp cloth. Includes a zippered mesh pocket, 2 flap pockets to hold papers and other study materials or to keep bible securely in place, a pen holder and attached bookmark. Combine with a coordinating tote from the French Press Mornings collection to create a gift for church members, bible study friends and more. Look for gifts and d\u00e9cor for every day and every occasion that encourage, resonate with and uplift the soul from Faithworks at Creative Brands. Creative Brands focuses on gifts that will be a source of inspiration, fun, and encouragement to all with an emphasis on quality, whether for special occasions, social expression, or just for fun.From the manufacturer Read more Explore Elegant and Unique Bible Cover Styles by Faithworks Tote Bible Covers These bible covers are designed to look like burlap totes. Their extra pockets and ribbon bookmarks make them both functional and a fashionable statement piece. Suede Bible Covers This style of cover features modern and classic elements. They each have bible quotes printed in gold on their front. Watercolor Canvas Bible Covers Painterly floral prints define this elegant cover collection. French Press Mornings Bible Covers This collection features stylistic plant designs as well as inspirational quotes written in a sophisticated cursive font. Read more Read more\n\n78632: He Will Cover You with His Feathers, Psalm 91:4, Christian Art Print, Unframed, Vintage Bible Verse Wall Decor Poster, Inspirational Gift, 8x10 Inches\tThis 8x10 UNFRAMED reproduction print of a highlighted King James Bible scripture is sure to bring encouragement or hope to someone. We scan real pages from old Bibles (thus they have slight flaws and aging such as bleeding words from the other side, because the pages are so thin), which just adds to the character. This is a perfect inspirational and encouraging gift. The Bible page is in the King James version: \"He shall cover thee with his feathers, and under his wings shalt thou trust: his truth shall be thy shield and buckler.\"\n\n856898: Checkbook Cover for Women All Things Are Possible Christian Blue Wallet, Faux Leather Christian Checkbook Cover for Duplicate Checks & Credit Cards - Mathew 19:26\tFrom the brand Previous page Planners Visit the Store Drinkware Visit the Store Bible Covers Visit the Store Journals Visit the Store Gift Sets Visit the Store Accessories Visit the Store Our group of in-house artists merge Scripture with contemporary design to create gifts for all occasions. Our unique line of gifts offer countless ways to affirm a friendship, encourage a loved one, congratulate a success, love a neighbor or remind someone of their faith. Christian Art Gifts wishes you and your loved ones a safe and blessed Christmas, from our family to yours. Next page Product Description Christian Art Gifts All Things Are Possible - Mathew 19:26 Checkbook Cover - The Perfect Gift for Anyone Made from soft, durable material with leather-like quality and texture. Beautiful Design Details Debossed Details Metallic Foil Accents Stitched Edges Functional - Sleek - Organized Our Inspirational Checkbook Covers aren't just elegant, they work as a wallet too, with built-in billfold inserts for functionality! With an inside slip pocket, 3 credit card slots, ID card holder, plastic divider for duplicate checks and a pen loop. This accessory holds all that you need to help make keeping your financial responsibilities effortless and convenient. Inspirational Scripture Jesus looked at them and said, \u201cWith man this is impossible, but with God all things are possible.\u201d Mathew 19:26 Read more Designed In House Our group of inhouse artists merges scripture with contemporary design to create gifts for all occasions. We all serve together to permanently impact people\u2019s lives through our scripturally inspired products. If you want to share life-changing messages of hope, joy, love & truth, consider giving a gift from Christian Art Gifts. Read more\n\n1186678: Dios habla con Arjuna: El Bhagavad Guita, Vol. 1 (God Talks with Arjuna) (Self-Realization Fellowship) (Spanish Edition)\n\n28320: Hat Shark Romans 8:28 Bible Verse - Luggage Metal Chain Necklace Military Dog Tag\n\n1183015: Women of Courage: 31 Daily Devotional Bible Readings\n\n"
+    ],
+    "responses": [
+        "```python\n[\"706529\", \"716931\", \"1461288\", \"1619977\", \"1216177\", \"1566428\", \"1594615\", \"862811\", \"1371380\", \"22931\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "706529",
+        "716931",
+        "1461288",
+        "1619977",
+        "1216177",
+        "1566428",
+        "1594615",
+        "862811",
+        "1371380",
+        "22931"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "english version bible"
+            ]
+        },
+        {
+            "queries": [
+                "english version bible"
+            ],
+            "retrieved_lists": [
+                [
+                    "706529",
+                    "716931",
+                    "1594615",
+                    "752132",
+                    "1216177",
+                    "1461288",
+                    "1619977",
+                    "918959",
+                    "1566428",
+                    "465682",
+                    "1386953",
+                    "862811",
+                    "1246709",
+                    "1481476",
+                    "1138725",
+                    "1562062",
+                    "22931",
+                    "1008106",
+                    "1371380",
+                    "1044003",
+                    "545466",
+                    "1556421",
+                    "960402",
+                    "1211294",
+                    "1560190",
+                    "78632",
+                    "856898",
+                    "1186678",
+                    "28320",
+                    "1183015"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7906259298324585,
+                    0.7402369976043701,
+                    0.724153995513916,
+                    0.6983242034912109,
+                    0.6900819540023804,
+                    0.6814043521881104,
+                    0.6664520502090454,
+                    0.6640926599502563,
+                    0.6572070121765137,
+                    0.6532531976699829,
+                    0.6398558020591736,
+                    0.6394737958908081,
+                    0.6347912549972534,
+                    0.6316523551940918,
+                    0.6270106434822083,
+                    0.6220304369926453,
+                    0.62116539478302,
+                    0.6060934066772461,
+                    0.6055088043212891,
+                    0.6011790037155151,
+                    0.5923159122467041,
+                    0.5878393054008484,
+                    0.5869194269180298,
+                    0.5827988386154175,
+                    0.5827370285987854,
+                    0.579680323600769,
+                    0.5743634700775146,
+                    0.5724616050720215,
+                    0.5713294744491577,
+                    0.5680979490280151
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "english version bible"
+            ],
+            "retrieved_lists": [
+                [
+                    "706529",
+                    "716931",
+                    "1594615",
+                    "752132",
+                    "1216177",
+                    "1461288",
+                    "1619977",
+                    "918959",
+                    "1566428",
+                    "465682",
+                    "1386953",
+                    "862811",
+                    "1246709",
+                    "1481476",
+                    "1138725",
+                    "1562062",
+                    "22931",
+                    "1008106",
+                    "1371380",
+                    "1044003",
+                    "545466",
+                    "1556421",
+                    "960402",
+                    "1211294",
+                    "1560190",
+                    "78632",
+                    "856898",
+                    "1186678",
+                    "28320",
+                    "1183015"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7906259298324585,
+                    0.7402369976043701,
+                    0.724153995513916,
+                    0.6983242034912109,
+                    0.6900819540023804,
+                    0.6814043521881104,
+                    0.6664520502090454,
+                    0.6640926599502563,
+                    0.6572070121765137,
+                    0.6532531976699829,
+                    0.6398558020591736,
+                    0.6394737958908081,
+                    0.6347912549972534,
+                    0.6316523551940918,
+                    0.6270106434822083,
+                    0.6220304369926453,
+                    0.62116539478302,
+                    0.6060934066772461,
+                    0.6055088043212891,
+                    0.6011790037155151,
+                    0.5923159122467041,
+                    0.5878393054008484,
+                    0.5869194269180298,
+                    0.5827988386154175,
+                    0.5827370285987854,
+                    0.579680323600769,
+                    0.5743634700775146,
+                    0.5724616050720215,
+                    0.5713294744491577,
+                    0.5680979490280151
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n1386953: Bridawn Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian\tProduct Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian Product Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case ChristianFrom the manufacturer Read more About Bridawn Felt Bible Cover Case We aim to bring a high-quality, healthy and colorful lifestyle to every customer and make every effort to develop well-made, beautiful, casual, and comfortable products. Our Bridawn felt bible cover is made from thick felt, which is soft, durable and sturdy enough to protect your Bibles and other valuables from scratching. This Bible bag not only for men, but also for women. You can use it as a church bag, tote bag, iPad Bag, Business Briefcase, Casual Bag, Travel Bag, Handbag. With this simple stylish cross design bag, no matter where you go, you'll be the central. Read more Product Details High-end PU Leather Handles Premium PU Leather handles offer comfortable carrying experiences. This Bible case can be perfectly used for study, business, leisure and travel, with stylish and decent in appearance, you will be delighted with our bible bag. Unique Carved Cross Hollowed cross makes the thick felt become light and breathable. This cover is a rare beauty not to be missed, a genuine collector's item & the result of masterly workmanship. Spacious & Convenient Size: 13.8(H)*9.4(L)*3.10(W). Roomy enough to hold your Lord\u2019s Day supplies and bible study items. Magnetic snap is easy and quick to open/ close, convenient to get your items. Read more\n\n862811: ESV Study Bible (TruTone, Brown/Cordovan, Portfolio Design, Indexed)\n\n1246709: ESV Large Print Bible (TruTone, Tan, Ornament Design)\n\n1481476: ESV Large Print Compact Bible (FONT SIZE: 8 pt., TruTone, Berry, Floral Design)\n\n1138725: NKJV, Precious Moments Holy Bible, Hardcover, Pink: Small Hands Bible\n\n1562062: ESV Large Print Value Thinline Bible (TruTone, Tan, Ornament Design)\n\n22931: KJV Holy Bible, Compact Aqua and Red Faux Leather w/Ribbon Marker, Red Letter, King James Version\n\n1008106: Biblia Biling\u00fce Reina Valera 1960/KJV Letra grande, negro, imitaci\u00f3n piel / Bilingual Bible RVR 1960/KJV Large print, Black, Imitation Leather (Spanish Edition)\n\n1371380: NASB, MacArthur Study Bible, 2nd Edition, Premium Goatskin Leather, Brown, Premier Collection, Comfort Print: Unleashing God's Truth One Verse at a Time\n\n1044003: Biblia Biling\u00fce, NVI/NIV, Leathersoft, Azul / Spanish Bilingual Bible, NVI/NIV, Leathersoft, Blue (Spanish Edition)\n\n545466: ESV Premium Gift Bible (TruTone, Teal, Floral Design)\n\n1556421: REALTREE\u2122 MAJESTIC BIBLE TABS - CAMO VERSION\n\n960402: Superbook Volume 6 Three Prophets (The Lion's Den/Nehemiah and the Walls of Jerusalem/Big Fish Little Fish)\tProduct Description vhs video tape format Product Description vhs video tape format\n\n1211294: ESV Premium Gift Bible (TruTone, Midnight, Flame Design)\n\n1560190: Creative Brands Faithworks-French Press Mornings Canvas Bible Cover, 7 x 10-Inch, Wonderfully Made\tProduct Description Navy blue, sturdy canvas bible cover with a pretty floral design and verse that reads \"I praise you because I am fearfully and Wonderfully Made - Psalm 139:14\". Features a convenient carry handle and wrap-around zipper to keep contents secure. Measures 7 x 10 x 2-inches and is easy to clean, just wipe with a damp cloth. Includes a zippered mesh pocket, 2 flap pockets to hold papers and other study materials or to keep bible securely in place, a pen holder and attached bookmark. Combine with a coordinating tote from the French Press Mornings collection to create a gift for church members, bible study friends and more. Look for gifts and d\u00e9cor for every day and every occasion that encourage, resonate with and uplift the soul from Faithworks at Creative Brands. Creative Brands focuses on gifts that will be a source of inspiration, fun, and encouragement to all with an emphasis on quality, whether for special occasions, social expression, or just for fun. Product Description Navy blue, sturdy canvas bible cover with a pretty floral design and verse that reads \"I praise you because I am fearfully and Wonderfully Made - Psalm 139:14\". Features a convenient carry handle and wrap-around zipper to keep contents secure. Measures 7 x 10 x 2-inches and is easy to clean, just wipe with a damp cloth. Includes a zippered mesh pocket, 2 flap pockets to hold papers and other study materials or to keep bible securely in place, a pen holder and attached bookmark. Combine with a coordinating tote from the French Press Mornings collection to create a gift for church members, bible study friends and more. Look for gifts and d\u00e9cor for every day and every occasion that encourage, resonate with and uplift the soul from Faithworks at Creative Brands. Creative Brands focuses on gifts that will be a source of inspiration, fun, and encouragement to all with an emphasis on quality, whether for special occasions, social expression, or just for fun.From the manufacturer Read more Explore Elegant and Unique Bible Cover Styles by Faithworks Tote Bible Covers These bible covers are designed to look like burlap totes. Their extra pockets and ribbon bookmarks make them both functional and a fashionable statement piece. Suede Bible Covers This style of cover features modern and classic elements. They each have bible quotes printed in gold on their front. Watercolor Canvas Bible Covers Painterly floral prints define this elegant cover collection. French Press Mornings Bible Covers This collection features stylistic plant designs as well as inspirational quotes written in a sophisticated cursive font. Read more Read more\n\n78632: He Will Cover You with His Feathers, Psalm 91:4, Christian Art Print, Unframed, Vintage Bible Verse Wall Decor Poster, Inspirational Gift, 8x10 Inches\tThis 8x10 UNFRAMED reproduction print of a highlighted King James Bible scripture is sure to bring encouragement or hope to someone. We scan real pages from old Bibles (thus they have slight flaws and aging such as bleeding words from the other side, because the pages are so thin), which just adds to the character. This is a perfect inspirational and encouraging gift. The Bible page is in the King James version: \"He shall cover thee with his feathers, and under his wings shalt thou trust: his truth shall be thy shield and buckler.\"\n\n856898: Checkbook Cover for Women All Things Are Possible Christian Blue Wallet, Faux Leather Christian Checkbook Cover for Duplicate Checks & Credit Cards - Mathew 19:26\tFrom the brand Previous page Planners Visit the Store Drinkware Visit the Store Bible Covers Visit the Store Journals Visit the Store Gift Sets Visit the Store Accessories Visit the Store Our group of in-house artists merge Scripture with contemporary design to create gifts for all occasions. Our unique line of gifts offer countless ways to affirm a friendship, encourage a loved one, congratulate a success, love a neighbor or remind someone of their faith. Christian Art Gifts wishes you and your loved ones a safe and blessed Christmas, from our family to yours. Next page Product Description Christian Art Gifts All Things Are Possible - Mathew 19:26 Checkbook Cover - The Perfect Gift for Anyone Made from soft, durable material with leather-like quality and texture. Beautiful Design Details Debossed Details Metallic Foil Accents Stitched Edges Functional - Sleek - Organized Our Inspirational Checkbook Covers aren't just elegant, they work as a wallet too, with built-in billfold inserts for functionality! With an inside slip pocket, 3 credit card slots, ID card holder, plastic divider for duplicate checks and a pen loop. This accessory holds all that you need to help make keeping your financial responsibilities effortless and convenient. Inspirational Scripture Jesus looked at them and said, \u201cWith man this is impossible, but with God all things are possible.\u201d Mathew 19:26 Read more Designed In House Our group of inhouse artists merges scripture with contemporary design to create gifts for all occasions. We all serve together to permanently impact people\u2019s lives through our scripturally inspired products. If you want to share life-changing messages of hope, joy, love & truth, consider giving a gift from Christian Art Gifts. Read more\n\n1186678: Dios habla con Arjuna: El Bhagavad Guita, Vol. 1 (God Talks with Arjuna) (Self-Realization Fellowship) (Spanish Edition)\n\n28320: Hat Shark Romans 8:28 Bible Verse - Luggage Metal Chain Necklace Military Dog Tag\n\n1183015: Women of Courage: 31 Daily Devotional Bible Readings\n\n"
+            ],
+            "responses": [
+                "```python\n[\"706529\", \"716931\", \"1461288\", \"1619977\", \"1216177\", \"1566428\", \"1594615\", \"862811\", \"1371380\", \"22931\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "706529",
+                "716931",
+                "1461288",
+                "1619977",
+                "1216177",
+                "1566428",
+                "1594615",
+                "862811",
+                "1371380",
+                "22931"
+            ]
+        },
+        {
+            "queries": [
+                "english version bible"
+            ],
+            "retrieved_lists": [
+                [
+                    "706529",
+                    "716931",
+                    "1594615",
+                    "752132",
+                    "1216177",
+                    "1461288",
+                    "1619977",
+                    "918959",
+                    "1566428",
+                    "465682",
+                    "1386953",
+                    "862811",
+                    "1246709",
+                    "1481476",
+                    "1138725",
+                    "1562062",
+                    "22931",
+                    "1008106",
+                    "1371380",
+                    "1044003",
+                    "545466",
+                    "1556421",
+                    "960402",
+                    "1211294",
+                    "1560190",
+                    "78632",
+                    "856898",
+                    "1186678",
+                    "28320",
+                    "1183015"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7906259298324585,
+                    0.7402369976043701,
+                    0.724153995513916,
+                    0.6983242034912109,
+                    0.6900819540023804,
+                    0.6814043521881104,
+                    0.6664520502090454,
+                    0.6640926599502563,
+                    0.6572070121765137,
+                    0.6532531976699829,
+                    0.6398558020591736,
+                    0.6394737958908081,
+                    0.6347912549972534,
+                    0.6316523551940918,
+                    0.6270106434822083,
+                    0.6220304369926453,
+                    0.62116539478302,
+                    0.6060934066772461,
+                    0.6055088043212891,
+                    0.6011790037155151,
+                    0.5923159122467041,
+                    0.5878393054008484,
+                    0.5869194269180298,
+                    0.5827988386154175,
+                    0.5827370285987854,
+                    0.579680323600769,
+                    0.5743634700775146,
+                    0.5724616050720215,
+                    0.5713294744491577,
+                    0.5680979490280151
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 strings.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: english version bible\n\nDocuments:\n\n706529: Holy Bible: Contemporary English Version\n\n716931: The Holy Bible, English Standard Version (with Cross-References): Old and New Testaments\n\n1594615: Text Bible-Good News\n\n752132: MATTHEW HENRY'S COMMENTARY ON THE WHOLE BIBLE (six volumes)\n\n1216177: ESV Large Print Bible (TruTone, Black)\n\n1461288: MEV Bible Personal Size Large Print Cherry Brown Indexed: Modern English Version\n\n1619977: Extreme Faith Bible: Contemporary English Version\n\n918959: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Hardcover, Black (Chinese Edition)\n\n1566428: ESV Pew and Worship Bible, Large Print (Black)\n\n465682: CUV (Simplified Script), NIV, Chinese/English Bilingual Bible, Bonded Leather, Black (Chinese Edition)\n\n1386953: Bridawn Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian\tProduct Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case Christian Product Description Bradawl Felt Bible Cover Case for Women Men, Christian Bible Tote Carved Cross Holy Bible Carrying Bag Church Bible Study Case ChristianFrom the manufacturer Read more About Bridawn Felt Bible Cover Case We aim to bring a high-quality, healthy and colorful lifestyle to every customer and make every effort to develop well-made, beautiful, casual, and comfortable products. Our Bridawn felt bible cover is made from thick felt, which is soft, durable and sturdy enough to protect your Bibles and other valuables from scratching. This Bible bag not only for men, but also for women. You can use it as a church bag, tote bag, iPad Bag, Business Briefcase, Casual Bag, Travel Bag, Handbag. With this simple stylish cross design bag, no matter where you go, you'll be the central. Read more Product Details High-end PU Leather Handles Premium PU Leather handles offer comfortable carrying experiences. This Bible case can be perfectly used for study, business, leisure and travel, with stylish and decent in appearance, you will be delighted with our bible bag. Unique Carved Cross Hollowed cross makes the thick felt become light and breathable. This cover is a rare beauty not to be missed, a genuine collector's item & the result of masterly workmanship. Spacious & Convenient Size: 13.8(H)*9.4(L)*3.10(W). Roomy enough to hold your Lord\u2019s Day supplies and bible study items. Magnetic snap is easy and quick to open/ close, convenient to get your items. Read more\n\n862811: ESV Study Bible (TruTone, Brown/Cordovan, Portfolio Design, Indexed)\n\n1246709: ESV Large Print Bible (TruTone, Tan, Ornament Design)\n\n1481476: ESV Large Print Compact Bible (FONT SIZE: 8 pt., TruTone, Berry, Floral Design)\n\n1138725: NKJV, Precious Moments Holy Bible, Hardcover, Pink: Small Hands Bible\n\n1562062: ESV Large Print Value Thinline Bible (TruTone, Tan, Ornament Design)\n\n22931: KJV Holy Bible, Compact Aqua and Red Faux Leather w/Ribbon Marker, Red Letter, King James Version\n\n1008106: Biblia Biling\u00fce Reina Valera 1960/KJV Letra grande, negro, imitaci\u00f3n piel / Bilingual Bible RVR 1960/KJV Large print, Black, Imitation Leather (Spanish Edition)\n\n1371380: NASB, MacArthur Study Bible, 2nd Edition, Premium Goatskin Leather, Brown, Premier Collection, Comfort Print: Unleashing God's Truth One Verse at a Time\n\n1044003: Biblia Biling\u00fce, NVI/NIV, Leathersoft, Azul / Spanish Bilingual Bible, NVI/NIV, Leathersoft, Blue (Spanish Edition)\n\n545466: ESV Premium Gift Bible (TruTone, Teal, Floral Design)\n\n1556421: REALTREE\u2122 MAJESTIC BIBLE TABS - CAMO VERSION\n\n960402: Superbook Volume 6 Three Prophets (The Lion's Den/Nehemiah and the Walls of Jerusalem/Big Fish Little Fish)\tProduct Description vhs video tape format Product Description vhs video tape format\n\n1211294: ESV Premium Gift Bible (TruTone, Midnight, Flame Design)\n\n1560190: Creative Brands Faithworks-French Press Mornings Canvas Bible Cover, 7 x 10-Inch, Wonderfully Made\tProduct Description Navy blue, sturdy canvas bible cover with a pretty floral design and verse that reads \"I praise you because I am fearfully and Wonderfully Made - Psalm 139:14\". Features a convenient carry handle and wrap-around zipper to keep contents secure. Measures 7 x 10 x 2-inches and is easy to clean, just wipe with a damp cloth. Includes a zippered mesh pocket, 2 flap pockets to hold papers and other study materials or to keep bible securely in place, a pen holder and attached bookmark. Combine with a coordinating tote from the French Press Mornings collection to create a gift for church members, bible study friends and more. Look for gifts and d\u00e9cor for every day and every occasion that encourage, resonate with and uplift the soul from Faithworks at Creative Brands. Creative Brands focuses on gifts that will be a source of inspiration, fun, and encouragement to all with an emphasis on quality, whether for special occasions, social expression, or just for fun. Product Description Navy blue, sturdy canvas bible cover with a pretty floral design and verse that reads \"I praise you because I am fearfully and Wonderfully Made - Psalm 139:14\". Features a convenient carry handle and wrap-around zipper to keep contents secure. Measures 7 x 10 x 2-inches and is easy to clean, just wipe with a damp cloth. Includes a zippered mesh pocket, 2 flap pockets to hold papers and other study materials or to keep bible securely in place, a pen holder and attached bookmark. Combine with a coordinating tote from the French Press Mornings collection to create a gift for church members, bible study friends and more. Look for gifts and d\u00e9cor for every day and every occasion that encourage, resonate with and uplift the soul from Faithworks at Creative Brands. Creative Brands focuses on gifts that will be a source of inspiration, fun, and encouragement to all with an emphasis on quality, whether for special occasions, social expression, or just for fun.From the manufacturer Read more Explore Elegant and Unique Bible Cover Styles by Faithworks Tote Bible Covers These bible covers are designed to look like burlap totes. Their extra pockets and ribbon bookmarks make them both functional and a fashionable statement piece. Suede Bible Covers This style of cover features modern and classic elements. They each have bible quotes printed in gold on their front. Watercolor Canvas Bible Covers Painterly floral prints define this elegant cover collection. French Press Mornings Bible Covers This collection features stylistic plant designs as well as inspirational quotes written in a sophisticated cursive font. Read more Read more\n\n78632: He Will Cover You with His Feathers, Psalm 91:4, Christian Art Print, Unframed, Vintage Bible Verse Wall Decor Poster, Inspirational Gift, 8x10 Inches\tThis 8x10 UNFRAMED reproduction print of a highlighted King James Bible scripture is sure to bring encouragement or hope to someone. We scan real pages from old Bibles (thus they have slight flaws and aging such as bleeding words from the other side, because the pages are so thin), which just adds to the character. This is a perfect inspirational and encouraging gift. The Bible page is in the King James version: \"He shall cover thee with his feathers, and under his wings shalt thou trust: his truth shall be thy shield and buckler.\"\n\n856898: Checkbook Cover for Women All Things Are Possible Christian Blue Wallet, Faux Leather Christian Checkbook Cover for Duplicate Checks & Credit Cards - Mathew 19:26\tFrom the brand Previous page Planners Visit the Store Drinkware Visit the Store Bible Covers Visit the Store Journals Visit the Store Gift Sets Visit the Store Accessories Visit the Store Our group of in-house artists merge Scripture with contemporary design to create gifts for all occasions. Our unique line of gifts offer countless ways to affirm a friendship, encourage a loved one, congratulate a success, love a neighbor or remind someone of their faith. Christian Art Gifts wishes you and your loved ones a safe and blessed Christmas, from our family to yours. Next page Product Description Christian Art Gifts All Things Are Possible - Mathew 19:26 Checkbook Cover - The Perfect Gift for Anyone Made from soft, durable material with leather-like quality and texture. Beautiful Design Details Debossed Details Metallic Foil Accents Stitched Edges Functional - Sleek - Organized Our Inspirational Checkbook Covers aren't just elegant, they work as a wallet too, with built-in billfold inserts for functionality! With an inside slip pocket, 3 credit card slots, ID card holder, plastic divider for duplicate checks and a pen loop. This accessory holds all that you need to help make keeping your financial responsibilities effortless and convenient. Inspirational Scripture Jesus looked at them and said, \u201cWith man this is impossible, but with God all things are possible.\u201d Mathew 19:26 Read more Designed In House Our group of inhouse artists merges scripture with contemporary design to create gifts for all occasions. We all serve together to permanently impact people\u2019s lives through our scripturally inspired products. If you want to share life-changing messages of hope, joy, love & truth, consider giving a gift from Christian Art Gifts. Read more\n\n1186678: Dios habla con Arjuna: El Bhagavad Guita, Vol. 1 (God Talks with Arjuna) (Self-Realization Fellowship) (Spanish Edition)\n\n28320: Hat Shark Romans 8:28 Bible Verse - Luggage Metal Chain Necklace Military Dog Tag\n\n1183015: Women of Courage: 31 Daily Devotional Bible Readings\n\n"
+            ],
+            "responses": [
+                "```python\n[\"706529\", \"716931\", \"1461288\", \"1619977\", \"1216177\", \"1566428\", \"1594615\", \"862811\", \"1371380\", \"22931\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "706529",
+                "716931",
+                "1461288",
+                "1619977",
+                "1216177",
+                "1566428",
+                "1594615",
+                "862811",
+                "1371380",
+                "22931"
+            ],
+            "terminate": true
+        }
+    ]
+}
