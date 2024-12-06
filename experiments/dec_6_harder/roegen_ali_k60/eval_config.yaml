@@ -1,0 +1,6 @@
+logging: 
+  level: DEBUG
+conf_level: 0.95
+qrels_path: data/ROEGEN/q50_d570/qrels.qrels
+corpus_text_path: data/ROEGEN/q50_d570/collection.jsonl
+measures: ["map_cut_5", "map_cut_10", "recall_10", "success_1", "success_3"]
