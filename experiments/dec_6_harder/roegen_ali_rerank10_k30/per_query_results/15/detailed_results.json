@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Culinary cities for food lovers"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "168",
+            "352",
+            "492",
+            "105",
+            "96",
+            "320",
+            "74",
+            "120",
+            "516",
+            "251",
+            "226",
+            "72",
+            "413",
+            "22",
+            "319",
+            "339",
+            "130",
+            "428",
+            "197",
+            "119",
+            "283",
+            "560",
+            "95",
+            "400",
+            "43",
+            "51",
+            "494",
+            "16",
+            "147",
+            "310"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.5998046398162842,
+            0.5995782613754272,
+            0.596617579460144,
+            0.5941746830940247,
+            0.5936787128448486,
+            0.5927881002426147,
+            0.5912416577339172,
+            0.5910091400146484,
+            0.589108943939209,
+            0.57798171043396,
+            0.5771428346633911,
+            0.572295606136322,
+            0.5716400742530823,
+            0.5715172290802002,
+            0.5708203911781311,
+            0.5706434845924377,
+            0.5698702335357666,
+            0.5671800374984741,
+            0.5669959783554077,
+            0.5665678381919861,
+            0.5660079717636108,
+            0.565631091594696,
+            0.5650057792663574,
+            0.5649259090423584,
+            0.5643303394317627,
+            0.5617718696594238,
+            0.5613754391670227,
+            0.5609526634216309,
+            0.5608882904052734,
+            0.5604737997055054
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Culinary cities for food lovers\n\nDocuments:\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 72\t|\tTEXT: Bologna\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 130\t|\tTEXT: D\u00fcsseldorf\n\nDOCID: 428\t|\tTEXT: Shanghai\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 494\t|\tTEXT: Toulouse\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 147\t|\tTEXT: Fukuoka\n\nDOCID: 310\t|\tTEXT: Nanjing\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"339\", \"320\", \"72\", \"105\", \"400\", \"168\", \"74\", \"319\", \"492\", \"130\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "339",
+        "320",
+        "72",
+        "105",
+        "400",
+        "168",
+        "74",
+        "319",
+        "492",
+        "130"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Culinary cities for food lovers"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Culinary cities for food lovers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "168",
+                    "352",
+                    "492",
+                    "105",
+                    "96",
+                    "320",
+                    "74",
+                    "120",
+                    "516",
+                    "251",
+                    "226",
+                    "72",
+                    "413",
+                    "22",
+                    "319",
+                    "339",
+                    "130",
+                    "428",
+                    "197",
+                    "119",
+                    "283",
+                    "560",
+                    "95",
+                    "400",
+                    "43",
+                    "51",
+                    "494",
+                    "16",
+                    "147",
+                    "310"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5998046398162842,
+                    0.5995782613754272,
+                    0.596617579460144,
+                    0.5941746830940247,
+                    0.5936787128448486,
+                    0.5927881002426147,
+                    0.5912416577339172,
+                    0.5910091400146484,
+                    0.589108943939209,
+                    0.57798171043396,
+                    0.5771428346633911,
+                    0.572295606136322,
+                    0.5716400742530823,
+                    0.5715172290802002,
+                    0.5708203911781311,
+                    0.5706434845924377,
+                    0.5698702335357666,
+                    0.5671800374984741,
+                    0.5669959783554077,
+                    0.5665678381919861,
+                    0.5660079717636108,
+                    0.565631091594696,
+                    0.5650057792663574,
+                    0.5649259090423584,
+                    0.5643303394317627,
+                    0.5617718696594238,
+                    0.5613754391670227,
+                    0.5609526634216309,
+                    0.5608882904052734,
+                    0.5604737997055054
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Culinary cities for food lovers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "168",
+                    "352",
+                    "492",
+                    "105",
+                    "96",
+                    "320",
+                    "74",
+                    "120",
+                    "516",
+                    "251",
+                    "226",
+                    "72",
+                    "413",
+                    "22",
+                    "319",
+                    "339",
+                    "130",
+                    "428",
+                    "197",
+                    "119",
+                    "283",
+                    "560",
+                    "95",
+                    "400",
+                    "43",
+                    "51",
+                    "494",
+                    "16",
+                    "147",
+                    "310"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5998046398162842,
+                    0.5995782613754272,
+                    0.596617579460144,
+                    0.5941746830940247,
+                    0.5936787128448486,
+                    0.5927881002426147,
+                    0.5912416577339172,
+                    0.5910091400146484,
+                    0.589108943939209,
+                    0.57798171043396,
+                    0.5771428346633911,
+                    0.572295606136322,
+                    0.5716400742530823,
+                    0.5715172290802002,
+                    0.5708203911781311,
+                    0.5706434845924377,
+                    0.5698702335357666,
+                    0.5671800374984741,
+                    0.5669959783554077,
+                    0.5665678381919861,
+                    0.5660079717636108,
+                    0.565631091594696,
+                    0.5650057792663574,
+                    0.5649259090423584,
+                    0.5643303394317627,
+                    0.5617718696594238,
+                    0.5613754391670227,
+                    0.5609526634216309,
+                    0.5608882904052734,
+                    0.5604737997055054
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Culinary cities for food lovers\n\nDocuments:\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 72\t|\tTEXT: Bologna\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 130\t|\tTEXT: D\u00fcsseldorf\n\nDOCID: 428\t|\tTEXT: Shanghai\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 494\t|\tTEXT: Toulouse\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 147\t|\tTEXT: Fukuoka\n\nDOCID: 310\t|\tTEXT: Nanjing\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"339\", \"320\", \"72\", \"105\", \"400\", \"168\", \"74\", \"319\", \"492\", \"130\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "339",
+                "320",
+                "72",
+                "105",
+                "400",
+                "168",
+                "74",
+                "319",
+                "492",
+                "130"
+            ]
+        },
+        {
+            "queries": [
+                "Culinary cities for food lovers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "168",
+                    "352",
+                    "492",
+                    "105",
+                    "96",
+                    "320",
+                    "74",
+                    "120",
+                    "516",
+                    "251",
+                    "226",
+                    "72",
+                    "413",
+                    "22",
+                    "319",
+                    "339",
+                    "130",
+                    "428",
+                    "197",
+                    "119",
+                    "283",
+                    "560",
+                    "95",
+                    "400",
+                    "43",
+                    "51",
+                    "494",
+                    "16",
+                    "147",
+                    "310"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5998046398162842,
+                    0.5995782613754272,
+                    0.596617579460144,
+                    0.5941746830940247,
+                    0.5936787128448486,
+                    0.5927881002426147,
+                    0.5912416577339172,
+                    0.5910091400146484,
+                    0.589108943939209,
+                    0.57798171043396,
+                    0.5771428346633911,
+                    0.572295606136322,
+                    0.5716400742530823,
+                    0.5715172290802002,
+                    0.5708203911781311,
+                    0.5706434845924377,
+                    0.5698702335357666,
+                    0.5671800374984741,
+                    0.5669959783554077,
+                    0.5665678381919861,
+                    0.5660079717636108,
+                    0.565631091594696,
+                    0.5650057792663574,
+                    0.5649259090423584,
+                    0.5643303394317627,
+                    0.5617718696594238,
+                    0.5613754391670227,
+                    0.5609526634216309,
+                    0.5608882904052734,
+                    0.5604737997055054
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Culinary cities for food lovers\n\nDocuments:\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 72\t|\tTEXT: Bologna\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 130\t|\tTEXT: D\u00fcsseldorf\n\nDOCID: 428\t|\tTEXT: Shanghai\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 494\t|\tTEXT: Toulouse\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 147\t|\tTEXT: Fukuoka\n\nDOCID: 310\t|\tTEXT: Nanjing\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"339\", \"320\", \"72\", \"105\", \"400\", \"168\", \"74\", \"319\", \"492\", \"130\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "339",
+                "320",
+                "72",
+                "105",
+                "400",
+                "168",
+                "74",
+                "319",
+                "492",
+                "130"
+            ],
+            "terminate": true
+        }
+    ]
+}

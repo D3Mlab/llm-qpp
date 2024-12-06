@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Budget friendly cities for travelers"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "120",
+            "352",
+            "399",
+            "320",
+            "43",
+            "338",
+            "283",
+            "96",
+            "141",
+            "82",
+            "378",
+            "168",
+            "560",
+            "53",
+            "520",
+            "400",
+            "61",
+            "71",
+            "40",
+            "251",
+            "22",
+            "105",
+            "255",
+            "501",
+            "492",
+            "56",
+            "376",
+            "81",
+            "187",
+            "94"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6080152988433838,
+            0.602285623550415,
+            0.5996540188789368,
+            0.5974205732345581,
+            0.5963310599327087,
+            0.5934476256370544,
+            0.5930566787719727,
+            0.5923961400985718,
+            0.5923138856887817,
+            0.592198371887207,
+            0.5886358022689819,
+            0.5867362022399902,
+            0.5848444700241089,
+            0.5841088891029358,
+            0.5836526155471802,
+            0.5823092460632324,
+            0.5819820761680603,
+            0.5813775062561035,
+            0.5811740756034851,
+            0.5810505747795105,
+            0.5806221961975098,
+            0.5788805484771729,
+            0.5788704752922058,
+            0.5778156518936157,
+            0.5774179697036743,
+            0.5771220922470093,
+            0.5771033763885498,
+            0.5767081379890442,
+            0.5765233635902405,
+            0.5757863521575928
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Budget friendly cities for travelers\n\nDocuments:\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 40\t|\tTEXT: Asunci\u00f3n\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\nDOCID: 501\t|\tTEXT: Trujillo (Peru)\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 56\t|\tTEXT: Batumi\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"120\", \"352\", \"338\", \"71\", \"82\", \"378\", \"168\", \"560\", \"53\", \"520\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "120",
+        "352",
+        "338",
+        "71",
+        "82",
+        "378",
+        "168",
+        "560",
+        "53",
+        "520"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Budget friendly cities for travelers"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Budget friendly cities for travelers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "120",
+                    "352",
+                    "399",
+                    "320",
+                    "43",
+                    "338",
+                    "283",
+                    "96",
+                    "141",
+                    "82",
+                    "378",
+                    "168",
+                    "560",
+                    "53",
+                    "520",
+                    "400",
+                    "61",
+                    "71",
+                    "40",
+                    "251",
+                    "22",
+                    "105",
+                    "255",
+                    "501",
+                    "492",
+                    "56",
+                    "376",
+                    "81",
+                    "187",
+                    "94"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6080152988433838,
+                    0.602285623550415,
+                    0.5996540188789368,
+                    0.5974205732345581,
+                    0.5963310599327087,
+                    0.5934476256370544,
+                    0.5930566787719727,
+                    0.5923961400985718,
+                    0.5923138856887817,
+                    0.592198371887207,
+                    0.5886358022689819,
+                    0.5867362022399902,
+                    0.5848444700241089,
+                    0.5841088891029358,
+                    0.5836526155471802,
+                    0.5823092460632324,
+                    0.5819820761680603,
+                    0.5813775062561035,
+                    0.5811740756034851,
+                    0.5810505747795105,
+                    0.5806221961975098,
+                    0.5788805484771729,
+                    0.5788704752922058,
+                    0.5778156518936157,
+                    0.5774179697036743,
+                    0.5771220922470093,
+                    0.5771033763885498,
+                    0.5767081379890442,
+                    0.5765233635902405,
+                    0.5757863521575928
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Budget friendly cities for travelers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "120",
+                    "352",
+                    "399",
+                    "320",
+                    "43",
+                    "338",
+                    "283",
+                    "96",
+                    "141",
+                    "82",
+                    "378",
+                    "168",
+                    "560",
+                    "53",
+                    "520",
+                    "400",
+                    "61",
+                    "71",
+                    "40",
+                    "251",
+                    "22",
+                    "105",
+                    "255",
+                    "501",
+                    "492",
+                    "56",
+                    "376",
+                    "81",
+                    "187",
+                    "94"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6080152988433838,
+                    0.602285623550415,
+                    0.5996540188789368,
+                    0.5974205732345581,
+                    0.5963310599327087,
+                    0.5934476256370544,
+                    0.5930566787719727,
+                    0.5923961400985718,
+                    0.5923138856887817,
+                    0.592198371887207,
+                    0.5886358022689819,
+                    0.5867362022399902,
+                    0.5848444700241089,
+                    0.5841088891029358,
+                    0.5836526155471802,
+                    0.5823092460632324,
+                    0.5819820761680603,
+                    0.5813775062561035,
+                    0.5811740756034851,
+                    0.5810505747795105,
+                    0.5806221961975098,
+                    0.5788805484771729,
+                    0.5788704752922058,
+                    0.5778156518936157,
+                    0.5774179697036743,
+                    0.5771220922470093,
+                    0.5771033763885498,
+                    0.5767081379890442,
+                    0.5765233635902405,
+                    0.5757863521575928
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Budget friendly cities for travelers\n\nDocuments:\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 40\t|\tTEXT: Asunci\u00f3n\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\nDOCID: 501\t|\tTEXT: Trujillo (Peru)\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 56\t|\tTEXT: Batumi\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"120\", \"352\", \"338\", \"71\", \"82\", \"378\", \"168\", \"560\", \"53\", \"520\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "120",
+                "352",
+                "338",
+                "71",
+                "82",
+                "378",
+                "168",
+                "560",
+                "53",
+                "520"
+            ]
+        },
+        {
+            "queries": [
+                "Budget friendly cities for travelers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "120",
+                    "352",
+                    "399",
+                    "320",
+                    "43",
+                    "338",
+                    "283",
+                    "96",
+                    "141",
+                    "82",
+                    "378",
+                    "168",
+                    "560",
+                    "53",
+                    "520",
+                    "400",
+                    "61",
+                    "71",
+                    "40",
+                    "251",
+                    "22",
+                    "105",
+                    "255",
+                    "501",
+                    "492",
+                    "56",
+                    "376",
+                    "81",
+                    "187",
+                    "94"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6080152988433838,
+                    0.602285623550415,
+                    0.5996540188789368,
+                    0.5974205732345581,
+                    0.5963310599327087,
+                    0.5934476256370544,
+                    0.5930566787719727,
+                    0.5923961400985718,
+                    0.5923138856887817,
+                    0.592198371887207,
+                    0.5886358022689819,
+                    0.5867362022399902,
+                    0.5848444700241089,
+                    0.5841088891029358,
+                    0.5836526155471802,
+                    0.5823092460632324,
+                    0.5819820761680603,
+                    0.5813775062561035,
+                    0.5811740756034851,
+                    0.5810505747795105,
+                    0.5806221961975098,
+                    0.5788805484771729,
+                    0.5788704752922058,
+                    0.5778156518936157,
+                    0.5774179697036743,
+                    0.5771220922470093,
+                    0.5771033763885498,
+                    0.5767081379890442,
+                    0.5765233635902405,
+                    0.5757863521575928
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Budget friendly cities for travelers\n\nDocuments:\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 40\t|\tTEXT: Asunci\u00f3n\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\nDOCID: 501\t|\tTEXT: Trujillo (Peru)\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 56\t|\tTEXT: Batumi\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"120\", \"352\", \"338\", \"71\", \"82\", \"378\", \"168\", \"560\", \"53\", \"520\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "120",
+                "352",
+                "338",
+                "71",
+                "82",
+                "378",
+                "168",
+                "560",
+                "53",
+                "520"
+            ],
+            "terminate": true
+        }
+    ]
+}

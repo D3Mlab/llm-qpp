@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Most popular destinations for theme park enthusiasts."
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "330",
+            "251",
+            "141",
+            "237",
+            "516",
+            "320",
+            "77",
+            "284",
+            "492",
+            "124",
+            "154",
+            "400",
+            "105",
+            "401",
+            "180",
+            "468",
+            "6",
+            "280",
+            "437",
+            "338",
+            "303",
+            "168",
+            "399",
+            "352",
+            "425",
+            "120",
+            "109",
+            "201",
+            "43",
+            "349"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7531217336654663,
+            0.7056360840797424,
+            0.697388231754303,
+            0.6956290602684021,
+            0.6708375811576843,
+            0.669922411441803,
+            0.6688818335533142,
+            0.6683057546615601,
+            0.6674212217330933,
+            0.6657236218452454,
+            0.6647391319274902,
+            0.6636449098587036,
+            0.660621166229248,
+            0.6603070497512817,
+            0.6582343578338623,
+            0.6575908064842224,
+            0.6557681560516357,
+            0.6556689739227295,
+            0.6550588011741638,
+            0.6547362804412842,
+            0.6546440124511719,
+            0.6545872688293457,
+            0.6523900032043457,
+            0.6496378183364868,
+            0.6487757563591003,
+            0.6486654281616211,
+            0.6476295590400696,
+            0.6472084522247314,
+            0.6452538371086121,
+            0.6437649130821228
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Most popular destinations for theme park enthusiasts.\n\nDocuments:\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 77\t|\tTEXT: Brisbane\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 401\t|\tTEXT: San Jose (California)\n\nDOCID: 180\t|\tTEXT: Houston\n\nDOCID: 468\t|\tTEXT: Tampa\n\nDOCID: 6\t|\tTEXT: Abu Dhabi\n\nDOCID: 280\t|\tTEXT: Melbourne\n\nDOCID: 437\t|\tTEXT: Singapore\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 425\t|\tTEXT: Seoul\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"330\", \"237\", \"251\", \"400\", \"399\", \"401\", \"468\", \"284\", \"43\", \"303\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "330",
+        "237",
+        "251",
+        "400",
+        "399",
+        "401",
+        "468",
+        "284",
+        "43",
+        "303"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Most popular destinations for theme park enthusiasts."
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Most popular destinations for theme park enthusiasts."
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "330",
+                    "251",
+                    "141",
+                    "237",
+                    "516",
+                    "320",
+                    "77",
+                    "284",
+                    "492",
+                    "124",
+                    "154",
+                    "400",
+                    "105",
+                    "401",
+                    "180",
+                    "468",
+                    "6",
+                    "280",
+                    "437",
+                    "338",
+                    "303",
+                    "168",
+                    "399",
+                    "352",
+                    "425",
+                    "120",
+                    "109",
+                    "201",
+                    "43",
+                    "349"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7531217336654663,
+                    0.7056360840797424,
+                    0.697388231754303,
+                    0.6956290602684021,
+                    0.6708375811576843,
+                    0.669922411441803,
+                    0.6688818335533142,
+                    0.6683057546615601,
+                    0.6674212217330933,
+                    0.6657236218452454,
+                    0.6647391319274902,
+                    0.6636449098587036,
+                    0.660621166229248,
+                    0.6603070497512817,
+                    0.6582343578338623,
+                    0.6575908064842224,
+                    0.6557681560516357,
+                    0.6556689739227295,
+                    0.6550588011741638,
+                    0.6547362804412842,
+                    0.6546440124511719,
+                    0.6545872688293457,
+                    0.6523900032043457,
+                    0.6496378183364868,
+                    0.6487757563591003,
+                    0.6486654281616211,
+                    0.6476295590400696,
+                    0.6472084522247314,
+                    0.6452538371086121,
+                    0.6437649130821228
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Most popular destinations for theme park enthusiasts."
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "330",
+                    "251",
+                    "141",
+                    "237",
+                    "516",
+                    "320",
+                    "77",
+                    "284",
+                    "492",
+                    "124",
+                    "154",
+                    "400",
+                    "105",
+                    "401",
+                    "180",
+                    "468",
+                    "6",
+                    "280",
+                    "437",
+                    "338",
+                    "303",
+                    "168",
+                    "399",
+                    "352",
+                    "425",
+                    "120",
+                    "109",
+                    "201",
+                    "43",
+                    "349"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7531217336654663,
+                    0.7056360840797424,
+                    0.697388231754303,
+                    0.6956290602684021,
+                    0.6708375811576843,
+                    0.669922411441803,
+                    0.6688818335533142,
+                    0.6683057546615601,
+                    0.6674212217330933,
+                    0.6657236218452454,
+                    0.6647391319274902,
+                    0.6636449098587036,
+                    0.660621166229248,
+                    0.6603070497512817,
+                    0.6582343578338623,
+                    0.6575908064842224,
+                    0.6557681560516357,
+                    0.6556689739227295,
+                    0.6550588011741638,
+                    0.6547362804412842,
+                    0.6546440124511719,
+                    0.6545872688293457,
+                    0.6523900032043457,
+                    0.6496378183364868,
+                    0.6487757563591003,
+                    0.6486654281616211,
+                    0.6476295590400696,
+                    0.6472084522247314,
+                    0.6452538371086121,
+                    0.6437649130821228
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Most popular destinations for theme park enthusiasts.\n\nDocuments:\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 77\t|\tTEXT: Brisbane\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 401\t|\tTEXT: San Jose (California)\n\nDOCID: 180\t|\tTEXT: Houston\n\nDOCID: 468\t|\tTEXT: Tampa\n\nDOCID: 6\t|\tTEXT: Abu Dhabi\n\nDOCID: 280\t|\tTEXT: Melbourne\n\nDOCID: 437\t|\tTEXT: Singapore\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 425\t|\tTEXT: Seoul\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"330\", \"237\", \"251\", \"400\", \"399\", \"401\", \"468\", \"284\", \"43\", \"303\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "330",
+                "237",
+                "251",
+                "400",
+                "399",
+                "401",
+                "468",
+                "284",
+                "43",
+                "303"
+            ]
+        },
+        {
+            "queries": [
+                "Most popular destinations for theme park enthusiasts."
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "330",
+                    "251",
+                    "141",
+                    "237",
+                    "516",
+                    "320",
+                    "77",
+                    "284",
+                    "492",
+                    "124",
+                    "154",
+                    "400",
+                    "105",
+                    "401",
+                    "180",
+                    "468",
+                    "6",
+                    "280",
+                    "437",
+                    "338",
+                    "303",
+                    "168",
+                    "399",
+                    "352",
+                    "425",
+                    "120",
+                    "109",
+                    "201",
+                    "43",
+                    "349"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7531217336654663,
+                    0.7056360840797424,
+                    0.697388231754303,
+                    0.6956290602684021,
+                    0.6708375811576843,
+                    0.669922411441803,
+                    0.6688818335533142,
+                    0.6683057546615601,
+                    0.6674212217330933,
+                    0.6657236218452454,
+                    0.6647391319274902,
+                    0.6636449098587036,
+                    0.660621166229248,
+                    0.6603070497512817,
+                    0.6582343578338623,
+                    0.6575908064842224,
+                    0.6557681560516357,
+                    0.6556689739227295,
+                    0.6550588011741638,
+                    0.6547362804412842,
+                    0.6546440124511719,
+                    0.6545872688293457,
+                    0.6523900032043457,
+                    0.6496378183364868,
+                    0.6487757563591003,
+                    0.6486654281616211,
+                    0.6476295590400696,
+                    0.6472084522247314,
+                    0.6452538371086121,
+                    0.6437649130821228
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Most popular destinations for theme park enthusiasts.\n\nDocuments:\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 77\t|\tTEXT: Brisbane\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 401\t|\tTEXT: San Jose (California)\n\nDOCID: 180\t|\tTEXT: Houston\n\nDOCID: 468\t|\tTEXT: Tampa\n\nDOCID: 6\t|\tTEXT: Abu Dhabi\n\nDOCID: 280\t|\tTEXT: Melbourne\n\nDOCID: 437\t|\tTEXT: Singapore\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 425\t|\tTEXT: Seoul\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"330\", \"237\", \"251\", \"400\", \"399\", \"401\", \"468\", \"284\", \"43\", \"303\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "330",
+                "237",
+                "251",
+                "400",
+                "399",
+                "401",
+                "468",
+                "284",
+                "43",
+                "303"
+            ],
+            "terminate": true
+        }
+    ]
+}

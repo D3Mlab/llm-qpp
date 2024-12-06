@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "I love histroy and culture in Rome. I want similar cities."
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "383",
+            "520",
+            "285",
+            "72",
+            "42",
+            "314",
+            "81",
+            "153",
+            "95",
+            "1",
+            "334",
+            "488",
+            "138",
+            "55",
+            "560",
+            "498",
+            "17",
+            "522",
+            "486",
+            "348",
+            "245",
+            "83",
+            "65",
+            "56",
+            "168",
+            "283",
+            "475",
+            "492",
+            "505",
+            "427"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7417373657226562,
+            0.6781185269355774,
+            0.6732043027877808,
+            0.6542725563049316,
+            0.6493501663208008,
+            0.6472984552383423,
+            0.6429783701896667,
+            0.6376614570617676,
+            0.6351897120475769,
+            0.6343804001808167,
+            0.6291877031326294,
+            0.6273809671401978,
+            0.6099421977996826,
+            0.6066272258758545,
+            0.606055736541748,
+            0.6057316660881042,
+            0.6052074432373047,
+            0.6044590473175049,
+            0.6017869710922241,
+            0.6008465886116028,
+            0.6001766920089722,
+            0.5986128449440002,
+            0.5973751544952393,
+            0.5939440131187439,
+            0.5930421948432922,
+            0.5915288925170898,
+            0.5901137590408325,
+            0.5897243618965149,
+            0.5884995460510254,
+            0.5881353616714478
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: I love histroy and culture in Rome. I want similar cities.\n\nDocuments:\n\nDOCID: 383\t|\tTEXT: Rome\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 285\t|\tTEXT: Milan\n\nDOCID: 72\t|\tTEXT: Bologna\n\nDOCID: 42\t|\tTEXT: Athens\n\nDOCID: 314\t|\tTEXT: Naples\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 153\t|\tTEXT: Genoa\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 334\t|\tTEXT: Palermo\n\nDOCID: 488\t|\tTEXT: Tirana\n\nDOCID: 138\t|\tTEXT: Florence\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 498\t|\tTEXT: Trieste\n\nDOCID: 17\t|\tTEXT: Alexandria\n\nDOCID: 522\t|\tTEXT: Verona\n\nDOCID: 486\t|\tTEXT: Timi\u0219oara\n\nDOCID: 348\t|\tTEXT: Pisa\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 56\t|\tTEXT: Batumi\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 475\t|\tTEXT: Tbilisi\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 505\t|\tTEXT: Turin\n\nDOCID: 427\t|\tTEXT: Seville\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"383\", \"520\", \"1\", \"138\", \"285\", \"72\", \"314\", \"153\", \"522\", \"42\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "383",
+        "520",
+        "1",
+        "138",
+        "285",
+        "72",
+        "314",
+        "153",
+        "522",
+        "42"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "I love histroy and culture in Rome. I want similar cities."
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "I love histroy and culture in Rome. I want similar cities."
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "383",
+                    "520",
+                    "285",
+                    "72",
+                    "42",
+                    "314",
+                    "81",
+                    "153",
+                    "95",
+                    "1",
+                    "334",
+                    "488",
+                    "138",
+                    "55",
+                    "560",
+                    "498",
+                    "17",
+                    "522",
+                    "486",
+                    "348",
+                    "245",
+                    "83",
+                    "65",
+                    "56",
+                    "168",
+                    "283",
+                    "475",
+                    "492",
+                    "505",
+                    "427"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7417373657226562,
+                    0.6781185269355774,
+                    0.6732043027877808,
+                    0.6542725563049316,
+                    0.6493501663208008,
+                    0.6472984552383423,
+                    0.6429783701896667,
+                    0.6376614570617676,
+                    0.6351897120475769,
+                    0.6343804001808167,
+                    0.6291877031326294,
+                    0.6273809671401978,
+                    0.6099421977996826,
+                    0.6066272258758545,
+                    0.606055736541748,
+                    0.6057316660881042,
+                    0.6052074432373047,
+                    0.6044590473175049,
+                    0.6017869710922241,
+                    0.6008465886116028,
+                    0.6001766920089722,
+                    0.5986128449440002,
+                    0.5973751544952393,
+                    0.5939440131187439,
+                    0.5930421948432922,
+                    0.5915288925170898,
+                    0.5901137590408325,
+                    0.5897243618965149,
+                    0.5884995460510254,
+                    0.5881353616714478
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "I love histroy and culture in Rome. I want similar cities."
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "383",
+                    "520",
+                    "285",
+                    "72",
+                    "42",
+                    "314",
+                    "81",
+                    "153",
+                    "95",
+                    "1",
+                    "334",
+                    "488",
+                    "138",
+                    "55",
+                    "560",
+                    "498",
+                    "17",
+                    "522",
+                    "486",
+                    "348",
+                    "245",
+                    "83",
+                    "65",
+                    "56",
+                    "168",
+                    "283",
+                    "475",
+                    "492",
+                    "505",
+                    "427"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7417373657226562,
+                    0.6781185269355774,
+                    0.6732043027877808,
+                    0.6542725563049316,
+                    0.6493501663208008,
+                    0.6472984552383423,
+                    0.6429783701896667,
+                    0.6376614570617676,
+                    0.6351897120475769,
+                    0.6343804001808167,
+                    0.6291877031326294,
+                    0.6273809671401978,
+                    0.6099421977996826,
+                    0.6066272258758545,
+                    0.606055736541748,
+                    0.6057316660881042,
+                    0.6052074432373047,
+                    0.6044590473175049,
+                    0.6017869710922241,
+                    0.6008465886116028,
+                    0.6001766920089722,
+                    0.5986128449440002,
+                    0.5973751544952393,
+                    0.5939440131187439,
+                    0.5930421948432922,
+                    0.5915288925170898,
+                    0.5901137590408325,
+                    0.5897243618965149,
+                    0.5884995460510254,
+                    0.5881353616714478
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: I love histroy and culture in Rome. I want similar cities.\n\nDocuments:\n\nDOCID: 383\t|\tTEXT: Rome\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 285\t|\tTEXT: Milan\n\nDOCID: 72\t|\tTEXT: Bologna\n\nDOCID: 42\t|\tTEXT: Athens\n\nDOCID: 314\t|\tTEXT: Naples\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 153\t|\tTEXT: Genoa\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 334\t|\tTEXT: Palermo\n\nDOCID: 488\t|\tTEXT: Tirana\n\nDOCID: 138\t|\tTEXT: Florence\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 498\t|\tTEXT: Trieste\n\nDOCID: 17\t|\tTEXT: Alexandria\n\nDOCID: 522\t|\tTEXT: Verona\n\nDOCID: 486\t|\tTEXT: Timi\u0219oara\n\nDOCID: 348\t|\tTEXT: Pisa\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 56\t|\tTEXT: Batumi\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 475\t|\tTEXT: Tbilisi\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 505\t|\tTEXT: Turin\n\nDOCID: 427\t|\tTEXT: Seville\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"383\", \"520\", \"1\", \"138\", \"285\", \"72\", \"314\", \"153\", \"522\", \"42\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "383",
+                "520",
+                "1",
+                "138",
+                "285",
+                "72",
+                "314",
+                "153",
+                "522",
+                "42"
+            ]
+        },
+        {
+            "queries": [
+                "I love histroy and culture in Rome. I want similar cities."
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "383",
+                    "520",
+                    "285",
+                    "72",
+                    "42",
+                    "314",
+                    "81",
+                    "153",
+                    "95",
+                    "1",
+                    "334",
+                    "488",
+                    "138",
+                    "55",
+                    "560",
+                    "498",
+                    "17",
+                    "522",
+                    "486",
+                    "348",
+                    "245",
+                    "83",
+                    "65",
+                    "56",
+                    "168",
+                    "283",
+                    "475",
+                    "492",
+                    "505",
+                    "427"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7417373657226562,
+                    0.6781185269355774,
+                    0.6732043027877808,
+                    0.6542725563049316,
+                    0.6493501663208008,
+                    0.6472984552383423,
+                    0.6429783701896667,
+                    0.6376614570617676,
+                    0.6351897120475769,
+                    0.6343804001808167,
+                    0.6291877031326294,
+                    0.6273809671401978,
+                    0.6099421977996826,
+                    0.6066272258758545,
+                    0.606055736541748,
+                    0.6057316660881042,
+                    0.6052074432373047,
+                    0.6044590473175049,
+                    0.6017869710922241,
+                    0.6008465886116028,
+                    0.6001766920089722,
+                    0.5986128449440002,
+                    0.5973751544952393,
+                    0.5939440131187439,
+                    0.5930421948432922,
+                    0.5915288925170898,
+                    0.5901137590408325,
+                    0.5897243618965149,
+                    0.5884995460510254,
+                    0.5881353616714478
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: I love histroy and culture in Rome. I want similar cities.\n\nDocuments:\n\nDOCID: 383\t|\tTEXT: Rome\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 285\t|\tTEXT: Milan\n\nDOCID: 72\t|\tTEXT: Bologna\n\nDOCID: 42\t|\tTEXT: Athens\n\nDOCID: 314\t|\tTEXT: Naples\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 153\t|\tTEXT: Genoa\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 334\t|\tTEXT: Palermo\n\nDOCID: 488\t|\tTEXT: Tirana\n\nDOCID: 138\t|\tTEXT: Florence\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 498\t|\tTEXT: Trieste\n\nDOCID: 17\t|\tTEXT: Alexandria\n\nDOCID: 522\t|\tTEXT: Verona\n\nDOCID: 486\t|\tTEXT: Timi\u0219oara\n\nDOCID: 348\t|\tTEXT: Pisa\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 56\t|\tTEXT: Batumi\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 475\t|\tTEXT: Tbilisi\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 505\t|\tTEXT: Turin\n\nDOCID: 427\t|\tTEXT: Seville\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"383\", \"520\", \"1\", \"138\", \"285\", \"72\", \"314\", \"153\", \"522\", \"42\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "383",
+                "520",
+                "1",
+                "138",
+                "285",
+                "72",
+                "314",
+                "153",
+                "522",
+                "42"
+            ],
+            "terminate": true
+        }
+    ]
+}

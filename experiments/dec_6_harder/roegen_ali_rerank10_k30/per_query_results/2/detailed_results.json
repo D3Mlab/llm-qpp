@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Family friendly cities for vacations"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "399",
+            "330",
+            "303",
+            "120",
+            "141",
+            "338",
+            "320",
+            "187",
+            "408",
+            "43",
+            "251",
+            "204",
+            "328",
+            "109",
+            "392",
+            "105",
+            "71",
+            "352",
+            "142",
+            "400",
+            "95",
+            "349",
+            "468",
+            "168",
+            "284",
+            "283",
+            "16",
+            "8",
+            "520",
+            "378"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6622685194015503,
+            0.6590622067451477,
+            0.6501234769821167,
+            0.6446850895881653,
+            0.6409789323806763,
+            0.6404362916946411,
+            0.638590395450592,
+            0.6380342245101929,
+            0.6371265649795532,
+            0.6356140375137329,
+            0.6352733373641968,
+            0.6312646269798279,
+            0.6288392543792725,
+            0.6261348128318787,
+            0.6247000694274902,
+            0.6209758520126343,
+            0.6194029450416565,
+            0.6185486316680908,
+            0.6172448396682739,
+            0.61655592918396,
+            0.6155369281768799,
+            0.6130976676940918,
+            0.6129797697067261,
+            0.6125310063362122,
+            0.6116570830345154,
+            0.6111656427383423,
+            0.6097080707550049,
+            0.6083808541297913,
+            0.608286440372467,
+            0.6063939332962036
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Family friendly cities for vacations\n\nDocuments:\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 142\t|\tTEXT: Fort Myers\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 468\t|\tTEXT: Tampa\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 378\t|\tTEXT: Riga\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"330\", \"399\", \"303\", \"141\", \"338\", \"408\", \"142\", \"400\", \"468\", \"284\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "330",
+        "399",
+        "303",
+        "141",
+        "338",
+        "408",
+        "142",
+        "400",
+        "468",
+        "284"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Family friendly cities for vacations"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Family friendly cities for vacations"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "399",
+                    "330",
+                    "303",
+                    "120",
+                    "141",
+                    "338",
+                    "320",
+                    "187",
+                    "408",
+                    "43",
+                    "251",
+                    "204",
+                    "328",
+                    "109",
+                    "392",
+                    "105",
+                    "71",
+                    "352",
+                    "142",
+                    "400",
+                    "95",
+                    "349",
+                    "468",
+                    "168",
+                    "284",
+                    "283",
+                    "16",
+                    "8",
+                    "520",
+                    "378"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6622685194015503,
+                    0.6590622067451477,
+                    0.6501234769821167,
+                    0.6446850895881653,
+                    0.6409789323806763,
+                    0.6404362916946411,
+                    0.638590395450592,
+                    0.6380342245101929,
+                    0.6371265649795532,
+                    0.6356140375137329,
+                    0.6352733373641968,
+                    0.6312646269798279,
+                    0.6288392543792725,
+                    0.6261348128318787,
+                    0.6247000694274902,
+                    0.6209758520126343,
+                    0.6194029450416565,
+                    0.6185486316680908,
+                    0.6172448396682739,
+                    0.61655592918396,
+                    0.6155369281768799,
+                    0.6130976676940918,
+                    0.6129797697067261,
+                    0.6125310063362122,
+                    0.6116570830345154,
+                    0.6111656427383423,
+                    0.6097080707550049,
+                    0.6083808541297913,
+                    0.608286440372467,
+                    0.6063939332962036
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Family friendly cities for vacations"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "399",
+                    "330",
+                    "303",
+                    "120",
+                    "141",
+                    "338",
+                    "320",
+                    "187",
+                    "408",
+                    "43",
+                    "251",
+                    "204",
+                    "328",
+                    "109",
+                    "392",
+                    "105",
+                    "71",
+                    "352",
+                    "142",
+                    "400",
+                    "95",
+                    "349",
+                    "468",
+                    "168",
+                    "284",
+                    "283",
+                    "16",
+                    "8",
+                    "520",
+                    "378"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6622685194015503,
+                    0.6590622067451477,
+                    0.6501234769821167,
+                    0.6446850895881653,
+                    0.6409789323806763,
+                    0.6404362916946411,
+                    0.638590395450592,
+                    0.6380342245101929,
+                    0.6371265649795532,
+                    0.6356140375137329,
+                    0.6352733373641968,
+                    0.6312646269798279,
+                    0.6288392543792725,
+                    0.6261348128318787,
+                    0.6247000694274902,
+                    0.6209758520126343,
+                    0.6194029450416565,
+                    0.6185486316680908,
+                    0.6172448396682739,
+                    0.61655592918396,
+                    0.6155369281768799,
+                    0.6130976676940918,
+                    0.6129797697067261,
+                    0.6125310063362122,
+                    0.6116570830345154,
+                    0.6111656427383423,
+                    0.6097080707550049,
+                    0.6083808541297913,
+                    0.608286440372467,
+                    0.6063939332962036
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Family friendly cities for vacations\n\nDocuments:\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 142\t|\tTEXT: Fort Myers\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 468\t|\tTEXT: Tampa\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 378\t|\tTEXT: Riga\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"330\", \"399\", \"303\", \"141\", \"338\", \"408\", \"142\", \"400\", \"468\", \"284\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "330",
+                "399",
+                "303",
+                "141",
+                "338",
+                "408",
+                "142",
+                "400",
+                "468",
+                "284"
+            ]
+        },
+        {
+            "queries": [
+                "Family friendly cities for vacations"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "399",
+                    "330",
+                    "303",
+                    "120",
+                    "141",
+                    "338",
+                    "320",
+                    "187",
+                    "408",
+                    "43",
+                    "251",
+                    "204",
+                    "328",
+                    "109",
+                    "392",
+                    "105",
+                    "71",
+                    "352",
+                    "142",
+                    "400",
+                    "95",
+                    "349",
+                    "468",
+                    "168",
+                    "284",
+                    "283",
+                    "16",
+                    "8",
+                    "520",
+                    "378"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6622685194015503,
+                    0.6590622067451477,
+                    0.6501234769821167,
+                    0.6446850895881653,
+                    0.6409789323806763,
+                    0.6404362916946411,
+                    0.638590395450592,
+                    0.6380342245101929,
+                    0.6371265649795532,
+                    0.6356140375137329,
+                    0.6352733373641968,
+                    0.6312646269798279,
+                    0.6288392543792725,
+                    0.6261348128318787,
+                    0.6247000694274902,
+                    0.6209758520126343,
+                    0.6194029450416565,
+                    0.6185486316680908,
+                    0.6172448396682739,
+                    0.61655592918396,
+                    0.6155369281768799,
+                    0.6130976676940918,
+                    0.6129797697067261,
+                    0.6125310063362122,
+                    0.6116570830345154,
+                    0.6111656427383423,
+                    0.6097080707550049,
+                    0.6083808541297913,
+                    0.608286440372467,
+                    0.6063939332962036
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Family friendly cities for vacations\n\nDocuments:\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 142\t|\tTEXT: Fort Myers\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 468\t|\tTEXT: Tampa\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 378\t|\tTEXT: Riga\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"330\", \"399\", \"303\", \"141\", \"338\", \"408\", \"142\", \"400\", \"468\", \"284\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "330",
+                "399",
+                "303",
+                "141",
+                "338",
+                "408",
+                "142",
+                "400",
+                "468",
+                "284"
+            ],
+            "terminate": true
+        }
+    ]
+}

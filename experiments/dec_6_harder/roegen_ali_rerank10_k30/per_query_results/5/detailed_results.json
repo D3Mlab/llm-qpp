@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Great cities to celebrate a child's birthday"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "320",
+            "105",
+            "51",
+            "187",
+            "168",
+            "109",
+            "204",
+            "492",
+            "43",
+            "111",
+            "251",
+            "120",
+            "100",
+            "22",
+            "352",
+            "74",
+            "343",
+            "95",
+            "475",
+            "400",
+            "16",
+            "179",
+            "328",
+            "310",
+            "349",
+            "50",
+            "141",
+            "378",
+            "299",
+            "56"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6812512874603271,
+            0.6649926900863647,
+            0.6627922058105469,
+            0.6621876955032349,
+            0.6510106921195984,
+            0.6419773101806641,
+            0.6409687995910645,
+            0.6393015384674072,
+            0.6390392780303955,
+            0.6388206481933594,
+            0.6386759281158447,
+            0.6361477375030518,
+            0.6340943574905396,
+            0.6339970231056213,
+            0.6338333487510681,
+            0.6335976719856262,
+            0.6326425671577454,
+            0.6281515955924988,
+            0.6274554133415222,
+            0.627121090888977,
+            0.6258859038352966,
+            0.6246631145477295,
+            0.623859703540802,
+            0.6227734684944153,
+            0.6216753721237183,
+            0.6212565302848816,
+            0.6190474033355713,
+            0.6189959049224854,
+            0.6188042759895325,
+            0.6172700524330139
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Great cities to celebrate a child's birthday\n\nDocuments:\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 100\t|\tTEXT: Charlotte\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 343\t|\tTEXT: Philadelphia\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 475\t|\tTEXT: Tbilisi\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 310\t|\tTEXT: Nanjing\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 50\t|\tTEXT: Baku\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 299\t|\tTEXT: Moscow\n\nDOCID: 56\t|\tTEXT: Batumi\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"320\", \"105\", \"251\", \"400\", \"74\", \"343\", \"100\", \"141\", \"43\", \"120\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "320",
+        "105",
+        "251",
+        "400",
+        "74",
+        "343",
+        "100",
+        "141",
+        "43",
+        "120"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Great cities to celebrate a child's birthday"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Great cities to celebrate a child's birthday"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "320",
+                    "105",
+                    "51",
+                    "187",
+                    "168",
+                    "109",
+                    "204",
+                    "492",
+                    "43",
+                    "111",
+                    "251",
+                    "120",
+                    "100",
+                    "22",
+                    "352",
+                    "74",
+                    "343",
+                    "95",
+                    "475",
+                    "400",
+                    "16",
+                    "179",
+                    "328",
+                    "310",
+                    "349",
+                    "50",
+                    "141",
+                    "378",
+                    "299",
+                    "56"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6812512874603271,
+                    0.6649926900863647,
+                    0.6627922058105469,
+                    0.6621876955032349,
+                    0.6510106921195984,
+                    0.6419773101806641,
+                    0.6409687995910645,
+                    0.6393015384674072,
+                    0.6390392780303955,
+                    0.6388206481933594,
+                    0.6386759281158447,
+                    0.6361477375030518,
+                    0.6340943574905396,
+                    0.6339970231056213,
+                    0.6338333487510681,
+                    0.6335976719856262,
+                    0.6326425671577454,
+                    0.6281515955924988,
+                    0.6274554133415222,
+                    0.627121090888977,
+                    0.6258859038352966,
+                    0.6246631145477295,
+                    0.623859703540802,
+                    0.6227734684944153,
+                    0.6216753721237183,
+                    0.6212565302848816,
+                    0.6190474033355713,
+                    0.6189959049224854,
+                    0.6188042759895325,
+                    0.6172700524330139
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Great cities to celebrate a child's birthday"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "320",
+                    "105",
+                    "51",
+                    "187",
+                    "168",
+                    "109",
+                    "204",
+                    "492",
+                    "43",
+                    "111",
+                    "251",
+                    "120",
+                    "100",
+                    "22",
+                    "352",
+                    "74",
+                    "343",
+                    "95",
+                    "475",
+                    "400",
+                    "16",
+                    "179",
+                    "328",
+                    "310",
+                    "349",
+                    "50",
+                    "141",
+                    "378",
+                    "299",
+                    "56"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6812512874603271,
+                    0.6649926900863647,
+                    0.6627922058105469,
+                    0.6621876955032349,
+                    0.6510106921195984,
+                    0.6419773101806641,
+                    0.6409687995910645,
+                    0.6393015384674072,
+                    0.6390392780303955,
+                    0.6388206481933594,
+                    0.6386759281158447,
+                    0.6361477375030518,
+                    0.6340943574905396,
+                    0.6339970231056213,
+                    0.6338333487510681,
+                    0.6335976719856262,
+                    0.6326425671577454,
+                    0.6281515955924988,
+                    0.6274554133415222,
+                    0.627121090888977,
+                    0.6258859038352966,
+                    0.6246631145477295,
+                    0.623859703540802,
+                    0.6227734684944153,
+                    0.6216753721237183,
+                    0.6212565302848816,
+                    0.6190474033355713,
+                    0.6189959049224854,
+                    0.6188042759895325,
+                    0.6172700524330139
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Great cities to celebrate a child's birthday\n\nDocuments:\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 100\t|\tTEXT: Charlotte\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 343\t|\tTEXT: Philadelphia\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 475\t|\tTEXT: Tbilisi\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 310\t|\tTEXT: Nanjing\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 50\t|\tTEXT: Baku\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 299\t|\tTEXT: Moscow\n\nDOCID: 56\t|\tTEXT: Batumi\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"105\", \"251\", \"400\", \"74\", \"343\", \"100\", \"141\", \"43\", \"120\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "105",
+                "251",
+                "400",
+                "74",
+                "343",
+                "100",
+                "141",
+                "43",
+                "120"
+            ]
+        },
+        {
+            "queries": [
+                "Great cities to celebrate a child's birthday"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "320",
+                    "105",
+                    "51",
+                    "187",
+                    "168",
+                    "109",
+                    "204",
+                    "492",
+                    "43",
+                    "111",
+                    "251",
+                    "120",
+                    "100",
+                    "22",
+                    "352",
+                    "74",
+                    "343",
+                    "95",
+                    "475",
+                    "400",
+                    "16",
+                    "179",
+                    "328",
+                    "310",
+                    "349",
+                    "50",
+                    "141",
+                    "378",
+                    "299",
+                    "56"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6812512874603271,
+                    0.6649926900863647,
+                    0.6627922058105469,
+                    0.6621876955032349,
+                    0.6510106921195984,
+                    0.6419773101806641,
+                    0.6409687995910645,
+                    0.6393015384674072,
+                    0.6390392780303955,
+                    0.6388206481933594,
+                    0.6386759281158447,
+                    0.6361477375030518,
+                    0.6340943574905396,
+                    0.6339970231056213,
+                    0.6338333487510681,
+                    0.6335976719856262,
+                    0.6326425671577454,
+                    0.6281515955924988,
+                    0.6274554133415222,
+                    0.627121090888977,
+                    0.6258859038352966,
+                    0.6246631145477295,
+                    0.623859703540802,
+                    0.6227734684944153,
+                    0.6216753721237183,
+                    0.6212565302848816,
+                    0.6190474033355713,
+                    0.6189959049224854,
+                    0.6188042759895325,
+                    0.6172700524330139
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Great cities to celebrate a child's birthday\n\nDocuments:\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 100\t|\tTEXT: Charlotte\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 343\t|\tTEXT: Philadelphia\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 475\t|\tTEXT: Tbilisi\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 310\t|\tTEXT: Nanjing\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 50\t|\tTEXT: Baku\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 299\t|\tTEXT: Moscow\n\nDOCID: 56\t|\tTEXT: Batumi\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"105\", \"251\", \"400\", \"74\", \"343\", \"100\", \"141\", \"43\", \"120\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "105",
+                "251",
+                "400",
+                "74",
+                "343",
+                "100",
+                "141",
+                "43",
+                "120"
+            ],
+            "terminate": true
+        }
+    ]
+}

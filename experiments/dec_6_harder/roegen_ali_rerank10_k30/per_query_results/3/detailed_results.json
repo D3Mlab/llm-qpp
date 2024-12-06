@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Charming small town cities"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "408",
+            "76",
+            "46",
+            "34",
+            "119",
+            "368",
+            "520",
+            "328",
+            "78",
+            "95",
+            "352",
+            "226",
+            "153",
+            "371",
+            "120",
+            "449",
+            "16",
+            "23",
+            "168",
+            "255",
+            "109",
+            "157",
+            "4",
+            "378",
+            "332",
+            "337",
+            "1",
+            "315",
+            "89",
+            "394"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6357265710830688,
+            0.6305336952209473,
+            0.6209179162979126,
+            0.6184741854667664,
+            0.6166245937347412,
+            0.6160221695899963,
+            0.6156468391418457,
+            0.6150354146957397,
+            0.6142847537994385,
+            0.6129138469696045,
+            0.611526370048523,
+            0.6064740419387817,
+            0.6041324734687805,
+            0.6032053828239441,
+            0.6026465892791748,
+            0.6022553443908691,
+            0.6019232273101807,
+            0.5994759798049927,
+            0.5992304086685181,
+            0.599089503288269,
+            0.5990055799484253,
+            0.5985339283943176,
+            0.598172664642334,
+            0.5981568694114685,
+            0.597265362739563,
+            0.5963523387908936,
+            0.5959458351135254,
+            0.5956084728240967,
+            0.5952577590942383,
+            0.594924807548523
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Charming small town cities\n\nDocuments:\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 76\t|\tTEXT: Bremen\n\nDOCID: 46\t|\tTEXT: Austin\n\nDOCID: 34\t|\tTEXT: Asheville\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 368\t|\tTEXT: Quebec City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 78\t|\tTEXT: Bristol\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 153\t|\tTEXT: Genoa\n\nDOCID: 371\t|\tTEXT: Raleigh\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 449\t|\tTEXT: Stavanger\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 23\t|\tTEXT: Anchorage\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 4\t|\tTEXT: Aberdeen\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 337\t|\tTEXT: Pamplona\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 315\t|\tTEXT: Nashville\n\nDOCID: 89\t|\tTEXT: Calgary\n\nDOCID: 394\t|\tTEXT: Salzburg\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"34\", \"78\", \"76\", \"408\", \"394\", \"226\", \"371\", \"46\", \"153\", \"378\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "34",
+        "78",
+        "76",
+        "408",
+        "394",
+        "226",
+        "371",
+        "46",
+        "153",
+        "378"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Charming small town cities"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Charming small town cities"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "408",
+                    "76",
+                    "46",
+                    "34",
+                    "119",
+                    "368",
+                    "520",
+                    "328",
+                    "78",
+                    "95",
+                    "352",
+                    "226",
+                    "153",
+                    "371",
+                    "120",
+                    "449",
+                    "16",
+                    "23",
+                    "168",
+                    "255",
+                    "109",
+                    "157",
+                    "4",
+                    "378",
+                    "332",
+                    "337",
+                    "1",
+                    "315",
+                    "89",
+                    "394"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6357265710830688,
+                    0.6305336952209473,
+                    0.6209179162979126,
+                    0.6184741854667664,
+                    0.6166245937347412,
+                    0.6160221695899963,
+                    0.6156468391418457,
+                    0.6150354146957397,
+                    0.6142847537994385,
+                    0.6129138469696045,
+                    0.611526370048523,
+                    0.6064740419387817,
+                    0.6041324734687805,
+                    0.6032053828239441,
+                    0.6026465892791748,
+                    0.6022553443908691,
+                    0.6019232273101807,
+                    0.5994759798049927,
+                    0.5992304086685181,
+                    0.599089503288269,
+                    0.5990055799484253,
+                    0.5985339283943176,
+                    0.598172664642334,
+                    0.5981568694114685,
+                    0.597265362739563,
+                    0.5963523387908936,
+                    0.5959458351135254,
+                    0.5956084728240967,
+                    0.5952577590942383,
+                    0.594924807548523
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Charming small town cities"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "408",
+                    "76",
+                    "46",
+                    "34",
+                    "119",
+                    "368",
+                    "520",
+                    "328",
+                    "78",
+                    "95",
+                    "352",
+                    "226",
+                    "153",
+                    "371",
+                    "120",
+                    "449",
+                    "16",
+                    "23",
+                    "168",
+                    "255",
+                    "109",
+                    "157",
+                    "4",
+                    "378",
+                    "332",
+                    "337",
+                    "1",
+                    "315",
+                    "89",
+                    "394"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6357265710830688,
+                    0.6305336952209473,
+                    0.6209179162979126,
+                    0.6184741854667664,
+                    0.6166245937347412,
+                    0.6160221695899963,
+                    0.6156468391418457,
+                    0.6150354146957397,
+                    0.6142847537994385,
+                    0.6129138469696045,
+                    0.611526370048523,
+                    0.6064740419387817,
+                    0.6041324734687805,
+                    0.6032053828239441,
+                    0.6026465892791748,
+                    0.6022553443908691,
+                    0.6019232273101807,
+                    0.5994759798049927,
+                    0.5992304086685181,
+                    0.599089503288269,
+                    0.5990055799484253,
+                    0.5985339283943176,
+                    0.598172664642334,
+                    0.5981568694114685,
+                    0.597265362739563,
+                    0.5963523387908936,
+                    0.5959458351135254,
+                    0.5956084728240967,
+                    0.5952577590942383,
+                    0.594924807548523
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Charming small town cities\n\nDocuments:\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 76\t|\tTEXT: Bremen\n\nDOCID: 46\t|\tTEXT: Austin\n\nDOCID: 34\t|\tTEXT: Asheville\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 368\t|\tTEXT: Quebec City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 78\t|\tTEXT: Bristol\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 153\t|\tTEXT: Genoa\n\nDOCID: 371\t|\tTEXT: Raleigh\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 449\t|\tTEXT: Stavanger\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 23\t|\tTEXT: Anchorage\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 4\t|\tTEXT: Aberdeen\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 337\t|\tTEXT: Pamplona\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 315\t|\tTEXT: Nashville\n\nDOCID: 89\t|\tTEXT: Calgary\n\nDOCID: 394\t|\tTEXT: Salzburg\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"34\", \"78\", \"76\", \"408\", \"394\", \"226\", \"371\", \"46\", \"153\", \"378\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34",
+                "78",
+                "76",
+                "408",
+                "394",
+                "226",
+                "371",
+                "46",
+                "153",
+                "378"
+            ]
+        },
+        {
+            "queries": [
+                "Charming small town cities"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "408",
+                    "76",
+                    "46",
+                    "34",
+                    "119",
+                    "368",
+                    "520",
+                    "328",
+                    "78",
+                    "95",
+                    "352",
+                    "226",
+                    "153",
+                    "371",
+                    "120",
+                    "449",
+                    "16",
+                    "23",
+                    "168",
+                    "255",
+                    "109",
+                    "157",
+                    "4",
+                    "378",
+                    "332",
+                    "337",
+                    "1",
+                    "315",
+                    "89",
+                    "394"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6357265710830688,
+                    0.6305336952209473,
+                    0.6209179162979126,
+                    0.6184741854667664,
+                    0.6166245937347412,
+                    0.6160221695899963,
+                    0.6156468391418457,
+                    0.6150354146957397,
+                    0.6142847537994385,
+                    0.6129138469696045,
+                    0.611526370048523,
+                    0.6064740419387817,
+                    0.6041324734687805,
+                    0.6032053828239441,
+                    0.6026465892791748,
+                    0.6022553443908691,
+                    0.6019232273101807,
+                    0.5994759798049927,
+                    0.5992304086685181,
+                    0.599089503288269,
+                    0.5990055799484253,
+                    0.5985339283943176,
+                    0.598172664642334,
+                    0.5981568694114685,
+                    0.597265362739563,
+                    0.5963523387908936,
+                    0.5959458351135254,
+                    0.5956084728240967,
+                    0.5952577590942383,
+                    0.594924807548523
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Charming small town cities\n\nDocuments:\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 76\t|\tTEXT: Bremen\n\nDOCID: 46\t|\tTEXT: Austin\n\nDOCID: 34\t|\tTEXT: Asheville\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 368\t|\tTEXT: Quebec City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 78\t|\tTEXT: Bristol\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 153\t|\tTEXT: Genoa\n\nDOCID: 371\t|\tTEXT: Raleigh\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 449\t|\tTEXT: Stavanger\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 23\t|\tTEXT: Anchorage\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 4\t|\tTEXT: Aberdeen\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 337\t|\tTEXT: Pamplona\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 315\t|\tTEXT: Nashville\n\nDOCID: 89\t|\tTEXT: Calgary\n\nDOCID: 394\t|\tTEXT: Salzburg\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"34\", \"78\", \"76\", \"408\", \"394\", \"226\", \"371\", \"46\", \"153\", \"378\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "34",
+                "78",
+                "76",
+                "408",
+                "394",
+                "226",
+                "371",
+                "46",
+                "153",
+                "378"
+            ],
+            "terminate": true
+        }
+    ]
+}

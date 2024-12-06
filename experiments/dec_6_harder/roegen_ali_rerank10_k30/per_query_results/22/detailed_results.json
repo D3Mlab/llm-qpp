@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Most beautiful island cities to explore"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "316",
+            "31",
+            "179",
+            "96",
+            "479",
+            "114",
+            "197",
+            "347",
+            "324",
+            "414",
+            "520",
+            "61",
+            "140",
+            "415",
+            "338",
+            "270",
+            "403",
+            "413",
+            "149",
+            "173",
+            "476",
+            "336",
+            "226",
+            "83",
+            "185",
+            "65",
+            "377",
+            "203",
+            "562",
+            "381"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.661428689956665,
+            0.6251353025436401,
+            0.6188167333602905,
+            0.6183446049690247,
+            0.6175867915153503,
+            0.6163890361785889,
+            0.6095917224884033,
+            0.6088407635688782,
+            0.6032102108001709,
+            0.6028253436088562,
+            0.5943938493728638,
+            0.5941734313964844,
+            0.5917026996612549,
+            0.5912468433380127,
+            0.5911093950271606,
+            0.5905885696411133,
+            0.5875774621963501,
+            0.5871260166168213,
+            0.5871258974075317,
+            0.5862216353416443,
+            0.5853255987167358,
+            0.5839136838912964,
+            0.5821447372436523,
+            0.5817404985427856,
+            0.5816832780838013,
+            0.5812023878097534,
+            0.5786412954330444,
+            0.5785879492759705,
+            0.5785019397735596,
+            0.5776968598365784
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Most beautiful island cities to explore\n\nDocuments:\n\nDOCID: 316\t|\tTEXT: Nassau\n\nDOCID: 31\t|\tTEXT: Aruba\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 479\t|\tTEXT: Tenerife\n\nDOCID: 114\t|\tTEXT: Cura\u00e7ao\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 347\t|\tTEXT: Phuket Town\n\nDOCID: 324\t|\tTEXT: Noum\u00e9a\n\nDOCID: 414\t|\tTEXT: Santo Domingo\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 140\t|\tTEXT: Florianopolis\n\nDOCID: 415\t|\tTEXT: Santorini\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 270\t|\tTEXT: Manila\n\nDOCID: 403\t|\tTEXT: San Juan\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 149\t|\tTEXT: Galapagos Islands\n\nDOCID: 173\t|\tTEXT: Havana\n\nDOCID: 476\t|\tTEXT: Tegucigalpa\n\nDOCID: 336\t|\tTEXT: Palma de Mallorca\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 185\t|\tTEXT: Ibiza\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 377\t|\tTEXT: Rhodes (city)\n\nDOCID: 203\t|\tTEXT: Kailua-Kona\n\nDOCID: 562\t|\tTEXT: Zanzibar\n\nDOCID: 381\t|\tTEXT: Roat\u00e1n\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"415\", \"149\", \"185\", \"336\", \"562\", \"377\", \"31\", \"114\", \"381\", \"179\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "415",
+        "149",
+        "185",
+        "336",
+        "562",
+        "377",
+        "31",
+        "114",
+        "381",
+        "179"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Most beautiful island cities to explore"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Most beautiful island cities to explore"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "316",
+                    "31",
+                    "179",
+                    "96",
+                    "479",
+                    "114",
+                    "197",
+                    "347",
+                    "324",
+                    "414",
+                    "520",
+                    "61",
+                    "140",
+                    "415",
+                    "338",
+                    "270",
+                    "403",
+                    "413",
+                    "149",
+                    "173",
+                    "476",
+                    "336",
+                    "226",
+                    "83",
+                    "185",
+                    "65",
+                    "377",
+                    "203",
+                    "562",
+                    "381"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.661428689956665,
+                    0.6251353025436401,
+                    0.6188167333602905,
+                    0.6183446049690247,
+                    0.6175867915153503,
+                    0.6163890361785889,
+                    0.6095917224884033,
+                    0.6088407635688782,
+                    0.6032102108001709,
+                    0.6028253436088562,
+                    0.5943938493728638,
+                    0.5941734313964844,
+                    0.5917026996612549,
+                    0.5912468433380127,
+                    0.5911093950271606,
+                    0.5905885696411133,
+                    0.5875774621963501,
+                    0.5871260166168213,
+                    0.5871258974075317,
+                    0.5862216353416443,
+                    0.5853255987167358,
+                    0.5839136838912964,
+                    0.5821447372436523,
+                    0.5817404985427856,
+                    0.5816832780838013,
+                    0.5812023878097534,
+                    0.5786412954330444,
+                    0.5785879492759705,
+                    0.5785019397735596,
+                    0.5776968598365784
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Most beautiful island cities to explore"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "316",
+                    "31",
+                    "179",
+                    "96",
+                    "479",
+                    "114",
+                    "197",
+                    "347",
+                    "324",
+                    "414",
+                    "520",
+                    "61",
+                    "140",
+                    "415",
+                    "338",
+                    "270",
+                    "403",
+                    "413",
+                    "149",
+                    "173",
+                    "476",
+                    "336",
+                    "226",
+                    "83",
+                    "185",
+                    "65",
+                    "377",
+                    "203",
+                    "562",
+                    "381"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.661428689956665,
+                    0.6251353025436401,
+                    0.6188167333602905,
+                    0.6183446049690247,
+                    0.6175867915153503,
+                    0.6163890361785889,
+                    0.6095917224884033,
+                    0.6088407635688782,
+                    0.6032102108001709,
+                    0.6028253436088562,
+                    0.5943938493728638,
+                    0.5941734313964844,
+                    0.5917026996612549,
+                    0.5912468433380127,
+                    0.5911093950271606,
+                    0.5905885696411133,
+                    0.5875774621963501,
+                    0.5871260166168213,
+                    0.5871258974075317,
+                    0.5862216353416443,
+                    0.5853255987167358,
+                    0.5839136838912964,
+                    0.5821447372436523,
+                    0.5817404985427856,
+                    0.5816832780838013,
+                    0.5812023878097534,
+                    0.5786412954330444,
+                    0.5785879492759705,
+                    0.5785019397735596,
+                    0.5776968598365784
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Most beautiful island cities to explore\n\nDocuments:\n\nDOCID: 316\t|\tTEXT: Nassau\n\nDOCID: 31\t|\tTEXT: Aruba\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 479\t|\tTEXT: Tenerife\n\nDOCID: 114\t|\tTEXT: Cura\u00e7ao\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 347\t|\tTEXT: Phuket Town\n\nDOCID: 324\t|\tTEXT: Noum\u00e9a\n\nDOCID: 414\t|\tTEXT: Santo Domingo\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 140\t|\tTEXT: Florianopolis\n\nDOCID: 415\t|\tTEXT: Santorini\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 270\t|\tTEXT: Manila\n\nDOCID: 403\t|\tTEXT: San Juan\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 149\t|\tTEXT: Galapagos Islands\n\nDOCID: 173\t|\tTEXT: Havana\n\nDOCID: 476\t|\tTEXT: Tegucigalpa\n\nDOCID: 336\t|\tTEXT: Palma de Mallorca\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 185\t|\tTEXT: Ibiza\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 377\t|\tTEXT: Rhodes (city)\n\nDOCID: 203\t|\tTEXT: Kailua-Kona\n\nDOCID: 562\t|\tTEXT: Zanzibar\n\nDOCID: 381\t|\tTEXT: Roat\u00e1n\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"415\", \"149\", \"185\", \"336\", \"562\", \"377\", \"31\", \"114\", \"381\", \"179\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "415",
+                "149",
+                "185",
+                "336",
+                "562",
+                "377",
+                "31",
+                "114",
+                "381",
+                "179"
+            ]
+        },
+        {
+            "queries": [
+                "Most beautiful island cities to explore"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "316",
+                    "31",
+                    "179",
+                    "96",
+                    "479",
+                    "114",
+                    "197",
+                    "347",
+                    "324",
+                    "414",
+                    "520",
+                    "61",
+                    "140",
+                    "415",
+                    "338",
+                    "270",
+                    "403",
+                    "413",
+                    "149",
+                    "173",
+                    "476",
+                    "336",
+                    "226",
+                    "83",
+                    "185",
+                    "65",
+                    "377",
+                    "203",
+                    "562",
+                    "381"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.661428689956665,
+                    0.6251353025436401,
+                    0.6188167333602905,
+                    0.6183446049690247,
+                    0.6175867915153503,
+                    0.6163890361785889,
+                    0.6095917224884033,
+                    0.6088407635688782,
+                    0.6032102108001709,
+                    0.6028253436088562,
+                    0.5943938493728638,
+                    0.5941734313964844,
+                    0.5917026996612549,
+                    0.5912468433380127,
+                    0.5911093950271606,
+                    0.5905885696411133,
+                    0.5875774621963501,
+                    0.5871260166168213,
+                    0.5871258974075317,
+                    0.5862216353416443,
+                    0.5853255987167358,
+                    0.5839136838912964,
+                    0.5821447372436523,
+                    0.5817404985427856,
+                    0.5816832780838013,
+                    0.5812023878097534,
+                    0.5786412954330444,
+                    0.5785879492759705,
+                    0.5785019397735596,
+                    0.5776968598365784
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Most beautiful island cities to explore\n\nDocuments:\n\nDOCID: 316\t|\tTEXT: Nassau\n\nDOCID: 31\t|\tTEXT: Aruba\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 479\t|\tTEXT: Tenerife\n\nDOCID: 114\t|\tTEXT: Cura\u00e7ao\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 347\t|\tTEXT: Phuket Town\n\nDOCID: 324\t|\tTEXT: Noum\u00e9a\n\nDOCID: 414\t|\tTEXT: Santo Domingo\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 140\t|\tTEXT: Florianopolis\n\nDOCID: 415\t|\tTEXT: Santorini\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 270\t|\tTEXT: Manila\n\nDOCID: 403\t|\tTEXT: San Juan\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 149\t|\tTEXT: Galapagos Islands\n\nDOCID: 173\t|\tTEXT: Havana\n\nDOCID: 476\t|\tTEXT: Tegucigalpa\n\nDOCID: 336\t|\tTEXT: Palma de Mallorca\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 185\t|\tTEXT: Ibiza\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 377\t|\tTEXT: Rhodes (city)\n\nDOCID: 203\t|\tTEXT: Kailua-Kona\n\nDOCID: 562\t|\tTEXT: Zanzibar\n\nDOCID: 381\t|\tTEXT: Roat\u00e1n\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"415\", \"149\", \"185\", \"336\", \"562\", \"377\", \"31\", \"114\", \"381\", \"179\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "415",
+                "149",
+                "185",
+                "336",
+                "562",
+                "377",
+                "31",
+                "114",
+                "381",
+                "179"
+            ],
+            "terminate": true
+        }
+    ]
+}

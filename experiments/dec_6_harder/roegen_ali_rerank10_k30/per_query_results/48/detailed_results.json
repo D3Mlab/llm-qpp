@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Best cities for water activities"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "141",
+            "399",
+            "338",
+            "251",
+            "520",
+            "330",
+            "124",
+            "303",
+            "284",
+            "392",
+            "120",
+            "61",
+            "237",
+            "328",
+            "283",
+            "179",
+            "296",
+            "468",
+            "168",
+            "363",
+            "109",
+            "105",
+            "352",
+            "319",
+            "8",
+            "539",
+            "187",
+            "366",
+            "92",
+            "180"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.649143636226654,
+            0.6453856229782104,
+            0.6444262266159058,
+            0.6232258677482605,
+            0.6153537034988403,
+            0.6148972511291504,
+            0.6124317049980164,
+            0.6123024225234985,
+            0.612205982208252,
+            0.6095858216285706,
+            0.6086251735687256,
+            0.6076481342315674,
+            0.6033327579498291,
+            0.6028278470039368,
+            0.6024690866470337,
+            0.5991431474685669,
+            0.5986382961273193,
+            0.5984864234924316,
+            0.5975281596183777,
+            0.596123993396759,
+            0.5946801900863647,
+            0.5934674739837646,
+            0.5923497080802917,
+            0.5917155146598816,
+            0.5912775993347168,
+            0.5901514291763306,
+            0.5897464752197266,
+            0.5892276763916016,
+            0.5888842344284058,
+            0.5887532830238342
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for water activities\n\nDocuments:\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 468\t|\tTEXT: Tampa\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 363\t|\tTEXT: Puerto Vallarta\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 539\t|\tTEXT: West Palm Beach\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 180\t|\tTEXT: Houston\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"399\", \"141\", \"284\", \"338\", \"539\", \"366\", \"8\", \"363\", \"303\", \"179\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "399",
+        "141",
+        "284",
+        "338",
+        "539",
+        "366",
+        "8",
+        "363",
+        "303",
+        "179"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Best cities for water activities"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Best cities for water activities"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "141",
+                    "399",
+                    "338",
+                    "251",
+                    "520",
+                    "330",
+                    "124",
+                    "303",
+                    "284",
+                    "392",
+                    "120",
+                    "61",
+                    "237",
+                    "328",
+                    "283",
+                    "179",
+                    "296",
+                    "468",
+                    "168",
+                    "363",
+                    "109",
+                    "105",
+                    "352",
+                    "319",
+                    "8",
+                    "539",
+                    "187",
+                    "366",
+                    "92",
+                    "180"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.649143636226654,
+                    0.6453856229782104,
+                    0.6444262266159058,
+                    0.6232258677482605,
+                    0.6153537034988403,
+                    0.6148972511291504,
+                    0.6124317049980164,
+                    0.6123024225234985,
+                    0.612205982208252,
+                    0.6095858216285706,
+                    0.6086251735687256,
+                    0.6076481342315674,
+                    0.6033327579498291,
+                    0.6028278470039368,
+                    0.6024690866470337,
+                    0.5991431474685669,
+                    0.5986382961273193,
+                    0.5984864234924316,
+                    0.5975281596183777,
+                    0.596123993396759,
+                    0.5946801900863647,
+                    0.5934674739837646,
+                    0.5923497080802917,
+                    0.5917155146598816,
+                    0.5912775993347168,
+                    0.5901514291763306,
+                    0.5897464752197266,
+                    0.5892276763916016,
+                    0.5888842344284058,
+                    0.5887532830238342
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Best cities for water activities"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "141",
+                    "399",
+                    "338",
+                    "251",
+                    "520",
+                    "330",
+                    "124",
+                    "303",
+                    "284",
+                    "392",
+                    "120",
+                    "61",
+                    "237",
+                    "328",
+                    "283",
+                    "179",
+                    "296",
+                    "468",
+                    "168",
+                    "363",
+                    "109",
+                    "105",
+                    "352",
+                    "319",
+                    "8",
+                    "539",
+                    "187",
+                    "366",
+                    "92",
+                    "180"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.649143636226654,
+                    0.6453856229782104,
+                    0.6444262266159058,
+                    0.6232258677482605,
+                    0.6153537034988403,
+                    0.6148972511291504,
+                    0.6124317049980164,
+                    0.6123024225234985,
+                    0.612205982208252,
+                    0.6095858216285706,
+                    0.6086251735687256,
+                    0.6076481342315674,
+                    0.6033327579498291,
+                    0.6028278470039368,
+                    0.6024690866470337,
+                    0.5991431474685669,
+                    0.5986382961273193,
+                    0.5984864234924316,
+                    0.5975281596183777,
+                    0.596123993396759,
+                    0.5946801900863647,
+                    0.5934674739837646,
+                    0.5923497080802917,
+                    0.5917155146598816,
+                    0.5912775993347168,
+                    0.5901514291763306,
+                    0.5897464752197266,
+                    0.5892276763916016,
+                    0.5888842344284058,
+                    0.5887532830238342
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for water activities\n\nDocuments:\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 468\t|\tTEXT: Tampa\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 363\t|\tTEXT: Puerto Vallarta\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 539\t|\tTEXT: West Palm Beach\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 180\t|\tTEXT: Houston\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"399\", \"141\", \"284\", \"338\", \"539\", \"366\", \"8\", \"363\", \"303\", \"179\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "399",
+                "141",
+                "284",
+                "338",
+                "539",
+                "366",
+                "8",
+                "363",
+                "303",
+                "179"
+            ]
+        },
+        {
+            "queries": [
+                "Best cities for water activities"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "141",
+                    "399",
+                    "338",
+                    "251",
+                    "520",
+                    "330",
+                    "124",
+                    "303",
+                    "284",
+                    "392",
+                    "120",
+                    "61",
+                    "237",
+                    "328",
+                    "283",
+                    "179",
+                    "296",
+                    "468",
+                    "168",
+                    "363",
+                    "109",
+                    "105",
+                    "352",
+                    "319",
+                    "8",
+                    "539",
+                    "187",
+                    "366",
+                    "92",
+                    "180"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.649143636226654,
+                    0.6453856229782104,
+                    0.6444262266159058,
+                    0.6232258677482605,
+                    0.6153537034988403,
+                    0.6148972511291504,
+                    0.6124317049980164,
+                    0.6123024225234985,
+                    0.612205982208252,
+                    0.6095858216285706,
+                    0.6086251735687256,
+                    0.6076481342315674,
+                    0.6033327579498291,
+                    0.6028278470039368,
+                    0.6024690866470337,
+                    0.5991431474685669,
+                    0.5986382961273193,
+                    0.5984864234924316,
+                    0.5975281596183777,
+                    0.596123993396759,
+                    0.5946801900863647,
+                    0.5934674739837646,
+                    0.5923497080802917,
+                    0.5917155146598816,
+                    0.5912775993347168,
+                    0.5901514291763306,
+                    0.5897464752197266,
+                    0.5892276763916016,
+                    0.5888842344284058,
+                    0.5887532830238342
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for water activities\n\nDocuments:\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 468\t|\tTEXT: Tampa\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 363\t|\tTEXT: Puerto Vallarta\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 539\t|\tTEXT: West Palm Beach\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 180\t|\tTEXT: Houston\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"399\", \"141\", \"284\", \"338\", \"539\", \"366\", \"8\", \"363\", \"303\", \"179\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "399",
+                "141",
+                "284",
+                "338",
+                "539",
+                "366",
+                "8",
+                "363",
+                "303",
+                "179"
+            ],
+            "terminate": true
+        }
+    ]
+}

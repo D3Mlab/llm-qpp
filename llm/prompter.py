@@ -65,7 +65,7 @@ class Prompter():
         template_dir = self.template_config["reranking"]
         prompt = self.render_prompt(prompt_dict, template_dir)
         self.add_prompt_to_state(state,prompt)
-        #self.logger.debug(f"reranking prompt: {prompt}")
+        self.logger.debug(f"reranking prompt: {prompt}")
 
         llm_output = self.llm.prompt(prompt)["message"]
         self.add_response_to_state(state,llm_output)

@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "I want to capture stunning sunshine"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "396",
+            "322",
+            "294",
+            "8",
+            "91",
+            "479",
+            "292",
+            "352",
+            "92",
+            "437",
+            "185",
+            "250",
+            "156",
+            "207",
+            "412",
+            "251",
+            "330",
+            "131",
+            "366",
+            "249",
+            "289",
+            "125",
+            "31",
+            "515",
+            "305",
+            "150",
+            "214",
+            "386",
+            "34",
+            "345"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.5525757670402527,
+            0.5402719378471375,
+            0.5367400646209717,
+            0.5345064401626587,
+            0.5260710120201111,
+            0.5243821740150452,
+            0.5226513147354126,
+            0.5205800533294678,
+            0.5201375484466553,
+            0.5152661800384521,
+            0.5152633786201477,
+            0.51442551612854,
+            0.5121009945869446,
+            0.5120875835418701,
+            0.5106088519096375,
+            0.5097979307174683,
+            0.5052205324172974,
+            0.5050506591796875,
+            0.5050376653671265,
+            0.504801869392395,
+            0.5046375393867493,
+            0.5045723915100098,
+            0.5044782161712646,
+            0.5043501257896423,
+            0.5040981769561768,
+            0.5035065412521362,
+            0.5033631920814514,
+            0.5022373199462891,
+            0.5022088289260864,
+            0.5017703175544739
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: I want to capture stunning sunshine\n\nDocuments:\n\nDOCID: 396\t|\tTEXT: Samsun\n\nDOCID: 322\t|\tTEXT: Nice\n\nDOCID: 294\t|\tTEXT: Monterey (California)\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 91\t|\tTEXT: Canc\u00fan\n\nDOCID: 479\t|\tTEXT: Tenerife\n\nDOCID: 292\t|\tTEXT: Mont-Tremblant\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 437\t|\tTEXT: Singapore\n\nDOCID: 185\t|\tTEXT: Ibiza\n\nDOCID: 250\t|\tTEXT: Longyearbyen\n\nDOCID: 156\t|\tTEXT: Gold Coast\n\nDOCID: 207\t|\tTEXT: Kauai\n\nDOCID: 412\t|\tTEXT: Santa Rosa (California)\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 131\t|\tTEXT: Edinburgh\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 249\t|\tTEXT: London\n\nDOCID: 289\t|\tTEXT: Mobile\n\nDOCID: 125\t|\tTEXT: Dublin\n\nDOCID: 31\t|\tTEXT: Aruba\n\nDOCID: 515\t|\tTEXT: Van\n\nDOCID: 305\t|\tTEXT: M\u00e9rida (Mexico)\n\nDOCID: 150\t|\tTEXT: Gasp\u00e9\n\nDOCID: 214\t|\tTEXT: Khajuraho\n\nDOCID: 386\t|\tTEXT: Saint John\n\nDOCID: 34\t|\tTEXT: Asheville\n\nDOCID: 345\t|\tTEXT: Phoenix\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"91\", \"479\", \"8\", \"156\", \"366\", \"31\", \"305\", \"345\", \"207\", \"185\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "91",
+        "479",
+        "8",
+        "156",
+        "366",
+        "31",
+        "305",
+        "345",
+        "207",
+        "185"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "I want to capture stunning sunshine"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "I want to capture stunning sunshine"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "396",
+                    "322",
+                    "294",
+                    "8",
+                    "91",
+                    "479",
+                    "292",
+                    "352",
+                    "92",
+                    "437",
+                    "185",
+                    "250",
+                    "156",
+                    "207",
+                    "412",
+                    "251",
+                    "330",
+                    "131",
+                    "366",
+                    "249",
+                    "289",
+                    "125",
+                    "31",
+                    "515",
+                    "305",
+                    "150",
+                    "214",
+                    "386",
+                    "34",
+                    "345"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5525757670402527,
+                    0.5402719378471375,
+                    0.5367400646209717,
+                    0.5345064401626587,
+                    0.5260710120201111,
+                    0.5243821740150452,
+                    0.5226513147354126,
+                    0.5205800533294678,
+                    0.5201375484466553,
+                    0.5152661800384521,
+                    0.5152633786201477,
+                    0.51442551612854,
+                    0.5121009945869446,
+                    0.5120875835418701,
+                    0.5106088519096375,
+                    0.5097979307174683,
+                    0.5052205324172974,
+                    0.5050506591796875,
+                    0.5050376653671265,
+                    0.504801869392395,
+                    0.5046375393867493,
+                    0.5045723915100098,
+                    0.5044782161712646,
+                    0.5043501257896423,
+                    0.5040981769561768,
+                    0.5035065412521362,
+                    0.5033631920814514,
+                    0.5022373199462891,
+                    0.5022088289260864,
+                    0.5017703175544739
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "I want to capture stunning sunshine"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "396",
+                    "322",
+                    "294",
+                    "8",
+                    "91",
+                    "479",
+                    "292",
+                    "352",
+                    "92",
+                    "437",
+                    "185",
+                    "250",
+                    "156",
+                    "207",
+                    "412",
+                    "251",
+                    "330",
+                    "131",
+                    "366",
+                    "249",
+                    "289",
+                    "125",
+                    "31",
+                    "515",
+                    "305",
+                    "150",
+                    "214",
+                    "386",
+                    "34",
+                    "345"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5525757670402527,
+                    0.5402719378471375,
+                    0.5367400646209717,
+                    0.5345064401626587,
+                    0.5260710120201111,
+                    0.5243821740150452,
+                    0.5226513147354126,
+                    0.5205800533294678,
+                    0.5201375484466553,
+                    0.5152661800384521,
+                    0.5152633786201477,
+                    0.51442551612854,
+                    0.5121009945869446,
+                    0.5120875835418701,
+                    0.5106088519096375,
+                    0.5097979307174683,
+                    0.5052205324172974,
+                    0.5050506591796875,
+                    0.5050376653671265,
+                    0.504801869392395,
+                    0.5046375393867493,
+                    0.5045723915100098,
+                    0.5044782161712646,
+                    0.5043501257896423,
+                    0.5040981769561768,
+                    0.5035065412521362,
+                    0.5033631920814514,
+                    0.5022373199462891,
+                    0.5022088289260864,
+                    0.5017703175544739
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: I want to capture stunning sunshine\n\nDocuments:\n\nDOCID: 396\t|\tTEXT: Samsun\n\nDOCID: 322\t|\tTEXT: Nice\n\nDOCID: 294\t|\tTEXT: Monterey (California)\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 91\t|\tTEXT: Canc\u00fan\n\nDOCID: 479\t|\tTEXT: Tenerife\n\nDOCID: 292\t|\tTEXT: Mont-Tremblant\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 437\t|\tTEXT: Singapore\n\nDOCID: 185\t|\tTEXT: Ibiza\n\nDOCID: 250\t|\tTEXT: Longyearbyen\n\nDOCID: 156\t|\tTEXT: Gold Coast\n\nDOCID: 207\t|\tTEXT: Kauai\n\nDOCID: 412\t|\tTEXT: Santa Rosa (California)\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 131\t|\tTEXT: Edinburgh\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 249\t|\tTEXT: London\n\nDOCID: 289\t|\tTEXT: Mobile\n\nDOCID: 125\t|\tTEXT: Dublin\n\nDOCID: 31\t|\tTEXT: Aruba\n\nDOCID: 515\t|\tTEXT: Van\n\nDOCID: 305\t|\tTEXT: M\u00e9rida (Mexico)\n\nDOCID: 150\t|\tTEXT: Gasp\u00e9\n\nDOCID: 214\t|\tTEXT: Khajuraho\n\nDOCID: 386\t|\tTEXT: Saint John\n\nDOCID: 34\t|\tTEXT: Asheville\n\nDOCID: 345\t|\tTEXT: Phoenix\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"91\", \"479\", \"8\", \"156\", \"366\", \"31\", \"305\", \"345\", \"207\", \"185\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "91",
+                "479",
+                "8",
+                "156",
+                "366",
+                "31",
+                "305",
+                "345",
+                "207",
+                "185"
+            ]
+        },
+        {
+            "queries": [
+                "I want to capture stunning sunshine"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "396",
+                    "322",
+                    "294",
+                    "8",
+                    "91",
+                    "479",
+                    "292",
+                    "352",
+                    "92",
+                    "437",
+                    "185",
+                    "250",
+                    "156",
+                    "207",
+                    "412",
+                    "251",
+                    "330",
+                    "131",
+                    "366",
+                    "249",
+                    "289",
+                    "125",
+                    "31",
+                    "515",
+                    "305",
+                    "150",
+                    "214",
+                    "386",
+                    "34",
+                    "345"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5525757670402527,
+                    0.5402719378471375,
+                    0.5367400646209717,
+                    0.5345064401626587,
+                    0.5260710120201111,
+                    0.5243821740150452,
+                    0.5226513147354126,
+                    0.5205800533294678,
+                    0.5201375484466553,
+                    0.5152661800384521,
+                    0.5152633786201477,
+                    0.51442551612854,
+                    0.5121009945869446,
+                    0.5120875835418701,
+                    0.5106088519096375,
+                    0.5097979307174683,
+                    0.5052205324172974,
+                    0.5050506591796875,
+                    0.5050376653671265,
+                    0.504801869392395,
+                    0.5046375393867493,
+                    0.5045723915100098,
+                    0.5044782161712646,
+                    0.5043501257896423,
+                    0.5040981769561768,
+                    0.5035065412521362,
+                    0.5033631920814514,
+                    0.5022373199462891,
+                    0.5022088289260864,
+                    0.5017703175544739
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: I want to capture stunning sunshine\n\nDocuments:\n\nDOCID: 396\t|\tTEXT: Samsun\n\nDOCID: 322\t|\tTEXT: Nice\n\nDOCID: 294\t|\tTEXT: Monterey (California)\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 91\t|\tTEXT: Canc\u00fan\n\nDOCID: 479\t|\tTEXT: Tenerife\n\nDOCID: 292\t|\tTEXT: Mont-Tremblant\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 437\t|\tTEXT: Singapore\n\nDOCID: 185\t|\tTEXT: Ibiza\n\nDOCID: 250\t|\tTEXT: Longyearbyen\n\nDOCID: 156\t|\tTEXT: Gold Coast\n\nDOCID: 207\t|\tTEXT: Kauai\n\nDOCID: 412\t|\tTEXT: Santa Rosa (California)\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 131\t|\tTEXT: Edinburgh\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 249\t|\tTEXT: London\n\nDOCID: 289\t|\tTEXT: Mobile\n\nDOCID: 125\t|\tTEXT: Dublin\n\nDOCID: 31\t|\tTEXT: Aruba\n\nDOCID: 515\t|\tTEXT: Van\n\nDOCID: 305\t|\tTEXT: M\u00e9rida (Mexico)\n\nDOCID: 150\t|\tTEXT: Gasp\u00e9\n\nDOCID: 214\t|\tTEXT: Khajuraho\n\nDOCID: 386\t|\tTEXT: Saint John\n\nDOCID: 34\t|\tTEXT: Asheville\n\nDOCID: 345\t|\tTEXT: Phoenix\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"91\", \"479\", \"8\", \"156\", \"366\", \"31\", \"305\", \"345\", \"207\", \"185\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "91",
+                "479",
+                "8",
+                "156",
+                "366",
+                "31",
+                "305",
+                "345",
+                "207",
+                "185"
+            ],
+            "terminate": true
+        }
+    ]
+}

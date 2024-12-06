@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Must Visit cities for your bucket list"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "492",
+            "251",
+            "399",
+            "237",
+            "141",
+            "516",
+            "320",
+            "120",
+            "124",
+            "400",
+            "92",
+            "201",
+            "53",
+            "61",
+            "111",
+            "328",
+            "109",
+            "105",
+            "332",
+            "121",
+            "408",
+            "352",
+            "89",
+            "376",
+            "283",
+            "338",
+            "168",
+            "204",
+            "43",
+            "303"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6121867895126343,
+            0.6114593744277954,
+            0.608238697052002,
+            0.6029649972915649,
+            0.6027534008026123,
+            0.6001550555229187,
+            0.5973554253578186,
+            0.5969192981719971,
+            0.5967868566513062,
+            0.5955878496170044,
+            0.5943498611450195,
+            0.592915415763855,
+            0.5926932096481323,
+            0.5904836654663086,
+            0.5894968509674072,
+            0.5890803337097168,
+            0.5883733034133911,
+            0.5877524018287659,
+            0.5870056748390198,
+            0.5867077112197876,
+            0.5829741358757019,
+            0.5827320218086243,
+            0.5825917720794678,
+            0.5825293064117432,
+            0.5820701718330383,
+            0.581531286239624,
+            0.5813865661621094,
+            0.578861653804779,
+            0.5753790736198425,
+            0.5749508738517761
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Must Visit cities for your bucket list\n\nDocuments:\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 121\t|\tTEXT: Detroit\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 89\t|\tTEXT: Calgary\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"320\", \"251\", \"399\", \"237\", \"124\", \"516\", \"492\", \"400\", \"92\", \"201\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "320",
+        "251",
+        "399",
+        "237",
+        "124",
+        "516",
+        "492",
+        "400",
+        "92",
+        "201"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Must Visit cities for your bucket list"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Must Visit cities for your bucket list"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "492",
+                    "251",
+                    "399",
+                    "237",
+                    "141",
+                    "516",
+                    "320",
+                    "120",
+                    "124",
+                    "400",
+                    "92",
+                    "201",
+                    "53",
+                    "61",
+                    "111",
+                    "328",
+                    "109",
+                    "105",
+                    "332",
+                    "121",
+                    "408",
+                    "352",
+                    "89",
+                    "376",
+                    "283",
+                    "338",
+                    "168",
+                    "204",
+                    "43",
+                    "303"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6121867895126343,
+                    0.6114593744277954,
+                    0.608238697052002,
+                    0.6029649972915649,
+                    0.6027534008026123,
+                    0.6001550555229187,
+                    0.5973554253578186,
+                    0.5969192981719971,
+                    0.5967868566513062,
+                    0.5955878496170044,
+                    0.5943498611450195,
+                    0.592915415763855,
+                    0.5926932096481323,
+                    0.5904836654663086,
+                    0.5894968509674072,
+                    0.5890803337097168,
+                    0.5883733034133911,
+                    0.5877524018287659,
+                    0.5870056748390198,
+                    0.5867077112197876,
+                    0.5829741358757019,
+                    0.5827320218086243,
+                    0.5825917720794678,
+                    0.5825293064117432,
+                    0.5820701718330383,
+                    0.581531286239624,
+                    0.5813865661621094,
+                    0.578861653804779,
+                    0.5753790736198425,
+                    0.5749508738517761
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Must Visit cities for your bucket list"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "492",
+                    "251",
+                    "399",
+                    "237",
+                    "141",
+                    "516",
+                    "320",
+                    "120",
+                    "124",
+                    "400",
+                    "92",
+                    "201",
+                    "53",
+                    "61",
+                    "111",
+                    "328",
+                    "109",
+                    "105",
+                    "332",
+                    "121",
+                    "408",
+                    "352",
+                    "89",
+                    "376",
+                    "283",
+                    "338",
+                    "168",
+                    "204",
+                    "43",
+                    "303"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6121867895126343,
+                    0.6114593744277954,
+                    0.608238697052002,
+                    0.6029649972915649,
+                    0.6027534008026123,
+                    0.6001550555229187,
+                    0.5973554253578186,
+                    0.5969192981719971,
+                    0.5967868566513062,
+                    0.5955878496170044,
+                    0.5943498611450195,
+                    0.592915415763855,
+                    0.5926932096481323,
+                    0.5904836654663086,
+                    0.5894968509674072,
+                    0.5890803337097168,
+                    0.5883733034133911,
+                    0.5877524018287659,
+                    0.5870056748390198,
+                    0.5867077112197876,
+                    0.5829741358757019,
+                    0.5827320218086243,
+                    0.5825917720794678,
+                    0.5825293064117432,
+                    0.5820701718330383,
+                    0.581531286239624,
+                    0.5813865661621094,
+                    0.578861653804779,
+                    0.5753790736198425,
+                    0.5749508738517761
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Must Visit cities for your bucket list\n\nDocuments:\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 121\t|\tTEXT: Detroit\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 89\t|\tTEXT: Calgary\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"251\", \"399\", \"237\", \"124\", \"516\", \"492\", \"400\", \"92\", \"201\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "251",
+                "399",
+                "237",
+                "124",
+                "516",
+                "492",
+                "400",
+                "92",
+                "201"
+            ]
+        },
+        {
+            "queries": [
+                "Must Visit cities for your bucket list"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "492",
+                    "251",
+                    "399",
+                    "237",
+                    "141",
+                    "516",
+                    "320",
+                    "120",
+                    "124",
+                    "400",
+                    "92",
+                    "201",
+                    "53",
+                    "61",
+                    "111",
+                    "328",
+                    "109",
+                    "105",
+                    "332",
+                    "121",
+                    "408",
+                    "352",
+                    "89",
+                    "376",
+                    "283",
+                    "338",
+                    "168",
+                    "204",
+                    "43",
+                    "303"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6121867895126343,
+                    0.6114593744277954,
+                    0.608238697052002,
+                    0.6029649972915649,
+                    0.6027534008026123,
+                    0.6001550555229187,
+                    0.5973554253578186,
+                    0.5969192981719971,
+                    0.5967868566513062,
+                    0.5955878496170044,
+                    0.5943498611450195,
+                    0.592915415763855,
+                    0.5926932096481323,
+                    0.5904836654663086,
+                    0.5894968509674072,
+                    0.5890803337097168,
+                    0.5883733034133911,
+                    0.5877524018287659,
+                    0.5870056748390198,
+                    0.5867077112197876,
+                    0.5829741358757019,
+                    0.5827320218086243,
+                    0.5825917720794678,
+                    0.5825293064117432,
+                    0.5820701718330383,
+                    0.581531286239624,
+                    0.5813865661621094,
+                    0.578861653804779,
+                    0.5753790736198425,
+                    0.5749508738517761
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Must Visit cities for your bucket list\n\nDocuments:\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 121\t|\tTEXT: Detroit\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 89\t|\tTEXT: Calgary\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 303\t|\tTEXT: Myrtle Beach\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"251\", \"399\", \"237\", \"124\", \"516\", \"492\", \"400\", \"92\", \"201\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "251",
+                "399",
+                "237",
+                "124",
+                "516",
+                "492",
+                "400",
+                "92",
+                "201"
+            ],
+            "terminate": true
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+Return the best ordering of {{ k }} of the document ids below given the query.
+Follow the output format example exactly and return only a python list of docIDs with exactly {{ k }} IDs.
+Do not output city names.
+
+Example
+***
+Query: tropical vacation destinations
+
+Documents:
+DOCID: 1	|	 TEXT: London
+DOCID: 4   |    TEXT: Cancun
+DOCID: 2456	|	TEXT: Myrtle Beach
+
+Output: ["4", "2456", "1"]
+***
+
+Inputs:
+***
+Query: {{ query }}
+
+Documents:
+{% for doc in doc_ids_and_texts %}
+DOCID: {{doc.docID}}	|	TEXT: {{doc.text}}
+{% endfor %}
+***
+
+Output:

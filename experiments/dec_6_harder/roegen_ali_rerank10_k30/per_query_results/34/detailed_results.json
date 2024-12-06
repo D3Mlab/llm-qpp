@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Educational cities for student trips"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "343",
+            "486",
+            "352",
+            "378",
+            "71",
+            "81",
+            "320",
+            "283",
+            "332",
+            "168",
+            "120",
+            "105",
+            "244",
+            "74",
+            "111",
+            "157",
+            "392",
+            "328",
+            "15",
+            "10",
+            "502",
+            "355",
+            "141",
+            "42",
+            "82",
+            "399",
+            "246",
+            "394",
+            "338",
+            "467"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.5949147343635559,
+            0.5892747640609741,
+            0.5857504606246948,
+            0.5856969356536865,
+            0.5854424238204956,
+            0.5792413949966431,
+            0.5780180096626282,
+            0.5766003131866455,
+            0.5758459568023682,
+            0.5756033658981323,
+            0.5748000144958496,
+            0.5738932490348816,
+            0.5706624984741211,
+            0.5706202983856201,
+            0.5703456401824951,
+            0.5686413645744324,
+            0.5634685158729553,
+            0.5623499155044556,
+            0.5618993043899536,
+            0.561545729637146,
+            0.5604654550552368,
+            0.55985027551651,
+            0.5597379803657532,
+            0.5589722394943237,
+            0.5588318705558777,
+            0.5581795573234558,
+            0.5580686330795288,
+            0.5553677082061768,
+            0.5552577972412109,
+            0.5543757081031799
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Educational cities for student trips\n\nDocuments:\n\nDOCID: 343\t|\tTEXT: Philadelphia\n\nDOCID: 486\t|\tTEXT: Timi\u0219oara\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 244\t|\tTEXT: Linz\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 15\t|\tTEXT: Albany (New York)\n\nDOCID: 10\t|\tTEXT: Addis Ababa\n\nDOCID: 502\t|\tTEXT: Tucson\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 42\t|\tTEXT: Athens\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 246\t|\tTEXT: Little Rock\n\nDOCID: 394\t|\tTEXT: Salzburg\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 467\t|\tTEXT: Tallinn\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"320\", \"343\", \"74\", \"105\", \"168\", \"352\", \"111\", \"71\", \"157\", \"378\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "320",
+        "343",
+        "74",
+        "105",
+        "168",
+        "352",
+        "111",
+        "71",
+        "157",
+        "378"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Educational cities for student trips"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Educational cities for student trips"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "343",
+                    "486",
+                    "352",
+                    "378",
+                    "71",
+                    "81",
+                    "320",
+                    "283",
+                    "332",
+                    "168",
+                    "120",
+                    "105",
+                    "244",
+                    "74",
+                    "111",
+                    "157",
+                    "392",
+                    "328",
+                    "15",
+                    "10",
+                    "502",
+                    "355",
+                    "141",
+                    "42",
+                    "82",
+                    "399",
+                    "246",
+                    "394",
+                    "338",
+                    "467"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5949147343635559,
+                    0.5892747640609741,
+                    0.5857504606246948,
+                    0.5856969356536865,
+                    0.5854424238204956,
+                    0.5792413949966431,
+                    0.5780180096626282,
+                    0.5766003131866455,
+                    0.5758459568023682,
+                    0.5756033658981323,
+                    0.5748000144958496,
+                    0.5738932490348816,
+                    0.5706624984741211,
+                    0.5706202983856201,
+                    0.5703456401824951,
+                    0.5686413645744324,
+                    0.5634685158729553,
+                    0.5623499155044556,
+                    0.5618993043899536,
+                    0.561545729637146,
+                    0.5604654550552368,
+                    0.55985027551651,
+                    0.5597379803657532,
+                    0.5589722394943237,
+                    0.5588318705558777,
+                    0.5581795573234558,
+                    0.5580686330795288,
+                    0.5553677082061768,
+                    0.5552577972412109,
+                    0.5543757081031799
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Educational cities for student trips"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "343",
+                    "486",
+                    "352",
+                    "378",
+                    "71",
+                    "81",
+                    "320",
+                    "283",
+                    "332",
+                    "168",
+                    "120",
+                    "105",
+                    "244",
+                    "74",
+                    "111",
+                    "157",
+                    "392",
+                    "328",
+                    "15",
+                    "10",
+                    "502",
+                    "355",
+                    "141",
+                    "42",
+                    "82",
+                    "399",
+                    "246",
+                    "394",
+                    "338",
+                    "467"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5949147343635559,
+                    0.5892747640609741,
+                    0.5857504606246948,
+                    0.5856969356536865,
+                    0.5854424238204956,
+                    0.5792413949966431,
+                    0.5780180096626282,
+                    0.5766003131866455,
+                    0.5758459568023682,
+                    0.5756033658981323,
+                    0.5748000144958496,
+                    0.5738932490348816,
+                    0.5706624984741211,
+                    0.5706202983856201,
+                    0.5703456401824951,
+                    0.5686413645744324,
+                    0.5634685158729553,
+                    0.5623499155044556,
+                    0.5618993043899536,
+                    0.561545729637146,
+                    0.5604654550552368,
+                    0.55985027551651,
+                    0.5597379803657532,
+                    0.5589722394943237,
+                    0.5588318705558777,
+                    0.5581795573234558,
+                    0.5580686330795288,
+                    0.5553677082061768,
+                    0.5552577972412109,
+                    0.5543757081031799
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Educational cities for student trips\n\nDocuments:\n\nDOCID: 343\t|\tTEXT: Philadelphia\n\nDOCID: 486\t|\tTEXT: Timi\u0219oara\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 244\t|\tTEXT: Linz\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 15\t|\tTEXT: Albany (New York)\n\nDOCID: 10\t|\tTEXT: Addis Ababa\n\nDOCID: 502\t|\tTEXT: Tucson\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 42\t|\tTEXT: Athens\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 246\t|\tTEXT: Little Rock\n\nDOCID: 394\t|\tTEXT: Salzburg\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 467\t|\tTEXT: Tallinn\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"343\", \"74\", \"105\", \"168\", \"352\", \"111\", \"71\", \"157\", \"378\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "343",
+                "74",
+                "105",
+                "168",
+                "352",
+                "111",
+                "71",
+                "157",
+                "378"
+            ]
+        },
+        {
+            "queries": [
+                "Educational cities for student trips"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "343",
+                    "486",
+                    "352",
+                    "378",
+                    "71",
+                    "81",
+                    "320",
+                    "283",
+                    "332",
+                    "168",
+                    "120",
+                    "105",
+                    "244",
+                    "74",
+                    "111",
+                    "157",
+                    "392",
+                    "328",
+                    "15",
+                    "10",
+                    "502",
+                    "355",
+                    "141",
+                    "42",
+                    "82",
+                    "399",
+                    "246",
+                    "394",
+                    "338",
+                    "467"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5949147343635559,
+                    0.5892747640609741,
+                    0.5857504606246948,
+                    0.5856969356536865,
+                    0.5854424238204956,
+                    0.5792413949966431,
+                    0.5780180096626282,
+                    0.5766003131866455,
+                    0.5758459568023682,
+                    0.5756033658981323,
+                    0.5748000144958496,
+                    0.5738932490348816,
+                    0.5706624984741211,
+                    0.5706202983856201,
+                    0.5703456401824951,
+                    0.5686413645744324,
+                    0.5634685158729553,
+                    0.5623499155044556,
+                    0.5618993043899536,
+                    0.561545729637146,
+                    0.5604654550552368,
+                    0.55985027551651,
+                    0.5597379803657532,
+                    0.5589722394943237,
+                    0.5588318705558777,
+                    0.5581795573234558,
+                    0.5580686330795288,
+                    0.5553677082061768,
+                    0.5552577972412109,
+                    0.5543757081031799
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Educational cities for student trips\n\nDocuments:\n\nDOCID: 343\t|\tTEXT: Philadelphia\n\nDOCID: 486\t|\tTEXT: Timi\u0219oara\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 244\t|\tTEXT: Linz\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 15\t|\tTEXT: Albany (New York)\n\nDOCID: 10\t|\tTEXT: Addis Ababa\n\nDOCID: 502\t|\tTEXT: Tucson\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 42\t|\tTEXT: Athens\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 246\t|\tTEXT: Little Rock\n\nDOCID: 394\t|\tTEXT: Salzburg\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 467\t|\tTEXT: Tallinn\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"343\", \"74\", \"105\", \"168\", \"352\", \"111\", \"71\", \"157\", \"378\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "343",
+                "74",
+                "105",
+                "168",
+                "352",
+                "111",
+                "71",
+                "157",
+                "378"
+            ],
+            "terminate": true
+        }
+    ]
+}

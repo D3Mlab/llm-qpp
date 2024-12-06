@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Cities for a rejuvenating retreat"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "8",
+            "520",
+            "141",
+            "399",
+            "335",
+            "378",
+            "251",
+            "366",
+            "338",
+            "243",
+            "120",
+            "408",
+            "352",
+            "92",
+            "1",
+            "53",
+            "320",
+            "552",
+            "105",
+            "237",
+            "316",
+            "156",
+            "226",
+            "154",
+            "124",
+            "82",
+            "347",
+            "304",
+            "532",
+            "91"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6619139909744263,
+            0.626775860786438,
+            0.6267514824867249,
+            0.6226505041122437,
+            0.6225816607475281,
+            0.6091920733451843,
+            0.6085461378097534,
+            0.6085372567176819,
+            0.6050963401794434,
+            0.6049162149429321,
+            0.6036408543586731,
+            0.6026545763015747,
+            0.6024566888809204,
+            0.6021409630775452,
+            0.601341962814331,
+            0.6003304719924927,
+            0.5999358892440796,
+            0.5989344120025635,
+            0.5980863571166992,
+            0.5970698595046997,
+            0.597069263458252,
+            0.5970603227615356,
+            0.5968601703643799,
+            0.5968315601348877,
+            0.5963435173034668,
+            0.5960699915885925,
+            0.5958000421524048,
+            0.5954627394676208,
+            0.5951845049858093,
+            0.5945166349411011
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities for a rejuvenating retreat\n\nDocuments:\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 335\t|\tTEXT: Palm Springs\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 243\t|\tTEXT: Lima\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 552\t|\tTEXT: Yangon\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 316\t|\tTEXT: Nassau\n\nDOCID: 156\t|\tTEXT: Gold Coast\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 347\t|\tTEXT: Phuket Town\n\nDOCID: 304\t|\tTEXT: M\u00e1laga\n\nDOCID: 532\t|\tTEXT: Vit\u00f3ria\n\nDOCID: 91\t|\tTEXT: Canc\u00fan\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"520\", \"1\", \"141\", \"399\", \"335\", \"408\", \"251\", \"366\", \"338\", \"243\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "520",
+        "1",
+        "141",
+        "399",
+        "335",
+        "408",
+        "251",
+        "366",
+        "338",
+        "243"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Cities for a rejuvenating retreat"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Cities for a rejuvenating retreat"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "8",
+                    "520",
+                    "141",
+                    "399",
+                    "335",
+                    "378",
+                    "251",
+                    "366",
+                    "338",
+                    "243",
+                    "120",
+                    "408",
+                    "352",
+                    "92",
+                    "1",
+                    "53",
+                    "320",
+                    "552",
+                    "105",
+                    "237",
+                    "316",
+                    "156",
+                    "226",
+                    "154",
+                    "124",
+                    "82",
+                    "347",
+                    "304",
+                    "532",
+                    "91"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6619139909744263,
+                    0.626775860786438,
+                    0.6267514824867249,
+                    0.6226505041122437,
+                    0.6225816607475281,
+                    0.6091920733451843,
+                    0.6085461378097534,
+                    0.6085372567176819,
+                    0.6050963401794434,
+                    0.6049162149429321,
+                    0.6036408543586731,
+                    0.6026545763015747,
+                    0.6024566888809204,
+                    0.6021409630775452,
+                    0.601341962814331,
+                    0.6003304719924927,
+                    0.5999358892440796,
+                    0.5989344120025635,
+                    0.5980863571166992,
+                    0.5970698595046997,
+                    0.597069263458252,
+                    0.5970603227615356,
+                    0.5968601703643799,
+                    0.5968315601348877,
+                    0.5963435173034668,
+                    0.5960699915885925,
+                    0.5958000421524048,
+                    0.5954627394676208,
+                    0.5951845049858093,
+                    0.5945166349411011
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Cities for a rejuvenating retreat"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "8",
+                    "520",
+                    "141",
+                    "399",
+                    "335",
+                    "378",
+                    "251",
+                    "366",
+                    "338",
+                    "243",
+                    "120",
+                    "408",
+                    "352",
+                    "92",
+                    "1",
+                    "53",
+                    "320",
+                    "552",
+                    "105",
+                    "237",
+                    "316",
+                    "156",
+                    "226",
+                    "154",
+                    "124",
+                    "82",
+                    "347",
+                    "304",
+                    "532",
+                    "91"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6619139909744263,
+                    0.626775860786438,
+                    0.6267514824867249,
+                    0.6226505041122437,
+                    0.6225816607475281,
+                    0.6091920733451843,
+                    0.6085461378097534,
+                    0.6085372567176819,
+                    0.6050963401794434,
+                    0.6049162149429321,
+                    0.6036408543586731,
+                    0.6026545763015747,
+                    0.6024566888809204,
+                    0.6021409630775452,
+                    0.601341962814331,
+                    0.6003304719924927,
+                    0.5999358892440796,
+                    0.5989344120025635,
+                    0.5980863571166992,
+                    0.5970698595046997,
+                    0.597069263458252,
+                    0.5970603227615356,
+                    0.5968601703643799,
+                    0.5968315601348877,
+                    0.5963435173034668,
+                    0.5960699915885925,
+                    0.5958000421524048,
+                    0.5954627394676208,
+                    0.5951845049858093,
+                    0.5945166349411011
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities for a rejuvenating retreat\n\nDocuments:\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 335\t|\tTEXT: Palm Springs\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 243\t|\tTEXT: Lima\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 552\t|\tTEXT: Yangon\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 316\t|\tTEXT: Nassau\n\nDOCID: 156\t|\tTEXT: Gold Coast\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 347\t|\tTEXT: Phuket Town\n\nDOCID: 304\t|\tTEXT: M\u00e1laga\n\nDOCID: 532\t|\tTEXT: Vit\u00f3ria\n\nDOCID: 91\t|\tTEXT: Canc\u00fan\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"520\", \"1\", \"141\", \"399\", \"335\", \"408\", \"251\", \"366\", \"338\", \"243\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "520",
+                "1",
+                "141",
+                "399",
+                "335",
+                "408",
+                "251",
+                "366",
+                "338",
+                "243"
+            ]
+        },
+        {
+            "queries": [
+                "Cities for a rejuvenating retreat"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "8",
+                    "520",
+                    "141",
+                    "399",
+                    "335",
+                    "378",
+                    "251",
+                    "366",
+                    "338",
+                    "243",
+                    "120",
+                    "408",
+                    "352",
+                    "92",
+                    "1",
+                    "53",
+                    "320",
+                    "552",
+                    "105",
+                    "237",
+                    "316",
+                    "156",
+                    "226",
+                    "154",
+                    "124",
+                    "82",
+                    "347",
+                    "304",
+                    "532",
+                    "91"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6619139909744263,
+                    0.626775860786438,
+                    0.6267514824867249,
+                    0.6226505041122437,
+                    0.6225816607475281,
+                    0.6091920733451843,
+                    0.6085461378097534,
+                    0.6085372567176819,
+                    0.6050963401794434,
+                    0.6049162149429321,
+                    0.6036408543586731,
+                    0.6026545763015747,
+                    0.6024566888809204,
+                    0.6021409630775452,
+                    0.601341962814331,
+                    0.6003304719924927,
+                    0.5999358892440796,
+                    0.5989344120025635,
+                    0.5980863571166992,
+                    0.5970698595046997,
+                    0.597069263458252,
+                    0.5970603227615356,
+                    0.5968601703643799,
+                    0.5968315601348877,
+                    0.5963435173034668,
+                    0.5960699915885925,
+                    0.5958000421524048,
+                    0.5954627394676208,
+                    0.5951845049858093,
+                    0.5945166349411011
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities for a rejuvenating retreat\n\nDocuments:\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 335\t|\tTEXT: Palm Springs\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 243\t|\tTEXT: Lima\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 552\t|\tTEXT: Yangon\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 316\t|\tTEXT: Nassau\n\nDOCID: 156\t|\tTEXT: Gold Coast\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 347\t|\tTEXT: Phuket Town\n\nDOCID: 304\t|\tTEXT: M\u00e1laga\n\nDOCID: 532\t|\tTEXT: Vit\u00f3ria\n\nDOCID: 91\t|\tTEXT: Canc\u00fan\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"520\", \"1\", \"141\", \"399\", \"335\", \"408\", \"251\", \"366\", \"338\", \"243\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "520",
+                "1",
+                "141",
+                "399",
+                "335",
+                "408",
+                "251",
+                "366",
+                "338",
+                "243"
+            ],
+            "terminate": true
+        }
+    ]
+}

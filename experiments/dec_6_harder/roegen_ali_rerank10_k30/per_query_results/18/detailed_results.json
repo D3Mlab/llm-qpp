@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Best cities to visit for cultural experiences"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "283",
+            "520",
+            "352",
+            "320",
+            "168",
+            "105",
+            "492",
+            "111",
+            "95",
+            "109",
+            "378",
+            "56",
+            "331",
+            "82",
+            "516",
+            "22",
+            "380",
+            "43",
+            "231",
+            "115",
+            "425",
+            "332",
+            "120",
+            "157",
+            "251",
+            "187",
+            "227",
+            "475",
+            "61",
+            "65"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.5912482738494873,
+            0.588646650314331,
+            0.5873486995697021,
+            0.5856471061706543,
+            0.583581805229187,
+            0.5832231044769287,
+            0.5799812078475952,
+            0.5792295336723328,
+            0.5728451013565063,
+            0.5710008144378662,
+            0.5680813193321228,
+            0.5653780698776245,
+            0.5644816756248474,
+            0.5641958713531494,
+            0.5637122392654419,
+            0.5631464123725891,
+            0.5617997050285339,
+            0.5615508556365967,
+            0.5601990222930908,
+            0.5597118735313416,
+            0.559514045715332,
+            0.558522641658783,
+            0.5584230422973633,
+            0.5582864880561829,
+            0.5572119951248169,
+            0.5570544004440308,
+            0.5567373037338257,
+            0.5565530061721802,
+            0.5552266836166382,
+            0.5542962551116943
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities to visit for cultural experiences\n\nDocuments:\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 56\t|\tTEXT: Batumi\n\nDOCID: 331\t|\tTEXT: Osaka\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 380\t|\tTEXT: Rio de Janeiro\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 231\t|\tTEXT: Kyoto\n\nDOCID: 115\t|\tTEXT: Cuzco\n\nDOCID: 425\t|\tTEXT: Seoul\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 227\t|\tTEXT: Krak\u00f3w\n\nDOCID: 475\t|\tTEXT: Tbilisi\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 65\t|\tTEXT: Bilbao\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"320\", \"520\", \"283\", \"231\", \"111\", \"168\", \"331\", \"227\", \"65\", \"425\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "320",
+        "520",
+        "283",
+        "231",
+        "111",
+        "168",
+        "331",
+        "227",
+        "65",
+        "425"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Best cities to visit for cultural experiences"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Best cities to visit for cultural experiences"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "283",
+                    "520",
+                    "352",
+                    "320",
+                    "168",
+                    "105",
+                    "492",
+                    "111",
+                    "95",
+                    "109",
+                    "378",
+                    "56",
+                    "331",
+                    "82",
+                    "516",
+                    "22",
+                    "380",
+                    "43",
+                    "231",
+                    "115",
+                    "425",
+                    "332",
+                    "120",
+                    "157",
+                    "251",
+                    "187",
+                    "227",
+                    "475",
+                    "61",
+                    "65"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5912482738494873,
+                    0.588646650314331,
+                    0.5873486995697021,
+                    0.5856471061706543,
+                    0.583581805229187,
+                    0.5832231044769287,
+                    0.5799812078475952,
+                    0.5792295336723328,
+                    0.5728451013565063,
+                    0.5710008144378662,
+                    0.5680813193321228,
+                    0.5653780698776245,
+                    0.5644816756248474,
+                    0.5641958713531494,
+                    0.5637122392654419,
+                    0.5631464123725891,
+                    0.5617997050285339,
+                    0.5615508556365967,
+                    0.5601990222930908,
+                    0.5597118735313416,
+                    0.559514045715332,
+                    0.558522641658783,
+                    0.5584230422973633,
+                    0.5582864880561829,
+                    0.5572119951248169,
+                    0.5570544004440308,
+                    0.5567373037338257,
+                    0.5565530061721802,
+                    0.5552266836166382,
+                    0.5542962551116943
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Best cities to visit for cultural experiences"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "283",
+                    "520",
+                    "352",
+                    "320",
+                    "168",
+                    "105",
+                    "492",
+                    "111",
+                    "95",
+                    "109",
+                    "378",
+                    "56",
+                    "331",
+                    "82",
+                    "516",
+                    "22",
+                    "380",
+                    "43",
+                    "231",
+                    "115",
+                    "425",
+                    "332",
+                    "120",
+                    "157",
+                    "251",
+                    "187",
+                    "227",
+                    "475",
+                    "61",
+                    "65"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5912482738494873,
+                    0.588646650314331,
+                    0.5873486995697021,
+                    0.5856471061706543,
+                    0.583581805229187,
+                    0.5832231044769287,
+                    0.5799812078475952,
+                    0.5792295336723328,
+                    0.5728451013565063,
+                    0.5710008144378662,
+                    0.5680813193321228,
+                    0.5653780698776245,
+                    0.5644816756248474,
+                    0.5641958713531494,
+                    0.5637122392654419,
+                    0.5631464123725891,
+                    0.5617997050285339,
+                    0.5615508556365967,
+                    0.5601990222930908,
+                    0.5597118735313416,
+                    0.559514045715332,
+                    0.558522641658783,
+                    0.5584230422973633,
+                    0.5582864880561829,
+                    0.5572119951248169,
+                    0.5570544004440308,
+                    0.5567373037338257,
+                    0.5565530061721802,
+                    0.5552266836166382,
+                    0.5542962551116943
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities to visit for cultural experiences\n\nDocuments:\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 56\t|\tTEXT: Batumi\n\nDOCID: 331\t|\tTEXT: Osaka\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 380\t|\tTEXT: Rio de Janeiro\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 231\t|\tTEXT: Kyoto\n\nDOCID: 115\t|\tTEXT: Cuzco\n\nDOCID: 425\t|\tTEXT: Seoul\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 227\t|\tTEXT: Krak\u00f3w\n\nDOCID: 475\t|\tTEXT: Tbilisi\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 65\t|\tTEXT: Bilbao\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"520\", \"283\", \"231\", \"111\", \"168\", \"331\", \"227\", \"65\", \"425\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "520",
+                "283",
+                "231",
+                "111",
+                "168",
+                "331",
+                "227",
+                "65",
+                "425"
+            ]
+        },
+        {
+            "queries": [
+                "Best cities to visit for cultural experiences"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "283",
+                    "520",
+                    "352",
+                    "320",
+                    "168",
+                    "105",
+                    "492",
+                    "111",
+                    "95",
+                    "109",
+                    "378",
+                    "56",
+                    "331",
+                    "82",
+                    "516",
+                    "22",
+                    "380",
+                    "43",
+                    "231",
+                    "115",
+                    "425",
+                    "332",
+                    "120",
+                    "157",
+                    "251",
+                    "187",
+                    "227",
+                    "475",
+                    "61",
+                    "65"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5912482738494873,
+                    0.588646650314331,
+                    0.5873486995697021,
+                    0.5856471061706543,
+                    0.583581805229187,
+                    0.5832231044769287,
+                    0.5799812078475952,
+                    0.5792295336723328,
+                    0.5728451013565063,
+                    0.5710008144378662,
+                    0.5680813193321228,
+                    0.5653780698776245,
+                    0.5644816756248474,
+                    0.5641958713531494,
+                    0.5637122392654419,
+                    0.5631464123725891,
+                    0.5617997050285339,
+                    0.5615508556365967,
+                    0.5601990222930908,
+                    0.5597118735313416,
+                    0.559514045715332,
+                    0.558522641658783,
+                    0.5584230422973633,
+                    0.5582864880561829,
+                    0.5572119951248169,
+                    0.5570544004440308,
+                    0.5567373037338257,
+                    0.5565530061721802,
+                    0.5552266836166382,
+                    0.5542962551116943
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities to visit for cultural experiences\n\nDocuments:\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 56\t|\tTEXT: Batumi\n\nDOCID: 331\t|\tTEXT: Osaka\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 380\t|\tTEXT: Rio de Janeiro\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 231\t|\tTEXT: Kyoto\n\nDOCID: 115\t|\tTEXT: Cuzco\n\nDOCID: 425\t|\tTEXT: Seoul\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 227\t|\tTEXT: Krak\u00f3w\n\nDOCID: 475\t|\tTEXT: Tbilisi\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 65\t|\tTEXT: Bilbao\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"520\", \"283\", \"231\", \"111\", \"168\", \"331\", \"227\", \"65\", \"425\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "520",
+                "283",
+                "231",
+                "111",
+                "168",
+                "331",
+                "227",
+                "65",
+                "425"
+            ],
+            "terminate": true
+        }
+    ]
+}

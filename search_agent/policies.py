@@ -26,8 +26,8 @@ class PipelinePolicy(BasePolicy):
         self.steps = config.get('agent', {}).get('policy_steps', [])
         self.current_step = 0
         self.iteration_count = 0
-        #terminate after max_iterations of full pipeline...
-        self.max_iterations = config.get('agent', {}).get('max_q_reforms', 1)+1
+        #terminate after max_queries iterations of full pipeline...
+        self.max_queries = config.get('agent', {}).get('max_queries')
 
 
     def next_action(self, state):
@@ -40,7 +40,7 @@ class PipelinePolicy(BasePolicy):
             self.iteration_count += 1
             state["iteration"] = self.iteration_count
 
-            if self.iteration_count >= self.max_iterations:
+            if self.iteration_count >= self.max_queries:
                 #this is a backup... we're expecting earlier termination via checks in QPP functions that set state["terminate"] = True to avoid an un-necessary extra reformulation step at the end of the pipeline
                 return None
 

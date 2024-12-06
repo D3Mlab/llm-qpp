@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Best cities for an anniversary celebration"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "320",
+            "105",
+            "187",
+            "109",
+            "179",
+            "392",
+            "43",
+            "251",
+            "328",
+            "352",
+            "377",
+            "400",
+            "319",
+            "51",
+            "120",
+            "204",
+            "95",
+            "168",
+            "492",
+            "378",
+            "237",
+            "520",
+            "284",
+            "96",
+            "399",
+            "119",
+            "310",
+            "141",
+            "283",
+            "15"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6375430822372437,
+            0.6372793912887573,
+            0.6346280574798584,
+            0.6304378509521484,
+            0.6205065250396729,
+            0.6203138828277588,
+            0.6188948750495911,
+            0.6166194677352905,
+            0.6140948534011841,
+            0.6131452918052673,
+            0.6127656102180481,
+            0.6112380623817444,
+            0.6106546521186829,
+            0.6103440523147583,
+            0.6099744439125061,
+            0.6089267730712891,
+            0.6077510714530945,
+            0.6058920621871948,
+            0.603814423084259,
+            0.6029437184333801,
+            0.6023744344711304,
+            0.5985553860664368,
+            0.5979719161987305,
+            0.597927451133728,
+            0.5953257083892822,
+            0.5929334163665771,
+            0.5929055213928223,
+            0.5919389724731445,
+            0.5911222100257874,
+            0.5909276008605957
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for an anniversary celebration\n\nDocuments:\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 377\t|\tTEXT: Rhodes (city)\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 310\t|\tTEXT: Nanjing\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 15\t|\tTEXT: Albany (New York)\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"320\", \"237\", \"400\", \"251\", \"284\", \"399\", \"319\", \"141\", \"520\", \"105\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "320",
+        "237",
+        "400",
+        "251",
+        "284",
+        "399",
+        "319",
+        "141",
+        "520",
+        "105"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Best cities for an anniversary celebration"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Best cities for an anniversary celebration"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "320",
+                    "105",
+                    "187",
+                    "109",
+                    "179",
+                    "392",
+                    "43",
+                    "251",
+                    "328",
+                    "352",
+                    "377",
+                    "400",
+                    "319",
+                    "51",
+                    "120",
+                    "204",
+                    "95",
+                    "168",
+                    "492",
+                    "378",
+                    "237",
+                    "520",
+                    "284",
+                    "96",
+                    "399",
+                    "119",
+                    "310",
+                    "141",
+                    "283",
+                    "15"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6375430822372437,
+                    0.6372793912887573,
+                    0.6346280574798584,
+                    0.6304378509521484,
+                    0.6205065250396729,
+                    0.6203138828277588,
+                    0.6188948750495911,
+                    0.6166194677352905,
+                    0.6140948534011841,
+                    0.6131452918052673,
+                    0.6127656102180481,
+                    0.6112380623817444,
+                    0.6106546521186829,
+                    0.6103440523147583,
+                    0.6099744439125061,
+                    0.6089267730712891,
+                    0.6077510714530945,
+                    0.6058920621871948,
+                    0.603814423084259,
+                    0.6029437184333801,
+                    0.6023744344711304,
+                    0.5985553860664368,
+                    0.5979719161987305,
+                    0.597927451133728,
+                    0.5953257083892822,
+                    0.5929334163665771,
+                    0.5929055213928223,
+                    0.5919389724731445,
+                    0.5911222100257874,
+                    0.5909276008605957
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Best cities for an anniversary celebration"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "320",
+                    "105",
+                    "187",
+                    "109",
+                    "179",
+                    "392",
+                    "43",
+                    "251",
+                    "328",
+                    "352",
+                    "377",
+                    "400",
+                    "319",
+                    "51",
+                    "120",
+                    "204",
+                    "95",
+                    "168",
+                    "492",
+                    "378",
+                    "237",
+                    "520",
+                    "284",
+                    "96",
+                    "399",
+                    "119",
+                    "310",
+                    "141",
+                    "283",
+                    "15"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6375430822372437,
+                    0.6372793912887573,
+                    0.6346280574798584,
+                    0.6304378509521484,
+                    0.6205065250396729,
+                    0.6203138828277588,
+                    0.6188948750495911,
+                    0.6166194677352905,
+                    0.6140948534011841,
+                    0.6131452918052673,
+                    0.6127656102180481,
+                    0.6112380623817444,
+                    0.6106546521186829,
+                    0.6103440523147583,
+                    0.6099744439125061,
+                    0.6089267730712891,
+                    0.6077510714530945,
+                    0.6058920621871948,
+                    0.603814423084259,
+                    0.6029437184333801,
+                    0.6023744344711304,
+                    0.5985553860664368,
+                    0.5979719161987305,
+                    0.597927451133728,
+                    0.5953257083892822,
+                    0.5929334163665771,
+                    0.5929055213928223,
+                    0.5919389724731445,
+                    0.5911222100257874,
+                    0.5909276008605957
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for an anniversary celebration\n\nDocuments:\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 377\t|\tTEXT: Rhodes (city)\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 310\t|\tTEXT: Nanjing\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 15\t|\tTEXT: Albany (New York)\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"237\", \"400\", \"251\", \"284\", \"399\", \"319\", \"141\", \"520\", \"105\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "237",
+                "400",
+                "251",
+                "284",
+                "399",
+                "319",
+                "141",
+                "520",
+                "105"
+            ]
+        },
+        {
+            "queries": [
+                "Best cities for an anniversary celebration"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "320",
+                    "105",
+                    "187",
+                    "109",
+                    "179",
+                    "392",
+                    "43",
+                    "251",
+                    "328",
+                    "352",
+                    "377",
+                    "400",
+                    "319",
+                    "51",
+                    "120",
+                    "204",
+                    "95",
+                    "168",
+                    "492",
+                    "378",
+                    "237",
+                    "520",
+                    "284",
+                    "96",
+                    "399",
+                    "119",
+                    "310",
+                    "141",
+                    "283",
+                    "15"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6375430822372437,
+                    0.6372793912887573,
+                    0.6346280574798584,
+                    0.6304378509521484,
+                    0.6205065250396729,
+                    0.6203138828277588,
+                    0.6188948750495911,
+                    0.6166194677352905,
+                    0.6140948534011841,
+                    0.6131452918052673,
+                    0.6127656102180481,
+                    0.6112380623817444,
+                    0.6106546521186829,
+                    0.6103440523147583,
+                    0.6099744439125061,
+                    0.6089267730712891,
+                    0.6077510714530945,
+                    0.6058920621871948,
+                    0.603814423084259,
+                    0.6029437184333801,
+                    0.6023744344711304,
+                    0.5985553860664368,
+                    0.5979719161987305,
+                    0.597927451133728,
+                    0.5953257083892822,
+                    0.5929334163665771,
+                    0.5929055213928223,
+                    0.5919389724731445,
+                    0.5911222100257874,
+                    0.5909276008605957
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for an anniversary celebration\n\nDocuments:\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 179\t|\tTEXT: Honolulu\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 377\t|\tTEXT: Rhodes (city)\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 310\t|\tTEXT: Nanjing\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 15\t|\tTEXT: Albany (New York)\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"237\", \"400\", \"251\", \"284\", \"399\", \"319\", \"141\", \"520\", \"105\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "237",
+                "400",
+                "251",
+                "284",
+                "399",
+                "319",
+                "141",
+                "520",
+                "105"
+            ],
+            "terminate": true
+        }
+    ]
+}

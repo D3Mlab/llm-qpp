@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Most romantic cities for a honeymoon"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "520",
+            "560",
+            "82",
+            "168",
+            "413",
+            "339",
+            "109",
+            "525",
+            "196",
+            "120",
+            "376",
+            "126",
+            "283",
+            "83",
+            "53",
+            "296",
+            "237",
+            "8",
+            "363",
+            "338",
+            "516",
+            "61",
+            "378",
+            "206",
+            "22",
+            "177",
+            "76",
+            "355",
+            "197",
+            "492"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6249814033508301,
+            0.6064906120300293,
+            0.6046392917633057,
+            0.598081111907959,
+            0.5929296612739563,
+            0.588646411895752,
+            0.5854910612106323,
+            0.5854166150093079,
+            0.5839055776596069,
+            0.5817986726760864,
+            0.5794811844825745,
+            0.5779619216918945,
+            0.5777104496955872,
+            0.5775905847549438,
+            0.576635479927063,
+            0.5764808654785156,
+            0.5757624506950378,
+            0.5756549835205078,
+            0.5744816064834595,
+            0.573824405670166,
+            0.573064923286438,
+            0.5724910497665405,
+            0.5723844766616821,
+            0.5701842308044434,
+            0.5700980424880981,
+            0.5699851512908936,
+            0.5694916844367981,
+            0.5686840415000916,
+            0.5680444836616516,
+            0.5676670670509338
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Most romantic cities for a honeymoon\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 525\t|\tTEXT: Vienna\n\nDOCID: 196\t|\tTEXT: Jaipur\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 126\t|\tTEXT: Dubrovnik\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 363\t|\tTEXT: Puerto Vallarta\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 206\t|\tTEXT: Kathmandu\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 177\t|\tTEXT: Ho Chi Minh City\n\nDOCID: 76\t|\tTEXT: Bremen\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 492\t|\tTEXT: Toronto\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"339\", \"520\", \"525\", \"126\", \"83\", \"22\", \"355\", \"363\", \"82\", \"8\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "339",
+        "520",
+        "525",
+        "126",
+        "83",
+        "22",
+        "355",
+        "363",
+        "82",
+        "8"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Most romantic cities for a honeymoon"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Most romantic cities for a honeymoon"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "560",
+                    "82",
+                    "168",
+                    "413",
+                    "339",
+                    "109",
+                    "525",
+                    "196",
+                    "120",
+                    "376",
+                    "126",
+                    "283",
+                    "83",
+                    "53",
+                    "296",
+                    "237",
+                    "8",
+                    "363",
+                    "338",
+                    "516",
+                    "61",
+                    "378",
+                    "206",
+                    "22",
+                    "177",
+                    "76",
+                    "355",
+                    "197",
+                    "492"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6249814033508301,
+                    0.6064906120300293,
+                    0.6046392917633057,
+                    0.598081111907959,
+                    0.5929296612739563,
+                    0.588646411895752,
+                    0.5854910612106323,
+                    0.5854166150093079,
+                    0.5839055776596069,
+                    0.5817986726760864,
+                    0.5794811844825745,
+                    0.5779619216918945,
+                    0.5777104496955872,
+                    0.5775905847549438,
+                    0.576635479927063,
+                    0.5764808654785156,
+                    0.5757624506950378,
+                    0.5756549835205078,
+                    0.5744816064834595,
+                    0.573824405670166,
+                    0.573064923286438,
+                    0.5724910497665405,
+                    0.5723844766616821,
+                    0.5701842308044434,
+                    0.5700980424880981,
+                    0.5699851512908936,
+                    0.5694916844367981,
+                    0.5686840415000916,
+                    0.5680444836616516,
+                    0.5676670670509338
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Most romantic cities for a honeymoon"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "560",
+                    "82",
+                    "168",
+                    "413",
+                    "339",
+                    "109",
+                    "525",
+                    "196",
+                    "120",
+                    "376",
+                    "126",
+                    "283",
+                    "83",
+                    "53",
+                    "296",
+                    "237",
+                    "8",
+                    "363",
+                    "338",
+                    "516",
+                    "61",
+                    "378",
+                    "206",
+                    "22",
+                    "177",
+                    "76",
+                    "355",
+                    "197",
+                    "492"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6249814033508301,
+                    0.6064906120300293,
+                    0.6046392917633057,
+                    0.598081111907959,
+                    0.5929296612739563,
+                    0.588646411895752,
+                    0.5854910612106323,
+                    0.5854166150093079,
+                    0.5839055776596069,
+                    0.5817986726760864,
+                    0.5794811844825745,
+                    0.5779619216918945,
+                    0.5777104496955872,
+                    0.5775905847549438,
+                    0.576635479927063,
+                    0.5764808654785156,
+                    0.5757624506950378,
+                    0.5756549835205078,
+                    0.5744816064834595,
+                    0.573824405670166,
+                    0.573064923286438,
+                    0.5724910497665405,
+                    0.5723844766616821,
+                    0.5701842308044434,
+                    0.5700980424880981,
+                    0.5699851512908936,
+                    0.5694916844367981,
+                    0.5686840415000916,
+                    0.5680444836616516,
+                    0.5676670670509338
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Most romantic cities for a honeymoon\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 525\t|\tTEXT: Vienna\n\nDOCID: 196\t|\tTEXT: Jaipur\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 126\t|\tTEXT: Dubrovnik\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 363\t|\tTEXT: Puerto Vallarta\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 206\t|\tTEXT: Kathmandu\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 177\t|\tTEXT: Ho Chi Minh City\n\nDOCID: 76\t|\tTEXT: Bremen\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 492\t|\tTEXT: Toronto\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"339\", \"520\", \"525\", \"126\", \"83\", \"22\", \"355\", \"363\", \"82\", \"8\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "339",
+                "520",
+                "525",
+                "126",
+                "83",
+                "22",
+                "355",
+                "363",
+                "82",
+                "8"
+            ]
+        },
+        {
+            "queries": [
+                "Most romantic cities for a honeymoon"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "560",
+                    "82",
+                    "168",
+                    "413",
+                    "339",
+                    "109",
+                    "525",
+                    "196",
+                    "120",
+                    "376",
+                    "126",
+                    "283",
+                    "83",
+                    "53",
+                    "296",
+                    "237",
+                    "8",
+                    "363",
+                    "338",
+                    "516",
+                    "61",
+                    "378",
+                    "206",
+                    "22",
+                    "177",
+                    "76",
+                    "355",
+                    "197",
+                    "492"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6249814033508301,
+                    0.6064906120300293,
+                    0.6046392917633057,
+                    0.598081111907959,
+                    0.5929296612739563,
+                    0.588646411895752,
+                    0.5854910612106323,
+                    0.5854166150093079,
+                    0.5839055776596069,
+                    0.5817986726760864,
+                    0.5794811844825745,
+                    0.5779619216918945,
+                    0.5777104496955872,
+                    0.5775905847549438,
+                    0.576635479927063,
+                    0.5764808654785156,
+                    0.5757624506950378,
+                    0.5756549835205078,
+                    0.5744816064834595,
+                    0.573824405670166,
+                    0.573064923286438,
+                    0.5724910497665405,
+                    0.5723844766616821,
+                    0.5701842308044434,
+                    0.5700980424880981,
+                    0.5699851512908936,
+                    0.5694916844367981,
+                    0.5686840415000916,
+                    0.5680444836616516,
+                    0.5676670670509338
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Most romantic cities for a honeymoon\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 525\t|\tTEXT: Vienna\n\nDOCID: 196\t|\tTEXT: Jaipur\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 126\t|\tTEXT: Dubrovnik\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 363\t|\tTEXT: Puerto Vallarta\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 206\t|\tTEXT: Kathmandu\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 177\t|\tTEXT: Ho Chi Minh City\n\nDOCID: 76\t|\tTEXT: Bremen\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 492\t|\tTEXT: Toronto\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"339\", \"520\", \"525\", \"126\", \"83\", \"22\", \"355\", \"363\", \"82\", \"8\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "339",
+                "520",
+                "525",
+                "126",
+                "83",
+                "22",
+                "355",
+                "363",
+                "82",
+                "8"
+            ],
+            "terminate": true
+        }
+    ]
+}

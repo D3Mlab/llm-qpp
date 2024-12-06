@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Cities with the most interesting and unique content for vloggers"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "320",
+            "251",
+            "516",
+            "265",
+            "141",
+            "168",
+            "378",
+            "492",
+            "157",
+            "332",
+            "352",
+            "111",
+            "81",
+            "22",
+            "560",
+            "43",
+            "201",
+            "520",
+            "376",
+            "450",
+            "478",
+            "55",
+            "96",
+            "52",
+            "299",
+            "94",
+            "400",
+            "120",
+            "339",
+            "92"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6334496140480042,
+            0.6319110989570618,
+            0.6223118901252747,
+            0.6181662082672119,
+            0.6159447431564331,
+            0.6139557957649231,
+            0.6131327748298645,
+            0.610994815826416,
+            0.6087130308151245,
+            0.6085402965545654,
+            0.6074556112289429,
+            0.6065585613250732,
+            0.6061369776725769,
+            0.6060357093811035,
+            0.6010360717773438,
+            0.5978641510009766,
+            0.5976451635360718,
+            0.5962725281715393,
+            0.5960351228713989,
+            0.5948069095611572,
+            0.592707633972168,
+            0.5911509990692139,
+            0.5897427797317505,
+            0.5895788669586182,
+            0.5884602069854736,
+            0.5881242752075195,
+            0.5865703225135803,
+            0.5863770842552185,
+            0.5856962203979492,
+            0.5843251943588257
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities with the most interesting and unique content for vloggers\n\nDocuments:\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 478\t|\tTEXT: Tel Aviv\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 299\t|\tTEXT: Moscow\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 92\t|\tTEXT: Cape Town\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"320\", \"251\", \"400\", \"22\", \"339\", \"55\", \"520\", \"92\", \"94\", \"478\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "320",
+        "251",
+        "400",
+        "22",
+        "339",
+        "55",
+        "520",
+        "92",
+        "94",
+        "478"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Cities with the most interesting and unique content for vloggers"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Cities with the most interesting and unique content for vloggers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "320",
+                    "251",
+                    "516",
+                    "265",
+                    "141",
+                    "168",
+                    "378",
+                    "492",
+                    "157",
+                    "332",
+                    "352",
+                    "111",
+                    "81",
+                    "22",
+                    "560",
+                    "43",
+                    "201",
+                    "520",
+                    "376",
+                    "450",
+                    "478",
+                    "55",
+                    "96",
+                    "52",
+                    "299",
+                    "94",
+                    "400",
+                    "120",
+                    "339",
+                    "92"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6334496140480042,
+                    0.6319110989570618,
+                    0.6223118901252747,
+                    0.6181662082672119,
+                    0.6159447431564331,
+                    0.6139557957649231,
+                    0.6131327748298645,
+                    0.610994815826416,
+                    0.6087130308151245,
+                    0.6085402965545654,
+                    0.6074556112289429,
+                    0.6065585613250732,
+                    0.6061369776725769,
+                    0.6060357093811035,
+                    0.6010360717773438,
+                    0.5978641510009766,
+                    0.5976451635360718,
+                    0.5962725281715393,
+                    0.5960351228713989,
+                    0.5948069095611572,
+                    0.592707633972168,
+                    0.5911509990692139,
+                    0.5897427797317505,
+                    0.5895788669586182,
+                    0.5884602069854736,
+                    0.5881242752075195,
+                    0.5865703225135803,
+                    0.5863770842552185,
+                    0.5856962203979492,
+                    0.5843251943588257
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Cities with the most interesting and unique content for vloggers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "320",
+                    "251",
+                    "516",
+                    "265",
+                    "141",
+                    "168",
+                    "378",
+                    "492",
+                    "157",
+                    "332",
+                    "352",
+                    "111",
+                    "81",
+                    "22",
+                    "560",
+                    "43",
+                    "201",
+                    "520",
+                    "376",
+                    "450",
+                    "478",
+                    "55",
+                    "96",
+                    "52",
+                    "299",
+                    "94",
+                    "400",
+                    "120",
+                    "339",
+                    "92"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6334496140480042,
+                    0.6319110989570618,
+                    0.6223118901252747,
+                    0.6181662082672119,
+                    0.6159447431564331,
+                    0.6139557957649231,
+                    0.6131327748298645,
+                    0.610994815826416,
+                    0.6087130308151245,
+                    0.6085402965545654,
+                    0.6074556112289429,
+                    0.6065585613250732,
+                    0.6061369776725769,
+                    0.6060357093811035,
+                    0.6010360717773438,
+                    0.5978641510009766,
+                    0.5976451635360718,
+                    0.5962725281715393,
+                    0.5960351228713989,
+                    0.5948069095611572,
+                    0.592707633972168,
+                    0.5911509990692139,
+                    0.5897427797317505,
+                    0.5895788669586182,
+                    0.5884602069854736,
+                    0.5881242752075195,
+                    0.5865703225135803,
+                    0.5863770842552185,
+                    0.5856962203979492,
+                    0.5843251943588257
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities with the most interesting and unique content for vloggers\n\nDocuments:\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 478\t|\tTEXT: Tel Aviv\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 299\t|\tTEXT: Moscow\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 92\t|\tTEXT: Cape Town\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"251\", \"400\", \"22\", \"339\", \"55\", \"520\", \"92\", \"94\", \"478\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "251",
+                "400",
+                "22",
+                "339",
+                "55",
+                "520",
+                "92",
+                "94",
+                "478"
+            ]
+        },
+        {
+            "queries": [
+                "Cities with the most interesting and unique content for vloggers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "320",
+                    "251",
+                    "516",
+                    "265",
+                    "141",
+                    "168",
+                    "378",
+                    "492",
+                    "157",
+                    "332",
+                    "352",
+                    "111",
+                    "81",
+                    "22",
+                    "560",
+                    "43",
+                    "201",
+                    "520",
+                    "376",
+                    "450",
+                    "478",
+                    "55",
+                    "96",
+                    "52",
+                    "299",
+                    "94",
+                    "400",
+                    "120",
+                    "339",
+                    "92"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6334496140480042,
+                    0.6319110989570618,
+                    0.6223118901252747,
+                    0.6181662082672119,
+                    0.6159447431564331,
+                    0.6139557957649231,
+                    0.6131327748298645,
+                    0.610994815826416,
+                    0.6087130308151245,
+                    0.6085402965545654,
+                    0.6074556112289429,
+                    0.6065585613250732,
+                    0.6061369776725769,
+                    0.6060357093811035,
+                    0.6010360717773438,
+                    0.5978641510009766,
+                    0.5976451635360718,
+                    0.5962725281715393,
+                    0.5960351228713989,
+                    0.5948069095611572,
+                    0.592707633972168,
+                    0.5911509990692139,
+                    0.5897427797317505,
+                    0.5895788669586182,
+                    0.5884602069854736,
+                    0.5881242752075195,
+                    0.5865703225135803,
+                    0.5863770842552185,
+                    0.5856962203979492,
+                    0.5843251943588257
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities with the most interesting and unique content for vloggers\n\nDocuments:\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 157\t|\tTEXT: Gothenburg\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 478\t|\tTEXT: Tel Aviv\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 299\t|\tTEXT: Moscow\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 92\t|\tTEXT: Cape Town\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"320\", \"251\", \"400\", \"22\", \"339\", \"55\", \"520\", \"92\", \"94\", \"478\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "320",
+                "251",
+                "400",
+                "22",
+                "339",
+                "55",
+                "520",
+                "92",
+                "94",
+                "478"
+            ],
+            "terminate": true
+        }
+    ]
+}

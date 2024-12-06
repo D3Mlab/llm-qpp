@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Youth Friendly cities for travelers"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "168",
+            "22",
+            "283",
+            "338",
+            "560",
+            "141",
+            "320",
+            "96",
+            "352",
+            "120",
+            "111",
+            "94",
+            "332",
+            "492",
+            "520",
+            "399",
+            "355",
+            "296",
+            "81",
+            "82",
+            "61",
+            "516",
+            "70",
+            "83",
+            "43",
+            "105",
+            "201",
+            "328",
+            "265",
+            "378"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6152295470237732,
+            0.6124798059463501,
+            0.6083301305770874,
+            0.6079128384590149,
+            0.6078301072120667,
+            0.6061621904373169,
+            0.5987767577171326,
+            0.5978351831436157,
+            0.5974676609039307,
+            0.5944298505783081,
+            0.5935651063919067,
+            0.5934282541275024,
+            0.5913670063018799,
+            0.5909177660942078,
+            0.5896750092506409,
+            0.5882973670959473,
+            0.587547779083252,
+            0.5868079662322998,
+            0.586600661277771,
+            0.5862504243850708,
+            0.5854616165161133,
+            0.5848289728164673,
+            0.5836656093597412,
+            0.5829430818557739,
+            0.5826162099838257,
+            0.5823907852172852,
+            0.5823805332183838,
+            0.5822142362594604,
+            0.5808955430984497,
+            0.579957902431488
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Youth Friendly cities for travelers\n\nDocuments:\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 70\t|\tTEXT: Bogot\u00e1\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 378\t|\tTEXT: Riga\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"168\", \"22\", \"141\", \"320\", \"96\", \"352\", \"120\", \"111\", \"94\", \"492\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "168",
+        "22",
+        "141",
+        "320",
+        "96",
+        "352",
+        "120",
+        "111",
+        "94",
+        "492"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Youth Friendly cities for travelers"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Youth Friendly cities for travelers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "168",
+                    "22",
+                    "283",
+                    "338",
+                    "560",
+                    "141",
+                    "320",
+                    "96",
+                    "352",
+                    "120",
+                    "111",
+                    "94",
+                    "332",
+                    "492",
+                    "520",
+                    "399",
+                    "355",
+                    "296",
+                    "81",
+                    "82",
+                    "61",
+                    "516",
+                    "70",
+                    "83",
+                    "43",
+                    "105",
+                    "201",
+                    "328",
+                    "265",
+                    "378"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6152295470237732,
+                    0.6124798059463501,
+                    0.6083301305770874,
+                    0.6079128384590149,
+                    0.6078301072120667,
+                    0.6061621904373169,
+                    0.5987767577171326,
+                    0.5978351831436157,
+                    0.5974676609039307,
+                    0.5944298505783081,
+                    0.5935651063919067,
+                    0.5934282541275024,
+                    0.5913670063018799,
+                    0.5909177660942078,
+                    0.5896750092506409,
+                    0.5882973670959473,
+                    0.587547779083252,
+                    0.5868079662322998,
+                    0.586600661277771,
+                    0.5862504243850708,
+                    0.5854616165161133,
+                    0.5848289728164673,
+                    0.5836656093597412,
+                    0.5829430818557739,
+                    0.5826162099838257,
+                    0.5823907852172852,
+                    0.5823805332183838,
+                    0.5822142362594604,
+                    0.5808955430984497,
+                    0.579957902431488
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Youth Friendly cities for travelers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "168",
+                    "22",
+                    "283",
+                    "338",
+                    "560",
+                    "141",
+                    "320",
+                    "96",
+                    "352",
+                    "120",
+                    "111",
+                    "94",
+                    "332",
+                    "492",
+                    "520",
+                    "399",
+                    "355",
+                    "296",
+                    "81",
+                    "82",
+                    "61",
+                    "516",
+                    "70",
+                    "83",
+                    "43",
+                    "105",
+                    "201",
+                    "328",
+                    "265",
+                    "378"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6152295470237732,
+                    0.6124798059463501,
+                    0.6083301305770874,
+                    0.6079128384590149,
+                    0.6078301072120667,
+                    0.6061621904373169,
+                    0.5987767577171326,
+                    0.5978351831436157,
+                    0.5974676609039307,
+                    0.5944298505783081,
+                    0.5935651063919067,
+                    0.5934282541275024,
+                    0.5913670063018799,
+                    0.5909177660942078,
+                    0.5896750092506409,
+                    0.5882973670959473,
+                    0.587547779083252,
+                    0.5868079662322998,
+                    0.586600661277771,
+                    0.5862504243850708,
+                    0.5854616165161133,
+                    0.5848289728164673,
+                    0.5836656093597412,
+                    0.5829430818557739,
+                    0.5826162099838257,
+                    0.5823907852172852,
+                    0.5823805332183838,
+                    0.5822142362594604,
+                    0.5808955430984497,
+                    0.579957902431488
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Youth Friendly cities for travelers\n\nDocuments:\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 70\t|\tTEXT: Bogot\u00e1\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 378\t|\tTEXT: Riga\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"168\", \"22\", \"141\", \"320\", \"96\", \"352\", \"120\", \"111\", \"94\", \"492\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "168",
+                "22",
+                "141",
+                "320",
+                "96",
+                "352",
+                "120",
+                "111",
+                "94",
+                "492"
+            ]
+        },
+        {
+            "queries": [
+                "Youth Friendly cities for travelers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "168",
+                    "22",
+                    "283",
+                    "338",
+                    "560",
+                    "141",
+                    "320",
+                    "96",
+                    "352",
+                    "120",
+                    "111",
+                    "94",
+                    "332",
+                    "492",
+                    "520",
+                    "399",
+                    "355",
+                    "296",
+                    "81",
+                    "82",
+                    "61",
+                    "516",
+                    "70",
+                    "83",
+                    "43",
+                    "105",
+                    "201",
+                    "328",
+                    "265",
+                    "378"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6152295470237732,
+                    0.6124798059463501,
+                    0.6083301305770874,
+                    0.6079128384590149,
+                    0.6078301072120667,
+                    0.6061621904373169,
+                    0.5987767577171326,
+                    0.5978351831436157,
+                    0.5974676609039307,
+                    0.5944298505783081,
+                    0.5935651063919067,
+                    0.5934282541275024,
+                    0.5913670063018799,
+                    0.5909177660942078,
+                    0.5896750092506409,
+                    0.5882973670959473,
+                    0.587547779083252,
+                    0.5868079662322998,
+                    0.586600661277771,
+                    0.5862504243850708,
+                    0.5854616165161133,
+                    0.5848289728164673,
+                    0.5836656093597412,
+                    0.5829430818557739,
+                    0.5826162099838257,
+                    0.5823907852172852,
+                    0.5823805332183838,
+                    0.5822142362594604,
+                    0.5808955430984497,
+                    0.579957902431488
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Youth Friendly cities for travelers\n\nDocuments:\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 96\t|\tTEXT: Cebu City\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 70\t|\tTEXT: Bogot\u00e1\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 378\t|\tTEXT: Riga\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"168\", \"22\", \"141\", \"320\", \"96\", \"352\", \"120\", \"111\", \"94\", \"492\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "168",
+                "22",
+                "141",
+                "320",
+                "96",
+                "352",
+                "120",
+                "111",
+                "94",
+                "492"
+            ],
+            "terminate": true
+        }
+    ]
+}

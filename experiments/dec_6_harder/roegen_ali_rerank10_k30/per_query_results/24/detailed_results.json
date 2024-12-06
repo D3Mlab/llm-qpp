@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Cities known for entertainment"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "251",
+            "237",
+            "43",
+            "320",
+            "141",
+            "105",
+            "328",
+            "120",
+            "492",
+            "109",
+            "352",
+            "119",
+            "187",
+            "121",
+            "284",
+            "330",
+            "400",
+            "51",
+            "349",
+            "168",
+            "16",
+            "201",
+            "399",
+            "516",
+            "457",
+            "283",
+            "100",
+            "319",
+            "204",
+            "408"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7716596126556396,
+            0.7289742231369019,
+            0.7283980250358582,
+            0.7277339100837708,
+            0.7176194190979004,
+            0.7151326537132263,
+            0.7096602320671082,
+            0.708702027797699,
+            0.7065120935440063,
+            0.7059557437896729,
+            0.7043516039848328,
+            0.7032895684242249,
+            0.7020044326782227,
+            0.7005641460418701,
+            0.6998001337051392,
+            0.6955779194831848,
+            0.6933314800262451,
+            0.6916030645370483,
+            0.6859713792800903,
+            0.6849811673164368,
+            0.6819477081298828,
+            0.6808382272720337,
+            0.6806374788284302,
+            0.6802371740341187,
+            0.6744540333747864,
+            0.6729062795639038,
+            0.6706111431121826,
+            0.6693472862243652,
+            0.6692735552787781,
+            0.6687173843383789
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities known for entertainment\n\nDocuments:\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 121\t|\tTEXT: Detroit\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 457\t|\tTEXT: Sydney\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 100\t|\tTEXT: Charlotte\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"237\", \"320\", \"251\", \"400\", \"330\", \"105\", \"119\", \"284\", \"141\", \"319\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "237",
+        "320",
+        "251",
+        "400",
+        "330",
+        "105",
+        "119",
+        "284",
+        "141",
+        "319"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Cities known for entertainment"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Cities known for entertainment"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "251",
+                    "237",
+                    "43",
+                    "320",
+                    "141",
+                    "105",
+                    "328",
+                    "120",
+                    "492",
+                    "109",
+                    "352",
+                    "119",
+                    "187",
+                    "121",
+                    "284",
+                    "330",
+                    "400",
+                    "51",
+                    "349",
+                    "168",
+                    "16",
+                    "201",
+                    "399",
+                    "516",
+                    "457",
+                    "283",
+                    "100",
+                    "319",
+                    "204",
+                    "408"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7716596126556396,
+                    0.7289742231369019,
+                    0.7283980250358582,
+                    0.7277339100837708,
+                    0.7176194190979004,
+                    0.7151326537132263,
+                    0.7096602320671082,
+                    0.708702027797699,
+                    0.7065120935440063,
+                    0.7059557437896729,
+                    0.7043516039848328,
+                    0.7032895684242249,
+                    0.7020044326782227,
+                    0.7005641460418701,
+                    0.6998001337051392,
+                    0.6955779194831848,
+                    0.6933314800262451,
+                    0.6916030645370483,
+                    0.6859713792800903,
+                    0.6849811673164368,
+                    0.6819477081298828,
+                    0.6808382272720337,
+                    0.6806374788284302,
+                    0.6802371740341187,
+                    0.6744540333747864,
+                    0.6729062795639038,
+                    0.6706111431121826,
+                    0.6693472862243652,
+                    0.6692735552787781,
+                    0.6687173843383789
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Cities known for entertainment"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "251",
+                    "237",
+                    "43",
+                    "320",
+                    "141",
+                    "105",
+                    "328",
+                    "120",
+                    "492",
+                    "109",
+                    "352",
+                    "119",
+                    "187",
+                    "121",
+                    "284",
+                    "330",
+                    "400",
+                    "51",
+                    "349",
+                    "168",
+                    "16",
+                    "201",
+                    "399",
+                    "516",
+                    "457",
+                    "283",
+                    "100",
+                    "319",
+                    "204",
+                    "408"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7716596126556396,
+                    0.7289742231369019,
+                    0.7283980250358582,
+                    0.7277339100837708,
+                    0.7176194190979004,
+                    0.7151326537132263,
+                    0.7096602320671082,
+                    0.708702027797699,
+                    0.7065120935440063,
+                    0.7059557437896729,
+                    0.7043516039848328,
+                    0.7032895684242249,
+                    0.7020044326782227,
+                    0.7005641460418701,
+                    0.6998001337051392,
+                    0.6955779194831848,
+                    0.6933314800262451,
+                    0.6916030645370483,
+                    0.6859713792800903,
+                    0.6849811673164368,
+                    0.6819477081298828,
+                    0.6808382272720337,
+                    0.6806374788284302,
+                    0.6802371740341187,
+                    0.6744540333747864,
+                    0.6729062795639038,
+                    0.6706111431121826,
+                    0.6693472862243652,
+                    0.6692735552787781,
+                    0.6687173843383789
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities known for entertainment\n\nDocuments:\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 121\t|\tTEXT: Detroit\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 457\t|\tTEXT: Sydney\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 100\t|\tTEXT: Charlotte\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"237\", \"320\", \"251\", \"400\", \"330\", \"105\", \"119\", \"284\", \"141\", \"319\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "237",
+                "320",
+                "251",
+                "400",
+                "330",
+                "105",
+                "119",
+                "284",
+                "141",
+                "319"
+            ]
+        },
+        {
+            "queries": [
+                "Cities known for entertainment"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "251",
+                    "237",
+                    "43",
+                    "320",
+                    "141",
+                    "105",
+                    "328",
+                    "120",
+                    "492",
+                    "109",
+                    "352",
+                    "119",
+                    "187",
+                    "121",
+                    "284",
+                    "330",
+                    "400",
+                    "51",
+                    "349",
+                    "168",
+                    "16",
+                    "201",
+                    "399",
+                    "516",
+                    "457",
+                    "283",
+                    "100",
+                    "319",
+                    "204",
+                    "408"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7716596126556396,
+                    0.7289742231369019,
+                    0.7283980250358582,
+                    0.7277339100837708,
+                    0.7176194190979004,
+                    0.7151326537132263,
+                    0.7096602320671082,
+                    0.708702027797699,
+                    0.7065120935440063,
+                    0.7059557437896729,
+                    0.7043516039848328,
+                    0.7032895684242249,
+                    0.7020044326782227,
+                    0.7005641460418701,
+                    0.6998001337051392,
+                    0.6955779194831848,
+                    0.6933314800262451,
+                    0.6916030645370483,
+                    0.6859713792800903,
+                    0.6849811673164368,
+                    0.6819477081298828,
+                    0.6808382272720337,
+                    0.6806374788284302,
+                    0.6802371740341187,
+                    0.6744540333747864,
+                    0.6729062795639038,
+                    0.6706111431121826,
+                    0.6693472862243652,
+                    0.6692735552787781,
+                    0.6687173843383789
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities known for entertainment\n\nDocuments:\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 121\t|\tTEXT: Detroit\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 51\t|\tTEXT: Baltimore\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 457\t|\tTEXT: Sydney\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 100\t|\tTEXT: Charlotte\n\nDOCID: 319\t|\tTEXT: New Orleans\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"237\", \"320\", \"251\", \"400\", \"330\", \"105\", \"119\", \"284\", \"141\", \"319\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "237",
+                "320",
+                "251",
+                "400",
+                "330",
+                "105",
+                "119",
+                "284",
+                "141",
+                "319"
+            ],
+            "terminate": true
+        }
+    ]
+}

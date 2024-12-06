@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Best cities for winter vacations"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "71",
+            "376",
+            "23",
+            "449",
+            "34",
+            "8",
+            "332",
+            "111",
+            "120",
+            "505",
+            "174",
+            "320",
+            "237",
+            "299",
+            "408",
+            "95",
+            "520",
+            "168",
+            "352",
+            "378",
+            "560",
+            "516",
+            "500",
+            "43",
+            "105",
+            "115",
+            "399",
+            "450",
+            "16",
+            "172"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6013196706771851,
+            0.5963929295539856,
+            0.5935215950012207,
+            0.5893293619155884,
+            0.5887918472290039,
+            0.5866694450378418,
+            0.5848469138145447,
+            0.5841218829154968,
+            0.5803178548812866,
+            0.5801373720169067,
+            0.5796765089035034,
+            0.5697491765022278,
+            0.569682240486145,
+            0.569331169128418,
+            0.5687999129295349,
+            0.5685045719146729,
+            0.5679072141647339,
+            0.5672228336334229,
+            0.566588282585144,
+            0.5661191344261169,
+            0.5660433769226074,
+            0.562142014503479,
+            0.5615267157554626,
+            0.5615193843841553,
+            0.5612886548042297,
+            0.560404896736145,
+            0.5598396062850952,
+            0.5585063695907593,
+            0.5580161213874817,
+            0.5577831864356995
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for winter vacations\n\nDocuments:\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 23\t|\tTEXT: Anchorage\n\nDOCID: 449\t|\tTEXT: Stavanger\n\nDOCID: 34\t|\tTEXT: Asheville\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 505\t|\tTEXT: Turin\n\nDOCID: 174\t|\tTEXT: Helsinki\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 299\t|\tTEXT: Moscow\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 500\t|\tTEXT: Trondheim\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 115\t|\tTEXT: Cuzco\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 172\t|\tTEXT: Harbin\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"172\", \"332\", \"111\", \"500\", \"174\", \"449\", \"376\", \"505\", \"120\", \"23\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "172",
+        "332",
+        "111",
+        "500",
+        "174",
+        "449",
+        "376",
+        "505",
+        "120",
+        "23"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Best cities for winter vacations"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Best cities for winter vacations"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "71",
+                    "376",
+                    "23",
+                    "449",
+                    "34",
+                    "8",
+                    "332",
+                    "111",
+                    "120",
+                    "505",
+                    "174",
+                    "320",
+                    "237",
+                    "299",
+                    "408",
+                    "95",
+                    "520",
+                    "168",
+                    "352",
+                    "378",
+                    "560",
+                    "516",
+                    "500",
+                    "43",
+                    "105",
+                    "115",
+                    "399",
+                    "450",
+                    "16",
+                    "172"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6013196706771851,
+                    0.5963929295539856,
+                    0.5935215950012207,
+                    0.5893293619155884,
+                    0.5887918472290039,
+                    0.5866694450378418,
+                    0.5848469138145447,
+                    0.5841218829154968,
+                    0.5803178548812866,
+                    0.5801373720169067,
+                    0.5796765089035034,
+                    0.5697491765022278,
+                    0.569682240486145,
+                    0.569331169128418,
+                    0.5687999129295349,
+                    0.5685045719146729,
+                    0.5679072141647339,
+                    0.5672228336334229,
+                    0.566588282585144,
+                    0.5661191344261169,
+                    0.5660433769226074,
+                    0.562142014503479,
+                    0.5615267157554626,
+                    0.5615193843841553,
+                    0.5612886548042297,
+                    0.560404896736145,
+                    0.5598396062850952,
+                    0.5585063695907593,
+                    0.5580161213874817,
+                    0.5577831864356995
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Best cities for winter vacations"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "71",
+                    "376",
+                    "23",
+                    "449",
+                    "34",
+                    "8",
+                    "332",
+                    "111",
+                    "120",
+                    "505",
+                    "174",
+                    "320",
+                    "237",
+                    "299",
+                    "408",
+                    "95",
+                    "520",
+                    "168",
+                    "352",
+                    "378",
+                    "560",
+                    "516",
+                    "500",
+                    "43",
+                    "105",
+                    "115",
+                    "399",
+                    "450",
+                    "16",
+                    "172"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6013196706771851,
+                    0.5963929295539856,
+                    0.5935215950012207,
+                    0.5893293619155884,
+                    0.5887918472290039,
+                    0.5866694450378418,
+                    0.5848469138145447,
+                    0.5841218829154968,
+                    0.5803178548812866,
+                    0.5801373720169067,
+                    0.5796765089035034,
+                    0.5697491765022278,
+                    0.569682240486145,
+                    0.569331169128418,
+                    0.5687999129295349,
+                    0.5685045719146729,
+                    0.5679072141647339,
+                    0.5672228336334229,
+                    0.566588282585144,
+                    0.5661191344261169,
+                    0.5660433769226074,
+                    0.562142014503479,
+                    0.5615267157554626,
+                    0.5615193843841553,
+                    0.5612886548042297,
+                    0.560404896736145,
+                    0.5598396062850952,
+                    0.5585063695907593,
+                    0.5580161213874817,
+                    0.5577831864356995
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for winter vacations\n\nDocuments:\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 23\t|\tTEXT: Anchorage\n\nDOCID: 449\t|\tTEXT: Stavanger\n\nDOCID: 34\t|\tTEXT: Asheville\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 505\t|\tTEXT: Turin\n\nDOCID: 174\t|\tTEXT: Helsinki\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 299\t|\tTEXT: Moscow\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 500\t|\tTEXT: Trondheim\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 115\t|\tTEXT: Cuzco\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 172\t|\tTEXT: Harbin\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"172\", \"332\", \"111\", \"500\", \"174\", \"449\", \"376\", \"505\", \"120\", \"23\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "172",
+                "332",
+                "111",
+                "500",
+                "174",
+                "449",
+                "376",
+                "505",
+                "120",
+                "23"
+            ]
+        },
+        {
+            "queries": [
+                "Best cities for winter vacations"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "71",
+                    "376",
+                    "23",
+                    "449",
+                    "34",
+                    "8",
+                    "332",
+                    "111",
+                    "120",
+                    "505",
+                    "174",
+                    "320",
+                    "237",
+                    "299",
+                    "408",
+                    "95",
+                    "520",
+                    "168",
+                    "352",
+                    "378",
+                    "560",
+                    "516",
+                    "500",
+                    "43",
+                    "105",
+                    "115",
+                    "399",
+                    "450",
+                    "16",
+                    "172"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6013196706771851,
+                    0.5963929295539856,
+                    0.5935215950012207,
+                    0.5893293619155884,
+                    0.5887918472290039,
+                    0.5866694450378418,
+                    0.5848469138145447,
+                    0.5841218829154968,
+                    0.5803178548812866,
+                    0.5801373720169067,
+                    0.5796765089035034,
+                    0.5697491765022278,
+                    0.569682240486145,
+                    0.569331169128418,
+                    0.5687999129295349,
+                    0.5685045719146729,
+                    0.5679072141647339,
+                    0.5672228336334229,
+                    0.566588282585144,
+                    0.5661191344261169,
+                    0.5660433769226074,
+                    0.562142014503479,
+                    0.5615267157554626,
+                    0.5615193843841553,
+                    0.5612886548042297,
+                    0.560404896736145,
+                    0.5598396062850952,
+                    0.5585063695907593,
+                    0.5580161213874817,
+                    0.5577831864356995
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for winter vacations\n\nDocuments:\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 376\t|\tTEXT: Reykjav\u00edk\n\nDOCID: 23\t|\tTEXT: Anchorage\n\nDOCID: 449\t|\tTEXT: Stavanger\n\nDOCID: 34\t|\tTEXT: Asheville\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 505\t|\tTEXT: Turin\n\nDOCID: 174\t|\tTEXT: Helsinki\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 299\t|\tTEXT: Moscow\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 500\t|\tTEXT: Trondheim\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 115\t|\tTEXT: Cuzco\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 172\t|\tTEXT: Harbin\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"172\", \"332\", \"111\", \"500\", \"174\", \"449\", \"376\", \"505\", \"120\", \"23\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "172",
+                "332",
+                "111",
+                "500",
+                "174",
+                "449",
+                "376",
+                "505",
+                "120",
+                "23"
+            ],
+            "terminate": true
+        }
+    ]
+}

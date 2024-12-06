@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Safest cities for travel"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "283",
+            "61",
+            "520",
+            "320",
+            "201",
+            "168",
+            "338",
+            "332",
+            "53",
+            "22",
+            "560",
+            "94",
+            "70",
+            "278",
+            "296",
+            "308",
+            "206",
+            "400",
+            "265",
+            "55",
+            "251",
+            "501",
+            "1",
+            "82",
+            "105",
+            "92",
+            "83",
+            "141",
+            "328",
+            "352"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6047483682632446,
+            0.5960313081741333,
+            0.5905436277389526,
+            0.5814930200576782,
+            0.5810097455978394,
+            0.5798181295394897,
+            0.577944278717041,
+            0.5754290819168091,
+            0.5752487182617188,
+            0.5734711289405823,
+            0.5725714564323425,
+            0.5719195604324341,
+            0.5716823935508728,
+            0.5713112354278564,
+            0.5673598051071167,
+            0.5661925077438354,
+            0.5648713111877441,
+            0.5639716386795044,
+            0.5638061165809631,
+            0.5633586049079895,
+            0.5626813173294067,
+            0.5621530413627625,
+            0.5608381628990173,
+            0.5605605840682983,
+            0.560096025466919,
+            0.5598278641700745,
+            0.5596815943717957,
+            0.5594020485877991,
+            0.5593482851982117,
+            0.5593158602714539
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Safest cities for travel\n\nDocuments:\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 70\t|\tTEXT: Bogot\u00e1\n\nDOCID: 278\t|\tTEXT: Medell\u00edn\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 308\t|\tTEXT: Nairobi\n\nDOCID: 206\t|\tTEXT: Kathmandu\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 501\t|\tTEXT: Trujillo (Peru)\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"332\", \"520\", \"22\", \"1\", \"560\", \"265\", \"82\", \"55\", \"92\", \"168\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "332",
+        "520",
+        "22",
+        "1",
+        "560",
+        "265",
+        "82",
+        "55",
+        "92",
+        "168"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Safest cities for travel"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Safest cities for travel"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "283",
+                    "61",
+                    "520",
+                    "320",
+                    "201",
+                    "168",
+                    "338",
+                    "332",
+                    "53",
+                    "22",
+                    "560",
+                    "94",
+                    "70",
+                    "278",
+                    "296",
+                    "308",
+                    "206",
+                    "400",
+                    "265",
+                    "55",
+                    "251",
+                    "501",
+                    "1",
+                    "82",
+                    "105",
+                    "92",
+                    "83",
+                    "141",
+                    "328",
+                    "352"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6047483682632446,
+                    0.5960313081741333,
+                    0.5905436277389526,
+                    0.5814930200576782,
+                    0.5810097455978394,
+                    0.5798181295394897,
+                    0.577944278717041,
+                    0.5754290819168091,
+                    0.5752487182617188,
+                    0.5734711289405823,
+                    0.5725714564323425,
+                    0.5719195604324341,
+                    0.5716823935508728,
+                    0.5713112354278564,
+                    0.5673598051071167,
+                    0.5661925077438354,
+                    0.5648713111877441,
+                    0.5639716386795044,
+                    0.5638061165809631,
+                    0.5633586049079895,
+                    0.5626813173294067,
+                    0.5621530413627625,
+                    0.5608381628990173,
+                    0.5605605840682983,
+                    0.560096025466919,
+                    0.5598278641700745,
+                    0.5596815943717957,
+                    0.5594020485877991,
+                    0.5593482851982117,
+                    0.5593158602714539
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Safest cities for travel"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "283",
+                    "61",
+                    "520",
+                    "320",
+                    "201",
+                    "168",
+                    "338",
+                    "332",
+                    "53",
+                    "22",
+                    "560",
+                    "94",
+                    "70",
+                    "278",
+                    "296",
+                    "308",
+                    "206",
+                    "400",
+                    "265",
+                    "55",
+                    "251",
+                    "501",
+                    "1",
+                    "82",
+                    "105",
+                    "92",
+                    "83",
+                    "141",
+                    "328",
+                    "352"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6047483682632446,
+                    0.5960313081741333,
+                    0.5905436277389526,
+                    0.5814930200576782,
+                    0.5810097455978394,
+                    0.5798181295394897,
+                    0.577944278717041,
+                    0.5754290819168091,
+                    0.5752487182617188,
+                    0.5734711289405823,
+                    0.5725714564323425,
+                    0.5719195604324341,
+                    0.5716823935508728,
+                    0.5713112354278564,
+                    0.5673598051071167,
+                    0.5661925077438354,
+                    0.5648713111877441,
+                    0.5639716386795044,
+                    0.5638061165809631,
+                    0.5633586049079895,
+                    0.5626813173294067,
+                    0.5621530413627625,
+                    0.5608381628990173,
+                    0.5605605840682983,
+                    0.560096025466919,
+                    0.5598278641700745,
+                    0.5596815943717957,
+                    0.5594020485877991,
+                    0.5593482851982117,
+                    0.5593158602714539
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Safest cities for travel\n\nDocuments:\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 70\t|\tTEXT: Bogot\u00e1\n\nDOCID: 278\t|\tTEXT: Medell\u00edn\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 308\t|\tTEXT: Nairobi\n\nDOCID: 206\t|\tTEXT: Kathmandu\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 501\t|\tTEXT: Trujillo (Peru)\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"332\", \"520\", \"22\", \"1\", \"560\", \"265\", \"82\", \"55\", \"92\", \"168\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "332",
+                "520",
+                "22",
+                "1",
+                "560",
+                "265",
+                "82",
+                "55",
+                "92",
+                "168"
+            ]
+        },
+        {
+            "queries": [
+                "Safest cities for travel"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "283",
+                    "61",
+                    "520",
+                    "320",
+                    "201",
+                    "168",
+                    "338",
+                    "332",
+                    "53",
+                    "22",
+                    "560",
+                    "94",
+                    "70",
+                    "278",
+                    "296",
+                    "308",
+                    "206",
+                    "400",
+                    "265",
+                    "55",
+                    "251",
+                    "501",
+                    "1",
+                    "82",
+                    "105",
+                    "92",
+                    "83",
+                    "141",
+                    "328",
+                    "352"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6047483682632446,
+                    0.5960313081741333,
+                    0.5905436277389526,
+                    0.5814930200576782,
+                    0.5810097455978394,
+                    0.5798181295394897,
+                    0.577944278717041,
+                    0.5754290819168091,
+                    0.5752487182617188,
+                    0.5734711289405823,
+                    0.5725714564323425,
+                    0.5719195604324341,
+                    0.5716823935508728,
+                    0.5713112354278564,
+                    0.5673598051071167,
+                    0.5661925077438354,
+                    0.5648713111877441,
+                    0.5639716386795044,
+                    0.5638061165809631,
+                    0.5633586049079895,
+                    0.5626813173294067,
+                    0.5621530413627625,
+                    0.5608381628990173,
+                    0.5605605840682983,
+                    0.560096025466919,
+                    0.5598278641700745,
+                    0.5596815943717957,
+                    0.5594020485877991,
+                    0.5593482851982117,
+                    0.5593158602714539
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Safest cities for travel\n\nDocuments:\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 70\t|\tTEXT: Bogot\u00e1\n\nDOCID: 278\t|\tTEXT: Medell\u00edn\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 308\t|\tTEXT: Nairobi\n\nDOCID: 206\t|\tTEXT: Kathmandu\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 501\t|\tTEXT: Trujillo (Peru)\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"332\", \"520\", \"22\", \"1\", \"560\", \"265\", \"82\", \"55\", \"92\", \"168\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "332",
+                "520",
+                "22",
+                "1",
+                "560",
+                "265",
+                "82",
+                "55",
+                "92",
+                "168"
+            ],
+            "terminate": true
+        }
+    ]
+}

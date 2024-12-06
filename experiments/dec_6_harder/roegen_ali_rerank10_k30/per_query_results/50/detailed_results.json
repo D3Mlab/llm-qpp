@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Vibrant cities known for their tropical atmosphere"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "284",
+            "338",
+            "61",
+            "140",
+            "114",
+            "31",
+            "380",
+            "141",
+            "243",
+            "283",
+            "366",
+            "113",
+            "19",
+            "156",
+            "75",
+            "414",
+            "124",
+            "8",
+            "347",
+            "154",
+            "521",
+            "93",
+            "402",
+            "562",
+            "70",
+            "143",
+            "296",
+            "77",
+            "304",
+            "173"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7027579545974731,
+            0.7011536359786987,
+            0.7002164125442505,
+            0.6813486814498901,
+            0.6788701415061951,
+            0.6738747358322144,
+            0.6715064644813538,
+            0.6686563491821289,
+            0.6682230830192566,
+            0.6664997339248657,
+            0.6663285493850708,
+            0.6642051935195923,
+            0.6593887805938721,
+            0.6523462533950806,
+            0.6515138745307922,
+            0.6514459252357483,
+            0.6513304710388184,
+            0.6503978371620178,
+            0.6494201421737671,
+            0.6493068933486938,
+            0.6481784582138062,
+            0.6477829813957214,
+            0.6468918323516846,
+            0.6464952826499939,
+            0.6456770300865173,
+            0.6451225280761719,
+            0.6443740129470825,
+            0.6421757340431213,
+            0.6417648792266846,
+            0.6414048075675964
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Vibrant cities known for their tropical atmosphere\n\nDocuments:\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 140\t|\tTEXT: Florianopolis\n\nDOCID: 114\t|\tTEXT: Cura\u00e7ao\n\nDOCID: 31\t|\tTEXT: Aruba\n\nDOCID: 380\t|\tTEXT: Rio de Janeiro\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 243\t|\tTEXT: Lima\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 113\t|\tTEXT: Cozumel\n\nDOCID: 19\t|\tTEXT: Alicante\n\nDOCID: 156\t|\tTEXT: Gold Coast\n\nDOCID: 75\t|\tTEXT: Brasilia\n\nDOCID: 414\t|\tTEXT: Santo Domingo\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 347\t|\tTEXT: Phuket Town\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 521\t|\tTEXT: Veracruz\n\nDOCID: 93\t|\tTEXT: Caracas\n\nDOCID: 402\t|\tTEXT: San Jos\u00e9 (Costa Rica)\n\nDOCID: 562\t|\tTEXT: Zanzibar\n\nDOCID: 70\t|\tTEXT: Bogot\u00e1\n\nDOCID: 143\t|\tTEXT: Fortaleza\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 77\t|\tTEXT: Brisbane\n\nDOCID: 304\t|\tTEXT: M\u00e1laga\n\nDOCID: 173\t|\tTEXT: Havana\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"284\", \"380\", \"366\", \"141\", \"114\", \"31\", \"113\", \"8\", \"140\", \"347\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "284",
+        "380",
+        "366",
+        "141",
+        "114",
+        "31",
+        "113",
+        "8",
+        "140",
+        "347"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Vibrant cities known for their tropical atmosphere"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Vibrant cities known for their tropical atmosphere"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "284",
+                    "338",
+                    "61",
+                    "140",
+                    "114",
+                    "31",
+                    "380",
+                    "141",
+                    "243",
+                    "283",
+                    "366",
+                    "113",
+                    "19",
+                    "156",
+                    "75",
+                    "414",
+                    "124",
+                    "8",
+                    "347",
+                    "154",
+                    "521",
+                    "93",
+                    "402",
+                    "562",
+                    "70",
+                    "143",
+                    "296",
+                    "77",
+                    "304",
+                    "173"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7027579545974731,
+                    0.7011536359786987,
+                    0.7002164125442505,
+                    0.6813486814498901,
+                    0.6788701415061951,
+                    0.6738747358322144,
+                    0.6715064644813538,
+                    0.6686563491821289,
+                    0.6682230830192566,
+                    0.6664997339248657,
+                    0.6663285493850708,
+                    0.6642051935195923,
+                    0.6593887805938721,
+                    0.6523462533950806,
+                    0.6515138745307922,
+                    0.6514459252357483,
+                    0.6513304710388184,
+                    0.6503978371620178,
+                    0.6494201421737671,
+                    0.6493068933486938,
+                    0.6481784582138062,
+                    0.6477829813957214,
+                    0.6468918323516846,
+                    0.6464952826499939,
+                    0.6456770300865173,
+                    0.6451225280761719,
+                    0.6443740129470825,
+                    0.6421757340431213,
+                    0.6417648792266846,
+                    0.6414048075675964
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Vibrant cities known for their tropical atmosphere"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "284",
+                    "338",
+                    "61",
+                    "140",
+                    "114",
+                    "31",
+                    "380",
+                    "141",
+                    "243",
+                    "283",
+                    "366",
+                    "113",
+                    "19",
+                    "156",
+                    "75",
+                    "414",
+                    "124",
+                    "8",
+                    "347",
+                    "154",
+                    "521",
+                    "93",
+                    "402",
+                    "562",
+                    "70",
+                    "143",
+                    "296",
+                    "77",
+                    "304",
+                    "173"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7027579545974731,
+                    0.7011536359786987,
+                    0.7002164125442505,
+                    0.6813486814498901,
+                    0.6788701415061951,
+                    0.6738747358322144,
+                    0.6715064644813538,
+                    0.6686563491821289,
+                    0.6682230830192566,
+                    0.6664997339248657,
+                    0.6663285493850708,
+                    0.6642051935195923,
+                    0.6593887805938721,
+                    0.6523462533950806,
+                    0.6515138745307922,
+                    0.6514459252357483,
+                    0.6513304710388184,
+                    0.6503978371620178,
+                    0.6494201421737671,
+                    0.6493068933486938,
+                    0.6481784582138062,
+                    0.6477829813957214,
+                    0.6468918323516846,
+                    0.6464952826499939,
+                    0.6456770300865173,
+                    0.6451225280761719,
+                    0.6443740129470825,
+                    0.6421757340431213,
+                    0.6417648792266846,
+                    0.6414048075675964
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Vibrant cities known for their tropical atmosphere\n\nDocuments:\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 140\t|\tTEXT: Florianopolis\n\nDOCID: 114\t|\tTEXT: Cura\u00e7ao\n\nDOCID: 31\t|\tTEXT: Aruba\n\nDOCID: 380\t|\tTEXT: Rio de Janeiro\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 243\t|\tTEXT: Lima\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 113\t|\tTEXT: Cozumel\n\nDOCID: 19\t|\tTEXT: Alicante\n\nDOCID: 156\t|\tTEXT: Gold Coast\n\nDOCID: 75\t|\tTEXT: Brasilia\n\nDOCID: 414\t|\tTEXT: Santo Domingo\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 347\t|\tTEXT: Phuket Town\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 521\t|\tTEXT: Veracruz\n\nDOCID: 93\t|\tTEXT: Caracas\n\nDOCID: 402\t|\tTEXT: San Jos\u00e9 (Costa Rica)\n\nDOCID: 562\t|\tTEXT: Zanzibar\n\nDOCID: 70\t|\tTEXT: Bogot\u00e1\n\nDOCID: 143\t|\tTEXT: Fortaleza\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 77\t|\tTEXT: Brisbane\n\nDOCID: 304\t|\tTEXT: M\u00e1laga\n\nDOCID: 173\t|\tTEXT: Havana\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"284\", \"380\", \"366\", \"141\", \"114\", \"31\", \"113\", \"8\", \"140\", \"347\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "284",
+                "380",
+                "366",
+                "141",
+                "114",
+                "31",
+                "113",
+                "8",
+                "140",
+                "347"
+            ]
+        },
+        {
+            "queries": [
+                "Vibrant cities known for their tropical atmosphere"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "284",
+                    "338",
+                    "61",
+                    "140",
+                    "114",
+                    "31",
+                    "380",
+                    "141",
+                    "243",
+                    "283",
+                    "366",
+                    "113",
+                    "19",
+                    "156",
+                    "75",
+                    "414",
+                    "124",
+                    "8",
+                    "347",
+                    "154",
+                    "521",
+                    "93",
+                    "402",
+                    "562",
+                    "70",
+                    "143",
+                    "296",
+                    "77",
+                    "304",
+                    "173"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7027579545974731,
+                    0.7011536359786987,
+                    0.7002164125442505,
+                    0.6813486814498901,
+                    0.6788701415061951,
+                    0.6738747358322144,
+                    0.6715064644813538,
+                    0.6686563491821289,
+                    0.6682230830192566,
+                    0.6664997339248657,
+                    0.6663285493850708,
+                    0.6642051935195923,
+                    0.6593887805938721,
+                    0.6523462533950806,
+                    0.6515138745307922,
+                    0.6514459252357483,
+                    0.6513304710388184,
+                    0.6503978371620178,
+                    0.6494201421737671,
+                    0.6493068933486938,
+                    0.6481784582138062,
+                    0.6477829813957214,
+                    0.6468918323516846,
+                    0.6464952826499939,
+                    0.6456770300865173,
+                    0.6451225280761719,
+                    0.6443740129470825,
+                    0.6421757340431213,
+                    0.6417648792266846,
+                    0.6414048075675964
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Vibrant cities known for their tropical atmosphere\n\nDocuments:\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 338\t|\tTEXT: Panama City\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 140\t|\tTEXT: Florianopolis\n\nDOCID: 114\t|\tTEXT: Cura\u00e7ao\n\nDOCID: 31\t|\tTEXT: Aruba\n\nDOCID: 380\t|\tTEXT: Rio de Janeiro\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 243\t|\tTEXT: Lima\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 366\t|\tTEXT: Punta Cana\n\nDOCID: 113\t|\tTEXT: Cozumel\n\nDOCID: 19\t|\tTEXT: Alicante\n\nDOCID: 156\t|\tTEXT: Gold Coast\n\nDOCID: 75\t|\tTEXT: Brasilia\n\nDOCID: 414\t|\tTEXT: Santo Domingo\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 347\t|\tTEXT: Phuket Town\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 521\t|\tTEXT: Veracruz\n\nDOCID: 93\t|\tTEXT: Caracas\n\nDOCID: 402\t|\tTEXT: San Jos\u00e9 (Costa Rica)\n\nDOCID: 562\t|\tTEXT: Zanzibar\n\nDOCID: 70\t|\tTEXT: Bogot\u00e1\n\nDOCID: 143\t|\tTEXT: Fortaleza\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 77\t|\tTEXT: Brisbane\n\nDOCID: 304\t|\tTEXT: M\u00e1laga\n\nDOCID: 173\t|\tTEXT: Havana\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"284\", \"380\", \"366\", \"141\", \"114\", \"31\", \"113\", \"8\", \"140\", \"347\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "284",
+                "380",
+                "366",
+                "141",
+                "114",
+                "31",
+                "113",
+                "8",
+                "140",
+                "347"
+            ],
+            "terminate": true
+        }
+    ]
+}

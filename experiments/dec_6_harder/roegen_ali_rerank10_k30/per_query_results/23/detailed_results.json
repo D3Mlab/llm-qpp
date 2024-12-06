@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Hidden gem cities for a peaceful holiday"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "520",
+            "92",
+            "378",
+            "76",
+            "8",
+            "168",
+            "22",
+            "201",
+            "95",
+            "120",
+            "196",
+            "82",
+            "408",
+            "560",
+            "255",
+            "61",
+            "245",
+            "129",
+            "498",
+            "516",
+            "449",
+            "332",
+            "44",
+            "226",
+            "126",
+            "357",
+            "500",
+            "153",
+            "52",
+            "231"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6251715421676636,
+            0.6094978451728821,
+            0.6075254082679749,
+            0.6062597632408142,
+            0.6051573753356934,
+            0.596118152141571,
+            0.5948137640953064,
+            0.5944021940231323,
+            0.59285569190979,
+            0.5923494100570679,
+            0.5905076265335083,
+            0.5898014307022095,
+            0.5878778696060181,
+            0.587594211101532,
+            0.5870323181152344,
+            0.5867611169815063,
+            0.5867029428482056,
+            0.5865312814712524,
+            0.586521565914154,
+            0.5859092473983765,
+            0.585625410079956,
+            0.5855029821395874,
+            0.5851809978485107,
+            0.584629237651825,
+            0.5838407874107361,
+            0.5835524797439575,
+            0.5835068821907043,
+            0.5831708312034607,
+            0.5827823877334595,
+            0.5823951959609985
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Hidden gem cities for a peaceful holiday\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 76\t|\tTEXT: Bremen\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 196\t|\tTEXT: Jaipur\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 129\t|\tTEXT: Durban\n\nDOCID: 498\t|\tTEXT: Trieste\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 449\t|\tTEXT: Stavanger\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 44\t|\tTEXT: Auckland\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 126\t|\tTEXT: Dubrovnik\n\nDOCID: 357\t|\tTEXT: Pristina\n\nDOCID: 500\t|\tTEXT: Trondheim\n\nDOCID: 153\t|\tTEXT: Genoa\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 231\t|\tTEXT: Kyoto\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"520\", \"92\", \"378\", \"76\", \"82\", \"255\", \"498\", \"245\", \"153\", \"449\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "520",
+        "92",
+        "378",
+        "76",
+        "82",
+        "255",
+        "498",
+        "245",
+        "153",
+        "449"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Hidden gem cities for a peaceful holiday"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Hidden gem cities for a peaceful holiday"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "92",
+                    "378",
+                    "76",
+                    "8",
+                    "168",
+                    "22",
+                    "201",
+                    "95",
+                    "120",
+                    "196",
+                    "82",
+                    "408",
+                    "560",
+                    "255",
+                    "61",
+                    "245",
+                    "129",
+                    "498",
+                    "516",
+                    "449",
+                    "332",
+                    "44",
+                    "226",
+                    "126",
+                    "357",
+                    "500",
+                    "153",
+                    "52",
+                    "231"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6251715421676636,
+                    0.6094978451728821,
+                    0.6075254082679749,
+                    0.6062597632408142,
+                    0.6051573753356934,
+                    0.596118152141571,
+                    0.5948137640953064,
+                    0.5944021940231323,
+                    0.59285569190979,
+                    0.5923494100570679,
+                    0.5905076265335083,
+                    0.5898014307022095,
+                    0.5878778696060181,
+                    0.587594211101532,
+                    0.5870323181152344,
+                    0.5867611169815063,
+                    0.5867029428482056,
+                    0.5865312814712524,
+                    0.586521565914154,
+                    0.5859092473983765,
+                    0.585625410079956,
+                    0.5855029821395874,
+                    0.5851809978485107,
+                    0.584629237651825,
+                    0.5838407874107361,
+                    0.5835524797439575,
+                    0.5835068821907043,
+                    0.5831708312034607,
+                    0.5827823877334595,
+                    0.5823951959609985
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Hidden gem cities for a peaceful holiday"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "92",
+                    "378",
+                    "76",
+                    "8",
+                    "168",
+                    "22",
+                    "201",
+                    "95",
+                    "120",
+                    "196",
+                    "82",
+                    "408",
+                    "560",
+                    "255",
+                    "61",
+                    "245",
+                    "129",
+                    "498",
+                    "516",
+                    "449",
+                    "332",
+                    "44",
+                    "226",
+                    "126",
+                    "357",
+                    "500",
+                    "153",
+                    "52",
+                    "231"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6251715421676636,
+                    0.6094978451728821,
+                    0.6075254082679749,
+                    0.6062597632408142,
+                    0.6051573753356934,
+                    0.596118152141571,
+                    0.5948137640953064,
+                    0.5944021940231323,
+                    0.59285569190979,
+                    0.5923494100570679,
+                    0.5905076265335083,
+                    0.5898014307022095,
+                    0.5878778696060181,
+                    0.587594211101532,
+                    0.5870323181152344,
+                    0.5867611169815063,
+                    0.5867029428482056,
+                    0.5865312814712524,
+                    0.586521565914154,
+                    0.5859092473983765,
+                    0.585625410079956,
+                    0.5855029821395874,
+                    0.5851809978485107,
+                    0.584629237651825,
+                    0.5838407874107361,
+                    0.5835524797439575,
+                    0.5835068821907043,
+                    0.5831708312034607,
+                    0.5827823877334595,
+                    0.5823951959609985
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Hidden gem cities for a peaceful holiday\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 76\t|\tTEXT: Bremen\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 196\t|\tTEXT: Jaipur\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 129\t|\tTEXT: Durban\n\nDOCID: 498\t|\tTEXT: Trieste\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 449\t|\tTEXT: Stavanger\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 44\t|\tTEXT: Auckland\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 126\t|\tTEXT: Dubrovnik\n\nDOCID: 357\t|\tTEXT: Pristina\n\nDOCID: 500\t|\tTEXT: Trondheim\n\nDOCID: 153\t|\tTEXT: Genoa\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 231\t|\tTEXT: Kyoto\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"520\", \"92\", \"378\", \"76\", \"82\", \"255\", \"498\", \"245\", \"153\", \"449\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "520",
+                "92",
+                "378",
+                "76",
+                "82",
+                "255",
+                "498",
+                "245",
+                "153",
+                "449"
+            ]
+        },
+        {
+            "queries": [
+                "Hidden gem cities for a peaceful holiday"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "92",
+                    "378",
+                    "76",
+                    "8",
+                    "168",
+                    "22",
+                    "201",
+                    "95",
+                    "120",
+                    "196",
+                    "82",
+                    "408",
+                    "560",
+                    "255",
+                    "61",
+                    "245",
+                    "129",
+                    "498",
+                    "516",
+                    "449",
+                    "332",
+                    "44",
+                    "226",
+                    "126",
+                    "357",
+                    "500",
+                    "153",
+                    "52",
+                    "231"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6251715421676636,
+                    0.6094978451728821,
+                    0.6075254082679749,
+                    0.6062597632408142,
+                    0.6051573753356934,
+                    0.596118152141571,
+                    0.5948137640953064,
+                    0.5944021940231323,
+                    0.59285569190979,
+                    0.5923494100570679,
+                    0.5905076265335083,
+                    0.5898014307022095,
+                    0.5878778696060181,
+                    0.587594211101532,
+                    0.5870323181152344,
+                    0.5867611169815063,
+                    0.5867029428482056,
+                    0.5865312814712524,
+                    0.586521565914154,
+                    0.5859092473983765,
+                    0.585625410079956,
+                    0.5855029821395874,
+                    0.5851809978485107,
+                    0.584629237651825,
+                    0.5838407874107361,
+                    0.5835524797439575,
+                    0.5835068821907043,
+                    0.5831708312034607,
+                    0.5827823877334595,
+                    0.5823951959609985
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Hidden gem cities for a peaceful holiday\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 76\t|\tTEXT: Bremen\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 95\t|\tTEXT: Catania\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 196\t|\tTEXT: Jaipur\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 129\t|\tTEXT: Durban\n\nDOCID: 498\t|\tTEXT: Trieste\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 449\t|\tTEXT: Stavanger\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 44\t|\tTEXT: Auckland\n\nDOCID: 226\t|\tTEXT: Krabi Town\n\nDOCID: 126\t|\tTEXT: Dubrovnik\n\nDOCID: 357\t|\tTEXT: Pristina\n\nDOCID: 500\t|\tTEXT: Trondheim\n\nDOCID: 153\t|\tTEXT: Genoa\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 231\t|\tTEXT: Kyoto\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"520\", \"92\", \"378\", \"76\", \"82\", \"255\", \"498\", \"245\", \"153\", \"449\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "520",
+                "92",
+                "378",
+                "76",
+                "82",
+                "255",
+                "498",
+                "245",
+                "153",
+                "449"
+            ],
+            "terminate": true
+        }
+    ]
+}

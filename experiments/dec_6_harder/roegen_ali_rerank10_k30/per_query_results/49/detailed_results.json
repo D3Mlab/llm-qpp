@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Best cities for movie buffs"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "251",
+            "320",
+            "492",
+            "141",
+            "120",
+            "43",
+            "399",
+            "516",
+            "105",
+            "187",
+            "237",
+            "352",
+            "119",
+            "400",
+            "168",
+            "109",
+            "520",
+            "284",
+            "330",
+            "201",
+            "560",
+            "296",
+            "349",
+            "283",
+            "52",
+            "265",
+            "408",
+            "46",
+            "16",
+            "61"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7032308578491211,
+            0.6643231511116028,
+            0.6617491841316223,
+            0.6591651439666748,
+            0.6575589179992676,
+            0.6448855400085449,
+            0.6444696187973022,
+            0.6394146680831909,
+            0.6386114358901978,
+            0.6350598931312561,
+            0.6346018314361572,
+            0.6328326463699341,
+            0.6324658393859863,
+            0.6295269727706909,
+            0.6290388703346252,
+            0.6279736757278442,
+            0.6253126263618469,
+            0.6247050762176514,
+            0.6244950294494629,
+            0.6236518621444702,
+            0.6216386556625366,
+            0.6206488013267517,
+            0.6201530694961548,
+            0.6176636219024658,
+            0.6171219348907471,
+            0.6139919757843018,
+            0.6116565465927124,
+            0.611182689666748,
+            0.6107260584831238,
+            0.6097820401191711
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for movie buffs\n\nDocuments:\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 46\t|\tTEXT: Austin\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 61\t|\tTEXT: Belize City\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"251\", \"320\", \"400\", \"399\", \"492\", \"237\", \"105\", \"352\", \"284\", \"46\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "251",
+        "320",
+        "400",
+        "399",
+        "492",
+        "237",
+        "105",
+        "352",
+        "284",
+        "46"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Best cities for movie buffs"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Best cities for movie buffs"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "251",
+                    "320",
+                    "492",
+                    "141",
+                    "120",
+                    "43",
+                    "399",
+                    "516",
+                    "105",
+                    "187",
+                    "237",
+                    "352",
+                    "119",
+                    "400",
+                    "168",
+                    "109",
+                    "520",
+                    "284",
+                    "330",
+                    "201",
+                    "560",
+                    "296",
+                    "349",
+                    "283",
+                    "52",
+                    "265",
+                    "408",
+                    "46",
+                    "16",
+                    "61"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7032308578491211,
+                    0.6643231511116028,
+                    0.6617491841316223,
+                    0.6591651439666748,
+                    0.6575589179992676,
+                    0.6448855400085449,
+                    0.6444696187973022,
+                    0.6394146680831909,
+                    0.6386114358901978,
+                    0.6350598931312561,
+                    0.6346018314361572,
+                    0.6328326463699341,
+                    0.6324658393859863,
+                    0.6295269727706909,
+                    0.6290388703346252,
+                    0.6279736757278442,
+                    0.6253126263618469,
+                    0.6247050762176514,
+                    0.6244950294494629,
+                    0.6236518621444702,
+                    0.6216386556625366,
+                    0.6206488013267517,
+                    0.6201530694961548,
+                    0.6176636219024658,
+                    0.6171219348907471,
+                    0.6139919757843018,
+                    0.6116565465927124,
+                    0.611182689666748,
+                    0.6107260584831238,
+                    0.6097820401191711
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Best cities for movie buffs"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "251",
+                    "320",
+                    "492",
+                    "141",
+                    "120",
+                    "43",
+                    "399",
+                    "516",
+                    "105",
+                    "187",
+                    "237",
+                    "352",
+                    "119",
+                    "400",
+                    "168",
+                    "109",
+                    "520",
+                    "284",
+                    "330",
+                    "201",
+                    "560",
+                    "296",
+                    "349",
+                    "283",
+                    "52",
+                    "265",
+                    "408",
+                    "46",
+                    "16",
+                    "61"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7032308578491211,
+                    0.6643231511116028,
+                    0.6617491841316223,
+                    0.6591651439666748,
+                    0.6575589179992676,
+                    0.6448855400085449,
+                    0.6444696187973022,
+                    0.6394146680831909,
+                    0.6386114358901978,
+                    0.6350598931312561,
+                    0.6346018314361572,
+                    0.6328326463699341,
+                    0.6324658393859863,
+                    0.6295269727706909,
+                    0.6290388703346252,
+                    0.6279736757278442,
+                    0.6253126263618469,
+                    0.6247050762176514,
+                    0.6244950294494629,
+                    0.6236518621444702,
+                    0.6216386556625366,
+                    0.6206488013267517,
+                    0.6201530694961548,
+                    0.6176636219024658,
+                    0.6171219348907471,
+                    0.6139919757843018,
+                    0.6116565465927124,
+                    0.611182689666748,
+                    0.6107260584831238,
+                    0.6097820401191711
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for movie buffs\n\nDocuments:\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 46\t|\tTEXT: Austin\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 61\t|\tTEXT: Belize City\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"251\", \"320\", \"400\", \"399\", \"492\", \"237\", \"105\", \"352\", \"284\", \"46\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "251",
+                "320",
+                "400",
+                "399",
+                "492",
+                "237",
+                "105",
+                "352",
+                "284",
+                "46"
+            ]
+        },
+        {
+            "queries": [
+                "Best cities for movie buffs"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "251",
+                    "320",
+                    "492",
+                    "141",
+                    "120",
+                    "43",
+                    "399",
+                    "516",
+                    "105",
+                    "187",
+                    "237",
+                    "352",
+                    "119",
+                    "400",
+                    "168",
+                    "109",
+                    "520",
+                    "284",
+                    "330",
+                    "201",
+                    "560",
+                    "296",
+                    "349",
+                    "283",
+                    "52",
+                    "265",
+                    "408",
+                    "46",
+                    "16",
+                    "61"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7032308578491211,
+                    0.6643231511116028,
+                    0.6617491841316223,
+                    0.6591651439666748,
+                    0.6575589179992676,
+                    0.6448855400085449,
+                    0.6444696187973022,
+                    0.6394146680831909,
+                    0.6386114358901978,
+                    0.6350598931312561,
+                    0.6346018314361572,
+                    0.6328326463699341,
+                    0.6324658393859863,
+                    0.6295269727706909,
+                    0.6290388703346252,
+                    0.6279736757278442,
+                    0.6253126263618469,
+                    0.6247050762176514,
+                    0.6244950294494629,
+                    0.6236518621444702,
+                    0.6216386556625366,
+                    0.6206488013267517,
+                    0.6201530694961548,
+                    0.6176636219024658,
+                    0.6171219348907471,
+                    0.6139919757843018,
+                    0.6116565465927124,
+                    0.611182689666748,
+                    0.6107260584831238,
+                    0.6097820401191711
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Best cities for movie buffs\n\nDocuments:\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 119\t|\tTEXT: Dallas\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 296\t|\tTEXT: Montevideo\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 46\t|\tTEXT: Austin\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 61\t|\tTEXT: Belize City\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"251\", \"320\", \"400\", \"399\", \"492\", \"237\", \"105\", \"352\", \"284\", \"46\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "251",
+                "320",
+                "400",
+                "399",
+                "492",
+                "237",
+                "105",
+                "352",
+                "284",
+                "46"
+            ],
+            "terminate": true
+        }
+    ]
+}

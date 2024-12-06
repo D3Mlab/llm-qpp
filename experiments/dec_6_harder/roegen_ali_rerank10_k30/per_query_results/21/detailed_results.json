@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Cities with a natural atmosphere"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "520",
+            "83",
+            "352",
+            "492",
+            "378",
+            "560",
+            "111",
+            "168",
+            "231",
+            "65",
+            "516",
+            "55",
+            "320",
+            "457",
+            "245",
+            "283",
+            "120",
+            "251",
+            "337",
+            "22",
+            "450",
+            "400",
+            "1",
+            "82",
+            "105",
+            "81",
+            "413",
+            "339",
+            "285",
+            "299"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6789978742599487,
+            0.6586093902587891,
+            0.657157838344574,
+            0.6551882028579712,
+            0.6527273058891296,
+            0.6518141031265259,
+            0.6515281796455383,
+            0.6500951051712036,
+            0.6485468149185181,
+            0.6463491320610046,
+            0.646134614944458,
+            0.6458076238632202,
+            0.6445311307907104,
+            0.6429094076156616,
+            0.6422996520996094,
+            0.6418046951293945,
+            0.6412034034729004,
+            0.6404626369476318,
+            0.6404140591621399,
+            0.6399083137512207,
+            0.6381344795227051,
+            0.6366488933563232,
+            0.6366137862205505,
+            0.6362247467041016,
+            0.6342641115188599,
+            0.6326526999473572,
+            0.6320334076881409,
+            0.6306619644165039,
+            0.629332423210144,
+            0.6277825832366943
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities with a natural atmosphere\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 231\t|\tTEXT: Kyoto\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 457\t|\tTEXT: Sydney\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 337\t|\tTEXT: Pamplona\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 285\t|\tTEXT: Milan\n\nDOCID: 299\t|\tTEXT: Moscow\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"520\", \"1\", \"352\", \"516\", \"457\", \"231\", \"22\", \"450\", \"400\", \"251\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "520",
+        "1",
+        "352",
+        "516",
+        "457",
+        "231",
+        "22",
+        "450",
+        "400",
+        "251"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Cities with a natural atmosphere"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Cities with a natural atmosphere"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "83",
+                    "352",
+                    "492",
+                    "378",
+                    "560",
+                    "111",
+                    "168",
+                    "231",
+                    "65",
+                    "516",
+                    "55",
+                    "320",
+                    "457",
+                    "245",
+                    "283",
+                    "120",
+                    "251",
+                    "337",
+                    "22",
+                    "450",
+                    "400",
+                    "1",
+                    "82",
+                    "105",
+                    "81",
+                    "413",
+                    "339",
+                    "285",
+                    "299"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6789978742599487,
+                    0.6586093902587891,
+                    0.657157838344574,
+                    0.6551882028579712,
+                    0.6527273058891296,
+                    0.6518141031265259,
+                    0.6515281796455383,
+                    0.6500951051712036,
+                    0.6485468149185181,
+                    0.6463491320610046,
+                    0.646134614944458,
+                    0.6458076238632202,
+                    0.6445311307907104,
+                    0.6429094076156616,
+                    0.6422996520996094,
+                    0.6418046951293945,
+                    0.6412034034729004,
+                    0.6404626369476318,
+                    0.6404140591621399,
+                    0.6399083137512207,
+                    0.6381344795227051,
+                    0.6366488933563232,
+                    0.6366137862205505,
+                    0.6362247467041016,
+                    0.6342641115188599,
+                    0.6326526999473572,
+                    0.6320334076881409,
+                    0.6306619644165039,
+                    0.629332423210144,
+                    0.6277825832366943
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Cities with a natural atmosphere"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "83",
+                    "352",
+                    "492",
+                    "378",
+                    "560",
+                    "111",
+                    "168",
+                    "231",
+                    "65",
+                    "516",
+                    "55",
+                    "320",
+                    "457",
+                    "245",
+                    "283",
+                    "120",
+                    "251",
+                    "337",
+                    "22",
+                    "450",
+                    "400",
+                    "1",
+                    "82",
+                    "105",
+                    "81",
+                    "413",
+                    "339",
+                    "285",
+                    "299"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6789978742599487,
+                    0.6586093902587891,
+                    0.657157838344574,
+                    0.6551882028579712,
+                    0.6527273058891296,
+                    0.6518141031265259,
+                    0.6515281796455383,
+                    0.6500951051712036,
+                    0.6485468149185181,
+                    0.6463491320610046,
+                    0.646134614944458,
+                    0.6458076238632202,
+                    0.6445311307907104,
+                    0.6429094076156616,
+                    0.6422996520996094,
+                    0.6418046951293945,
+                    0.6412034034729004,
+                    0.6404626369476318,
+                    0.6404140591621399,
+                    0.6399083137512207,
+                    0.6381344795227051,
+                    0.6366488933563232,
+                    0.6366137862205505,
+                    0.6362247467041016,
+                    0.6342641115188599,
+                    0.6326526999473572,
+                    0.6320334076881409,
+                    0.6306619644165039,
+                    0.629332423210144,
+                    0.6277825832366943
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities with a natural atmosphere\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 231\t|\tTEXT: Kyoto\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 457\t|\tTEXT: Sydney\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 337\t|\tTEXT: Pamplona\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 285\t|\tTEXT: Milan\n\nDOCID: 299\t|\tTEXT: Moscow\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"520\", \"1\", \"352\", \"516\", \"457\", \"231\", \"22\", \"450\", \"400\", \"251\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "520",
+                "1",
+                "352",
+                "516",
+                "457",
+                "231",
+                "22",
+                "450",
+                "400",
+                "251"
+            ]
+        },
+        {
+            "queries": [
+                "Cities with a natural atmosphere"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "83",
+                    "352",
+                    "492",
+                    "378",
+                    "560",
+                    "111",
+                    "168",
+                    "231",
+                    "65",
+                    "516",
+                    "55",
+                    "320",
+                    "457",
+                    "245",
+                    "283",
+                    "120",
+                    "251",
+                    "337",
+                    "22",
+                    "450",
+                    "400",
+                    "1",
+                    "82",
+                    "105",
+                    "81",
+                    "413",
+                    "339",
+                    "285",
+                    "299"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6789978742599487,
+                    0.6586093902587891,
+                    0.657157838344574,
+                    0.6551882028579712,
+                    0.6527273058891296,
+                    0.6518141031265259,
+                    0.6515281796455383,
+                    0.6500951051712036,
+                    0.6485468149185181,
+                    0.6463491320610046,
+                    0.646134614944458,
+                    0.6458076238632202,
+                    0.6445311307907104,
+                    0.6429094076156616,
+                    0.6422996520996094,
+                    0.6418046951293945,
+                    0.6412034034729004,
+                    0.6404626369476318,
+                    0.6404140591621399,
+                    0.6399083137512207,
+                    0.6381344795227051,
+                    0.6366488933563232,
+                    0.6366137862205505,
+                    0.6362247467041016,
+                    0.6342641115188599,
+                    0.6326526999473572,
+                    0.6320334076881409,
+                    0.6306619644165039,
+                    0.629332423210144,
+                    0.6277825832366943
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities with a natural atmosphere\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 83\t|\tTEXT: Buenos Aires\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 378\t|\tTEXT: Riga\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 231\t|\tTEXT: Kyoto\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 457\t|\tTEXT: Sydney\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 337\t|\tTEXT: Pamplona\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 413\t|\tTEXT: Santiago\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 285\t|\tTEXT: Milan\n\nDOCID: 299\t|\tTEXT: Moscow\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"520\", \"1\", \"352\", \"516\", \"457\", \"231\", \"22\", \"450\", \"400\", \"251\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "520",
+                "1",
+                "352",
+                "516",
+                "457",
+                "231",
+                "22",
+                "450",
+                "400",
+                "251"
+            ],
+            "terminate": true
+        }
+    ]
+}

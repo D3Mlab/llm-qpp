@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Cities for sports enthusiasts"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "120",
+            "251",
+            "109",
+            "352",
+            "187",
+            "492",
+            "349",
+            "328",
+            "201",
+            "43",
+            "74",
+            "204",
+            "121",
+            "252",
+            "423",
+            "371",
+            "141",
+            "320",
+            "330",
+            "71",
+            "237",
+            "392",
+            "401",
+            "105",
+            "89",
+            "284",
+            "343",
+            "516",
+            "16",
+            "542"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6693459749221802,
+            0.6640487313270569,
+            0.6596876382827759,
+            0.6495650410652161,
+            0.6478228569030762,
+            0.646390974521637,
+            0.6391763091087341,
+            0.638177752494812,
+            0.6360464096069336,
+            0.6354997158050537,
+            0.6312602758407593,
+            0.6309733986854553,
+            0.6291404366493225,
+            0.6267913579940796,
+            0.626186728477478,
+            0.6260831356048584,
+            0.6252326369285583,
+            0.623416543006897,
+            0.6227606534957886,
+            0.6218563318252563,
+            0.6201005578041077,
+            0.6199503540992737,
+            0.6178523302078247,
+            0.6167612075805664,
+            0.6163375377655029,
+            0.6156277656555176,
+            0.6146319508552551,
+            0.6144235134124756,
+            0.6108958125114441,
+            0.6102432012557983
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities for sports enthusiasts\n\nDocuments:\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 121\t|\tTEXT: Detroit\n\nDOCID: 252\t|\tTEXT: Louisville\n\nDOCID: 423\t|\tTEXT: Seattle\n\nDOCID: 371\t|\tTEXT: Raleigh\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 401\t|\tTEXT: San Jose (California)\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 89\t|\tTEXT: Calgary\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 343\t|\tTEXT: Philadelphia\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 542\t|\tTEXT: Wichita\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"105\", \"320\", \"251\", \"109\", \"343\", \"492\", \"120\", \"187\", \"349\", \"74\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "105",
+        "320",
+        "251",
+        "109",
+        "343",
+        "492",
+        "120",
+        "187",
+        "349",
+        "74"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Cities for sports enthusiasts"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Cities for sports enthusiasts"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "120",
+                    "251",
+                    "109",
+                    "352",
+                    "187",
+                    "492",
+                    "349",
+                    "328",
+                    "201",
+                    "43",
+                    "74",
+                    "204",
+                    "121",
+                    "252",
+                    "423",
+                    "371",
+                    "141",
+                    "320",
+                    "330",
+                    "71",
+                    "237",
+                    "392",
+                    "401",
+                    "105",
+                    "89",
+                    "284",
+                    "343",
+                    "516",
+                    "16",
+                    "542"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6693459749221802,
+                    0.6640487313270569,
+                    0.6596876382827759,
+                    0.6495650410652161,
+                    0.6478228569030762,
+                    0.646390974521637,
+                    0.6391763091087341,
+                    0.638177752494812,
+                    0.6360464096069336,
+                    0.6354997158050537,
+                    0.6312602758407593,
+                    0.6309733986854553,
+                    0.6291404366493225,
+                    0.6267913579940796,
+                    0.626186728477478,
+                    0.6260831356048584,
+                    0.6252326369285583,
+                    0.623416543006897,
+                    0.6227606534957886,
+                    0.6218563318252563,
+                    0.6201005578041077,
+                    0.6199503540992737,
+                    0.6178523302078247,
+                    0.6167612075805664,
+                    0.6163375377655029,
+                    0.6156277656555176,
+                    0.6146319508552551,
+                    0.6144235134124756,
+                    0.6108958125114441,
+                    0.6102432012557983
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Cities for sports enthusiasts"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "120",
+                    "251",
+                    "109",
+                    "352",
+                    "187",
+                    "492",
+                    "349",
+                    "328",
+                    "201",
+                    "43",
+                    "74",
+                    "204",
+                    "121",
+                    "252",
+                    "423",
+                    "371",
+                    "141",
+                    "320",
+                    "330",
+                    "71",
+                    "237",
+                    "392",
+                    "401",
+                    "105",
+                    "89",
+                    "284",
+                    "343",
+                    "516",
+                    "16",
+                    "542"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6693459749221802,
+                    0.6640487313270569,
+                    0.6596876382827759,
+                    0.6495650410652161,
+                    0.6478228569030762,
+                    0.646390974521637,
+                    0.6391763091087341,
+                    0.638177752494812,
+                    0.6360464096069336,
+                    0.6354997158050537,
+                    0.6312602758407593,
+                    0.6309733986854553,
+                    0.6291404366493225,
+                    0.6267913579940796,
+                    0.626186728477478,
+                    0.6260831356048584,
+                    0.6252326369285583,
+                    0.623416543006897,
+                    0.6227606534957886,
+                    0.6218563318252563,
+                    0.6201005578041077,
+                    0.6199503540992737,
+                    0.6178523302078247,
+                    0.6167612075805664,
+                    0.6163375377655029,
+                    0.6156277656555176,
+                    0.6146319508552551,
+                    0.6144235134124756,
+                    0.6108958125114441,
+                    0.6102432012557983
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities for sports enthusiasts\n\nDocuments:\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 121\t|\tTEXT: Detroit\n\nDOCID: 252\t|\tTEXT: Louisville\n\nDOCID: 423\t|\tTEXT: Seattle\n\nDOCID: 371\t|\tTEXT: Raleigh\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 401\t|\tTEXT: San Jose (California)\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 89\t|\tTEXT: Calgary\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 343\t|\tTEXT: Philadelphia\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 542\t|\tTEXT: Wichita\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"105\", \"320\", \"251\", \"109\", \"343\", \"492\", \"120\", \"187\", \"349\", \"74\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "105",
+                "320",
+                "251",
+                "109",
+                "343",
+                "492",
+                "120",
+                "187",
+                "349",
+                "74"
+            ]
+        },
+        {
+            "queries": [
+                "Cities for sports enthusiasts"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "120",
+                    "251",
+                    "109",
+                    "352",
+                    "187",
+                    "492",
+                    "349",
+                    "328",
+                    "201",
+                    "43",
+                    "74",
+                    "204",
+                    "121",
+                    "252",
+                    "423",
+                    "371",
+                    "141",
+                    "320",
+                    "330",
+                    "71",
+                    "237",
+                    "392",
+                    "401",
+                    "105",
+                    "89",
+                    "284",
+                    "343",
+                    "516",
+                    "16",
+                    "542"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6693459749221802,
+                    0.6640487313270569,
+                    0.6596876382827759,
+                    0.6495650410652161,
+                    0.6478228569030762,
+                    0.646390974521637,
+                    0.6391763091087341,
+                    0.638177752494812,
+                    0.6360464096069336,
+                    0.6354997158050537,
+                    0.6312602758407593,
+                    0.6309733986854553,
+                    0.6291404366493225,
+                    0.6267913579940796,
+                    0.626186728477478,
+                    0.6260831356048584,
+                    0.6252326369285583,
+                    0.623416543006897,
+                    0.6227606534957886,
+                    0.6218563318252563,
+                    0.6201005578041077,
+                    0.6199503540992737,
+                    0.6178523302078247,
+                    0.6167612075805664,
+                    0.6163375377655029,
+                    0.6156277656555176,
+                    0.6146319508552551,
+                    0.6144235134124756,
+                    0.6108958125114441,
+                    0.6102432012557983
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Cities for sports enthusiasts\n\nDocuments:\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 349\t|\tTEXT: Pittsburgh\n\nDOCID: 328\t|\tTEXT: Oklahoma City\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 74\t|\tTEXT: Boston\n\nDOCID: 204\t|\tTEXT: Kansas City\n\nDOCID: 121\t|\tTEXT: Detroit\n\nDOCID: 252\t|\tTEXT: Louisville\n\nDOCID: 423\t|\tTEXT: Seattle\n\nDOCID: 371\t|\tTEXT: Raleigh\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 330\t|\tTEXT: Orlando\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 392\t|\tTEXT: Salt Lake City\n\nDOCID: 401\t|\tTEXT: San Jose (California)\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 89\t|\tTEXT: Calgary\n\nDOCID: 284\t|\tTEXT: Miami\n\nDOCID: 343\t|\tTEXT: Philadelphia\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 16\t|\tTEXT: Albuquerque\n\nDOCID: 542\t|\tTEXT: Wichita\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"105\", \"320\", \"251\", \"109\", \"343\", \"492\", \"120\", \"187\", \"349\", \"74\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "105",
+                "320",
+                "251",
+                "109",
+                "343",
+                "492",
+                "120",
+                "187",
+                "349",
+                "74"
+            ],
+            "terminate": true
+        }
+    ]
+}

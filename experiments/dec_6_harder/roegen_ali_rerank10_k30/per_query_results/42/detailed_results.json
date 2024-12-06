@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Top destinations renowned for their architectural landmarks"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "520",
+            "124",
+            "339",
+            "55",
+            "380",
+            "92",
+            "168",
+            "201",
+            "283",
+            "8",
+            "245",
+            "111",
+            "154",
+            "450",
+            "65",
+            "63",
+            "525",
+            "58",
+            "348",
+            "126",
+            "1",
+            "25",
+            "355",
+            "265",
+            "22",
+            "80",
+            "82",
+            "61",
+            "50",
+            "255"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6175801753997803,
+            0.6058200597763062,
+            0.6016933917999268,
+            0.5866243839263916,
+            0.5819606781005859,
+            0.5794401168823242,
+            0.577609121799469,
+            0.5769882798194885,
+            0.5767340660095215,
+            0.5753250122070312,
+            0.5750609636306763,
+            0.5732904672622681,
+            0.5719586610794067,
+            0.571480393409729,
+            0.5710122585296631,
+            0.570854127407074,
+            0.5707683563232422,
+            0.5703767538070679,
+            0.5696548223495483,
+            0.5693179965019226,
+            0.5683895945549011,
+            0.5679130554199219,
+            0.5669941902160645,
+            0.5669167637825012,
+            0.5660837292671204,
+            0.564216136932373,
+            0.5639462471008301,
+            0.5637450814247131,
+            0.5634182095527649,
+            0.5630967020988464
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Top destinations renowned for their architectural landmarks\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 380\t|\tTEXT: Rio de Janeiro\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 63\t|\tTEXT: Berlin\n\nDOCID: 525\t|\tTEXT: Vienna\n\nDOCID: 58\t|\tTEXT: Beirut\n\nDOCID: 348\t|\tTEXT: Pisa\n\nDOCID: 126\t|\tTEXT: Dubrovnik\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 25\t|\tTEXT: Antalya\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 80\t|\tTEXT: Brussels\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 50\t|\tTEXT: Baku\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"339\", \"520\", \"55\", \"124\", \"245\", \"111\", \"65\", \"154\", \"525\", \"126\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "339",
+        "520",
+        "55",
+        "124",
+        "245",
+        "111",
+        "65",
+        "154",
+        "525",
+        "126"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Top destinations renowned for their architectural landmarks"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Top destinations renowned for their architectural landmarks"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "124",
+                    "339",
+                    "55",
+                    "380",
+                    "92",
+                    "168",
+                    "201",
+                    "283",
+                    "8",
+                    "245",
+                    "111",
+                    "154",
+                    "450",
+                    "65",
+                    "63",
+                    "525",
+                    "58",
+                    "348",
+                    "126",
+                    "1",
+                    "25",
+                    "355",
+                    "265",
+                    "22",
+                    "80",
+                    "82",
+                    "61",
+                    "50",
+                    "255"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6175801753997803,
+                    0.6058200597763062,
+                    0.6016933917999268,
+                    0.5866243839263916,
+                    0.5819606781005859,
+                    0.5794401168823242,
+                    0.577609121799469,
+                    0.5769882798194885,
+                    0.5767340660095215,
+                    0.5753250122070312,
+                    0.5750609636306763,
+                    0.5732904672622681,
+                    0.5719586610794067,
+                    0.571480393409729,
+                    0.5710122585296631,
+                    0.570854127407074,
+                    0.5707683563232422,
+                    0.5703767538070679,
+                    0.5696548223495483,
+                    0.5693179965019226,
+                    0.5683895945549011,
+                    0.5679130554199219,
+                    0.5669941902160645,
+                    0.5669167637825012,
+                    0.5660837292671204,
+                    0.564216136932373,
+                    0.5639462471008301,
+                    0.5637450814247131,
+                    0.5634182095527649,
+                    0.5630967020988464
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Top destinations renowned for their architectural landmarks"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "124",
+                    "339",
+                    "55",
+                    "380",
+                    "92",
+                    "168",
+                    "201",
+                    "283",
+                    "8",
+                    "245",
+                    "111",
+                    "154",
+                    "450",
+                    "65",
+                    "63",
+                    "525",
+                    "58",
+                    "348",
+                    "126",
+                    "1",
+                    "25",
+                    "355",
+                    "265",
+                    "22",
+                    "80",
+                    "82",
+                    "61",
+                    "50",
+                    "255"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6175801753997803,
+                    0.6058200597763062,
+                    0.6016933917999268,
+                    0.5866243839263916,
+                    0.5819606781005859,
+                    0.5794401168823242,
+                    0.577609121799469,
+                    0.5769882798194885,
+                    0.5767340660095215,
+                    0.5753250122070312,
+                    0.5750609636306763,
+                    0.5732904672622681,
+                    0.5719586610794067,
+                    0.571480393409729,
+                    0.5710122585296631,
+                    0.570854127407074,
+                    0.5707683563232422,
+                    0.5703767538070679,
+                    0.5696548223495483,
+                    0.5693179965019226,
+                    0.5683895945549011,
+                    0.5679130554199219,
+                    0.5669941902160645,
+                    0.5669167637825012,
+                    0.5660837292671204,
+                    0.564216136932373,
+                    0.5639462471008301,
+                    0.5637450814247131,
+                    0.5634182095527649,
+                    0.5630967020988464
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Top destinations renowned for their architectural landmarks\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 380\t|\tTEXT: Rio de Janeiro\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 63\t|\tTEXT: Berlin\n\nDOCID: 525\t|\tTEXT: Vienna\n\nDOCID: 58\t|\tTEXT: Beirut\n\nDOCID: 348\t|\tTEXT: Pisa\n\nDOCID: 126\t|\tTEXT: Dubrovnik\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 25\t|\tTEXT: Antalya\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 80\t|\tTEXT: Brussels\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 50\t|\tTEXT: Baku\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"339\", \"520\", \"55\", \"124\", \"245\", \"111\", \"65\", \"154\", \"525\", \"126\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "339",
+                "520",
+                "55",
+                "124",
+                "245",
+                "111",
+                "65",
+                "154",
+                "525",
+                "126"
+            ]
+        },
+        {
+            "queries": [
+                "Top destinations renowned for their architectural landmarks"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "520",
+                    "124",
+                    "339",
+                    "55",
+                    "380",
+                    "92",
+                    "168",
+                    "201",
+                    "283",
+                    "8",
+                    "245",
+                    "111",
+                    "154",
+                    "450",
+                    "65",
+                    "63",
+                    "525",
+                    "58",
+                    "348",
+                    "126",
+                    "1",
+                    "25",
+                    "355",
+                    "265",
+                    "22",
+                    "80",
+                    "82",
+                    "61",
+                    "50",
+                    "255"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6175801753997803,
+                    0.6058200597763062,
+                    0.6016933917999268,
+                    0.5866243839263916,
+                    0.5819606781005859,
+                    0.5794401168823242,
+                    0.577609121799469,
+                    0.5769882798194885,
+                    0.5767340660095215,
+                    0.5753250122070312,
+                    0.5750609636306763,
+                    0.5732904672622681,
+                    0.5719586610794067,
+                    0.571480393409729,
+                    0.5710122585296631,
+                    0.570854127407074,
+                    0.5707683563232422,
+                    0.5703767538070679,
+                    0.5696548223495483,
+                    0.5693179965019226,
+                    0.5683895945549011,
+                    0.5679130554199219,
+                    0.5669941902160645,
+                    0.5669167637825012,
+                    0.5660837292671204,
+                    0.564216136932373,
+                    0.5639462471008301,
+                    0.5637450814247131,
+                    0.5634182095527649,
+                    0.5630967020988464
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Top destinations renowned for their architectural landmarks\n\nDocuments:\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 124\t|\tTEXT: Dubai\n\nDOCID: 339\t|\tTEXT: Paris\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 380\t|\tTEXT: Rio de Janeiro\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 245\t|\tTEXT: Lisbon\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 154\t|\tTEXT: George Town (Malaysia)\n\nDOCID: 450\t|\tTEXT: Stockholm\n\nDOCID: 65\t|\tTEXT: Bilbao\n\nDOCID: 63\t|\tTEXT: Berlin\n\nDOCID: 525\t|\tTEXT: Vienna\n\nDOCID: 58\t|\tTEXT: Beirut\n\nDOCID: 348\t|\tTEXT: Pisa\n\nDOCID: 126\t|\tTEXT: Dubrovnik\n\nDOCID: 1\t|\tTEXT: 'Venice\n\nDOCID: 25\t|\tTEXT: Antalya\n\nDOCID: 355\t|\tTEXT: Prague\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 80\t|\tTEXT: Brussels\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 50\t|\tTEXT: Baku\n\nDOCID: 255\t|\tTEXT: Luxembourg (city)\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"339\", \"520\", \"55\", \"124\", \"245\", \"111\", \"65\", \"154\", \"525\", \"126\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "339",
+                "520",
+                "55",
+                "124",
+                "245",
+                "111",
+                "65",
+                "154",
+                "525",
+                "126"
+            ],
+            "terminate": true
+        }
+    ]
+}

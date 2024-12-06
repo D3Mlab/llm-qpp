@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Great cities for solo travelers"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "352",
+            "560",
+            "53",
+            "320",
+            "120",
+            "283",
+            "520",
+            "141",
+            "168",
+            "237",
+            "105",
+            "82",
+            "22",
+            "251",
+            "109",
+            "81",
+            "400",
+            "55",
+            "516",
+            "197",
+            "332",
+            "43",
+            "492",
+            "94",
+            "425",
+            "399",
+            "265",
+            "187",
+            "111",
+            "338"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6072578430175781,
+            0.6066067218780518,
+            0.6002892851829529,
+            0.5995924472808838,
+            0.5981498956680298,
+            0.596672534942627,
+            0.5965880751609802,
+            0.5952016115188599,
+            0.5931549668312073,
+            0.5925824642181396,
+            0.586378812789917,
+            0.5842883586883545,
+            0.5842579007148743,
+            0.5842475891113281,
+            0.5807977914810181,
+            0.580299973487854,
+            0.5794081091880798,
+            0.5780525803565979,
+            0.576775312423706,
+            0.576401948928833,
+            0.5762947797775269,
+            0.5762856006622314,
+            0.5755906105041504,
+            0.574948251247406,
+            0.5746747255325317,
+            0.5743936896324158,
+            0.5721349120140076,
+            0.5708730220794678,
+            0.5697628855705261,
+            0.5691022872924805
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Great cities for solo travelers\n\nDocuments:\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 425\t|\tTEXT: Seoul\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 338\t|\tTEXT: Panama City\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"520\", \"560\", \"22\", \"55\", \"53\", \"82\", \"111\", \"352\", \"320\", \"400\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "520",
+        "560",
+        "22",
+        "55",
+        "53",
+        "82",
+        "111",
+        "352",
+        "320",
+        "400"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Great cities for solo travelers"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Great cities for solo travelers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "352",
+                    "560",
+                    "53",
+                    "320",
+                    "120",
+                    "283",
+                    "520",
+                    "141",
+                    "168",
+                    "237",
+                    "105",
+                    "82",
+                    "22",
+                    "251",
+                    "109",
+                    "81",
+                    "400",
+                    "55",
+                    "516",
+                    "197",
+                    "332",
+                    "43",
+                    "492",
+                    "94",
+                    "425",
+                    "399",
+                    "265",
+                    "187",
+                    "111",
+                    "338"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6072578430175781,
+                    0.6066067218780518,
+                    0.6002892851829529,
+                    0.5995924472808838,
+                    0.5981498956680298,
+                    0.596672534942627,
+                    0.5965880751609802,
+                    0.5952016115188599,
+                    0.5931549668312073,
+                    0.5925824642181396,
+                    0.586378812789917,
+                    0.5842883586883545,
+                    0.5842579007148743,
+                    0.5842475891113281,
+                    0.5807977914810181,
+                    0.580299973487854,
+                    0.5794081091880798,
+                    0.5780525803565979,
+                    0.576775312423706,
+                    0.576401948928833,
+                    0.5762947797775269,
+                    0.5762856006622314,
+                    0.5755906105041504,
+                    0.574948251247406,
+                    0.5746747255325317,
+                    0.5743936896324158,
+                    0.5721349120140076,
+                    0.5708730220794678,
+                    0.5697628855705261,
+                    0.5691022872924805
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Great cities for solo travelers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "352",
+                    "560",
+                    "53",
+                    "320",
+                    "120",
+                    "283",
+                    "520",
+                    "141",
+                    "168",
+                    "237",
+                    "105",
+                    "82",
+                    "22",
+                    "251",
+                    "109",
+                    "81",
+                    "400",
+                    "55",
+                    "516",
+                    "197",
+                    "332",
+                    "43",
+                    "492",
+                    "94",
+                    "425",
+                    "399",
+                    "265",
+                    "187",
+                    "111",
+                    "338"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6072578430175781,
+                    0.6066067218780518,
+                    0.6002892851829529,
+                    0.5995924472808838,
+                    0.5981498956680298,
+                    0.596672534942627,
+                    0.5965880751609802,
+                    0.5952016115188599,
+                    0.5931549668312073,
+                    0.5925824642181396,
+                    0.586378812789917,
+                    0.5842883586883545,
+                    0.5842579007148743,
+                    0.5842475891113281,
+                    0.5807977914810181,
+                    0.580299973487854,
+                    0.5794081091880798,
+                    0.5780525803565979,
+                    0.576775312423706,
+                    0.576401948928833,
+                    0.5762947797775269,
+                    0.5762856006622314,
+                    0.5755906105041504,
+                    0.574948251247406,
+                    0.5746747255325317,
+                    0.5743936896324158,
+                    0.5721349120140076,
+                    0.5708730220794678,
+                    0.5697628855705261,
+                    0.5691022872924805
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Great cities for solo travelers\n\nDocuments:\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 425\t|\tTEXT: Seoul\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 338\t|\tTEXT: Panama City\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"520\", \"560\", \"22\", \"55\", \"53\", \"82\", \"111\", \"352\", \"320\", \"400\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "520",
+                "560",
+                "22",
+                "55",
+                "53",
+                "82",
+                "111",
+                "352",
+                "320",
+                "400"
+            ]
+        },
+        {
+            "queries": [
+                "Great cities for solo travelers"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "352",
+                    "560",
+                    "53",
+                    "320",
+                    "120",
+                    "283",
+                    "520",
+                    "141",
+                    "168",
+                    "237",
+                    "105",
+                    "82",
+                    "22",
+                    "251",
+                    "109",
+                    "81",
+                    "400",
+                    "55",
+                    "516",
+                    "197",
+                    "332",
+                    "43",
+                    "492",
+                    "94",
+                    "425",
+                    "399",
+                    "265",
+                    "187",
+                    "111",
+                    "338"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6072578430175781,
+                    0.6066067218780518,
+                    0.6002892851829529,
+                    0.5995924472808838,
+                    0.5981498956680298,
+                    0.596672534942627,
+                    0.5965880751609802,
+                    0.5952016115188599,
+                    0.5931549668312073,
+                    0.5925824642181396,
+                    0.586378812789917,
+                    0.5842883586883545,
+                    0.5842579007148743,
+                    0.5842475891113281,
+                    0.5807977914810181,
+                    0.580299973487854,
+                    0.5794081091880798,
+                    0.5780525803565979,
+                    0.576775312423706,
+                    0.576401948928833,
+                    0.5762947797775269,
+                    0.5762856006622314,
+                    0.5755906105041504,
+                    0.574948251247406,
+                    0.5746747255325317,
+                    0.5743936896324158,
+                    0.5721349120140076,
+                    0.5708730220794678,
+                    0.5697628855705261,
+                    0.5691022872924805
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Great cities for solo travelers\n\nDocuments:\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 82\t|\tTEXT: Budapest\n\nDOCID: 22\t|\tTEXT: Amsterdam\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 109\t|\tTEXT: Cleveland\n\nDOCID: 81\t|\tTEXT: Bucharest\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 55\t|\tTEXT: Barcelona\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 197\t|\tTEXT: Jakarta\n\nDOCID: 332\t|\tTEXT: Oslo\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 94\t|\tTEXT: Cartagena (Colombia)\n\nDOCID: 425\t|\tTEXT: Seoul\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 265\t|\tTEXT: Malm\u00f6\n\nDOCID: 187\t|\tTEXT: Indianapolis\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 338\t|\tTEXT: Panama City\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"520\", \"560\", \"22\", \"55\", \"53\", \"82\", \"111\", \"352\", \"320\", \"400\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "520",
+                "560",
+                "22",
+                "55",
+                "53",
+                "82",
+                "111",
+                "352",
+                "320",
+                "400"
+            ],
+            "terminate": true
+        }
+    ]
+}

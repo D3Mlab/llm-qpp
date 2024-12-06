@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "Ideal cities for a digital detox"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "251",
+            "400",
+            "320",
+            "237",
+            "399",
+            "201",
+            "516",
+            "52",
+            "141",
+            "105",
+            "120",
+            "352",
+            "111",
+            "168",
+            "520",
+            "283",
+            "492",
+            "43",
+            "408",
+            "92",
+            "308",
+            "222",
+            "8",
+            "457",
+            "560",
+            "53",
+            "71",
+            "125",
+            "61",
+            "552"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.634662389755249,
+            0.632840096950531,
+            0.6255843043327332,
+            0.6216465830802917,
+            0.6202018857002258,
+            0.6180746555328369,
+            0.6173474192619324,
+            0.6172776222229004,
+            0.6165895462036133,
+            0.6124680042266846,
+            0.6122879981994629,
+            0.6110230088233948,
+            0.6108697652816772,
+            0.610417902469635,
+            0.6078341007232666,
+            0.6053006649017334,
+            0.6044236421585083,
+            0.6033625602722168,
+            0.602925717830658,
+            0.601572573184967,
+            0.6004889607429504,
+            0.5994451642036438,
+            0.5994195938110352,
+            0.5979526042938232,
+            0.5960471630096436,
+            0.5960158705711365,
+            0.59555584192276,
+            0.5948048830032349,
+            0.5947867631912231,
+            0.5942068099975586
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Ideal cities for a digital detox\n\nDocuments:\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 308\t|\tTEXT: Nairobi\n\nDOCID: 222\t|\tTEXT: Kolkata\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 457\t|\tTEXT: Sydney\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 125\t|\tTEXT: Dublin\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 552\t|\tTEXT: Yangon\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"201\", \"92\", \"560\", \"71\", \"125\", \"61\", \"552\", \"53\", \"8\", \"457\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "201",
+        "92",
+        "560",
+        "71",
+        "125",
+        "61",
+        "552",
+        "53",
+        "8",
+        "457"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "Ideal cities for a digital detox"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "Ideal cities for a digital detox"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "251",
+                    "400",
+                    "320",
+                    "237",
+                    "399",
+                    "201",
+                    "516",
+                    "52",
+                    "141",
+                    "105",
+                    "120",
+                    "352",
+                    "111",
+                    "168",
+                    "520",
+                    "283",
+                    "492",
+                    "43",
+                    "408",
+                    "92",
+                    "308",
+                    "222",
+                    "8",
+                    "457",
+                    "560",
+                    "53",
+                    "71",
+                    "125",
+                    "61",
+                    "552"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.634662389755249,
+                    0.632840096950531,
+                    0.6255843043327332,
+                    0.6216465830802917,
+                    0.6202018857002258,
+                    0.6180746555328369,
+                    0.6173474192619324,
+                    0.6172776222229004,
+                    0.6165895462036133,
+                    0.6124680042266846,
+                    0.6122879981994629,
+                    0.6110230088233948,
+                    0.6108697652816772,
+                    0.610417902469635,
+                    0.6078341007232666,
+                    0.6053006649017334,
+                    0.6044236421585083,
+                    0.6033625602722168,
+                    0.602925717830658,
+                    0.601572573184967,
+                    0.6004889607429504,
+                    0.5994451642036438,
+                    0.5994195938110352,
+                    0.5979526042938232,
+                    0.5960471630096436,
+                    0.5960158705711365,
+                    0.59555584192276,
+                    0.5948048830032349,
+                    0.5947867631912231,
+                    0.5942068099975586
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "Ideal cities for a digital detox"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "251",
+                    "400",
+                    "320",
+                    "237",
+                    "399",
+                    "201",
+                    "516",
+                    "52",
+                    "141",
+                    "105",
+                    "120",
+                    "352",
+                    "111",
+                    "168",
+                    "520",
+                    "283",
+                    "492",
+                    "43",
+                    "408",
+                    "92",
+                    "308",
+                    "222",
+                    "8",
+                    "457",
+                    "560",
+                    "53",
+                    "71",
+                    "125",
+                    "61",
+                    "552"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.634662389755249,
+                    0.632840096950531,
+                    0.6255843043327332,
+                    0.6216465830802917,
+                    0.6202018857002258,
+                    0.6180746555328369,
+                    0.6173474192619324,
+                    0.6172776222229004,
+                    0.6165895462036133,
+                    0.6124680042266846,
+                    0.6122879981994629,
+                    0.6110230088233948,
+                    0.6108697652816772,
+                    0.610417902469635,
+                    0.6078341007232666,
+                    0.6053006649017334,
+                    0.6044236421585083,
+                    0.6033625602722168,
+                    0.602925717830658,
+                    0.601572573184967,
+                    0.6004889607429504,
+                    0.5994451642036438,
+                    0.5994195938110352,
+                    0.5979526042938232,
+                    0.5960471630096436,
+                    0.5960158705711365,
+                    0.59555584192276,
+                    0.5948048830032349,
+                    0.5947867631912231,
+                    0.5942068099975586
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Ideal cities for a digital detox\n\nDocuments:\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 308\t|\tTEXT: Nairobi\n\nDOCID: 222\t|\tTEXT: Kolkata\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 457\t|\tTEXT: Sydney\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 125\t|\tTEXT: Dublin\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 552\t|\tTEXT: Yangon\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"201\", \"92\", \"560\", \"71\", \"125\", \"61\", \"552\", \"53\", \"8\", \"457\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "201",
+                "92",
+                "560",
+                "71",
+                "125",
+                "61",
+                "552",
+                "53",
+                "8",
+                "457"
+            ]
+        },
+        {
+            "queries": [
+                "Ideal cities for a digital detox"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "251",
+                    "400",
+                    "320",
+                    "237",
+                    "399",
+                    "201",
+                    "516",
+                    "52",
+                    "141",
+                    "105",
+                    "120",
+                    "352",
+                    "111",
+                    "168",
+                    "520",
+                    "283",
+                    "492",
+                    "43",
+                    "408",
+                    "92",
+                    "308",
+                    "222",
+                    "8",
+                    "457",
+                    "560",
+                    "53",
+                    "71",
+                    "125",
+                    "61",
+                    "552"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.634662389755249,
+                    0.632840096950531,
+                    0.6255843043327332,
+                    0.6216465830802917,
+                    0.6202018857002258,
+                    0.6180746555328369,
+                    0.6173474192619324,
+                    0.6172776222229004,
+                    0.6165895462036133,
+                    0.6124680042266846,
+                    0.6122879981994629,
+                    0.6110230088233948,
+                    0.6108697652816772,
+                    0.610417902469635,
+                    0.6078341007232666,
+                    0.6053006649017334,
+                    0.6044236421585083,
+                    0.6033625602722168,
+                    0.602925717830658,
+                    0.601572573184967,
+                    0.6004889607429504,
+                    0.5994451642036438,
+                    0.5994195938110352,
+                    0.5979526042938232,
+                    0.5960471630096436,
+                    0.5960158705711365,
+                    0.59555584192276,
+                    0.5948048830032349,
+                    0.5947867631912231,
+                    0.5942068099975586
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query.\nFollow the output format example exactly and return only a python list of docIDs with exactly 10 IDs.\nDo not output city names.\n\nExample\n***\nQuery: tropical vacation destinations\n\nDocuments:\nDOCID: 1\t|\t TEXT: London\nDOCID: 4   |    TEXT: Cancun\nDOCID: 2456\t|\tTEXT: Myrtle Beach\n\nOutput: [\"4\", \"2456\", \"1\"]\n***\n\nInputs:\n***\nQuery: Ideal cities for a digital detox\n\nDocuments:\n\nDOCID: 251\t|\tTEXT: Los Angeles\n\nDOCID: 400\t|\tTEXT: San Francisco\n\nDOCID: 320\t|\tTEXT: New York City\n\nDOCID: 237\t|\tTEXT: Las Vegas\n\nDOCID: 399\t|\tTEXT: San Diego\n\nDOCID: 201\t|\tTEXT: Johannesburg\n\nDOCID: 516\t|\tTEXT: Vancouver\n\nDOCID: 52\t|\tTEXT: Bangalore\n\nDOCID: 141\t|\tTEXT: Fort Lauderdale\n\nDOCID: 105\t|\tTEXT: Chicago\n\nDOCID: 120\t|\tTEXT: Denver\n\nDOCID: 352\t|\tTEXT: Portland (Oregon)\n\nDOCID: 111\t|\tTEXT: Copenhagen\n\nDOCID: 168\t|\tTEXT: Hamburg\n\nDOCID: 520\t|\tTEXT: Venice\n\nDOCID: 283\t|\tTEXT: Mexico City\n\nDOCID: 492\t|\tTEXT: Toronto\n\nDOCID: 43\t|\tTEXT: Atlanta\n\nDOCID: 408\t|\tTEXT: Santa Barbara\n\nDOCID: 92\t|\tTEXT: Cape Town\n\nDOCID: 308\t|\tTEXT: Nairobi\n\nDOCID: 222\t|\tTEXT: Kolkata\n\nDOCID: 8\t|\tTEXT: Acapulco\n\nDOCID: 457\t|\tTEXT: Sydney\n\nDOCID: 560\t|\tTEXT: Zagreb\n\nDOCID: 53\t|\tTEXT: Bangkok\n\nDOCID: 71\t|\tTEXT: Boise\n\nDOCID: 125\t|\tTEXT: Dublin\n\nDOCID: 61\t|\tTEXT: Belize City\n\nDOCID: 552\t|\tTEXT: Yangon\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"201\", \"92\", \"560\", \"71\", \"125\", \"61\", \"552\", \"53\", \"8\", \"457\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "201",
+                "92",
+                "560",
+                "71",
+                "125",
+                "61",
+                "552",
+                "53",
+                "8",
+                "457"
+            ],
+            "terminate": true
+        }
+    ]
+}
