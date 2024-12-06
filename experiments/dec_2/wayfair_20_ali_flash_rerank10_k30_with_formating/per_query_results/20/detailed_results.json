@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "foutains with brick look"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "21662",
+            "27252",
+            "33878",
+            "17206",
+            "33809",
+            "30340",
+            "12296",
+            "33792",
+            "36408",
+            "27001",
+            "33874",
+            "30341",
+            "30342",
+            "14063",
+            "33810",
+            "3983",
+            "33790",
+            "33846",
+            "15095",
+            "14064",
+            "15094",
+            "36405",
+            "33789",
+            "12812",
+            "27258",
+            "12903",
+            "27009",
+            "30343",
+            "12871",
+            "12786"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.737120509147644,
+            0.7257087230682373,
+            0.7218397259712219,
+            0.717058539390564,
+            0.7159172296524048,
+            0.710497260093689,
+            0.7043646574020386,
+            0.7022531032562256,
+            0.7022444009780884,
+            0.7016867399215698,
+            0.701358437538147,
+            0.6995792388916016,
+            0.6995593905448914,
+            0.6981858611106873,
+            0.6972528696060181,
+            0.6971019506454468,
+            0.6968851685523987,
+            0.6967563629150391,
+            0.6963002681732178,
+            0.6949150562286377,
+            0.6935062408447266,
+            0.6932269334793091,
+            0.6904239654541016,
+            0.6898473501205444,
+            0.6889668703079224,
+            0.6887755393981934,
+            0.688448429107666,
+            0.6880174875259399,
+            0.6878707408905029,
+            0.6864195466041565
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: foutains with brick look\n\nDocuments:\n\n21662: starburst 2 '' x 8 '' ceramic subway tile. brick is a series of matte ceramic wall tiles available in two sizes that offer a modern approach with a palette of rich colors , and variance of shade in the glaze . slightly textured , and soft on the surface , brick is suited to add a touch of flair to any space .\n\n27252: loft series 12 '' x 24 '' porcelain concrete look wall & floor tile. the loft series was originally inspired by the bricks of the ancient city , which can reflect the traces of time . with the prevailing of the loft-style nowadays , dongfeng has perfectly made sparks between industrialization and postmodernist to create the loft series . recommend to use for both interior and exterior , residential , and commercial areas .\n\n33878: cleft 32 '' x 32 '' porcelain floor and wall tile. cleft is a cement-look porcelain collection of tiles that is offered in 3 unique color tones that would effortlessly work within a variety of commercial or residential spaces . various levels of shading create a chic industrial feel that would work well within a variety of settings , from modern to contemporary . create the loft space of your dreams or add a bold urban dynamic to your space with this extremely versatile porcelain series .\n\n17206: brick 2 '' x 10 '' porcelain subway tile. replicate the look of exposed rustic brick , the brick collection is a porcelain tile with the modern and industrial design . perfect for indoor and outdoor floor and wall applications as well as in pools and spas .\n\n33809: forte 32 '' x 32 '' porcelain stone look wall & floor tile. enjoy the distinct look of stained concrete floors with the added durability of porcelain with forte , a bold new series of cement-look porcelain that combines the contemporary look of concrete that has been worn by time with subtle hints of variation . easily adaptable to any d\u00e9cor this series is suitable for residential or commercial applications and is the perfect choice for your next bar , office , or restaurant project .\n\n30340: keyondre 3 '' x 6 '' glass brick look subway tile. these tiles are made from molded glass inspired by the crafted glass production on the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork is distinguished by its smooth finish , clean lines , and beautiful shine .\n\n12296: tribeca 2 '' x 10 '' porcelain brick look wall & floor tile. brick generation is a perfect blend of contemporary style and timeless appeal . where impressively accurate reproduction of the surface and the feel of brick goes together with the strength of porcelain stoneware . a brand representing the absolute quality of products inspired by the craftsmanship of experienced artisans .\n\n33792: ryan 9 '' x 46 '' porcelain wood look tile. evoking memories of mores by the campfire on a crisp autumn evening , the ryan collection is inspired by the freedom of the great outdoors . designed to perfectly replicate the distressed characteristics of timeworn , this wood-look porcelain series is a natural choice for those seeking to add some rustic charm to their space .\n\n36408: brick 3 '' x 12 '' porcelain subway tile in ice. this brick 3 '' x 12 '' porcelain subway tile in ice range of handcrafted wall tiles with an undulated surface portrays a trendy combination of modern fashion and old metropolitan style . the color palette coordinates with the brick 3 '' x 12 '' porcelain subway tile in ice floors and in combination creates a look that will be unique to you and make your friends wish they had your design sense .\n\n27001: pillowed brick 3 '' x 6 '' glass mosaic tile in glossy gray. nan\n\n33874: thunderstruck 4 '' x 12 '' porcelain concrete look subway wall & floor tile. welcome to your next design project ; a functional , yet stylish italian-made fabric look tile collection . with a refined woven appearance , these fabric look tiles welcome a warming ambiance into any space . a full program made of 4 industrial chic color palettes that will create a sense of depth and richness , each tile is a perfect match for living room floors or entryways that crave a simple twist on tradition .\n\n30341: keyondria 3 '' x 12 '' glass brick look subway tile. these tiles are made from clear and transparent low-iron molded glass inspired by the crafted glass production in the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork is distinguished by its smooth finish , clean lines , and beautiful shine . the back of the glass tile is coated with the desired pigment ( s ) and a white protective coating is visible from the back of the tile . the multi-layered protective coating is fired with the tile and ensures that thin-set mortars will not be visible after installation . pigments & glass are made from natural minerals and as such the firing process will cause slight variations in shade & size .\n\n30342: brendon 3 '' x 12 '' glass brick look subway tile. these tiles are made from molded glass inspired by the crafted glass production in the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork is distinguished by its sleek finish , clean lines , and beautiful shine .\n\n14063: brick 2 '' x 8 '' cement subway tile. faceables thin bricks . create captivating spaces and add value to your property . fully using the highest quality raw materials and exceptional craftsmanship . roughly 0.5\u2033 in thickness . distressed look . top-of-the-line brick veneering for walls .\n\n33810: rizo 24 '' x 24 '' porcelain wall & floor tile. featuring the rugged yet refined characteristics of weathered cement , the product is their newest next-generation porcelain series that is sure to make a splash in the industry . presented in a durable porcelain plank format , it exudes the same industrialized visual appeal of timeworn cement .\n\n3983: rebel 12 '' x 24 '' porcelain field tile. add a vintage feel to your space with this tile . crafted in italy , this durable , easy to maintain , commercial-grade , glazed color body porcelain features a field tile . its pre-distressed look is achieved with inkjet technology instead of traditional wear and tear . perfect for indoor/outdoor residential and commercial use and for walls , shower walls , countertops , pools , and indoor flooring . ul greenguard certified for low chemical emissions .\n\n33790: appaloosa 8 '' x 10 '' porcelain stone look wall & floor tile. look to the past for some present-day inspiration . the appaloosa porcelain floor tile in genova combines the visual characteristics of antiquated brick with the durability of porcelain for a tile collection that is both timeless and enduring . appaloosa affords designers and discerning homeowners alike numerous options and opportunities to spice up their space .\n\n33846: ritsos 12 '' x 24 '' porcelain field tile. ritsos takes inspiration from industrial urban cities , emulating the intricacies and characteristics of concrete and presents them in a durable , easy to maintain porcelain format . this unique cement-look series is suitable for commercial or residential applications and is the ideal choice for bringing the gritty , rugged visual aesthetic of urban architecture indoors . available in 12x24 and mosaic formats .\n\n15095: mood 12 '' x 23 '' porcelain stone look wall & floor tile. it is reminiscent of the quartzite stone from vals , in the canton of the grisons , switzerland , translated into a durable porcelain tile . offered in large scale format and trendy hues , it is designed for those who want to surround themselves with natural beauty . a complimentary river stone companion tile and offset mosaic round out the line to make a truly stunning statement in any setting .\n\n14064: brick 3 '' x 8 '' cement subway tile. faceables thin bricks . create captivating spaces and add value to your property . fully using the highest quality raw materials and exceptional craftsmanship . roughly 0.5\u2033 in thickness . distressed look . top-of-the-line brick veneering for walls .\n\n15094: mood 24 '' x 47 '' porcelain stone look wall & floor tile. it is reminiscent of the quartzite stone from vals , in the canton of the grisons , switzerland , translated into a durable porcelain tile . offered in large scale format and trendy hues , it is designed for those who want to surround themselves with natural beauty . a complimentary river stone companion tile and offset mosaic round out the line to make a truly stunning statement in any setting .\n\n36405: brick one 3 '' x 12 '' porcelain subway stone look wall & floor tile. this tile brings an old world feel to any application .\n\n33789: appaloosa 7 '' x 7 '' porcelain stone wall and floor tile. look to the past for some present-day inspiration . the appaloosa porcelain field tile in genova combines the visual characteristics of antiquated brick with the durability of porcelain for a tile collection that is both timeless and enduring . appaloosa affords designers and discerning homeowners alike numerous options and opportunities to spice up their space .\n\n12812: faventie 13 '' x 13 '' ceramic wall & floor tile. it is easy to picture the sun-drenched streets of spain when looking at our faenza series 13 '' x 13 '' ceramic patterned wall & floor tile . save time and labor spent arranging smaller square tiles and instead install these durable ceramic slabs , which have nine squares separated by scored grout lines . this breathtaking blue glaze features a collection of encaustic-inspired designs . imitations of the scuffs and spots that are the marks of well-loved , worn , century-old tile and the rich red tones peeking through are the perfect contrast to the faded shades of denim blue . these rustic scuffs and spots convince that this tile is truly aged . there are 3 different variations of scuffs and pattern arrangements available that are randomly scattered throughout each case , offering a sporadic patchwork look . designed by interior architect and furniture designer francisco segarra , this tile is a true reflection of vintage industrial design . the scored grout lines can be grouted with the color of your choice to further customize your installation . bring rustic charm to your interior with this easy-to-maintain look .\n\n27258: brick random sized 0.6 '' x 1 '' mosaic tile. this product provides the look of stainless steel metal mosaic tiles but with added texture and durability . the leaf shape brushed aluminum finish gives a unique modern aesthetic while the extruded structure of the tiles provides superior durability and support once installed . if you are considering tiles for your kitchen or bathroom backsplash or perhaps for an accent wall then you should seriously consider theirs .\n\n12903: relic 11 '' x 13 '' porcelain field tile. our d'anticatto hex bianco 11 in . x 12-5/8 in . porcelain floor and wall tile radiates rustic charm . mimicking a worn cement appearance , this porcelain hexagon tile is a subtle statement piece created by faded shades of beige , grey and white . with rust colored accents and realistic imitations of scuffs and spots , this encaustic inspired tile evokes a loved , worn and century-old appearance . available in twenty-six print variations that are randomly scattered throughout each case , the variation throughout each tile mimics an authentic aged appearance . its impervious , frost-resistant and highly durable features make this tile and ideal choice for both indoor and outdoor commercial and residential installations including , backsplashes , kitchens , bathrooms , showers , entryways and patios . this tile is a perfect choice on its own or paired with other products in the d'anticatto collection . tile is the better choice for your space . this tile is made from natural ingredients , making it a healthy choice as it is free from allergens , vocs , formaldehyde and pvc .\n\n27009: brick 2 '' x 4 '' ceramic mosaic tile in glossy white. nan\n\n30343: kelvin 3 '' x 12 '' glass brick look subway tile. these tiles are made from molded glass inspired by the crafted glass production in the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork blends well with other colors and is distinguished by its smooth finish , clean lines , and beautiful shine .\n\n12871: shale 13 '' x 13 '' ceramic patterned wall & floor tile. the klinker 12-3/4 in . x 12-3/4 in . ceramic floor and wall quarry tile captures the authenticity of age-old tile making with modern technology . this glazed natural quarry tile has rustic , old-world floral patterns in shades of beautiful , soothing teals and goldenrod . the design features random scuffs throughout , convincing that this piece is truly aged . this extruded tile is manufactured in spain and is safe for heavy-duty interior and exterior locations , including patios , showroom floors and kitchens . this tile offers frost resistance and water resistance , making it a great choice for your outdoor space . as the first and only distributor in the united states to carry products from this factory , you are guaranteed to have a unique space .\n\n12786: czar klinker rose 13 '' x 13 '' straight edge ceramic wall & floor tile. our tile radiates old-world european elegance . this glazed natural quarry tile has floral patterns in shades of beautiful , soothing blues . imitations of scuffs and spots that are the marks of well-loved , worn , century-old tile bring rustic charm to your interior . available in four print variations that are randomly scattered throughout each case , the variation throughout each tile mimics an authentic aged appearance . this extruded tile is manufactured in spain and is safe for heavy-duty interior and exterior locations , including patios , showroom floors , and kitchens . this tile offers frost resistance and water resistance , making it a great choice for your outdoor space . as the first and only distributor in the united states to carry products from this factory , you are guaranteed to have a unique space . tile is the better choice for your space . this tile is made from natural ingredients , making it a healthy choice as it is free from allergens , vocs , formaldehyde and pvc .\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"17206\", \"12296\", \"36408\", \"30340\", \"30341\", \"30342\", \"30343\", \"14063\", \"14064\", \"27258\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "17206",
+        "12296",
+        "36408",
+        "30340",
+        "30341",
+        "30342",
+        "30343",
+        "14063",
+        "14064",
+        "27258"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "foutains with brick look"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "foutains with brick look"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "21662",
+                    "27252",
+                    "33878",
+                    "17206",
+                    "33809",
+                    "30340",
+                    "12296",
+                    "33792",
+                    "36408",
+                    "27001",
+                    "33874",
+                    "30341",
+                    "30342",
+                    "14063",
+                    "33810",
+                    "3983",
+                    "33790",
+                    "33846",
+                    "15095",
+                    "14064",
+                    "15094",
+                    "36405",
+                    "33789",
+                    "12812",
+                    "27258",
+                    "12903",
+                    "27009",
+                    "30343",
+                    "12871",
+                    "12786"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.737120509147644,
+                    0.7257087230682373,
+                    0.7218397259712219,
+                    0.717058539390564,
+                    0.7159172296524048,
+                    0.710497260093689,
+                    0.7043646574020386,
+                    0.7022531032562256,
+                    0.7022444009780884,
+                    0.7016867399215698,
+                    0.701358437538147,
+                    0.6995792388916016,
+                    0.6995593905448914,
+                    0.6981858611106873,
+                    0.6972528696060181,
+                    0.6971019506454468,
+                    0.6968851685523987,
+                    0.6967563629150391,
+                    0.6963002681732178,
+                    0.6949150562286377,
+                    0.6935062408447266,
+                    0.6932269334793091,
+                    0.6904239654541016,
+                    0.6898473501205444,
+                    0.6889668703079224,
+                    0.6887755393981934,
+                    0.688448429107666,
+                    0.6880174875259399,
+                    0.6878707408905029,
+                    0.6864195466041565
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "foutains with brick look"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "21662",
+                    "27252",
+                    "33878",
+                    "17206",
+                    "33809",
+                    "30340",
+                    "12296",
+                    "33792",
+                    "36408",
+                    "27001",
+                    "33874",
+                    "30341",
+                    "30342",
+                    "14063",
+                    "33810",
+                    "3983",
+                    "33790",
+                    "33846",
+                    "15095",
+                    "14064",
+                    "15094",
+                    "36405",
+                    "33789",
+                    "12812",
+                    "27258",
+                    "12903",
+                    "27009",
+                    "30343",
+                    "12871",
+                    "12786"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.737120509147644,
+                    0.7257087230682373,
+                    0.7218397259712219,
+                    0.717058539390564,
+                    0.7159172296524048,
+                    0.710497260093689,
+                    0.7043646574020386,
+                    0.7022531032562256,
+                    0.7022444009780884,
+                    0.7016867399215698,
+                    0.701358437538147,
+                    0.6995792388916016,
+                    0.6995593905448914,
+                    0.6981858611106873,
+                    0.6972528696060181,
+                    0.6971019506454468,
+                    0.6968851685523987,
+                    0.6967563629150391,
+                    0.6963002681732178,
+                    0.6949150562286377,
+                    0.6935062408447266,
+                    0.6932269334793091,
+                    0.6904239654541016,
+                    0.6898473501205444,
+                    0.6889668703079224,
+                    0.6887755393981934,
+                    0.688448429107666,
+                    0.6880174875259399,
+                    0.6878707408905029,
+                    0.6864195466041565
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: foutains with brick look\n\nDocuments:\n\n21662: starburst 2 '' x 8 '' ceramic subway tile. brick is a series of matte ceramic wall tiles available in two sizes that offer a modern approach with a palette of rich colors , and variance of shade in the glaze . slightly textured , and soft on the surface , brick is suited to add a touch of flair to any space .\n\n27252: loft series 12 '' x 24 '' porcelain concrete look wall & floor tile. the loft series was originally inspired by the bricks of the ancient city , which can reflect the traces of time . with the prevailing of the loft-style nowadays , dongfeng has perfectly made sparks between industrialization and postmodernist to create the loft series . recommend to use for both interior and exterior , residential , and commercial areas .\n\n33878: cleft 32 '' x 32 '' porcelain floor and wall tile. cleft is a cement-look porcelain collection of tiles that is offered in 3 unique color tones that would effortlessly work within a variety of commercial or residential spaces . various levels of shading create a chic industrial feel that would work well within a variety of settings , from modern to contemporary . create the loft space of your dreams or add a bold urban dynamic to your space with this extremely versatile porcelain series .\n\n17206: brick 2 '' x 10 '' porcelain subway tile. replicate the look of exposed rustic brick , the brick collection is a porcelain tile with the modern and industrial design . perfect for indoor and outdoor floor and wall applications as well as in pools and spas .\n\n33809: forte 32 '' x 32 '' porcelain stone look wall & floor tile. enjoy the distinct look of stained concrete floors with the added durability of porcelain with forte , a bold new series of cement-look porcelain that combines the contemporary look of concrete that has been worn by time with subtle hints of variation . easily adaptable to any d\u00e9cor this series is suitable for residential or commercial applications and is the perfect choice for your next bar , office , or restaurant project .\n\n30340: keyondre 3 '' x 6 '' glass brick look subway tile. these tiles are made from molded glass inspired by the crafted glass production on the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork is distinguished by its smooth finish , clean lines , and beautiful shine .\n\n12296: tribeca 2 '' x 10 '' porcelain brick look wall & floor tile. brick generation is a perfect blend of contemporary style and timeless appeal . where impressively accurate reproduction of the surface and the feel of brick goes together with the strength of porcelain stoneware . a brand representing the absolute quality of products inspired by the craftsmanship of experienced artisans .\n\n33792: ryan 9 '' x 46 '' porcelain wood look tile. evoking memories of mores by the campfire on a crisp autumn evening , the ryan collection is inspired by the freedom of the great outdoors . designed to perfectly replicate the distressed characteristics of timeworn , this wood-look porcelain series is a natural choice for those seeking to add some rustic charm to their space .\n\n36408: brick 3 '' x 12 '' porcelain subway tile in ice. this brick 3 '' x 12 '' porcelain subway tile in ice range of handcrafted wall tiles with an undulated surface portrays a trendy combination of modern fashion and old metropolitan style . the color palette coordinates with the brick 3 '' x 12 '' porcelain subway tile in ice floors and in combination creates a look that will be unique to you and make your friends wish they had your design sense .\n\n27001: pillowed brick 3 '' x 6 '' glass mosaic tile in glossy gray. nan\n\n33874: thunderstruck 4 '' x 12 '' porcelain concrete look subway wall & floor tile. welcome to your next design project ; a functional , yet stylish italian-made fabric look tile collection . with a refined woven appearance , these fabric look tiles welcome a warming ambiance into any space . a full program made of 4 industrial chic color palettes that will create a sense of depth and richness , each tile is a perfect match for living room floors or entryways that crave a simple twist on tradition .\n\n30341: keyondria 3 '' x 12 '' glass brick look subway tile. these tiles are made from clear and transparent low-iron molded glass inspired by the crafted glass production in the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork is distinguished by its smooth finish , clean lines , and beautiful shine . the back of the glass tile is coated with the desired pigment ( s ) and a white protective coating is visible from the back of the tile . the multi-layered protective coating is fired with the tile and ensures that thin-set mortars will not be visible after installation . pigments & glass are made from natural minerals and as such the firing process will cause slight variations in shade & size .\n\n30342: brendon 3 '' x 12 '' glass brick look subway tile. these tiles are made from molded glass inspired by the crafted glass production in the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork is distinguished by its sleek finish , clean lines , and beautiful shine .\n\n14063: brick 2 '' x 8 '' cement subway tile. faceables thin bricks . create captivating spaces and add value to your property . fully using the highest quality raw materials and exceptional craftsmanship . roughly 0.5\u2033 in thickness . distressed look . top-of-the-line brick veneering for walls .\n\n33810: rizo 24 '' x 24 '' porcelain wall & floor tile. featuring the rugged yet refined characteristics of weathered cement , the product is their newest next-generation porcelain series that is sure to make a splash in the industry . presented in a durable porcelain plank format , it exudes the same industrialized visual appeal of timeworn cement .\n\n3983: rebel 12 '' x 24 '' porcelain field tile. add a vintage feel to your space with this tile . crafted in italy , this durable , easy to maintain , commercial-grade , glazed color body porcelain features a field tile . its pre-distressed look is achieved with inkjet technology instead of traditional wear and tear . perfect for indoor/outdoor residential and commercial use and for walls , shower walls , countertops , pools , and indoor flooring . ul greenguard certified for low chemical emissions .\n\n33790: appaloosa 8 '' x 10 '' porcelain stone look wall & floor tile. look to the past for some present-day inspiration . the appaloosa porcelain floor tile in genova combines the visual characteristics of antiquated brick with the durability of porcelain for a tile collection that is both timeless and enduring . appaloosa affords designers and discerning homeowners alike numerous options and opportunities to spice up their space .\n\n33846: ritsos 12 '' x 24 '' porcelain field tile. ritsos takes inspiration from industrial urban cities , emulating the intricacies and characteristics of concrete and presents them in a durable , easy to maintain porcelain format . this unique cement-look series is suitable for commercial or residential applications and is the ideal choice for bringing the gritty , rugged visual aesthetic of urban architecture indoors . available in 12x24 and mosaic formats .\n\n15095: mood 12 '' x 23 '' porcelain stone look wall & floor tile. it is reminiscent of the quartzite stone from vals , in the canton of the grisons , switzerland , translated into a durable porcelain tile . offered in large scale format and trendy hues , it is designed for those who want to surround themselves with natural beauty . a complimentary river stone companion tile and offset mosaic round out the line to make a truly stunning statement in any setting .\n\n14064: brick 3 '' x 8 '' cement subway tile. faceables thin bricks . create captivating spaces and add value to your property . fully using the highest quality raw materials and exceptional craftsmanship . roughly 0.5\u2033 in thickness . distressed look . top-of-the-line brick veneering for walls .\n\n15094: mood 24 '' x 47 '' porcelain stone look wall & floor tile. it is reminiscent of the quartzite stone from vals , in the canton of the grisons , switzerland , translated into a durable porcelain tile . offered in large scale format and trendy hues , it is designed for those who want to surround themselves with natural beauty . a complimentary river stone companion tile and offset mosaic round out the line to make a truly stunning statement in any setting .\n\n36405: brick one 3 '' x 12 '' porcelain subway stone look wall & floor tile. this tile brings an old world feel to any application .\n\n33789: appaloosa 7 '' x 7 '' porcelain stone wall and floor tile. look to the past for some present-day inspiration . the appaloosa porcelain field tile in genova combines the visual characteristics of antiquated brick with the durability of porcelain for a tile collection that is both timeless and enduring . appaloosa affords designers and discerning homeowners alike numerous options and opportunities to spice up their space .\n\n12812: faventie 13 '' x 13 '' ceramic wall & floor tile. it is easy to picture the sun-drenched streets of spain when looking at our faenza series 13 '' x 13 '' ceramic patterned wall & floor tile . save time and labor spent arranging smaller square tiles and instead install these durable ceramic slabs , which have nine squares separated by scored grout lines . this breathtaking blue glaze features a collection of encaustic-inspired designs . imitations of the scuffs and spots that are the marks of well-loved , worn , century-old tile and the rich red tones peeking through are the perfect contrast to the faded shades of denim blue . these rustic scuffs and spots convince that this tile is truly aged . there are 3 different variations of scuffs and pattern arrangements available that are randomly scattered throughout each case , offering a sporadic patchwork look . designed by interior architect and furniture designer francisco segarra , this tile is a true reflection of vintage industrial design . the scored grout lines can be grouted with the color of your choice to further customize your installation . bring rustic charm to your interior with this easy-to-maintain look .\n\n27258: brick random sized 0.6 '' x 1 '' mosaic tile. this product provides the look of stainless steel metal mosaic tiles but with added texture and durability . the leaf shape brushed aluminum finish gives a unique modern aesthetic while the extruded structure of the tiles provides superior durability and support once installed . if you are considering tiles for your kitchen or bathroom backsplash or perhaps for an accent wall then you should seriously consider theirs .\n\n12903: relic 11 '' x 13 '' porcelain field tile. our d'anticatto hex bianco 11 in . x 12-5/8 in . porcelain floor and wall tile radiates rustic charm . mimicking a worn cement appearance , this porcelain hexagon tile is a subtle statement piece created by faded shades of beige , grey and white . with rust colored accents and realistic imitations of scuffs and spots , this encaustic inspired tile evokes a loved , worn and century-old appearance . available in twenty-six print variations that are randomly scattered throughout each case , the variation throughout each tile mimics an authentic aged appearance . its impervious , frost-resistant and highly durable features make this tile and ideal choice for both indoor and outdoor commercial and residential installations including , backsplashes , kitchens , bathrooms , showers , entryways and patios . this tile is a perfect choice on its own or paired with other products in the d'anticatto collection . tile is the better choice for your space . this tile is made from natural ingredients , making it a healthy choice as it is free from allergens , vocs , formaldehyde and pvc .\n\n27009: brick 2 '' x 4 '' ceramic mosaic tile in glossy white. nan\n\n30343: kelvin 3 '' x 12 '' glass brick look subway tile. these tiles are made from molded glass inspired by the crafted glass production in the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork blends well with other colors and is distinguished by its smooth finish , clean lines , and beautiful shine .\n\n12871: shale 13 '' x 13 '' ceramic patterned wall & floor tile. the klinker 12-3/4 in . x 12-3/4 in . ceramic floor and wall quarry tile captures the authenticity of age-old tile making with modern technology . this glazed natural quarry tile has rustic , old-world floral patterns in shades of beautiful , soothing teals and goldenrod . the design features random scuffs throughout , convincing that this piece is truly aged . this extruded tile is manufactured in spain and is safe for heavy-duty interior and exterior locations , including patios , showroom floors and kitchens . this tile offers frost resistance and water resistance , making it a great choice for your outdoor space . as the first and only distributor in the united states to carry products from this factory , you are guaranteed to have a unique space .\n\n12786: czar klinker rose 13 '' x 13 '' straight edge ceramic wall & floor tile. our tile radiates old-world european elegance . this glazed natural quarry tile has floral patterns in shades of beautiful , soothing blues . imitations of scuffs and spots that are the marks of well-loved , worn , century-old tile bring rustic charm to your interior . available in four print variations that are randomly scattered throughout each case , the variation throughout each tile mimics an authentic aged appearance . this extruded tile is manufactured in spain and is safe for heavy-duty interior and exterior locations , including patios , showroom floors , and kitchens . this tile offers frost resistance and water resistance , making it a great choice for your outdoor space . as the first and only distributor in the united states to carry products from this factory , you are guaranteed to have a unique space . tile is the better choice for your space . this tile is made from natural ingredients , making it a healthy choice as it is free from allergens , vocs , formaldehyde and pvc .\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"17206\", \"12296\", \"36408\", \"30340\", \"30341\", \"30342\", \"30343\", \"14063\", \"14064\", \"27258\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "17206",
+                "12296",
+                "36408",
+                "30340",
+                "30341",
+                "30342",
+                "30343",
+                "14063",
+                "14064",
+                "27258"
+            ]
+        },
+        {
+            "queries": [
+                "foutains with brick look"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "21662",
+                    "27252",
+                    "33878",
+                    "17206",
+                    "33809",
+                    "30340",
+                    "12296",
+                    "33792",
+                    "36408",
+                    "27001",
+                    "33874",
+                    "30341",
+                    "30342",
+                    "14063",
+                    "33810",
+                    "3983",
+                    "33790",
+                    "33846",
+                    "15095",
+                    "14064",
+                    "15094",
+                    "36405",
+                    "33789",
+                    "12812",
+                    "27258",
+                    "12903",
+                    "27009",
+                    "30343",
+                    "12871",
+                    "12786"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.737120509147644,
+                    0.7257087230682373,
+                    0.7218397259712219,
+                    0.717058539390564,
+                    0.7159172296524048,
+                    0.710497260093689,
+                    0.7043646574020386,
+                    0.7022531032562256,
+                    0.7022444009780884,
+                    0.7016867399215698,
+                    0.701358437538147,
+                    0.6995792388916016,
+                    0.6995593905448914,
+                    0.6981858611106873,
+                    0.6972528696060181,
+                    0.6971019506454468,
+                    0.6968851685523987,
+                    0.6967563629150391,
+                    0.6963002681732178,
+                    0.6949150562286377,
+                    0.6935062408447266,
+                    0.6932269334793091,
+                    0.6904239654541016,
+                    0.6898473501205444,
+                    0.6889668703079224,
+                    0.6887755393981934,
+                    0.688448429107666,
+                    0.6880174875259399,
+                    0.6878707408905029,
+                    0.6864195466041565
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: foutains with brick look\n\nDocuments:\n\n21662: starburst 2 '' x 8 '' ceramic subway tile. brick is a series of matte ceramic wall tiles available in two sizes that offer a modern approach with a palette of rich colors , and variance of shade in the glaze . slightly textured , and soft on the surface , brick is suited to add a touch of flair to any space .\n\n27252: loft series 12 '' x 24 '' porcelain concrete look wall & floor tile. the loft series was originally inspired by the bricks of the ancient city , which can reflect the traces of time . with the prevailing of the loft-style nowadays , dongfeng has perfectly made sparks between industrialization and postmodernist to create the loft series . recommend to use for both interior and exterior , residential , and commercial areas .\n\n33878: cleft 32 '' x 32 '' porcelain floor and wall tile. cleft is a cement-look porcelain collection of tiles that is offered in 3 unique color tones that would effortlessly work within a variety of commercial or residential spaces . various levels of shading create a chic industrial feel that would work well within a variety of settings , from modern to contemporary . create the loft space of your dreams or add a bold urban dynamic to your space with this extremely versatile porcelain series .\n\n17206: brick 2 '' x 10 '' porcelain subway tile. replicate the look of exposed rustic brick , the brick collection is a porcelain tile with the modern and industrial design . perfect for indoor and outdoor floor and wall applications as well as in pools and spas .\n\n33809: forte 32 '' x 32 '' porcelain stone look wall & floor tile. enjoy the distinct look of stained concrete floors with the added durability of porcelain with forte , a bold new series of cement-look porcelain that combines the contemporary look of concrete that has been worn by time with subtle hints of variation . easily adaptable to any d\u00e9cor this series is suitable for residential or commercial applications and is the perfect choice for your next bar , office , or restaurant project .\n\n30340: keyondre 3 '' x 6 '' glass brick look subway tile. these tiles are made from molded glass inspired by the crafted glass production on the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork is distinguished by its smooth finish , clean lines , and beautiful shine .\n\n12296: tribeca 2 '' x 10 '' porcelain brick look wall & floor tile. brick generation is a perfect blend of contemporary style and timeless appeal . where impressively accurate reproduction of the surface and the feel of brick goes together with the strength of porcelain stoneware . a brand representing the absolute quality of products inspired by the craftsmanship of experienced artisans .\n\n33792: ryan 9 '' x 46 '' porcelain wood look tile. evoking memories of mores by the campfire on a crisp autumn evening , the ryan collection is inspired by the freedom of the great outdoors . designed to perfectly replicate the distressed characteristics of timeworn , this wood-look porcelain series is a natural choice for those seeking to add some rustic charm to their space .\n\n36408: brick 3 '' x 12 '' porcelain subway tile in ice. this brick 3 '' x 12 '' porcelain subway tile in ice range of handcrafted wall tiles with an undulated surface portrays a trendy combination of modern fashion and old metropolitan style . the color palette coordinates with the brick 3 '' x 12 '' porcelain subway tile in ice floors and in combination creates a look that will be unique to you and make your friends wish they had your design sense .\n\n27001: pillowed brick 3 '' x 6 '' glass mosaic tile in glossy gray. nan\n\n33874: thunderstruck 4 '' x 12 '' porcelain concrete look subway wall & floor tile. welcome to your next design project ; a functional , yet stylish italian-made fabric look tile collection . with a refined woven appearance , these fabric look tiles welcome a warming ambiance into any space . a full program made of 4 industrial chic color palettes that will create a sense of depth and richness , each tile is a perfect match for living room floors or entryways that crave a simple twist on tradition .\n\n30341: keyondria 3 '' x 12 '' glass brick look subway tile. these tiles are made from clear and transparent low-iron molded glass inspired by the crafted glass production in the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork is distinguished by its smooth finish , clean lines , and beautiful shine . the back of the glass tile is coated with the desired pigment ( s ) and a white protective coating is visible from the back of the tile . the multi-layered protective coating is fired with the tile and ensures that thin-set mortars will not be visible after installation . pigments & glass are made from natural minerals and as such the firing process will cause slight variations in shade & size .\n\n30342: brendon 3 '' x 12 '' glass brick look subway tile. these tiles are made from molded glass inspired by the crafted glass production in the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork is distinguished by its sleek finish , clean lines , and beautiful shine .\n\n14063: brick 2 '' x 8 '' cement subway tile. faceables thin bricks . create captivating spaces and add value to your property . fully using the highest quality raw materials and exceptional craftsmanship . roughly 0.5\u2033 in thickness . distressed look . top-of-the-line brick veneering for walls .\n\n33810: rizo 24 '' x 24 '' porcelain wall & floor tile. featuring the rugged yet refined characteristics of weathered cement , the product is their newest next-generation porcelain series that is sure to make a splash in the industry . presented in a durable porcelain plank format , it exudes the same industrialized visual appeal of timeworn cement .\n\n3983: rebel 12 '' x 24 '' porcelain field tile. add a vintage feel to your space with this tile . crafted in italy , this durable , easy to maintain , commercial-grade , glazed color body porcelain features a field tile . its pre-distressed look is achieved with inkjet technology instead of traditional wear and tear . perfect for indoor/outdoor residential and commercial use and for walls , shower walls , countertops , pools , and indoor flooring . ul greenguard certified for low chemical emissions .\n\n33790: appaloosa 8 '' x 10 '' porcelain stone look wall & floor tile. look to the past for some present-day inspiration . the appaloosa porcelain floor tile in genova combines the visual characteristics of antiquated brick with the durability of porcelain for a tile collection that is both timeless and enduring . appaloosa affords designers and discerning homeowners alike numerous options and opportunities to spice up their space .\n\n33846: ritsos 12 '' x 24 '' porcelain field tile. ritsos takes inspiration from industrial urban cities , emulating the intricacies and characteristics of concrete and presents them in a durable , easy to maintain porcelain format . this unique cement-look series is suitable for commercial or residential applications and is the ideal choice for bringing the gritty , rugged visual aesthetic of urban architecture indoors . available in 12x24 and mosaic formats .\n\n15095: mood 12 '' x 23 '' porcelain stone look wall & floor tile. it is reminiscent of the quartzite stone from vals , in the canton of the grisons , switzerland , translated into a durable porcelain tile . offered in large scale format and trendy hues , it is designed for those who want to surround themselves with natural beauty . a complimentary river stone companion tile and offset mosaic round out the line to make a truly stunning statement in any setting .\n\n14064: brick 3 '' x 8 '' cement subway tile. faceables thin bricks . create captivating spaces and add value to your property . fully using the highest quality raw materials and exceptional craftsmanship . roughly 0.5\u2033 in thickness . distressed look . top-of-the-line brick veneering for walls .\n\n15094: mood 24 '' x 47 '' porcelain stone look wall & floor tile. it is reminiscent of the quartzite stone from vals , in the canton of the grisons , switzerland , translated into a durable porcelain tile . offered in large scale format and trendy hues , it is designed for those who want to surround themselves with natural beauty . a complimentary river stone companion tile and offset mosaic round out the line to make a truly stunning statement in any setting .\n\n36405: brick one 3 '' x 12 '' porcelain subway stone look wall & floor tile. this tile brings an old world feel to any application .\n\n33789: appaloosa 7 '' x 7 '' porcelain stone wall and floor tile. look to the past for some present-day inspiration . the appaloosa porcelain field tile in genova combines the visual characteristics of antiquated brick with the durability of porcelain for a tile collection that is both timeless and enduring . appaloosa affords designers and discerning homeowners alike numerous options and opportunities to spice up their space .\n\n12812: faventie 13 '' x 13 '' ceramic wall & floor tile. it is easy to picture the sun-drenched streets of spain when looking at our faenza series 13 '' x 13 '' ceramic patterned wall & floor tile . save time and labor spent arranging smaller square tiles and instead install these durable ceramic slabs , which have nine squares separated by scored grout lines . this breathtaking blue glaze features a collection of encaustic-inspired designs . imitations of the scuffs and spots that are the marks of well-loved , worn , century-old tile and the rich red tones peeking through are the perfect contrast to the faded shades of denim blue . these rustic scuffs and spots convince that this tile is truly aged . there are 3 different variations of scuffs and pattern arrangements available that are randomly scattered throughout each case , offering a sporadic patchwork look . designed by interior architect and furniture designer francisco segarra , this tile is a true reflection of vintage industrial design . the scored grout lines can be grouted with the color of your choice to further customize your installation . bring rustic charm to your interior with this easy-to-maintain look .\n\n27258: brick random sized 0.6 '' x 1 '' mosaic tile. this product provides the look of stainless steel metal mosaic tiles but with added texture and durability . the leaf shape brushed aluminum finish gives a unique modern aesthetic while the extruded structure of the tiles provides superior durability and support once installed . if you are considering tiles for your kitchen or bathroom backsplash or perhaps for an accent wall then you should seriously consider theirs .\n\n12903: relic 11 '' x 13 '' porcelain field tile. our d'anticatto hex bianco 11 in . x 12-5/8 in . porcelain floor and wall tile radiates rustic charm . mimicking a worn cement appearance , this porcelain hexagon tile is a subtle statement piece created by faded shades of beige , grey and white . with rust colored accents and realistic imitations of scuffs and spots , this encaustic inspired tile evokes a loved , worn and century-old appearance . available in twenty-six print variations that are randomly scattered throughout each case , the variation throughout each tile mimics an authentic aged appearance . its impervious , frost-resistant and highly durable features make this tile and ideal choice for both indoor and outdoor commercial and residential installations including , backsplashes , kitchens , bathrooms , showers , entryways and patios . this tile is a perfect choice on its own or paired with other products in the d'anticatto collection . tile is the better choice for your space . this tile is made from natural ingredients , making it a healthy choice as it is free from allergens , vocs , formaldehyde and pvc .\n\n27009: brick 2 '' x 4 '' ceramic mosaic tile in glossy white. nan\n\n30343: kelvin 3 '' x 12 '' glass brick look subway tile. these tiles are made from molded glass inspired by the crafted glass production in the italian island of murano . whether using a brick pattern or straight stacked application , they will complement any kitchen , bath , office , living space , or pool . this stunning and unique glasswork blends well with other colors and is distinguished by its smooth finish , clean lines , and beautiful shine .\n\n12871: shale 13 '' x 13 '' ceramic patterned wall & floor tile. the klinker 12-3/4 in . x 12-3/4 in . ceramic floor and wall quarry tile captures the authenticity of age-old tile making with modern technology . this glazed natural quarry tile has rustic , old-world floral patterns in shades of beautiful , soothing teals and goldenrod . the design features random scuffs throughout , convincing that this piece is truly aged . this extruded tile is manufactured in spain and is safe for heavy-duty interior and exterior locations , including patios , showroom floors and kitchens . this tile offers frost resistance and water resistance , making it a great choice for your outdoor space . as the first and only distributor in the united states to carry products from this factory , you are guaranteed to have a unique space .\n\n12786: czar klinker rose 13 '' x 13 '' straight edge ceramic wall & floor tile. our tile radiates old-world european elegance . this glazed natural quarry tile has floral patterns in shades of beautiful , soothing blues . imitations of scuffs and spots that are the marks of well-loved , worn , century-old tile bring rustic charm to your interior . available in four print variations that are randomly scattered throughout each case , the variation throughout each tile mimics an authentic aged appearance . this extruded tile is manufactured in spain and is safe for heavy-duty interior and exterior locations , including patios , showroom floors , and kitchens . this tile offers frost resistance and water resistance , making it a great choice for your outdoor space . as the first and only distributor in the united states to carry products from this factory , you are guaranteed to have a unique space . tile is the better choice for your space . this tile is made from natural ingredients , making it a healthy choice as it is free from allergens , vocs , formaldehyde and pvc .\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"17206\", \"12296\", \"36408\", \"30340\", \"30341\", \"30342\", \"30343\", \"14063\", \"14064\", \"27258\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "17206",
+                "12296",
+                "36408",
+                "30340",
+                "30341",
+                "30342",
+                "30343",
+                "14063",
+                "14064",
+                "27258"
+            ],
+            "terminate": true
+        }
+    ]
+}

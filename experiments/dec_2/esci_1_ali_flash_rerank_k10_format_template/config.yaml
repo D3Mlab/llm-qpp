@@ -28,8 +28,8 @@ knn:
 rerank:
   k: 10
 llm:
-  model_class: GeminiLLM # OpenAILLM #GeminiLLM 
-  model_name:  gemini-1.5-flash #gpt-4o-mini #gemini-1.5-flash #gpt-4o
+  model_class: OpenAILLM #GeminiLLM # OpenAILLM #GeminiLLM 
+  model_name:  gpt-4o #gemini-1.5-flash #gpt-4o-mini #gemini-1.5-flash #gpt-4o
   template_dir: templates
 templates:
   post_retrieval_reformulation: post_r_reform/expand_best_and_query_hist.jinja2

@@ -1,6 +1,9 @@
 .env
 .ipynb_checkpoints/
 
+#embedding pkls
+*.pkl
+
 *__pycache__
 images/
 slurm_outputs/

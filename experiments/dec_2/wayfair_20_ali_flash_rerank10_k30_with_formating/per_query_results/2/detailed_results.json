@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "dinosaur"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "36619",
+            "36633",
+            "3276",
+            "10561",
+            "38628",
+            "36621",
+            "3756",
+            "36645",
+            "3754",
+            "36620",
+            "36632",
+            "34734",
+            "39310",
+            "830",
+            "36533",
+            "37068",
+            "36628",
+            "36672",
+            "34948",
+            "19956",
+            "11074",
+            "36631",
+            "10552",
+            "42530",
+            "10505",
+            "10547",
+            "13520",
+            "30321",
+            "4205",
+            "35711"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7288928031921387,
+            0.7280063033103943,
+            0.7273521423339844,
+            0.7193797826766968,
+            0.7142761945724487,
+            0.7141580581665039,
+            0.7122164964675903,
+            0.7105100154876709,
+            0.7095788717269897,
+            0.7082895040512085,
+            0.7030513286590576,
+            0.7021344900131226,
+            0.7017927765846252,
+            0.7005648612976074,
+            0.6978649497032166,
+            0.695135235786438,
+            0.6946808099746704,
+            0.6936473250389099,
+            0.6902780532836914,
+            0.6894941329956055,
+            0.6855621933937073,
+            0.6851783394813538,
+            0.6848218441009521,
+            0.6845704317092896,
+            0.6842951774597168,
+            0.6829856038093567,
+            0.6825575828552246,
+            0.681817352771759,
+            0.6817746162414551,
+            0.6814268231391907
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: dinosaur\n\nDocuments:\n\n36619: scaled jurassic t-rex raptor dinosaur statue. this jurassic-sized t-rex dinosaur statue promises to prowl your flowerbed with deadly impact ! realistically sculpted with prehistoric precision , with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing prehistoric color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as t-rex statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n36633: bad to the bone , jurassic t-rex raptor dinosaur statue. unearth design toscano very own raptor with this jurassic age dinosaur sculpture sure to shock and awe garden visitors as they discover an archaeological gem hidden right in design toscano flower bed . be design toscano very own back yard archaeologist with this sun-bleached discovery from the mesozoic era ! stretching nearly two feet long , this design toscano quality designer resin statue replicates the weathered bones of a extinct prehistoric monster that once roamed the earth . visitors will admire design toscano creative garden style as design toscano boney t-rex sculpture makes a mesozoic statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n3276: dinosaur cardboard standup. this is a life-size cardboard standup of a dinosaur t-rex . easy to set up , it features a single-sided high-quality print on cardboard with an easel on the back so it can stand on its own . it features a hole in the mouth so you can stand behind it and take pictures , cutouts make great decor for parties , photo ops , and events .\n\n10561: a spinosaurus dinosaur attacking snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n38628: dinosaur skull with base. nan\n\n36621: scaled jurassic pterodactyl dinosaur statue. realistically sculpted with prehistoric precision , this replica pterodactyl dinosaur sculpture easily belongs in a class all on its own ! pterodactyl shook the scientific world up as the first designated flying reptile . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as this pterodactyl statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n3756: duggins brontosaurus dinosaur coffee mug. give an adorable and humorous gift that both kids and adults can enjoy with this brontosaurus cartoon ceramic dinosaur mug . its neck is the cradle , and the rest is adorned with yellow spots and a deep green glazed finish . use this mug to serve coffee and tea , or use it as a novelty container for storing office supplies or small household items . give this a humorous gift to a friend or loved one , or keep it to yourself to enjoy .\n\n36645: velociraptor scaled dinosaur statue. this scaled jurassic velociraptor dinosaur statue promises to prowl your flowerbed with impact ! realistically sculpted with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture . visitors will admire your creative garden style as design toscano menacing velociraptor sculpture makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture !\n\n3754: dugger 3-d dinosaur design coffee mug. do n't miss this opportunity to add awesome dinosaur fun and charm to your daily coffee ( or other preferred drink ) routine . this mug boasts a 3-d ceramic design of a dinosaur with protruding head , arms , and legs . the handle doubles as the dinosaur 's tail . you wo n't be able to drink coffee or anything else without smiling with this novelty dinosaur mug . whether you give it as a gift to some lucky friend or keep it for yourself , this mug will bring dinosaur whimsy and humor to any occasion or purpose it 's used for .\n\n36620: scaled jurassic brachiosaurus dinosaur statue. realistically sculpted with prehistoric precision , this replica brachiosaurus dinosaur sculpture easily belongs in a class all on its own ! named the `` arm lizard '' for its front legs were longer than the hind legs , the design toscano brachiosaurus statue echoes its heritage as one of the world 's largest and oldest herbivore ( a full-grown brachiosaurus may well have reached the century mark ) . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as the brachiosaurus statue makes a mesozoic statement ! another quality design toscano-exclusive dinosaur sculpture !\n\n36632: scaled jurassic triceratops dinosaur statue. this jurassic vegetarian had a skull so large that it took up a third of its entire body ! realistically sculpted with three horns and backward-pointing frill , it 's sure to shock and awe garden visitors as they discover a prehistoric gem patrolling design toscano flower bed . design toscano design toscano prehistoric replica triceratops dinosaur sculpture is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire design toscano creative prehistoric garden style as design toscano triceratops sculpture makes a late cretaceous statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n34734: tyrannosaurus standup. decorate your dinosaur themed party with the tyrannosaurus standup . combined with additional decor to complete the look .\n\n39310: lifelike dinosaur wall decal. the jurassic age is here ! these realistic and beautifully painted peel and stick dinosaurs will plunge your room back into a time when these impressive animals walked the earth ! great for classrooms too . set includes a total of 16 decals .\n\n830: selenopeltis trilobite. trilobites , an early arthropod relative of spiders , horseshoe crabs , and scorpions , preserved in this level of detail only occurred as a result of very sudden underwater landslides called turbidite sequences , which ravaged the early earth when the continents were still very much on the move . the contorted body positions of the trilobites demonstrate a final fight against being buried alive . this is an extremely ornamented member of the trilobites ' extremely well-known and globally distributed lichid family . these trilobites have adapted for extreme defensiveness . their long genal appendages afford them controlled escape from the water column , and they used them to sink to the ocean floor mimicking falling debris to escape predators . the stalked eyes , which evolved several separate times in the trilobite lineage , afforded greater lookout ability through they still maintain their compound lenses .\n\n36533: baby raptor dino egg statue. he 's practically dino-sized at birth because design toscano mighty baby dinosaur hatchling emerges from his oversized egg . design toscano exclusive , eoraptor dinosaur sculpture is cast in quality designer resin and hand-painted one dinosaur egg at a time in naturalistic hues to capture each prehistoric detail from curved two-tone neck to adorable pointed dinosaur tail . design toscano jurassic baby beast is perfect hatching in the garden or given as an eggceptional prehistoric gift for any dinosaur lover .\n\n37068: alvie dinosaur skeleton for boys room t-rex skeleton wall decal. this wall decal is uniquely designed , digitally printed and contour cut for easy application . great for apartments and dorms and makes a great addition to any room in your home or office . it will enhance the look and feel of just about any room in your home or office .\n\n36628: scaled triceratops dinosaur wall d\u00e9cor. design toscano fierce triceratops 's head extends in a prehistoric display of nature 's artwork . realistically sculpted with three horns and backward-pointing frill , used as defensive weapons against late cretaceous predators , triceratops was well equipped to fight the jurassic-sized t. rex . design toscano scaled , prehistoric replica dinosaur wall trophy is cast in quality designer resin , reinforced for supreme strength with fiberglass and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . includes custom-designed , heavy duty mounting bracket to hold it securely on your wall . design toscano-exclusive display-quality dinosaur sculpture transforms any home , restaurant or hotel into something truly magnificent ! another breathtaking dinosaur statue from toscano !\n\n36672: triceratops decorative dinosaur wall hook. straight from the jurassic era , right to your home , this triceratops decorative dinosaur wall hook will add excitement to any decor . sand-cast in foundry iron using an age old four step method , their triceratops - meaning : three horned face - will make sure that you never forget to hang up your coat again . visitors will admire your innovative design sense as you welcome guests into your entry , office or child 's room , with their weighty and functional version of this noble prehistoric species . merge art and function , display alone or in a grouping of their other cast iron dinosaur wall hooks . hardware not included .\n\n34948: brontosaurus night light. light up your room with this nightlight of pre-historic proportions . the age of dinosaurs lives on with these glowing creatures that inspire dreams of another time !\n\n19956: paleontologist street sign dinosaur fossil bone prehistoric paleontology. get a fun novelty street sign for your home and office and show off your sense of humor . looking for a fun , hilarious novelty sign to hang on your cubicle or in your \u201c man cave \u201d ? if so , sign mission has all the cute , funny , hilarious , and even work-related novelty signs you \u2019 re looking for ! something for everyone we \u2019 ve got a wide range of american-made signs just like this sign that will tickle your funny bone , make others smile , or even show off your snarky attitude . made to last made from a special plastic designed to hold up to a beating , this sign can bend without breaking and will never chip or crack , the colorful lettering will last a lifetime indoors and up to 4 years in the sun for outdoor use .\n\n11074: maney watercolor dinosaurs jurassic wall sticker. reusable , repositionable , and removable \u2013 these wall decal stickers are surface safe , removable , and repositionable , so you can use them in any space and move them around whenever you want to . they work on most smooth and clean surfaces such as walls , doors , windows , closets , and bathroom walls and tubs . decorative and versatility \u2013 these stickers are perfect for home decorations . they can be used in a child \u2019 s bedroom , nursery , playroom , living room , and are also ideal for public areas that kids would go such as the library , activity room , doctor \u2019 s office , dental office , preschools , daycare centers , church , classrooms and more . they can also be used as kids ' birthday gifts , party decorations supplies , party favors , festival gifts , and christmas gifts . designs \u2013 this nursery wall decals set was designed by our seasoned designer in paris to spruce up your space and boost kids early learning . the set is full of cute jurassic dinosuars such as t-rex , spinosaurus , diplodocus , as well as trees , volcanoes , and bones to instantly bring a boring wall to life . quick and easy application \u2013 the stickers are pre-cut individually . you can easily apply them to any plain wall or flat surface instantly . when you need to remove them they simply peel away without leaving any marks or residue . they also create a fun project to decorate a space with your little one and spend quality family time together . quality and size \u2013 the set is made of premium vinyl material and printed with non-toxic and environmentally friendly ink . it has passed sgs inspection and is safe to use in any space .\n\n36631: baby tyrannosaurus rex dino egg sculpture. watch out , he bites ! design toscano mighty baby dinosaur hatchling emerges from his oversized egg with tiny teeth ready to tear up the modern world ! design toscano exclusive dinosaur sculpture is cast in quality designer resin and hand-painted one dinosaur piece at a time in naturalistic hues to capture each prehistoric detail from scaly reptile skin to textured dinosaur egg . design toscano jurassic baby beast is perfect hatching in the garden or given as a treasured prehistoric gift for any dinosaur lover !\n\n10552: dinosaur brachiosaurus holiday shaped ornament. this ornament is a perfect addition to your tree or as a window decoration . it is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides ; measures 3 '' . a strand of gold string makes it easy hanging this fantastic keepsake .\n\n42530: doyden dinosaur metal personalized decorative plaque. nan\n\n10505: triceratops dinosaur 1-gang toggle light switch wall plate. this toggle light switch is made of durable scratch resistant metal that will not fade , chip or peel . featuring a high gloss finish , along with matching screws makes this cover the perfect finishing touch .\n\n10547: dinosaurs holiday shaped ornament. this ornament is a perfect addition to your tree or as a window decoration . it is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides ; measures 3 '' . a strand of gold string makes it easy hanging this fantastic keepsake .\n\n13520: rawr i \u2019 m a dinosaur throw pillow. decorative pillow \u2013 designed by leah flores for our exclusive collection of decorative throw pillows and accent cushions .\n\n30321: dinosaurs and volcano wall decal. bring the excitement and imagination of prehistoric times right to your wall with this dinosaur wall decal ! this large , single-panel decal allows you to enjoy a mural look without any seams .\n\n4205: 1 1/2 '' length styracosaurus dinosaur knob. this styracosaurus dinosaur novelty knob gives your home a rustic style that brings out the natural beauty in its details . it 's great for people who love the outdoors . bring a little nature into your home .\n\n35711: dinosaur kingdom growth chart. watch your child grow to be as tall as an apatosaurus with fantasy fields ' dinosaur growth chart . earthy green trees line the top of the chart , while a happy , blue apatosaurus \u2019 body and neck , make up the length of the chart , making measuring height fun . your child will be excited to see how much they have grown when comparing their height to that of a dinosaur . no assembly required . perfect for all ages . each piece is carefully carved and painted by hand , with the kind of quality finish that \u2019 s hard to match . it \u2019 s what they pride ourselves on and will always continue to do so , as well as a passion for creating new and intriguing designs that set the scene for playtime . they have spent many years learning what makes a child happy and perfecting the balance of what they find appealing for the most exciting play , whilst looking beautiful in your home .\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"36619\", \"36633\", \"3276\", \"36621\", \"36645\", \"36620\", \"36632\", \"36631\", \"34734\", \"36533\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "36619",
+        "36633",
+        "3276",
+        "36621",
+        "36645",
+        "36620",
+        "36632",
+        "36631",
+        "34734",
+        "36533"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "dinosaur"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "dinosaur"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "36619",
+                    "36633",
+                    "3276",
+                    "10561",
+                    "38628",
+                    "36621",
+                    "3756",
+                    "36645",
+                    "3754",
+                    "36620",
+                    "36632",
+                    "34734",
+                    "39310",
+                    "830",
+                    "36533",
+                    "37068",
+                    "36628",
+                    "36672",
+                    "34948",
+                    "19956",
+                    "11074",
+                    "36631",
+                    "10552",
+                    "42530",
+                    "10505",
+                    "10547",
+                    "13520",
+                    "30321",
+                    "4205",
+                    "35711"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7288928031921387,
+                    0.7280063033103943,
+                    0.7273521423339844,
+                    0.7193797826766968,
+                    0.7142761945724487,
+                    0.7141580581665039,
+                    0.7122164964675903,
+                    0.7105100154876709,
+                    0.7095788717269897,
+                    0.7082895040512085,
+                    0.7030513286590576,
+                    0.7021344900131226,
+                    0.7017927765846252,
+                    0.7005648612976074,
+                    0.6978649497032166,
+                    0.695135235786438,
+                    0.6946808099746704,
+                    0.6936473250389099,
+                    0.6902780532836914,
+                    0.6894941329956055,
+                    0.6855621933937073,
+                    0.6851783394813538,
+                    0.6848218441009521,
+                    0.6845704317092896,
+                    0.6842951774597168,
+                    0.6829856038093567,
+                    0.6825575828552246,
+                    0.681817352771759,
+                    0.6817746162414551,
+                    0.6814268231391907
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "dinosaur"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "36619",
+                    "36633",
+                    "3276",
+                    "10561",
+                    "38628",
+                    "36621",
+                    "3756",
+                    "36645",
+                    "3754",
+                    "36620",
+                    "36632",
+                    "34734",
+                    "39310",
+                    "830",
+                    "36533",
+                    "37068",
+                    "36628",
+                    "36672",
+                    "34948",
+                    "19956",
+                    "11074",
+                    "36631",
+                    "10552",
+                    "42530",
+                    "10505",
+                    "10547",
+                    "13520",
+                    "30321",
+                    "4205",
+                    "35711"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7288928031921387,
+                    0.7280063033103943,
+                    0.7273521423339844,
+                    0.7193797826766968,
+                    0.7142761945724487,
+                    0.7141580581665039,
+                    0.7122164964675903,
+                    0.7105100154876709,
+                    0.7095788717269897,
+                    0.7082895040512085,
+                    0.7030513286590576,
+                    0.7021344900131226,
+                    0.7017927765846252,
+                    0.7005648612976074,
+                    0.6978649497032166,
+                    0.695135235786438,
+                    0.6946808099746704,
+                    0.6936473250389099,
+                    0.6902780532836914,
+                    0.6894941329956055,
+                    0.6855621933937073,
+                    0.6851783394813538,
+                    0.6848218441009521,
+                    0.6845704317092896,
+                    0.6842951774597168,
+                    0.6829856038093567,
+                    0.6825575828552246,
+                    0.681817352771759,
+                    0.6817746162414551,
+                    0.6814268231391907
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: dinosaur\n\nDocuments:\n\n36619: scaled jurassic t-rex raptor dinosaur statue. this jurassic-sized t-rex dinosaur statue promises to prowl your flowerbed with deadly impact ! realistically sculpted with prehistoric precision , with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing prehistoric color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as t-rex statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n36633: bad to the bone , jurassic t-rex raptor dinosaur statue. unearth design toscano very own raptor with this jurassic age dinosaur sculpture sure to shock and awe garden visitors as they discover an archaeological gem hidden right in design toscano flower bed . be design toscano very own back yard archaeologist with this sun-bleached discovery from the mesozoic era ! stretching nearly two feet long , this design toscano quality designer resin statue replicates the weathered bones of a extinct prehistoric monster that once roamed the earth . visitors will admire design toscano creative garden style as design toscano boney t-rex sculpture makes a mesozoic statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n3276: dinosaur cardboard standup. this is a life-size cardboard standup of a dinosaur t-rex . easy to set up , it features a single-sided high-quality print on cardboard with an easel on the back so it can stand on its own . it features a hole in the mouth so you can stand behind it and take pictures , cutouts make great decor for parties , photo ops , and events .\n\n10561: a spinosaurus dinosaur attacking snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n38628: dinosaur skull with base. nan\n\n36621: scaled jurassic pterodactyl dinosaur statue. realistically sculpted with prehistoric precision , this replica pterodactyl dinosaur sculpture easily belongs in a class all on its own ! pterodactyl shook the scientific world up as the first designated flying reptile . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as this pterodactyl statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n3756: duggins brontosaurus dinosaur coffee mug. give an adorable and humorous gift that both kids and adults can enjoy with this brontosaurus cartoon ceramic dinosaur mug . its neck is the cradle , and the rest is adorned with yellow spots and a deep green glazed finish . use this mug to serve coffee and tea , or use it as a novelty container for storing office supplies or small household items . give this a humorous gift to a friend or loved one , or keep it to yourself to enjoy .\n\n36645: velociraptor scaled dinosaur statue. this scaled jurassic velociraptor dinosaur statue promises to prowl your flowerbed with impact ! realistically sculpted with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture . visitors will admire your creative garden style as design toscano menacing velociraptor sculpture makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture !\n\n3754: dugger 3-d dinosaur design coffee mug. do n't miss this opportunity to add awesome dinosaur fun and charm to your daily coffee ( or other preferred drink ) routine . this mug boasts a 3-d ceramic design of a dinosaur with protruding head , arms , and legs . the handle doubles as the dinosaur 's tail . you wo n't be able to drink coffee or anything else without smiling with this novelty dinosaur mug . whether you give it as a gift to some lucky friend or keep it for yourself , this mug will bring dinosaur whimsy and humor to any occasion or purpose it 's used for .\n\n36620: scaled jurassic brachiosaurus dinosaur statue. realistically sculpted with prehistoric precision , this replica brachiosaurus dinosaur sculpture easily belongs in a class all on its own ! named the `` arm lizard '' for its front legs were longer than the hind legs , the design toscano brachiosaurus statue echoes its heritage as one of the world 's largest and oldest herbivore ( a full-grown brachiosaurus may well have reached the century mark ) . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as the brachiosaurus statue makes a mesozoic statement ! another quality design toscano-exclusive dinosaur sculpture !\n\n36632: scaled jurassic triceratops dinosaur statue. this jurassic vegetarian had a skull so large that it took up a third of its entire body ! realistically sculpted with three horns and backward-pointing frill , it 's sure to shock and awe garden visitors as they discover a prehistoric gem patrolling design toscano flower bed . design toscano design toscano prehistoric replica triceratops dinosaur sculpture is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire design toscano creative prehistoric garden style as design toscano triceratops sculpture makes a late cretaceous statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n34734: tyrannosaurus standup. decorate your dinosaur themed party with the tyrannosaurus standup . combined with additional decor to complete the look .\n\n39310: lifelike dinosaur wall decal. the jurassic age is here ! these realistic and beautifully painted peel and stick dinosaurs will plunge your room back into a time when these impressive animals walked the earth ! great for classrooms too . set includes a total of 16 decals .\n\n830: selenopeltis trilobite. trilobites , an early arthropod relative of spiders , horseshoe crabs , and scorpions , preserved in this level of detail only occurred as a result of very sudden underwater landslides called turbidite sequences , which ravaged the early earth when the continents were still very much on the move . the contorted body positions of the trilobites demonstrate a final fight against being buried alive . this is an extremely ornamented member of the trilobites ' extremely well-known and globally distributed lichid family . these trilobites have adapted for extreme defensiveness . their long genal appendages afford them controlled escape from the water column , and they used them to sink to the ocean floor mimicking falling debris to escape predators . the stalked eyes , which evolved several separate times in the trilobite lineage , afforded greater lookout ability through they still maintain their compound lenses .\n\n36533: baby raptor dino egg statue. he 's practically dino-sized at birth because design toscano mighty baby dinosaur hatchling emerges from his oversized egg . design toscano exclusive , eoraptor dinosaur sculpture is cast in quality designer resin and hand-painted one dinosaur egg at a time in naturalistic hues to capture each prehistoric detail from curved two-tone neck to adorable pointed dinosaur tail . design toscano jurassic baby beast is perfect hatching in the garden or given as an eggceptional prehistoric gift for any dinosaur lover .\n\n37068: alvie dinosaur skeleton for boys room t-rex skeleton wall decal. this wall decal is uniquely designed , digitally printed and contour cut for easy application . great for apartments and dorms and makes a great addition to any room in your home or office . it will enhance the look and feel of just about any room in your home or office .\n\n36628: scaled triceratops dinosaur wall d\u00e9cor. design toscano fierce triceratops 's head extends in a prehistoric display of nature 's artwork . realistically sculpted with three horns and backward-pointing frill , used as defensive weapons against late cretaceous predators , triceratops was well equipped to fight the jurassic-sized t. rex . design toscano scaled , prehistoric replica dinosaur wall trophy is cast in quality designer resin , reinforced for supreme strength with fiberglass and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . includes custom-designed , heavy duty mounting bracket to hold it securely on your wall . design toscano-exclusive display-quality dinosaur sculpture transforms any home , restaurant or hotel into something truly magnificent ! another breathtaking dinosaur statue from toscano !\n\n36672: triceratops decorative dinosaur wall hook. straight from the jurassic era , right to your home , this triceratops decorative dinosaur wall hook will add excitement to any decor . sand-cast in foundry iron using an age old four step method , their triceratops - meaning : three horned face - will make sure that you never forget to hang up your coat again . visitors will admire your innovative design sense as you welcome guests into your entry , office or child 's room , with their weighty and functional version of this noble prehistoric species . merge art and function , display alone or in a grouping of their other cast iron dinosaur wall hooks . hardware not included .\n\n34948: brontosaurus night light. light up your room with this nightlight of pre-historic proportions . the age of dinosaurs lives on with these glowing creatures that inspire dreams of another time !\n\n19956: paleontologist street sign dinosaur fossil bone prehistoric paleontology. get a fun novelty street sign for your home and office and show off your sense of humor . looking for a fun , hilarious novelty sign to hang on your cubicle or in your \u201c man cave \u201d ? if so , sign mission has all the cute , funny , hilarious , and even work-related novelty signs you \u2019 re looking for ! something for everyone we \u2019 ve got a wide range of american-made signs just like this sign that will tickle your funny bone , make others smile , or even show off your snarky attitude . made to last made from a special plastic designed to hold up to a beating , this sign can bend without breaking and will never chip or crack , the colorful lettering will last a lifetime indoors and up to 4 years in the sun for outdoor use .\n\n11074: maney watercolor dinosaurs jurassic wall sticker. reusable , repositionable , and removable \u2013 these wall decal stickers are surface safe , removable , and repositionable , so you can use them in any space and move them around whenever you want to . they work on most smooth and clean surfaces such as walls , doors , windows , closets , and bathroom walls and tubs . decorative and versatility \u2013 these stickers are perfect for home decorations . they can be used in a child \u2019 s bedroom , nursery , playroom , living room , and are also ideal for public areas that kids would go such as the library , activity room , doctor \u2019 s office , dental office , preschools , daycare centers , church , classrooms and more . they can also be used as kids ' birthday gifts , party decorations supplies , party favors , festival gifts , and christmas gifts . designs \u2013 this nursery wall decals set was designed by our seasoned designer in paris to spruce up your space and boost kids early learning . the set is full of cute jurassic dinosuars such as t-rex , spinosaurus , diplodocus , as well as trees , volcanoes , and bones to instantly bring a boring wall to life . quick and easy application \u2013 the stickers are pre-cut individually . you can easily apply them to any plain wall or flat surface instantly . when you need to remove them they simply peel away without leaving any marks or residue . they also create a fun project to decorate a space with your little one and spend quality family time together . quality and size \u2013 the set is made of premium vinyl material and printed with non-toxic and environmentally friendly ink . it has passed sgs inspection and is safe to use in any space .\n\n36631: baby tyrannosaurus rex dino egg sculpture. watch out , he bites ! design toscano mighty baby dinosaur hatchling emerges from his oversized egg with tiny teeth ready to tear up the modern world ! design toscano exclusive dinosaur sculpture is cast in quality designer resin and hand-painted one dinosaur piece at a time in naturalistic hues to capture each prehistoric detail from scaly reptile skin to textured dinosaur egg . design toscano jurassic baby beast is perfect hatching in the garden or given as a treasured prehistoric gift for any dinosaur lover !\n\n10552: dinosaur brachiosaurus holiday shaped ornament. this ornament is a perfect addition to your tree or as a window decoration . it is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides ; measures 3 '' . a strand of gold string makes it easy hanging this fantastic keepsake .\n\n42530: doyden dinosaur metal personalized decorative plaque. nan\n\n10505: triceratops dinosaur 1-gang toggle light switch wall plate. this toggle light switch is made of durable scratch resistant metal that will not fade , chip or peel . featuring a high gloss finish , along with matching screws makes this cover the perfect finishing touch .\n\n10547: dinosaurs holiday shaped ornament. this ornament is a perfect addition to your tree or as a window decoration . it is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides ; measures 3 '' . a strand of gold string makes it easy hanging this fantastic keepsake .\n\n13520: rawr i \u2019 m a dinosaur throw pillow. decorative pillow \u2013 designed by leah flores for our exclusive collection of decorative throw pillows and accent cushions .\n\n30321: dinosaurs and volcano wall decal. bring the excitement and imagination of prehistoric times right to your wall with this dinosaur wall decal ! this large , single-panel decal allows you to enjoy a mural look without any seams .\n\n4205: 1 1/2 '' length styracosaurus dinosaur knob. this styracosaurus dinosaur novelty knob gives your home a rustic style that brings out the natural beauty in its details . it 's great for people who love the outdoors . bring a little nature into your home .\n\n35711: dinosaur kingdom growth chart. watch your child grow to be as tall as an apatosaurus with fantasy fields ' dinosaur growth chart . earthy green trees line the top of the chart , while a happy , blue apatosaurus \u2019 body and neck , make up the length of the chart , making measuring height fun . your child will be excited to see how much they have grown when comparing their height to that of a dinosaur . no assembly required . perfect for all ages . each piece is carefully carved and painted by hand , with the kind of quality finish that \u2019 s hard to match . it \u2019 s what they pride ourselves on and will always continue to do so , as well as a passion for creating new and intriguing designs that set the scene for playtime . they have spent many years learning what makes a child happy and perfecting the balance of what they find appealing for the most exciting play , whilst looking beautiful in your home .\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"36619\", \"36633\", \"3276\", \"36621\", \"36645\", \"36620\", \"36632\", \"36631\", \"34734\", \"36533\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36619",
+                "36633",
+                "3276",
+                "36621",
+                "36645",
+                "36620",
+                "36632",
+                "36631",
+                "34734",
+                "36533"
+            ]
+        },
+        {
+            "queries": [
+                "dinosaur"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "36619",
+                    "36633",
+                    "3276",
+                    "10561",
+                    "38628",
+                    "36621",
+                    "3756",
+                    "36645",
+                    "3754",
+                    "36620",
+                    "36632",
+                    "34734",
+                    "39310",
+                    "830",
+                    "36533",
+                    "37068",
+                    "36628",
+                    "36672",
+                    "34948",
+                    "19956",
+                    "11074",
+                    "36631",
+                    "10552",
+                    "42530",
+                    "10505",
+                    "10547",
+                    "13520",
+                    "30321",
+                    "4205",
+                    "35711"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7288928031921387,
+                    0.7280063033103943,
+                    0.7273521423339844,
+                    0.7193797826766968,
+                    0.7142761945724487,
+                    0.7141580581665039,
+                    0.7122164964675903,
+                    0.7105100154876709,
+                    0.7095788717269897,
+                    0.7082895040512085,
+                    0.7030513286590576,
+                    0.7021344900131226,
+                    0.7017927765846252,
+                    0.7005648612976074,
+                    0.6978649497032166,
+                    0.695135235786438,
+                    0.6946808099746704,
+                    0.6936473250389099,
+                    0.6902780532836914,
+                    0.6894941329956055,
+                    0.6855621933937073,
+                    0.6851783394813538,
+                    0.6848218441009521,
+                    0.6845704317092896,
+                    0.6842951774597168,
+                    0.6829856038093567,
+                    0.6825575828552246,
+                    0.681817352771759,
+                    0.6817746162414551,
+                    0.6814268231391907
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: dinosaur\n\nDocuments:\n\n36619: scaled jurassic t-rex raptor dinosaur statue. this jurassic-sized t-rex dinosaur statue promises to prowl your flowerbed with deadly impact ! realistically sculpted with prehistoric precision , with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing prehistoric color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as t-rex statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n36633: bad to the bone , jurassic t-rex raptor dinosaur statue. unearth design toscano very own raptor with this jurassic age dinosaur sculpture sure to shock and awe garden visitors as they discover an archaeological gem hidden right in design toscano flower bed . be design toscano very own back yard archaeologist with this sun-bleached discovery from the mesozoic era ! stretching nearly two feet long , this design toscano quality designer resin statue replicates the weathered bones of a extinct prehistoric monster that once roamed the earth . visitors will admire design toscano creative garden style as design toscano boney t-rex sculpture makes a mesozoic statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n3276: dinosaur cardboard standup. this is a life-size cardboard standup of a dinosaur t-rex . easy to set up , it features a single-sided high-quality print on cardboard with an easel on the back so it can stand on its own . it features a hole in the mouth so you can stand behind it and take pictures , cutouts make great decor for parties , photo ops , and events .\n\n10561: a spinosaurus dinosaur attacking snowflake holiday shaped ornament. a perfect addition to your tree or as a window decoration . this glossy porcelain ornament is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides . a strand of gold thread makes it easy to display this fantastic keepsake .\n\n38628: dinosaur skull with base. nan\n\n36621: scaled jurassic pterodactyl dinosaur statue. realistically sculpted with prehistoric precision , this replica pterodactyl dinosaur sculpture easily belongs in a class all on its own ! pterodactyl shook the scientific world up as the first designated flying reptile . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as this pterodactyl statue makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture .\n\n3756: duggins brontosaurus dinosaur coffee mug. give an adorable and humorous gift that both kids and adults can enjoy with this brontosaurus cartoon ceramic dinosaur mug . its neck is the cradle , and the rest is adorned with yellow spots and a deep green glazed finish . use this mug to serve coffee and tea , or use it as a novelty container for storing office supplies or small household items . give this a humorous gift to a friend or loved one , or keep it to yourself to enjoy .\n\n36645: velociraptor scaled dinosaur statue. this scaled jurassic velociraptor dinosaur statue promises to prowl your flowerbed with impact ! realistically sculpted with rows of menacing raptor teeth , a fearsome dinosaur tail and scaly skin , design toscano prehistoric statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture . visitors will admire your creative garden style as design toscano menacing velociraptor sculpture makes a mesozoic statement ! another quality design toscano exclusive dinosaur sculpture !\n\n3754: dugger 3-d dinosaur design coffee mug. do n't miss this opportunity to add awesome dinosaur fun and charm to your daily coffee ( or other preferred drink ) routine . this mug boasts a 3-d ceramic design of a dinosaur with protruding head , arms , and legs . the handle doubles as the dinosaur 's tail . you wo n't be able to drink coffee or anything else without smiling with this novelty dinosaur mug . whether you give it as a gift to some lucky friend or keep it for yourself , this mug will bring dinosaur whimsy and humor to any occasion or purpose it 's used for .\n\n36620: scaled jurassic brachiosaurus dinosaur statue. realistically sculpted with prehistoric precision , this replica brachiosaurus dinosaur sculpture easily belongs in a class all on its own ! named the `` arm lizard '' for its front legs were longer than the hind legs , the design toscano brachiosaurus statue echoes its heritage as one of the world 's largest and oldest herbivore ( a full-grown brachiosaurus may well have reached the century mark ) . this breathtaking prehistoric replica dinosaur statue is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire your creative garden style as the brachiosaurus statue makes a mesozoic statement ! another quality design toscano-exclusive dinosaur sculpture !\n\n36632: scaled jurassic triceratops dinosaur statue. this jurassic vegetarian had a skull so large that it took up a third of its entire body ! realistically sculpted with three horns and backward-pointing frill , it 's sure to shock and awe garden visitors as they discover a prehistoric gem patrolling design toscano flower bed . design toscano design toscano prehistoric replica triceratops dinosaur sculpture is cast in quality designer resin and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . visitors will admire design toscano creative prehistoric garden style as design toscano triceratops sculpture makes a late cretaceous statement ! another quality design toscano -exclusive dinosaur sculpture !\n\n34734: tyrannosaurus standup. decorate your dinosaur themed party with the tyrannosaurus standup . combined with additional decor to complete the look .\n\n39310: lifelike dinosaur wall decal. the jurassic age is here ! these realistic and beautifully painted peel and stick dinosaurs will plunge your room back into a time when these impressive animals walked the earth ! great for classrooms too . set includes a total of 16 decals .\n\n830: selenopeltis trilobite. trilobites , an early arthropod relative of spiders , horseshoe crabs , and scorpions , preserved in this level of detail only occurred as a result of very sudden underwater landslides called turbidite sequences , which ravaged the early earth when the continents were still very much on the move . the contorted body positions of the trilobites demonstrate a final fight against being buried alive . this is an extremely ornamented member of the trilobites ' extremely well-known and globally distributed lichid family . these trilobites have adapted for extreme defensiveness . their long genal appendages afford them controlled escape from the water column , and they used them to sink to the ocean floor mimicking falling debris to escape predators . the stalked eyes , which evolved several separate times in the trilobite lineage , afforded greater lookout ability through they still maintain their compound lenses .\n\n36533: baby raptor dino egg statue. he 's practically dino-sized at birth because design toscano mighty baby dinosaur hatchling emerges from his oversized egg . design toscano exclusive , eoraptor dinosaur sculpture is cast in quality designer resin and hand-painted one dinosaur egg at a time in naturalistic hues to capture each prehistoric detail from curved two-tone neck to adorable pointed dinosaur tail . design toscano jurassic baby beast is perfect hatching in the garden or given as an eggceptional prehistoric gift for any dinosaur lover .\n\n37068: alvie dinosaur skeleton for boys room t-rex skeleton wall decal. this wall decal is uniquely designed , digitally printed and contour cut for easy application . great for apartments and dorms and makes a great addition to any room in your home or office . it will enhance the look and feel of just about any room in your home or office .\n\n36628: scaled triceratops dinosaur wall d\u00e9cor. design toscano fierce triceratops 's head extends in a prehistoric display of nature 's artwork . realistically sculpted with three horns and backward-pointing frill , used as defensive weapons against late cretaceous predators , triceratops was well equipped to fight the jurassic-sized t. rex . design toscano scaled , prehistoric replica dinosaur wall trophy is cast in quality designer resin , reinforced for supreme strength with fiberglass and hand-painted with powerfully convincing color and texture to be as faithful as possible to the form of its ancient species . includes custom-designed , heavy duty mounting bracket to hold it securely on your wall . design toscano-exclusive display-quality dinosaur sculpture transforms any home , restaurant or hotel into something truly magnificent ! another breathtaking dinosaur statue from toscano !\n\n36672: triceratops decorative dinosaur wall hook. straight from the jurassic era , right to your home , this triceratops decorative dinosaur wall hook will add excitement to any decor . sand-cast in foundry iron using an age old four step method , their triceratops - meaning : three horned face - will make sure that you never forget to hang up your coat again . visitors will admire your innovative design sense as you welcome guests into your entry , office or child 's room , with their weighty and functional version of this noble prehistoric species . merge art and function , display alone or in a grouping of their other cast iron dinosaur wall hooks . hardware not included .\n\n34948: brontosaurus night light. light up your room with this nightlight of pre-historic proportions . the age of dinosaurs lives on with these glowing creatures that inspire dreams of another time !\n\n19956: paleontologist street sign dinosaur fossil bone prehistoric paleontology. get a fun novelty street sign for your home and office and show off your sense of humor . looking for a fun , hilarious novelty sign to hang on your cubicle or in your \u201c man cave \u201d ? if so , sign mission has all the cute , funny , hilarious , and even work-related novelty signs you \u2019 re looking for ! something for everyone we \u2019 ve got a wide range of american-made signs just like this sign that will tickle your funny bone , make others smile , or even show off your snarky attitude . made to last made from a special plastic designed to hold up to a beating , this sign can bend without breaking and will never chip or crack , the colorful lettering will last a lifetime indoors and up to 4 years in the sun for outdoor use .\n\n11074: maney watercolor dinosaurs jurassic wall sticker. reusable , repositionable , and removable \u2013 these wall decal stickers are surface safe , removable , and repositionable , so you can use them in any space and move them around whenever you want to . they work on most smooth and clean surfaces such as walls , doors , windows , closets , and bathroom walls and tubs . decorative and versatility \u2013 these stickers are perfect for home decorations . they can be used in a child \u2019 s bedroom , nursery , playroom , living room , and are also ideal for public areas that kids would go such as the library , activity room , doctor \u2019 s office , dental office , preschools , daycare centers , church , classrooms and more . they can also be used as kids ' birthday gifts , party decorations supplies , party favors , festival gifts , and christmas gifts . designs \u2013 this nursery wall decals set was designed by our seasoned designer in paris to spruce up your space and boost kids early learning . the set is full of cute jurassic dinosuars such as t-rex , spinosaurus , diplodocus , as well as trees , volcanoes , and bones to instantly bring a boring wall to life . quick and easy application \u2013 the stickers are pre-cut individually . you can easily apply them to any plain wall or flat surface instantly . when you need to remove them they simply peel away without leaving any marks or residue . they also create a fun project to decorate a space with your little one and spend quality family time together . quality and size \u2013 the set is made of premium vinyl material and printed with non-toxic and environmentally friendly ink . it has passed sgs inspection and is safe to use in any space .\n\n36631: baby tyrannosaurus rex dino egg sculpture. watch out , he bites ! design toscano mighty baby dinosaur hatchling emerges from his oversized egg with tiny teeth ready to tear up the modern world ! design toscano exclusive dinosaur sculpture is cast in quality designer resin and hand-painted one dinosaur piece at a time in naturalistic hues to capture each prehistoric detail from scaly reptile skin to textured dinosaur egg . design toscano jurassic baby beast is perfect hatching in the garden or given as a treasured prehistoric gift for any dinosaur lover !\n\n10552: dinosaur brachiosaurus holiday shaped ornament. this ornament is a perfect addition to your tree or as a window decoration . it is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides ; measures 3 '' . a strand of gold string makes it easy hanging this fantastic keepsake .\n\n42530: doyden dinosaur metal personalized decorative plaque. nan\n\n10505: triceratops dinosaur 1-gang toggle light switch wall plate. this toggle light switch is made of durable scratch resistant metal that will not fade , chip or peel . featuring a high gloss finish , along with matching screws makes this cover the perfect finishing touch .\n\n10547: dinosaurs holiday shaped ornament. this ornament is a perfect addition to your tree or as a window decoration . it is a great gift for family and friends , commemorating each holiday or special occasion . image printed on both sides ; measures 3 '' . a strand of gold string makes it easy hanging this fantastic keepsake .\n\n13520: rawr i \u2019 m a dinosaur throw pillow. decorative pillow \u2013 designed by leah flores for our exclusive collection of decorative throw pillows and accent cushions .\n\n30321: dinosaurs and volcano wall decal. bring the excitement and imagination of prehistoric times right to your wall with this dinosaur wall decal ! this large , single-panel decal allows you to enjoy a mural look without any seams .\n\n4205: 1 1/2 '' length styracosaurus dinosaur knob. this styracosaurus dinosaur novelty knob gives your home a rustic style that brings out the natural beauty in its details . it 's great for people who love the outdoors . bring a little nature into your home .\n\n35711: dinosaur kingdom growth chart. watch your child grow to be as tall as an apatosaurus with fantasy fields ' dinosaur growth chart . earthy green trees line the top of the chart , while a happy , blue apatosaurus \u2019 body and neck , make up the length of the chart , making measuring height fun . your child will be excited to see how much they have grown when comparing their height to that of a dinosaur . no assembly required . perfect for all ages . each piece is carefully carved and painted by hand , with the kind of quality finish that \u2019 s hard to match . it \u2019 s what they pride ourselves on and will always continue to do so , as well as a passion for creating new and intriguing designs that set the scene for playtime . they have spent many years learning what makes a child happy and perfecting the balance of what they find appealing for the most exciting play , whilst looking beautiful in your home .\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"36619\", \"36633\", \"3276\", \"36621\", \"36645\", \"36620\", \"36632\", \"36631\", \"34734\", \"36533\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "36619",
+                "36633",
+                "3276",
+                "36621",
+                "36645",
+                "36620",
+                "36632",
+                "36631",
+                "34734",
+                "36533"
+            ],
+            "terminate": true
+        }
+    ]
+}

@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "driftwood mirror"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "11297",
+            "17379",
+            "34083",
+            "20627",
+            "3647",
+            "37655",
+            "125",
+            "15852",
+            "34929",
+            "19580",
+            "37652",
+            "20628",
+            "26276",
+            "27648",
+            "24344",
+            "37651",
+            "11307",
+            "40949",
+            "20629",
+            "5861",
+            "29164",
+            "11358",
+            "17355",
+            "11309",
+            "31502",
+            "24390",
+            "28264",
+            "17464",
+            "24628",
+            "28266"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.8206685781478882,
+            0.7460163831710815,
+            0.7458618879318237,
+            0.7442089319229126,
+            0.7373135089874268,
+            0.7360143661499023,
+            0.7357235550880432,
+            0.73520827293396,
+            0.7337496876716614,
+            0.7332079410552979,
+            0.7310669422149658,
+            0.7310156226158142,
+            0.730994701385498,
+            0.7269347906112671,
+            0.726686954498291,
+            0.7238045334815979,
+            0.7231249809265137,
+            0.7217587232589722,
+            0.7196779251098633,
+            0.7166434526443481,
+            0.7161943316459656,
+            0.7155683040618896,
+            0.7152459621429443,
+            0.7151077389717102,
+            0.713613748550415,
+            0.7133496999740601,
+            0.7124356031417847,
+            0.7121763825416565,
+            0.7113475799560547,
+            0.711245059967041
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: driftwood mirror\n\nDocuments:\n\n11297: mcmillen driftwood circular sunburst rustic accent mirror. bring the beauty of nature into your home with this stunning circular driftwood mirror . with pieces of driftwood collected from shores after storms , this decorative wall mirror has 2 layers of driftwood pieces arranged to form its wood frame around the glass mirror . each piece of wood is hand nailed and glued together , then secured to the double-layered , solid circular wood backing . the entire back frame has arched pieces of driftwood nailed around the outer edge to match the decorative wood pieces , ensuring this remarkable piece of wood wall art is natural beauty from every angle . the neutral hues and dimensional , natural movement of this driftwood decor make it a perfect addition to the natural and rustic style .\n\n17379: easy install decorative floating frameless bathroom/vanity mirror. the beauty of this wall mirror is in the attention to detail . the bold back etched driftwood design can easily blend into any country or transitional space . this collection offers a unique process using our precision etched technique in the mirror . the results are a timeless up-to-date decorative look .\n\n34083: driftwood ludwick rectangular wall mirror. framed in a gently-aged finish , the driftwood ludwick mirror provides the perfect looking glass for that fleeting time we call childhood .\n\n20627: vannesa bathroom/vanity mirror. evoking a distressed barn wood aesthetic , this bathroom vanity mirror shines in coastal or farmhouse ensembles ! crafted of solid and manufactured wood , the rectangular frame showcases wide moldings in a rustic white and gray wash , while the gleaming glass mirror within features a flat , non-beveled edge for a brilliant reflection . made in the usa , this mirror arrives fully assembled and ready to hang right out of the box with wall-mounting hardware included for both portrait and landscape orientation .\n\n3647: kellett accent mirror. evoking sandy beaches and tranquil shorelines , this statement-making mirror features driftwood accents arranged as a frame for costal flair . its natural hues pair perfectly with rustic accents while its striking silhouette adds a dash of dimension to any space . add this piece to the master suite to complement a coastal aesthetic then match it with coral decor and sea glass accents for a cohesive look . round out the room with a hand-woven jute rug for a touch of texture or an abstract canvas print for contrasting style . whether you 're using this piece as an eye-catching finishing touch to your home or hanging it against a bare wall , this distinctive design is a striking addition to your home .\n\n37655: laplante beveled accent mirror. showcasing a casual coastal look , this square mirror is finished in a driftwood tone with a distressed whitewash . mirror has a generous 1 1/4 '' bevel and may be hung horizontal or vertical .\n\n125: karpeta rustic mirror. american value mirrors are built well and built to last . the finest materials and lasting design shape this coastal multi-color toned mirror . adds a fresh textured style complimenting many furniture pieces and bathroom fixtures . decorate your beach house , lake house , or your nautical themed bathroom with this dark coastal framed mirror . each frame is handcrafted to exhibit a consistent and impressive level of quality in fit , size , durability , and design .\n\n15852: machen driftwood leaner beveled venetian full length mirror. make a design statement with this intriguing mirror design . wonderfully textured polystyrene frame , perfect for the modern living space . beautifully contrasted shades of white and chrome highlight this exceptional style and finish . features a beveled edge mirror to add that classic touch to this intriguing floor mirror design .\n\n34929: clayhatchee distressed accent mirror. when you \u2019 re decorating your home , don \u2019 t forget about mirrors . more than just a spot to stop and reflect , they help open up tight spaces and let light bounce around . this geometric mirror showcases a wooden frame in a dark , natural hue that adds a bit of rustic flair . its frame also extends a bit over the glass , adding depth to the design . a d-ring hook is attached on the back , making it easy to hang this accent mirror wherever you choose .\n\n19580: hudson ferry modern & contemporary beveled dresser mirror. take a walk down the pier with this mirror . defined by soft driftwood hues , comfortable fabrics , and dynamic metal accents , the mirror offers the tones of oceanside living made for settling into .\n\n37652: corwin round cottage/country beveled accent mirror. displaying a coastal style , this round mirror features solid wood construction with a pieced driftwood design and an ivory wash that highlights the natural wood grain . the mirror has a 1.25 '' bevel .\n\n20628: bathroom/vanity mirror. evoking a distressed barn wood aesthetic , this mirror shines in coastal or farmhouse ensembles ! crafted of solid and manufactured wood , the rectangular frame showcases plank panel construction and simple moldings in a rustic gray finish , while the gleaming glass mirror within features a flat , non-beveled edge for a brilliant reflection . made in the usa , this mirror arrives fully assembled and ready to hang right out of the box with wall-mounting hardware included for both portrait and landscape orientation .\n\n26276: galveston sliding barn door wood window wall accent mirror. this gorgeous wall mirror brings character and elegance into any decor . handcrafted from solid wood , this oversized mirror makes for a classic statement piece with it 's six windowpane design and decorative sliding barn door details . hang it securely on a wall with two industrial strength hangers on the back or lean it up against a wall above a mantel . the frame is elegantly distressed for a vintage feel and measures 2 inches wide . it 's vintage-inspired window design will brighten any room and create the illusion of a larger space .\n\n27648: corrales beveled dresser mirror. this dresser mirror comes from the roughhewn acacia used in its creation . hand-selected planks of solid wood are carefully sanded , stained and whitewashed for a driftwood appeal that accentuates the active grain and draws out natural knots and markings from the milling process . they are then inlaid over plywood to create a handsome herringbone pattern and finished with thin metal bar pulls for the crowning contemporary touch .\n\n24344: lanford rustic accent mirror. bring a splash of nautical appeal to your home with this oval accent mirror ! designed to look like a ship \u2019 s porthole , the frame is crafted of metal in a weathered bronze finish accented by faux rivet details . made from flat , non-beveled glass , the mirror panel insert provides brilliant reflection , bouncing light to expand your space , while the attached metal hanging loop makes wall-mounting a breeze .\n\n37651: coelia cottage/country beveled accent mirror. this mirror features wood construction with a dimensional compass design . the piece has a driftwood finish with a light gray and whitewash , adding to the coastal feel . the mirror has a 1.25 '' bevel and may be hung horizontal or vertical .\n\n11307: musso wall mirror. bring earthy , versatile style to your space with the natural warmth of teak wood coupled with the contemporary ellipse shape of this wood wall mirror . the wood frame is crafted from natural teak wood from indonesia with wood grain in golden brown hues . each mirror will feature a slightly different wood grain `` design '' , as each piece is unique . the ellipse shape depicts a sort of rounded triangle shape , adding a contemporary silhouette to your walls . easy and ready to display , this wood mirror securely hangs by the metal keyhole hardware in the back .\n\n40949: kittery beveled distressed accent mirror. this rustic accent mirror adds style while also opening up your bathroom or guest room and letting the light bounce around . from wood with a weathered light gray finish that adds a coastal farmhouse look wherever you hang it . this mirror features a square beveled glass mirror inside the frame that hangs on your walls horizontally or vertically thanks to the included installation hardware and hanging wires on the back . plus , we love that this accent mirror has several different sizes to choose from that best suit your space .\n\n20629: kanisha bathroom/vanity mirror. sleek and stylish , this bathroom vanity mirror is great for clean , contemporary ensembles ! crafted of solid and manufactured wood , the 3 '' -wide rectangular frame showcases gloss white finish , while the gleaming glass mirror within features a flat , non-beveled edge for a brilliant reflection . made in the usa , this mirror arrives fully assembled and ready to hang right out of the box with wall-mounting hardware included for both portrait and landscape orientation .\n\n5861: coastal distressed accent mirror. this weathered mirror features a colored wood grain finish . the wooden frame has an angled front decorated with an inner distressed white border creating a unique coastal rustic feel . this wooden mirror is an impressive accessory to hang in a bedroom , bathroom or living space . 4 hooks are included allowing for a vertical or horizontal wall installation .\n\n29164: marjory beveled distressed accent mirror. proudly made in the united states , this rectangular mirror helps to open up any space in your home . this beveled glass piece is set in a plastic frame ( available in several finishes ) with angled edges that offer a sense of depth . its clean-lined silhouette and understated design give it a versatile look that blends in with many styles , while its distressed details lend it a touch of weathered charm . since wall mounting hardware is included , you can hang it up vertically or horizontally right away .\n\n11358: rashard beveled distressed accent mirror. artfully crafted , the mirror is made from solid wood with a decorative open lattice design on top . quality-built , the back is recessed , fitted , and screwed and the glass is beveled on all sides . mirror stick supports are included for use with a dresser .\n\n17355: traditional beveled distressed accent mirror. a great way to open up a room and let light bounce around . this mirror provides function and character to any space . the frame is made out of solid acacia wood , sturdy and made to withstand the passing of time . and it is finished with a distressed coat of pain that reveals a different color underneath . this mirror can be hung both vertically and horizontally depending on your preference . different colors are available . distressed patterns are different on every piece because all mirrors are .\n\n11309: daggett wall mirror. the soft natural tones of this beige , rectangular wood mirror create a rustic feel , coupled with the wicker and multi-textures found throughout the mirror . beneath the mirrored window pane is smoothly braided wicker strands with fray details surrounding the frame . display in an entryway or as a centerpiece to your bedroom above a console or vanity table .\n\n31502: cotuit arched panel leaning full length mirror. this large full-length mirror helps to open up any space and add a dose of coastal farmhouse charm to your home . it features a wooden frame with a weathered whitewash finish , an arch top silhouette , and a window pane design to create a breezy rustic accent in your bedroom or living room . the panels of mirrored glass have a non-beveled edge for a clean-lined reflection . this mirror measures 83 '' tall , and looks great leaned against your walls for a relaxed statement in your home .\n\n24390: fryman brushed classic rustic distressed wall mirror. an accent mirror is ideal for making the most of your walls . besides offering reflective functionality ( everyone can use a quick preen on their way out the door ) , they also can help make space feel larger , and add a decorative touch in keeping with a room 's style . made in the usa , this traditional wall mirror is crafted from manufactured wood with a distressed laminate on top , perfect for creating a rustic look .\n\n28264: defries bathroom/vanity mirror. brighten up your bathroom with this vanity mirror ! made from foam-injected polystyrene , the wide frame features clean-lined , stepped moldings in a silver finish for added depth . the gleaming glass mirror within features a beveled edge for a brilliant reflection , letting light bounce off to expand your space . ready to hang right out of the box , this mirror arrives with attached d-ring hangers included for portrait or landscape orientation according to your preference .\n\n17464: masaitis wall mirror. sophisticated wall mirror with an octagonal sided wood frame is sure to be the accent in your bathroom , powder room , or any room of your home . the mirror has been designed to do the best to eliminate the reflection distortion , especially for bathroom use . you will be marveled at the quality as it is so well combined with classic design .\n\n24628: eleora rectangular dresser mirror. this 36 '' h x 41 '' w dresser mirror helps you turn your dresser into a vanity . it 's made from wood in a weathered sandstone finish that gives it a relaxed coastal farmhouse look . molded details and mitred edges round out the classic frame , and surround the glass inside . we love how the mirror itself has beveled edges that refract the light and add depth . it 's designed to mount to a compatible dresser ( sold separately ) , but also looks great leaned against the wall on your entryway table .\n\n28266: yeung curvature bathroom/vanity mirror. brighten up your bathroom with this vanity mirror ! made from foam-injected polystyrene , the wide frame features a rustic graywash woodgrain finish for added depth . the gleaming glass mirror within features a thick beveled edge for a brilliant reflection , letting light bounce off to expand your space . ready to hang right out of the box , this mirror arrives with attached d-ring hangers included for portrait or landscape orientation according to your preference .\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"11297\", \"34083\", \"3647\", \"17379\", \"37655\", \"125\", \"37652\", \"27648\", \"19580\", \"5861\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "11297",
+        "34083",
+        "3647",
+        "17379",
+        "37655",
+        "125",
+        "37652",
+        "27648",
+        "19580",
+        "5861"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "driftwood mirror"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "driftwood mirror"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "11297",
+                    "17379",
+                    "34083",
+                    "20627",
+                    "3647",
+                    "37655",
+                    "125",
+                    "15852",
+                    "34929",
+                    "19580",
+                    "37652",
+                    "20628",
+                    "26276",
+                    "27648",
+                    "24344",
+                    "37651",
+                    "11307",
+                    "40949",
+                    "20629",
+                    "5861",
+                    "29164",
+                    "11358",
+                    "17355",
+                    "11309",
+                    "31502",
+                    "24390",
+                    "28264",
+                    "17464",
+                    "24628",
+                    "28266"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8206685781478882,
+                    0.7460163831710815,
+                    0.7458618879318237,
+                    0.7442089319229126,
+                    0.7373135089874268,
+                    0.7360143661499023,
+                    0.7357235550880432,
+                    0.73520827293396,
+                    0.7337496876716614,
+                    0.7332079410552979,
+                    0.7310669422149658,
+                    0.7310156226158142,
+                    0.730994701385498,
+                    0.7269347906112671,
+                    0.726686954498291,
+                    0.7238045334815979,
+                    0.7231249809265137,
+                    0.7217587232589722,
+                    0.7196779251098633,
+                    0.7166434526443481,
+                    0.7161943316459656,
+                    0.7155683040618896,
+                    0.7152459621429443,
+                    0.7151077389717102,
+                    0.713613748550415,
+                    0.7133496999740601,
+                    0.7124356031417847,
+                    0.7121763825416565,
+                    0.7113475799560547,
+                    0.711245059967041
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "driftwood mirror"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "11297",
+                    "17379",
+                    "34083",
+                    "20627",
+                    "3647",
+                    "37655",
+                    "125",
+                    "15852",
+                    "34929",
+                    "19580",
+                    "37652",
+                    "20628",
+                    "26276",
+                    "27648",
+                    "24344",
+                    "37651",
+                    "11307",
+                    "40949",
+                    "20629",
+                    "5861",
+                    "29164",
+                    "11358",
+                    "17355",
+                    "11309",
+                    "31502",
+                    "24390",
+                    "28264",
+                    "17464",
+                    "24628",
+                    "28266"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8206685781478882,
+                    0.7460163831710815,
+                    0.7458618879318237,
+                    0.7442089319229126,
+                    0.7373135089874268,
+                    0.7360143661499023,
+                    0.7357235550880432,
+                    0.73520827293396,
+                    0.7337496876716614,
+                    0.7332079410552979,
+                    0.7310669422149658,
+                    0.7310156226158142,
+                    0.730994701385498,
+                    0.7269347906112671,
+                    0.726686954498291,
+                    0.7238045334815979,
+                    0.7231249809265137,
+                    0.7217587232589722,
+                    0.7196779251098633,
+                    0.7166434526443481,
+                    0.7161943316459656,
+                    0.7155683040618896,
+                    0.7152459621429443,
+                    0.7151077389717102,
+                    0.713613748550415,
+                    0.7133496999740601,
+                    0.7124356031417847,
+                    0.7121763825416565,
+                    0.7113475799560547,
+                    0.711245059967041
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: driftwood mirror\n\nDocuments:\n\n11297: mcmillen driftwood circular sunburst rustic accent mirror. bring the beauty of nature into your home with this stunning circular driftwood mirror . with pieces of driftwood collected from shores after storms , this decorative wall mirror has 2 layers of driftwood pieces arranged to form its wood frame around the glass mirror . each piece of wood is hand nailed and glued together , then secured to the double-layered , solid circular wood backing . the entire back frame has arched pieces of driftwood nailed around the outer edge to match the decorative wood pieces , ensuring this remarkable piece of wood wall art is natural beauty from every angle . the neutral hues and dimensional , natural movement of this driftwood decor make it a perfect addition to the natural and rustic style .\n\n17379: easy install decorative floating frameless bathroom/vanity mirror. the beauty of this wall mirror is in the attention to detail . the bold back etched driftwood design can easily blend into any country or transitional space . this collection offers a unique process using our precision etched technique in the mirror . the results are a timeless up-to-date decorative look .\n\n34083: driftwood ludwick rectangular wall mirror. framed in a gently-aged finish , the driftwood ludwick mirror provides the perfect looking glass for that fleeting time we call childhood .\n\n20627: vannesa bathroom/vanity mirror. evoking a distressed barn wood aesthetic , this bathroom vanity mirror shines in coastal or farmhouse ensembles ! crafted of solid and manufactured wood , the rectangular frame showcases wide moldings in a rustic white and gray wash , while the gleaming glass mirror within features a flat , non-beveled edge for a brilliant reflection . made in the usa , this mirror arrives fully assembled and ready to hang right out of the box with wall-mounting hardware included for both portrait and landscape orientation .\n\n3647: kellett accent mirror. evoking sandy beaches and tranquil shorelines , this statement-making mirror features driftwood accents arranged as a frame for costal flair . its natural hues pair perfectly with rustic accents while its striking silhouette adds a dash of dimension to any space . add this piece to the master suite to complement a coastal aesthetic then match it with coral decor and sea glass accents for a cohesive look . round out the room with a hand-woven jute rug for a touch of texture or an abstract canvas print for contrasting style . whether you 're using this piece as an eye-catching finishing touch to your home or hanging it against a bare wall , this distinctive design is a striking addition to your home .\n\n37655: laplante beveled accent mirror. showcasing a casual coastal look , this square mirror is finished in a driftwood tone with a distressed whitewash . mirror has a generous 1 1/4 '' bevel and may be hung horizontal or vertical .\n\n125: karpeta rustic mirror. american value mirrors are built well and built to last . the finest materials and lasting design shape this coastal multi-color toned mirror . adds a fresh textured style complimenting many furniture pieces and bathroom fixtures . decorate your beach house , lake house , or your nautical themed bathroom with this dark coastal framed mirror . each frame is handcrafted to exhibit a consistent and impressive level of quality in fit , size , durability , and design .\n\n15852: machen driftwood leaner beveled venetian full length mirror. make a design statement with this intriguing mirror design . wonderfully textured polystyrene frame , perfect for the modern living space . beautifully contrasted shades of white and chrome highlight this exceptional style and finish . features a beveled edge mirror to add that classic touch to this intriguing floor mirror design .\n\n34929: clayhatchee distressed accent mirror. when you \u2019 re decorating your home , don \u2019 t forget about mirrors . more than just a spot to stop and reflect , they help open up tight spaces and let light bounce around . this geometric mirror showcases a wooden frame in a dark , natural hue that adds a bit of rustic flair . its frame also extends a bit over the glass , adding depth to the design . a d-ring hook is attached on the back , making it easy to hang this accent mirror wherever you choose .\n\n19580: hudson ferry modern & contemporary beveled dresser mirror. take a walk down the pier with this mirror . defined by soft driftwood hues , comfortable fabrics , and dynamic metal accents , the mirror offers the tones of oceanside living made for settling into .\n\n37652: corwin round cottage/country beveled accent mirror. displaying a coastal style , this round mirror features solid wood construction with a pieced driftwood design and an ivory wash that highlights the natural wood grain . the mirror has a 1.25 '' bevel .\n\n20628: bathroom/vanity mirror. evoking a distressed barn wood aesthetic , this mirror shines in coastal or farmhouse ensembles ! crafted of solid and manufactured wood , the rectangular frame showcases plank panel construction and simple moldings in a rustic gray finish , while the gleaming glass mirror within features a flat , non-beveled edge for a brilliant reflection . made in the usa , this mirror arrives fully assembled and ready to hang right out of the box with wall-mounting hardware included for both portrait and landscape orientation .\n\n26276: galveston sliding barn door wood window wall accent mirror. this gorgeous wall mirror brings character and elegance into any decor . handcrafted from solid wood , this oversized mirror makes for a classic statement piece with it 's six windowpane design and decorative sliding barn door details . hang it securely on a wall with two industrial strength hangers on the back or lean it up against a wall above a mantel . the frame is elegantly distressed for a vintage feel and measures 2 inches wide . it 's vintage-inspired window design will brighten any room and create the illusion of a larger space .\n\n27648: corrales beveled dresser mirror. this dresser mirror comes from the roughhewn acacia used in its creation . hand-selected planks of solid wood are carefully sanded , stained and whitewashed for a driftwood appeal that accentuates the active grain and draws out natural knots and markings from the milling process . they are then inlaid over plywood to create a handsome herringbone pattern and finished with thin metal bar pulls for the crowning contemporary touch .\n\n24344: lanford rustic accent mirror. bring a splash of nautical appeal to your home with this oval accent mirror ! designed to look like a ship \u2019 s porthole , the frame is crafted of metal in a weathered bronze finish accented by faux rivet details . made from flat , non-beveled glass , the mirror panel insert provides brilliant reflection , bouncing light to expand your space , while the attached metal hanging loop makes wall-mounting a breeze .\n\n37651: coelia cottage/country beveled accent mirror. this mirror features wood construction with a dimensional compass design . the piece has a driftwood finish with a light gray and whitewash , adding to the coastal feel . the mirror has a 1.25 '' bevel and may be hung horizontal or vertical .\n\n11307: musso wall mirror. bring earthy , versatile style to your space with the natural warmth of teak wood coupled with the contemporary ellipse shape of this wood wall mirror . the wood frame is crafted from natural teak wood from indonesia with wood grain in golden brown hues . each mirror will feature a slightly different wood grain `` design '' , as each piece is unique . the ellipse shape depicts a sort of rounded triangle shape , adding a contemporary silhouette to your walls . easy and ready to display , this wood mirror securely hangs by the metal keyhole hardware in the back .\n\n40949: kittery beveled distressed accent mirror. this rustic accent mirror adds style while also opening up your bathroom or guest room and letting the light bounce around . from wood with a weathered light gray finish that adds a coastal farmhouse look wherever you hang it . this mirror features a square beveled glass mirror inside the frame that hangs on your walls horizontally or vertically thanks to the included installation hardware and hanging wires on the back . plus , we love that this accent mirror has several different sizes to choose from that best suit your space .\n\n20629: kanisha bathroom/vanity mirror. sleek and stylish , this bathroom vanity mirror is great for clean , contemporary ensembles ! crafted of solid and manufactured wood , the 3 '' -wide rectangular frame showcases gloss white finish , while the gleaming glass mirror within features a flat , non-beveled edge for a brilliant reflection . made in the usa , this mirror arrives fully assembled and ready to hang right out of the box with wall-mounting hardware included for both portrait and landscape orientation .\n\n5861: coastal distressed accent mirror. this weathered mirror features a colored wood grain finish . the wooden frame has an angled front decorated with an inner distressed white border creating a unique coastal rustic feel . this wooden mirror is an impressive accessory to hang in a bedroom , bathroom or living space . 4 hooks are included allowing for a vertical or horizontal wall installation .\n\n29164: marjory beveled distressed accent mirror. proudly made in the united states , this rectangular mirror helps to open up any space in your home . this beveled glass piece is set in a plastic frame ( available in several finishes ) with angled edges that offer a sense of depth . its clean-lined silhouette and understated design give it a versatile look that blends in with many styles , while its distressed details lend it a touch of weathered charm . since wall mounting hardware is included , you can hang it up vertically or horizontally right away .\n\n11358: rashard beveled distressed accent mirror. artfully crafted , the mirror is made from solid wood with a decorative open lattice design on top . quality-built , the back is recessed , fitted , and screwed and the glass is beveled on all sides . mirror stick supports are included for use with a dresser .\n\n17355: traditional beveled distressed accent mirror. a great way to open up a room and let light bounce around . this mirror provides function and character to any space . the frame is made out of solid acacia wood , sturdy and made to withstand the passing of time . and it is finished with a distressed coat of pain that reveals a different color underneath . this mirror can be hung both vertically and horizontally depending on your preference . different colors are available . distressed patterns are different on every piece because all mirrors are .\n\n11309: daggett wall mirror. the soft natural tones of this beige , rectangular wood mirror create a rustic feel , coupled with the wicker and multi-textures found throughout the mirror . beneath the mirrored window pane is smoothly braided wicker strands with fray details surrounding the frame . display in an entryway or as a centerpiece to your bedroom above a console or vanity table .\n\n31502: cotuit arched panel leaning full length mirror. this large full-length mirror helps to open up any space and add a dose of coastal farmhouse charm to your home . it features a wooden frame with a weathered whitewash finish , an arch top silhouette , and a window pane design to create a breezy rustic accent in your bedroom or living room . the panels of mirrored glass have a non-beveled edge for a clean-lined reflection . this mirror measures 83 '' tall , and looks great leaned against your walls for a relaxed statement in your home .\n\n24390: fryman brushed classic rustic distressed wall mirror. an accent mirror is ideal for making the most of your walls . besides offering reflective functionality ( everyone can use a quick preen on their way out the door ) , they also can help make space feel larger , and add a decorative touch in keeping with a room 's style . made in the usa , this traditional wall mirror is crafted from manufactured wood with a distressed laminate on top , perfect for creating a rustic look .\n\n28264: defries bathroom/vanity mirror. brighten up your bathroom with this vanity mirror ! made from foam-injected polystyrene , the wide frame features clean-lined , stepped moldings in a silver finish for added depth . the gleaming glass mirror within features a beveled edge for a brilliant reflection , letting light bounce off to expand your space . ready to hang right out of the box , this mirror arrives with attached d-ring hangers included for portrait or landscape orientation according to your preference .\n\n17464: masaitis wall mirror. sophisticated wall mirror with an octagonal sided wood frame is sure to be the accent in your bathroom , powder room , or any room of your home . the mirror has been designed to do the best to eliminate the reflection distortion , especially for bathroom use . you will be marveled at the quality as it is so well combined with classic design .\n\n24628: eleora rectangular dresser mirror. this 36 '' h x 41 '' w dresser mirror helps you turn your dresser into a vanity . it 's made from wood in a weathered sandstone finish that gives it a relaxed coastal farmhouse look . molded details and mitred edges round out the classic frame , and surround the glass inside . we love how the mirror itself has beveled edges that refract the light and add depth . it 's designed to mount to a compatible dresser ( sold separately ) , but also looks great leaned against the wall on your entryway table .\n\n28266: yeung curvature bathroom/vanity mirror. brighten up your bathroom with this vanity mirror ! made from foam-injected polystyrene , the wide frame features a rustic graywash woodgrain finish for added depth . the gleaming glass mirror within features a thick beveled edge for a brilliant reflection , letting light bounce off to expand your space . ready to hang right out of the box , this mirror arrives with attached d-ring hangers included for portrait or landscape orientation according to your preference .\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"11297\", \"34083\", \"3647\", \"17379\", \"37655\", \"125\", \"37652\", \"27648\", \"19580\", \"5861\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "11297",
+                "34083",
+                "3647",
+                "17379",
+                "37655",
+                "125",
+                "37652",
+                "27648",
+                "19580",
+                "5861"
+            ]
+        },
+        {
+            "queries": [
+                "driftwood mirror"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "11297",
+                    "17379",
+                    "34083",
+                    "20627",
+                    "3647",
+                    "37655",
+                    "125",
+                    "15852",
+                    "34929",
+                    "19580",
+                    "37652",
+                    "20628",
+                    "26276",
+                    "27648",
+                    "24344",
+                    "37651",
+                    "11307",
+                    "40949",
+                    "20629",
+                    "5861",
+                    "29164",
+                    "11358",
+                    "17355",
+                    "11309",
+                    "31502",
+                    "24390",
+                    "28264",
+                    "17464",
+                    "24628",
+                    "28266"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8206685781478882,
+                    0.7460163831710815,
+                    0.7458618879318237,
+                    0.7442089319229126,
+                    0.7373135089874268,
+                    0.7360143661499023,
+                    0.7357235550880432,
+                    0.73520827293396,
+                    0.7337496876716614,
+                    0.7332079410552979,
+                    0.7310669422149658,
+                    0.7310156226158142,
+                    0.730994701385498,
+                    0.7269347906112671,
+                    0.726686954498291,
+                    0.7238045334815979,
+                    0.7231249809265137,
+                    0.7217587232589722,
+                    0.7196779251098633,
+                    0.7166434526443481,
+                    0.7161943316459656,
+                    0.7155683040618896,
+                    0.7152459621429443,
+                    0.7151077389717102,
+                    0.713613748550415,
+                    0.7133496999740601,
+                    0.7124356031417847,
+                    0.7121763825416565,
+                    0.7113475799560547,
+                    0.711245059967041
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: driftwood mirror\n\nDocuments:\n\n11297: mcmillen driftwood circular sunburst rustic accent mirror. bring the beauty of nature into your home with this stunning circular driftwood mirror . with pieces of driftwood collected from shores after storms , this decorative wall mirror has 2 layers of driftwood pieces arranged to form its wood frame around the glass mirror . each piece of wood is hand nailed and glued together , then secured to the double-layered , solid circular wood backing . the entire back frame has arched pieces of driftwood nailed around the outer edge to match the decorative wood pieces , ensuring this remarkable piece of wood wall art is natural beauty from every angle . the neutral hues and dimensional , natural movement of this driftwood decor make it a perfect addition to the natural and rustic style .\n\n17379: easy install decorative floating frameless bathroom/vanity mirror. the beauty of this wall mirror is in the attention to detail . the bold back etched driftwood design can easily blend into any country or transitional space . this collection offers a unique process using our precision etched technique in the mirror . the results are a timeless up-to-date decorative look .\n\n34083: driftwood ludwick rectangular wall mirror. framed in a gently-aged finish , the driftwood ludwick mirror provides the perfect looking glass for that fleeting time we call childhood .\n\n20627: vannesa bathroom/vanity mirror. evoking a distressed barn wood aesthetic , this bathroom vanity mirror shines in coastal or farmhouse ensembles ! crafted of solid and manufactured wood , the rectangular frame showcases wide moldings in a rustic white and gray wash , while the gleaming glass mirror within features a flat , non-beveled edge for a brilliant reflection . made in the usa , this mirror arrives fully assembled and ready to hang right out of the box with wall-mounting hardware included for both portrait and landscape orientation .\n\n3647: kellett accent mirror. evoking sandy beaches and tranquil shorelines , this statement-making mirror features driftwood accents arranged as a frame for costal flair . its natural hues pair perfectly with rustic accents while its striking silhouette adds a dash of dimension to any space . add this piece to the master suite to complement a coastal aesthetic then match it with coral decor and sea glass accents for a cohesive look . round out the room with a hand-woven jute rug for a touch of texture or an abstract canvas print for contrasting style . whether you 're using this piece as an eye-catching finishing touch to your home or hanging it against a bare wall , this distinctive design is a striking addition to your home .\n\n37655: laplante beveled accent mirror. showcasing a casual coastal look , this square mirror is finished in a driftwood tone with a distressed whitewash . mirror has a generous 1 1/4 '' bevel and may be hung horizontal or vertical .\n\n125: karpeta rustic mirror. american value mirrors are built well and built to last . the finest materials and lasting design shape this coastal multi-color toned mirror . adds a fresh textured style complimenting many furniture pieces and bathroom fixtures . decorate your beach house , lake house , or your nautical themed bathroom with this dark coastal framed mirror . each frame is handcrafted to exhibit a consistent and impressive level of quality in fit , size , durability , and design .\n\n15852: machen driftwood leaner beveled venetian full length mirror. make a design statement with this intriguing mirror design . wonderfully textured polystyrene frame , perfect for the modern living space . beautifully contrasted shades of white and chrome highlight this exceptional style and finish . features a beveled edge mirror to add that classic touch to this intriguing floor mirror design .\n\n34929: clayhatchee distressed accent mirror. when you \u2019 re decorating your home , don \u2019 t forget about mirrors . more than just a spot to stop and reflect , they help open up tight spaces and let light bounce around . this geometric mirror showcases a wooden frame in a dark , natural hue that adds a bit of rustic flair . its frame also extends a bit over the glass , adding depth to the design . a d-ring hook is attached on the back , making it easy to hang this accent mirror wherever you choose .\n\n19580: hudson ferry modern & contemporary beveled dresser mirror. take a walk down the pier with this mirror . defined by soft driftwood hues , comfortable fabrics , and dynamic metal accents , the mirror offers the tones of oceanside living made for settling into .\n\n37652: corwin round cottage/country beveled accent mirror. displaying a coastal style , this round mirror features solid wood construction with a pieced driftwood design and an ivory wash that highlights the natural wood grain . the mirror has a 1.25 '' bevel .\n\n20628: bathroom/vanity mirror. evoking a distressed barn wood aesthetic , this mirror shines in coastal or farmhouse ensembles ! crafted of solid and manufactured wood , the rectangular frame showcases plank panel construction and simple moldings in a rustic gray finish , while the gleaming glass mirror within features a flat , non-beveled edge for a brilliant reflection . made in the usa , this mirror arrives fully assembled and ready to hang right out of the box with wall-mounting hardware included for both portrait and landscape orientation .\n\n26276: galveston sliding barn door wood window wall accent mirror. this gorgeous wall mirror brings character and elegance into any decor . handcrafted from solid wood , this oversized mirror makes for a classic statement piece with it 's six windowpane design and decorative sliding barn door details . hang it securely on a wall with two industrial strength hangers on the back or lean it up against a wall above a mantel . the frame is elegantly distressed for a vintage feel and measures 2 inches wide . it 's vintage-inspired window design will brighten any room and create the illusion of a larger space .\n\n27648: corrales beveled dresser mirror. this dresser mirror comes from the roughhewn acacia used in its creation . hand-selected planks of solid wood are carefully sanded , stained and whitewashed for a driftwood appeal that accentuates the active grain and draws out natural knots and markings from the milling process . they are then inlaid over plywood to create a handsome herringbone pattern and finished with thin metal bar pulls for the crowning contemporary touch .\n\n24344: lanford rustic accent mirror. bring a splash of nautical appeal to your home with this oval accent mirror ! designed to look like a ship \u2019 s porthole , the frame is crafted of metal in a weathered bronze finish accented by faux rivet details . made from flat , non-beveled glass , the mirror panel insert provides brilliant reflection , bouncing light to expand your space , while the attached metal hanging loop makes wall-mounting a breeze .\n\n37651: coelia cottage/country beveled accent mirror. this mirror features wood construction with a dimensional compass design . the piece has a driftwood finish with a light gray and whitewash , adding to the coastal feel . the mirror has a 1.25 '' bevel and may be hung horizontal or vertical .\n\n11307: musso wall mirror. bring earthy , versatile style to your space with the natural warmth of teak wood coupled with the contemporary ellipse shape of this wood wall mirror . the wood frame is crafted from natural teak wood from indonesia with wood grain in golden brown hues . each mirror will feature a slightly different wood grain `` design '' , as each piece is unique . the ellipse shape depicts a sort of rounded triangle shape , adding a contemporary silhouette to your walls . easy and ready to display , this wood mirror securely hangs by the metal keyhole hardware in the back .\n\n40949: kittery beveled distressed accent mirror. this rustic accent mirror adds style while also opening up your bathroom or guest room and letting the light bounce around . from wood with a weathered light gray finish that adds a coastal farmhouse look wherever you hang it . this mirror features a square beveled glass mirror inside the frame that hangs on your walls horizontally or vertically thanks to the included installation hardware and hanging wires on the back . plus , we love that this accent mirror has several different sizes to choose from that best suit your space .\n\n20629: kanisha bathroom/vanity mirror. sleek and stylish , this bathroom vanity mirror is great for clean , contemporary ensembles ! crafted of solid and manufactured wood , the 3 '' -wide rectangular frame showcases gloss white finish , while the gleaming glass mirror within features a flat , non-beveled edge for a brilliant reflection . made in the usa , this mirror arrives fully assembled and ready to hang right out of the box with wall-mounting hardware included for both portrait and landscape orientation .\n\n5861: coastal distressed accent mirror. this weathered mirror features a colored wood grain finish . the wooden frame has an angled front decorated with an inner distressed white border creating a unique coastal rustic feel . this wooden mirror is an impressive accessory to hang in a bedroom , bathroom or living space . 4 hooks are included allowing for a vertical or horizontal wall installation .\n\n29164: marjory beveled distressed accent mirror. proudly made in the united states , this rectangular mirror helps to open up any space in your home . this beveled glass piece is set in a plastic frame ( available in several finishes ) with angled edges that offer a sense of depth . its clean-lined silhouette and understated design give it a versatile look that blends in with many styles , while its distressed details lend it a touch of weathered charm . since wall mounting hardware is included , you can hang it up vertically or horizontally right away .\n\n11358: rashard beveled distressed accent mirror. artfully crafted , the mirror is made from solid wood with a decorative open lattice design on top . quality-built , the back is recessed , fitted , and screwed and the glass is beveled on all sides . mirror stick supports are included for use with a dresser .\n\n17355: traditional beveled distressed accent mirror. a great way to open up a room and let light bounce around . this mirror provides function and character to any space . the frame is made out of solid acacia wood , sturdy and made to withstand the passing of time . and it is finished with a distressed coat of pain that reveals a different color underneath . this mirror can be hung both vertically and horizontally depending on your preference . different colors are available . distressed patterns are different on every piece because all mirrors are .\n\n11309: daggett wall mirror. the soft natural tones of this beige , rectangular wood mirror create a rustic feel , coupled with the wicker and multi-textures found throughout the mirror . beneath the mirrored window pane is smoothly braided wicker strands with fray details surrounding the frame . display in an entryway or as a centerpiece to your bedroom above a console or vanity table .\n\n31502: cotuit arched panel leaning full length mirror. this large full-length mirror helps to open up any space and add a dose of coastal farmhouse charm to your home . it features a wooden frame with a weathered whitewash finish , an arch top silhouette , and a window pane design to create a breezy rustic accent in your bedroom or living room . the panels of mirrored glass have a non-beveled edge for a clean-lined reflection . this mirror measures 83 '' tall , and looks great leaned against your walls for a relaxed statement in your home .\n\n24390: fryman brushed classic rustic distressed wall mirror. an accent mirror is ideal for making the most of your walls . besides offering reflective functionality ( everyone can use a quick preen on their way out the door ) , they also can help make space feel larger , and add a decorative touch in keeping with a room 's style . made in the usa , this traditional wall mirror is crafted from manufactured wood with a distressed laminate on top , perfect for creating a rustic look .\n\n28264: defries bathroom/vanity mirror. brighten up your bathroom with this vanity mirror ! made from foam-injected polystyrene , the wide frame features clean-lined , stepped moldings in a silver finish for added depth . the gleaming glass mirror within features a beveled edge for a brilliant reflection , letting light bounce off to expand your space . ready to hang right out of the box , this mirror arrives with attached d-ring hangers included for portrait or landscape orientation according to your preference .\n\n17464: masaitis wall mirror. sophisticated wall mirror with an octagonal sided wood frame is sure to be the accent in your bathroom , powder room , or any room of your home . the mirror has been designed to do the best to eliminate the reflection distortion , especially for bathroom use . you will be marveled at the quality as it is so well combined with classic design .\n\n24628: eleora rectangular dresser mirror. this 36 '' h x 41 '' w dresser mirror helps you turn your dresser into a vanity . it 's made from wood in a weathered sandstone finish that gives it a relaxed coastal farmhouse look . molded details and mitred edges round out the classic frame , and surround the glass inside . we love how the mirror itself has beveled edges that refract the light and add depth . it 's designed to mount to a compatible dresser ( sold separately ) , but also looks great leaned against the wall on your entryway table .\n\n28266: yeung curvature bathroom/vanity mirror. brighten up your bathroom with this vanity mirror ! made from foam-injected polystyrene , the wide frame features a rustic graywash woodgrain finish for added depth . the gleaming glass mirror within features a thick beveled edge for a brilliant reflection , letting light bounce off to expand your space . ready to hang right out of the box , this mirror arrives with attached d-ring hangers included for portrait or landscape orientation according to your preference .\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"11297\", \"34083\", \"3647\", \"17379\", \"37655\", \"125\", \"37652\", \"27648\", \"19580\", \"5861\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "11297",
+                "34083",
+                "3647",
+                "17379",
+                "37655",
+                "125",
+                "37652",
+                "27648",
+                "19580",
+                "5861"
+            ],
+            "terminate": true
+        }
+    ]
+}

@@ -1,0 +1,364 @@
+{
+    "queries": [
+        "salon chair"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "7468",
+            "7467",
+            "7466",
+            "7465",
+            "25431",
+            "42329",
+            "36910",
+            "6167",
+            "40997",
+            "42330",
+            "40996",
+            "25434",
+            "25429",
+            "25433",
+            "20026",
+            "15612",
+            "27541",
+            "25430",
+            "18271",
+            "39429",
+            "24010",
+            "22130",
+            "25432",
+            "6168",
+            "18274",
+            "33632",
+            "4044",
+            "39461",
+            "31557",
+            "29990"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.8162234425544739,
+            0.8095969557762146,
+            0.8086983561515808,
+            0.8037450909614563,
+            0.7895818948745728,
+            0.7727921605110168,
+            0.7645639777183533,
+            0.7637397646903992,
+            0.7614634037017822,
+            0.7602957487106323,
+            0.7585040330886841,
+            0.7529417872428894,
+            0.7517976760864258,
+            0.7517564296722412,
+            0.7496849894523621,
+            0.749567985534668,
+            0.7485007047653198,
+            0.7481624484062195,
+            0.7471679449081421,
+            0.7445718050003052,
+            0.7431222796440125,
+            0.742906928062439,
+            0.7425740361213684,
+            0.742050290107727,
+            0.7405929565429688,
+            0.7397926449775696,
+            0.7396101951599121,
+            0.7392443418502808,
+            0.7389987707138062,
+            0.7378782629966736
+        ]
+    ],
+    "last_action_method": "check_max_q_reforms",
+    "prompts": [
+        "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: salon chair\n\nDocuments:\n\n7468: mercer41 hair salon chair hydraulic styling chair ( rose gold ). mercer41 beauty offers a wide selection professional beauty salon equipment including salon styling chair , salon hair dryer , barber pole light , etc . to showcase the uniqueness of each salon.the mercer41 beauty chairs for salon are beautifully designed to create a fashionable salon interior . they are made with the highest quality parts to provide a long lasting performance and a comfortable experience your customers will enjoy.the mercer41 hydraulic salon chairs are made with heavy duty steel frame , along with premium chrome round base , sturdy arms , durable hydraulic pump and thick high density foam seat and back rest . with its 360 degree swivel and adjustable high quality hydraulic pump , you can turn the salon chair to any position and adjust the height easily to meet your needs . styling chairs for salon .\n\n7467: reclining faux leather massage chair. offers a wide selection of professional beauty salon equipment including salon styling chair , salon hairdryer , barber pole light , etc . to showcase the uniqueness of each salon . the beauty chairs for the salon are beautifully designed to create a fashionable salon interior . they are made with the highest quality parts to provide long-lasting performance and a comfortable experience your customers will enjoy . the hydraulic salon chairs are made with a heavy-duty steel frame , along with a premium chrome round base , sturdy arms , durable hydraulic pump , and thick high-density foam seat and backrest . with its 360-degree swivel and adjustable high-quality hydraulic pump , you can turn the salon chair to any position and adjust the height easily to meet your needs , styling chairs for a salon .\n\n7466: reclining massage chair. offers a wide selection of professional beauty salon equipment including salon styling chair , salon hairdryer , barber pole light , etc . to showcase the uniqueness of each salon . the beauty chairs for the salon are beautifully designed to create a fashionable salon interior . they are made with the highest quality parts to provide long-lasting performance and a comfortable experience your customers will enjoy . the hydraulic salon chairs are made with a heavy-duty steel frame , along with a premium chrome round base , sturdy arms , durable hydraulic pump , and thick high-density foam seat and backrest . with its 360-degree swivel and adjustable high-quality hydraulic pump , you can turn the salon chair to any position and adjust the height easily to meet your needs . styling chairs for a salon .\n\n7465: hair salon chair. offers a wide selection of professional salon products including styling chair , salon hairdryer , salon equipment , etc . to showcase the uniqueness of each salon\n\n25431: barberpub salon massage chair. salon chairs are a wonderful avenue for hairstylists and barbers to increase their revenue - have a comfortable chair for customers to enjoy during their visit .\n\n42329: fashion casual beauty salon office chair. 100 % brand new and high quality . it is a new product with absolutely no damage . it is an amazing design , ergonomic design of perfect height ; curved seat supports the user \u2019 s back well in sitting and leads to an easy conversation . the linen surface and metal legs are comfortable and sturdy . because the size of the product is measured manually , there may be errors .\n\n36910: beauty spa salon barber chair. this barber chair would be a perfect choice for any style of the beauty salon , barber , and tattoo shop . pvc leather with high-density foam padding provides a comforting place for your customers to relax . besides , you can adjust the height with great ease . features heavy-duty hydraulic pump to make height adjustment easier high-density foam to make your clients more comfortable wooden armrest chrome plating steel base back seat can provide an extra comfortable sense of your client plastic footrest offers extra comfort for your client can be rotating , lifting , put down easy wiped back seat can not be reclined .\n\n6167: heilke fashion casual office beauty salon conference chair. nan\n\n40997: fashion casual work beauty salon ergonomic task chair. nan\n\n42330: gelt fashion casual beauty salon task chair. 100 % brand new and high quality . it is a new product with absolutely no damage . it is an amazing design , ergonomic design of perfect height ; curved seat supports the user \u2019 s back well in sitting and leads to an easy conversation . the linen surface and metal legs are comfortable and sturdy . because the size of the product is measured manually , there may be errors .\n\n40996: fashion casual work beauty salon task chair. nan\n\n25434: 21.7 '' w waiting room chair with wood frame. this is a salon chair , barber chair for a hairstylist . it is cheap , classic , hydraulic pump spa equipment .\n\n25429: ceramic bowl reclining massage chair. this classic and deluxe shampoo unit would be a perfect addition for barbershop , beauty salons , tattoo parlors and more . textured pvc leather with highly elasticity sponge provides great comfort . you and your client will love the luxury and comfort from this timeless example of quality . this item includes a shampoo chair , a ceramic shampoo bowl , a upc standard single handle faucet , a shampoo hose , a shower head , a strainer and a vacuum breaker .\n\n25433: barberpub hydraulic reclining massage chair. salon chairs are a wonderful avenue for hairstylists and barbers to increase their revenue - have a comfortable chair for customers to enjoy during their visit .\n\n20026: ginata salon beauty drafting chair. nan\n\n15612: massage chair. features heavy duty steel frame . premium chrome round base . heavy duty hydraulic pump make height adjustment easier . double-reinforced saddle sticking prevents ripping and tearing . small cell high density foam for extra comfort of your client . easy to assemble and clean . barber chair salon chair styling chair salon chairs hair styling chair haircut chair salon chair haircut chair salon barber chair heavy duty barber chair shampoo chair hydraulic salon chair salon stool chair beauty hair chair shampoo chair adjustable swivel barber chairs shampoo chair with leg rest salon stool for hair stylist stool salon haircut chair home hydraulic lift styling chair heavy duty salon chair .\n\n27541: faux leather reclining chair. this barber chair would be an appropriate chair for any barbershop , salon station , and is more versatile whether the size of these shops is large or small . stylish streamlined design with comfortable seat and backrest will attract customers not only in the aspect of vision but also in the aspect of practicality .\n\n25430: barberpub shampoo reclining massage chair. this light shampoo chair would be a perfect addition for barbershop , salons , tattoo parlors , and more . it \u2019 s high quality , durable , and stylish curved design . textured synthetic leather with premium foam padding provides a comforting place for your customer to relax . your client can lean them body to lay in an easy position , and then lay their head on the shampoo bowl comfortably .\n\n18271: eveliina fashion casual beauty salon task chair. the host design is made of stainless steel , with long service life , high gloss , not easy to corrode , and good safety . adjust the height of the chair freely with the adjuster , which is suitable for different people and places . rotating pulley , 360-degree free rotation pulley , free movement , good stability . aluminum alloy five-claw base , aluminum alloy strength five-claw design , safe and reliable , wear-resistant and durable applicable places : office , family life , beauty salon .\n\n39429: barber shampoo salon reclining massage chair. reclining hydraulic heavy-duty barber shampoo salon chair hair styling spa black . this man barber chair with headrest is designed to provide your customer best sitting experience during a haircut . it offers comfort as well as style every barber desires , suitable for use in barbershops . with heavy-duty construction , soft leather surface and ergonomic headrest ensure ultimate comfort . non-slip feet can firmly grip the floor for security . versatile and easy-to-use , it will suit all needs in a barbershop . and it is easy to wipe clean . do n't hesitate anymore !\n\n24010: bar salon task chair. the office chair is ideal for any casual or professional working area . it provides comfortable support with a cozy and convenient design . carefully crafted . it features a curved backrest design , an adjustable lift seat , and a five-star base with casters for easy mobility .\n\n22130: height-adjustable stool salon chair. here comes the stool , with 360-degree chair wheels , by which you can move freely with no noise in your space . with the comfortable table seat design , you will get a comfortable sitting experience . due to the stable and durable construction \u2014 the explosive gas rod passed germany tuv , and the high-strength steel frame \u2014 guarantees safer and longer use . top back to get one for your salon , dining table , bar table , etc .\n\n25432: barberpub hydraulic salon spa reclining massage chair with ottoman. salon chairs are a wonderful avenue for hairstylists and barbers to increase their revenue - have a comfortable chair for customers to enjoy during their visit .\n\n6168: heilly fashion casual office beauty salon task chair. nan\n\n18274: evelijne fashion casual office beauty salon task chair. 100 % brand new and high quality .it is a new product with absolutely no damage . it is an amazing design , the mainframe is made of stainless steel , which has a long service life , high gloss , is not easy to corrode and good safety . adjust the height of the chair freely with the adjuster , suitable for different crowds and places. , 360-degree free rotation pulley , free movement , good stability . aluminum alloy prong base , aluminum alloy strength five-claw design , safe and secure , wear-resistant and durable . explosion-proof chassis , safety explosion-proof chassis design , rigorous testing . instructions : because the size of the product is measured manually , there may be errors .\n\n33632: eileen 28.35 '' wide velvet papasan chair. this set of two accent chairs gives you additional seats whenever you need them , plus glam style wherever they go . each piece has an open metal frame with four gold-finished legs that curve inward to create an x-shaped base . it features velvet upholstery for a luxe look , and a round cushion back in a reclined position for a papasan-inspired design . the contrasting color scheme and mixed materials make for a contemporary-looking set of side chairs for you or your guests to relax in as you enjoy some good conversation in your living room or dining room .\n\n4044: liebenthal 28 '' wide velvet barrel chair. this beautiful accent chair is the perfect addition to any contemporary home . its luxurious velvet fabric and comfortable barrel backrest add sophistication to any room . featuring elegant gold legs and high-shelter armrests that will make you feel like royalty . the foam seat ensures that you will always be sitting in luxury .\n\n39461: professional salon reclining massage chair. new and in a good condition . first-rate metal and leather materials ensure its good durability and comfort . special treatment on handrails to protect you from falling down . it could sustain up to 150kg weight . widely applied in a salon , such as a hair salon .\n\n31557: ariany fashion casual beauty salon conference chair. it is a new product with absolutely no damage . it is an amazing design . the mainframe is made of steel , which has a long service life , high gloss is not easy to corrode , and good safety . adjust the height of the chair freely with the adjuster , suitable for different crowds and places . rotary pulley , rotation pulley , free movement , good stability . aluminum alloy prong base , aluminum alloy strength five-claw design , safe and secure , wear-resistant , and durable . explosion-proof chassis , safety explosion-proof chassis design , rigorous testing . the breathable mesh cloth is wrapped on the whole frame and has good air permeability . ergonomic design , sit up can ease fatigue , for the lumbar spine has played an effective role in protecting the cervical spine . instructions : because the size of the product is measured manually , there may be errors .\n\n29990: belleview 29 '' wide tufted polyester armchair. the chair with gold legs is the epitome of modern glam design ! this chair features a super luxurious velvet-like fabric , that feels good to the touch . button tufting on the back and seat bring the glam , while the gold metal tapered legs bring the modern design . straight edge arms and a foam cushion seat and back provide comfort while you sit back and relax in this chair . the chair is so nice , you 'll want to buy it twice .\n\n***\n\nOutput:"
+    ],
+    "responses": [
+        "```python\n[\"7468\", \"7467\", \"7466\", \"7465\", \"25431\", \"36910\", \"25434\", \"25433\", \"39429\", \"39461\"]\n```\n"
+    ],
+    "curr_top_k_docIDs": [
+        "7468",
+        "7467",
+        "7466",
+        "7465",
+        "25431",
+        "36910",
+        "25434",
+        "25433",
+        "39429",
+        "39461"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "salon chair"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "salon chair"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "7468",
+                    "7467",
+                    "7466",
+                    "7465",
+                    "25431",
+                    "42329",
+                    "36910",
+                    "6167",
+                    "40997",
+                    "42330",
+                    "40996",
+                    "25434",
+                    "25429",
+                    "25433",
+                    "20026",
+                    "15612",
+                    "27541",
+                    "25430",
+                    "18271",
+                    "39429",
+                    "24010",
+                    "22130",
+                    "25432",
+                    "6168",
+                    "18274",
+                    "33632",
+                    "4044",
+                    "39461",
+                    "31557",
+                    "29990"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8162234425544739,
+                    0.8095969557762146,
+                    0.8086983561515808,
+                    0.8037450909614563,
+                    0.7895818948745728,
+                    0.7727921605110168,
+                    0.7645639777183533,
+                    0.7637397646903992,
+                    0.7614634037017822,
+                    0.7602957487106323,
+                    0.7585040330886841,
+                    0.7529417872428894,
+                    0.7517976760864258,
+                    0.7517564296722412,
+                    0.7496849894523621,
+                    0.749567985534668,
+                    0.7485007047653198,
+                    0.7481624484062195,
+                    0.7471679449081421,
+                    0.7445718050003052,
+                    0.7431222796440125,
+                    0.742906928062439,
+                    0.7425740361213684,
+                    0.742050290107727,
+                    0.7405929565429688,
+                    0.7397926449775696,
+                    0.7396101951599121,
+                    0.7392443418502808,
+                    0.7389987707138062,
+                    0.7378782629966736
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "salon chair"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "7468",
+                    "7467",
+                    "7466",
+                    "7465",
+                    "25431",
+                    "42329",
+                    "36910",
+                    "6167",
+                    "40997",
+                    "42330",
+                    "40996",
+                    "25434",
+                    "25429",
+                    "25433",
+                    "20026",
+                    "15612",
+                    "27541",
+                    "25430",
+                    "18271",
+                    "39429",
+                    "24010",
+                    "22130",
+                    "25432",
+                    "6168",
+                    "18274",
+                    "33632",
+                    "4044",
+                    "39461",
+                    "31557",
+                    "29990"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8162234425544739,
+                    0.8095969557762146,
+                    0.8086983561515808,
+                    0.8037450909614563,
+                    0.7895818948745728,
+                    0.7727921605110168,
+                    0.7645639777183533,
+                    0.7637397646903992,
+                    0.7614634037017822,
+                    0.7602957487106323,
+                    0.7585040330886841,
+                    0.7529417872428894,
+                    0.7517976760864258,
+                    0.7517564296722412,
+                    0.7496849894523621,
+                    0.749567985534668,
+                    0.7485007047653198,
+                    0.7481624484062195,
+                    0.7471679449081421,
+                    0.7445718050003052,
+                    0.7431222796440125,
+                    0.742906928062439,
+                    0.7425740361213684,
+                    0.742050290107727,
+                    0.7405929565429688,
+                    0.7397926449775696,
+                    0.7396101951599121,
+                    0.7392443418502808,
+                    0.7389987707138062,
+                    0.7378782629966736
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: salon chair\n\nDocuments:\n\n7468: mercer41 hair salon chair hydraulic styling chair ( rose gold ). mercer41 beauty offers a wide selection professional beauty salon equipment including salon styling chair , salon hair dryer , barber pole light , etc . to showcase the uniqueness of each salon.the mercer41 beauty chairs for salon are beautifully designed to create a fashionable salon interior . they are made with the highest quality parts to provide a long lasting performance and a comfortable experience your customers will enjoy.the mercer41 hydraulic salon chairs are made with heavy duty steel frame , along with premium chrome round base , sturdy arms , durable hydraulic pump and thick high density foam seat and back rest . with its 360 degree swivel and adjustable high quality hydraulic pump , you can turn the salon chair to any position and adjust the height easily to meet your needs . styling chairs for salon .\n\n7467: reclining faux leather massage chair. offers a wide selection of professional beauty salon equipment including salon styling chair , salon hairdryer , barber pole light , etc . to showcase the uniqueness of each salon . the beauty chairs for the salon are beautifully designed to create a fashionable salon interior . they are made with the highest quality parts to provide long-lasting performance and a comfortable experience your customers will enjoy . the hydraulic salon chairs are made with a heavy-duty steel frame , along with a premium chrome round base , sturdy arms , durable hydraulic pump , and thick high-density foam seat and backrest . with its 360-degree swivel and adjustable high-quality hydraulic pump , you can turn the salon chair to any position and adjust the height easily to meet your needs , styling chairs for a salon .\n\n7466: reclining massage chair. offers a wide selection of professional beauty salon equipment including salon styling chair , salon hairdryer , barber pole light , etc . to showcase the uniqueness of each salon . the beauty chairs for the salon are beautifully designed to create a fashionable salon interior . they are made with the highest quality parts to provide long-lasting performance and a comfortable experience your customers will enjoy . the hydraulic salon chairs are made with a heavy-duty steel frame , along with a premium chrome round base , sturdy arms , durable hydraulic pump , and thick high-density foam seat and backrest . with its 360-degree swivel and adjustable high-quality hydraulic pump , you can turn the salon chair to any position and adjust the height easily to meet your needs . styling chairs for a salon .\n\n7465: hair salon chair. offers a wide selection of professional salon products including styling chair , salon hairdryer , salon equipment , etc . to showcase the uniqueness of each salon\n\n25431: barberpub salon massage chair. salon chairs are a wonderful avenue for hairstylists and barbers to increase their revenue - have a comfortable chair for customers to enjoy during their visit .\n\n42329: fashion casual beauty salon office chair. 100 % brand new and high quality . it is a new product with absolutely no damage . it is an amazing design , ergonomic design of perfect height ; curved seat supports the user \u2019 s back well in sitting and leads to an easy conversation . the linen surface and metal legs are comfortable and sturdy . because the size of the product is measured manually , there may be errors .\n\n36910: beauty spa salon barber chair. this barber chair would be a perfect choice for any style of the beauty salon , barber , and tattoo shop . pvc leather with high-density foam padding provides a comforting place for your customers to relax . besides , you can adjust the height with great ease . features heavy-duty hydraulic pump to make height adjustment easier high-density foam to make your clients more comfortable wooden armrest chrome plating steel base back seat can provide an extra comfortable sense of your client plastic footrest offers extra comfort for your client can be rotating , lifting , put down easy wiped back seat can not be reclined .\n\n6167: heilke fashion casual office beauty salon conference chair. nan\n\n40997: fashion casual work beauty salon ergonomic task chair. nan\n\n42330: gelt fashion casual beauty salon task chair. 100 % brand new and high quality . it is a new product with absolutely no damage . it is an amazing design , ergonomic design of perfect height ; curved seat supports the user \u2019 s back well in sitting and leads to an easy conversation . the linen surface and metal legs are comfortable and sturdy . because the size of the product is measured manually , there may be errors .\n\n40996: fashion casual work beauty salon task chair. nan\n\n25434: 21.7 '' w waiting room chair with wood frame. this is a salon chair , barber chair for a hairstylist . it is cheap , classic , hydraulic pump spa equipment .\n\n25429: ceramic bowl reclining massage chair. this classic and deluxe shampoo unit would be a perfect addition for barbershop , beauty salons , tattoo parlors and more . textured pvc leather with highly elasticity sponge provides great comfort . you and your client will love the luxury and comfort from this timeless example of quality . this item includes a shampoo chair , a ceramic shampoo bowl , a upc standard single handle faucet , a shampoo hose , a shower head , a strainer and a vacuum breaker .\n\n25433: barberpub hydraulic reclining massage chair. salon chairs are a wonderful avenue for hairstylists and barbers to increase their revenue - have a comfortable chair for customers to enjoy during their visit .\n\n20026: ginata salon beauty drafting chair. nan\n\n15612: massage chair. features heavy duty steel frame . premium chrome round base . heavy duty hydraulic pump make height adjustment easier . double-reinforced saddle sticking prevents ripping and tearing . small cell high density foam for extra comfort of your client . easy to assemble and clean . barber chair salon chair styling chair salon chairs hair styling chair haircut chair salon chair haircut chair salon barber chair heavy duty barber chair shampoo chair hydraulic salon chair salon stool chair beauty hair chair shampoo chair adjustable swivel barber chairs shampoo chair with leg rest salon stool for hair stylist stool salon haircut chair home hydraulic lift styling chair heavy duty salon chair .\n\n27541: faux leather reclining chair. this barber chair would be an appropriate chair for any barbershop , salon station , and is more versatile whether the size of these shops is large or small . stylish streamlined design with comfortable seat and backrest will attract customers not only in the aspect of vision but also in the aspect of practicality .\n\n25430: barberpub shampoo reclining massage chair. this light shampoo chair would be a perfect addition for barbershop , salons , tattoo parlors , and more . it \u2019 s high quality , durable , and stylish curved design . textured synthetic leather with premium foam padding provides a comforting place for your customer to relax . your client can lean them body to lay in an easy position , and then lay their head on the shampoo bowl comfortably .\n\n18271: eveliina fashion casual beauty salon task chair. the host design is made of stainless steel , with long service life , high gloss , not easy to corrode , and good safety . adjust the height of the chair freely with the adjuster , which is suitable for different people and places . rotating pulley , 360-degree free rotation pulley , free movement , good stability . aluminum alloy five-claw base , aluminum alloy strength five-claw design , safe and reliable , wear-resistant and durable applicable places : office , family life , beauty salon .\n\n39429: barber shampoo salon reclining massage chair. reclining hydraulic heavy-duty barber shampoo salon chair hair styling spa black . this man barber chair with headrest is designed to provide your customer best sitting experience during a haircut . it offers comfort as well as style every barber desires , suitable for use in barbershops . with heavy-duty construction , soft leather surface and ergonomic headrest ensure ultimate comfort . non-slip feet can firmly grip the floor for security . versatile and easy-to-use , it will suit all needs in a barbershop . and it is easy to wipe clean . do n't hesitate anymore !\n\n24010: bar salon task chair. the office chair is ideal for any casual or professional working area . it provides comfortable support with a cozy and convenient design . carefully crafted . it features a curved backrest design , an adjustable lift seat , and a five-star base with casters for easy mobility .\n\n22130: height-adjustable stool salon chair. here comes the stool , with 360-degree chair wheels , by which you can move freely with no noise in your space . with the comfortable table seat design , you will get a comfortable sitting experience . due to the stable and durable construction \u2014 the explosive gas rod passed germany tuv , and the high-strength steel frame \u2014 guarantees safer and longer use . top back to get one for your salon , dining table , bar table , etc .\n\n25432: barberpub hydraulic salon spa reclining massage chair with ottoman. salon chairs are a wonderful avenue for hairstylists and barbers to increase their revenue - have a comfortable chair for customers to enjoy during their visit .\n\n6168: heilly fashion casual office beauty salon task chair. nan\n\n18274: evelijne fashion casual office beauty salon task chair. 100 % brand new and high quality .it is a new product with absolutely no damage . it is an amazing design , the mainframe is made of stainless steel , which has a long service life , high gloss , is not easy to corrode and good safety . adjust the height of the chair freely with the adjuster , suitable for different crowds and places. , 360-degree free rotation pulley , free movement , good stability . aluminum alloy prong base , aluminum alloy strength five-claw design , safe and secure , wear-resistant and durable . explosion-proof chassis , safety explosion-proof chassis design , rigorous testing . instructions : because the size of the product is measured manually , there may be errors .\n\n33632: eileen 28.35 '' wide velvet papasan chair. this set of two accent chairs gives you additional seats whenever you need them , plus glam style wherever they go . each piece has an open metal frame with four gold-finished legs that curve inward to create an x-shaped base . it features velvet upholstery for a luxe look , and a round cushion back in a reclined position for a papasan-inspired design . the contrasting color scheme and mixed materials make for a contemporary-looking set of side chairs for you or your guests to relax in as you enjoy some good conversation in your living room or dining room .\n\n4044: liebenthal 28 '' wide velvet barrel chair. this beautiful accent chair is the perfect addition to any contemporary home . its luxurious velvet fabric and comfortable barrel backrest add sophistication to any room . featuring elegant gold legs and high-shelter armrests that will make you feel like royalty . the foam seat ensures that you will always be sitting in luxury .\n\n39461: professional salon reclining massage chair. new and in a good condition . first-rate metal and leather materials ensure its good durability and comfort . special treatment on handrails to protect you from falling down . it could sustain up to 150kg weight . widely applied in a salon , such as a hair salon .\n\n31557: ariany fashion casual beauty salon conference chair. it is a new product with absolutely no damage . it is an amazing design . the mainframe is made of steel , which has a long service life , high gloss is not easy to corrode , and good safety . adjust the height of the chair freely with the adjuster , suitable for different crowds and places . rotary pulley , rotation pulley , free movement , good stability . aluminum alloy prong base , aluminum alloy strength five-claw design , safe and secure , wear-resistant , and durable . explosion-proof chassis , safety explosion-proof chassis design , rigorous testing . the breathable mesh cloth is wrapped on the whole frame and has good air permeability . ergonomic design , sit up can ease fatigue , for the lumbar spine has played an effective role in protecting the cervical spine . instructions : because the size of the product is measured manually , there may be errors .\n\n29990: belleview 29 '' wide tufted polyester armchair. the chair with gold legs is the epitome of modern glam design ! this chair features a super luxurious velvet-like fabric , that feels good to the touch . button tufting on the back and seat bring the glam , while the gold metal tapered legs bring the modern design . straight edge arms and a foam cushion seat and back provide comfort while you sit back and relax in this chair . the chair is so nice , you 'll want to buy it twice .\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"7468\", \"7467\", \"7466\", \"7465\", \"25431\", \"36910\", \"25434\", \"25433\", \"39429\", \"39461\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "7468",
+                "7467",
+                "7466",
+                "7465",
+                "25431",
+                "36910",
+                "25434",
+                "25433",
+                "39429",
+                "39461"
+            ]
+        },
+        {
+            "queries": [
+                "salon chair"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "7468",
+                    "7467",
+                    "7466",
+                    "7465",
+                    "25431",
+                    "42329",
+                    "36910",
+                    "6167",
+                    "40997",
+                    "42330",
+                    "40996",
+                    "25434",
+                    "25429",
+                    "25433",
+                    "20026",
+                    "15612",
+                    "27541",
+                    "25430",
+                    "18271",
+                    "39429",
+                    "24010",
+                    "22130",
+                    "25432",
+                    "6168",
+                    "18274",
+                    "33632",
+                    "4044",
+                    "39461",
+                    "31557",
+                    "29990"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8162234425544739,
+                    0.8095969557762146,
+                    0.8086983561515808,
+                    0.8037450909614563,
+                    0.7895818948745728,
+                    0.7727921605110168,
+                    0.7645639777183533,
+                    0.7637397646903992,
+                    0.7614634037017822,
+                    0.7602957487106323,
+                    0.7585040330886841,
+                    0.7529417872428894,
+                    0.7517976760864258,
+                    0.7517564296722412,
+                    0.7496849894523621,
+                    0.749567985534668,
+                    0.7485007047653198,
+                    0.7481624484062195,
+                    0.7471679449081421,
+                    0.7445718050003052,
+                    0.7431222796440125,
+                    0.742906928062439,
+                    0.7425740361213684,
+                    0.742050290107727,
+                    0.7405929565429688,
+                    0.7397926449775696,
+                    0.7396101951599121,
+                    0.7392443418502808,
+                    0.7389987707138062,
+                    0.7378782629966736
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the document ids below given the query. Follow the output format example exactly and return only a python list of docID strings with exactly 10 strings.\n\nExample\n***\nQuery: an example query\n\nDocuments:\nd1: doc 1 text\nd4: doc 4 text\nd2456: doc 2456 text\n\nOutput: [\"d4\", \"d1\", \"d2456\"]\n***\n\nInputs:\n***\nQuery: salon chair\n\nDocuments:\n\n7468: mercer41 hair salon chair hydraulic styling chair ( rose gold ). mercer41 beauty offers a wide selection professional beauty salon equipment including salon styling chair , salon hair dryer , barber pole light , etc . to showcase the uniqueness of each salon.the mercer41 beauty chairs for salon are beautifully designed to create a fashionable salon interior . they are made with the highest quality parts to provide a long lasting performance and a comfortable experience your customers will enjoy.the mercer41 hydraulic salon chairs are made with heavy duty steel frame , along with premium chrome round base , sturdy arms , durable hydraulic pump and thick high density foam seat and back rest . with its 360 degree swivel and adjustable high quality hydraulic pump , you can turn the salon chair to any position and adjust the height easily to meet your needs . styling chairs for salon .\n\n7467: reclining faux leather massage chair. offers a wide selection of professional beauty salon equipment including salon styling chair , salon hairdryer , barber pole light , etc . to showcase the uniqueness of each salon . the beauty chairs for the salon are beautifully designed to create a fashionable salon interior . they are made with the highest quality parts to provide long-lasting performance and a comfortable experience your customers will enjoy . the hydraulic salon chairs are made with a heavy-duty steel frame , along with a premium chrome round base , sturdy arms , durable hydraulic pump , and thick high-density foam seat and backrest . with its 360-degree swivel and adjustable high-quality hydraulic pump , you can turn the salon chair to any position and adjust the height easily to meet your needs , styling chairs for a salon .\n\n7466: reclining massage chair. offers a wide selection of professional beauty salon equipment including salon styling chair , salon hairdryer , barber pole light , etc . to showcase the uniqueness of each salon . the beauty chairs for the salon are beautifully designed to create a fashionable salon interior . they are made with the highest quality parts to provide long-lasting performance and a comfortable experience your customers will enjoy . the hydraulic salon chairs are made with a heavy-duty steel frame , along with a premium chrome round base , sturdy arms , durable hydraulic pump , and thick high-density foam seat and backrest . with its 360-degree swivel and adjustable high-quality hydraulic pump , you can turn the salon chair to any position and adjust the height easily to meet your needs . styling chairs for a salon .\n\n7465: hair salon chair. offers a wide selection of professional salon products including styling chair , salon hairdryer , salon equipment , etc . to showcase the uniqueness of each salon\n\n25431: barberpub salon massage chair. salon chairs are a wonderful avenue for hairstylists and barbers to increase their revenue - have a comfortable chair for customers to enjoy during their visit .\n\n42329: fashion casual beauty salon office chair. 100 % brand new and high quality . it is a new product with absolutely no damage . it is an amazing design , ergonomic design of perfect height ; curved seat supports the user \u2019 s back well in sitting and leads to an easy conversation . the linen surface and metal legs are comfortable and sturdy . because the size of the product is measured manually , there may be errors .\n\n36910: beauty spa salon barber chair. this barber chair would be a perfect choice for any style of the beauty salon , barber , and tattoo shop . pvc leather with high-density foam padding provides a comforting place for your customers to relax . besides , you can adjust the height with great ease . features heavy-duty hydraulic pump to make height adjustment easier high-density foam to make your clients more comfortable wooden armrest chrome plating steel base back seat can provide an extra comfortable sense of your client plastic footrest offers extra comfort for your client can be rotating , lifting , put down easy wiped back seat can not be reclined .\n\n6167: heilke fashion casual office beauty salon conference chair. nan\n\n40997: fashion casual work beauty salon ergonomic task chair. nan\n\n42330: gelt fashion casual beauty salon task chair. 100 % brand new and high quality . it is a new product with absolutely no damage . it is an amazing design , ergonomic design of perfect height ; curved seat supports the user \u2019 s back well in sitting and leads to an easy conversation . the linen surface and metal legs are comfortable and sturdy . because the size of the product is measured manually , there may be errors .\n\n40996: fashion casual work beauty salon task chair. nan\n\n25434: 21.7 '' w waiting room chair with wood frame. this is a salon chair , barber chair for a hairstylist . it is cheap , classic , hydraulic pump spa equipment .\n\n25429: ceramic bowl reclining massage chair. this classic and deluxe shampoo unit would be a perfect addition for barbershop , beauty salons , tattoo parlors and more . textured pvc leather with highly elasticity sponge provides great comfort . you and your client will love the luxury and comfort from this timeless example of quality . this item includes a shampoo chair , a ceramic shampoo bowl , a upc standard single handle faucet , a shampoo hose , a shower head , a strainer and a vacuum breaker .\n\n25433: barberpub hydraulic reclining massage chair. salon chairs are a wonderful avenue for hairstylists and barbers to increase their revenue - have a comfortable chair for customers to enjoy during their visit .\n\n20026: ginata salon beauty drafting chair. nan\n\n15612: massage chair. features heavy duty steel frame . premium chrome round base . heavy duty hydraulic pump make height adjustment easier . double-reinforced saddle sticking prevents ripping and tearing . small cell high density foam for extra comfort of your client . easy to assemble and clean . barber chair salon chair styling chair salon chairs hair styling chair haircut chair salon chair haircut chair salon barber chair heavy duty barber chair shampoo chair hydraulic salon chair salon stool chair beauty hair chair shampoo chair adjustable swivel barber chairs shampoo chair with leg rest salon stool for hair stylist stool salon haircut chair home hydraulic lift styling chair heavy duty salon chair .\n\n27541: faux leather reclining chair. this barber chair would be an appropriate chair for any barbershop , salon station , and is more versatile whether the size of these shops is large or small . stylish streamlined design with comfortable seat and backrest will attract customers not only in the aspect of vision but also in the aspect of practicality .\n\n25430: barberpub shampoo reclining massage chair. this light shampoo chair would be a perfect addition for barbershop , salons , tattoo parlors , and more . it \u2019 s high quality , durable , and stylish curved design . textured synthetic leather with premium foam padding provides a comforting place for your customer to relax . your client can lean them body to lay in an easy position , and then lay their head on the shampoo bowl comfortably .\n\n18271: eveliina fashion casual beauty salon task chair. the host design is made of stainless steel , with long service life , high gloss , not easy to corrode , and good safety . adjust the height of the chair freely with the adjuster , which is suitable for different people and places . rotating pulley , 360-degree free rotation pulley , free movement , good stability . aluminum alloy five-claw base , aluminum alloy strength five-claw design , safe and reliable , wear-resistant and durable applicable places : office , family life , beauty salon .\n\n39429: barber shampoo salon reclining massage chair. reclining hydraulic heavy-duty barber shampoo salon chair hair styling spa black . this man barber chair with headrest is designed to provide your customer best sitting experience during a haircut . it offers comfort as well as style every barber desires , suitable for use in barbershops . with heavy-duty construction , soft leather surface and ergonomic headrest ensure ultimate comfort . non-slip feet can firmly grip the floor for security . versatile and easy-to-use , it will suit all needs in a barbershop . and it is easy to wipe clean . do n't hesitate anymore !\n\n24010: bar salon task chair. the office chair is ideal for any casual or professional working area . it provides comfortable support with a cozy and convenient design . carefully crafted . it features a curved backrest design , an adjustable lift seat , and a five-star base with casters for easy mobility .\n\n22130: height-adjustable stool salon chair. here comes the stool , with 360-degree chair wheels , by which you can move freely with no noise in your space . with the comfortable table seat design , you will get a comfortable sitting experience . due to the stable and durable construction \u2014 the explosive gas rod passed germany tuv , and the high-strength steel frame \u2014 guarantees safer and longer use . top back to get one for your salon , dining table , bar table , etc .\n\n25432: barberpub hydraulic salon spa reclining massage chair with ottoman. salon chairs are a wonderful avenue for hairstylists and barbers to increase their revenue - have a comfortable chair for customers to enjoy during their visit .\n\n6168: heilly fashion casual office beauty salon task chair. nan\n\n18274: evelijne fashion casual office beauty salon task chair. 100 % brand new and high quality .it is a new product with absolutely no damage . it is an amazing design , the mainframe is made of stainless steel , which has a long service life , high gloss , is not easy to corrode and good safety . adjust the height of the chair freely with the adjuster , suitable for different crowds and places. , 360-degree free rotation pulley , free movement , good stability . aluminum alloy prong base , aluminum alloy strength five-claw design , safe and secure , wear-resistant and durable . explosion-proof chassis , safety explosion-proof chassis design , rigorous testing . instructions : because the size of the product is measured manually , there may be errors .\n\n33632: eileen 28.35 '' wide velvet papasan chair. this set of two accent chairs gives you additional seats whenever you need them , plus glam style wherever they go . each piece has an open metal frame with four gold-finished legs that curve inward to create an x-shaped base . it features velvet upholstery for a luxe look , and a round cushion back in a reclined position for a papasan-inspired design . the contrasting color scheme and mixed materials make for a contemporary-looking set of side chairs for you or your guests to relax in as you enjoy some good conversation in your living room or dining room .\n\n4044: liebenthal 28 '' wide velvet barrel chair. this beautiful accent chair is the perfect addition to any contemporary home . its luxurious velvet fabric and comfortable barrel backrest add sophistication to any room . featuring elegant gold legs and high-shelter armrests that will make you feel like royalty . the foam seat ensures that you will always be sitting in luxury .\n\n39461: professional salon reclining massage chair. new and in a good condition . first-rate metal and leather materials ensure its good durability and comfort . special treatment on handrails to protect you from falling down . it could sustain up to 150kg weight . widely applied in a salon , such as a hair salon .\n\n31557: ariany fashion casual beauty salon conference chair. it is a new product with absolutely no damage . it is an amazing design . the mainframe is made of steel , which has a long service life , high gloss is not easy to corrode , and good safety . adjust the height of the chair freely with the adjuster , suitable for different crowds and places . rotary pulley , rotation pulley , free movement , good stability . aluminum alloy prong base , aluminum alloy strength five-claw design , safe and secure , wear-resistant , and durable . explosion-proof chassis , safety explosion-proof chassis design , rigorous testing . the breathable mesh cloth is wrapped on the whole frame and has good air permeability . ergonomic design , sit up can ease fatigue , for the lumbar spine has played an effective role in protecting the cervical spine . instructions : because the size of the product is measured manually , there may be errors .\n\n29990: belleview 29 '' wide tufted polyester armchair. the chair with gold legs is the epitome of modern glam design ! this chair features a super luxurious velvet-like fabric , that feels good to the touch . button tufting on the back and seat bring the glam , while the gold metal tapered legs bring the modern design . straight edge arms and a foam cushion seat and back provide comfort while you sit back and relax in this chair . the chair is so nice , you 'll want to buy it twice .\n\n***\n\nOutput:"
+            ],
+            "responses": [
+                "```python\n[\"7468\", \"7467\", \"7466\", \"7465\", \"25431\", \"36910\", \"25434\", \"25433\", \"39429\", \"39461\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "7468",
+                "7467",
+                "7466",
+                "7465",
+                "25431",
+                "36910",
+                "25434",
+                "25433",
+                "39429",
+                "39461"
+            ],
+            "terminate": true
+        }
+    ]
+}

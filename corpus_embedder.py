@@ -75,6 +75,6 @@ if __name__ == "__main__":
     logger = setup_logging(f"{model_name}", config)
 
     corpus_path = f"{data_path}collection.jsonl"
-    emb_path = f"{data_path}collection_{model_name}_attention_mask_100_np.pkl"
+    emb_path = f"{data_path}collection_{model_name}.pkl"
 
     embed_corpus_jsonl(corpus_path, emb_path, embedder, logger, batch_size = 100)
