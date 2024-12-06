@@ -9,7 +9,8 @@ import yaml
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 from google.api_core.exceptions import GoogleAPICallError, RetryError, InvalidArgument
-
+import random
+import google
 
 class BaseLLM(ABC):
 
@@ -23,7 +24,7 @@ class BaseLLM(ABC):
 
         llm_config = self.config.get('llm', {})
         self.dwell_time = llm_config.get('dwell_time', 60) 
-        self.num_retries = llm_config.get('num_retries', 5)
+        self.num_retries = llm_config.get('num_retries', 10)
         
     def prompt(self, *args, **kwargs):
         """Prompts with retries and catches errors"""
@@ -81,8 +82,13 @@ class OpenAILLM(BaseLLM):
 class GeminiLLM(BaseLLM):
     def __init__(self, config, model_name):
         super().__init__(config,model_name)
-        self.GEMINI_API_KEY = os.environ['GEMINI_API_KEY']
-        genai.configure(api_key = self.GEMINI_API_KEY)
+
+        self.GEMINI_API_KEYS = [
+            value for key, value in sorted(os.environ.items()) if key.startswith('GEMINI_API_KEY_')
+        ]
+        self.key_exhausted_status = [False] * len(self.GEMINI_API_KEYS)  # False indicates the key is not exhausted
+        self.current_key_index = 0
+        genai.configure(api_key=self.GEMINI_API_KEYS[self.current_key_index])
         self.model = genai.GenerativeModel(self.model_name)
         self.safety_settings = {HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
                                 HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
@@ -97,7 +103,18 @@ class GeminiLLM(BaseLLM):
             "message": response.text    
         }
 
+
     def handle_exception(self, e, attempt):
-        ##todo -- see gemini_wrapper.py code for key shuffling example given certain error types
-        self.logger.info(f"Attempt {attempt + 1} failed: {e}")
-        pass
+        if isinstance(e, google.api_core.exceptions.ResourceExhausted):
+            self.key_exhausted_status[self.current_key_index] = True 
+
+            available_keys = [i for i, exhausted in enumerate(self.key_exhausted_status) if not exhausted]
+            if available_keys:
+                self.current_key_index = random.choice(available_keys)
+                self.logger.info(f"Quota reached for current API key. Switching to key index {self.current_key_index}")
+                genai.configure(api_key=self.GEMINI_API_KEYS[self.current_key_index])
+            else:
+                self.logger.error("All API keys have been exhausted.")
+        else:
+            self.logger.info(f"Attempt {attempt + 1} failed: {e}")
+            pass

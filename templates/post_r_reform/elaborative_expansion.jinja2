@@ -1,0 +1,28 @@
+You are given a query and list of documents that were retrieved to address the query.
+
+First, consider what is failing to be addressed about the query given the documents.
+Then, expand the query to elaborate on the aspects the user may be looking for which failed to have been addressed by the documents. Your output should be at least 4 sentences long, and should cover a variety of aspects the user may be looking for in reasonable detail ans while providing examples.
+Ensure that you do not remove any important elements from the query. 
+
+You are also provided a seqeunce of previous query reformulations. Ensure your new reformulation is different from previous reformulations.
+
+Query:
+***
+{{ init_q }}
+***
+
+Documents:
+***
+{% for doc in curr_top_k_ids_and_texts %}
+{{ doc.docID }}: {{ doc.text }}
+{% endfor %}
+***
+
+Previous query reformulations:
+***
+{% for query in reformed_qs %}
+{{ query }}
+{% endfor %}
+***
+
+Output only your reformulated query:

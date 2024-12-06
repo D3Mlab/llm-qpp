@@ -3,7 +3,7 @@ from eval_manager import EvalManager
 if __name__ == "__main__":
 
     eval_manager = EvalManager()
-    exp_dir = "experiments/dec_6_harder/roegen_ali_T3_k20"
+    exp_dir = "experiments/dec_6_harder/roegen_ali_T3_k20_elab_instructions_4sent"
 
     eval_manager.eval_experiment(exp_dir)
 
