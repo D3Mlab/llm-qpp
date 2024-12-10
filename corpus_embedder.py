@@ -61,7 +61,7 @@ if __name__ == "__main__":
     #embedder = embedding.RandomEmbedder(model_name = model_name)
 
     #data_path = "data/Wayfair_products/"
-    data_path = "data/ROEGEN/q50_d570/"
+    data_path = "data/NLQA/subset_q100_d100000/"
 
 
     #setup logging

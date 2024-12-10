@@ -205,7 +205,8 @@ class EvalManager():
                 if doc_id not in seen_docs:
                     deduped_lines.append(line)
                     seen_docs.add(doc_id)
-                self.experiment_logger.warning(f"Query {trec_file_path} has duplicate doc {doc_id}.")
+                else:
+                    experiment_logger.warning(f"Query {trec_file_path} has duplicate doc {doc_id}.")
         # Write deduplicated lines to file
         with open(dedup_trec_file_path, "w") as dedup_file:
             dedup_file.writelines(deduped_lines)
