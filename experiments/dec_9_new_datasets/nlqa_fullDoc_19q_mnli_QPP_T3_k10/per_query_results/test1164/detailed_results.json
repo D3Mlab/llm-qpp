@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "what does the application of contract of adhesion mean"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc41332",
+            "doc41333",
+            "doc1081841",
+            "doc955441",
+            "doc41329",
+            "doc1081830",
+            "doc2144597",
+            "doc1081835",
+            "doc85502",
+            "doc1752030"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.6883565187454224,
+            0.6672230958938599,
+            0.5696910619735718,
+            0.5593131184577942,
+            0.5560270547866821,
+            0.5495365858078003,
+            0.5461522340774536,
+            0.5429240465164185,
+            0.5260298252105713,
+            0.5114778280258179
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what does the application of contract of adhesion mean\n\nDocuments:\n\ndoc41332: Standard form contract. The concept of the contract of adhesion originated in French civil law, but did not enter American jurisprudence until the Harvard Law Review published an influential article by Edwin W. Patterson in 1919.[4] It was subsequently adopted by the majority of American courts, especially after the Supreme Court of California endorsed adhesion analysis in 1962. See Steven v. Fidelity & Casualty Co., 58 Cal. 2d 862, 882 n.10 (1962) (explaining history of concept).[5]\n\ndoc41333: Standard form contract. For a contract to be treated as a contract of adhesion, it must be presented on a standard form on a \"take it or leave it\" basis, and give one party no ability to negotiate because of their unequal bargaining position. The special scrutiny given to contracts of adhesion can be performed in a number of ways:\n\ndoc1081841: Cell adhesion. The differential adhesion hypothesis (sometimes called the \"thermodynamic hypothesis\")[5] is a theory of cell adhesion advanced by Malcolm Steinberg in 1964 to explain the mechanism by which heterotypic cells in mixed aggregates sort out into isotypic territories. The DAH postulates that tissues are viscoelastic liquids, and as such possess measurable tissue surface tensions. These surface tensions have been determined for a variety of tissues, including embryonic tissues and cell lines. The surface tensions correspond to the mutual sorting behavior: the tissue type with the higher surface tension will occupy an internal position relative to a tissue with a lower surface tension (if these tissues can interact with each other through their adhesion machinery).\n\ndoc955441: Friction. When the surfaces are conjoined, Coulomb friction becomes a very poor approximation (for example, adhesive tape resists sliding even when there is no normal force, or a negative normal force). In this case, the frictional force may depend strongly on the area of contact. Some drag racing tires are adhesive for this reason. However, despite the complexity of the fundamental physics behind friction, the relationships are accurate enough to be useful in many applications.\n\ndoc41329: Standard form contract. Another factor which might mitigate the effects of competition on the content of contracts of adhesion is that, in practice, standard form contracts are usually drafted by lawyers instructed to construct them so as to minimize the firm\u00e2\u20ac\u2122s liability, not necessarily to implement managers' competitive decisions. Sometimes the contracts are written by an industry body and distributed to firms in that industry, increasing homogeneity of the contracts and reducing consumer's ability to shop around.\n\ndoc1081830: Cell adhesion. Cell adhesion is the process by which cells interact and attach to a surface, substrate or another cell, mediated by interactions between molecules of the cell surface. Cell adhesion occurs from the action of transmembrane glycoproteins, called cell adhesion molecules. Examples of these proteins include selectins, integrins, syndecans, and cadherins.[1] Cellular adhesion is essential in maintaining multicellular structure. Cellular adhesion can link cells in different ways and can be involved in signal transduction.[2] Cell adhesion is also essential for the pathogenesis of infectious organisms.\n\ndoc2144597: Adhesive bandage. An adhesive bandage is a small, flexible sheet of material which is sticky on one side, with a smaller, non-sticky, absorbent pad stuck to the sticky side. The pad is placed against the wound, and overlapping edges of the sticky material are smoothed down so they stick to the surrounding skin. Adhesive bandages are generally packaged in a sealed, sterile bag, with a backing covering the sticky side; the backing is removed as the bandage is applied. They come in a variety of sizes and shapes.\n\ndoc1081835: Cell adhesion. Selective cell\u00e2\u20ac\u201ccell adhesion enables vertebrate cells to assemble into organised tissues. Homophilic attachment allows selective recognition, resulting in cells of a similar type sticking together, whereas cells of a different type stay segregated.[3]\n\ndoc85502: Implantation (human embryo). Adhesion is a much stronger attachment to the endometrium than the loose apposition.\n\ndoc1752030: Cell junction. Cell adhesion is a vital component of the body. Loss of this adhesion effects cell structure, cellular functioning and communication with other cells and the extracellular matrix and can lead to severe health issues and diseases.\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: what does the application of contract of adhesion mean\n\nDocuments:\n\ndoc41332: Standard form contract. The concept of the contract of adhesion originated in French civil law, but did not enter American jurisprudence until the Harvard Law Review published an influential article by Edwin W. Patterson in 1919.[4] It was subsequently adopted by the majority of American courts, especially after the Supreme Court of California endorsed adhesion analysis in 1962. See Steven v. Fidelity & Casualty Co., 58 Cal. 2d 862, 882 n.10 (1962) (explaining history of concept).[5]\n\ndoc41333: Standard form contract. For a contract to be treated as a contract of adhesion, it must be presented on a standard form on a \"take it or leave it\" basis, and give one party no ability to negotiate because of their unequal bargaining position. The special scrutiny given to contracts of adhesion can be performed in a number of ways:\n\ndoc41329: Standard form contract. Another factor which might mitigate the effects of competition on the content of contracts of adhesion is that, in practice, standard form contracts are usually drafted by lawyers instructed to construct them so as to minimize the firm\u00e2\u20ac\u2122s liability, not necessarily to implement managers' competitive decisions. Sometimes the contracts are written by an industry body and distributed to firms in that industry, increasing homogeneity of the contracts and reducing consumer's ability to shop around.\n\ndoc85502: Implantation (human embryo). Adhesion is a much stronger attachment to the endometrium than the loose apposition.\n\ndoc1081830: Cell adhesion. Cell adhesion is the process by which cells interact and attach to a surface, substrate or another cell, mediated by interactions between molecules of the cell surface. Cell adhesion occurs from the action of transmembrane glycoproteins, called cell adhesion molecules. Examples of these proteins include selectins, integrins, syndecans, and cadherins.[1] Cellular adhesion is essential in maintaining multicellular structure. Cellular adhesion can link cells in different ways and can be involved in signal transduction.[2] Cell adhesion is also essential for the pathogenesis of infectious organisms.\n\ndoc1081835: Cell adhesion. Selective cell\u00e2\u20ac\u201ccell adhesion enables vertebrate cells to assemble into organised tissues. Homophilic attachment allows selective recognition, resulting in cells of a similar type sticking together, whereas cells of a different type stay segregated.[3]\n\ndoc1081841: Cell adhesion. The differential adhesion hypothesis (sometimes called the \"thermodynamic hypothesis\")[5] is a theory of cell adhesion advanced by Malcolm Steinberg in 1964 to explain the mechanism by which heterotypic cells in mixed aggregates sort out into isotypic territories. The DAH postulates that tissues are viscoelastic liquids, and as such possess measurable tissue surface tensions. These surface tensions have been determined for a variety of tissues, including embryonic tissues and cell lines. The surface tensions correspond to the mutual sorting behavior: the tissue type with the higher surface tension will occupy an internal position relative to a tissue with a lower surface tension (if these tissues can interact with each other through their adhesion machinery).\n\ndoc1752030: Cell junction. Cell adhesion is a vital component of the body. Loss of this adhesion effects cell structure, cellular functioning and communication with other cells and the extracellular matrix and can lead to severe health issues and diseases.\n\ndoc2144597: Adhesive bandage. An adhesive bandage is a small, flexible sheet of material which is sticky on one side, with a smaller, non-sticky, absorbent pad stuck to the sticky side. The pad is placed against the wound, and overlapping edges of the sticky material are smoothed down so they stick to the surrounding skin. Adhesive bandages are generally packaged in a sealed, sterile bag, with a backing covering the sticky side; the backing is removed as the bandage is applied. They come in a variety of sizes and shapes.\n\ndoc955441: Friction. When the surfaces are conjoined, Coulomb friction becomes a very poor approximation (for example, adhesive tape resists sliding even when there is no normal force, or a negative normal force). In this case, the frictional force may depend strongly on the area of contact. Some drag racing tires are adhesive for this reason. However, despite the complexity of the fundamental physics behind friction, the relationships are accurate enough to be useful in many applications.\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"doc41332\",\n    \"doc41333\",\n    \"doc41329\",\n    \"doc85502\",\n    \"doc1081830\",\n    \"doc1081835\",\n    \"doc1081841\",\n    \"doc1752030\",\n    \"doc2144597\",\n    \"doc955441\"\n]\nprint(doc_ids)\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc41332",
+        "doc41333",
+        "doc41329",
+        "doc85502",
+        "doc1081830",
+        "doc1081835",
+        "doc1081841",
+        "doc1752030",
+        "doc2144597",
+        "doc955441"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "what does the application of contract of adhesion mean"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "what does the application of contract of adhesion mean"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc41332",
+                    "doc41333",
+                    "doc1081841",
+                    "doc955441",
+                    "doc41329",
+                    "doc1081830",
+                    "doc2144597",
+                    "doc1081835",
+                    "doc85502",
+                    "doc1752030"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6883565187454224,
+                    0.6672230958938599,
+                    0.5696910619735718,
+                    0.5593131184577942,
+                    0.5560270547866821,
+                    0.5495365858078003,
+                    0.5461522340774536,
+                    0.5429240465164185,
+                    0.5260298252105713,
+                    0.5114778280258179
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "what does the application of contract of adhesion mean"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc41332",
+                    "doc41333",
+                    "doc1081841",
+                    "doc955441",
+                    "doc41329",
+                    "doc1081830",
+                    "doc2144597",
+                    "doc1081835",
+                    "doc85502",
+                    "doc1752030"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6883565187454224,
+                    0.6672230958938599,
+                    0.5696910619735718,
+                    0.5593131184577942,
+                    0.5560270547866821,
+                    0.5495365858078003,
+                    0.5461522340774536,
+                    0.5429240465164185,
+                    0.5260298252105713,
+                    0.5114778280258179
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what does the application of contract of adhesion mean\n\nDocuments:\n\ndoc41332: Standard form contract. The concept of the contract of adhesion originated in French civil law, but did not enter American jurisprudence until the Harvard Law Review published an influential article by Edwin W. Patterson in 1919.[4] It was subsequently adopted by the majority of American courts, especially after the Supreme Court of California endorsed adhesion analysis in 1962. See Steven v. Fidelity & Casualty Co., 58 Cal. 2d 862, 882 n.10 (1962) (explaining history of concept).[5]\n\ndoc41333: Standard form contract. For a contract to be treated as a contract of adhesion, it must be presented on a standard form on a \"take it or leave it\" basis, and give one party no ability to negotiate because of their unequal bargaining position. The special scrutiny given to contracts of adhesion can be performed in a number of ways:\n\ndoc1081841: Cell adhesion. The differential adhesion hypothesis (sometimes called the \"thermodynamic hypothesis\")[5] is a theory of cell adhesion advanced by Malcolm Steinberg in 1964 to explain the mechanism by which heterotypic cells in mixed aggregates sort out into isotypic territories. The DAH postulates that tissues are viscoelastic liquids, and as such possess measurable tissue surface tensions. These surface tensions have been determined for a variety of tissues, including embryonic tissues and cell lines. The surface tensions correspond to the mutual sorting behavior: the tissue type with the higher surface tension will occupy an internal position relative to a tissue with a lower surface tension (if these tissues can interact with each other through their adhesion machinery).\n\ndoc955441: Friction. When the surfaces are conjoined, Coulomb friction becomes a very poor approximation (for example, adhesive tape resists sliding even when there is no normal force, or a negative normal force). In this case, the frictional force may depend strongly on the area of contact. Some drag racing tires are adhesive for this reason. However, despite the complexity of the fundamental physics behind friction, the relationships are accurate enough to be useful in many applications.\n\ndoc41329: Standard form contract. Another factor which might mitigate the effects of competition on the content of contracts of adhesion is that, in practice, standard form contracts are usually drafted by lawyers instructed to construct them so as to minimize the firm\u00e2\u20ac\u2122s liability, not necessarily to implement managers' competitive decisions. Sometimes the contracts are written by an industry body and distributed to firms in that industry, increasing homogeneity of the contracts and reducing consumer's ability to shop around.\n\ndoc1081830: Cell adhesion. Cell adhesion is the process by which cells interact and attach to a surface, substrate or another cell, mediated by interactions between molecules of the cell surface. Cell adhesion occurs from the action of transmembrane glycoproteins, called cell adhesion molecules. Examples of these proteins include selectins, integrins, syndecans, and cadherins.[1] Cellular adhesion is essential in maintaining multicellular structure. Cellular adhesion can link cells in different ways and can be involved in signal transduction.[2] Cell adhesion is also essential for the pathogenesis of infectious organisms.\n\ndoc2144597: Adhesive bandage. An adhesive bandage is a small, flexible sheet of material which is sticky on one side, with a smaller, non-sticky, absorbent pad stuck to the sticky side. The pad is placed against the wound, and overlapping edges of the sticky material are smoothed down so they stick to the surrounding skin. Adhesive bandages are generally packaged in a sealed, sterile bag, with a backing covering the sticky side; the backing is removed as the bandage is applied. They come in a variety of sizes and shapes.\n\ndoc1081835: Cell adhesion. Selective cell\u00e2\u20ac\u201ccell adhesion enables vertebrate cells to assemble into organised tissues. Homophilic attachment allows selective recognition, resulting in cells of a similar type sticking together, whereas cells of a different type stay segregated.[3]\n\ndoc85502: Implantation (human embryo). Adhesion is a much stronger attachment to the endometrium than the loose apposition.\n\ndoc1752030: Cell junction. Cell adhesion is a vital component of the body. Loss of this adhesion effects cell structure, cellular functioning and communication with other cells and the extracellular matrix and can lead to severe health issues and diseases.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"doc41332\",\n    \"doc41333\",\n    \"doc41329\",\n    \"doc85502\",\n    \"doc1081830\",\n    \"doc1081835\",\n    \"doc1081841\",\n    \"doc1752030\",\n    \"doc2144597\",\n    \"doc955441\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc41332",
+                "doc41333",
+                "doc41329",
+                "doc85502",
+                "doc1081830",
+                "doc1081835",
+                "doc1081841",
+                "doc1752030",
+                "doc2144597",
+                "doc955441"
+            ]
+        },
+        {
+            "queries": [
+                "what does the application of contract of adhesion mean"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc41332",
+                    "doc41333",
+                    "doc1081841",
+                    "doc955441",
+                    "doc41329",
+                    "doc1081830",
+                    "doc2144597",
+                    "doc1081835",
+                    "doc85502",
+                    "doc1752030"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6883565187454224,
+                    0.6672230958938599,
+                    0.5696910619735718,
+                    0.5593131184577942,
+                    0.5560270547866821,
+                    0.5495365858078003,
+                    0.5461522340774536,
+                    0.5429240465164185,
+                    0.5260298252105713,
+                    0.5114778280258179
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what does the application of contract of adhesion mean\n\nDocuments:\n\ndoc41332: Standard form contract. The concept of the contract of adhesion originated in French civil law, but did not enter American jurisprudence until the Harvard Law Review published an influential article by Edwin W. Patterson in 1919.[4] It was subsequently adopted by the majority of American courts, especially after the Supreme Court of California endorsed adhesion analysis in 1962. See Steven v. Fidelity & Casualty Co., 58 Cal. 2d 862, 882 n.10 (1962) (explaining history of concept).[5]\n\ndoc41333: Standard form contract. For a contract to be treated as a contract of adhesion, it must be presented on a standard form on a \"take it or leave it\" basis, and give one party no ability to negotiate because of their unequal bargaining position. The special scrutiny given to contracts of adhesion can be performed in a number of ways:\n\ndoc1081841: Cell adhesion. The differential adhesion hypothesis (sometimes called the \"thermodynamic hypothesis\")[5] is a theory of cell adhesion advanced by Malcolm Steinberg in 1964 to explain the mechanism by which heterotypic cells in mixed aggregates sort out into isotypic territories. The DAH postulates that tissues are viscoelastic liquids, and as such possess measurable tissue surface tensions. These surface tensions have been determined for a variety of tissues, including embryonic tissues and cell lines. The surface tensions correspond to the mutual sorting behavior: the tissue type with the higher surface tension will occupy an internal position relative to a tissue with a lower surface tension (if these tissues can interact with each other through their adhesion machinery).\n\ndoc955441: Friction. When the surfaces are conjoined, Coulomb friction becomes a very poor approximation (for example, adhesive tape resists sliding even when there is no normal force, or a negative normal force). In this case, the frictional force may depend strongly on the area of contact. Some drag racing tires are adhesive for this reason. However, despite the complexity of the fundamental physics behind friction, the relationships are accurate enough to be useful in many applications.\n\ndoc41329: Standard form contract. Another factor which might mitigate the effects of competition on the content of contracts of adhesion is that, in practice, standard form contracts are usually drafted by lawyers instructed to construct them so as to minimize the firm\u00e2\u20ac\u2122s liability, not necessarily to implement managers' competitive decisions. Sometimes the contracts are written by an industry body and distributed to firms in that industry, increasing homogeneity of the contracts and reducing consumer's ability to shop around.\n\ndoc1081830: Cell adhesion. Cell adhesion is the process by which cells interact and attach to a surface, substrate or another cell, mediated by interactions between molecules of the cell surface. Cell adhesion occurs from the action of transmembrane glycoproteins, called cell adhesion molecules. Examples of these proteins include selectins, integrins, syndecans, and cadherins.[1] Cellular adhesion is essential in maintaining multicellular structure. Cellular adhesion can link cells in different ways and can be involved in signal transduction.[2] Cell adhesion is also essential for the pathogenesis of infectious organisms.\n\ndoc2144597: Adhesive bandage. An adhesive bandage is a small, flexible sheet of material which is sticky on one side, with a smaller, non-sticky, absorbent pad stuck to the sticky side. The pad is placed against the wound, and overlapping edges of the sticky material are smoothed down so they stick to the surrounding skin. Adhesive bandages are generally packaged in a sealed, sterile bag, with a backing covering the sticky side; the backing is removed as the bandage is applied. They come in a variety of sizes and shapes.\n\ndoc1081835: Cell adhesion. Selective cell\u00e2\u20ac\u201ccell adhesion enables vertebrate cells to assemble into organised tissues. Homophilic attachment allows selective recognition, resulting in cells of a similar type sticking together, whereas cells of a different type stay segregated.[3]\n\ndoc85502: Implantation (human embryo). Adhesion is a much stronger attachment to the endometrium than the loose apposition.\n\ndoc1752030: Cell junction. Cell adhesion is a vital component of the body. Loss of this adhesion effects cell structure, cellular functioning and communication with other cells and the extracellular matrix and can lead to severe health issues and diseases.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"doc41332\",\n    \"doc41333\",\n    \"doc41329\",\n    \"doc85502\",\n    \"doc1081830\",\n    \"doc1081835\",\n    \"doc1081841\",\n    \"doc1752030\",\n    \"doc2144597\",\n    \"doc955441\"\n]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc41332",
+                "doc41333",
+                "doc41329",
+                "doc85502",
+                "doc1081830",
+                "doc1081835",
+                "doc1081841",
+                "doc1752030",
+                "doc2144597",
+                "doc955441"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "what does the application of contract of adhesion mean"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc41332",
+                    "doc41333",
+                    "doc1081841",
+                    "doc955441",
+                    "doc41329",
+                    "doc1081830",
+                    "doc2144597",
+                    "doc1081835",
+                    "doc85502",
+                    "doc1752030"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.6883565187454224,
+                    0.6672230958938599,
+                    0.5696910619735718,
+                    0.5593131184577942,
+                    0.5560270547866821,
+                    0.5495365858078003,
+                    0.5461522340774536,
+                    0.5429240465164185,
+                    0.5260298252105713,
+                    0.5114778280258179
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what does the application of contract of adhesion mean\n\nDocuments:\n\ndoc41332: Standard form contract. The concept of the contract of adhesion originated in French civil law, but did not enter American jurisprudence until the Harvard Law Review published an influential article by Edwin W. Patterson in 1919.[4] It was subsequently adopted by the majority of American courts, especially after the Supreme Court of California endorsed adhesion analysis in 1962. See Steven v. Fidelity & Casualty Co., 58 Cal. 2d 862, 882 n.10 (1962) (explaining history of concept).[5]\n\ndoc41333: Standard form contract. For a contract to be treated as a contract of adhesion, it must be presented on a standard form on a \"take it or leave it\" basis, and give one party no ability to negotiate because of their unequal bargaining position. The special scrutiny given to contracts of adhesion can be performed in a number of ways:\n\ndoc1081841: Cell adhesion. The differential adhesion hypothesis (sometimes called the \"thermodynamic hypothesis\")[5] is a theory of cell adhesion advanced by Malcolm Steinberg in 1964 to explain the mechanism by which heterotypic cells in mixed aggregates sort out into isotypic territories. The DAH postulates that tissues are viscoelastic liquids, and as such possess measurable tissue surface tensions. These surface tensions have been determined for a variety of tissues, including embryonic tissues and cell lines. The surface tensions correspond to the mutual sorting behavior: the tissue type with the higher surface tension will occupy an internal position relative to a tissue with a lower surface tension (if these tissues can interact with each other through their adhesion machinery).\n\ndoc955441: Friction. When the surfaces are conjoined, Coulomb friction becomes a very poor approximation (for example, adhesive tape resists sliding even when there is no normal force, or a negative normal force). In this case, the frictional force may depend strongly on the area of contact. Some drag racing tires are adhesive for this reason. However, despite the complexity of the fundamental physics behind friction, the relationships are accurate enough to be useful in many applications.\n\ndoc41329: Standard form contract. Another factor which might mitigate the effects of competition on the content of contracts of adhesion is that, in practice, standard form contracts are usually drafted by lawyers instructed to construct them so as to minimize the firm\u00e2\u20ac\u2122s liability, not necessarily to implement managers' competitive decisions. Sometimes the contracts are written by an industry body and distributed to firms in that industry, increasing homogeneity of the contracts and reducing consumer's ability to shop around.\n\ndoc1081830: Cell adhesion. Cell adhesion is the process by which cells interact and attach to a surface, substrate or another cell, mediated by interactions between molecules of the cell surface. Cell adhesion occurs from the action of transmembrane glycoproteins, called cell adhesion molecules. Examples of these proteins include selectins, integrins, syndecans, and cadherins.[1] Cellular adhesion is essential in maintaining multicellular structure. Cellular adhesion can link cells in different ways and can be involved in signal transduction.[2] Cell adhesion is also essential for the pathogenesis of infectious organisms.\n\ndoc2144597: Adhesive bandage. An adhesive bandage is a small, flexible sheet of material which is sticky on one side, with a smaller, non-sticky, absorbent pad stuck to the sticky side. The pad is placed against the wound, and overlapping edges of the sticky material are smoothed down so they stick to the surrounding skin. Adhesive bandages are generally packaged in a sealed, sterile bag, with a backing covering the sticky side; the backing is removed as the bandage is applied. They come in a variety of sizes and shapes.\n\ndoc1081835: Cell adhesion. Selective cell\u00e2\u20ac\u201ccell adhesion enables vertebrate cells to assemble into organised tissues. Homophilic attachment allows selective recognition, resulting in cells of a similar type sticking together, whereas cells of a different type stay segregated.[3]\n\ndoc85502: Implantation (human embryo). Adhesion is a much stronger attachment to the endometrium than the loose apposition.\n\ndoc1752030: Cell junction. Cell adhesion is a vital component of the body. Loss of this adhesion effects cell structure, cellular functioning and communication with other cells and the extracellular matrix and can lead to severe health issues and diseases.\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: what does the application of contract of adhesion mean\n\nDocuments:\n\ndoc41332: Standard form contract. The concept of the contract of adhesion originated in French civil law, but did not enter American jurisprudence until the Harvard Law Review published an influential article by Edwin W. Patterson in 1919.[4] It was subsequently adopted by the majority of American courts, especially after the Supreme Court of California endorsed adhesion analysis in 1962. See Steven v. Fidelity & Casualty Co., 58 Cal. 2d 862, 882 n.10 (1962) (explaining history of concept).[5]\n\ndoc41333: Standard form contract. For a contract to be treated as a contract of adhesion, it must be presented on a standard form on a \"take it or leave it\" basis, and give one party no ability to negotiate because of their unequal bargaining position. The special scrutiny given to contracts of adhesion can be performed in a number of ways:\n\ndoc41329: Standard form contract. Another factor which might mitigate the effects of competition on the content of contracts of adhesion is that, in practice, standard form contracts are usually drafted by lawyers instructed to construct them so as to minimize the firm\u00e2\u20ac\u2122s liability, not necessarily to implement managers' competitive decisions. Sometimes the contracts are written by an industry body and distributed to firms in that industry, increasing homogeneity of the contracts and reducing consumer's ability to shop around.\n\ndoc85502: Implantation (human embryo). Adhesion is a much stronger attachment to the endometrium than the loose apposition.\n\ndoc1081830: Cell adhesion. Cell adhesion is the process by which cells interact and attach to a surface, substrate or another cell, mediated by interactions between molecules of the cell surface. Cell adhesion occurs from the action of transmembrane glycoproteins, called cell adhesion molecules. Examples of these proteins include selectins, integrins, syndecans, and cadherins.[1] Cellular adhesion is essential in maintaining multicellular structure. Cellular adhesion can link cells in different ways and can be involved in signal transduction.[2] Cell adhesion is also essential for the pathogenesis of infectious organisms.\n\ndoc1081835: Cell adhesion. Selective cell\u00e2\u20ac\u201ccell adhesion enables vertebrate cells to assemble into organised tissues. Homophilic attachment allows selective recognition, resulting in cells of a similar type sticking together, whereas cells of a different type stay segregated.[3]\n\ndoc1081841: Cell adhesion. The differential adhesion hypothesis (sometimes called the \"thermodynamic hypothesis\")[5] is a theory of cell adhesion advanced by Malcolm Steinberg in 1964 to explain the mechanism by which heterotypic cells in mixed aggregates sort out into isotypic territories. The DAH postulates that tissues are viscoelastic liquids, and as such possess measurable tissue surface tensions. These surface tensions have been determined for a variety of tissues, including embryonic tissues and cell lines. The surface tensions correspond to the mutual sorting behavior: the tissue type with the higher surface tension will occupy an internal position relative to a tissue with a lower surface tension (if these tissues can interact with each other through their adhesion machinery).\n\ndoc1752030: Cell junction. Cell adhesion is a vital component of the body. Loss of this adhesion effects cell structure, cellular functioning and communication with other cells and the extracellular matrix and can lead to severe health issues and diseases.\n\ndoc2144597: Adhesive bandage. An adhesive bandage is a small, flexible sheet of material which is sticky on one side, with a smaller, non-sticky, absorbent pad stuck to the sticky side. The pad is placed against the wound, and overlapping edges of the sticky material are smoothed down so they stick to the surrounding skin. Adhesive bandages are generally packaged in a sealed, sterile bag, with a backing covering the sticky side; the backing is removed as the bandage is applied. They come in a variety of sizes and shapes.\n\ndoc955441: Friction. When the surfaces are conjoined, Coulomb friction becomes a very poor approximation (for example, adhesive tape resists sliding even when there is no normal force, or a negative normal force). In this case, the frictional force may depend strongly on the area of contact. Some drag racing tires are adhesive for this reason. However, despite the complexity of the fundamental physics behind friction, the relationships are accurate enough to be useful in many applications.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"doc41332\",\n    \"doc41333\",\n    \"doc41329\",\n    \"doc85502\",\n    \"doc1081830\",\n    \"doc1081835\",\n    \"doc1081841\",\n    \"doc1752030\",\n    \"doc2144597\",\n    \"doc955441\"\n]\nprint(doc_ids)\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc41332",
+                "doc41333",
+                "doc41329",
+                "doc85502",
+                "doc1081830",
+                "doc1081835",
+                "doc1081841",
+                "doc1752030",
+                "doc2144597",
+                "doc955441"
+            ],
+            "terminate": true
+        }
+    ]
+}

@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "who played ricky in secret life of the american teenager"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc58465",
+            "doc280941",
+            "doc58462",
+            "doc338715",
+            "doc500041",
+            "doc280903",
+            "doc280901",
+            "doc280927",
+            "doc338708",
+            "doc280928"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.806937575340271,
+            0.7883972525596619,
+            0.7775857448577881,
+            0.7333869338035583,
+            0.732356071472168,
+            0.7313908934593201,
+            0.7224880456924438,
+            0.7187978029251099,
+            0.7159706950187683,
+            0.7150546908378601
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who played ricky in secret life of the american teenager\n\nDocuments:\n\ndoc58465: Daren Kagasoff. After deciding to return to Los Angeles, Kagasoff landed the lead role in a local theater production of Suburbia, a play that the eponymous 1996 film was based upon. After studying acting, he began auditioning for television and film roles. During one of his first auditions, he impressed producer Brenda Hampton so much that she hand-picked him to star as Ricky Underwood in the ABC Family series The Secret Life of the American Teenager. The show ran for five seasons.[6]\n\ndoc280941: List of The Secret Life of the American Teenager characters. Amy and Ricky's now three-year-old son whom they conceived on a night at band camp when Amy was a freshman and when Ricky was a sophomore in high school. Ashley (Amy's sister) is the one who suggested John's name because \"his life was going to be complicated already, so we might as well give him an easy name.\" His birthday is 06/06/09. His parents Amy and Ricky break apart from their marriage plans and Amy goes to college, leaving Ricky as a single father.\n\ndoc58462: Daren Kagasoff. Daren Maxwell Kagasoff [KA-guh-sawf] (born September 16, 1987)[1] is an American actor. He is known for starring as Ricky Underwood on the ABC Family teen drama series The Secret Life of the American Teenager from 2008 to 2013.\n\ndoc338715: The Secret Life of the American Teenager. On February 2, 2012, it was announced ABC Family renewed The Secret Life of the American Teenager for a fifth season.[21]\n\ndoc500041: The Secret Life of the American Teenager (season 3). Amy gets upset that another couple has had sex in Ricky's bed and that Ricky has slept in his bed with lots of different girls. She tells him to buy a new bed. But when Ricky discusses this with his mom, Nora helps him realize that Amy's probably upset that Ricky's going to college and she might think he's leaving her. Ricky goes to Amy and reiterates that he's never leaving her and John and that he's buying a new bed, as well. He asks her to take a trip with him and get some one on one time together and Amy feels cherished.\n\ndoc280903: List of The Secret Life of the American Teenager characters. After being accepted into a summer music program in New York, Amy decides to go but is surprised to learn that the program is for teen mothers. During this time, Ben reveals to Amy that Adrian had gotten pregnant from their one-night stand, and that he had been keeping her pregnancy from Amy for several weeks. After breaking up with Ben, she develops feelings for Ricky when he comes to visit. She tells him that if he really wants to be with her, he has to stop sleeping around,and get tested for any sexually transmitted diseases or infections.\n\ndoc280901: List of The Secret Life of the American Teenager characters. After Amy decides to keep the baby, Grace and Adrian throw her a baby shower, where Amy then goes into labor. While in the hospital, Amy reprimands Ricky for getting her pregnant, but then realizes that she was equally responsible for what had happened. She gives birth to their son, John, whom she lets Ashley name, and begins to struggle with motherhood.\n\ndoc280927: List of The Secret Life of the American Teenager characters. Bryan Callen portrays Robert \"Bob\" Underwood, Ricky's biological father who has been to jail for drugs and child molestation. In Season 1 during one episode he comes back to find Ricky, and wants to sell Ricky and Amy's baby. Later, he is caught with drugs and sent back to prison. Bryan Callen also previously guest starred on 7th Heaven for 9 episodes as George 'Vic' Vickery Petrowski.\n\ndoc338708: The Secret Life of the American Teenager. In season one, fifteen-year-old Amy Juergens finds out that she is pregnant after having sex at band camp with a handsome and popular boy, Ricky Underwood. Amy first confides in her two best friends Lauren and Madison about it. Amy also tells Ben Boykewich (the guy she started dating after becoming pregnant) the truth, but he is surprisingly supportive and offers to marry her anyway, despite the protests of his friends, Henry and Alice. When Ricky finds out he is the father, he is willing to be a part of his future child's life, causing Adrian Lee, Ricky's friend with benefits to become jealous, especially since Ricky already has his sights on the sweet and virginal Grace Bowman, who was going out with Jack Pappas until he cheated on her with Adrian. Much to Adrian's surprise, Grace is not angry at her, and the two girls become friends despite being romantic rivals. Ricky and Ben also compete with each other for Amy's attention and at the end of the season, Amy has her child, a boy whom her sister, Ashley, names John. Amy decides to keep John, after struggling with the decision over the course of the season. Ricky said he would do anything to take care of his new son, John.\n\ndoc280928: List of The Secret Life of the American Teenager characters. L. Scott Caldwell portrays Margaret Shakur, Ricky's foster mother and John Juergens' foster grandmother. Margaret and her husband love Ricky as their own, and are proud to be his parents. Later, Margaret and Sanjay have dinner with Anne and George to discuss Ricky's custody case, and expressing a desire to be a part of John's life. Margaret helped Adrian with her decision about whether or not to terminate her unplanned pregnancy. Later, Ricky's birth mother, Nora, moves in with Margaret and Sanjay when starting her life over, and they have become good friends. Margaret decides to take in one of Ricky's former foster brothers, Ethan, who ends up in juvenile detention after sexting nude pictures of an underage girl to his friends when she breaks up with him. Because of overcrowding in juvenile detention, Ethan will return to live with Margaret.\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: who played ricky in secret life of the american teenager\n\nDocuments:\n\ndoc58465: Daren Kagasoff. After deciding to return to Los Angeles, Kagasoff landed the lead role in a local theater production of Suburbia, a play that the eponymous 1996 film was based upon. After studying acting, he began auditioning for television and film roles. During one of his first auditions, he impressed producer Brenda Hampton so much that she hand-picked him to star as Ricky Underwood in the ABC Family series The Secret Life of the American Teenager. The show ran for five seasons.[6]\n\ndoc58462: Daren Kagasoff. Daren Maxwell Kagasoff [KA-guh-sawf] (born September 16, 1987)[1] is an American actor. He is known for starring as Ricky Underwood on the ABC Family teen drama series The Secret Life of the American Teenager from 2008 to 2013.\n\ndoc338708: The Secret Life of the American Teenager. In season one, fifteen-year-old Amy Juergens finds out that she is pregnant after having sex at band camp with a handsome and popular boy, Ricky Underwood. Amy first confides in her two best friends Lauren and Madison about it. Amy also tells Ben Boykewich (the guy she started dating after becoming pregnant) the truth, but he is surprisingly supportive and offers to marry her anyway, despite the protests of his friends, Henry and Alice. When Ricky finds out he is the father, he is willing to be a part of his future child's life, causing Adrian Lee, Ricky's friend with benefits to become jealous, especially since Ricky already has his sights on the sweet and virginal Grace Bowman, who was going out with Jack Pappas until he cheated on her with Adrian. Much to Adrian's surprise, Grace is not angry at her, and the two girls become friends despite being romantic rivals. Ricky and Ben also compete with each other for Amy's attention and at the end of the season, Amy has her child, a boy whom her sister, Ashley, names John. Amy decides to keep John, after struggling with the decision over the course of the season. Ricky said he would do anything to take care of his new son, John.\n\ndoc280941: List of The Secret Life of the American Teenager characters. Amy and Ricky's now three-year-old son whom they conceived on a night at band camp when Amy was a freshman and when Ricky was a sophomore in high school. Ashley (Amy's sister) is the one who suggested John's name because \"his life was going to be complicated already, so we might as well give him an easy name.\" His birthday is 06/06/09. His parents Amy and Ricky break apart from their marriage plans and Amy goes to college, leaving Ricky as a single father.\n\ndoc280901: List of The Secret Life of the American Teenager characters. After Amy decides to keep the baby, Grace and Adrian throw her a baby shower, where Amy then goes into labor. While in the hospital, Amy reprimands Ricky for getting her pregnant, but then realizes that she was equally responsible for what had happened. She gives birth to their son, John, whom she lets Ashley name, and begins to struggle with motherhood.\n\ndoc280903: List of The Secret Life of the American Teenager characters. After being accepted into a summer music program in New York, Amy decides to go but is surprised to learn that the program is for teen mothers. During this time, Ben reveals to Amy that Adrian had gotten pregnant from their one-night stand, and that he had been keeping her pregnancy from Amy for several weeks. After breaking up with Ben, she develops feelings for Ricky when he comes to visit. She tells him that if he really wants to be with her, he has to stop sleeping around,and get tested for any sexually transmitted diseases or infections.\n\ndoc500041: The Secret Life of the American Teenager (season 3). Amy gets upset that another couple has had sex in Ricky's bed and that Ricky has slept in his bed with lots of different girls. She tells him to buy a new bed. But when Ricky discusses this with his mom, Nora helps him realize that Amy's probably upset that Ricky's going to college and she might think he's leaving her. Ricky goes to Amy and reiterates that he's never leaving her and John and that he's buying a new bed, as well. He asks her to take a trip with him and get some one on one time together and Amy feels cherished.\n\ndoc280927: List of The Secret Life of the American Teenager characters. Bryan Callen portrays Robert \"Bob\" Underwood, Ricky's biological father who has been to jail for drugs and child molestation. In Season 1 during one episode he comes back to find Ricky, and wants to sell Ricky and Amy's baby. Later, he is caught with drugs and sent back to prison. Bryan Callen also previously guest starred on 7th Heaven for 9 episodes as George 'Vic' Vickery Petrowski.\n\ndoc280928: List of The Secret Life of the American Teenager characters. L. Scott Caldwell portrays Margaret Shakur, Ricky's foster mother and John Juergens' foster grandmother. Margaret and her husband love Ricky as their own, and are proud to be his parents. Later, Margaret and Sanjay have dinner with Anne and George to discuss Ricky's custody case, and expressing a desire to be a part of John's life. Margaret helped Adrian with her decision about whether or not to terminate her unplanned pregnancy. Later, Ricky's birth mother, Nora, moves in with Margaret and Sanjay when starting her life over, and they have become good friends. Margaret decides to take in one of Ricky's former foster brothers, Ethan, who ends up in juvenile detention after sexting nude pictures of an underage girl to his friends when she breaks up with him. Because of overcrowding in juvenile detention, Ethan will return to live with Margaret.\n\ndoc338715: The Secret Life of the American Teenager. On February 2, 2012, it was announced ABC Family renewed The Secret Life of the American Teenager for a fifth season.[21]\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"doc58465\",\n    \"doc58462\",\n    \"doc338708\",\n    \"doc280941\",\n    \"doc280901\",\n    \"doc280903\",\n    \"doc500041\",\n    \"doc280927\",\n    \"doc280928\",\n    \"doc338715\"\n]\n\nprint(doc_ids)\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc58465",
+        "doc58462",
+        "doc338708",
+        "doc280941",
+        "doc280901",
+        "doc280903",
+        "doc500041",
+        "doc280927",
+        "doc280928",
+        "doc338715"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "who played ricky in secret life of the american teenager"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "who played ricky in secret life of the american teenager"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc58465",
+                    "doc280941",
+                    "doc58462",
+                    "doc338715",
+                    "doc500041",
+                    "doc280903",
+                    "doc280901",
+                    "doc280927",
+                    "doc338708",
+                    "doc280928"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.806937575340271,
+                    0.7883972525596619,
+                    0.7775857448577881,
+                    0.7333869338035583,
+                    0.732356071472168,
+                    0.7313908934593201,
+                    0.7224880456924438,
+                    0.7187978029251099,
+                    0.7159706950187683,
+                    0.7150546908378601
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "who played ricky in secret life of the american teenager"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc58465",
+                    "doc280941",
+                    "doc58462",
+                    "doc338715",
+                    "doc500041",
+                    "doc280903",
+                    "doc280901",
+                    "doc280927",
+                    "doc338708",
+                    "doc280928"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.806937575340271,
+                    0.7883972525596619,
+                    0.7775857448577881,
+                    0.7333869338035583,
+                    0.732356071472168,
+                    0.7313908934593201,
+                    0.7224880456924438,
+                    0.7187978029251099,
+                    0.7159706950187683,
+                    0.7150546908378601
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who played ricky in secret life of the american teenager\n\nDocuments:\n\ndoc58465: Daren Kagasoff. After deciding to return to Los Angeles, Kagasoff landed the lead role in a local theater production of Suburbia, a play that the eponymous 1996 film was based upon. After studying acting, he began auditioning for television and film roles. During one of his first auditions, he impressed producer Brenda Hampton so much that she hand-picked him to star as Ricky Underwood in the ABC Family series The Secret Life of the American Teenager. The show ran for five seasons.[6]\n\ndoc280941: List of The Secret Life of the American Teenager characters. Amy and Ricky's now three-year-old son whom they conceived on a night at band camp when Amy was a freshman and when Ricky was a sophomore in high school. Ashley (Amy's sister) is the one who suggested John's name because \"his life was going to be complicated already, so we might as well give him an easy name.\" His birthday is 06/06/09. His parents Amy and Ricky break apart from their marriage plans and Amy goes to college, leaving Ricky as a single father.\n\ndoc58462: Daren Kagasoff. Daren Maxwell Kagasoff [KA-guh-sawf] (born September 16, 1987)[1] is an American actor. He is known for starring as Ricky Underwood on the ABC Family teen drama series The Secret Life of the American Teenager from 2008 to 2013.\n\ndoc338715: The Secret Life of the American Teenager. On February 2, 2012, it was announced ABC Family renewed The Secret Life of the American Teenager for a fifth season.[21]\n\ndoc500041: The Secret Life of the American Teenager (season 3). Amy gets upset that another couple has had sex in Ricky's bed and that Ricky has slept in his bed with lots of different girls. She tells him to buy a new bed. But when Ricky discusses this with his mom, Nora helps him realize that Amy's probably upset that Ricky's going to college and she might think he's leaving her. Ricky goes to Amy and reiterates that he's never leaving her and John and that he's buying a new bed, as well. He asks her to take a trip with him and get some one on one time together and Amy feels cherished.\n\ndoc280903: List of The Secret Life of the American Teenager characters. After being accepted into a summer music program in New York, Amy decides to go but is surprised to learn that the program is for teen mothers. During this time, Ben reveals to Amy that Adrian had gotten pregnant from their one-night stand, and that he had been keeping her pregnancy from Amy for several weeks. After breaking up with Ben, she develops feelings for Ricky when he comes to visit. She tells him that if he really wants to be with her, he has to stop sleeping around,and get tested for any sexually transmitted diseases or infections.\n\ndoc280901: List of The Secret Life of the American Teenager characters. After Amy decides to keep the baby, Grace and Adrian throw her a baby shower, where Amy then goes into labor. While in the hospital, Amy reprimands Ricky for getting her pregnant, but then realizes that she was equally responsible for what had happened. She gives birth to their son, John, whom she lets Ashley name, and begins to struggle with motherhood.\n\ndoc280927: List of The Secret Life of the American Teenager characters. Bryan Callen portrays Robert \"Bob\" Underwood, Ricky's biological father who has been to jail for drugs and child molestation. In Season 1 during one episode he comes back to find Ricky, and wants to sell Ricky and Amy's baby. Later, he is caught with drugs and sent back to prison. Bryan Callen also previously guest starred on 7th Heaven for 9 episodes as George 'Vic' Vickery Petrowski.\n\ndoc338708: The Secret Life of the American Teenager. In season one, fifteen-year-old Amy Juergens finds out that she is pregnant after having sex at band camp with a handsome and popular boy, Ricky Underwood. Amy first confides in her two best friends Lauren and Madison about it. Amy also tells Ben Boykewich (the guy she started dating after becoming pregnant) the truth, but he is surprisingly supportive and offers to marry her anyway, despite the protests of his friends, Henry and Alice. When Ricky finds out he is the father, he is willing to be a part of his future child's life, causing Adrian Lee, Ricky's friend with benefits to become jealous, especially since Ricky already has his sights on the sweet and virginal Grace Bowman, who was going out with Jack Pappas until he cheated on her with Adrian. Much to Adrian's surprise, Grace is not angry at her, and the two girls become friends despite being romantic rivals. Ricky and Ben also compete with each other for Amy's attention and at the end of the season, Amy has her child, a boy whom her sister, Ashley, names John. Amy decides to keep John, after struggling with the decision over the course of the season. Ricky said he would do anything to take care of his new son, John.\n\ndoc280928: List of The Secret Life of the American Teenager characters. L. Scott Caldwell portrays Margaret Shakur, Ricky's foster mother and John Juergens' foster grandmother. Margaret and her husband love Ricky as their own, and are proud to be his parents. Later, Margaret and Sanjay have dinner with Anne and George to discuss Ricky's custody case, and expressing a desire to be a part of John's life. Margaret helped Adrian with her decision about whether or not to terminate her unplanned pregnancy. Later, Ricky's birth mother, Nora, moves in with Margaret and Sanjay when starting her life over, and they have become good friends. Margaret decides to take in one of Ricky's former foster brothers, Ethan, who ends up in juvenile detention after sexting nude pictures of an underage girl to his friends when she breaks up with him. Because of overcrowding in juvenile detention, Ethan will return to live with Margaret.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"doc58465\",\n    \"doc58462\",\n    \"doc338708\",\n    \"doc280941\",\n    \"doc280901\",\n    \"doc280903\",\n    \"doc500041\",\n    \"doc280927\",\n    \"doc280928\",\n    \"doc338715\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc58465",
+                "doc58462",
+                "doc338708",
+                "doc280941",
+                "doc280901",
+                "doc280903",
+                "doc500041",
+                "doc280927",
+                "doc280928",
+                "doc338715"
+            ]
+        },
+        {
+            "queries": [
+                "who played ricky in secret life of the american teenager"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc58465",
+                    "doc280941",
+                    "doc58462",
+                    "doc338715",
+                    "doc500041",
+                    "doc280903",
+                    "doc280901",
+                    "doc280927",
+                    "doc338708",
+                    "doc280928"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.806937575340271,
+                    0.7883972525596619,
+                    0.7775857448577881,
+                    0.7333869338035583,
+                    0.732356071472168,
+                    0.7313908934593201,
+                    0.7224880456924438,
+                    0.7187978029251099,
+                    0.7159706950187683,
+                    0.7150546908378601
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who played ricky in secret life of the american teenager\n\nDocuments:\n\ndoc58465: Daren Kagasoff. After deciding to return to Los Angeles, Kagasoff landed the lead role in a local theater production of Suburbia, a play that the eponymous 1996 film was based upon. After studying acting, he began auditioning for television and film roles. During one of his first auditions, he impressed producer Brenda Hampton so much that she hand-picked him to star as Ricky Underwood in the ABC Family series The Secret Life of the American Teenager. The show ran for five seasons.[6]\n\ndoc280941: List of The Secret Life of the American Teenager characters. Amy and Ricky's now three-year-old son whom they conceived on a night at band camp when Amy was a freshman and when Ricky was a sophomore in high school. Ashley (Amy's sister) is the one who suggested John's name because \"his life was going to be complicated already, so we might as well give him an easy name.\" His birthday is 06/06/09. His parents Amy and Ricky break apart from their marriage plans and Amy goes to college, leaving Ricky as a single father.\n\ndoc58462: Daren Kagasoff. Daren Maxwell Kagasoff [KA-guh-sawf] (born September 16, 1987)[1] is an American actor. He is known for starring as Ricky Underwood on the ABC Family teen drama series The Secret Life of the American Teenager from 2008 to 2013.\n\ndoc338715: The Secret Life of the American Teenager. On February 2, 2012, it was announced ABC Family renewed The Secret Life of the American Teenager for a fifth season.[21]\n\ndoc500041: The Secret Life of the American Teenager (season 3). Amy gets upset that another couple has had sex in Ricky's bed and that Ricky has slept in his bed with lots of different girls. She tells him to buy a new bed. But when Ricky discusses this with his mom, Nora helps him realize that Amy's probably upset that Ricky's going to college and she might think he's leaving her. Ricky goes to Amy and reiterates that he's never leaving her and John and that he's buying a new bed, as well. He asks her to take a trip with him and get some one on one time together and Amy feels cherished.\n\ndoc280903: List of The Secret Life of the American Teenager characters. After being accepted into a summer music program in New York, Amy decides to go but is surprised to learn that the program is for teen mothers. During this time, Ben reveals to Amy that Adrian had gotten pregnant from their one-night stand, and that he had been keeping her pregnancy from Amy for several weeks. After breaking up with Ben, she develops feelings for Ricky when he comes to visit. She tells him that if he really wants to be with her, he has to stop sleeping around,and get tested for any sexually transmitted diseases or infections.\n\ndoc280901: List of The Secret Life of the American Teenager characters. After Amy decides to keep the baby, Grace and Adrian throw her a baby shower, where Amy then goes into labor. While in the hospital, Amy reprimands Ricky for getting her pregnant, but then realizes that she was equally responsible for what had happened. She gives birth to their son, John, whom she lets Ashley name, and begins to struggle with motherhood.\n\ndoc280927: List of The Secret Life of the American Teenager characters. Bryan Callen portrays Robert \"Bob\" Underwood, Ricky's biological father who has been to jail for drugs and child molestation. In Season 1 during one episode he comes back to find Ricky, and wants to sell Ricky and Amy's baby. Later, he is caught with drugs and sent back to prison. Bryan Callen also previously guest starred on 7th Heaven for 9 episodes as George 'Vic' Vickery Petrowski.\n\ndoc338708: The Secret Life of the American Teenager. In season one, fifteen-year-old Amy Juergens finds out that she is pregnant after having sex at band camp with a handsome and popular boy, Ricky Underwood. Amy first confides in her two best friends Lauren and Madison about it. Amy also tells Ben Boykewich (the guy she started dating after becoming pregnant) the truth, but he is surprisingly supportive and offers to marry her anyway, despite the protests of his friends, Henry and Alice. When Ricky finds out he is the father, he is willing to be a part of his future child's life, causing Adrian Lee, Ricky's friend with benefits to become jealous, especially since Ricky already has his sights on the sweet and virginal Grace Bowman, who was going out with Jack Pappas until he cheated on her with Adrian. Much to Adrian's surprise, Grace is not angry at her, and the two girls become friends despite being romantic rivals. Ricky and Ben also compete with each other for Amy's attention and at the end of the season, Amy has her child, a boy whom her sister, Ashley, names John. Amy decides to keep John, after struggling with the decision over the course of the season. Ricky said he would do anything to take care of his new son, John.\n\ndoc280928: List of The Secret Life of the American Teenager characters. L. Scott Caldwell portrays Margaret Shakur, Ricky's foster mother and John Juergens' foster grandmother. Margaret and her husband love Ricky as their own, and are proud to be his parents. Later, Margaret and Sanjay have dinner with Anne and George to discuss Ricky's custody case, and expressing a desire to be a part of John's life. Margaret helped Adrian with her decision about whether or not to terminate her unplanned pregnancy. Later, Ricky's birth mother, Nora, moves in with Margaret and Sanjay when starting her life over, and they have become good friends. Margaret decides to take in one of Ricky's former foster brothers, Ethan, who ends up in juvenile detention after sexting nude pictures of an underage girl to his friends when she breaks up with him. Because of overcrowding in juvenile detention, Ethan will return to live with Margaret.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"doc58465\",\n    \"doc58462\",\n    \"doc338708\",\n    \"doc280941\",\n    \"doc280901\",\n    \"doc280903\",\n    \"doc500041\",\n    \"doc280927\",\n    \"doc280928\",\n    \"doc338715\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc58465",
+                "doc58462",
+                "doc338708",
+                "doc280941",
+                "doc280901",
+                "doc280903",
+                "doc500041",
+                "doc280927",
+                "doc280928",
+                "doc338715"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "who played ricky in secret life of the american teenager"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc58465",
+                    "doc280941",
+                    "doc58462",
+                    "doc338715",
+                    "doc500041",
+                    "doc280903",
+                    "doc280901",
+                    "doc280927",
+                    "doc338708",
+                    "doc280928"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.806937575340271,
+                    0.7883972525596619,
+                    0.7775857448577881,
+                    0.7333869338035583,
+                    0.732356071472168,
+                    0.7313908934593201,
+                    0.7224880456924438,
+                    0.7187978029251099,
+                    0.7159706950187683,
+                    0.7150546908378601
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who played ricky in secret life of the american teenager\n\nDocuments:\n\ndoc58465: Daren Kagasoff. After deciding to return to Los Angeles, Kagasoff landed the lead role in a local theater production of Suburbia, a play that the eponymous 1996 film was based upon. After studying acting, he began auditioning for television and film roles. During one of his first auditions, he impressed producer Brenda Hampton so much that she hand-picked him to star as Ricky Underwood in the ABC Family series The Secret Life of the American Teenager. The show ran for five seasons.[6]\n\ndoc280941: List of The Secret Life of the American Teenager characters. Amy and Ricky's now three-year-old son whom they conceived on a night at band camp when Amy was a freshman and when Ricky was a sophomore in high school. Ashley (Amy's sister) is the one who suggested John's name because \"his life was going to be complicated already, so we might as well give him an easy name.\" His birthday is 06/06/09. His parents Amy and Ricky break apart from their marriage plans and Amy goes to college, leaving Ricky as a single father.\n\ndoc58462: Daren Kagasoff. Daren Maxwell Kagasoff [KA-guh-sawf] (born September 16, 1987)[1] is an American actor. He is known for starring as Ricky Underwood on the ABC Family teen drama series The Secret Life of the American Teenager from 2008 to 2013.\n\ndoc338715: The Secret Life of the American Teenager. On February 2, 2012, it was announced ABC Family renewed The Secret Life of the American Teenager for a fifth season.[21]\n\ndoc500041: The Secret Life of the American Teenager (season 3). Amy gets upset that another couple has had sex in Ricky's bed and that Ricky has slept in his bed with lots of different girls. She tells him to buy a new bed. But when Ricky discusses this with his mom, Nora helps him realize that Amy's probably upset that Ricky's going to college and she might think he's leaving her. Ricky goes to Amy and reiterates that he's never leaving her and John and that he's buying a new bed, as well. He asks her to take a trip with him and get some one on one time together and Amy feels cherished.\n\ndoc280903: List of The Secret Life of the American Teenager characters. After being accepted into a summer music program in New York, Amy decides to go but is surprised to learn that the program is for teen mothers. During this time, Ben reveals to Amy that Adrian had gotten pregnant from their one-night stand, and that he had been keeping her pregnancy from Amy for several weeks. After breaking up with Ben, she develops feelings for Ricky when he comes to visit. She tells him that if he really wants to be with her, he has to stop sleeping around,and get tested for any sexually transmitted diseases or infections.\n\ndoc280901: List of The Secret Life of the American Teenager characters. After Amy decides to keep the baby, Grace and Adrian throw her a baby shower, where Amy then goes into labor. While in the hospital, Amy reprimands Ricky for getting her pregnant, but then realizes that she was equally responsible for what had happened. She gives birth to their son, John, whom she lets Ashley name, and begins to struggle with motherhood.\n\ndoc280927: List of The Secret Life of the American Teenager characters. Bryan Callen portrays Robert \"Bob\" Underwood, Ricky's biological father who has been to jail for drugs and child molestation. In Season 1 during one episode he comes back to find Ricky, and wants to sell Ricky and Amy's baby. Later, he is caught with drugs and sent back to prison. Bryan Callen also previously guest starred on 7th Heaven for 9 episodes as George 'Vic' Vickery Petrowski.\n\ndoc338708: The Secret Life of the American Teenager. In season one, fifteen-year-old Amy Juergens finds out that she is pregnant after having sex at band camp with a handsome and popular boy, Ricky Underwood. Amy first confides in her two best friends Lauren and Madison about it. Amy also tells Ben Boykewich (the guy she started dating after becoming pregnant) the truth, but he is surprisingly supportive and offers to marry her anyway, despite the protests of his friends, Henry and Alice. When Ricky finds out he is the father, he is willing to be a part of his future child's life, causing Adrian Lee, Ricky's friend with benefits to become jealous, especially since Ricky already has his sights on the sweet and virginal Grace Bowman, who was going out with Jack Pappas until he cheated on her with Adrian. Much to Adrian's surprise, Grace is not angry at her, and the two girls become friends despite being romantic rivals. Ricky and Ben also compete with each other for Amy's attention and at the end of the season, Amy has her child, a boy whom her sister, Ashley, names John. Amy decides to keep John, after struggling with the decision over the course of the season. Ricky said he would do anything to take care of his new son, John.\n\ndoc280928: List of The Secret Life of the American Teenager characters. L. Scott Caldwell portrays Margaret Shakur, Ricky's foster mother and John Juergens' foster grandmother. Margaret and her husband love Ricky as their own, and are proud to be his parents. Later, Margaret and Sanjay have dinner with Anne and George to discuss Ricky's custody case, and expressing a desire to be a part of John's life. Margaret helped Adrian with her decision about whether or not to terminate her unplanned pregnancy. Later, Ricky's birth mother, Nora, moves in with Margaret and Sanjay when starting her life over, and they have become good friends. Margaret decides to take in one of Ricky's former foster brothers, Ethan, who ends up in juvenile detention after sexting nude pictures of an underage girl to his friends when she breaks up with him. Because of overcrowding in juvenile detention, Ethan will return to live with Margaret.\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: who played ricky in secret life of the american teenager\n\nDocuments:\n\ndoc58465: Daren Kagasoff. After deciding to return to Los Angeles, Kagasoff landed the lead role in a local theater production of Suburbia, a play that the eponymous 1996 film was based upon. After studying acting, he began auditioning for television and film roles. During one of his first auditions, he impressed producer Brenda Hampton so much that she hand-picked him to star as Ricky Underwood in the ABC Family series The Secret Life of the American Teenager. The show ran for five seasons.[6]\n\ndoc58462: Daren Kagasoff. Daren Maxwell Kagasoff [KA-guh-sawf] (born September 16, 1987)[1] is an American actor. He is known for starring as Ricky Underwood on the ABC Family teen drama series The Secret Life of the American Teenager from 2008 to 2013.\n\ndoc338708: The Secret Life of the American Teenager. In season one, fifteen-year-old Amy Juergens finds out that she is pregnant after having sex at band camp with a handsome and popular boy, Ricky Underwood. Amy first confides in her two best friends Lauren and Madison about it. Amy also tells Ben Boykewich (the guy she started dating after becoming pregnant) the truth, but he is surprisingly supportive and offers to marry her anyway, despite the protests of his friends, Henry and Alice. When Ricky finds out he is the father, he is willing to be a part of his future child's life, causing Adrian Lee, Ricky's friend with benefits to become jealous, especially since Ricky already has his sights on the sweet and virginal Grace Bowman, who was going out with Jack Pappas until he cheated on her with Adrian. Much to Adrian's surprise, Grace is not angry at her, and the two girls become friends despite being romantic rivals. Ricky and Ben also compete with each other for Amy's attention and at the end of the season, Amy has her child, a boy whom her sister, Ashley, names John. Amy decides to keep John, after struggling with the decision over the course of the season. Ricky said he would do anything to take care of his new son, John.\n\ndoc280941: List of The Secret Life of the American Teenager characters. Amy and Ricky's now three-year-old son whom they conceived on a night at band camp when Amy was a freshman and when Ricky was a sophomore in high school. Ashley (Amy's sister) is the one who suggested John's name because \"his life was going to be complicated already, so we might as well give him an easy name.\" His birthday is 06/06/09. His parents Amy and Ricky break apart from their marriage plans and Amy goes to college, leaving Ricky as a single father.\n\ndoc280901: List of The Secret Life of the American Teenager characters. After Amy decides to keep the baby, Grace and Adrian throw her a baby shower, where Amy then goes into labor. While in the hospital, Amy reprimands Ricky for getting her pregnant, but then realizes that she was equally responsible for what had happened. She gives birth to their son, John, whom she lets Ashley name, and begins to struggle with motherhood.\n\ndoc280903: List of The Secret Life of the American Teenager characters. After being accepted into a summer music program in New York, Amy decides to go but is surprised to learn that the program is for teen mothers. During this time, Ben reveals to Amy that Adrian had gotten pregnant from their one-night stand, and that he had been keeping her pregnancy from Amy for several weeks. After breaking up with Ben, she develops feelings for Ricky when he comes to visit. She tells him that if he really wants to be with her, he has to stop sleeping around,and get tested for any sexually transmitted diseases or infections.\n\ndoc500041: The Secret Life of the American Teenager (season 3). Amy gets upset that another couple has had sex in Ricky's bed and that Ricky has slept in his bed with lots of different girls. She tells him to buy a new bed. But when Ricky discusses this with his mom, Nora helps him realize that Amy's probably upset that Ricky's going to college and she might think he's leaving her. Ricky goes to Amy and reiterates that he's never leaving her and John and that he's buying a new bed, as well. He asks her to take a trip with him and get some one on one time together and Amy feels cherished.\n\ndoc280927: List of The Secret Life of the American Teenager characters. Bryan Callen portrays Robert \"Bob\" Underwood, Ricky's biological father who has been to jail for drugs and child molestation. In Season 1 during one episode he comes back to find Ricky, and wants to sell Ricky and Amy's baby. Later, he is caught with drugs and sent back to prison. Bryan Callen also previously guest starred on 7th Heaven for 9 episodes as George 'Vic' Vickery Petrowski.\n\ndoc280928: List of The Secret Life of the American Teenager characters. L. Scott Caldwell portrays Margaret Shakur, Ricky's foster mother and John Juergens' foster grandmother. Margaret and her husband love Ricky as their own, and are proud to be his parents. Later, Margaret and Sanjay have dinner with Anne and George to discuss Ricky's custody case, and expressing a desire to be a part of John's life. Margaret helped Adrian with her decision about whether or not to terminate her unplanned pregnancy. Later, Ricky's birth mother, Nora, moves in with Margaret and Sanjay when starting her life over, and they have become good friends. Margaret decides to take in one of Ricky's former foster brothers, Ethan, who ends up in juvenile detention after sexting nude pictures of an underage girl to his friends when she breaks up with him. Because of overcrowding in juvenile detention, Ethan will return to live with Margaret.\n\ndoc338715: The Secret Life of the American Teenager. On February 2, 2012, it was announced ABC Family renewed The Secret Life of the American Teenager for a fifth season.[21]\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"doc58465\",\n    \"doc58462\",\n    \"doc338708\",\n    \"doc280941\",\n    \"doc280901\",\n    \"doc280903\",\n    \"doc500041\",\n    \"doc280927\",\n    \"doc280928\",\n    \"doc338715\"\n]\n\nprint(doc_ids)\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc58465",
+                "doc58462",
+                "doc338708",
+                "doc280941",
+                "doc280901",
+                "doc280903",
+                "doc500041",
+                "doc280927",
+                "doc280928",
+                "doc338715"
+            ],
+            "terminate": true
+        }
+    ]
+}

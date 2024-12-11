@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "who played mrs warboys in one foot in the grave"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc81651",
+            "doc486894",
+            "doc574636",
+            "doc486880",
+            "doc574627",
+            "doc574630",
+            "doc574625",
+            "doc486897",
+            "doc1738120",
+            "doc574653"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.8331332206726074,
+            0.7764781713485718,
+            0.7740706205368042,
+            0.763790488243103,
+            0.7569995522499084,
+            0.7321078777313232,
+            0.7229897975921631,
+            0.7147024869918823,
+            0.712807834148407,
+            0.7050132751464844
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who played mrs warboys in one foot in the grave\n\nDocuments:\n\ndoc81651: Doreen Mantle. Doreen Mantle (born 1926) is a South African-born[1] English actress who is probably best known for her role as Jean Warboys in One Foot in the Grave (1990\u00e2\u20ac\u201c2000).[2]\n\ndoc486894: List of One Foot in the Grave episodes. NOTE: Final appearance of Mrs Warboys.\n\ndoc574636: One Foot in the Grave. Jean Warboys (Doreen Mantle) \u00e2\u20ac\u201c Mrs Warboys is a friend of Margaret (and a rather annoying one in Victor's eyes) who attached herself to the Meldrews, accompanying them on many of their exploits. In the early series she was married to (never seen) Chris, but eventually he left her for the private detective she had hired when she suspected him of having an affair, and they divorced.\n\ndoc486880: List of One Foot in the Grave episodes. NOTE: First appearances of Victor Meldrew, Margaret Meldrew, Mrs Warboys and Nick Swainey.\n\ndoc574627: One Foot in the Grave. The series features the exploits and mishaps of irascible early retiree Victor Meldrew, who after being made redundant from his job as a security guard, finds himself at war with the world and everything in it. Meldrew, cursed with misfortune and always complaining, is married to long-suffering wife Margaret, who is often left exasperated by his many misfortunes.[5]\n\ndoc574630: One Foot in the Grave. A number of episodes were also experimental in that they took place entirely in one setting. Such episodes include: Victor, Margaret and Mrs Warboys stuck in a traffic jam;[9] Victor and Margaret in bed suffering insomnia;[10] Victor left alone in the house waiting to see if he has to take part in jury service; Victor and Margaret having a long wait in their solicitor's waiting room; and Victor and Margaret trying to cope during a power cut on the hottest night of the year.\n\ndoc574625: One Foot in the Grave. The series features the exploits of Victor Meldrew, played by Richard Wilson, and his long-suffering wife, Margaret, played by Annette Crosbie. Wilson initially turned down the part of Meldrew and David Renwick considered Les Dawson for the role, until Wilson changed his mind.[2] The programmes invariably deal with Meldrew's battle against the problems he creates for himself. Set in a typical suburb in southern England, Victor takes involuntary early retirement. His various efforts to keep himself busy, while encountering various misfortunes and misunderstandings are the themes of the sitcom. Indoor scenes were filmed at BBC Television Centre with most exterior scenes filmed on Tresillian Way in Walkford on the Dorset/Hampshire border.[3] Despite its traditional production, the series subverts its domestic sitcom setting with elements of black humour and surrealism.\n\ndoc486897: List of One Foot in the Grave episodes. NOTE: Final appearances of Victor and Margaret Meldrew. Victor appears to be alive but Margaret does not acknowledge him, implying that he is actually a ghost after she complains about a cold air in the room.\n\ndoc1738120: Richard Wilson (Scottish actor). Richard Wilson OBE (born Iain Carmichael Wilson;[1] 9 July 1936) is a Scottish actor, theatre director and broadcaster. He played Victor Meldrew in the BBC sitcom One Foot in the Grave. A later role was as Gaius, the court physician of Camelot, in the BBC drama Merlin.\n\ndoc574653: One Foot in the Grave. Most of the first five series of One Foot in the Grave were produced and directed by Susan Belbin, the exceptions being \"Love and Death\", which was partly directed by veteran sitcom director Sydney Lotterby, and \"Starbound\", for which Gareth Gwenlan (who in fact had originally commissioned the series in 1989) stepped in to direct some sequences after Belbin was taken ill. Afterward, Belbin retired owing to ill-health,[13] and the final series was produced by Jonathan P. Llewellyn and directed by Christine Gernon. Wilson and Renwick felt that Gernon's experience of working with Belbin on earlier series of One Foot as a production secretary and assistant, as well as other shows, meant that her style was similar to Belbin's, aiding the transition between directors.[13]\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: who played mrs warboys in one foot in the grave\n\nDocuments:\n\ndoc81651: Doreen Mantle. Doreen Mantle (born 1926) is a South African-born[1] English actress who is probably best known for her role as Jean Warboys in One Foot in the Grave (1990\u00e2\u20ac\u201c2000).[2]\n\ndoc574636: One Foot in the Grave. Jean Warboys (Doreen Mantle) \u00e2\u20ac\u201c Mrs Warboys is a friend of Margaret (and a rather annoying one in Victor's eyes) who attached herself to the Meldrews, accompanying them on many of their exploits. In the early series she was married to (never seen) Chris, but eventually he left her for the private detective she had hired when she suspected him of having an affair, and they divorced.\n\ndoc486894: List of One Foot in the Grave episodes. NOTE: Final appearance of Mrs Warboys.\n\ndoc486880: List of One Foot in the Grave episodes. NOTE: First appearances of Victor Meldrew, Margaret Meldrew, Mrs Warboys and Nick Swainey.\n\ndoc574630: One Foot in the Grave. A number of episodes were also experimental in that they took place entirely in one setting. Such episodes include: Victor, Margaret and Mrs Warboys stuck in a traffic jam;[9] Victor and Margaret in bed suffering insomnia;[10] Victor left alone in the house waiting to see if he has to take part in jury service; Victor and Margaret having a long wait in their solicitor's waiting room; and Victor and Margaret trying to cope during a power cut on the hottest night of the year.\n\ndoc486897: List of One Foot in the Grave episodes. NOTE: Final appearances of Victor and Margaret Meldrew. Victor appears to be alive but Margaret does not acknowledge him, implying that he is actually a ghost after she complains about a cold air in the room.\n\ndoc574627: One Foot in the Grave. The series features the exploits and mishaps of irascible early retiree Victor Meldrew, who after being made redundant from his job as a security guard, finds himself at war with the world and everything in it. Meldrew, cursed with misfortune and always complaining, is married to long-suffering wife Margaret, who is often left exasperated by his many misfortunes.[5]\n\ndoc574625: One Foot in the Grave. The series features the exploits of Victor Meldrew, played by Richard Wilson, and his long-suffering wife, Margaret, played by Annette Crosbie. Wilson initially turned down the part of Meldrew and David Renwick considered Les Dawson for the role, until Wilson changed his mind.[2] The programmes invariably deal with Meldrew's battle against the problems he creates for himself. Set in a typical suburb in southern England, Victor takes involuntary early retirement. His various efforts to keep himself busy, while encountering various misfortunes and misunderstandings are the themes of the sitcom. Indoor scenes were filmed at BBC Television Centre with most exterior scenes filmed on Tresillian Way in Walkford on the Dorset/Hampshire border.[3] Despite its traditional production, the series subverts its domestic sitcom setting with elements of black humour and surrealism.\n\ndoc1738120: Richard Wilson (Scottish actor). Richard Wilson OBE (born Iain Carmichael Wilson;[1] 9 July 1936) is a Scottish actor, theatre director and broadcaster. He played Victor Meldrew in the BBC sitcom One Foot in the Grave. A later role was as Gaius, the court physician of Camelot, in the BBC drama Merlin.\n\ndoc574653: One Foot in the Grave. Most of the first five series of One Foot in the Grave were produced and directed by Susan Belbin, the exceptions being \"Love and Death\", which was partly directed by veteran sitcom director Sydney Lotterby, and \"Starbound\", for which Gareth Gwenlan (who in fact had originally commissioned the series in 1989) stepped in to direct some sequences after Belbin was taken ill. Afterward, Belbin retired owing to ill-health,[13] and the final series was produced by Jonathan P. Llewellyn and directed by Christine Gernon. Wilson and Renwick felt that Gernon's experience of working with Belbin on earlier series of One Foot as a production secretary and assistant, as well as other shows, meant that her style was similar to Belbin's, aiding the transition between directors.[13]\n\n"
+    ],
+    "responses": [
+        "```python\nordered_docs = [\"doc81651\", \"doc574636\", \"doc486894\", \"doc486880\", \"doc574630\", \"doc486897\", \"doc574627\", \"doc574625\", \"doc1738120\", \"doc574653\"]\nprint(ordered_docs)\n\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc81651",
+        "doc574636",
+        "doc486894",
+        "doc486880",
+        "doc574630",
+        "doc486897",
+        "doc574627",
+        "doc574625",
+        "doc1738120",
+        "doc574653"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "who played mrs warboys in one foot in the grave"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "who played mrs warboys in one foot in the grave"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc81651",
+                    "doc486894",
+                    "doc574636",
+                    "doc486880",
+                    "doc574627",
+                    "doc574630",
+                    "doc574625",
+                    "doc486897",
+                    "doc1738120",
+                    "doc574653"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8331332206726074,
+                    0.7764781713485718,
+                    0.7740706205368042,
+                    0.763790488243103,
+                    0.7569995522499084,
+                    0.7321078777313232,
+                    0.7229897975921631,
+                    0.7147024869918823,
+                    0.712807834148407,
+                    0.7050132751464844
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "who played mrs warboys in one foot in the grave"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc81651",
+                    "doc486894",
+                    "doc574636",
+                    "doc486880",
+                    "doc574627",
+                    "doc574630",
+                    "doc574625",
+                    "doc486897",
+                    "doc1738120",
+                    "doc574653"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8331332206726074,
+                    0.7764781713485718,
+                    0.7740706205368042,
+                    0.763790488243103,
+                    0.7569995522499084,
+                    0.7321078777313232,
+                    0.7229897975921631,
+                    0.7147024869918823,
+                    0.712807834148407,
+                    0.7050132751464844
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who played mrs warboys in one foot in the grave\n\nDocuments:\n\ndoc81651: Doreen Mantle. Doreen Mantle (born 1926) is a South African-born[1] English actress who is probably best known for her role as Jean Warboys in One Foot in the Grave (1990\u00e2\u20ac\u201c2000).[2]\n\ndoc486894: List of One Foot in the Grave episodes. NOTE: Final appearance of Mrs Warboys.\n\ndoc574636: One Foot in the Grave. Jean Warboys (Doreen Mantle) \u00e2\u20ac\u201c Mrs Warboys is a friend of Margaret (and a rather annoying one in Victor's eyes) who attached herself to the Meldrews, accompanying them on many of their exploits. In the early series she was married to (never seen) Chris, but eventually he left her for the private detective she had hired when she suspected him of having an affair, and they divorced.\n\ndoc486880: List of One Foot in the Grave episodes. NOTE: First appearances of Victor Meldrew, Margaret Meldrew, Mrs Warboys and Nick Swainey.\n\ndoc574627: One Foot in the Grave. The series features the exploits and mishaps of irascible early retiree Victor Meldrew, who after being made redundant from his job as a security guard, finds himself at war with the world and everything in it. Meldrew, cursed with misfortune and always complaining, is married to long-suffering wife Margaret, who is often left exasperated by his many misfortunes.[5]\n\ndoc574630: One Foot in the Grave. A number of episodes were also experimental in that they took place entirely in one setting. Such episodes include: Victor, Margaret and Mrs Warboys stuck in a traffic jam;[9] Victor and Margaret in bed suffering insomnia;[10] Victor left alone in the house waiting to see if he has to take part in jury service; Victor and Margaret having a long wait in their solicitor's waiting room; and Victor and Margaret trying to cope during a power cut on the hottest night of the year.\n\ndoc574625: One Foot in the Grave. The series features the exploits of Victor Meldrew, played by Richard Wilson, and his long-suffering wife, Margaret, played by Annette Crosbie. Wilson initially turned down the part of Meldrew and David Renwick considered Les Dawson for the role, until Wilson changed his mind.[2] The programmes invariably deal with Meldrew's battle against the problems he creates for himself. Set in a typical suburb in southern England, Victor takes involuntary early retirement. His various efforts to keep himself busy, while encountering various misfortunes and misunderstandings are the themes of the sitcom. Indoor scenes were filmed at BBC Television Centre with most exterior scenes filmed on Tresillian Way in Walkford on the Dorset/Hampshire border.[3] Despite its traditional production, the series subverts its domestic sitcom setting with elements of black humour and surrealism.\n\ndoc486897: List of One Foot in the Grave episodes. NOTE: Final appearances of Victor and Margaret Meldrew. Victor appears to be alive but Margaret does not acknowledge him, implying that he is actually a ghost after she complains about a cold air in the room.\n\ndoc1738120: Richard Wilson (Scottish actor). Richard Wilson OBE (born Iain Carmichael Wilson;[1] 9 July 1936) is a Scottish actor, theatre director and broadcaster. He played Victor Meldrew in the BBC sitcom One Foot in the Grave. A later role was as Gaius, the court physician of Camelot, in the BBC drama Merlin.\n\ndoc574653: One Foot in the Grave. Most of the first five series of One Foot in the Grave were produced and directed by Susan Belbin, the exceptions being \"Love and Death\", which was partly directed by veteran sitcom director Sydney Lotterby, and \"Starbound\", for which Gareth Gwenlan (who in fact had originally commissioned the series in 1989) stepped in to direct some sequences after Belbin was taken ill. Afterward, Belbin retired owing to ill-health,[13] and the final series was produced by Jonathan P. Llewellyn and directed by Christine Gernon. Wilson and Renwick felt that Gernon's experience of working with Belbin on earlier series of One Foot as a production secretary and assistant, as well as other shows, meant that her style was similar to Belbin's, aiding the transition between directors.[13]\n\n"
+            ],
+            "responses": [
+                "```python\nordered_docs = [\"doc81651\", \"doc574636\", \"doc486894\", \"doc486880\", \"doc574630\", \"doc486897\", \"doc574627\", \"doc574625\", \"doc1738120\", \"doc574653\"]\nprint(ordered_docs)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc81651",
+                "doc574636",
+                "doc486894",
+                "doc486880",
+                "doc574630",
+                "doc486897",
+                "doc574627",
+                "doc574625",
+                "doc1738120",
+                "doc574653"
+            ]
+        },
+        {
+            "queries": [
+                "who played mrs warboys in one foot in the grave"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc81651",
+                    "doc486894",
+                    "doc574636",
+                    "doc486880",
+                    "doc574627",
+                    "doc574630",
+                    "doc574625",
+                    "doc486897",
+                    "doc1738120",
+                    "doc574653"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8331332206726074,
+                    0.7764781713485718,
+                    0.7740706205368042,
+                    0.763790488243103,
+                    0.7569995522499084,
+                    0.7321078777313232,
+                    0.7229897975921631,
+                    0.7147024869918823,
+                    0.712807834148407,
+                    0.7050132751464844
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who played mrs warboys in one foot in the grave\n\nDocuments:\n\ndoc81651: Doreen Mantle. Doreen Mantle (born 1926) is a South African-born[1] English actress who is probably best known for her role as Jean Warboys in One Foot in the Grave (1990\u00e2\u20ac\u201c2000).[2]\n\ndoc486894: List of One Foot in the Grave episodes. NOTE: Final appearance of Mrs Warboys.\n\ndoc574636: One Foot in the Grave. Jean Warboys (Doreen Mantle) \u00e2\u20ac\u201c Mrs Warboys is a friend of Margaret (and a rather annoying one in Victor's eyes) who attached herself to the Meldrews, accompanying them on many of their exploits. In the early series she was married to (never seen) Chris, but eventually he left her for the private detective she had hired when she suspected him of having an affair, and they divorced.\n\ndoc486880: List of One Foot in the Grave episodes. NOTE: First appearances of Victor Meldrew, Margaret Meldrew, Mrs Warboys and Nick Swainey.\n\ndoc574627: One Foot in the Grave. The series features the exploits and mishaps of irascible early retiree Victor Meldrew, who after being made redundant from his job as a security guard, finds himself at war with the world and everything in it. Meldrew, cursed with misfortune and always complaining, is married to long-suffering wife Margaret, who is often left exasperated by his many misfortunes.[5]\n\ndoc574630: One Foot in the Grave. A number of episodes were also experimental in that they took place entirely in one setting. Such episodes include: Victor, Margaret and Mrs Warboys stuck in a traffic jam;[9] Victor and Margaret in bed suffering insomnia;[10] Victor left alone in the house waiting to see if he has to take part in jury service; Victor and Margaret having a long wait in their solicitor's waiting room; and Victor and Margaret trying to cope during a power cut on the hottest night of the year.\n\ndoc574625: One Foot in the Grave. The series features the exploits of Victor Meldrew, played by Richard Wilson, and his long-suffering wife, Margaret, played by Annette Crosbie. Wilson initially turned down the part of Meldrew and David Renwick considered Les Dawson for the role, until Wilson changed his mind.[2] The programmes invariably deal with Meldrew's battle against the problems he creates for himself. Set in a typical suburb in southern England, Victor takes involuntary early retirement. His various efforts to keep himself busy, while encountering various misfortunes and misunderstandings are the themes of the sitcom. Indoor scenes were filmed at BBC Television Centre with most exterior scenes filmed on Tresillian Way in Walkford on the Dorset/Hampshire border.[3] Despite its traditional production, the series subverts its domestic sitcom setting with elements of black humour and surrealism.\n\ndoc486897: List of One Foot in the Grave episodes. NOTE: Final appearances of Victor and Margaret Meldrew. Victor appears to be alive but Margaret does not acknowledge him, implying that he is actually a ghost after she complains about a cold air in the room.\n\ndoc1738120: Richard Wilson (Scottish actor). Richard Wilson OBE (born Iain Carmichael Wilson;[1] 9 July 1936) is a Scottish actor, theatre director and broadcaster. He played Victor Meldrew in the BBC sitcom One Foot in the Grave. A later role was as Gaius, the court physician of Camelot, in the BBC drama Merlin.\n\ndoc574653: One Foot in the Grave. Most of the first five series of One Foot in the Grave were produced and directed by Susan Belbin, the exceptions being \"Love and Death\", which was partly directed by veteran sitcom director Sydney Lotterby, and \"Starbound\", for which Gareth Gwenlan (who in fact had originally commissioned the series in 1989) stepped in to direct some sequences after Belbin was taken ill. Afterward, Belbin retired owing to ill-health,[13] and the final series was produced by Jonathan P. Llewellyn and directed by Christine Gernon. Wilson and Renwick felt that Gernon's experience of working with Belbin on earlier series of One Foot as a production secretary and assistant, as well as other shows, meant that her style was similar to Belbin's, aiding the transition between directors.[13]\n\n"
+            ],
+            "responses": [
+                "```python\nordered_docs = [\"doc81651\", \"doc574636\", \"doc486894\", \"doc486880\", \"doc574630\", \"doc486897\", \"doc574627\", \"doc574625\", \"doc1738120\", \"doc574653\"]\nprint(ordered_docs)\n\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc81651",
+                "doc574636",
+                "doc486894",
+                "doc486880",
+                "doc574630",
+                "doc486897",
+                "doc574627",
+                "doc574625",
+                "doc1738120",
+                "doc574653"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "who played mrs warboys in one foot in the grave"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc81651",
+                    "doc486894",
+                    "doc574636",
+                    "doc486880",
+                    "doc574627",
+                    "doc574630",
+                    "doc574625",
+                    "doc486897",
+                    "doc1738120",
+                    "doc574653"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8331332206726074,
+                    0.7764781713485718,
+                    0.7740706205368042,
+                    0.763790488243103,
+                    0.7569995522499084,
+                    0.7321078777313232,
+                    0.7229897975921631,
+                    0.7147024869918823,
+                    0.712807834148407,
+                    0.7050132751464844
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who played mrs warboys in one foot in the grave\n\nDocuments:\n\ndoc81651: Doreen Mantle. Doreen Mantle (born 1926) is a South African-born[1] English actress who is probably best known for her role as Jean Warboys in One Foot in the Grave (1990\u00e2\u20ac\u201c2000).[2]\n\ndoc486894: List of One Foot in the Grave episodes. NOTE: Final appearance of Mrs Warboys.\n\ndoc574636: One Foot in the Grave. Jean Warboys (Doreen Mantle) \u00e2\u20ac\u201c Mrs Warboys is a friend of Margaret (and a rather annoying one in Victor's eyes) who attached herself to the Meldrews, accompanying them on many of their exploits. In the early series she was married to (never seen) Chris, but eventually he left her for the private detective she had hired when she suspected him of having an affair, and they divorced.\n\ndoc486880: List of One Foot in the Grave episodes. NOTE: First appearances of Victor Meldrew, Margaret Meldrew, Mrs Warboys and Nick Swainey.\n\ndoc574627: One Foot in the Grave. The series features the exploits and mishaps of irascible early retiree Victor Meldrew, who after being made redundant from his job as a security guard, finds himself at war with the world and everything in it. Meldrew, cursed with misfortune and always complaining, is married to long-suffering wife Margaret, who is often left exasperated by his many misfortunes.[5]\n\ndoc574630: One Foot in the Grave. A number of episodes were also experimental in that they took place entirely in one setting. Such episodes include: Victor, Margaret and Mrs Warboys stuck in a traffic jam;[9] Victor and Margaret in bed suffering insomnia;[10] Victor left alone in the house waiting to see if he has to take part in jury service; Victor and Margaret having a long wait in their solicitor's waiting room; and Victor and Margaret trying to cope during a power cut on the hottest night of the year.\n\ndoc574625: One Foot in the Grave. The series features the exploits of Victor Meldrew, played by Richard Wilson, and his long-suffering wife, Margaret, played by Annette Crosbie. Wilson initially turned down the part of Meldrew and David Renwick considered Les Dawson for the role, until Wilson changed his mind.[2] The programmes invariably deal with Meldrew's battle against the problems he creates for himself. Set in a typical suburb in southern England, Victor takes involuntary early retirement. His various efforts to keep himself busy, while encountering various misfortunes and misunderstandings are the themes of the sitcom. Indoor scenes were filmed at BBC Television Centre with most exterior scenes filmed on Tresillian Way in Walkford on the Dorset/Hampshire border.[3] Despite its traditional production, the series subverts its domestic sitcom setting with elements of black humour and surrealism.\n\ndoc486897: List of One Foot in the Grave episodes. NOTE: Final appearances of Victor and Margaret Meldrew. Victor appears to be alive but Margaret does not acknowledge him, implying that he is actually a ghost after she complains about a cold air in the room.\n\ndoc1738120: Richard Wilson (Scottish actor). Richard Wilson OBE (born Iain Carmichael Wilson;[1] 9 July 1936) is a Scottish actor, theatre director and broadcaster. He played Victor Meldrew in the BBC sitcom One Foot in the Grave. A later role was as Gaius, the court physician of Camelot, in the BBC drama Merlin.\n\ndoc574653: One Foot in the Grave. Most of the first five series of One Foot in the Grave were produced and directed by Susan Belbin, the exceptions being \"Love and Death\", which was partly directed by veteran sitcom director Sydney Lotterby, and \"Starbound\", for which Gareth Gwenlan (who in fact had originally commissioned the series in 1989) stepped in to direct some sequences after Belbin was taken ill. Afterward, Belbin retired owing to ill-health,[13] and the final series was produced by Jonathan P. Llewellyn and directed by Christine Gernon. Wilson and Renwick felt that Gernon's experience of working with Belbin on earlier series of One Foot as a production secretary and assistant, as well as other shows, meant that her style was similar to Belbin's, aiding the transition between directors.[13]\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: who played mrs warboys in one foot in the grave\n\nDocuments:\n\ndoc81651: Doreen Mantle. Doreen Mantle (born 1926) is a South African-born[1] English actress who is probably best known for her role as Jean Warboys in One Foot in the Grave (1990\u00e2\u20ac\u201c2000).[2]\n\ndoc574636: One Foot in the Grave. Jean Warboys (Doreen Mantle) \u00e2\u20ac\u201c Mrs Warboys is a friend of Margaret (and a rather annoying one in Victor's eyes) who attached herself to the Meldrews, accompanying them on many of their exploits. In the early series she was married to (never seen) Chris, but eventually he left her for the private detective she had hired when she suspected him of having an affair, and they divorced.\n\ndoc486894: List of One Foot in the Grave episodes. NOTE: Final appearance of Mrs Warboys.\n\ndoc486880: List of One Foot in the Grave episodes. NOTE: First appearances of Victor Meldrew, Margaret Meldrew, Mrs Warboys and Nick Swainey.\n\ndoc574630: One Foot in the Grave. A number of episodes were also experimental in that they took place entirely in one setting. Such episodes include: Victor, Margaret and Mrs Warboys stuck in a traffic jam;[9] Victor and Margaret in bed suffering insomnia;[10] Victor left alone in the house waiting to see if he has to take part in jury service; Victor and Margaret having a long wait in their solicitor's waiting room; and Victor and Margaret trying to cope during a power cut on the hottest night of the year.\n\ndoc486897: List of One Foot in the Grave episodes. NOTE: Final appearances of Victor and Margaret Meldrew. Victor appears to be alive but Margaret does not acknowledge him, implying that he is actually a ghost after she complains about a cold air in the room.\n\ndoc574627: One Foot in the Grave. The series features the exploits and mishaps of irascible early retiree Victor Meldrew, who after being made redundant from his job as a security guard, finds himself at war with the world and everything in it. Meldrew, cursed with misfortune and always complaining, is married to long-suffering wife Margaret, who is often left exasperated by his many misfortunes.[5]\n\ndoc574625: One Foot in the Grave. The series features the exploits of Victor Meldrew, played by Richard Wilson, and his long-suffering wife, Margaret, played by Annette Crosbie. Wilson initially turned down the part of Meldrew and David Renwick considered Les Dawson for the role, until Wilson changed his mind.[2] The programmes invariably deal with Meldrew's battle against the problems he creates for himself. Set in a typical suburb in southern England, Victor takes involuntary early retirement. His various efforts to keep himself busy, while encountering various misfortunes and misunderstandings are the themes of the sitcom. Indoor scenes were filmed at BBC Television Centre with most exterior scenes filmed on Tresillian Way in Walkford on the Dorset/Hampshire border.[3] Despite its traditional production, the series subverts its domestic sitcom setting with elements of black humour and surrealism.\n\ndoc1738120: Richard Wilson (Scottish actor). Richard Wilson OBE (born Iain Carmichael Wilson;[1] 9 July 1936) is a Scottish actor, theatre director and broadcaster. He played Victor Meldrew in the BBC sitcom One Foot in the Grave. A later role was as Gaius, the court physician of Camelot, in the BBC drama Merlin.\n\ndoc574653: One Foot in the Grave. Most of the first five series of One Foot in the Grave were produced and directed by Susan Belbin, the exceptions being \"Love and Death\", which was partly directed by veteran sitcom director Sydney Lotterby, and \"Starbound\", for which Gareth Gwenlan (who in fact had originally commissioned the series in 1989) stepped in to direct some sequences after Belbin was taken ill. Afterward, Belbin retired owing to ill-health,[13] and the final series was produced by Jonathan P. Llewellyn and directed by Christine Gernon. Wilson and Renwick felt that Gernon's experience of working with Belbin on earlier series of One Foot as a production secretary and assistant, as well as other shows, meant that her style was similar to Belbin's, aiding the transition between directors.[13]\n\n"
+            ],
+            "responses": [
+                "```python\nordered_docs = [\"doc81651\", \"doc574636\", \"doc486894\", \"doc486880\", \"doc574630\", \"doc486897\", \"doc574627\", \"doc574625\", \"doc1738120\", \"doc574653\"]\nprint(ordered_docs)\n\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc81651",
+                "doc574636",
+                "doc486894",
+                "doc486880",
+                "doc574630",
+                "doc486897",
+                "doc574627",
+                "doc574625",
+                "doc1738120",
+                "doc574653"
+            ],
+            "terminate": true
+        }
+    ]
+}

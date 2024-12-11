@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "what is the first book of percy jackson"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc73864",
+            "doc73878",
+            "doc780667",
+            "doc73861",
+            "doc73877",
+            "doc1610001",
+            "doc780660",
+            "doc73880",
+            "doc73887",
+            "doc73865"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7651573419570923,
+            0.7311161160469055,
+            0.7225711941719055,
+            0.7208759784698486,
+            0.71351158618927,
+            0.7116286754608154,
+            0.703362762928009,
+            0.7027202844619751,
+            0.7006429433822632,
+            0.7001651525497437
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what is the first book of percy jackson\n\nDocuments:\n\ndoc73864: Percy Jackson & the Olympians. Leaving his manuscript with his agent and editor for review, Riordan presented the book to a group of 6th, 7th, and 8th graders to read and critique. He gained their approval, and with their help, came up with the name of the book and created the way Percy's sword works.[8] In 2004, the book was sold to Miramax Books for enough money for Riordan to quit his job and focus on writing.[9] After it was released on 28\u00a0June 2005, it sold over 1.2\u00a0million copies. The book was released in multiple versions, including hardcover, paperback and audio editions.[10][11] It has been translated into multiple languages and published all over the world.[12]\n\ndoc73878: Percy Jackson & the Olympians. The Ultimate Guide is a companion book, second to the series, released on January 19, 2010. This book has a magnetic cover and holographic character pictures that change into four different characters. Its 156 pages include trading cards, full-color diagrams and maps.[17] It also includes a dictionary of almost every monster Percy faces in the series, with pictures beside some, as well as various activities. The book tells of Percy Jackson's starting life as a half-blood, a tour of the Underworld by Nico di\u00c2\u00a0Angelo, the story of Sally Jackson's parents, and items used throughout the series. There is also a paperback version.\n\ndoc780667: Percy Jackson (film series). Rick Riordan, the author of the book series, has mentioned in numerous interviews that he has never seen the movies, to keep them from influencing the way he views the characters.[5] During March 2016, Riordan wrote a letter asking teachers not to show the movie to students during class time.[6]\n\ndoc73861: Percy Jackson & the Olympians. Percy Jackson & the Olympians, often shortened to Percy Jackson, is a pentalogy of fantasy adventure novels written by American author Rick Riordan, and the first book series in the Camp Half-Blood Chronicles.[1] Five supplementary books, along with three graphic novels, have also been released. More than 45 million copies of the books have been sold in more than 35 countries.[2]\n\ndoc73877: Percy Jackson & the Olympians. The Demigod Files, also written by Rick Riordan, is the first companion book to the series. It was released February\u00c2\u00a010, 2009, featuring three short stories, interviews with the campers, puzzles and pictures.[15] It is set between The Battle of the Labyrinth and The Last Olympian.[16] The book received mixed reviews, with some reviewers criticizing the lack of substantial material and others commenting on the writing of the short stories. The stories are Percy Jackson and the Stolen Chariot, Percy Jackson and the Bronze Dragon, The Camper Interviews, and Percy Jackson and the Sword of Hades. At the end of the book, there are portraits on the characters of the series. [16]\n\ndoc1610001: Camp Half-Blood chronicles. Percy Jackson & the Olympians is a pentalogy of adventure and fiction books written by Rick Riordan. Set in the United States, the books are predominantly based on Greek mythology and deal with a demigod, Percy Jackson, and his quest to stop the rise of the Titan lord Kronos. All five books are seen from Percy's witty and sardonic point of view. The series tackles themes like coming of age, love and teenage angst.\n\ndoc780660: Percy Jackson (film series). Percy Jackson & the Olympians (also known as Percy Jackson) is an American feature film series loosely based on the novel series of the same name by the author Rick Riordan. The series is distributed by 20th Century Fox, produced by 1492 Pictures and currently consists of two installments. The first film, Percy Jackson & the Olympians: The Lightning Thief (2010), was directed by Chris Columbus, and was released on February 12, 2010. The second installment, Percy Jackson: Sea of Monsters (2013), was originally intended to be released in March 2013 but was instead pushed back to August 7, 2013, and was directed by Thor Freudenthal. The series has grossed nearly $430 million at the worldwide box office.\n\ndoc73880: Percy Jackson & the Olympians. Demigods and Monsters is an unofficial companion book and was released on February 11, 2009.[19] With an introduction by Riordan, it features essays written by various young adult authors that explore, discuss and provide further insight into the Percy Jackson series. At 196 pages, it also contains information on the places and characters of the series, as well as a glossary of Greek myths.[20]\n\ndoc73887: Percy Jackson & the Olympians. However studies show that overall, readers appreciated the mundane language, witty tone and aesthetic plot of the novels, as well as how it introduced Greek mythology to them.[31]\n\ndoc73865: Percy Jackson & the Olympians. The Lightning Thief is the first book in the series and was released on July 1, 2005.\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: what is the first book of percy jackson\n\nDocuments:\n\ndoc73865: Percy Jackson & the Olympians. The Lightning Thief is the first book in the series and was released on July 1, 2005.\n\ndoc73864: Percy Jackson & the Olympians. Leaving his manuscript with his agent and editor for review, Riordan presented the book to a group of 6th, 7th, and 8th graders to read and critique. He gained their approval, and with their help, came up with the name of the book and created the way Percy's sword works.[8] In 2004, the book was sold to Miramax Books for enough money for Riordan to quit his job and focus on writing.[9] After it was released on 28\u00a0June 2005, it sold over 1.2\u00a0million copies. The book was released in multiple versions, including hardcover, paperback and audio editions.[10][11] It has been translated into multiple languages and published all over the world.[12]\n\ndoc73861: Percy Jackson & the Olympians. Percy Jackson & the Olympians, often shortened to Percy Jackson, is a pentalogy of fantasy adventure novels written by American author Rick Riordan, and the first book series in the Camp Half-Blood Chronicles.[1] Five supplementary books, along with three graphic novels, have also been released. More than 45 million copies of the books have been sold in more than 35 countries.[2]\n\ndoc1610001: Camp Half-Blood chronicles. Percy Jackson & the Olympians is a pentalogy of adventure and fiction books written by Rick Riordan. Set in the United States, the books are predominantly based on Greek mythology and deal with a demigod, Percy Jackson, and his quest to stop the rise of the Titan lord Kronos. All five books are seen from Percy's witty and sardonic point of view. The series tackles themes like coming of age, love and teenage angst.\n\ndoc73877: Percy Jackson & the Olympians. The Demigod Files, also written by Rick Riordan, is the first companion book to the series. It was released February\u00c2\u00a010, 2009, featuring three short stories, interviews with the campers, puzzles and pictures.[15] It is set between The Battle of the Labyrinth and The Last Olympian.[16] The book received mixed reviews, with some reviewers criticizing the lack of substantial material and others commenting on the writing of the short stories. The stories are Percy Jackson and the Stolen Chariot, Percy Jackson and the Bronze Dragon, The Camper Interviews, and Percy Jackson and the Sword of Hades. At the end of the book, there are portraits on the characters of the series. [16]\n\ndoc73878: Percy Jackson & the Olympians. The Ultimate Guide is a companion book, second to the series, released on January 19, 2010. This book has a magnetic cover and holographic character pictures that change into four different characters. Its 156 pages include trading cards, full-color diagrams and maps.[17] It also includes a dictionary of almost every monster Percy faces in the series, with pictures beside some, as well as various activities. The book tells of Percy Jackson's starting life as a half-blood, a tour of the Underworld by Nico di\u00c2\u00a0Angelo, the story of Sally Jackson's parents, and items used throughout the series. There is also a paperback version.\n\ndoc73880: Percy Jackson & the Olympians. Demigods and Monsters is an unofficial companion book and was released on February 11, 2009.[19] With an introduction by Riordan, it features essays written by various young adult authors that explore, discuss and provide further insight into the Percy Jackson series. At 196 pages, it also contains information on the places and characters of the series, as well as a glossary of Greek myths.[20]\n\ndoc73887: Percy Jackson & the Olympians. However studies show that overall, readers appreciated the mundane language, witty tone and aesthetic plot of the novels, as well as how it introduced Greek mythology to them.[31]\n\ndoc780660: Percy Jackson (film series). Percy Jackson & the Olympians (also known as Percy Jackson) is an American feature film series loosely based on the novel series of the same name by the author Rick Riordan. The series is distributed by 20th Century Fox, produced by 1492 Pictures and currently consists of two installments. The first film, Percy Jackson & the Olympians: The Lightning Thief (2010), was directed by Chris Columbus, and was released on February 12, 2010. The second installment, Percy Jackson: Sea of Monsters (2013), was originally intended to be released in March 2013 but was instead pushed back to August 7, 2013, and was directed by Thor Freudenthal. The series has grossed nearly $430 million at the worldwide box office.\n\ndoc780667: Percy Jackson (film series). Rick Riordan, the author of the book series, has mentioned in numerous interviews that he has never seen the movies, to keep them from influencing the way he views the characters.[5] During March 2016, Riordan wrote a letter asking teachers not to show the movie to students during class time.[6]\n\n"
+    ],
+    "responses": [
+        "```python\n[\"doc73865\", \"doc73864\", \"doc73861\", \"doc1610001\", \"doc73877\", \"doc73878\", \"doc73880\", \"doc73887\", \"doc780660\", \"doc780667\"]\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc73865",
+        "doc73864",
+        "doc73861",
+        "doc1610001",
+        "doc73877",
+        "doc73878",
+        "doc73880",
+        "doc73887",
+        "doc780660",
+        "doc780667"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "what is the first book of percy jackson"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "what is the first book of percy jackson"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc73864",
+                    "doc73878",
+                    "doc780667",
+                    "doc73861",
+                    "doc73877",
+                    "doc1610001",
+                    "doc780660",
+                    "doc73880",
+                    "doc73887",
+                    "doc73865"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7651573419570923,
+                    0.7311161160469055,
+                    0.7225711941719055,
+                    0.7208759784698486,
+                    0.71351158618927,
+                    0.7116286754608154,
+                    0.703362762928009,
+                    0.7027202844619751,
+                    0.7006429433822632,
+                    0.7001651525497437
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "what is the first book of percy jackson"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc73864",
+                    "doc73878",
+                    "doc780667",
+                    "doc73861",
+                    "doc73877",
+                    "doc1610001",
+                    "doc780660",
+                    "doc73880",
+                    "doc73887",
+                    "doc73865"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7651573419570923,
+                    0.7311161160469055,
+                    0.7225711941719055,
+                    0.7208759784698486,
+                    0.71351158618927,
+                    0.7116286754608154,
+                    0.703362762928009,
+                    0.7027202844619751,
+                    0.7006429433822632,
+                    0.7001651525497437
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what is the first book of percy jackson\n\nDocuments:\n\ndoc73864: Percy Jackson & the Olympians. Leaving his manuscript with his agent and editor for review, Riordan presented the book to a group of 6th, 7th, and 8th graders to read and critique. He gained their approval, and with their help, came up with the name of the book and created the way Percy's sword works.[8] In 2004, the book was sold to Miramax Books for enough money for Riordan to quit his job and focus on writing.[9] After it was released on 28\u00a0June 2005, it sold over 1.2\u00a0million copies. The book was released in multiple versions, including hardcover, paperback and audio editions.[10][11] It has been translated into multiple languages and published all over the world.[12]\n\ndoc73878: Percy Jackson & the Olympians. The Ultimate Guide is a companion book, second to the series, released on January 19, 2010. This book has a magnetic cover and holographic character pictures that change into four different characters. Its 156 pages include trading cards, full-color diagrams and maps.[17] It also includes a dictionary of almost every monster Percy faces in the series, with pictures beside some, as well as various activities. The book tells of Percy Jackson's starting life as a half-blood, a tour of the Underworld by Nico di\u00c2\u00a0Angelo, the story of Sally Jackson's parents, and items used throughout the series. There is also a paperback version.\n\ndoc780667: Percy Jackson (film series). Rick Riordan, the author of the book series, has mentioned in numerous interviews that he has never seen the movies, to keep them from influencing the way he views the characters.[5] During March 2016, Riordan wrote a letter asking teachers not to show the movie to students during class time.[6]\n\ndoc73861: Percy Jackson & the Olympians. Percy Jackson & the Olympians, often shortened to Percy Jackson, is a pentalogy of fantasy adventure novels written by American author Rick Riordan, and the first book series in the Camp Half-Blood Chronicles.[1] Five supplementary books, along with three graphic novels, have also been released. More than 45 million copies of the books have been sold in more than 35 countries.[2]\n\ndoc73877: Percy Jackson & the Olympians. The Demigod Files, also written by Rick Riordan, is the first companion book to the series. It was released February\u00c2\u00a010, 2009, featuring three short stories, interviews with the campers, puzzles and pictures.[15] It is set between The Battle of the Labyrinth and The Last Olympian.[16] The book received mixed reviews, with some reviewers criticizing the lack of substantial material and others commenting on the writing of the short stories. The stories are Percy Jackson and the Stolen Chariot, Percy Jackson and the Bronze Dragon, The Camper Interviews, and Percy Jackson and the Sword of Hades. At the end of the book, there are portraits on the characters of the series. [16]\n\ndoc1610001: Camp Half-Blood chronicles. Percy Jackson & the Olympians is a pentalogy of adventure and fiction books written by Rick Riordan. Set in the United States, the books are predominantly based on Greek mythology and deal with a demigod, Percy Jackson, and his quest to stop the rise of the Titan lord Kronos. All five books are seen from Percy's witty and sardonic point of view. The series tackles themes like coming of age, love and teenage angst.\n\ndoc780660: Percy Jackson (film series). Percy Jackson & the Olympians (also known as Percy Jackson) is an American feature film series loosely based on the novel series of the same name by the author Rick Riordan. The series is distributed by 20th Century Fox, produced by 1492 Pictures and currently consists of two installments. The first film, Percy Jackson & the Olympians: The Lightning Thief (2010), was directed by Chris Columbus, and was released on February 12, 2010. The second installment, Percy Jackson: Sea of Monsters (2013), was originally intended to be released in March 2013 but was instead pushed back to August 7, 2013, and was directed by Thor Freudenthal. The series has grossed nearly $430 million at the worldwide box office.\n\ndoc73880: Percy Jackson & the Olympians. Demigods and Monsters is an unofficial companion book and was released on February 11, 2009.[19] With an introduction by Riordan, it features essays written by various young adult authors that explore, discuss and provide further insight into the Percy Jackson series. At 196 pages, it also contains information on the places and characters of the series, as well as a glossary of Greek myths.[20]\n\ndoc73887: Percy Jackson & the Olympians. However studies show that overall, readers appreciated the mundane language, witty tone and aesthetic plot of the novels, as well as how it introduced Greek mythology to them.[31]\n\ndoc73865: Percy Jackson & the Olympians. The Lightning Thief is the first book in the series and was released on July 1, 2005.\n\n"
+            ],
+            "responses": [
+                "```python\n[\"doc73865\", \"doc73864\", \"doc73861\", \"doc1610001\", \"doc73877\", \"doc73878\", \"doc73880\", \"doc73887\", \"doc780660\", \"doc780667\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc73865",
+                "doc73864",
+                "doc73861",
+                "doc1610001",
+                "doc73877",
+                "doc73878",
+                "doc73880",
+                "doc73887",
+                "doc780660",
+                "doc780667"
+            ]
+        },
+        {
+            "queries": [
+                "what is the first book of percy jackson"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc73864",
+                    "doc73878",
+                    "doc780667",
+                    "doc73861",
+                    "doc73877",
+                    "doc1610001",
+                    "doc780660",
+                    "doc73880",
+                    "doc73887",
+                    "doc73865"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7651573419570923,
+                    0.7311161160469055,
+                    0.7225711941719055,
+                    0.7208759784698486,
+                    0.71351158618927,
+                    0.7116286754608154,
+                    0.703362762928009,
+                    0.7027202844619751,
+                    0.7006429433822632,
+                    0.7001651525497437
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what is the first book of percy jackson\n\nDocuments:\n\ndoc73864: Percy Jackson & the Olympians. Leaving his manuscript with his agent and editor for review, Riordan presented the book to a group of 6th, 7th, and 8th graders to read and critique. He gained their approval, and with their help, came up with the name of the book and created the way Percy's sword works.[8] In 2004, the book was sold to Miramax Books for enough money for Riordan to quit his job and focus on writing.[9] After it was released on 28\u00a0June 2005, it sold over 1.2\u00a0million copies. The book was released in multiple versions, including hardcover, paperback and audio editions.[10][11] It has been translated into multiple languages and published all over the world.[12]\n\ndoc73878: Percy Jackson & the Olympians. The Ultimate Guide is a companion book, second to the series, released on January 19, 2010. This book has a magnetic cover and holographic character pictures that change into four different characters. Its 156 pages include trading cards, full-color diagrams and maps.[17] It also includes a dictionary of almost every monster Percy faces in the series, with pictures beside some, as well as various activities. The book tells of Percy Jackson's starting life as a half-blood, a tour of the Underworld by Nico di\u00c2\u00a0Angelo, the story of Sally Jackson's parents, and items used throughout the series. There is also a paperback version.\n\ndoc780667: Percy Jackson (film series). Rick Riordan, the author of the book series, has mentioned in numerous interviews that he has never seen the movies, to keep them from influencing the way he views the characters.[5] During March 2016, Riordan wrote a letter asking teachers not to show the movie to students during class time.[6]\n\ndoc73861: Percy Jackson & the Olympians. Percy Jackson & the Olympians, often shortened to Percy Jackson, is a pentalogy of fantasy adventure novels written by American author Rick Riordan, and the first book series in the Camp Half-Blood Chronicles.[1] Five supplementary books, along with three graphic novels, have also been released. More than 45 million copies of the books have been sold in more than 35 countries.[2]\n\ndoc73877: Percy Jackson & the Olympians. The Demigod Files, also written by Rick Riordan, is the first companion book to the series. It was released February\u00c2\u00a010, 2009, featuring three short stories, interviews with the campers, puzzles and pictures.[15] It is set between The Battle of the Labyrinth and The Last Olympian.[16] The book received mixed reviews, with some reviewers criticizing the lack of substantial material and others commenting on the writing of the short stories. The stories are Percy Jackson and the Stolen Chariot, Percy Jackson and the Bronze Dragon, The Camper Interviews, and Percy Jackson and the Sword of Hades. At the end of the book, there are portraits on the characters of the series. [16]\n\ndoc1610001: Camp Half-Blood chronicles. Percy Jackson & the Olympians is a pentalogy of adventure and fiction books written by Rick Riordan. Set in the United States, the books are predominantly based on Greek mythology and deal with a demigod, Percy Jackson, and his quest to stop the rise of the Titan lord Kronos. All five books are seen from Percy's witty and sardonic point of view. The series tackles themes like coming of age, love and teenage angst.\n\ndoc780660: Percy Jackson (film series). Percy Jackson & the Olympians (also known as Percy Jackson) is an American feature film series loosely based on the novel series of the same name by the author Rick Riordan. The series is distributed by 20th Century Fox, produced by 1492 Pictures and currently consists of two installments. The first film, Percy Jackson & the Olympians: The Lightning Thief (2010), was directed by Chris Columbus, and was released on February 12, 2010. The second installment, Percy Jackson: Sea of Monsters (2013), was originally intended to be released in March 2013 but was instead pushed back to August 7, 2013, and was directed by Thor Freudenthal. The series has grossed nearly $430 million at the worldwide box office.\n\ndoc73880: Percy Jackson & the Olympians. Demigods and Monsters is an unofficial companion book and was released on February 11, 2009.[19] With an introduction by Riordan, it features essays written by various young adult authors that explore, discuss and provide further insight into the Percy Jackson series. At 196 pages, it also contains information on the places and characters of the series, as well as a glossary of Greek myths.[20]\n\ndoc73887: Percy Jackson & the Olympians. However studies show that overall, readers appreciated the mundane language, witty tone and aesthetic plot of the novels, as well as how it introduced Greek mythology to them.[31]\n\ndoc73865: Percy Jackson & the Olympians. The Lightning Thief is the first book in the series and was released on July 1, 2005.\n\n"
+            ],
+            "responses": [
+                "```python\n[\"doc73865\", \"doc73864\", \"doc73861\", \"doc1610001\", \"doc73877\", \"doc73878\", \"doc73880\", \"doc73887\", \"doc780660\", \"doc780667\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc73865",
+                "doc73864",
+                "doc73861",
+                "doc1610001",
+                "doc73877",
+                "doc73878",
+                "doc73880",
+                "doc73887",
+                "doc780660",
+                "doc780667"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "what is the first book of percy jackson"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc73864",
+                    "doc73878",
+                    "doc780667",
+                    "doc73861",
+                    "doc73877",
+                    "doc1610001",
+                    "doc780660",
+                    "doc73880",
+                    "doc73887",
+                    "doc73865"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7651573419570923,
+                    0.7311161160469055,
+                    0.7225711941719055,
+                    0.7208759784698486,
+                    0.71351158618927,
+                    0.7116286754608154,
+                    0.703362762928009,
+                    0.7027202844619751,
+                    0.7006429433822632,
+                    0.7001651525497437
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what is the first book of percy jackson\n\nDocuments:\n\ndoc73864: Percy Jackson & the Olympians. Leaving his manuscript with his agent and editor for review, Riordan presented the book to a group of 6th, 7th, and 8th graders to read and critique. He gained their approval, and with their help, came up with the name of the book and created the way Percy's sword works.[8] In 2004, the book was sold to Miramax Books for enough money for Riordan to quit his job and focus on writing.[9] After it was released on 28\u00a0June 2005, it sold over 1.2\u00a0million copies. The book was released in multiple versions, including hardcover, paperback and audio editions.[10][11] It has been translated into multiple languages and published all over the world.[12]\n\ndoc73878: Percy Jackson & the Olympians. The Ultimate Guide is a companion book, second to the series, released on January 19, 2010. This book has a magnetic cover and holographic character pictures that change into four different characters. Its 156 pages include trading cards, full-color diagrams and maps.[17] It also includes a dictionary of almost every monster Percy faces in the series, with pictures beside some, as well as various activities. The book tells of Percy Jackson's starting life as a half-blood, a tour of the Underworld by Nico di\u00c2\u00a0Angelo, the story of Sally Jackson's parents, and items used throughout the series. There is also a paperback version.\n\ndoc780667: Percy Jackson (film series). Rick Riordan, the author of the book series, has mentioned in numerous interviews that he has never seen the movies, to keep them from influencing the way he views the characters.[5] During March 2016, Riordan wrote a letter asking teachers not to show the movie to students during class time.[6]\n\ndoc73861: Percy Jackson & the Olympians. Percy Jackson & the Olympians, often shortened to Percy Jackson, is a pentalogy of fantasy adventure novels written by American author Rick Riordan, and the first book series in the Camp Half-Blood Chronicles.[1] Five supplementary books, along with three graphic novels, have also been released. More than 45 million copies of the books have been sold in more than 35 countries.[2]\n\ndoc73877: Percy Jackson & the Olympians. The Demigod Files, also written by Rick Riordan, is the first companion book to the series. It was released February\u00c2\u00a010, 2009, featuring three short stories, interviews with the campers, puzzles and pictures.[15] It is set between The Battle of the Labyrinth and The Last Olympian.[16] The book received mixed reviews, with some reviewers criticizing the lack of substantial material and others commenting on the writing of the short stories. The stories are Percy Jackson and the Stolen Chariot, Percy Jackson and the Bronze Dragon, The Camper Interviews, and Percy Jackson and the Sword of Hades. At the end of the book, there are portraits on the characters of the series. [16]\n\ndoc1610001: Camp Half-Blood chronicles. Percy Jackson & the Olympians is a pentalogy of adventure and fiction books written by Rick Riordan. Set in the United States, the books are predominantly based on Greek mythology and deal with a demigod, Percy Jackson, and his quest to stop the rise of the Titan lord Kronos. All five books are seen from Percy's witty and sardonic point of view. The series tackles themes like coming of age, love and teenage angst.\n\ndoc780660: Percy Jackson (film series). Percy Jackson & the Olympians (also known as Percy Jackson) is an American feature film series loosely based on the novel series of the same name by the author Rick Riordan. The series is distributed by 20th Century Fox, produced by 1492 Pictures and currently consists of two installments. The first film, Percy Jackson & the Olympians: The Lightning Thief (2010), was directed by Chris Columbus, and was released on February 12, 2010. The second installment, Percy Jackson: Sea of Monsters (2013), was originally intended to be released in March 2013 but was instead pushed back to August 7, 2013, and was directed by Thor Freudenthal. The series has grossed nearly $430 million at the worldwide box office.\n\ndoc73880: Percy Jackson & the Olympians. Demigods and Monsters is an unofficial companion book and was released on February 11, 2009.[19] With an introduction by Riordan, it features essays written by various young adult authors that explore, discuss and provide further insight into the Percy Jackson series. At 196 pages, it also contains information on the places and characters of the series, as well as a glossary of Greek myths.[20]\n\ndoc73887: Percy Jackson & the Olympians. However studies show that overall, readers appreciated the mundane language, witty tone and aesthetic plot of the novels, as well as how it introduced Greek mythology to them.[31]\n\ndoc73865: Percy Jackson & the Olympians. The Lightning Thief is the first book in the series and was released on July 1, 2005.\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: what is the first book of percy jackson\n\nDocuments:\n\ndoc73865: Percy Jackson & the Olympians. The Lightning Thief is the first book in the series and was released on July 1, 2005.\n\ndoc73864: Percy Jackson & the Olympians. Leaving his manuscript with his agent and editor for review, Riordan presented the book to a group of 6th, 7th, and 8th graders to read and critique. He gained their approval, and with their help, came up with the name of the book and created the way Percy's sword works.[8] In 2004, the book was sold to Miramax Books for enough money for Riordan to quit his job and focus on writing.[9] After it was released on 28\u00a0June 2005, it sold over 1.2\u00a0million copies. The book was released in multiple versions, including hardcover, paperback and audio editions.[10][11] It has been translated into multiple languages and published all over the world.[12]\n\ndoc73861: Percy Jackson & the Olympians. Percy Jackson & the Olympians, often shortened to Percy Jackson, is a pentalogy of fantasy adventure novels written by American author Rick Riordan, and the first book series in the Camp Half-Blood Chronicles.[1] Five supplementary books, along with three graphic novels, have also been released. More than 45 million copies of the books have been sold in more than 35 countries.[2]\n\ndoc1610001: Camp Half-Blood chronicles. Percy Jackson & the Olympians is a pentalogy of adventure and fiction books written by Rick Riordan. Set in the United States, the books are predominantly based on Greek mythology and deal with a demigod, Percy Jackson, and his quest to stop the rise of the Titan lord Kronos. All five books are seen from Percy's witty and sardonic point of view. The series tackles themes like coming of age, love and teenage angst.\n\ndoc73877: Percy Jackson & the Olympians. The Demigod Files, also written by Rick Riordan, is the first companion book to the series. It was released February\u00c2\u00a010, 2009, featuring three short stories, interviews with the campers, puzzles and pictures.[15] It is set between The Battle of the Labyrinth and The Last Olympian.[16] The book received mixed reviews, with some reviewers criticizing the lack of substantial material and others commenting on the writing of the short stories. The stories are Percy Jackson and the Stolen Chariot, Percy Jackson and the Bronze Dragon, The Camper Interviews, and Percy Jackson and the Sword of Hades. At the end of the book, there are portraits on the characters of the series. [16]\n\ndoc73878: Percy Jackson & the Olympians. The Ultimate Guide is a companion book, second to the series, released on January 19, 2010. This book has a magnetic cover and holographic character pictures that change into four different characters. Its 156 pages include trading cards, full-color diagrams and maps.[17] It also includes a dictionary of almost every monster Percy faces in the series, with pictures beside some, as well as various activities. The book tells of Percy Jackson's starting life as a half-blood, a tour of the Underworld by Nico di\u00c2\u00a0Angelo, the story of Sally Jackson's parents, and items used throughout the series. There is also a paperback version.\n\ndoc73880: Percy Jackson & the Olympians. Demigods and Monsters is an unofficial companion book and was released on February 11, 2009.[19] With an introduction by Riordan, it features essays written by various young adult authors that explore, discuss and provide further insight into the Percy Jackson series. At 196 pages, it also contains information on the places and characters of the series, as well as a glossary of Greek myths.[20]\n\ndoc73887: Percy Jackson & the Olympians. However studies show that overall, readers appreciated the mundane language, witty tone and aesthetic plot of the novels, as well as how it introduced Greek mythology to them.[31]\n\ndoc780660: Percy Jackson (film series). Percy Jackson & the Olympians (also known as Percy Jackson) is an American feature film series loosely based on the novel series of the same name by the author Rick Riordan. The series is distributed by 20th Century Fox, produced by 1492 Pictures and currently consists of two installments. The first film, Percy Jackson & the Olympians: The Lightning Thief (2010), was directed by Chris Columbus, and was released on February 12, 2010. The second installment, Percy Jackson: Sea of Monsters (2013), was originally intended to be released in March 2013 but was instead pushed back to August 7, 2013, and was directed by Thor Freudenthal. The series has grossed nearly $430 million at the worldwide box office.\n\ndoc780667: Percy Jackson (film series). Rick Riordan, the author of the book series, has mentioned in numerous interviews that he has never seen the movies, to keep them from influencing the way he views the characters.[5] During March 2016, Riordan wrote a letter asking teachers not to show the movie to students during class time.[6]\n\n"
+            ],
+            "responses": [
+                "```python\n[\"doc73865\", \"doc73864\", \"doc73861\", \"doc1610001\", \"doc73877\", \"doc73878\", \"doc73880\", \"doc73887\", \"doc780660\", \"doc780667\"]\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc73865",
+                "doc73864",
+                "doc73861",
+                "doc1610001",
+                "doc73877",
+                "doc73878",
+                "doc73880",
+                "doc73887",
+                "doc780660",
+                "doc780667"
+            ],
+            "terminate": true
+        }
+    ]
+}

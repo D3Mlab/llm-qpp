@@ -23,7 +23,7 @@ class BaseLLM(ABC):
         self.model_name = model_name
 
         llm_config = self.config.get('llm', {})
-        self.dwell_time = llm_config.get('dwell_time', 60) 
+        self.dwell_time = llm_config.get('dwell_time', 5) 
         self.num_retries = llm_config.get('num_retries', 10)
         
     def prompt(self, *args, **kwargs):

@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "what is the main issue behind starlink corn"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc63826",
+            "doc63827",
+            "doc63825",
+            "doc63823",
+            "doc63828",
+            "doc63835",
+            "doc63831",
+            "doc1902253",
+            "doc63824",
+            "doc63836"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7463846206665039,
+            0.7363244295120239,
+            0.727814793586731,
+            0.7236521244049072,
+            0.7195603847503662,
+            0.7149340510368347,
+            0.7038173079490662,
+            0.6868820190429688,
+            0.6850358843803406,
+            0.6850261092185974
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what is the main issue behind starlink corn\n\nDocuments:\n\ndoc63826: StarLink corn recall. Following the recalls, 51 people reported adverse effects to the FDA; these reports were reviewed by the US Centers for Disease Control (CDC), which determined that 28 of them were possibly related to StarLink.[32] The CDC studied the blood of these 28 individuals and concluded there was no evidence the reactions these people experienced were associated with hypersensitivity to the StarLink Bt protein.[33]\n\ndoc63827: StarLink corn recall. The EPA was criticized by Joseph Mendelson III of the Center for Food Safety, who said \"Clearly they didn't do anything here until they became embarrassed.\"[34] The EPA and Aventis were also criticized for statements at the time of the recall that indicated they had no idea such a thing would happen.[35] \"If there has been a violation of our licensing process, then we would have a very great concern,\" was attributed to Stephen Johnson of the EPA. Margaret Gadsby of Aventis was quoted with her earlier statement \"We have difficulty imagining how our corn could end up in the human food supply.\"\n\ndoc63825: StarLink corn recall. It was estimated that due to grain mixing StarLink corn could have existed in more than 50% of the US corn supply[2] and that overall, the StarLink incident depressed the price of US corn about 7% for about a year.[31]:533\n\ndoc63823: StarLink corn recall. On October 26, 2000 StarLink corn was reported to be found in Japan and South Korea.[4]:20\u00e2\u20ac\u201c21 The market and distribution network for corn in the US was thrown into disarray through 2001, as there were no existing means to segregate the grain;[23][24] the disarray eventually eased due to the Aventis' testing and buyback program discussed below.[25]\n\ndoc63828: StarLink corn recall. The registration for the StarLink varieties was voluntarily withdrawn by Aventis in October 2000.[36]:7 In February 2001, it was announced that the president, general counsel, and vice president of market development for Aventis CropScience (US), had been fired in response to the recall.[37]\n\ndoc63835: StarLink corn recall. The US corn supply was monitored by the Federal Grain Inspection Service for the presence of the StarLink Bt proteins from 2001 until 2010.[45][46]\n\ndoc63831: StarLink corn recall. In 2002, Aventis, Garst, Kraft Foods, Azteca Foods, Azteca Milling, and Mission Foods settled a lawsuit brought by two people, and the grandmother of a third, who claimed to have had allergic reactions to StarLink, for $9 million.[41]\n\ndoc1902253: Genetically modified maize. StarLink corn was subsequently found in food destined for consumption by humans in the US, Japan, and South Korea.[99]:20\u201321 This corn became the subject of the widely publicized Starlink corn recall, which started when Taco Bell-branded taco shells sold in supermarkets were found to contain the corn. Sales of StarLink seed were discontinued.[102][103] The registration for Starlink varieties was voluntarily withdrawn by Aventis in October 2000. (Pioneer had been bought by AgrEvo which then became Aventis CropScience at the time of the incident,[99]:15\u201316 which was later bought by Bayer[104]\n\ndoc63824: StarLink corn recall. In January 2001 under a written agreement with 17 US states,[26] Aventis initiated a program called the StarLink Enhanced Stewardship (SES) program, under which StarLink corn, buffer corn, and any corn stored in grain elevators that had become mixed with StarLink, would be bought by Aventis and directed to animal feed and non-food industrial use (e.g. ethanol production); the program included free kits to test for StarLink, and covered costs of cleaning equipment, transport, and storage facilities, as well as increased transportation costs.[27]:193\u00e2\u20ac\u201c95 Aventis estimated the cost would be between $100 million to $1 billion.[28][29][30]\n\ndoc63836: StarLink corn recall. In August 2013, StarLink corn was reported to be found again contaminating some foods in Saudi Arabia.[47]\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: what is the main issue behind starlink corn\n\nDocuments:\n\ndoc1902253: Genetically modified maize. StarLink corn was subsequently found in food destined for consumption by humans in the US, Japan, and South Korea.[99]:20\u201321 This corn became the subject of the widely publicized Starlink corn recall, which started when Taco Bell-branded taco shells sold in supermarkets were found to contain the corn. Sales of StarLink seed were discontinued.[102][103] The registration for Starlink varieties was voluntarily withdrawn by Aventis in October 2000. (Pioneer had been bought by AgrEvo which then became Aventis CropScience at the time of the incident,[99]:15\u201316 which was later bought by Bayer[104]\n\ndoc63826: StarLink corn recall. Following the recalls, 51 people reported adverse effects to the FDA; these reports were reviewed by the US Centers for Disease Control (CDC), which determined that 28 of them were possibly related to StarLink.[32] The CDC studied the blood of these 28 individuals and concluded there was no evidence the reactions these people experienced were associated with hypersensitivity to the StarLink Bt protein.[33]\n\ndoc63827: StarLink corn recall. The EPA was criticized by Joseph Mendelson III of the Center for Food Safety, who said \"Clearly they didn't do anything here until they became embarrassed.\"[34] The EPA and Aventis were also criticized for statements at the time of the recall that indicated they had no idea such a thing would happen.[35] \"If there has been a violation of our licensing process, then we would have a very great concern,\" was attributed to Stephen Johnson of the EPA. Margaret Gadsby of Aventis was quoted with her earlier statement \"We have difficulty imagining how our corn could end up in the human food supply.\"\n\ndoc63825: StarLink corn recall. It was estimated that due to grain mixing StarLink corn could have existed in more than 50% of the US corn supply[2] and that overall, the StarLink incident depressed the price of US corn about 7% for about a year.[31]:533\n\ndoc63823: StarLink corn recall. On October 26, 2000 StarLink corn was reported to be found in Japan and South Korea.[4]:20\u00e2\u20ac\u201c21 The market and distribution network for corn in the US was thrown into disarray through 2001, as there were no existing means to segregate the grain;[23][24] the disarray eventually eased due to the Aventis' testing and buyback program discussed below.[25]\n\ndoc63828: StarLink corn recall. The registration for the StarLink varieties was voluntarily withdrawn by Aventis in October 2000.[36]:7 In February 2001, it was announced that the president, general counsel, and vice president of market development for Aventis CropScience (US), had been fired in response to the recall.[37]\n\ndoc63831: StarLink corn recall. In 2002, Aventis, Garst, Kraft Foods, Azteca Foods, Azteca Milling, and Mission Foods settled a lawsuit brought by two people, and the grandmother of a third, who claimed to have had allergic reactions to StarLink, for $9 million.[41]\n\ndoc63824: StarLink corn recall. In January 2001 under a written agreement with 17 US states,[26] Aventis initiated a program called the StarLink Enhanced Stewardship (SES) program, under which StarLink corn, buffer corn, and any corn stored in grain elevators that had become mixed with StarLink, would be bought by Aventis and directed to animal feed and non-food industrial use (e.g. ethanol production); the program included free kits to test for StarLink, and covered costs of cleaning equipment, transport, and storage facilities, as well as increased transportation costs.[27]:193\u00e2\u20ac\u201c95 Aventis estimated the cost would be between $100 million to $1 billion.[28][29][30]\n\ndoc63835: StarLink corn recall. The US corn supply was monitored by the Federal Grain Inspection Service for the presence of the StarLink Bt proteins from 2001 until 2010.[45][46]\n\ndoc63836: StarLink corn recall. In August 2013, StarLink corn was reported to be found again contaminating some foods in Saudi Arabia.[47]\n\n"
+    ],
+    "responses": [
+        "```python\n[\"doc1902253\", \"doc63826\", \"doc63827\", \"doc63825\", \"doc63823\", \"doc63828\", \"doc63831\", \"doc63824\", \"doc63835\", \"doc63836\"]\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc1902253",
+        "doc63826",
+        "doc63827",
+        "doc63825",
+        "doc63823",
+        "doc63828",
+        "doc63831",
+        "doc63824",
+        "doc63835",
+        "doc63836"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "what is the main issue behind starlink corn"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "what is the main issue behind starlink corn"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc63826",
+                    "doc63827",
+                    "doc63825",
+                    "doc63823",
+                    "doc63828",
+                    "doc63835",
+                    "doc63831",
+                    "doc1902253",
+                    "doc63824",
+                    "doc63836"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7463846206665039,
+                    0.7363244295120239,
+                    0.727814793586731,
+                    0.7236521244049072,
+                    0.7195603847503662,
+                    0.7149340510368347,
+                    0.7038173079490662,
+                    0.6868820190429688,
+                    0.6850358843803406,
+                    0.6850261092185974
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "what is the main issue behind starlink corn"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc63826",
+                    "doc63827",
+                    "doc63825",
+                    "doc63823",
+                    "doc63828",
+                    "doc63835",
+                    "doc63831",
+                    "doc1902253",
+                    "doc63824",
+                    "doc63836"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7463846206665039,
+                    0.7363244295120239,
+                    0.727814793586731,
+                    0.7236521244049072,
+                    0.7195603847503662,
+                    0.7149340510368347,
+                    0.7038173079490662,
+                    0.6868820190429688,
+                    0.6850358843803406,
+                    0.6850261092185974
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what is the main issue behind starlink corn\n\nDocuments:\n\ndoc63826: StarLink corn recall. Following the recalls, 51 people reported adverse effects to the FDA; these reports were reviewed by the US Centers for Disease Control (CDC), which determined that 28 of them were possibly related to StarLink.[32] The CDC studied the blood of these 28 individuals and concluded there was no evidence the reactions these people experienced were associated with hypersensitivity to the StarLink Bt protein.[33]\n\ndoc63827: StarLink corn recall. The EPA was criticized by Joseph Mendelson III of the Center for Food Safety, who said \"Clearly they didn't do anything here until they became embarrassed.\"[34] The EPA and Aventis were also criticized for statements at the time of the recall that indicated they had no idea such a thing would happen.[35] \"If there has been a violation of our licensing process, then we would have a very great concern,\" was attributed to Stephen Johnson of the EPA. Margaret Gadsby of Aventis was quoted with her earlier statement \"We have difficulty imagining how our corn could end up in the human food supply.\"\n\ndoc63825: StarLink corn recall. It was estimated that due to grain mixing StarLink corn could have existed in more than 50% of the US corn supply[2] and that overall, the StarLink incident depressed the price of US corn about 7% for about a year.[31]:533\n\ndoc63823: StarLink corn recall. On October 26, 2000 StarLink corn was reported to be found in Japan and South Korea.[4]:20\u00e2\u20ac\u201c21 The market and distribution network for corn in the US was thrown into disarray through 2001, as there were no existing means to segregate the grain;[23][24] the disarray eventually eased due to the Aventis' testing and buyback program discussed below.[25]\n\ndoc63828: StarLink corn recall. The registration for the StarLink varieties was voluntarily withdrawn by Aventis in October 2000.[36]:7 In February 2001, it was announced that the president, general counsel, and vice president of market development for Aventis CropScience (US), had been fired in response to the recall.[37]\n\ndoc63835: StarLink corn recall. The US corn supply was monitored by the Federal Grain Inspection Service for the presence of the StarLink Bt proteins from 2001 until 2010.[45][46]\n\ndoc63831: StarLink corn recall. In 2002, Aventis, Garst, Kraft Foods, Azteca Foods, Azteca Milling, and Mission Foods settled a lawsuit brought by two people, and the grandmother of a third, who claimed to have had allergic reactions to StarLink, for $9 million.[41]\n\ndoc1902253: Genetically modified maize. StarLink corn was subsequently found in food destined for consumption by humans in the US, Japan, and South Korea.[99]:20\u201321 This corn became the subject of the widely publicized Starlink corn recall, which started when Taco Bell-branded taco shells sold in supermarkets were found to contain the corn. Sales of StarLink seed were discontinued.[102][103] The registration for Starlink varieties was voluntarily withdrawn by Aventis in October 2000. (Pioneer had been bought by AgrEvo which then became Aventis CropScience at the time of the incident,[99]:15\u201316 which was later bought by Bayer[104]\n\ndoc63824: StarLink corn recall. In January 2001 under a written agreement with 17 US states,[26] Aventis initiated a program called the StarLink Enhanced Stewardship (SES) program, under which StarLink corn, buffer corn, and any corn stored in grain elevators that had become mixed with StarLink, would be bought by Aventis and directed to animal feed and non-food industrial use (e.g. ethanol production); the program included free kits to test for StarLink, and covered costs of cleaning equipment, transport, and storage facilities, as well as increased transportation costs.[27]:193\u00e2\u20ac\u201c95 Aventis estimated the cost would be between $100 million to $1 billion.[28][29][30]\n\ndoc63836: StarLink corn recall. In August 2013, StarLink corn was reported to be found again contaminating some foods in Saudi Arabia.[47]\n\n"
+            ],
+            "responses": [
+                "```python\n[\"doc1902253\", \"doc63826\", \"doc63827\", \"doc63825\", \"doc63823\", \"doc63828\", \"doc63831\", \"doc63824\", \"doc63835\", \"doc63836\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc1902253",
+                "doc63826",
+                "doc63827",
+                "doc63825",
+                "doc63823",
+                "doc63828",
+                "doc63831",
+                "doc63824",
+                "doc63835",
+                "doc63836"
+            ]
+        },
+        {
+            "queries": [
+                "what is the main issue behind starlink corn"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc63826",
+                    "doc63827",
+                    "doc63825",
+                    "doc63823",
+                    "doc63828",
+                    "doc63835",
+                    "doc63831",
+                    "doc1902253",
+                    "doc63824",
+                    "doc63836"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7463846206665039,
+                    0.7363244295120239,
+                    0.727814793586731,
+                    0.7236521244049072,
+                    0.7195603847503662,
+                    0.7149340510368347,
+                    0.7038173079490662,
+                    0.6868820190429688,
+                    0.6850358843803406,
+                    0.6850261092185974
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what is the main issue behind starlink corn\n\nDocuments:\n\ndoc63826: StarLink corn recall. Following the recalls, 51 people reported adverse effects to the FDA; these reports were reviewed by the US Centers for Disease Control (CDC), which determined that 28 of them were possibly related to StarLink.[32] The CDC studied the blood of these 28 individuals and concluded there was no evidence the reactions these people experienced were associated with hypersensitivity to the StarLink Bt protein.[33]\n\ndoc63827: StarLink corn recall. The EPA was criticized by Joseph Mendelson III of the Center for Food Safety, who said \"Clearly they didn't do anything here until they became embarrassed.\"[34] The EPA and Aventis were also criticized for statements at the time of the recall that indicated they had no idea such a thing would happen.[35] \"If there has been a violation of our licensing process, then we would have a very great concern,\" was attributed to Stephen Johnson of the EPA. Margaret Gadsby of Aventis was quoted with her earlier statement \"We have difficulty imagining how our corn could end up in the human food supply.\"\n\ndoc63825: StarLink corn recall. It was estimated that due to grain mixing StarLink corn could have existed in more than 50% of the US corn supply[2] and that overall, the StarLink incident depressed the price of US corn about 7% for about a year.[31]:533\n\ndoc63823: StarLink corn recall. On October 26, 2000 StarLink corn was reported to be found in Japan and South Korea.[4]:20\u00e2\u20ac\u201c21 The market and distribution network for corn in the US was thrown into disarray through 2001, as there were no existing means to segregate the grain;[23][24] the disarray eventually eased due to the Aventis' testing and buyback program discussed below.[25]\n\ndoc63828: StarLink corn recall. The registration for the StarLink varieties was voluntarily withdrawn by Aventis in October 2000.[36]:7 In February 2001, it was announced that the president, general counsel, and vice president of market development for Aventis CropScience (US), had been fired in response to the recall.[37]\n\ndoc63835: StarLink corn recall. The US corn supply was monitored by the Federal Grain Inspection Service for the presence of the StarLink Bt proteins from 2001 until 2010.[45][46]\n\ndoc63831: StarLink corn recall. In 2002, Aventis, Garst, Kraft Foods, Azteca Foods, Azteca Milling, and Mission Foods settled a lawsuit brought by two people, and the grandmother of a third, who claimed to have had allergic reactions to StarLink, for $9 million.[41]\n\ndoc1902253: Genetically modified maize. StarLink corn was subsequently found in food destined for consumption by humans in the US, Japan, and South Korea.[99]:20\u201321 This corn became the subject of the widely publicized Starlink corn recall, which started when Taco Bell-branded taco shells sold in supermarkets were found to contain the corn. Sales of StarLink seed were discontinued.[102][103] The registration for Starlink varieties was voluntarily withdrawn by Aventis in October 2000. (Pioneer had been bought by AgrEvo which then became Aventis CropScience at the time of the incident,[99]:15\u201316 which was later bought by Bayer[104]\n\ndoc63824: StarLink corn recall. In January 2001 under a written agreement with 17 US states,[26] Aventis initiated a program called the StarLink Enhanced Stewardship (SES) program, under which StarLink corn, buffer corn, and any corn stored in grain elevators that had become mixed with StarLink, would be bought by Aventis and directed to animal feed and non-food industrial use (e.g. ethanol production); the program included free kits to test for StarLink, and covered costs of cleaning equipment, transport, and storage facilities, as well as increased transportation costs.[27]:193\u00e2\u20ac\u201c95 Aventis estimated the cost would be between $100 million to $1 billion.[28][29][30]\n\ndoc63836: StarLink corn recall. In August 2013, StarLink corn was reported to be found again contaminating some foods in Saudi Arabia.[47]\n\n"
+            ],
+            "responses": [
+                "```python\n[\"doc1902253\", \"doc63826\", \"doc63827\", \"doc63825\", \"doc63823\", \"doc63828\", \"doc63831\", \"doc63824\", \"doc63835\", \"doc63836\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc1902253",
+                "doc63826",
+                "doc63827",
+                "doc63825",
+                "doc63823",
+                "doc63828",
+                "doc63831",
+                "doc63824",
+                "doc63835",
+                "doc63836"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "what is the main issue behind starlink corn"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc63826",
+                    "doc63827",
+                    "doc63825",
+                    "doc63823",
+                    "doc63828",
+                    "doc63835",
+                    "doc63831",
+                    "doc1902253",
+                    "doc63824",
+                    "doc63836"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7463846206665039,
+                    0.7363244295120239,
+                    0.727814793586731,
+                    0.7236521244049072,
+                    0.7195603847503662,
+                    0.7149340510368347,
+                    0.7038173079490662,
+                    0.6868820190429688,
+                    0.6850358843803406,
+                    0.6850261092185974
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what is the main issue behind starlink corn\n\nDocuments:\n\ndoc63826: StarLink corn recall. Following the recalls, 51 people reported adverse effects to the FDA; these reports were reviewed by the US Centers for Disease Control (CDC), which determined that 28 of them were possibly related to StarLink.[32] The CDC studied the blood of these 28 individuals and concluded there was no evidence the reactions these people experienced were associated with hypersensitivity to the StarLink Bt protein.[33]\n\ndoc63827: StarLink corn recall. The EPA was criticized by Joseph Mendelson III of the Center for Food Safety, who said \"Clearly they didn't do anything here until they became embarrassed.\"[34] The EPA and Aventis were also criticized for statements at the time of the recall that indicated they had no idea such a thing would happen.[35] \"If there has been a violation of our licensing process, then we would have a very great concern,\" was attributed to Stephen Johnson of the EPA. Margaret Gadsby of Aventis was quoted with her earlier statement \"We have difficulty imagining how our corn could end up in the human food supply.\"\n\ndoc63825: StarLink corn recall. It was estimated that due to grain mixing StarLink corn could have existed in more than 50% of the US corn supply[2] and that overall, the StarLink incident depressed the price of US corn about 7% for about a year.[31]:533\n\ndoc63823: StarLink corn recall. On October 26, 2000 StarLink corn was reported to be found in Japan and South Korea.[4]:20\u00e2\u20ac\u201c21 The market and distribution network for corn in the US was thrown into disarray through 2001, as there were no existing means to segregate the grain;[23][24] the disarray eventually eased due to the Aventis' testing and buyback program discussed below.[25]\n\ndoc63828: StarLink corn recall. The registration for the StarLink varieties was voluntarily withdrawn by Aventis in October 2000.[36]:7 In February 2001, it was announced that the president, general counsel, and vice president of market development for Aventis CropScience (US), had been fired in response to the recall.[37]\n\ndoc63835: StarLink corn recall. The US corn supply was monitored by the Federal Grain Inspection Service for the presence of the StarLink Bt proteins from 2001 until 2010.[45][46]\n\ndoc63831: StarLink corn recall. In 2002, Aventis, Garst, Kraft Foods, Azteca Foods, Azteca Milling, and Mission Foods settled a lawsuit brought by two people, and the grandmother of a third, who claimed to have had allergic reactions to StarLink, for $9 million.[41]\n\ndoc1902253: Genetically modified maize. StarLink corn was subsequently found in food destined for consumption by humans in the US, Japan, and South Korea.[99]:20\u201321 This corn became the subject of the widely publicized Starlink corn recall, which started when Taco Bell-branded taco shells sold in supermarkets were found to contain the corn. Sales of StarLink seed were discontinued.[102][103] The registration for Starlink varieties was voluntarily withdrawn by Aventis in October 2000. (Pioneer had been bought by AgrEvo which then became Aventis CropScience at the time of the incident,[99]:15\u201316 which was later bought by Bayer[104]\n\ndoc63824: StarLink corn recall. In January 2001 under a written agreement with 17 US states,[26] Aventis initiated a program called the StarLink Enhanced Stewardship (SES) program, under which StarLink corn, buffer corn, and any corn stored in grain elevators that had become mixed with StarLink, would be bought by Aventis and directed to animal feed and non-food industrial use (e.g. ethanol production); the program included free kits to test for StarLink, and covered costs of cleaning equipment, transport, and storage facilities, as well as increased transportation costs.[27]:193\u00e2\u20ac\u201c95 Aventis estimated the cost would be between $100 million to $1 billion.[28][29][30]\n\ndoc63836: StarLink corn recall. In August 2013, StarLink corn was reported to be found again contaminating some foods in Saudi Arabia.[47]\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: what is the main issue behind starlink corn\n\nDocuments:\n\ndoc1902253: Genetically modified maize. StarLink corn was subsequently found in food destined for consumption by humans in the US, Japan, and South Korea.[99]:20\u201321 This corn became the subject of the widely publicized Starlink corn recall, which started when Taco Bell-branded taco shells sold in supermarkets were found to contain the corn. Sales of StarLink seed were discontinued.[102][103] The registration for Starlink varieties was voluntarily withdrawn by Aventis in October 2000. (Pioneer had been bought by AgrEvo which then became Aventis CropScience at the time of the incident,[99]:15\u201316 which was later bought by Bayer[104]\n\ndoc63826: StarLink corn recall. Following the recalls, 51 people reported adverse effects to the FDA; these reports were reviewed by the US Centers for Disease Control (CDC), which determined that 28 of them were possibly related to StarLink.[32] The CDC studied the blood of these 28 individuals and concluded there was no evidence the reactions these people experienced were associated with hypersensitivity to the StarLink Bt protein.[33]\n\ndoc63827: StarLink corn recall. The EPA was criticized by Joseph Mendelson III of the Center for Food Safety, who said \"Clearly they didn't do anything here until they became embarrassed.\"[34] The EPA and Aventis were also criticized for statements at the time of the recall that indicated they had no idea such a thing would happen.[35] \"If there has been a violation of our licensing process, then we would have a very great concern,\" was attributed to Stephen Johnson of the EPA. Margaret Gadsby of Aventis was quoted with her earlier statement \"We have difficulty imagining how our corn could end up in the human food supply.\"\n\ndoc63825: StarLink corn recall. It was estimated that due to grain mixing StarLink corn could have existed in more than 50% of the US corn supply[2] and that overall, the StarLink incident depressed the price of US corn about 7% for about a year.[31]:533\n\ndoc63823: StarLink corn recall. On October 26, 2000 StarLink corn was reported to be found in Japan and South Korea.[4]:20\u00e2\u20ac\u201c21 The market and distribution network for corn in the US was thrown into disarray through 2001, as there were no existing means to segregate the grain;[23][24] the disarray eventually eased due to the Aventis' testing and buyback program discussed below.[25]\n\ndoc63828: StarLink corn recall. The registration for the StarLink varieties was voluntarily withdrawn by Aventis in October 2000.[36]:7 In February 2001, it was announced that the president, general counsel, and vice president of market development for Aventis CropScience (US), had been fired in response to the recall.[37]\n\ndoc63831: StarLink corn recall. In 2002, Aventis, Garst, Kraft Foods, Azteca Foods, Azteca Milling, and Mission Foods settled a lawsuit brought by two people, and the grandmother of a third, who claimed to have had allergic reactions to StarLink, for $9 million.[41]\n\ndoc63824: StarLink corn recall. In January 2001 under a written agreement with 17 US states,[26] Aventis initiated a program called the StarLink Enhanced Stewardship (SES) program, under which StarLink corn, buffer corn, and any corn stored in grain elevators that had become mixed with StarLink, would be bought by Aventis and directed to animal feed and non-food industrial use (e.g. ethanol production); the program included free kits to test for StarLink, and covered costs of cleaning equipment, transport, and storage facilities, as well as increased transportation costs.[27]:193\u00e2\u20ac\u201c95 Aventis estimated the cost would be between $100 million to $1 billion.[28][29][30]\n\ndoc63835: StarLink corn recall. The US corn supply was monitored by the Federal Grain Inspection Service for the presence of the StarLink Bt proteins from 2001 until 2010.[45][46]\n\ndoc63836: StarLink corn recall. In August 2013, StarLink corn was reported to be found again contaminating some foods in Saudi Arabia.[47]\n\n"
+            ],
+            "responses": [
+                "```python\n[\"doc1902253\", \"doc63826\", \"doc63827\", \"doc63825\", \"doc63823\", \"doc63828\", \"doc63831\", \"doc63824\", \"doc63835\", \"doc63836\"]\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc1902253",
+                "doc63826",
+                "doc63827",
+                "doc63825",
+                "doc63823",
+                "doc63828",
+                "doc63831",
+                "doc63824",
+                "doc63835",
+                "doc63836"
+            ],
+            "terminate": true
+        }
+    ]
+}

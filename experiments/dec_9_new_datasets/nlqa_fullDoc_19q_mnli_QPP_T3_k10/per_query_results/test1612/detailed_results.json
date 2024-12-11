@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "what was the purpose of a revival meeting during the second great awakening"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc57092",
+            "doc57100",
+            "doc1161037",
+            "doc1662041",
+            "doc57091",
+            "doc57093",
+            "doc1752042",
+            "doc182388",
+            "doc1677144",
+            "doc57107"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.7717389464378357,
+            0.7649662494659424,
+            0.7591509819030762,
+            0.7510119080543518,
+            0.7400010824203491,
+            0.7384242415428162,
+            0.7342184782028198,
+            0.7336164712905884,
+            0.7215679883956909,
+            0.714409351348877
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what was the purpose of a revival meeting during the second great awakening\n\nDocuments:\n\ndoc57092: Second Great Awakening. The revivals enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations. Many converts believed that the Awakening heralded a new millennial age. The Second Great Awakening stimulated the establishment of many reform movements designed to remedy the evils of society before the anticipated Second Coming of Jesus Christ.[1]\n\ndoc57100: Second Great Awakening. In the newly settled frontier regions, the revival was implemented through camp meetings. These often provided the first encounter for some settlers with organized religion, and they were important as social venues. The camp meeting was a religious service of several days' length with preachers. Settlers in thinly populated areas gathered at the camp meeting for fellowship as well as worship. The sheer exhilaration of participating in a religious revival with crowds of hundreds and perhaps thousands of people inspired the dancing, shouting, and singing associated with these events. The revivals followed an arc of great emotional power, with an emphasis of the individual's sins and need to turn to Christ, restored by a sense of personal salvation. Upon their return home, most converts joined or created small local churches, which grew rapidly.[14] The Second Great Awakening marked a religious transition in society in America. Many Americans from the Calvinist sect emphasized man's inability to save themselves and that their only way to be saved was from grace from God.[15]\n\ndoc1161037: Camp meeting. [5] Revivalism had been a significant force in religion since the 1740s and the First Great Awakening, but in the days of the camp meeting, \"revivalism became the dominant religious culture.\"[2] These sorts of meetings contributed greatly to what became known as the Second Great Awakening. A particularly large and successful revival was held at Cane Ridge, Kentucky in 1801, led by some ministers later active in what became the Restoration Movement. Some scholars suggest that this was the pioneering event in the history of frontier camp meetings in America.[2] What made camp meetings successful and multiply quite rapidly \"were their emphases upon revivalism and morality, de-emphasis upon formal theology, clergy sharing the worldview of the frontier dwellers, and respect for common people.[2]\n\ndoc1662041: History of Protestantism. The \"Second Great Awakening\" (1790-1840s) was the second great religious revival in United States history and, unlike the First Great Awakening of the 18th century, focused on the unchurched and sought to instil in them a deep sense of personal salvation as experienced in revival meetings. It also sparked the beginnings of groups such as the Mormons[46] and the Holiness movement. Leaders included Charles Grandison Finney, Lyman Beecher, Barton W. Stone, Peter Cartwright and James Finley.\n\ndoc57091: Second Great Awakening. The Second Great Awakening was a Protestant religious revival during the early 19th century in the United States. The movement began around 1790, gained momentum by 1800 and, after 1820, membership rose rapidly among Baptist and Methodist congregations whose preachers led the movement. It was past its peak by the late 1850s. The Second Great Awakening reflected Romanticism characterized by enthusiasm, emotion, and an appeal to the super-natural. It rejected the skeptical rationalism and deism of the Enlightenment.\n\ndoc57093: Second Great Awakening. Historians named the Second Great Awakening in the context of the First Great Awakening of the 1730s and 1740s and of the Third Great Awakening of the late 1850s to early 1900s. These revivals were part of a much larger Romantic religious movement that was sweeping across Europe at the time, mainly throughout England, Scotland, and Germany.[2]\n\ndoc1752042: Great Awakening. The Second Great Awakening was a religious revival that occurred in the United States beginning in the late eighteenth century and lasting until the middle of the nineteenth century. While it occurred in all parts of the United States, it was especially strong in the Northeast and the Midwest.[15] This awakening was unique in that it moved beyond the educated elite of New England to those who were less wealthy and less educated. The center of revivalism was the so-called Burned-over district in western New York. Named for its overabundance of hellfire-and-damnation preaching, the region produced dozens of new denominations, communal societies, and reform.[16]\n\ndoc182388: Protestantism. The Second Great Awakening began around 1790. It gained momentum by 1800. After 1820, membership rose rapidly among Baptist and Methodist congregations, whose preachers led the movement. It was past its peak by the late 1840s. It has been described as a reaction against skepticism, deism, and rationalism, although why those forces became pressing enough at the time to spark revivals is not fully understood.[41] It enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations.\n\ndoc1677144: History of Christian theology. The Second Great Awakening (1800\u00e2\u20ac\u201c1830s) was the second great religious revival in United States history and consisted of renewed personal salvation experienced in revival meetings. Major leaders included Charles Grandison Finney, Lyman Beecher, Barton Stone. Peter Cartwright and James B. Finley.\n\ndoc57107: Second Great Awakening. The Restoration Movement began during, and was greatly influenced by, the Second Great Awakening.[22]:368 While the leaders of one of the two primary groups making up this movement, Thomas Campbell and Alexander Campbell, resisted what they saw as the spiritual manipulation of the camp meetings, the revivals contributed to the development of the other major branch, led by Barton W. Stone.[22]:368 The Southern phase of the Awakening \"was an important matrix of Barton Stone's reform movement\" and shaped the evangelistic techniques used by both Stone and the Campbells.[22]:368\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: what was the purpose of a revival meeting during the second great awakening\n\nDocuments:\n\ndoc1662041: History of Protestantism. The \"Second Great Awakening\" (1790-1840s) was the second great religious revival in United States history and, unlike the First Great Awakening of the 18th century, focused on the unchurched and sought to instil in them a deep sense of personal salvation as experienced in revival meetings. It also sparked the beginnings of groups such as the Mormons[46] and the Holiness movement. Leaders included Charles Grandison Finney, Lyman Beecher, Barton W. Stone, Peter Cartwright and James Finley.\n\ndoc1677144: History of Christian theology. The Second Great Awakening (1800\u00e2\u20ac\u201c1830s) was the second great religious revival in United States history and consisted of renewed personal salvation experienced in revival meetings. Major leaders included Charles Grandison Finney, Lyman Beecher, Barton Stone. Peter Cartwright and James B. Finley.\n\ndoc57092: Second Great Awakening. The revivals enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations. Many converts believed that the Awakening heralded a new millennial age. The Second Great Awakening stimulated the establishment of many reform movements designed to remedy the evils of society before the anticipated Second Coming of Jesus Christ.[1]\n\ndoc57100: Second Great Awakening. In the newly settled frontier regions, the revival was implemented through camp meetings. These often provided the first encounter for some settlers with organized religion, and they were important as social venues. The camp meeting was a religious service of several days' length with preachers. Settlers in thinly populated areas gathered at the camp meeting for fellowship as well as worship. The sheer exhilaration of participating in a religious revival with crowds of hundreds and perhaps thousands of people inspired the dancing, shouting, and singing associated with these events. The revivals followed an arc of great emotional power, with an emphasis of the individual's sins and need to turn to Christ, restored by a sense of personal salvation. Upon their return home, most converts joined or created small local churches, which grew rapidly.[14] The Second Great Awakening marked a religious transition in society in America. Many Americans from the Calvinist sect emphasized man's inability to save themselves and that their only way to be saved was from grace from God.[15]\n\ndoc1161037: Camp meeting. [5] Revivalism had been a significant force in religion since the 1740s and the First Great Awakening, but in the days of the camp meeting, \"revivalism became the dominant religious culture.\"[2] These sorts of meetings contributed greatly to what became known as the Second Great Awakening. A particularly large and successful revival was held at Cane Ridge, Kentucky in 1801, led by some ministers later active in what became the Restoration Movement. Some scholars suggest that this was the pioneering event in the history of frontier camp meetings in America.[2] What made camp meetings successful and multiply quite rapidly \"were their emphases upon revivalism and morality, de-emphasis upon formal theology, clergy sharing the worldview of the frontier dwellers, and respect for common people.[2]\n\ndoc1752042: Great Awakening. The Second Great Awakening was a religious revival that occurred in the United States beginning in the late eighteenth century and lasting until the middle of the nineteenth century. While it occurred in all parts of the United States, it was especially strong in the Northeast and the Midwest.[15] This awakening was unique in that it moved beyond the educated elite of New England to those who were less wealthy and less educated. The center of revivalism was the so-called Burned-over district in western New York. Named for its overabundance of hellfire-and-damnation preaching, the region produced dozens of new denominations, communal societies, and reform.[16]\n\ndoc57091: Second Great Awakening. The Second Great Awakening was a Protestant religious revival during the early 19th century in the United States. The movement began around 1790, gained momentum by 1800 and, after 1820, membership rose rapidly among Baptist and Methodist congregations whose preachers led the movement. It was past its peak by the late 1850s. The Second Great Awakening reflected Romanticism characterized by enthusiasm, emotion, and an appeal to the super-natural. It rejected the skeptical rationalism and deism of the Enlightenment.\n\ndoc182388: Protestantism. The Second Great Awakening began around 1790. It gained momentum by 1800. After 1820, membership rose rapidly among Baptist and Methodist congregations, whose preachers led the movement. It was past its peak by the late 1840s. It has been described as a reaction against skepticism, deism, and rationalism, although why those forces became pressing enough at the time to spark revivals is not fully understood.[41] It enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations.\n\ndoc57107: Second Great Awakening. The Restoration Movement began during, and was greatly influenced by, the Second Great Awakening.[22]:368 While the leaders of one of the two primary groups making up this movement, Thomas Campbell and Alexander Campbell, resisted what they saw as the spiritual manipulation of the camp meetings, the revivals contributed to the development of the other major branch, led by Barton W. Stone.[22]:368 The Southern phase of the Awakening \"was an important matrix of Barton Stone's reform movement\" and shaped the evangelistic techniques used by both Stone and the Campbells.[22]:368\n\ndoc57093: Second Great Awakening. Historians named the Second Great Awakening in the context of the First Great Awakening of the 1730s and 1740s and of the Third Great Awakening of the late 1850s to early 1900s. These revivals were part of a much larger Romantic religious movement that was sweeping across Europe at the time, mainly throughout England, Scotland, and Germany.[2]\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_order = [\"doc1662041\", \"doc1677144\", \"doc57092\", \"doc57100\", \"doc1161037\", \"doc1752042\", \"doc57091\", \"doc182388\", \"doc57107\", \"doc57093\"]\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc1662041",
+        "doc1677144",
+        "doc57092",
+        "doc57100",
+        "doc1161037",
+        "doc1752042",
+        "doc57091",
+        "doc182388",
+        "doc57107",
+        "doc57093"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "what was the purpose of a revival meeting during the second great awakening"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "what was the purpose of a revival meeting during the second great awakening"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc57092",
+                    "doc57100",
+                    "doc1161037",
+                    "doc1662041",
+                    "doc57091",
+                    "doc57093",
+                    "doc1752042",
+                    "doc182388",
+                    "doc1677144",
+                    "doc57107"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7717389464378357,
+                    0.7649662494659424,
+                    0.7591509819030762,
+                    0.7510119080543518,
+                    0.7400010824203491,
+                    0.7384242415428162,
+                    0.7342184782028198,
+                    0.7336164712905884,
+                    0.7215679883956909,
+                    0.714409351348877
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "what was the purpose of a revival meeting during the second great awakening"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc57092",
+                    "doc57100",
+                    "doc1161037",
+                    "doc1662041",
+                    "doc57091",
+                    "doc57093",
+                    "doc1752042",
+                    "doc182388",
+                    "doc1677144",
+                    "doc57107"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7717389464378357,
+                    0.7649662494659424,
+                    0.7591509819030762,
+                    0.7510119080543518,
+                    0.7400010824203491,
+                    0.7384242415428162,
+                    0.7342184782028198,
+                    0.7336164712905884,
+                    0.7215679883956909,
+                    0.714409351348877
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what was the purpose of a revival meeting during the second great awakening\n\nDocuments:\n\ndoc57092: Second Great Awakening. The revivals enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations. Many converts believed that the Awakening heralded a new millennial age. The Second Great Awakening stimulated the establishment of many reform movements designed to remedy the evils of society before the anticipated Second Coming of Jesus Christ.[1]\n\ndoc57100: Second Great Awakening. In the newly settled frontier regions, the revival was implemented through camp meetings. These often provided the first encounter for some settlers with organized religion, and they were important as social venues. The camp meeting was a religious service of several days' length with preachers. Settlers in thinly populated areas gathered at the camp meeting for fellowship as well as worship. The sheer exhilaration of participating in a religious revival with crowds of hundreds and perhaps thousands of people inspired the dancing, shouting, and singing associated with these events. The revivals followed an arc of great emotional power, with an emphasis of the individual's sins and need to turn to Christ, restored by a sense of personal salvation. Upon their return home, most converts joined or created small local churches, which grew rapidly.[14] The Second Great Awakening marked a religious transition in society in America. Many Americans from the Calvinist sect emphasized man's inability to save themselves and that their only way to be saved was from grace from God.[15]\n\ndoc1161037: Camp meeting. [5] Revivalism had been a significant force in religion since the 1740s and the First Great Awakening, but in the days of the camp meeting, \"revivalism became the dominant religious culture.\"[2] These sorts of meetings contributed greatly to what became known as the Second Great Awakening. A particularly large and successful revival was held at Cane Ridge, Kentucky in 1801, led by some ministers later active in what became the Restoration Movement. Some scholars suggest that this was the pioneering event in the history of frontier camp meetings in America.[2] What made camp meetings successful and multiply quite rapidly \"were their emphases upon revivalism and morality, de-emphasis upon formal theology, clergy sharing the worldview of the frontier dwellers, and respect for common people.[2]\n\ndoc1662041: History of Protestantism. The \"Second Great Awakening\" (1790-1840s) was the second great religious revival in United States history and, unlike the First Great Awakening of the 18th century, focused on the unchurched and sought to instil in them a deep sense of personal salvation as experienced in revival meetings. It also sparked the beginnings of groups such as the Mormons[46] and the Holiness movement. Leaders included Charles Grandison Finney, Lyman Beecher, Barton W. Stone, Peter Cartwright and James Finley.\n\ndoc57091: Second Great Awakening. The Second Great Awakening was a Protestant religious revival during the early 19th century in the United States. The movement began around 1790, gained momentum by 1800 and, after 1820, membership rose rapidly among Baptist and Methodist congregations whose preachers led the movement. It was past its peak by the late 1850s. The Second Great Awakening reflected Romanticism characterized by enthusiasm, emotion, and an appeal to the super-natural. It rejected the skeptical rationalism and deism of the Enlightenment.\n\ndoc57093: Second Great Awakening. Historians named the Second Great Awakening in the context of the First Great Awakening of the 1730s and 1740s and of the Third Great Awakening of the late 1850s to early 1900s. These revivals were part of a much larger Romantic religious movement that was sweeping across Europe at the time, mainly throughout England, Scotland, and Germany.[2]\n\ndoc1752042: Great Awakening. The Second Great Awakening was a religious revival that occurred in the United States beginning in the late eighteenth century and lasting until the middle of the nineteenth century. While it occurred in all parts of the United States, it was especially strong in the Northeast and the Midwest.[15] This awakening was unique in that it moved beyond the educated elite of New England to those who were less wealthy and less educated. The center of revivalism was the so-called Burned-over district in western New York. Named for its overabundance of hellfire-and-damnation preaching, the region produced dozens of new denominations, communal societies, and reform.[16]\n\ndoc182388: Protestantism. The Second Great Awakening began around 1790. It gained momentum by 1800. After 1820, membership rose rapidly among Baptist and Methodist congregations, whose preachers led the movement. It was past its peak by the late 1840s. It has been described as a reaction against skepticism, deism, and rationalism, although why those forces became pressing enough at the time to spark revivals is not fully understood.[41] It enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations.\n\ndoc1677144: History of Christian theology. The Second Great Awakening (1800\u00e2\u20ac\u201c1830s) was the second great religious revival in United States history and consisted of renewed personal salvation experienced in revival meetings. Major leaders included Charles Grandison Finney, Lyman Beecher, Barton Stone. Peter Cartwright and James B. Finley.\n\ndoc57107: Second Great Awakening. The Restoration Movement began during, and was greatly influenced by, the Second Great Awakening.[22]:368 While the leaders of one of the two primary groups making up this movement, Thomas Campbell and Alexander Campbell, resisted what they saw as the spiritual manipulation of the camp meetings, the revivals contributed to the development of the other major branch, led by Barton W. Stone.[22]:368 The Southern phase of the Awakening \"was an important matrix of Barton Stone's reform movement\" and shaped the evangelistic techniques used by both Stone and the Campbells.[22]:368\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\"doc1662041\", \"doc1677144\", \"doc57092\", \"doc57100\", \"doc1161037\", \"doc1752042\", \"doc57091\", \"doc182388\", \"doc57107\", \"doc57093\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc1662041",
+                "doc1677144",
+                "doc57092",
+                "doc57100",
+                "doc1161037",
+                "doc1752042",
+                "doc57091",
+                "doc182388",
+                "doc57107",
+                "doc57093"
+            ]
+        },
+        {
+            "queries": [
+                "what was the purpose of a revival meeting during the second great awakening"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc57092",
+                    "doc57100",
+                    "doc1161037",
+                    "doc1662041",
+                    "doc57091",
+                    "doc57093",
+                    "doc1752042",
+                    "doc182388",
+                    "doc1677144",
+                    "doc57107"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7717389464378357,
+                    0.7649662494659424,
+                    0.7591509819030762,
+                    0.7510119080543518,
+                    0.7400010824203491,
+                    0.7384242415428162,
+                    0.7342184782028198,
+                    0.7336164712905884,
+                    0.7215679883956909,
+                    0.714409351348877
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what was the purpose of a revival meeting during the second great awakening\n\nDocuments:\n\ndoc57092: Second Great Awakening. The revivals enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations. Many converts believed that the Awakening heralded a new millennial age. The Second Great Awakening stimulated the establishment of many reform movements designed to remedy the evils of society before the anticipated Second Coming of Jesus Christ.[1]\n\ndoc57100: Second Great Awakening. In the newly settled frontier regions, the revival was implemented through camp meetings. These often provided the first encounter for some settlers with organized religion, and they were important as social venues. The camp meeting was a religious service of several days' length with preachers. Settlers in thinly populated areas gathered at the camp meeting for fellowship as well as worship. The sheer exhilaration of participating in a religious revival with crowds of hundreds and perhaps thousands of people inspired the dancing, shouting, and singing associated with these events. The revivals followed an arc of great emotional power, with an emphasis of the individual's sins and need to turn to Christ, restored by a sense of personal salvation. Upon their return home, most converts joined or created small local churches, which grew rapidly.[14] The Second Great Awakening marked a religious transition in society in America. Many Americans from the Calvinist sect emphasized man's inability to save themselves and that their only way to be saved was from grace from God.[15]\n\ndoc1161037: Camp meeting. [5] Revivalism had been a significant force in religion since the 1740s and the First Great Awakening, but in the days of the camp meeting, \"revivalism became the dominant religious culture.\"[2] These sorts of meetings contributed greatly to what became known as the Second Great Awakening. A particularly large and successful revival was held at Cane Ridge, Kentucky in 1801, led by some ministers later active in what became the Restoration Movement. Some scholars suggest that this was the pioneering event in the history of frontier camp meetings in America.[2] What made camp meetings successful and multiply quite rapidly \"were their emphases upon revivalism and morality, de-emphasis upon formal theology, clergy sharing the worldview of the frontier dwellers, and respect for common people.[2]\n\ndoc1662041: History of Protestantism. The \"Second Great Awakening\" (1790-1840s) was the second great religious revival in United States history and, unlike the First Great Awakening of the 18th century, focused on the unchurched and sought to instil in them a deep sense of personal salvation as experienced in revival meetings. It also sparked the beginnings of groups such as the Mormons[46] and the Holiness movement. Leaders included Charles Grandison Finney, Lyman Beecher, Barton W. Stone, Peter Cartwright and James Finley.\n\ndoc57091: Second Great Awakening. The Second Great Awakening was a Protestant religious revival during the early 19th century in the United States. The movement began around 1790, gained momentum by 1800 and, after 1820, membership rose rapidly among Baptist and Methodist congregations whose preachers led the movement. It was past its peak by the late 1850s. The Second Great Awakening reflected Romanticism characterized by enthusiasm, emotion, and an appeal to the super-natural. It rejected the skeptical rationalism and deism of the Enlightenment.\n\ndoc57093: Second Great Awakening. Historians named the Second Great Awakening in the context of the First Great Awakening of the 1730s and 1740s and of the Third Great Awakening of the late 1850s to early 1900s. These revivals were part of a much larger Romantic religious movement that was sweeping across Europe at the time, mainly throughout England, Scotland, and Germany.[2]\n\ndoc1752042: Great Awakening. The Second Great Awakening was a religious revival that occurred in the United States beginning in the late eighteenth century and lasting until the middle of the nineteenth century. While it occurred in all parts of the United States, it was especially strong in the Northeast and the Midwest.[15] This awakening was unique in that it moved beyond the educated elite of New England to those who were less wealthy and less educated. The center of revivalism was the so-called Burned-over district in western New York. Named for its overabundance of hellfire-and-damnation preaching, the region produced dozens of new denominations, communal societies, and reform.[16]\n\ndoc182388: Protestantism. The Second Great Awakening began around 1790. It gained momentum by 1800. After 1820, membership rose rapidly among Baptist and Methodist congregations, whose preachers led the movement. It was past its peak by the late 1840s. It has been described as a reaction against skepticism, deism, and rationalism, although why those forces became pressing enough at the time to spark revivals is not fully understood.[41] It enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations.\n\ndoc1677144: History of Christian theology. The Second Great Awakening (1800\u00e2\u20ac\u201c1830s) was the second great religious revival in United States history and consisted of renewed personal salvation experienced in revival meetings. Major leaders included Charles Grandison Finney, Lyman Beecher, Barton Stone. Peter Cartwright and James B. Finley.\n\ndoc57107: Second Great Awakening. The Restoration Movement began during, and was greatly influenced by, the Second Great Awakening.[22]:368 While the leaders of one of the two primary groups making up this movement, Thomas Campbell and Alexander Campbell, resisted what they saw as the spiritual manipulation of the camp meetings, the revivals contributed to the development of the other major branch, led by Barton W. Stone.[22]:368 The Southern phase of the Awakening \"was an important matrix of Barton Stone's reform movement\" and shaped the evangelistic techniques used by both Stone and the Campbells.[22]:368\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\"doc1662041\", \"doc1677144\", \"doc57092\", \"doc57100\", \"doc1161037\", \"doc1752042\", \"doc57091\", \"doc182388\", \"doc57107\", \"doc57093\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc1662041",
+                "doc1677144",
+                "doc57092",
+                "doc57100",
+                "doc1161037",
+                "doc1752042",
+                "doc57091",
+                "doc182388",
+                "doc57107",
+                "doc57093"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "what was the purpose of a revival meeting during the second great awakening"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc57092",
+                    "doc57100",
+                    "doc1161037",
+                    "doc1662041",
+                    "doc57091",
+                    "doc57093",
+                    "doc1752042",
+                    "doc182388",
+                    "doc1677144",
+                    "doc57107"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.7717389464378357,
+                    0.7649662494659424,
+                    0.7591509819030762,
+                    0.7510119080543518,
+                    0.7400010824203491,
+                    0.7384242415428162,
+                    0.7342184782028198,
+                    0.7336164712905884,
+                    0.7215679883956909,
+                    0.714409351348877
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: what was the purpose of a revival meeting during the second great awakening\n\nDocuments:\n\ndoc57092: Second Great Awakening. The revivals enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations. Many converts believed that the Awakening heralded a new millennial age. The Second Great Awakening stimulated the establishment of many reform movements designed to remedy the evils of society before the anticipated Second Coming of Jesus Christ.[1]\n\ndoc57100: Second Great Awakening. In the newly settled frontier regions, the revival was implemented through camp meetings. These often provided the first encounter for some settlers with organized religion, and they were important as social venues. The camp meeting was a religious service of several days' length with preachers. Settlers in thinly populated areas gathered at the camp meeting for fellowship as well as worship. The sheer exhilaration of participating in a religious revival with crowds of hundreds and perhaps thousands of people inspired the dancing, shouting, and singing associated with these events. The revivals followed an arc of great emotional power, with an emphasis of the individual's sins and need to turn to Christ, restored by a sense of personal salvation. Upon their return home, most converts joined or created small local churches, which grew rapidly.[14] The Second Great Awakening marked a religious transition in society in America. Many Americans from the Calvinist sect emphasized man's inability to save themselves and that their only way to be saved was from grace from God.[15]\n\ndoc1161037: Camp meeting. [5] Revivalism had been a significant force in religion since the 1740s and the First Great Awakening, but in the days of the camp meeting, \"revivalism became the dominant religious culture.\"[2] These sorts of meetings contributed greatly to what became known as the Second Great Awakening. A particularly large and successful revival was held at Cane Ridge, Kentucky in 1801, led by some ministers later active in what became the Restoration Movement. Some scholars suggest that this was the pioneering event in the history of frontier camp meetings in America.[2] What made camp meetings successful and multiply quite rapidly \"were their emphases upon revivalism and morality, de-emphasis upon formal theology, clergy sharing the worldview of the frontier dwellers, and respect for common people.[2]\n\ndoc1662041: History of Protestantism. The \"Second Great Awakening\" (1790-1840s) was the second great religious revival in United States history and, unlike the First Great Awakening of the 18th century, focused on the unchurched and sought to instil in them a deep sense of personal salvation as experienced in revival meetings. It also sparked the beginnings of groups such as the Mormons[46] and the Holiness movement. Leaders included Charles Grandison Finney, Lyman Beecher, Barton W. Stone, Peter Cartwright and James Finley.\n\ndoc57091: Second Great Awakening. The Second Great Awakening was a Protestant religious revival during the early 19th century in the United States. The movement began around 1790, gained momentum by 1800 and, after 1820, membership rose rapidly among Baptist and Methodist congregations whose preachers led the movement. It was past its peak by the late 1850s. The Second Great Awakening reflected Romanticism characterized by enthusiasm, emotion, and an appeal to the super-natural. It rejected the skeptical rationalism and deism of the Enlightenment.\n\ndoc57093: Second Great Awakening. Historians named the Second Great Awakening in the context of the First Great Awakening of the 1730s and 1740s and of the Third Great Awakening of the late 1850s to early 1900s. These revivals were part of a much larger Romantic religious movement that was sweeping across Europe at the time, mainly throughout England, Scotland, and Germany.[2]\n\ndoc1752042: Great Awakening. The Second Great Awakening was a religious revival that occurred in the United States beginning in the late eighteenth century and lasting until the middle of the nineteenth century. While it occurred in all parts of the United States, it was especially strong in the Northeast and the Midwest.[15] This awakening was unique in that it moved beyond the educated elite of New England to those who were less wealthy and less educated. The center of revivalism was the so-called Burned-over district in western New York. Named for its overabundance of hellfire-and-damnation preaching, the region produced dozens of new denominations, communal societies, and reform.[16]\n\ndoc182388: Protestantism. The Second Great Awakening began around 1790. It gained momentum by 1800. After 1820, membership rose rapidly among Baptist and Methodist congregations, whose preachers led the movement. It was past its peak by the late 1840s. It has been described as a reaction against skepticism, deism, and rationalism, although why those forces became pressing enough at the time to spark revivals is not fully understood.[41] It enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations.\n\ndoc1677144: History of Christian theology. The Second Great Awakening (1800\u00e2\u20ac\u201c1830s) was the second great religious revival in United States history and consisted of renewed personal salvation experienced in revival meetings. Major leaders included Charles Grandison Finney, Lyman Beecher, Barton Stone. Peter Cartwright and James B. Finley.\n\ndoc57107: Second Great Awakening. The Restoration Movement began during, and was greatly influenced by, the Second Great Awakening.[22]:368 While the leaders of one of the two primary groups making up this movement, Thomas Campbell and Alexander Campbell, resisted what they saw as the spiritual manipulation of the camp meetings, the revivals contributed to the development of the other major branch, led by Barton W. Stone.[22]:368 The Southern phase of the Awakening \"was an important matrix of Barton Stone's reform movement\" and shaped the evangelistic techniques used by both Stone and the Campbells.[22]:368\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: what was the purpose of a revival meeting during the second great awakening\n\nDocuments:\n\ndoc1662041: History of Protestantism. The \"Second Great Awakening\" (1790-1840s) was the second great religious revival in United States history and, unlike the First Great Awakening of the 18th century, focused on the unchurched and sought to instil in them a deep sense of personal salvation as experienced in revival meetings. It also sparked the beginnings of groups such as the Mormons[46] and the Holiness movement. Leaders included Charles Grandison Finney, Lyman Beecher, Barton W. Stone, Peter Cartwright and James Finley.\n\ndoc1677144: History of Christian theology. The Second Great Awakening (1800\u00e2\u20ac\u201c1830s) was the second great religious revival in United States history and consisted of renewed personal salvation experienced in revival meetings. Major leaders included Charles Grandison Finney, Lyman Beecher, Barton Stone. Peter Cartwright and James B. Finley.\n\ndoc57092: Second Great Awakening. The revivals enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations. Many converts believed that the Awakening heralded a new millennial age. The Second Great Awakening stimulated the establishment of many reform movements designed to remedy the evils of society before the anticipated Second Coming of Jesus Christ.[1]\n\ndoc57100: Second Great Awakening. In the newly settled frontier regions, the revival was implemented through camp meetings. These often provided the first encounter for some settlers with organized religion, and they were important as social venues. The camp meeting was a religious service of several days' length with preachers. Settlers in thinly populated areas gathered at the camp meeting for fellowship as well as worship. The sheer exhilaration of participating in a religious revival with crowds of hundreds and perhaps thousands of people inspired the dancing, shouting, and singing associated with these events. The revivals followed an arc of great emotional power, with an emphasis of the individual's sins and need to turn to Christ, restored by a sense of personal salvation. Upon their return home, most converts joined or created small local churches, which grew rapidly.[14] The Second Great Awakening marked a religious transition in society in America. Many Americans from the Calvinist sect emphasized man's inability to save themselves and that their only way to be saved was from grace from God.[15]\n\ndoc1161037: Camp meeting. [5] Revivalism had been a significant force in religion since the 1740s and the First Great Awakening, but in the days of the camp meeting, \"revivalism became the dominant religious culture.\"[2] These sorts of meetings contributed greatly to what became known as the Second Great Awakening. A particularly large and successful revival was held at Cane Ridge, Kentucky in 1801, led by some ministers later active in what became the Restoration Movement. Some scholars suggest that this was the pioneering event in the history of frontier camp meetings in America.[2] What made camp meetings successful and multiply quite rapidly \"were their emphases upon revivalism and morality, de-emphasis upon formal theology, clergy sharing the worldview of the frontier dwellers, and respect for common people.[2]\n\ndoc1752042: Great Awakening. The Second Great Awakening was a religious revival that occurred in the United States beginning in the late eighteenth century and lasting until the middle of the nineteenth century. While it occurred in all parts of the United States, it was especially strong in the Northeast and the Midwest.[15] This awakening was unique in that it moved beyond the educated elite of New England to those who were less wealthy and less educated. The center of revivalism was the so-called Burned-over district in western New York. Named for its overabundance of hellfire-and-damnation preaching, the region produced dozens of new denominations, communal societies, and reform.[16]\n\ndoc57091: Second Great Awakening. The Second Great Awakening was a Protestant religious revival during the early 19th century in the United States. The movement began around 1790, gained momentum by 1800 and, after 1820, membership rose rapidly among Baptist and Methodist congregations whose preachers led the movement. It was past its peak by the late 1850s. The Second Great Awakening reflected Romanticism characterized by enthusiasm, emotion, and an appeal to the super-natural. It rejected the skeptical rationalism and deism of the Enlightenment.\n\ndoc182388: Protestantism. The Second Great Awakening began around 1790. It gained momentum by 1800. After 1820, membership rose rapidly among Baptist and Methodist congregations, whose preachers led the movement. It was past its peak by the late 1840s. It has been described as a reaction against skepticism, deism, and rationalism, although why those forces became pressing enough at the time to spark revivals is not fully understood.[41] It enrolled millions of new members in existing evangelical denominations and led to the formation of new denominations.\n\ndoc57107: Second Great Awakening. The Restoration Movement began during, and was greatly influenced by, the Second Great Awakening.[22]:368 While the leaders of one of the two primary groups making up this movement, Thomas Campbell and Alexander Campbell, resisted what they saw as the spiritual manipulation of the camp meetings, the revivals contributed to the development of the other major branch, led by Barton W. Stone.[22]:368 The Southern phase of the Awakening \"was an important matrix of Barton Stone's reform movement\" and shaped the evangelistic techniques used by both Stone and the Campbells.[22]:368\n\ndoc57093: Second Great Awakening. Historians named the Second Great Awakening in the context of the First Great Awakening of the 1730s and 1740s and of the Third Great Awakening of the late 1850s to early 1900s. These revivals were part of a much larger Romantic religious movement that was sweeping across Europe at the time, mainly throughout England, Scotland, and Germany.[2]\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\"doc1662041\", \"doc1677144\", \"doc57092\", \"doc57100\", \"doc1161037\", \"doc1752042\", \"doc57091\", \"doc182388\", \"doc57107\", \"doc57093\"]\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc1662041",
+                "doc1677144",
+                "doc57092",
+                "doc57100",
+                "doc1161037",
+                "doc1752042",
+                "doc57091",
+                "doc182388",
+                "doc57107",
+                "doc57093"
+            ],
+            "terminate": true
+        }
+    ]
+}

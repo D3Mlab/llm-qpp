@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "when did the anti smacking law come in nz"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc38339",
+            "doc38371",
+            "doc806030",
+            "doc806025",
+            "doc1513188",
+            "doc806016",
+            "doc806031",
+            "doc806004",
+            "doc806028",
+            "doc1862081"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.713828444480896,
+            0.6412376761436462,
+            0.6161012649536133,
+            0.6095373034477234,
+            0.5934683084487915,
+            0.571312427520752,
+            0.56919264793396,
+            0.5684649348258972,
+            0.5607115030288696,
+            0.5581331253051758
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did the anti smacking law come in nz\n\nDocuments:\n\ndoc38339: Crimes (Substituted Section 59) Amendment Act 2007. The law was introduced to the New Zealand Parliament as a private members bill by Green Party Member of Parliament Sue Bradford in 2005, after being drawn from the ballot. It drew intense debate, both in Parliament and from the public. The bill was colloquially referred to by several of its opponents and newspapers as the \"anti-smacking bill\".[1] The bill was passed on its third reading on 16 May 2007 by 113 votes to eight.[2][3] The Governor-General of New Zealand granted the bill Royal Assent on 21 May 2007, and the law came into effect on 21 June 2007.\n\ndoc38371: Crimes (Substituted Section 59) Amendment Act 2007. On March 24, 2017, it was Reported that New Zealand First and Winston Peters will take to the election a policy of repeal the anti-smacking law passed by the last parliament. They will not enter any coalition or confidence and supply agreement with a party that wishes to ignore the public\u00e2\u20ac\u2122s clearly stated view in a referendum on that issue after the New Zealand general election, 2017[35]\n\ndoc806030: Gun laws in New Zealand. The two major anti-gun groups in recent years have been the Coalition for Gun Control, and Gunsafe NZ. Neither is still active, but were led by activist Philip Alpers and Mike Meyrick, a former police officer and lawyer.[15]\n\ndoc806025: Gun laws in New Zealand. The New Zealand Police administer and enforce the Arms Act 1983.[7] They are issued Bushmaster XM-15 semi-automatic rifles, Glock 17 gen 4 pistols, and Tasers, which are normally carried in patrol cars and not on the officers.[8]\n\ndoc1513188: Gangs in New Zealand. A law banning gang patches from government and public buildings was introduced in 2012 by National MP Todd McClay.[73] Police welcomed the law,[74]\n\ndoc806016: Gun laws in New Zealand. An internal police report in 1982 criticised the proposals, saying there was no evidence that registration of guns helped to solve crimes, and that registration would use time and money better spent on other police work. This policy was adopted by the government in the 1983 Act.[5]\n\ndoc806031: Gun laws in New Zealand. The main parties, Labour and National, generally treat gun control as a bi-partisan issue. Both support the passage of the Arms Amendment (No. 3) Bill[citation needed].\n\ndoc806004: Gun laws in New Zealand. C Endorsement \u00e2\u20ac\u201c Restricted weapons\n\ndoc806028: Gun laws in New Zealand. The Sporting Shooters Association of New Zealand is a part-time lobby group that is usually only active at elections and when there are government calls for gun control laws. It is smaller than COLFO.\n\ndoc1862081: New Zealand Bill of Rights Act 1990. Criminal Justice The Act requires that everyone who is charged with an offence:\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: when did the anti smacking law come in nz\n\nDocuments:\n\ndoc38339: Crimes (Substituted Section 59) Amendment Act 2007. The law was introduced to the New Zealand Parliament as a private members bill by Green Party Member of Parliament Sue Bradford in 2005, after being drawn from the ballot. It drew intense debate, both in Parliament and from the public. The bill was colloquially referred to by several of its opponents and newspapers as the \"anti-smacking bill\".[1] The bill was passed on its third reading on 16 May 2007 by 113 votes to eight.[2][3] The Governor-General of New Zealand granted the bill Royal Assent on 21 May 2007, and the law came into effect on 21 June 2007.\n\ndoc38371: Crimes (Substituted Section 59) Amendment Act 2007. On March 24, 2017, it was Reported that New Zealand First and Winston Peters will take to the election a policy of repeal the anti-smacking law passed by the last parliament. They will not enter any coalition or confidence and supply agreement with a party that wishes to ignore the public\u00e2\u20ac\u2122s clearly stated view in a referendum on that issue after the New Zealand general election, 2017[35]\n\ndoc806030: Gun laws in New Zealand. The two major anti-gun groups in recent years have been the Coalition for Gun Control, and Gunsafe NZ. Neither is still active, but were led by activist Philip Alpers and Mike Meyrick, a former police officer and lawyer.[15]\n\ndoc806025: Gun laws in New Zealand. The New Zealand Police administer and enforce the Arms Act 1983.[7] They are issued Bushmaster XM-15 semi-automatic rifles, Glock 17 gen 4 pistols, and Tasers, which are normally carried in patrol cars and not on the officers.[8]\n\ndoc1513188: Gangs in New Zealand. A law banning gang patches from government and public buildings was introduced in 2012 by National MP Todd McClay.[73] Police welcomed the law,[74]\n\ndoc806016: Gun laws in New Zealand. An internal police report in 1982 criticised the proposals, saying there was no evidence that registration of guns helped to solve crimes, and that registration would use time and money better spent on other police work. This policy was adopted by the government in the 1983 Act.[5]\n\ndoc806031: Gun laws in New Zealand. The main parties, Labour and National, generally treat gun control as a bi-partisan issue. Both support the passage of the Arms Amendment (No. 3) Bill[citation needed].\n\ndoc806004: Gun laws in New Zealand. C Endorsement \u00e2\u20ac\u201c Restricted weapons\n\ndoc806028: Gun laws in New Zealand. The Sporting Shooters Association of New Zealand is a part-time lobby group that is usually only active at elections and when there are government calls for gun control laws. It is smaller than COLFO.\n\ndoc1862081: New Zealand Bill of Rights Act 1990. Criminal Justice The Act requires that everyone who is charged with an offence:\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\"doc38339\", \"doc38371\", \"doc806030\", \"doc806025\", \"doc1513188\", \"doc806016\", \"doc806031\", \"doc806004\", \"doc806028\", \"doc1862081\"]\nrelevant_docs = [\"doc38339\", \"doc38371\"]\nirrelevant_docs = [\"doc806030\", \"doc806025\", \"doc1513188\", \"doc806016\", \"doc806031\", \"doc806004\", \"doc806028\", \"doc1862081\"]\n\n#Prioritize documents directly addressing the anti-smacking law\nordered_list = relevant_docs + irrelevant_docs[:8]\n\nprint(ordered_list)\n\n```",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc38339",
+        "doc38371",
+        "doc806030",
+        "doc806025",
+        "doc1513188",
+        "doc806016",
+        "doc806031",
+        "doc806004",
+        "doc806028",
+        "doc1862081"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "when did the anti smacking law come in nz"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "when did the anti smacking law come in nz"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc38339",
+                    "doc38371",
+                    "doc806030",
+                    "doc806025",
+                    "doc1513188",
+                    "doc806016",
+                    "doc806031",
+                    "doc806004",
+                    "doc806028",
+                    "doc1862081"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.713828444480896,
+                    0.6412376761436462,
+                    0.6161012649536133,
+                    0.6095373034477234,
+                    0.5934683084487915,
+                    0.571312427520752,
+                    0.56919264793396,
+                    0.5684649348258972,
+                    0.5607115030288696,
+                    0.5581331253051758
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "when did the anti smacking law come in nz"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc38339",
+                    "doc38371",
+                    "doc806030",
+                    "doc806025",
+                    "doc1513188",
+                    "doc806016",
+                    "doc806031",
+                    "doc806004",
+                    "doc806028",
+                    "doc1862081"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.713828444480896,
+                    0.6412376761436462,
+                    0.6161012649536133,
+                    0.6095373034477234,
+                    0.5934683084487915,
+                    0.571312427520752,
+                    0.56919264793396,
+                    0.5684649348258972,
+                    0.5607115030288696,
+                    0.5581331253051758
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did the anti smacking law come in nz\n\nDocuments:\n\ndoc38339: Crimes (Substituted Section 59) Amendment Act 2007. The law was introduced to the New Zealand Parliament as a private members bill by Green Party Member of Parliament Sue Bradford in 2005, after being drawn from the ballot. It drew intense debate, both in Parliament and from the public. The bill was colloquially referred to by several of its opponents and newspapers as the \"anti-smacking bill\".[1] The bill was passed on its third reading on 16 May 2007 by 113 votes to eight.[2][3] The Governor-General of New Zealand granted the bill Royal Assent on 21 May 2007, and the law came into effect on 21 June 2007.\n\ndoc38371: Crimes (Substituted Section 59) Amendment Act 2007. On March 24, 2017, it was Reported that New Zealand First and Winston Peters will take to the election a policy of repeal the anti-smacking law passed by the last parliament. They will not enter any coalition or confidence and supply agreement with a party that wishes to ignore the public\u00e2\u20ac\u2122s clearly stated view in a referendum on that issue after the New Zealand general election, 2017[35]\n\ndoc806030: Gun laws in New Zealand. The two major anti-gun groups in recent years have been the Coalition for Gun Control, and Gunsafe NZ. Neither is still active, but were led by activist Philip Alpers and Mike Meyrick, a former police officer and lawyer.[15]\n\ndoc806025: Gun laws in New Zealand. The New Zealand Police administer and enforce the Arms Act 1983.[7] They are issued Bushmaster XM-15 semi-automatic rifles, Glock 17 gen 4 pistols, and Tasers, which are normally carried in patrol cars and not on the officers.[8]\n\ndoc1513188: Gangs in New Zealand. A law banning gang patches from government and public buildings was introduced in 2012 by National MP Todd McClay.[73] Police welcomed the law,[74]\n\ndoc806016: Gun laws in New Zealand. An internal police report in 1982 criticised the proposals, saying there was no evidence that registration of guns helped to solve crimes, and that registration would use time and money better spent on other police work. This policy was adopted by the government in the 1983 Act.[5]\n\ndoc806031: Gun laws in New Zealand. The main parties, Labour and National, generally treat gun control as a bi-partisan issue. Both support the passage of the Arms Amendment (No. 3) Bill[citation needed].\n\ndoc806004: Gun laws in New Zealand. C Endorsement \u00e2\u20ac\u201c Restricted weapons\n\ndoc806028: Gun laws in New Zealand. The Sporting Shooters Association of New Zealand is a part-time lobby group that is usually only active at elections and when there are government calls for gun control laws. It is smaller than COLFO.\n\ndoc1862081: New Zealand Bill of Rights Act 1990. Criminal Justice The Act requires that everyone who is charged with an offence:\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"doc38339\", \"doc38371\", \"doc806030\", \"doc806025\", \"doc1513188\", \"doc806016\", \"doc806031\", \"doc806004\", \"doc806028\", \"doc1862081\"]\nrelevant_docs = [\"doc38339\", \"doc38371\"]\nirrelevant_docs = [\"doc806030\", \"doc806025\", \"doc1513188\", \"doc806016\", \"doc806031\", \"doc806004\", \"doc806028\", \"doc1862081\"]\n\n#Prioritize documents directly addressing the anti-smacking law\nordered_list = relevant_docs + irrelevant_docs[:8]\n\nprint(ordered_list)\n\n```"
+            ],
+            "curr_top_k_docIDs": [
+                "doc38339",
+                "doc38371",
+                "doc806030",
+                "doc806025",
+                "doc1513188",
+                "doc806016",
+                "doc806031",
+                "doc806004",
+                "doc806028",
+                "doc1862081"
+            ]
+        },
+        {
+            "queries": [
+                "when did the anti smacking law come in nz"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc38339",
+                    "doc38371",
+                    "doc806030",
+                    "doc806025",
+                    "doc1513188",
+                    "doc806016",
+                    "doc806031",
+                    "doc806004",
+                    "doc806028",
+                    "doc1862081"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.713828444480896,
+                    0.6412376761436462,
+                    0.6161012649536133,
+                    0.6095373034477234,
+                    0.5934683084487915,
+                    0.571312427520752,
+                    0.56919264793396,
+                    0.5684649348258972,
+                    0.5607115030288696,
+                    0.5581331253051758
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did the anti smacking law come in nz\n\nDocuments:\n\ndoc38339: Crimes (Substituted Section 59) Amendment Act 2007. The law was introduced to the New Zealand Parliament as a private members bill by Green Party Member of Parliament Sue Bradford in 2005, after being drawn from the ballot. It drew intense debate, both in Parliament and from the public. The bill was colloquially referred to by several of its opponents and newspapers as the \"anti-smacking bill\".[1] The bill was passed on its third reading on 16 May 2007 by 113 votes to eight.[2][3] The Governor-General of New Zealand granted the bill Royal Assent on 21 May 2007, and the law came into effect on 21 June 2007.\n\ndoc38371: Crimes (Substituted Section 59) Amendment Act 2007. On March 24, 2017, it was Reported that New Zealand First and Winston Peters will take to the election a policy of repeal the anti-smacking law passed by the last parliament. They will not enter any coalition or confidence and supply agreement with a party that wishes to ignore the public\u00e2\u20ac\u2122s clearly stated view in a referendum on that issue after the New Zealand general election, 2017[35]\n\ndoc806030: Gun laws in New Zealand. The two major anti-gun groups in recent years have been the Coalition for Gun Control, and Gunsafe NZ. Neither is still active, but were led by activist Philip Alpers and Mike Meyrick, a former police officer and lawyer.[15]\n\ndoc806025: Gun laws in New Zealand. The New Zealand Police administer and enforce the Arms Act 1983.[7] They are issued Bushmaster XM-15 semi-automatic rifles, Glock 17 gen 4 pistols, and Tasers, which are normally carried in patrol cars and not on the officers.[8]\n\ndoc1513188: Gangs in New Zealand. A law banning gang patches from government and public buildings was introduced in 2012 by National MP Todd McClay.[73] Police welcomed the law,[74]\n\ndoc806016: Gun laws in New Zealand. An internal police report in 1982 criticised the proposals, saying there was no evidence that registration of guns helped to solve crimes, and that registration would use time and money better spent on other police work. This policy was adopted by the government in the 1983 Act.[5]\n\ndoc806031: Gun laws in New Zealand. The main parties, Labour and National, generally treat gun control as a bi-partisan issue. Both support the passage of the Arms Amendment (No. 3) Bill[citation needed].\n\ndoc806004: Gun laws in New Zealand. C Endorsement \u00e2\u20ac\u201c Restricted weapons\n\ndoc806028: Gun laws in New Zealand. The Sporting Shooters Association of New Zealand is a part-time lobby group that is usually only active at elections and when there are government calls for gun control laws. It is smaller than COLFO.\n\ndoc1862081: New Zealand Bill of Rights Act 1990. Criminal Justice The Act requires that everyone who is charged with an offence:\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"doc38339\", \"doc38371\", \"doc806030\", \"doc806025\", \"doc1513188\", \"doc806016\", \"doc806031\", \"doc806004\", \"doc806028\", \"doc1862081\"]\nrelevant_docs = [\"doc38339\", \"doc38371\"]\nirrelevant_docs = [\"doc806030\", \"doc806025\", \"doc1513188\", \"doc806016\", \"doc806031\", \"doc806004\", \"doc806028\", \"doc1862081\"]\n\n#Prioritize documents directly addressing the anti-smacking law\nordered_list = relevant_docs + irrelevant_docs[:8]\n\nprint(ordered_list)\n\n```"
+            ],
+            "curr_top_k_docIDs": [
+                "doc38339",
+                "doc38371",
+                "doc806030",
+                "doc806025",
+                "doc1513188",
+                "doc806016",
+                "doc806031",
+                "doc806004",
+                "doc806028",
+                "doc1862081"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "when did the anti smacking law come in nz"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc38339",
+                    "doc38371",
+                    "doc806030",
+                    "doc806025",
+                    "doc1513188",
+                    "doc806016",
+                    "doc806031",
+                    "doc806004",
+                    "doc806028",
+                    "doc1862081"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.713828444480896,
+                    0.6412376761436462,
+                    0.6161012649536133,
+                    0.6095373034477234,
+                    0.5934683084487915,
+                    0.571312427520752,
+                    0.56919264793396,
+                    0.5684649348258972,
+                    0.5607115030288696,
+                    0.5581331253051758
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did the anti smacking law come in nz\n\nDocuments:\n\ndoc38339: Crimes (Substituted Section 59) Amendment Act 2007. The law was introduced to the New Zealand Parliament as a private members bill by Green Party Member of Parliament Sue Bradford in 2005, after being drawn from the ballot. It drew intense debate, both in Parliament and from the public. The bill was colloquially referred to by several of its opponents and newspapers as the \"anti-smacking bill\".[1] The bill was passed on its third reading on 16 May 2007 by 113 votes to eight.[2][3] The Governor-General of New Zealand granted the bill Royal Assent on 21 May 2007, and the law came into effect on 21 June 2007.\n\ndoc38371: Crimes (Substituted Section 59) Amendment Act 2007. On March 24, 2017, it was Reported that New Zealand First and Winston Peters will take to the election a policy of repeal the anti-smacking law passed by the last parliament. They will not enter any coalition or confidence and supply agreement with a party that wishes to ignore the public\u00e2\u20ac\u2122s clearly stated view in a referendum on that issue after the New Zealand general election, 2017[35]\n\ndoc806030: Gun laws in New Zealand. The two major anti-gun groups in recent years have been the Coalition for Gun Control, and Gunsafe NZ. Neither is still active, but were led by activist Philip Alpers and Mike Meyrick, a former police officer and lawyer.[15]\n\ndoc806025: Gun laws in New Zealand. The New Zealand Police administer and enforce the Arms Act 1983.[7] They are issued Bushmaster XM-15 semi-automatic rifles, Glock 17 gen 4 pistols, and Tasers, which are normally carried in patrol cars and not on the officers.[8]\n\ndoc1513188: Gangs in New Zealand. A law banning gang patches from government and public buildings was introduced in 2012 by National MP Todd McClay.[73] Police welcomed the law,[74]\n\ndoc806016: Gun laws in New Zealand. An internal police report in 1982 criticised the proposals, saying there was no evidence that registration of guns helped to solve crimes, and that registration would use time and money better spent on other police work. This policy was adopted by the government in the 1983 Act.[5]\n\ndoc806031: Gun laws in New Zealand. The main parties, Labour and National, generally treat gun control as a bi-partisan issue. Both support the passage of the Arms Amendment (No. 3) Bill[citation needed].\n\ndoc806004: Gun laws in New Zealand. C Endorsement \u00e2\u20ac\u201c Restricted weapons\n\ndoc806028: Gun laws in New Zealand. The Sporting Shooters Association of New Zealand is a part-time lobby group that is usually only active at elections and when there are government calls for gun control laws. It is smaller than COLFO.\n\ndoc1862081: New Zealand Bill of Rights Act 1990. Criminal Justice The Act requires that everyone who is charged with an offence:\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: when did the anti smacking law come in nz\n\nDocuments:\n\ndoc38339: Crimes (Substituted Section 59) Amendment Act 2007. The law was introduced to the New Zealand Parliament as a private members bill by Green Party Member of Parliament Sue Bradford in 2005, after being drawn from the ballot. It drew intense debate, both in Parliament and from the public. The bill was colloquially referred to by several of its opponents and newspapers as the \"anti-smacking bill\".[1] The bill was passed on its third reading on 16 May 2007 by 113 votes to eight.[2][3] The Governor-General of New Zealand granted the bill Royal Assent on 21 May 2007, and the law came into effect on 21 June 2007.\n\ndoc38371: Crimes (Substituted Section 59) Amendment Act 2007. On March 24, 2017, it was Reported that New Zealand First and Winston Peters will take to the election a policy of repeal the anti-smacking law passed by the last parliament. They will not enter any coalition or confidence and supply agreement with a party that wishes to ignore the public\u00e2\u20ac\u2122s clearly stated view in a referendum on that issue after the New Zealand general election, 2017[35]\n\ndoc806030: Gun laws in New Zealand. The two major anti-gun groups in recent years have been the Coalition for Gun Control, and Gunsafe NZ. Neither is still active, but were led by activist Philip Alpers and Mike Meyrick, a former police officer and lawyer.[15]\n\ndoc806025: Gun laws in New Zealand. The New Zealand Police administer and enforce the Arms Act 1983.[7] They are issued Bushmaster XM-15 semi-automatic rifles, Glock 17 gen 4 pistols, and Tasers, which are normally carried in patrol cars and not on the officers.[8]\n\ndoc1513188: Gangs in New Zealand. A law banning gang patches from government and public buildings was introduced in 2012 by National MP Todd McClay.[73] Police welcomed the law,[74]\n\ndoc806016: Gun laws in New Zealand. An internal police report in 1982 criticised the proposals, saying there was no evidence that registration of guns helped to solve crimes, and that registration would use time and money better spent on other police work. This policy was adopted by the government in the 1983 Act.[5]\n\ndoc806031: Gun laws in New Zealand. The main parties, Labour and National, generally treat gun control as a bi-partisan issue. Both support the passage of the Arms Amendment (No. 3) Bill[citation needed].\n\ndoc806004: Gun laws in New Zealand. C Endorsement \u00e2\u20ac\u201c Restricted weapons\n\ndoc806028: Gun laws in New Zealand. The Sporting Shooters Association of New Zealand is a part-time lobby group that is usually only active at elections and when there are government calls for gun control laws. It is smaller than COLFO.\n\ndoc1862081: New Zealand Bill of Rights Act 1990. Criminal Justice The Act requires that everyone who is charged with an offence:\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"doc38339\", \"doc38371\", \"doc806030\", \"doc806025\", \"doc1513188\", \"doc806016\", \"doc806031\", \"doc806004\", \"doc806028\", \"doc1862081\"]\nrelevant_docs = [\"doc38339\", \"doc38371\"]\nirrelevant_docs = [\"doc806030\", \"doc806025\", \"doc1513188\", \"doc806016\", \"doc806031\", \"doc806004\", \"doc806028\", \"doc1862081\"]\n\n#Prioritize documents directly addressing the anti-smacking law\nordered_list = relevant_docs + irrelevant_docs[:8]\n\nprint(ordered_list)\n\n```",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc38339",
+                "doc38371",
+                "doc806030",
+                "doc806025",
+                "doc1513188",
+                "doc806016",
+                "doc806031",
+                "doc806004",
+                "doc806028",
+                "doc1862081"
+            ],
+            "terminate": true
+        }
+    ]
+}

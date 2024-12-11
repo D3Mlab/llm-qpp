@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "when do you pray the chaplet of divine mercy"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc24197",
+            "doc24201",
+            "doc24193",
+            "doc24203",
+            "doc24190",
+            "doc24184",
+            "doc24187",
+            "doc24195",
+            "doc24200",
+            "doc24199"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.797616720199585,
+            0.7906069755554199,
+            0.7741933465003967,
+            0.7733214497566223,
+            0.7724882364273071,
+            0.770984947681427,
+            0.7687722444534302,
+            0.7546690702438354,
+            0.7540428638458252,
+            0.7537990808486938
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when do you pray the chaplet of divine mercy\n\nDocuments:\n\ndoc24197: Chaplet of the Divine Mercy. This prayer opens each decade of the Chaplet:\n\ndoc24201: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, concludes the Chaplet:\n\ndoc24193: Chaplet of the Divine Mercy. This prayer is optional, and may be used to begin the Chaplet:\n\ndoc24203: Chaplet of the Divine Mercy. This prayer is optional, and may be used after the Holy God to end the Chaplet:\n\ndoc24190: Chaplet of the Divine Mercy. According to Roman Catholic tradition, the chaplet may be said at any time, but it is said especially on Divine Mercy Sunday and Fridays at 3:00 PM. The Chaplet is prayed daily at the National Shrine of The Divine Mercy in Stockbridge, Massachusetts. In the Philippines, Singapore, and Hong Kong the \"3 o'clock Prayer\" is broadcast on radio and television stations daily at 3:00 p.m. In 2000, Pope John Paul II ordained the Sunday after Easter Divine Mercy Sunday, where Roman Catholics remember the institution of the Sacrament of Penance. The hour Jesus died by crucifixion, 3:00 PM (15:00), is called the Hour of Mercy. In a novena, the chaplet is usually said each of the nine days from Good Friday to Divine Mercy Sunday.\n\ndoc24184: Chaplet of the Divine Mercy. Faustina stated that she received the prayer through visions and conversations with Jesus, who made specific promises regarding the recitation of the prayers.[2] Her Vatican biography quotes some of these conversations.[4]\n\ndoc24187: Chaplet of the Divine Mercy. According to Faustina's visions, written in her diary, the chaplet's prayers for mercy are threefold: to obtain mercy, to trust in Christ's mercy, and to show mercy to others.[6][10][11] Faustina wrote that Jesus promised that all who recite this chaplet at the hour of death or in the presence of the dying will receive great mercy. She wrote that Jesus said:\n\ndoc24195: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, is also optional, and may be used along with the first opening prayer to begin the Chaplet:\n\ndoc24200: Chaplet of the Divine Mercy. For the sake of His sorrowful Passion, have mercy on us and on the whole world.[14]\n\ndoc24199: Chaplet of the Divine Mercy. This prayer, repeated 10 times in succession, forms the body of each decade of the Chaplet:\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: when do you pray the chaplet of divine mercy\n\nDocuments:\n\ndoc24190: Chaplet of the Divine Mercy. According to Roman Catholic tradition, the chaplet may be said at any time, but it is said especially on Divine Mercy Sunday and Fridays at 3:00 PM. The Chaplet is prayed daily at the National Shrine of The Divine Mercy in Stockbridge, Massachusetts. In the Philippines, Singapore, and Hong Kong the \"3 o'clock Prayer\" is broadcast on radio and television stations daily at 3:00 p.m. In 2000, Pope John Paul II ordained the Sunday after Easter Divine Mercy Sunday, where Roman Catholics remember the institution of the Sacrament of Penance. The hour Jesus died by crucifixion, 3:00 PM (15:00), is called the Hour of Mercy. In a novena, the chaplet is usually said each of the nine days from Good Friday to Divine Mercy Sunday.\n\ndoc24187: Chaplet of the Divine Mercy. According to Faustina's visions, written in her diary, the chaplet's prayers for mercy are threefold: to obtain mercy, to trust in Christ's mercy, and to show mercy to others.[6][10][11] Faustina wrote that Jesus promised that all who recite this chaplet at the hour of death or in the presence of the dying will receive great mercy. She wrote that Jesus said:\n\ndoc24197: Chaplet of the Divine Mercy. This prayer opens each decade of the Chaplet:\n\ndoc24201: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, concludes the Chaplet:\n\ndoc24193: Chaplet of the Divine Mercy. This prayer is optional, and may be used to begin the Chaplet:\n\ndoc24203: Chaplet of the Divine Mercy. This prayer is optional, and may be used after the Holy God to end the Chaplet:\n\ndoc24195: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, is also optional, and may be used along with the first opening prayer to begin the Chaplet:\n\ndoc24199: Chaplet of the Divine Mercy. This prayer, repeated 10 times in succession, forms the body of each decade of the Chaplet:\n\ndoc24200: Chaplet of the Divine Mercy. For the sake of His sorrowful Passion, have mercy on us and on the whole world.[14]\n\ndoc24184: Chaplet of the Divine Mercy. Faustina stated that she received the prayer through visions and conversations with Jesus, who made specific promises regarding the recitation of the prayers.[2] Her Vatican biography quotes some of these conversations.[4]\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\"doc24190\", \"doc24187\", \"doc24197\", \"doc24201\", \"doc24193\", \"doc24203\", \"doc24195\", \"doc24199\", \"doc24200\", \"doc24184\"]\nprint(doc_ids)\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc24190",
+        "doc24187",
+        "doc24197",
+        "doc24201",
+        "doc24193",
+        "doc24203",
+        "doc24195",
+        "doc24199",
+        "doc24200",
+        "doc24184"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "when do you pray the chaplet of divine mercy"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "when do you pray the chaplet of divine mercy"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc24197",
+                    "doc24201",
+                    "doc24193",
+                    "doc24203",
+                    "doc24190",
+                    "doc24184",
+                    "doc24187",
+                    "doc24195",
+                    "doc24200",
+                    "doc24199"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.797616720199585,
+                    0.7906069755554199,
+                    0.7741933465003967,
+                    0.7733214497566223,
+                    0.7724882364273071,
+                    0.770984947681427,
+                    0.7687722444534302,
+                    0.7546690702438354,
+                    0.7540428638458252,
+                    0.7537990808486938
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "when do you pray the chaplet of divine mercy"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc24197",
+                    "doc24201",
+                    "doc24193",
+                    "doc24203",
+                    "doc24190",
+                    "doc24184",
+                    "doc24187",
+                    "doc24195",
+                    "doc24200",
+                    "doc24199"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.797616720199585,
+                    0.7906069755554199,
+                    0.7741933465003967,
+                    0.7733214497566223,
+                    0.7724882364273071,
+                    0.770984947681427,
+                    0.7687722444534302,
+                    0.7546690702438354,
+                    0.7540428638458252,
+                    0.7537990808486938
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when do you pray the chaplet of divine mercy\n\nDocuments:\n\ndoc24197: Chaplet of the Divine Mercy. This prayer opens each decade of the Chaplet:\n\ndoc24201: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, concludes the Chaplet:\n\ndoc24193: Chaplet of the Divine Mercy. This prayer is optional, and may be used to begin the Chaplet:\n\ndoc24203: Chaplet of the Divine Mercy. This prayer is optional, and may be used after the Holy God to end the Chaplet:\n\ndoc24190: Chaplet of the Divine Mercy. According to Roman Catholic tradition, the chaplet may be said at any time, but it is said especially on Divine Mercy Sunday and Fridays at 3:00 PM. The Chaplet is prayed daily at the National Shrine of The Divine Mercy in Stockbridge, Massachusetts. In the Philippines, Singapore, and Hong Kong the \"3 o'clock Prayer\" is broadcast on radio and television stations daily at 3:00 p.m. In 2000, Pope John Paul II ordained the Sunday after Easter Divine Mercy Sunday, where Roman Catholics remember the institution of the Sacrament of Penance. The hour Jesus died by crucifixion, 3:00 PM (15:00), is called the Hour of Mercy. In a novena, the chaplet is usually said each of the nine days from Good Friday to Divine Mercy Sunday.\n\ndoc24184: Chaplet of the Divine Mercy. Faustina stated that she received the prayer through visions and conversations with Jesus, who made specific promises regarding the recitation of the prayers.[2] Her Vatican biography quotes some of these conversations.[4]\n\ndoc24187: Chaplet of the Divine Mercy. According to Faustina's visions, written in her diary, the chaplet's prayers for mercy are threefold: to obtain mercy, to trust in Christ's mercy, and to show mercy to others.[6][10][11] Faustina wrote that Jesus promised that all who recite this chaplet at the hour of death or in the presence of the dying will receive great mercy. She wrote that Jesus said:\n\ndoc24195: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, is also optional, and may be used along with the first opening prayer to begin the Chaplet:\n\ndoc24200: Chaplet of the Divine Mercy. For the sake of His sorrowful Passion, have mercy on us and on the whole world.[14]\n\ndoc24199: Chaplet of the Divine Mercy. This prayer, repeated 10 times in succession, forms the body of each decade of the Chaplet:\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"doc24190\", \"doc24187\", \"doc24197\", \"doc24201\", \"doc24193\", \"doc24203\", \"doc24195\", \"doc24199\", \"doc24200\", \"doc24184\"]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc24190",
+                "doc24187",
+                "doc24197",
+                "doc24201",
+                "doc24193",
+                "doc24203",
+                "doc24195",
+                "doc24199",
+                "doc24200",
+                "doc24184"
+            ]
+        },
+        {
+            "queries": [
+                "when do you pray the chaplet of divine mercy"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc24197",
+                    "doc24201",
+                    "doc24193",
+                    "doc24203",
+                    "doc24190",
+                    "doc24184",
+                    "doc24187",
+                    "doc24195",
+                    "doc24200",
+                    "doc24199"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.797616720199585,
+                    0.7906069755554199,
+                    0.7741933465003967,
+                    0.7733214497566223,
+                    0.7724882364273071,
+                    0.770984947681427,
+                    0.7687722444534302,
+                    0.7546690702438354,
+                    0.7540428638458252,
+                    0.7537990808486938
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when do you pray the chaplet of divine mercy\n\nDocuments:\n\ndoc24197: Chaplet of the Divine Mercy. This prayer opens each decade of the Chaplet:\n\ndoc24201: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, concludes the Chaplet:\n\ndoc24193: Chaplet of the Divine Mercy. This prayer is optional, and may be used to begin the Chaplet:\n\ndoc24203: Chaplet of the Divine Mercy. This prayer is optional, and may be used after the Holy God to end the Chaplet:\n\ndoc24190: Chaplet of the Divine Mercy. According to Roman Catholic tradition, the chaplet may be said at any time, but it is said especially on Divine Mercy Sunday and Fridays at 3:00 PM. The Chaplet is prayed daily at the National Shrine of The Divine Mercy in Stockbridge, Massachusetts. In the Philippines, Singapore, and Hong Kong the \"3 o'clock Prayer\" is broadcast on radio and television stations daily at 3:00 p.m. In 2000, Pope John Paul II ordained the Sunday after Easter Divine Mercy Sunday, where Roman Catholics remember the institution of the Sacrament of Penance. The hour Jesus died by crucifixion, 3:00 PM (15:00), is called the Hour of Mercy. In a novena, the chaplet is usually said each of the nine days from Good Friday to Divine Mercy Sunday.\n\ndoc24184: Chaplet of the Divine Mercy. Faustina stated that she received the prayer through visions and conversations with Jesus, who made specific promises regarding the recitation of the prayers.[2] Her Vatican biography quotes some of these conversations.[4]\n\ndoc24187: Chaplet of the Divine Mercy. According to Faustina's visions, written in her diary, the chaplet's prayers for mercy are threefold: to obtain mercy, to trust in Christ's mercy, and to show mercy to others.[6][10][11] Faustina wrote that Jesus promised that all who recite this chaplet at the hour of death or in the presence of the dying will receive great mercy. She wrote that Jesus said:\n\ndoc24195: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, is also optional, and may be used along with the first opening prayer to begin the Chaplet:\n\ndoc24200: Chaplet of the Divine Mercy. For the sake of His sorrowful Passion, have mercy on us and on the whole world.[14]\n\ndoc24199: Chaplet of the Divine Mercy. This prayer, repeated 10 times in succession, forms the body of each decade of the Chaplet:\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"doc24190\", \"doc24187\", \"doc24197\", \"doc24201\", \"doc24193\", \"doc24203\", \"doc24195\", \"doc24199\", \"doc24200\", \"doc24184\"]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc24190",
+                "doc24187",
+                "doc24197",
+                "doc24201",
+                "doc24193",
+                "doc24203",
+                "doc24195",
+                "doc24199",
+                "doc24200",
+                "doc24184"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "when do you pray the chaplet of divine mercy"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc24197",
+                    "doc24201",
+                    "doc24193",
+                    "doc24203",
+                    "doc24190",
+                    "doc24184",
+                    "doc24187",
+                    "doc24195",
+                    "doc24200",
+                    "doc24199"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.797616720199585,
+                    0.7906069755554199,
+                    0.7741933465003967,
+                    0.7733214497566223,
+                    0.7724882364273071,
+                    0.770984947681427,
+                    0.7687722444534302,
+                    0.7546690702438354,
+                    0.7540428638458252,
+                    0.7537990808486938
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when do you pray the chaplet of divine mercy\n\nDocuments:\n\ndoc24197: Chaplet of the Divine Mercy. This prayer opens each decade of the Chaplet:\n\ndoc24201: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, concludes the Chaplet:\n\ndoc24193: Chaplet of the Divine Mercy. This prayer is optional, and may be used to begin the Chaplet:\n\ndoc24203: Chaplet of the Divine Mercy. This prayer is optional, and may be used after the Holy God to end the Chaplet:\n\ndoc24190: Chaplet of the Divine Mercy. According to Roman Catholic tradition, the chaplet may be said at any time, but it is said especially on Divine Mercy Sunday and Fridays at 3:00 PM. The Chaplet is prayed daily at the National Shrine of The Divine Mercy in Stockbridge, Massachusetts. In the Philippines, Singapore, and Hong Kong the \"3 o'clock Prayer\" is broadcast on radio and television stations daily at 3:00 p.m. In 2000, Pope John Paul II ordained the Sunday after Easter Divine Mercy Sunday, where Roman Catholics remember the institution of the Sacrament of Penance. The hour Jesus died by crucifixion, 3:00 PM (15:00), is called the Hour of Mercy. In a novena, the chaplet is usually said each of the nine days from Good Friday to Divine Mercy Sunday.\n\ndoc24184: Chaplet of the Divine Mercy. Faustina stated that she received the prayer through visions and conversations with Jesus, who made specific promises regarding the recitation of the prayers.[2] Her Vatican biography quotes some of these conversations.[4]\n\ndoc24187: Chaplet of the Divine Mercy. According to Faustina's visions, written in her diary, the chaplet's prayers for mercy are threefold: to obtain mercy, to trust in Christ's mercy, and to show mercy to others.[6][10][11] Faustina wrote that Jesus promised that all who recite this chaplet at the hour of death or in the presence of the dying will receive great mercy. She wrote that Jesus said:\n\ndoc24195: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, is also optional, and may be used along with the first opening prayer to begin the Chaplet:\n\ndoc24200: Chaplet of the Divine Mercy. For the sake of His sorrowful Passion, have mercy on us and on the whole world.[14]\n\ndoc24199: Chaplet of the Divine Mercy. This prayer, repeated 10 times in succession, forms the body of each decade of the Chaplet:\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: when do you pray the chaplet of divine mercy\n\nDocuments:\n\ndoc24190: Chaplet of the Divine Mercy. According to Roman Catholic tradition, the chaplet may be said at any time, but it is said especially on Divine Mercy Sunday and Fridays at 3:00 PM. The Chaplet is prayed daily at the National Shrine of The Divine Mercy in Stockbridge, Massachusetts. In the Philippines, Singapore, and Hong Kong the \"3 o'clock Prayer\" is broadcast on radio and television stations daily at 3:00 p.m. In 2000, Pope John Paul II ordained the Sunday after Easter Divine Mercy Sunday, where Roman Catholics remember the institution of the Sacrament of Penance. The hour Jesus died by crucifixion, 3:00 PM (15:00), is called the Hour of Mercy. In a novena, the chaplet is usually said each of the nine days from Good Friday to Divine Mercy Sunday.\n\ndoc24187: Chaplet of the Divine Mercy. According to Faustina's visions, written in her diary, the chaplet's prayers for mercy are threefold: to obtain mercy, to trust in Christ's mercy, and to show mercy to others.[6][10][11] Faustina wrote that Jesus promised that all who recite this chaplet at the hour of death or in the presence of the dying will receive great mercy. She wrote that Jesus said:\n\ndoc24197: Chaplet of the Divine Mercy. This prayer opens each decade of the Chaplet:\n\ndoc24201: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, concludes the Chaplet:\n\ndoc24193: Chaplet of the Divine Mercy. This prayer is optional, and may be used to begin the Chaplet:\n\ndoc24203: Chaplet of the Divine Mercy. This prayer is optional, and may be used after the Holy God to end the Chaplet:\n\ndoc24195: Chaplet of the Divine Mercy. This prayer, repeated three times in succession, is also optional, and may be used along with the first opening prayer to begin the Chaplet:\n\ndoc24199: Chaplet of the Divine Mercy. This prayer, repeated 10 times in succession, forms the body of each decade of the Chaplet:\n\ndoc24200: Chaplet of the Divine Mercy. For the sake of His sorrowful Passion, have mercy on us and on the whole world.[14]\n\ndoc24184: Chaplet of the Divine Mercy. Faustina stated that she received the prayer through visions and conversations with Jesus, who made specific promises regarding the recitation of the prayers.[2] Her Vatican biography quotes some of these conversations.[4]\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"doc24190\", \"doc24187\", \"doc24197\", \"doc24201\", \"doc24193\", \"doc24203\", \"doc24195\", \"doc24199\", \"doc24200\", \"doc24184\"]\nprint(doc_ids)\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc24190",
+                "doc24187",
+                "doc24197",
+                "doc24201",
+                "doc24193",
+                "doc24203",
+                "doc24195",
+                "doc24199",
+                "doc24200",
+                "doc24184"
+            ],
+            "terminate": true
+        }
+    ]
+}

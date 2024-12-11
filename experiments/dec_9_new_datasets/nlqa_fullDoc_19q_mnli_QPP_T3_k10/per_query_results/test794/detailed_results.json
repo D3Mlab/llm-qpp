@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "who is given credit for the gnu initiative"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc1443843",
+            "doc1443799",
+            "doc681437",
+            "doc28253",
+            "doc681436",
+            "doc1443808",
+            "doc1443825",
+            "doc1443893",
+            "doc1443790",
+            "doc1443803"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.5632089376449585,
+            0.5521977543830872,
+            0.5449029207229614,
+            0.5432730913162231,
+            0.5366368889808655,
+            0.5357955694198608,
+            0.5324931144714355,
+            0.5287355184555054,
+            0.5249161720275879,
+            0.5243027210235596
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who is given credit for the gnu initiative\n\nDocuments:\n\ndoc1443843: GNU General Public License. You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of Section 4, provided that you also meet all of these conditions:\u00c2\u00a0...\n\ndoc1443799: GNU General Public License. The public consultation process was coordinated by the Free Software Foundation with assistance from Software Freedom Law Center, Free Software Foundation Europe,[31] and other free software groups. Comments were collected from the public via the gplv3.fsf.org web portal,[32] using purpose-written software called stet.\n\ndoc681437: History of free and open-source software. In 1989, the first version of the GNU General Public License was published.[26] A slightly updated version 2 was published in 1991. In 1989, some GNU developers formed the company Cygnus Solutions.[27] The GNU project's kernel, later called \"GNU Hurd\", was continually delayed, but most other components were completed by 1991. Some of these, especially the GNU Compiler Collection, had become market leaders[clarification needed] in their own right. The GNU Debugger and GNU Emacs were also notable successes.\n\ndoc28253: GNU/Linux naming controversy. So if you were going to pick a name for the system based on who wrote the programs in the system, the most appropriate single choice would be GNU. But we don't think that is the right way to consider the question. The GNU Project was not, is not, a project to develop specific software packages. [...] Many people have made major contributions to the free software in the system, and they all deserve credit. But the reason it is an integrated system\u2014and not just a collection of useful programs\u2014is because the GNU Project set out to make it one. We made a list of the programs needed to make a complete free system, and we systematically wrote, or found people to write, everything on the list.\n\ndoc681436: History of free and open-source software. In 1983, Richard Stallman launched the GNU Project to write a complete operating system free from constraints on use of its source code. Particular incidents that motivated this include a case where an annoying printer couldn't be fixed because the source code was withheld from users.[24] Stallman also published the GNU Manifesto in 1985 to outline the GNU Project's purpose and explain the importance of free software. Another probable inspiration for the GNU project and its manifesto was a disagreement between Stallman and Symbolics, Inc. over MIT's access to updates Symbolics had made to its Lisp machine, which was based on MIT code.[25] Soon after the launch, he[17] used[clarification needed] the existing term \"free software\" and founded the Free Software Foundation to promote the concept. The Free Software Definition was published in February 1986.\n\ndoc1443808: GNU General Public License. The final version of the license text was published on 29 June 2007.[52]\n\ndoc1443825: GNU General Public License. In April 2017 a US federal court ruled that an open-source license is an enforceable contract.[64]\n\ndoc1443893: GNU General Public License. In 2009 David Chisnall described in an InformIT article, \"The Failure of the GPL\", the problems with the GPL, among them incompatibility and complexity of the license text.[174]\n\ndoc1443790: GNU General Public License. Version 3 was developed to attempt to address these concerns and was officially released on 29 June 2007.[20]\n\ndoc1443803: GNU General Public License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license\u00c2\u00a0...\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: who is given credit for the gnu initiative\n\nDocuments:\n\ndoc681436: History of free and open-source software. In 1983, Richard Stallman launched the GNU Project to write a complete operating system free from constraints on use of its source code. Particular incidents that motivated this include a case where an annoying printer couldn't be fixed because the source code was withheld from users.[24] Stallman also published the GNU Manifesto in 1985 to outline the GNU Project's purpose and explain the importance of free software. Another probable inspiration for the GNU project and its manifesto was a disagreement between Stallman and Symbolics, Inc. over MIT's access to updates Symbolics had made to its Lisp machine, which was based on MIT code.[25] Soon after the launch, he[17] used[clarification needed] the existing term \"free software\" and founded the Free Software Foundation to promote the concept. The Free Software Definition was published in February 1986.\n\ndoc28253: GNU/Linux naming controversy. So if you were going to pick a name for the system based on who wrote the programs in the system, the most appropriate single choice would be GNU. But we don't think that is the right way to consider the question. The GNU Project was not, is not, a project to develop specific software packages. [...] Many people have made major contributions to the free software in the system, and they all deserve credit. But the reason it is an integrated system\u2014and not just a collection of useful programs\u2014is because the GNU Project set out to make it one. We made a list of the programs needed to make a complete free system, and we systematically wrote, or found people to write, everything on the list.\n\ndoc681437: History of free and open-source software. In 1989, the first version of the GNU General Public License was published.[26] A slightly updated version 2 was published in 1991. In 1989, some GNU developers formed the company Cygnus Solutions.[27] The GNU project's kernel, later called \"GNU Hurd\", was continually delayed, but most other components were completed by 1991. Some of these, especially the GNU Compiler Collection, had become market leaders[clarification needed] in their own right. The GNU Debugger and GNU Emacs were also notable successes.\n\ndoc1443799: GNU General Public License. The public consultation process was coordinated by the Free Software Foundation with assistance from Software Freedom Law Center, Free Software Foundation Europe,[31] and other free software groups. Comments were collected from the public via the gplv3.fsf.org web portal,[32] using purpose-written software called stet.\n\ndoc1443843: GNU General Public License. You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of Section 4, provided that you also meet all of these conditions:\u00c2\u00a0...\n\ndoc1443808: GNU General Public License. The final version of the license text was published on 29 June 2007.[52]\n\ndoc1443790: GNU General Public License. Version 3 was developed to attempt to address these concerns and was officially released on 29 June 2007.[20]\n\ndoc1443825: GNU General Public License. In April 2017 a US federal court ruled that an open-source license is an enforceable contract.[64]\n\ndoc1443893: GNU General Public License. In 2009 David Chisnall described in an InformIT article, \"The Failure of the GPL\", the problems with the GPL, among them incompatibility and complexity of the license text.[174]\n\ndoc1443803: GNU General Public License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license\u00c2\u00a0...\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_order = [\"doc681436\", \"doc28253\", \"doc681437\", \"doc1443799\", \"doc1443843\", \"doc1443808\", \"doc1443790\", \"doc1443825\", \"doc1443893\", \"doc1443803\"]\nprint(doc_order)\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc681436",
+        "doc28253",
+        "doc681437",
+        "doc1443799",
+        "doc1443843",
+        "doc1443808",
+        "doc1443790",
+        "doc1443825",
+        "doc1443893",
+        "doc1443803"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "who is given credit for the gnu initiative"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "who is given credit for the gnu initiative"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc1443843",
+                    "doc1443799",
+                    "doc681437",
+                    "doc28253",
+                    "doc681436",
+                    "doc1443808",
+                    "doc1443825",
+                    "doc1443893",
+                    "doc1443790",
+                    "doc1443803"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5632089376449585,
+                    0.5521977543830872,
+                    0.5449029207229614,
+                    0.5432730913162231,
+                    0.5366368889808655,
+                    0.5357955694198608,
+                    0.5324931144714355,
+                    0.5287355184555054,
+                    0.5249161720275879,
+                    0.5243027210235596
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "who is given credit for the gnu initiative"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc1443843",
+                    "doc1443799",
+                    "doc681437",
+                    "doc28253",
+                    "doc681436",
+                    "doc1443808",
+                    "doc1443825",
+                    "doc1443893",
+                    "doc1443790",
+                    "doc1443803"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5632089376449585,
+                    0.5521977543830872,
+                    0.5449029207229614,
+                    0.5432730913162231,
+                    0.5366368889808655,
+                    0.5357955694198608,
+                    0.5324931144714355,
+                    0.5287355184555054,
+                    0.5249161720275879,
+                    0.5243027210235596
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who is given credit for the gnu initiative\n\nDocuments:\n\ndoc1443843: GNU General Public License. You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of Section 4, provided that you also meet all of these conditions:\u00c2\u00a0...\n\ndoc1443799: GNU General Public License. The public consultation process was coordinated by the Free Software Foundation with assistance from Software Freedom Law Center, Free Software Foundation Europe,[31] and other free software groups. Comments were collected from the public via the gplv3.fsf.org web portal,[32] using purpose-written software called stet.\n\ndoc681437: History of free and open-source software. In 1989, the first version of the GNU General Public License was published.[26] A slightly updated version 2 was published in 1991. In 1989, some GNU developers formed the company Cygnus Solutions.[27] The GNU project's kernel, later called \"GNU Hurd\", was continually delayed, but most other components were completed by 1991. Some of these, especially the GNU Compiler Collection, had become market leaders[clarification needed] in their own right. The GNU Debugger and GNU Emacs were also notable successes.\n\ndoc28253: GNU/Linux naming controversy. So if you were going to pick a name for the system based on who wrote the programs in the system, the most appropriate single choice would be GNU. But we don't think that is the right way to consider the question. The GNU Project was not, is not, a project to develop specific software packages. [...] Many people have made major contributions to the free software in the system, and they all deserve credit. But the reason it is an integrated system\u2014and not just a collection of useful programs\u2014is because the GNU Project set out to make it one. We made a list of the programs needed to make a complete free system, and we systematically wrote, or found people to write, everything on the list.\n\ndoc681436: History of free and open-source software. In 1983, Richard Stallman launched the GNU Project to write a complete operating system free from constraints on use of its source code. Particular incidents that motivated this include a case where an annoying printer couldn't be fixed because the source code was withheld from users.[24] Stallman also published the GNU Manifesto in 1985 to outline the GNU Project's purpose and explain the importance of free software. Another probable inspiration for the GNU project and its manifesto was a disagreement between Stallman and Symbolics, Inc. over MIT's access to updates Symbolics had made to its Lisp machine, which was based on MIT code.[25] Soon after the launch, he[17] used[clarification needed] the existing term \"free software\" and founded the Free Software Foundation to promote the concept. The Free Software Definition was published in February 1986.\n\ndoc1443808: GNU General Public License. The final version of the license text was published on 29 June 2007.[52]\n\ndoc1443825: GNU General Public License. In April 2017 a US federal court ruled that an open-source license is an enforceable contract.[64]\n\ndoc1443893: GNU General Public License. In 2009 David Chisnall described in an InformIT article, \"The Failure of the GPL\", the problems with the GPL, among them incompatibility and complexity of the license text.[174]\n\ndoc1443790: GNU General Public License. Version 3 was developed to attempt to address these concerns and was officially released on 29 June 2007.[20]\n\ndoc1443803: GNU General Public License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license\u00c2\u00a0...\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\"doc681436\", \"doc28253\", \"doc681437\", \"doc1443799\", \"doc1443843\", \"doc1443808\", \"doc1443790\", \"doc1443825\", \"doc1443893\", \"doc1443803\"]\nprint(doc_order)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc681436",
+                "doc28253",
+                "doc681437",
+                "doc1443799",
+                "doc1443843",
+                "doc1443808",
+                "doc1443790",
+                "doc1443825",
+                "doc1443893",
+                "doc1443803"
+            ]
+        },
+        {
+            "queries": [
+                "who is given credit for the gnu initiative"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc1443843",
+                    "doc1443799",
+                    "doc681437",
+                    "doc28253",
+                    "doc681436",
+                    "doc1443808",
+                    "doc1443825",
+                    "doc1443893",
+                    "doc1443790",
+                    "doc1443803"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5632089376449585,
+                    0.5521977543830872,
+                    0.5449029207229614,
+                    0.5432730913162231,
+                    0.5366368889808655,
+                    0.5357955694198608,
+                    0.5324931144714355,
+                    0.5287355184555054,
+                    0.5249161720275879,
+                    0.5243027210235596
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who is given credit for the gnu initiative\n\nDocuments:\n\ndoc1443843: GNU General Public License. You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of Section 4, provided that you also meet all of these conditions:\u00c2\u00a0...\n\ndoc1443799: GNU General Public License. The public consultation process was coordinated by the Free Software Foundation with assistance from Software Freedom Law Center, Free Software Foundation Europe,[31] and other free software groups. Comments were collected from the public via the gplv3.fsf.org web portal,[32] using purpose-written software called stet.\n\ndoc681437: History of free and open-source software. In 1989, the first version of the GNU General Public License was published.[26] A slightly updated version 2 was published in 1991. In 1989, some GNU developers formed the company Cygnus Solutions.[27] The GNU project's kernel, later called \"GNU Hurd\", was continually delayed, but most other components were completed by 1991. Some of these, especially the GNU Compiler Collection, had become market leaders[clarification needed] in their own right. The GNU Debugger and GNU Emacs were also notable successes.\n\ndoc28253: GNU/Linux naming controversy. So if you were going to pick a name for the system based on who wrote the programs in the system, the most appropriate single choice would be GNU. But we don't think that is the right way to consider the question. The GNU Project was not, is not, a project to develop specific software packages. [...] Many people have made major contributions to the free software in the system, and they all deserve credit. But the reason it is an integrated system\u2014and not just a collection of useful programs\u2014is because the GNU Project set out to make it one. We made a list of the programs needed to make a complete free system, and we systematically wrote, or found people to write, everything on the list.\n\ndoc681436: History of free and open-source software. In 1983, Richard Stallman launched the GNU Project to write a complete operating system free from constraints on use of its source code. Particular incidents that motivated this include a case where an annoying printer couldn't be fixed because the source code was withheld from users.[24] Stallman also published the GNU Manifesto in 1985 to outline the GNU Project's purpose and explain the importance of free software. Another probable inspiration for the GNU project and its manifesto was a disagreement between Stallman and Symbolics, Inc. over MIT's access to updates Symbolics had made to its Lisp machine, which was based on MIT code.[25] Soon after the launch, he[17] used[clarification needed] the existing term \"free software\" and founded the Free Software Foundation to promote the concept. The Free Software Definition was published in February 1986.\n\ndoc1443808: GNU General Public License. The final version of the license text was published on 29 June 2007.[52]\n\ndoc1443825: GNU General Public License. In April 2017 a US federal court ruled that an open-source license is an enforceable contract.[64]\n\ndoc1443893: GNU General Public License. In 2009 David Chisnall described in an InformIT article, \"The Failure of the GPL\", the problems with the GPL, among them incompatibility and complexity of the license text.[174]\n\ndoc1443790: GNU General Public License. Version 3 was developed to attempt to address these concerns and was officially released on 29 June 2007.[20]\n\ndoc1443803: GNU General Public License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license\u00c2\u00a0...\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\"doc681436\", \"doc28253\", \"doc681437\", \"doc1443799\", \"doc1443843\", \"doc1443808\", \"doc1443790\", \"doc1443825\", \"doc1443893\", \"doc1443803\"]\nprint(doc_order)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc681436",
+                "doc28253",
+                "doc681437",
+                "doc1443799",
+                "doc1443843",
+                "doc1443808",
+                "doc1443790",
+                "doc1443825",
+                "doc1443893",
+                "doc1443803"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "who is given credit for the gnu initiative"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc1443843",
+                    "doc1443799",
+                    "doc681437",
+                    "doc28253",
+                    "doc681436",
+                    "doc1443808",
+                    "doc1443825",
+                    "doc1443893",
+                    "doc1443790",
+                    "doc1443803"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.5632089376449585,
+                    0.5521977543830872,
+                    0.5449029207229614,
+                    0.5432730913162231,
+                    0.5366368889808655,
+                    0.5357955694198608,
+                    0.5324931144714355,
+                    0.5287355184555054,
+                    0.5249161720275879,
+                    0.5243027210235596
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: who is given credit for the gnu initiative\n\nDocuments:\n\ndoc1443843: GNU General Public License. You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of Section 4, provided that you also meet all of these conditions:\u00c2\u00a0...\n\ndoc1443799: GNU General Public License. The public consultation process was coordinated by the Free Software Foundation with assistance from Software Freedom Law Center, Free Software Foundation Europe,[31] and other free software groups. Comments were collected from the public via the gplv3.fsf.org web portal,[32] using purpose-written software called stet.\n\ndoc681437: History of free and open-source software. In 1989, the first version of the GNU General Public License was published.[26] A slightly updated version 2 was published in 1991. In 1989, some GNU developers formed the company Cygnus Solutions.[27] The GNU project's kernel, later called \"GNU Hurd\", was continually delayed, but most other components were completed by 1991. Some of these, especially the GNU Compiler Collection, had become market leaders[clarification needed] in their own right. The GNU Debugger and GNU Emacs were also notable successes.\n\ndoc28253: GNU/Linux naming controversy. So if you were going to pick a name for the system based on who wrote the programs in the system, the most appropriate single choice would be GNU. But we don't think that is the right way to consider the question. The GNU Project was not, is not, a project to develop specific software packages. [...] Many people have made major contributions to the free software in the system, and they all deserve credit. But the reason it is an integrated system\u2014and not just a collection of useful programs\u2014is because the GNU Project set out to make it one. We made a list of the programs needed to make a complete free system, and we systematically wrote, or found people to write, everything on the list.\n\ndoc681436: History of free and open-source software. In 1983, Richard Stallman launched the GNU Project to write a complete operating system free from constraints on use of its source code. Particular incidents that motivated this include a case where an annoying printer couldn't be fixed because the source code was withheld from users.[24] Stallman also published the GNU Manifesto in 1985 to outline the GNU Project's purpose and explain the importance of free software. Another probable inspiration for the GNU project and its manifesto was a disagreement between Stallman and Symbolics, Inc. over MIT's access to updates Symbolics had made to its Lisp machine, which was based on MIT code.[25] Soon after the launch, he[17] used[clarification needed] the existing term \"free software\" and founded the Free Software Foundation to promote the concept. The Free Software Definition was published in February 1986.\n\ndoc1443808: GNU General Public License. The final version of the license text was published on 29 June 2007.[52]\n\ndoc1443825: GNU General Public License. In April 2017 a US federal court ruled that an open-source license is an enforceable contract.[64]\n\ndoc1443893: GNU General Public License. In 2009 David Chisnall described in an InformIT article, \"The Failure of the GPL\", the problems with the GPL, among them incompatibility and complexity of the license text.[174]\n\ndoc1443790: GNU General Public License. Version 3 was developed to attempt to address these concerns and was officially released on 29 June 2007.[20]\n\ndoc1443803: GNU General Public License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license\u00c2\u00a0...\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: who is given credit for the gnu initiative\n\nDocuments:\n\ndoc681436: History of free and open-source software. In 1983, Richard Stallman launched the GNU Project to write a complete operating system free from constraints on use of its source code. Particular incidents that motivated this include a case where an annoying printer couldn't be fixed because the source code was withheld from users.[24] Stallman also published the GNU Manifesto in 1985 to outline the GNU Project's purpose and explain the importance of free software. Another probable inspiration for the GNU project and its manifesto was a disagreement between Stallman and Symbolics, Inc. over MIT's access to updates Symbolics had made to its Lisp machine, which was based on MIT code.[25] Soon after the launch, he[17] used[clarification needed] the existing term \"free software\" and founded the Free Software Foundation to promote the concept. The Free Software Definition was published in February 1986.\n\ndoc28253: GNU/Linux naming controversy. So if you were going to pick a name for the system based on who wrote the programs in the system, the most appropriate single choice would be GNU. But we don't think that is the right way to consider the question. The GNU Project was not, is not, a project to develop specific software packages. [...] Many people have made major contributions to the free software in the system, and they all deserve credit. But the reason it is an integrated system\u2014and not just a collection of useful programs\u2014is because the GNU Project set out to make it one. We made a list of the programs needed to make a complete free system, and we systematically wrote, or found people to write, everything on the list.\n\ndoc681437: History of free and open-source software. In 1989, the first version of the GNU General Public License was published.[26] A slightly updated version 2 was published in 1991. In 1989, some GNU developers formed the company Cygnus Solutions.[27] The GNU project's kernel, later called \"GNU Hurd\", was continually delayed, but most other components were completed by 1991. Some of these, especially the GNU Compiler Collection, had become market leaders[clarification needed] in their own right. The GNU Debugger and GNU Emacs were also notable successes.\n\ndoc1443799: GNU General Public License. The public consultation process was coordinated by the Free Software Foundation with assistance from Software Freedom Law Center, Free Software Foundation Europe,[31] and other free software groups. Comments were collected from the public via the gplv3.fsf.org web portal,[32] using purpose-written software called stet.\n\ndoc1443843: GNU General Public License. You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of Section 4, provided that you also meet all of these conditions:\u00c2\u00a0...\n\ndoc1443808: GNU General Public License. The final version of the license text was published on 29 June 2007.[52]\n\ndoc1443790: GNU General Public License. Version 3 was developed to attempt to address these concerns and was officially released on 29 June 2007.[20]\n\ndoc1443825: GNU General Public License. In April 2017 a US federal court ruled that an open-source license is an enforceable contract.[64]\n\ndoc1443893: GNU General Public License. In 2009 David Chisnall described in an InformIT article, \"The Failure of the GPL\", the problems with the GPL, among them incompatibility and complexity of the license text.[174]\n\ndoc1443803: GNU General Public License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license\u00c2\u00a0...\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\"doc681436\", \"doc28253\", \"doc681437\", \"doc1443799\", \"doc1443843\", \"doc1443808\", \"doc1443790\", \"doc1443825\", \"doc1443893\", \"doc1443803\"]\nprint(doc_order)\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc681436",
+                "doc28253",
+                "doc681437",
+                "doc1443799",
+                "doc1443843",
+                "doc1443808",
+                "doc1443790",
+                "doc1443825",
+                "doc1443893",
+                "doc1443803"
+            ],
+            "terminate": true
+        }
+    ]
+}

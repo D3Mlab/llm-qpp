@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "where does the white witch live in narnia"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc62364",
+            "doc797849",
+            "doc62362",
+            "doc62366",
+            "doc62363",
+            "doc62379",
+            "doc62367",
+            "doc62365",
+            "doc62357",
+            "doc62382"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.8037166595458984,
+            0.7780544757843018,
+            0.7646046280860901,
+            0.7576746940612793,
+            0.7499697208404541,
+            0.7395856976509094,
+            0.7389740347862244,
+            0.7333167791366577,
+            0.7289294004440308,
+            0.7227392792701721
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: where does the white witch live in narnia\n\nDocuments:\n\ndoc62364: White Witch. Meanwhile, the land of Narnia remains the domain of animals (chosen animals are given the ability to speak, and become pillars of society) and is not troubled by the Witch nor any other enemy for many hundred years.\n\ndoc797849: The Chronicles of Narnia. Jadis, commonly known during her rule of Narnia as the White Witch, is the main antagonist of The Magician's Nephew and The Lion, The Witch and the Wardrobe. She is the witch responsible for the freezing of Narnia resulting in the Hundred Year Winter. The White Witch was born in the world of Charn, before the creation of Narnia, and died in battle in Narnian year 1000.\n\ndoc62362: White Witch. Many years later, a 12-year-old Digory Kirke and his friend Polly Plummer arrive in the ruins of Charn through Digory's uncle's magic. The children find the bell that Jadis left to break the spell. Despite Polly's warning not to ring the bell, Digory does so. Jadis is awakened and by holding on to them is transported with them back to London in the year 1900. She initially aims to conquer the world to which she is transported, but finds that her magic does not work there. Digory, seeking to correct his mistake, attempts to transport her back to Charn, but they end up instead in the world of Narnia at the moment of its creation by the lion Aslan. As Aslan approaches, she attacks him with the rod of iron she has torn by main strength from a London lamp post; but when this has no effect, she flees.\n\ndoc62366: White Witch. She styles herself \"Her Imperial Majesty Jadis, Queen of Narnia, Chatelaine of Cair Paravel, Empress of the Lone Islands\", and she casts Narnia into an endless winter with no Christmas. She fears a prophecy that four humans, two sons of Adam and two daughters of Eve, will cause her downfall, and orders all Narnians - including those who might oppose her - to bring any human they come across to her.\n\ndoc62363: White Witch. Jadis makes her way to the garden on a mountain west of Narnia, where she eats an apple that she believes will make her immortal and give her eternal life. However, this supposed immortality comes at a cost: her skin is bleached white, and the evil in her heart causes her eternal misery. She cannot stand the sight of the tree that Aslan has Digory plant in Narnia from the fruit of the garden, and she thus stays to the north of Narnia, working to develop her magic.\n\ndoc62379: White Witch. In the 2005 Walt Disney Pictures feature film The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, she was portrayed by British actress Tilda Swinton. Swinton's performance won particular acclaim among fans and critics. BBC film critic Stella Papamichael wrote:[3]\n\ndoc62367: White Witch. By the time the Pevensie children arrive in Narnia, Jadis has ruled for 100 years. She first meets Edmund Pevensie, enchants him with magical Turkish delight, and tempts him to betray his siblings by offering to make him her heir and bring them to Narnia with him, although at this stage only Edmund and his sister Lucy have been in Narnia. The four Pevensie children all arrive in Narnia together soon afterwards, and Edmund strays to the Witch after he and the other children are taken in by Mr and Mrs Beaver. He had realised that the \"Queen of Narnia\" (as she had introduced herself) and the White Witch were one and the same after a conversation with Lucy, but was still determined to taste more Turkish Delight and remained convinced that the Witch would deliver her promise to make him heir to her throne.\n\ndoc62365: White Witch. In The Lion, the Witch and the Wardrobe, set 1,000 Narnian years after the events of The Magician's Nephew, Jadis has usurped power over Narnia after the tree that kept her at bay had died. Now known as the White Witch, she is served by various races including Wolves (who make up her secret police), Black Dwarves, Giants, Werewolves, Tree Spirits that are on her side, Ghouls, Boggles, Ogres, Minotaurs, Cruels, Hags, Spectres, People of the Toadstools, Incubi, Wraiths, Horrors, Efreets, Orknies, Sprites, Wooses, Ettins, Poisonous Plant Spirits, Evil Apes, Giant Bats, Vultures, and creatures that according to C. S. Lewis are \"so horrible that if I told you, your parents probably wouldn't let you read this book.\" Her magic is now powerful, and she has acquired a wand with which she can turn enemies to stone if they displease or attempt to challenge her in any way.\n\ndoc62357: White Witch. Jadis is the main antagonist of The Magician's Nephew and of The Lion, the Witch and the Wardrobe in C. S. Lewis's series, The Chronicles of Narnia. She is commonly referred to as the White Witch in The Lion, the Witch and the Wardrobe, as she is the Witch who froze Narnia in the Hundred Years Winter.\n\ndoc62382: White Witch. Swinton reprised her role as the White Witch in the 2008 Disney Movie sequel The Chronicles of Narnia: Prince Caspian. In a departure from the novel, Nikabrik and his fellow conspirators manage to conjure an apparition of Jadis within a mystical wall of ice and attempt to offer her Caspian X as she needs a drop of blood from a son of Adam to fully resurrect herself. She tries to coax Caspian into offering her his blood and then from Peter, promising to lend her powers to their fight against King Miraz once she is made whole. However, Edmund shatters the ice before the Witch can obtain a drop of blood, and the apparition vanishes.\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: where does the white witch live in narnia\n\nDocuments:\n\ndoc797849: The Chronicles of Narnia. Jadis, commonly known during her rule of Narnia as the White Witch, is the main antagonist of The Magician's Nephew and The Lion, The Witch and the Wardrobe. She is the witch responsible for the freezing of Narnia resulting in the Hundred Year Winter. The White Witch was born in the world of Charn, before the creation of Narnia, and died in battle in Narnian year 1000.\n\ndoc62366: White Witch. She styles herself \"Her Imperial Majesty Jadis, Queen of Narnia, Chatelaine of Cair Paravel, Empress of the Lone Islands\", and she casts Narnia into an endless winter with no Christmas. She fears a prophecy that four humans, two sons of Adam and two daughters of Eve, will cause her downfall, and orders all Narnians - including those who might oppose her - to bring any human they come across to her.\n\ndoc62367: White Witch. By the time the Pevensie children arrive in Narnia, Jadis has ruled for 100 years. She first meets Edmund Pevensie, enchants him with magical Turkish delight, and tempts him to betray his siblings by offering to make him her heir and bring them to Narnia with him, although at this stage only Edmund and his sister Lucy have been in Narnia. The four Pevensie children all arrive in Narnia together soon afterwards, and Edmund strays to the Witch after he and the other children are taken in by Mr and Mrs Beaver. He had realised that the \"Queen of Narnia\" (as she had introduced herself) and the White Witch were one and the same after a conversation with Lucy, but was still determined to taste more Turkish Delight and remained convinced that the Witch would deliver her promise to make him heir to her throne.\n\ndoc62365: White Witch. In The Lion, the Witch and the Wardrobe, set 1,000 Narnian years after the events of The Magician's Nephew, Jadis has usurped power over Narnia after the tree that kept her at bay had died. Now known as the White Witch, she is served by various races including Wolves (who make up her secret police), Black Dwarves, Giants, Werewolves, Tree Spirits that are on her side, Ghouls, Boggles, Ogres, Minotaurs, Cruels, Hags, Spectres, People of the Toadstools, Incubi, Wraiths, Horrors, Efreets, Orknies, Sprites, Wooses, Ettins, Poisonous Plant Spirits, Evil Apes, Giant Bats, Vultures, and creatures that according to C. S. Lewis are \"so horrible that if I told you, your parents probably wouldn't let you read this book.\" Her magic is now powerful, and she has acquired a wand with which she can turn enemies to stone if they displease or attempt to challenge her in any way.\n\ndoc62363: White Witch. Jadis makes her way to the garden on a mountain west of Narnia, where she eats an apple that she believes will make her immortal and give her eternal life. However, this supposed immortality comes at a cost: her skin is bleached white, and the evil in her heart causes her eternal misery. She cannot stand the sight of the tree that Aslan has Digory plant in Narnia from the fruit of the garden, and she thus stays to the north of Narnia, working to develop her magic.\n\ndoc62362: White Witch. Many years later, a 12-year-old Digory Kirke and his friend Polly Plummer arrive in the ruins of Charn through Digory's uncle's magic. The children find the bell that Jadis left to break the spell. Despite Polly's warning not to ring the bell, Digory does so. Jadis is awakened and by holding on to them is transported with them back to London in the year 1900. She initially aims to conquer the world to which she is transported, but finds that her magic does not work there. Digory, seeking to correct his mistake, attempts to transport her back to Charn, but they end up instead in the world of Narnia at the moment of its creation by the lion Aslan. As Aslan approaches, she attacks him with the rod of iron she has torn by main strength from a London lamp post; but when this has no effect, she flees.\n\ndoc62364: White Witch. Meanwhile, the land of Narnia remains the domain of animals (chosen animals are given the ability to speak, and become pillars of society) and is not troubled by the Witch nor any other enemy for many hundred years.\n\ndoc62357: White Witch. Jadis is the main antagonist of The Magician's Nephew and of The Lion, the Witch and the Wardrobe in C. S. Lewis's series, The Chronicles of Narnia. She is commonly referred to as the White Witch in The Lion, the Witch and the Wardrobe, as she is the Witch who froze Narnia in the Hundred Years Winter.\n\ndoc62382: White Witch. Swinton reprised her role as the White Witch in the 2008 Disney Movie sequel The Chronicles of Narnia: Prince Caspian. In a departure from the novel, Nikabrik and his fellow conspirators manage to conjure an apparition of Jadis within a mystical wall of ice and attempt to offer her Caspian X as she needs a drop of blood from a son of Adam to fully resurrect herself. She tries to coax Caspian into offering her his blood and then from Peter, promising to lend her powers to their fight against King Miraz once she is made whole. However, Edmund shatters the ice before the Witch can obtain a drop of blood, and the apparition vanishes.\n\ndoc62379: White Witch. In the 2005 Walt Disney Pictures feature film The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, she was portrayed by British actress Tilda Swinton. Swinton's performance won particular acclaim among fans and critics. BBC film critic Stella Papamichael wrote:[3]\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\n    \"doc797849\",\n    \"doc62366\",\n    \"doc62367\",\n    \"doc62365\",\n    \"doc62363\",\n    \"doc62362\",\n    \"doc62364\",\n    \"doc62357\",\n    \"doc62382\",\n    \"doc62379\"\n]\n\nprint(doc_ids)\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc797849",
+        "doc62366",
+        "doc62367",
+        "doc62365",
+        "doc62363",
+        "doc62362",
+        "doc62364",
+        "doc62357",
+        "doc62382",
+        "doc62379"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "where does the white witch live in narnia"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "where does the white witch live in narnia"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc62364",
+                    "doc797849",
+                    "doc62362",
+                    "doc62366",
+                    "doc62363",
+                    "doc62379",
+                    "doc62367",
+                    "doc62365",
+                    "doc62357",
+                    "doc62382"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8037166595458984,
+                    0.7780544757843018,
+                    0.7646046280860901,
+                    0.7576746940612793,
+                    0.7499697208404541,
+                    0.7395856976509094,
+                    0.7389740347862244,
+                    0.7333167791366577,
+                    0.7289294004440308,
+                    0.7227392792701721
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "where does the white witch live in narnia"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc62364",
+                    "doc797849",
+                    "doc62362",
+                    "doc62366",
+                    "doc62363",
+                    "doc62379",
+                    "doc62367",
+                    "doc62365",
+                    "doc62357",
+                    "doc62382"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8037166595458984,
+                    0.7780544757843018,
+                    0.7646046280860901,
+                    0.7576746940612793,
+                    0.7499697208404541,
+                    0.7395856976509094,
+                    0.7389740347862244,
+                    0.7333167791366577,
+                    0.7289294004440308,
+                    0.7227392792701721
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: where does the white witch live in narnia\n\nDocuments:\n\ndoc62364: White Witch. Meanwhile, the land of Narnia remains the domain of animals (chosen animals are given the ability to speak, and become pillars of society) and is not troubled by the Witch nor any other enemy for many hundred years.\n\ndoc797849: The Chronicles of Narnia. Jadis, commonly known during her rule of Narnia as the White Witch, is the main antagonist of The Magician's Nephew and The Lion, The Witch and the Wardrobe. She is the witch responsible for the freezing of Narnia resulting in the Hundred Year Winter. The White Witch was born in the world of Charn, before the creation of Narnia, and died in battle in Narnian year 1000.\n\ndoc62362: White Witch. Many years later, a 12-year-old Digory Kirke and his friend Polly Plummer arrive in the ruins of Charn through Digory's uncle's magic. The children find the bell that Jadis left to break the spell. Despite Polly's warning not to ring the bell, Digory does so. Jadis is awakened and by holding on to them is transported with them back to London in the year 1900. She initially aims to conquer the world to which she is transported, but finds that her magic does not work there. Digory, seeking to correct his mistake, attempts to transport her back to Charn, but they end up instead in the world of Narnia at the moment of its creation by the lion Aslan. As Aslan approaches, she attacks him with the rod of iron she has torn by main strength from a London lamp post; but when this has no effect, she flees.\n\ndoc62366: White Witch. She styles herself \"Her Imperial Majesty Jadis, Queen of Narnia, Chatelaine of Cair Paravel, Empress of the Lone Islands\", and she casts Narnia into an endless winter with no Christmas. She fears a prophecy that four humans, two sons of Adam and two daughters of Eve, will cause her downfall, and orders all Narnians - including those who might oppose her - to bring any human they come across to her.\n\ndoc62363: White Witch. Jadis makes her way to the garden on a mountain west of Narnia, where she eats an apple that she believes will make her immortal and give her eternal life. However, this supposed immortality comes at a cost: her skin is bleached white, and the evil in her heart causes her eternal misery. She cannot stand the sight of the tree that Aslan has Digory plant in Narnia from the fruit of the garden, and she thus stays to the north of Narnia, working to develop her magic.\n\ndoc62379: White Witch. In the 2005 Walt Disney Pictures feature film The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, she was portrayed by British actress Tilda Swinton. Swinton's performance won particular acclaim among fans and critics. BBC film critic Stella Papamichael wrote:[3]\n\ndoc62367: White Witch. By the time the Pevensie children arrive in Narnia, Jadis has ruled for 100 years. She first meets Edmund Pevensie, enchants him with magical Turkish delight, and tempts him to betray his siblings by offering to make him her heir and bring them to Narnia with him, although at this stage only Edmund and his sister Lucy have been in Narnia. The four Pevensie children all arrive in Narnia together soon afterwards, and Edmund strays to the Witch after he and the other children are taken in by Mr and Mrs Beaver. He had realised that the \"Queen of Narnia\" (as she had introduced herself) and the White Witch were one and the same after a conversation with Lucy, but was still determined to taste more Turkish Delight and remained convinced that the Witch would deliver her promise to make him heir to her throne.\n\ndoc62365: White Witch. In The Lion, the Witch and the Wardrobe, set 1,000 Narnian years after the events of The Magician's Nephew, Jadis has usurped power over Narnia after the tree that kept her at bay had died. Now known as the White Witch, she is served by various races including Wolves (who make up her secret police), Black Dwarves, Giants, Werewolves, Tree Spirits that are on her side, Ghouls, Boggles, Ogres, Minotaurs, Cruels, Hags, Spectres, People of the Toadstools, Incubi, Wraiths, Horrors, Efreets, Orknies, Sprites, Wooses, Ettins, Poisonous Plant Spirits, Evil Apes, Giant Bats, Vultures, and creatures that according to C. S. Lewis are \"so horrible that if I told you, your parents probably wouldn't let you read this book.\" Her magic is now powerful, and she has acquired a wand with which she can turn enemies to stone if they displease or attempt to challenge her in any way.\n\ndoc62357: White Witch. Jadis is the main antagonist of The Magician's Nephew and of The Lion, the Witch and the Wardrobe in C. S. Lewis's series, The Chronicles of Narnia. She is commonly referred to as the White Witch in The Lion, the Witch and the Wardrobe, as she is the Witch who froze Narnia in the Hundred Years Winter.\n\ndoc62382: White Witch. Swinton reprised her role as the White Witch in the 2008 Disney Movie sequel The Chronicles of Narnia: Prince Caspian. In a departure from the novel, Nikabrik and his fellow conspirators manage to conjure an apparition of Jadis within a mystical wall of ice and attempt to offer her Caspian X as she needs a drop of blood from a son of Adam to fully resurrect herself. She tries to coax Caspian into offering her his blood and then from Peter, promising to lend her powers to their fight against King Miraz once she is made whole. However, Edmund shatters the ice before the Witch can obtain a drop of blood, and the apparition vanishes.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"doc797849\",\n    \"doc62366\",\n    \"doc62367\",\n    \"doc62365\",\n    \"doc62363\",\n    \"doc62362\",\n    \"doc62364\",\n    \"doc62357\",\n    \"doc62382\",\n    \"doc62379\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc797849",
+                "doc62366",
+                "doc62367",
+                "doc62365",
+                "doc62363",
+                "doc62362",
+                "doc62364",
+                "doc62357",
+                "doc62382",
+                "doc62379"
+            ]
+        },
+        {
+            "queries": [
+                "where does the white witch live in narnia"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc62364",
+                    "doc797849",
+                    "doc62362",
+                    "doc62366",
+                    "doc62363",
+                    "doc62379",
+                    "doc62367",
+                    "doc62365",
+                    "doc62357",
+                    "doc62382"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8037166595458984,
+                    0.7780544757843018,
+                    0.7646046280860901,
+                    0.7576746940612793,
+                    0.7499697208404541,
+                    0.7395856976509094,
+                    0.7389740347862244,
+                    0.7333167791366577,
+                    0.7289294004440308,
+                    0.7227392792701721
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: where does the white witch live in narnia\n\nDocuments:\n\ndoc62364: White Witch. Meanwhile, the land of Narnia remains the domain of animals (chosen animals are given the ability to speak, and become pillars of society) and is not troubled by the Witch nor any other enemy for many hundred years.\n\ndoc797849: The Chronicles of Narnia. Jadis, commonly known during her rule of Narnia as the White Witch, is the main antagonist of The Magician's Nephew and The Lion, The Witch and the Wardrobe. She is the witch responsible for the freezing of Narnia resulting in the Hundred Year Winter. The White Witch was born in the world of Charn, before the creation of Narnia, and died in battle in Narnian year 1000.\n\ndoc62362: White Witch. Many years later, a 12-year-old Digory Kirke and his friend Polly Plummer arrive in the ruins of Charn through Digory's uncle's magic. The children find the bell that Jadis left to break the spell. Despite Polly's warning not to ring the bell, Digory does so. Jadis is awakened and by holding on to them is transported with them back to London in the year 1900. She initially aims to conquer the world to which she is transported, but finds that her magic does not work there. Digory, seeking to correct his mistake, attempts to transport her back to Charn, but they end up instead in the world of Narnia at the moment of its creation by the lion Aslan. As Aslan approaches, she attacks him with the rod of iron she has torn by main strength from a London lamp post; but when this has no effect, she flees.\n\ndoc62366: White Witch. She styles herself \"Her Imperial Majesty Jadis, Queen of Narnia, Chatelaine of Cair Paravel, Empress of the Lone Islands\", and she casts Narnia into an endless winter with no Christmas. She fears a prophecy that four humans, two sons of Adam and two daughters of Eve, will cause her downfall, and orders all Narnians - including those who might oppose her - to bring any human they come across to her.\n\ndoc62363: White Witch. Jadis makes her way to the garden on a mountain west of Narnia, where she eats an apple that she believes will make her immortal and give her eternal life. However, this supposed immortality comes at a cost: her skin is bleached white, and the evil in her heart causes her eternal misery. She cannot stand the sight of the tree that Aslan has Digory plant in Narnia from the fruit of the garden, and she thus stays to the north of Narnia, working to develop her magic.\n\ndoc62379: White Witch. In the 2005 Walt Disney Pictures feature film The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, she was portrayed by British actress Tilda Swinton. Swinton's performance won particular acclaim among fans and critics. BBC film critic Stella Papamichael wrote:[3]\n\ndoc62367: White Witch. By the time the Pevensie children arrive in Narnia, Jadis has ruled for 100 years. She first meets Edmund Pevensie, enchants him with magical Turkish delight, and tempts him to betray his siblings by offering to make him her heir and bring them to Narnia with him, although at this stage only Edmund and his sister Lucy have been in Narnia. The four Pevensie children all arrive in Narnia together soon afterwards, and Edmund strays to the Witch after he and the other children are taken in by Mr and Mrs Beaver. He had realised that the \"Queen of Narnia\" (as she had introduced herself) and the White Witch were one and the same after a conversation with Lucy, but was still determined to taste more Turkish Delight and remained convinced that the Witch would deliver her promise to make him heir to her throne.\n\ndoc62365: White Witch. In The Lion, the Witch and the Wardrobe, set 1,000 Narnian years after the events of The Magician's Nephew, Jadis has usurped power over Narnia after the tree that kept her at bay had died. Now known as the White Witch, she is served by various races including Wolves (who make up her secret police), Black Dwarves, Giants, Werewolves, Tree Spirits that are on her side, Ghouls, Boggles, Ogres, Minotaurs, Cruels, Hags, Spectres, People of the Toadstools, Incubi, Wraiths, Horrors, Efreets, Orknies, Sprites, Wooses, Ettins, Poisonous Plant Spirits, Evil Apes, Giant Bats, Vultures, and creatures that according to C. S. Lewis are \"so horrible that if I told you, your parents probably wouldn't let you read this book.\" Her magic is now powerful, and she has acquired a wand with which she can turn enemies to stone if they displease or attempt to challenge her in any way.\n\ndoc62357: White Witch. Jadis is the main antagonist of The Magician's Nephew and of The Lion, the Witch and the Wardrobe in C. S. Lewis's series, The Chronicles of Narnia. She is commonly referred to as the White Witch in The Lion, the Witch and the Wardrobe, as she is the Witch who froze Narnia in the Hundred Years Winter.\n\ndoc62382: White Witch. Swinton reprised her role as the White Witch in the 2008 Disney Movie sequel The Chronicles of Narnia: Prince Caspian. In a departure from the novel, Nikabrik and his fellow conspirators manage to conjure an apparition of Jadis within a mystical wall of ice and attempt to offer her Caspian X as she needs a drop of blood from a son of Adam to fully resurrect herself. She tries to coax Caspian into offering her his blood and then from Peter, promising to lend her powers to their fight against King Miraz once she is made whole. However, Edmund shatters the ice before the Witch can obtain a drop of blood, and the apparition vanishes.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"doc797849\",\n    \"doc62366\",\n    \"doc62367\",\n    \"doc62365\",\n    \"doc62363\",\n    \"doc62362\",\n    \"doc62364\",\n    \"doc62357\",\n    \"doc62382\",\n    \"doc62379\"\n]\n\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc797849",
+                "doc62366",
+                "doc62367",
+                "doc62365",
+                "doc62363",
+                "doc62362",
+                "doc62364",
+                "doc62357",
+                "doc62382",
+                "doc62379"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "where does the white witch live in narnia"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc62364",
+                    "doc797849",
+                    "doc62362",
+                    "doc62366",
+                    "doc62363",
+                    "doc62379",
+                    "doc62367",
+                    "doc62365",
+                    "doc62357",
+                    "doc62382"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8037166595458984,
+                    0.7780544757843018,
+                    0.7646046280860901,
+                    0.7576746940612793,
+                    0.7499697208404541,
+                    0.7395856976509094,
+                    0.7389740347862244,
+                    0.7333167791366577,
+                    0.7289294004440308,
+                    0.7227392792701721
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: where does the white witch live in narnia\n\nDocuments:\n\ndoc62364: White Witch. Meanwhile, the land of Narnia remains the domain of animals (chosen animals are given the ability to speak, and become pillars of society) and is not troubled by the Witch nor any other enemy for many hundred years.\n\ndoc797849: The Chronicles of Narnia. Jadis, commonly known during her rule of Narnia as the White Witch, is the main antagonist of The Magician's Nephew and The Lion, The Witch and the Wardrobe. She is the witch responsible for the freezing of Narnia resulting in the Hundred Year Winter. The White Witch was born in the world of Charn, before the creation of Narnia, and died in battle in Narnian year 1000.\n\ndoc62362: White Witch. Many years later, a 12-year-old Digory Kirke and his friend Polly Plummer arrive in the ruins of Charn through Digory's uncle's magic. The children find the bell that Jadis left to break the spell. Despite Polly's warning not to ring the bell, Digory does so. Jadis is awakened and by holding on to them is transported with them back to London in the year 1900. She initially aims to conquer the world to which she is transported, but finds that her magic does not work there. Digory, seeking to correct his mistake, attempts to transport her back to Charn, but they end up instead in the world of Narnia at the moment of its creation by the lion Aslan. As Aslan approaches, she attacks him with the rod of iron she has torn by main strength from a London lamp post; but when this has no effect, she flees.\n\ndoc62366: White Witch. She styles herself \"Her Imperial Majesty Jadis, Queen of Narnia, Chatelaine of Cair Paravel, Empress of the Lone Islands\", and she casts Narnia into an endless winter with no Christmas. She fears a prophecy that four humans, two sons of Adam and two daughters of Eve, will cause her downfall, and orders all Narnians - including those who might oppose her - to bring any human they come across to her.\n\ndoc62363: White Witch. Jadis makes her way to the garden on a mountain west of Narnia, where she eats an apple that she believes will make her immortal and give her eternal life. However, this supposed immortality comes at a cost: her skin is bleached white, and the evil in her heart causes her eternal misery. She cannot stand the sight of the tree that Aslan has Digory plant in Narnia from the fruit of the garden, and she thus stays to the north of Narnia, working to develop her magic.\n\ndoc62379: White Witch. In the 2005 Walt Disney Pictures feature film The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, she was portrayed by British actress Tilda Swinton. Swinton's performance won particular acclaim among fans and critics. BBC film critic Stella Papamichael wrote:[3]\n\ndoc62367: White Witch. By the time the Pevensie children arrive in Narnia, Jadis has ruled for 100 years. She first meets Edmund Pevensie, enchants him with magical Turkish delight, and tempts him to betray his siblings by offering to make him her heir and bring them to Narnia with him, although at this stage only Edmund and his sister Lucy have been in Narnia. The four Pevensie children all arrive in Narnia together soon afterwards, and Edmund strays to the Witch after he and the other children are taken in by Mr and Mrs Beaver. He had realised that the \"Queen of Narnia\" (as she had introduced herself) and the White Witch were one and the same after a conversation with Lucy, but was still determined to taste more Turkish Delight and remained convinced that the Witch would deliver her promise to make him heir to her throne.\n\ndoc62365: White Witch. In The Lion, the Witch and the Wardrobe, set 1,000 Narnian years after the events of The Magician's Nephew, Jadis has usurped power over Narnia after the tree that kept her at bay had died. Now known as the White Witch, she is served by various races including Wolves (who make up her secret police), Black Dwarves, Giants, Werewolves, Tree Spirits that are on her side, Ghouls, Boggles, Ogres, Minotaurs, Cruels, Hags, Spectres, People of the Toadstools, Incubi, Wraiths, Horrors, Efreets, Orknies, Sprites, Wooses, Ettins, Poisonous Plant Spirits, Evil Apes, Giant Bats, Vultures, and creatures that according to C. S. Lewis are \"so horrible that if I told you, your parents probably wouldn't let you read this book.\" Her magic is now powerful, and she has acquired a wand with which she can turn enemies to stone if they displease or attempt to challenge her in any way.\n\ndoc62357: White Witch. Jadis is the main antagonist of The Magician's Nephew and of The Lion, the Witch and the Wardrobe in C. S. Lewis's series, The Chronicles of Narnia. She is commonly referred to as the White Witch in The Lion, the Witch and the Wardrobe, as she is the Witch who froze Narnia in the Hundred Years Winter.\n\ndoc62382: White Witch. Swinton reprised her role as the White Witch in the 2008 Disney Movie sequel The Chronicles of Narnia: Prince Caspian. In a departure from the novel, Nikabrik and his fellow conspirators manage to conjure an apparition of Jadis within a mystical wall of ice and attempt to offer her Caspian X as she needs a drop of blood from a son of Adam to fully resurrect herself. She tries to coax Caspian into offering her his blood and then from Peter, promising to lend her powers to their fight against King Miraz once she is made whole. However, Edmund shatters the ice before the Witch can obtain a drop of blood, and the apparition vanishes.\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: where does the white witch live in narnia\n\nDocuments:\n\ndoc797849: The Chronicles of Narnia. Jadis, commonly known during her rule of Narnia as the White Witch, is the main antagonist of The Magician's Nephew and The Lion, The Witch and the Wardrobe. She is the witch responsible for the freezing of Narnia resulting in the Hundred Year Winter. The White Witch was born in the world of Charn, before the creation of Narnia, and died in battle in Narnian year 1000.\n\ndoc62366: White Witch. She styles herself \"Her Imperial Majesty Jadis, Queen of Narnia, Chatelaine of Cair Paravel, Empress of the Lone Islands\", and she casts Narnia into an endless winter with no Christmas. She fears a prophecy that four humans, two sons of Adam and two daughters of Eve, will cause her downfall, and orders all Narnians - including those who might oppose her - to bring any human they come across to her.\n\ndoc62367: White Witch. By the time the Pevensie children arrive in Narnia, Jadis has ruled for 100 years. She first meets Edmund Pevensie, enchants him with magical Turkish delight, and tempts him to betray his siblings by offering to make him her heir and bring them to Narnia with him, although at this stage only Edmund and his sister Lucy have been in Narnia. The four Pevensie children all arrive in Narnia together soon afterwards, and Edmund strays to the Witch after he and the other children are taken in by Mr and Mrs Beaver. He had realised that the \"Queen of Narnia\" (as she had introduced herself) and the White Witch were one and the same after a conversation with Lucy, but was still determined to taste more Turkish Delight and remained convinced that the Witch would deliver her promise to make him heir to her throne.\n\ndoc62365: White Witch. In The Lion, the Witch and the Wardrobe, set 1,000 Narnian years after the events of The Magician's Nephew, Jadis has usurped power over Narnia after the tree that kept her at bay had died. Now known as the White Witch, she is served by various races including Wolves (who make up her secret police), Black Dwarves, Giants, Werewolves, Tree Spirits that are on her side, Ghouls, Boggles, Ogres, Minotaurs, Cruels, Hags, Spectres, People of the Toadstools, Incubi, Wraiths, Horrors, Efreets, Orknies, Sprites, Wooses, Ettins, Poisonous Plant Spirits, Evil Apes, Giant Bats, Vultures, and creatures that according to C. S. Lewis are \"so horrible that if I told you, your parents probably wouldn't let you read this book.\" Her magic is now powerful, and she has acquired a wand with which she can turn enemies to stone if they displease or attempt to challenge her in any way.\n\ndoc62363: White Witch. Jadis makes her way to the garden on a mountain west of Narnia, where she eats an apple that she believes will make her immortal and give her eternal life. However, this supposed immortality comes at a cost: her skin is bleached white, and the evil in her heart causes her eternal misery. She cannot stand the sight of the tree that Aslan has Digory plant in Narnia from the fruit of the garden, and she thus stays to the north of Narnia, working to develop her magic.\n\ndoc62362: White Witch. Many years later, a 12-year-old Digory Kirke and his friend Polly Plummer arrive in the ruins of Charn through Digory's uncle's magic. The children find the bell that Jadis left to break the spell. Despite Polly's warning not to ring the bell, Digory does so. Jadis is awakened and by holding on to them is transported with them back to London in the year 1900. She initially aims to conquer the world to which she is transported, but finds that her magic does not work there. Digory, seeking to correct his mistake, attempts to transport her back to Charn, but they end up instead in the world of Narnia at the moment of its creation by the lion Aslan. As Aslan approaches, she attacks him with the rod of iron she has torn by main strength from a London lamp post; but when this has no effect, she flees.\n\ndoc62364: White Witch. Meanwhile, the land of Narnia remains the domain of animals (chosen animals are given the ability to speak, and become pillars of society) and is not troubled by the Witch nor any other enemy for many hundred years.\n\ndoc62357: White Witch. Jadis is the main antagonist of The Magician's Nephew and of The Lion, the Witch and the Wardrobe in C. S. Lewis's series, The Chronicles of Narnia. She is commonly referred to as the White Witch in The Lion, the Witch and the Wardrobe, as she is the Witch who froze Narnia in the Hundred Years Winter.\n\ndoc62382: White Witch. Swinton reprised her role as the White Witch in the 2008 Disney Movie sequel The Chronicles of Narnia: Prince Caspian. In a departure from the novel, Nikabrik and his fellow conspirators manage to conjure an apparition of Jadis within a mystical wall of ice and attempt to offer her Caspian X as she needs a drop of blood from a son of Adam to fully resurrect herself. She tries to coax Caspian into offering her his blood and then from Peter, promising to lend her powers to their fight against King Miraz once she is made whole. However, Edmund shatters the ice before the Witch can obtain a drop of blood, and the apparition vanishes.\n\ndoc62379: White Witch. In the 2005 Walt Disney Pictures feature film The Chronicles of Narnia: The Lion, the Witch and the Wardrobe, she was portrayed by British actress Tilda Swinton. Swinton's performance won particular acclaim among fans and critics. BBC film critic Stella Papamichael wrote:[3]\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\n    \"doc797849\",\n    \"doc62366\",\n    \"doc62367\",\n    \"doc62365\",\n    \"doc62363\",\n    \"doc62362\",\n    \"doc62364\",\n    \"doc62357\",\n    \"doc62382\",\n    \"doc62379\"\n]\n\nprint(doc_ids)\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc797849",
+                "doc62366",
+                "doc62367",
+                "doc62365",
+                "doc62363",
+                "doc62362",
+                "doc62364",
+                "doc62357",
+                "doc62382",
+                "doc62379"
+            ],
+            "terminate": true
+        }
+    ]
+}

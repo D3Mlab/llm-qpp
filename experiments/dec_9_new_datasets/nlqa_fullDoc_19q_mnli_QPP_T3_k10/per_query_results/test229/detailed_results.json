@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "when did scotland last qualify for world cup"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc8259",
+            "doc8271",
+            "doc8263",
+            "doc8270",
+            "doc506798",
+            "doc1378206",
+            "doc8268",
+            "doc8269",
+            "doc176145",
+            "doc506797"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.8195303082466125,
+            0.8183349370956421,
+            0.8086895942687988,
+            0.8027781844139099,
+            0.7919853925704956,
+            0.7468456029891968,
+            0.7315664291381836,
+            0.7279242873191833,
+            0.7229825854301453,
+            0.7024730443954468
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did scotland last qualify for world cup\n\nDocuments:\n\ndoc8259: Scotland at the FIFA World Cup. Scotland have never advanced beyond the first round of the finals competition. They have missed out on progressing to the second round three times on goal difference: in 1974, when Brazil edged them out;[5] in 1978, when the Netherlands progressed;[6] and in 1982, when the USSR went through.[7] Although Scotland have played at eight finals tournaments, they have qualified on nine occasions. The Scottish Football Association declined to participate in 1950 as Scotland were not the British champions.[8]\n\ndoc8271: Scotland at the FIFA World Cup. Craig Brown guided Scotland to qualification for the 1998 FIFA World Cup, finishing as the best runners-up. Scotland were drawn against holders Brazil in the opening game of the World Cup.[32] John Collins scored from the penalty spot to level the score at 1\u20131, but a Tom Boyd own goal led to a 2\u20131 defeat. Scotland drew their next game 1\u20131 with Norway in Bordeaux,[2] but the final match against Morocco ended in a 3\u20130 defeat.[33] Scotland have not appeared at the World Cup since.\n\ndoc8263: Scotland at the FIFA World Cup. Scotland failed to qualify for another World Cup in the next 16 years.[10] A \"skilful but fragile\" team lost a play-off to Czechoslovakia in qualification for 1962.[10] A team managed by Jock Stein, but deprived of many of its best players due to club commitments, lost a decisive qualifier against Italy in Naples for the 1966 tournament.[10] A narrow defeat by West Germany in Hamburg then ended hopes of qualifying for 1970.[10]\n\ndoc8270: Scotland at the FIFA World Cup. Scotland qualified for their fifth consecutive World Cup in 1990 by finishing second in their qualifying group, ahead of France.[30] Scotland were drawn in a group with Costa Rica, Sweden, and Brazil, but the Scots lost 1\u20130 to Costa Rica.[31] While they recovered to beat Sweden 2\u20131 in their second game, they lost to Brazil in their third match 1\u20130 and were once again eliminated after the first round.[31] Goalkeeper Jim Leighton fumbled a shot that allowed Brazil to score the only goal.[10]\n\ndoc506798: Scotland at the UEFA European Championship. Under the guidance of manager Andy Roxburgh, Scotland qualified for the UEFA European Championship for the first time in 1992.[1] A 1\u20130 defeat to Romania away from home left qualification dependent upon other results, but a 1\u20131 draw between Bulgaria and Romania in the final group match saw Scotland squeeze through as group winners.[2] Despite competing well in defeats against the Netherlands and Germany and a fine win against the CIS, the team was knocked out at the group stage.[2]\n\ndoc1378206: List of Scotland international footballers. The Scotland national football team is the joint-oldest international football team, having played in the first official international match, a goalless draw on 30 November 1872 against England.[1]  Since then, the team has established a long-standing rivalry with England, particularly in the annual British Home Championship, which Scotland won 24 times outright and shared a further 17 times.[2] The team has enjoyed less success in continental and global competition. Even though Scotland has participated in eight FIFA World Cup and two UEFA European Championship final tournaments,[3] the team has never progressed beyond the first round of any major tournament.[3]\n\ndoc8268: Scotland at the FIFA World Cup. Jock Stein, who had won nine consecutive Scottish league titles and the European Cup as manager of Celtic, was appointed Scotland manager in 1978.[25] After failing to qualify for the 1980 European Championship,[18] Scotland qualified for the 1982 FIFA World Cup from a tough group including Sweden, Portugal, Israel and Northern Ireland, losing just one match in the process.[26] They were then drawn in a \"Group of death\" with New Zealand, Brazil and the Soviet Union.[10] Scotland beat New Zealand by 5\u20132 in their first game, but then lost 4\u20131 to a Brazil team containing Socrates, Zico, Eder and Falc\u00e3o.[7] Scotland were again eliminated on goal difference, after a 2\u20132 draw with the Soviet Union. This match is best remembered for defenders Alan Hansen and Willie Miller colliding while chasing a long ball, which allowed the Soviets to run through and score.[10]\n\ndoc8269: Scotland at the FIFA World Cup. Scotland qualified for the 1986 FIFA World Cup, their fourth in succession, in traumatic circumstances. The squad went into their last qualification match against Wales needing a point to progress to a qualifying playoff against Australia. With only nine minutes remaining and Wales leading 1\u20130, Scotland were awarded a penalty kick, which was calmly scored by Davie Cooper.[27] The 1\u20131 draw meant that Scotland progressed, but as the players and fans celebrated, national coach Jock Stein suffered a heart attack and died shortly afterwards.[27] His assistant Alex Ferguson took over.[25] Scotland qualified by winning 2\u20130 against Australia in a two-leg playoff, but were again drawn into a group of death, this time with Uruguay, Denmark and West Germany.[10][28] Scotland were eliminated from the tournament with just one point from their three matches, a goalless draw with Uruguay.[29]\n\ndoc176145: Scotland national rugby union team. Scotland has competed in every Rugby World Cup since the inaugural tournament in 1987. Their best finish was fourth in 1991.[38] In their semi-final on 26 October 1991 Scotland lost 6\u20139 to England at Murrayfield after Gavin Hastings missed a penalty almost in front of and a short distance from the posts. On 30 October Scotland lost the third-place play-off to New Zealand in Cardiff 13\u20136.[38] Since then they have qualified for the quarter-finals in all but one occasion, in 2011.[80] Their most recent world cup campaign in 2015 saw them come within 30 seconds of a famous win over Australia, however a last minute penalty sealed the win for the Wallabies.[95]\n\ndoc506797: Scotland at the UEFA European Championship. Scotland have participated in two UEFA European Football Championships finals, those held in 1992 and 1996. They have played six matches: winning two, drawing one and losing three. They have scored four goals and conceded five.\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: when did scotland last qualify for world cup\n\nDocuments:\n\ndoc8271: Scotland at the FIFA World Cup. Craig Brown guided Scotland to qualification for the 1998 FIFA World Cup, finishing as the best runners-up. Scotland were drawn against holders Brazil in the opening game of the World Cup.[32] John Collins scored from the penalty spot to level the score at 1\u20131, but a Tom Boyd own goal led to a 2\u20131 defeat. Scotland drew their next game 1\u20131 with Norway in Bordeaux,[2] but the final match against Morocco ended in a 3\u20130 defeat.[33] Scotland have not appeared at the World Cup since.\n\ndoc8270: Scotland at the FIFA World Cup. Scotland qualified for their fifth consecutive World Cup in 1990 by finishing second in their qualifying group, ahead of France.[30] Scotland were drawn in a group with Costa Rica, Sweden, and Brazil, but the Scots lost 1\u20130 to Costa Rica.[31] While they recovered to beat Sweden 2\u20131 in their second game, they lost to Brazil in their third match 1\u20130 and were once again eliminated after the first round.[31] Goalkeeper Jim Leighton fumbled a shot that allowed Brazil to score the only goal.[10]\n\ndoc8269: Scotland at the FIFA World Cup. Scotland qualified for the 1986 FIFA World Cup, their fourth in succession, in traumatic circumstances. The squad went into their last qualification match against Wales needing a point to progress to a qualifying playoff against Australia. With only nine minutes remaining and Wales leading 1\u20130, Scotland were awarded a penalty kick, which was calmly scored by Davie Cooper.[27] The 1\u20131 draw meant that Scotland progressed, but as the players and fans celebrated, national coach Jock Stein suffered a heart attack and died shortly afterwards.[27] His assistant Alex Ferguson took over.[25] Scotland qualified by winning 2\u20130 against Australia in a two-leg playoff, but were again drawn into a group of death, this time with Uruguay, Denmark and West Germany.[10][28] Scotland were eliminated from the tournament with just one point from their three matches, a goalless draw with Uruguay.[29]\n\ndoc8268: Scotland at the FIFA World Cup. Jock Stein, who had won nine consecutive Scottish league titles and the European Cup as manager of Celtic, was appointed Scotland manager in 1978.[25] After failing to qualify for the 1980 European Championship,[18] Scotland qualified for the 1982 FIFA World Cup from a tough group including Sweden, Portugal, Israel and Northern Ireland, losing just one match in the process.[26] They were then drawn in a \"Group of death\" with New Zealand, Brazil and the Soviet Union.[10] Scotland beat New Zealand by 5\u20132 in their first game, but then lost 4\u20131 to a Brazil team containing Socrates, Zico, Eder and Falc\u00e3o.[7] Scotland were again eliminated on goal difference, after a 2\u20132 draw with the Soviet Union. This match is best remembered for defenders Alan Hansen and Willie Miller colliding while chasing a long ball, which allowed the Soviets to run through and score.[10]\n\ndoc8263: Scotland at the FIFA World Cup. Scotland failed to qualify for another World Cup in the next 16 years.[10] A \"skilful but fragile\" team lost a play-off to Czechoslovakia in qualification for 1962.[10] A team managed by Jock Stein, but deprived of many of its best players due to club commitments, lost a decisive qualifier against Italy in Naples for the 1966 tournament.[10] A narrow defeat by West Germany in Hamburg then ended hopes of qualifying for 1970.[10]\n\ndoc8259: Scotland at the FIFA World Cup. Scotland have never advanced beyond the first round of the finals competition. They have missed out on progressing to the second round three times on goal difference: in 1974, when Brazil edged them out;[5] in 1978, when the Netherlands progressed;[6] and in 1982, when the USSR went through.[7] Although Scotland have played at eight finals tournaments, they have qualified on nine occasions. The Scottish Football Association declined to participate in 1950 as Scotland were not the British champions.[8]\n\ndoc1378206: List of Scotland international footballers. The Scotland national football team is the joint-oldest international football team, having played in the first official international match, a goalless draw on 30 November 1872 against England.[1]  Since then, the team has established a long-standing rivalry with England, particularly in the annual British Home Championship, which Scotland won 24 times outright and shared a further 17 times.[2] The team has enjoyed less success in continental and global competition. Even though Scotland has participated in eight FIFA World Cup and two UEFA European Championship final tournaments,[3] the team has never progressed beyond the first round of any major tournament.[3]\n\ndoc506798: Scotland at the UEFA European Championship. Under the guidance of manager Andy Roxburgh, Scotland qualified for the UEFA European Championship for the first time in 1992.[1] A 1\u20130 defeat to Romania away from home left qualification dependent upon other results, but a 1\u20131 draw between Bulgaria and Romania in the final group match saw Scotland squeeze through as group winners.[2] Despite competing well in defeats against the Netherlands and Germany and a fine win against the CIS, the team was knocked out at the group stage.[2]\n\ndoc506797: Scotland at the UEFA European Championship. Scotland have participated in two UEFA European Football Championships finals, those held in 1992 and 1996. They have played six matches: winning two, drawing one and losing three. They have scored four goals and conceded five.\n\ndoc176145: Scotland national rugby union team. Scotland has competed in every Rugby World Cup since the inaugural tournament in 1987. Their best finish was fourth in 1991.[38] In their semi-final on 26 October 1991 Scotland lost 6\u20139 to England at Murrayfield after Gavin Hastings missed a penalty almost in front of and a short distance from the posts. On 30 October Scotland lost the third-place play-off to New Zealand in Cardiff 13\u20136.[38] Since then they have qualified for the quarter-finals in all but one occasion, in 2011.[80] Their most recent world cup campaign in 2015 saw them come within 30 seconds of a famous win over Australia, however a last minute penalty sealed the win for the Wallabies.[95]\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_ids = [\"doc8271\", \"doc8270\", \"doc8269\", \"doc8268\", \"doc8263\", \"doc8259\", \"doc1378206\", \"doc506798\", \"doc506797\", \"doc176145\"]\nprint(doc_ids)\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc8271",
+        "doc8270",
+        "doc8269",
+        "doc8268",
+        "doc8263",
+        "doc8259",
+        "doc1378206",
+        "doc506798",
+        "doc506797",
+        "doc176145"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "when did scotland last qualify for world cup"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "when did scotland last qualify for world cup"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc8259",
+                    "doc8271",
+                    "doc8263",
+                    "doc8270",
+                    "doc506798",
+                    "doc1378206",
+                    "doc8268",
+                    "doc8269",
+                    "doc176145",
+                    "doc506797"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8195303082466125,
+                    0.8183349370956421,
+                    0.8086895942687988,
+                    0.8027781844139099,
+                    0.7919853925704956,
+                    0.7468456029891968,
+                    0.7315664291381836,
+                    0.7279242873191833,
+                    0.7229825854301453,
+                    0.7024730443954468
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "when did scotland last qualify for world cup"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc8259",
+                    "doc8271",
+                    "doc8263",
+                    "doc8270",
+                    "doc506798",
+                    "doc1378206",
+                    "doc8268",
+                    "doc8269",
+                    "doc176145",
+                    "doc506797"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8195303082466125,
+                    0.8183349370956421,
+                    0.8086895942687988,
+                    0.8027781844139099,
+                    0.7919853925704956,
+                    0.7468456029891968,
+                    0.7315664291381836,
+                    0.7279242873191833,
+                    0.7229825854301453,
+                    0.7024730443954468
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did scotland last qualify for world cup\n\nDocuments:\n\ndoc8259: Scotland at the FIFA World Cup. Scotland have never advanced beyond the first round of the finals competition. They have missed out on progressing to the second round three times on goal difference: in 1974, when Brazil edged them out;[5] in 1978, when the Netherlands progressed;[6] and in 1982, when the USSR went through.[7] Although Scotland have played at eight finals tournaments, they have qualified on nine occasions. The Scottish Football Association declined to participate in 1950 as Scotland were not the British champions.[8]\n\ndoc8271: Scotland at the FIFA World Cup. Craig Brown guided Scotland to qualification for the 1998 FIFA World Cup, finishing as the best runners-up. Scotland were drawn against holders Brazil in the opening game of the World Cup.[32] John Collins scored from the penalty spot to level the score at 1\u20131, but a Tom Boyd own goal led to a 2\u20131 defeat. Scotland drew their next game 1\u20131 with Norway in Bordeaux,[2] but the final match against Morocco ended in a 3\u20130 defeat.[33] Scotland have not appeared at the World Cup since.\n\ndoc8263: Scotland at the FIFA World Cup. Scotland failed to qualify for another World Cup in the next 16 years.[10] A \"skilful but fragile\" team lost a play-off to Czechoslovakia in qualification for 1962.[10] A team managed by Jock Stein, but deprived of many of its best players due to club commitments, lost a decisive qualifier against Italy in Naples for the 1966 tournament.[10] A narrow defeat by West Germany in Hamburg then ended hopes of qualifying for 1970.[10]\n\ndoc8270: Scotland at the FIFA World Cup. Scotland qualified for their fifth consecutive World Cup in 1990 by finishing second in their qualifying group, ahead of France.[30] Scotland were drawn in a group with Costa Rica, Sweden, and Brazil, but the Scots lost 1\u20130 to Costa Rica.[31] While they recovered to beat Sweden 2\u20131 in their second game, they lost to Brazil in their third match 1\u20130 and were once again eliminated after the first round.[31] Goalkeeper Jim Leighton fumbled a shot that allowed Brazil to score the only goal.[10]\n\ndoc506798: Scotland at the UEFA European Championship. Under the guidance of manager Andy Roxburgh, Scotland qualified for the UEFA European Championship for the first time in 1992.[1] A 1\u20130 defeat to Romania away from home left qualification dependent upon other results, but a 1\u20131 draw between Bulgaria and Romania in the final group match saw Scotland squeeze through as group winners.[2] Despite competing well in defeats against the Netherlands and Germany and a fine win against the CIS, the team was knocked out at the group stage.[2]\n\ndoc1378206: List of Scotland international footballers. The Scotland national football team is the joint-oldest international football team, having played in the first official international match, a goalless draw on 30 November 1872 against England.[1]  Since then, the team has established a long-standing rivalry with England, particularly in the annual British Home Championship, which Scotland won 24 times outright and shared a further 17 times.[2] The team has enjoyed less success in continental and global competition. Even though Scotland has participated in eight FIFA World Cup and two UEFA European Championship final tournaments,[3] the team has never progressed beyond the first round of any major tournament.[3]\n\ndoc8268: Scotland at the FIFA World Cup. Jock Stein, who had won nine consecutive Scottish league titles and the European Cup as manager of Celtic, was appointed Scotland manager in 1978.[25] After failing to qualify for the 1980 European Championship,[18] Scotland qualified for the 1982 FIFA World Cup from a tough group including Sweden, Portugal, Israel and Northern Ireland, losing just one match in the process.[26] They were then drawn in a \"Group of death\" with New Zealand, Brazil and the Soviet Union.[10] Scotland beat New Zealand by 5\u20132 in their first game, but then lost 4\u20131 to a Brazil team containing Socrates, Zico, Eder and Falc\u00e3o.[7] Scotland were again eliminated on goal difference, after a 2\u20132 draw with the Soviet Union. This match is best remembered for defenders Alan Hansen and Willie Miller colliding while chasing a long ball, which allowed the Soviets to run through and score.[10]\n\ndoc8269: Scotland at the FIFA World Cup. Scotland qualified for the 1986 FIFA World Cup, their fourth in succession, in traumatic circumstances. The squad went into their last qualification match against Wales needing a point to progress to a qualifying playoff against Australia. With only nine minutes remaining and Wales leading 1\u20130, Scotland were awarded a penalty kick, which was calmly scored by Davie Cooper.[27] The 1\u20131 draw meant that Scotland progressed, but as the players and fans celebrated, national coach Jock Stein suffered a heart attack and died shortly afterwards.[27] His assistant Alex Ferguson took over.[25] Scotland qualified by winning 2\u20130 against Australia in a two-leg playoff, but were again drawn into a group of death, this time with Uruguay, Denmark and West Germany.[10][28] Scotland were eliminated from the tournament with just one point from their three matches, a goalless draw with Uruguay.[29]\n\ndoc176145: Scotland national rugby union team. Scotland has competed in every Rugby World Cup since the inaugural tournament in 1987. Their best finish was fourth in 1991.[38] In their semi-final on 26 October 1991 Scotland lost 6\u20139 to England at Murrayfield after Gavin Hastings missed a penalty almost in front of and a short distance from the posts. On 30 October Scotland lost the third-place play-off to New Zealand in Cardiff 13\u20136.[38] Since then they have qualified for the quarter-finals in all but one occasion, in 2011.[80] Their most recent world cup campaign in 2015 saw them come within 30 seconds of a famous win over Australia, however a last minute penalty sealed the win for the Wallabies.[95]\n\ndoc506797: Scotland at the UEFA European Championship. Scotland have participated in two UEFA European Football Championships finals, those held in 1992 and 1996. They have played six matches: winning two, drawing one and losing three. They have scored four goals and conceded five.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"doc8271\", \"doc8270\", \"doc8269\", \"doc8268\", \"doc8263\", \"doc8259\", \"doc1378206\", \"doc506798\", \"doc506797\", \"doc176145\"]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc8271",
+                "doc8270",
+                "doc8269",
+                "doc8268",
+                "doc8263",
+                "doc8259",
+                "doc1378206",
+                "doc506798",
+                "doc506797",
+                "doc176145"
+            ]
+        },
+        {
+            "queries": [
+                "when did scotland last qualify for world cup"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc8259",
+                    "doc8271",
+                    "doc8263",
+                    "doc8270",
+                    "doc506798",
+                    "doc1378206",
+                    "doc8268",
+                    "doc8269",
+                    "doc176145",
+                    "doc506797"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8195303082466125,
+                    0.8183349370956421,
+                    0.8086895942687988,
+                    0.8027781844139099,
+                    0.7919853925704956,
+                    0.7468456029891968,
+                    0.7315664291381836,
+                    0.7279242873191833,
+                    0.7229825854301453,
+                    0.7024730443954468
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did scotland last qualify for world cup\n\nDocuments:\n\ndoc8259: Scotland at the FIFA World Cup. Scotland have never advanced beyond the first round of the finals competition. They have missed out on progressing to the second round three times on goal difference: in 1974, when Brazil edged them out;[5] in 1978, when the Netherlands progressed;[6] and in 1982, when the USSR went through.[7] Although Scotland have played at eight finals tournaments, they have qualified on nine occasions. The Scottish Football Association declined to participate in 1950 as Scotland were not the British champions.[8]\n\ndoc8271: Scotland at the FIFA World Cup. Craig Brown guided Scotland to qualification for the 1998 FIFA World Cup, finishing as the best runners-up. Scotland were drawn against holders Brazil in the opening game of the World Cup.[32] John Collins scored from the penalty spot to level the score at 1\u20131, but a Tom Boyd own goal led to a 2\u20131 defeat. Scotland drew their next game 1\u20131 with Norway in Bordeaux,[2] but the final match against Morocco ended in a 3\u20130 defeat.[33] Scotland have not appeared at the World Cup since.\n\ndoc8263: Scotland at the FIFA World Cup. Scotland failed to qualify for another World Cup in the next 16 years.[10] A \"skilful but fragile\" team lost a play-off to Czechoslovakia in qualification for 1962.[10] A team managed by Jock Stein, but deprived of many of its best players due to club commitments, lost a decisive qualifier against Italy in Naples for the 1966 tournament.[10] A narrow defeat by West Germany in Hamburg then ended hopes of qualifying for 1970.[10]\n\ndoc8270: Scotland at the FIFA World Cup. Scotland qualified for their fifth consecutive World Cup in 1990 by finishing second in their qualifying group, ahead of France.[30] Scotland were drawn in a group with Costa Rica, Sweden, and Brazil, but the Scots lost 1\u20130 to Costa Rica.[31] While they recovered to beat Sweden 2\u20131 in their second game, they lost to Brazil in their third match 1\u20130 and were once again eliminated after the first round.[31] Goalkeeper Jim Leighton fumbled a shot that allowed Brazil to score the only goal.[10]\n\ndoc506798: Scotland at the UEFA European Championship. Under the guidance of manager Andy Roxburgh, Scotland qualified for the UEFA European Championship for the first time in 1992.[1] A 1\u20130 defeat to Romania away from home left qualification dependent upon other results, but a 1\u20131 draw between Bulgaria and Romania in the final group match saw Scotland squeeze through as group winners.[2] Despite competing well in defeats against the Netherlands and Germany and a fine win against the CIS, the team was knocked out at the group stage.[2]\n\ndoc1378206: List of Scotland international footballers. The Scotland national football team is the joint-oldest international football team, having played in the first official international match, a goalless draw on 30 November 1872 against England.[1]  Since then, the team has established a long-standing rivalry with England, particularly in the annual British Home Championship, which Scotland won 24 times outright and shared a further 17 times.[2] The team has enjoyed less success in continental and global competition. Even though Scotland has participated in eight FIFA World Cup and two UEFA European Championship final tournaments,[3] the team has never progressed beyond the first round of any major tournament.[3]\n\ndoc8268: Scotland at the FIFA World Cup. Jock Stein, who had won nine consecutive Scottish league titles and the European Cup as manager of Celtic, was appointed Scotland manager in 1978.[25] After failing to qualify for the 1980 European Championship,[18] Scotland qualified for the 1982 FIFA World Cup from a tough group including Sweden, Portugal, Israel and Northern Ireland, losing just one match in the process.[26] They were then drawn in a \"Group of death\" with New Zealand, Brazil and the Soviet Union.[10] Scotland beat New Zealand by 5\u20132 in their first game, but then lost 4\u20131 to a Brazil team containing Socrates, Zico, Eder and Falc\u00e3o.[7] Scotland were again eliminated on goal difference, after a 2\u20132 draw with the Soviet Union. This match is best remembered for defenders Alan Hansen and Willie Miller colliding while chasing a long ball, which allowed the Soviets to run through and score.[10]\n\ndoc8269: Scotland at the FIFA World Cup. Scotland qualified for the 1986 FIFA World Cup, their fourth in succession, in traumatic circumstances. The squad went into their last qualification match against Wales needing a point to progress to a qualifying playoff against Australia. With only nine minutes remaining and Wales leading 1\u20130, Scotland were awarded a penalty kick, which was calmly scored by Davie Cooper.[27] The 1\u20131 draw meant that Scotland progressed, but as the players and fans celebrated, national coach Jock Stein suffered a heart attack and died shortly afterwards.[27] His assistant Alex Ferguson took over.[25] Scotland qualified by winning 2\u20130 against Australia in a two-leg playoff, but were again drawn into a group of death, this time with Uruguay, Denmark and West Germany.[10][28] Scotland were eliminated from the tournament with just one point from their three matches, a goalless draw with Uruguay.[29]\n\ndoc176145: Scotland national rugby union team. Scotland has competed in every Rugby World Cup since the inaugural tournament in 1987. Their best finish was fourth in 1991.[38] In their semi-final on 26 October 1991 Scotland lost 6\u20139 to England at Murrayfield after Gavin Hastings missed a penalty almost in front of and a short distance from the posts. On 30 October Scotland lost the third-place play-off to New Zealand in Cardiff 13\u20136.[38] Since then they have qualified for the quarter-finals in all but one occasion, in 2011.[80] Their most recent world cup campaign in 2015 saw them come within 30 seconds of a famous win over Australia, however a last minute penalty sealed the win for the Wallabies.[95]\n\ndoc506797: Scotland at the UEFA European Championship. Scotland have participated in two UEFA European Football Championships finals, those held in 1992 and 1996. They have played six matches: winning two, drawing one and losing three. They have scored four goals and conceded five.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"doc8271\", \"doc8270\", \"doc8269\", \"doc8268\", \"doc8263\", \"doc8259\", \"doc1378206\", \"doc506798\", \"doc506797\", \"doc176145\"]\nprint(doc_ids)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc8271",
+                "doc8270",
+                "doc8269",
+                "doc8268",
+                "doc8263",
+                "doc8259",
+                "doc1378206",
+                "doc506798",
+                "doc506797",
+                "doc176145"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "when did scotland last qualify for world cup"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc8259",
+                    "doc8271",
+                    "doc8263",
+                    "doc8270",
+                    "doc506798",
+                    "doc1378206",
+                    "doc8268",
+                    "doc8269",
+                    "doc176145",
+                    "doc506797"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.8195303082466125,
+                    0.8183349370956421,
+                    0.8086895942687988,
+                    0.8027781844139099,
+                    0.7919853925704956,
+                    0.7468456029891968,
+                    0.7315664291381836,
+                    0.7279242873191833,
+                    0.7229825854301453,
+                    0.7024730443954468
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did scotland last qualify for world cup\n\nDocuments:\n\ndoc8259: Scotland at the FIFA World Cup. Scotland have never advanced beyond the first round of the finals competition. They have missed out on progressing to the second round three times on goal difference: in 1974, when Brazil edged them out;[5] in 1978, when the Netherlands progressed;[6] and in 1982, when the USSR went through.[7] Although Scotland have played at eight finals tournaments, they have qualified on nine occasions. The Scottish Football Association declined to participate in 1950 as Scotland were not the British champions.[8]\n\ndoc8271: Scotland at the FIFA World Cup. Craig Brown guided Scotland to qualification for the 1998 FIFA World Cup, finishing as the best runners-up. Scotland were drawn against holders Brazil in the opening game of the World Cup.[32] John Collins scored from the penalty spot to level the score at 1\u20131, but a Tom Boyd own goal led to a 2\u20131 defeat. Scotland drew their next game 1\u20131 with Norway in Bordeaux,[2] but the final match against Morocco ended in a 3\u20130 defeat.[33] Scotland have not appeared at the World Cup since.\n\ndoc8263: Scotland at the FIFA World Cup. Scotland failed to qualify for another World Cup in the next 16 years.[10] A \"skilful but fragile\" team lost a play-off to Czechoslovakia in qualification for 1962.[10] A team managed by Jock Stein, but deprived of many of its best players due to club commitments, lost a decisive qualifier against Italy in Naples for the 1966 tournament.[10] A narrow defeat by West Germany in Hamburg then ended hopes of qualifying for 1970.[10]\n\ndoc8270: Scotland at the FIFA World Cup. Scotland qualified for their fifth consecutive World Cup in 1990 by finishing second in their qualifying group, ahead of France.[30] Scotland were drawn in a group with Costa Rica, Sweden, and Brazil, but the Scots lost 1\u20130 to Costa Rica.[31] While they recovered to beat Sweden 2\u20131 in their second game, they lost to Brazil in their third match 1\u20130 and were once again eliminated after the first round.[31] Goalkeeper Jim Leighton fumbled a shot that allowed Brazil to score the only goal.[10]\n\ndoc506798: Scotland at the UEFA European Championship. Under the guidance of manager Andy Roxburgh, Scotland qualified for the UEFA European Championship for the first time in 1992.[1] A 1\u20130 defeat to Romania away from home left qualification dependent upon other results, but a 1\u20131 draw between Bulgaria and Romania in the final group match saw Scotland squeeze through as group winners.[2] Despite competing well in defeats against the Netherlands and Germany and a fine win against the CIS, the team was knocked out at the group stage.[2]\n\ndoc1378206: List of Scotland international footballers. The Scotland national football team is the joint-oldest international football team, having played in the first official international match, a goalless draw on 30 November 1872 against England.[1]  Since then, the team has established a long-standing rivalry with England, particularly in the annual British Home Championship, which Scotland won 24 times outright and shared a further 17 times.[2] The team has enjoyed less success in continental and global competition. Even though Scotland has participated in eight FIFA World Cup and two UEFA European Championship final tournaments,[3] the team has never progressed beyond the first round of any major tournament.[3]\n\ndoc8268: Scotland at the FIFA World Cup. Jock Stein, who had won nine consecutive Scottish league titles and the European Cup as manager of Celtic, was appointed Scotland manager in 1978.[25] After failing to qualify for the 1980 European Championship,[18] Scotland qualified for the 1982 FIFA World Cup from a tough group including Sweden, Portugal, Israel and Northern Ireland, losing just one match in the process.[26] They were then drawn in a \"Group of death\" with New Zealand, Brazil and the Soviet Union.[10] Scotland beat New Zealand by 5\u20132 in their first game, but then lost 4\u20131 to a Brazil team containing Socrates, Zico, Eder and Falc\u00e3o.[7] Scotland were again eliminated on goal difference, after a 2\u20132 draw with the Soviet Union. This match is best remembered for defenders Alan Hansen and Willie Miller colliding while chasing a long ball, which allowed the Soviets to run through and score.[10]\n\ndoc8269: Scotland at the FIFA World Cup. Scotland qualified for the 1986 FIFA World Cup, their fourth in succession, in traumatic circumstances. The squad went into their last qualification match against Wales needing a point to progress to a qualifying playoff against Australia. With only nine minutes remaining and Wales leading 1\u20130, Scotland were awarded a penalty kick, which was calmly scored by Davie Cooper.[27] The 1\u20131 draw meant that Scotland progressed, but as the players and fans celebrated, national coach Jock Stein suffered a heart attack and died shortly afterwards.[27] His assistant Alex Ferguson took over.[25] Scotland qualified by winning 2\u20130 against Australia in a two-leg playoff, but were again drawn into a group of death, this time with Uruguay, Denmark and West Germany.[10][28] Scotland were eliminated from the tournament with just one point from their three matches, a goalless draw with Uruguay.[29]\n\ndoc176145: Scotland national rugby union team. Scotland has competed in every Rugby World Cup since the inaugural tournament in 1987. Their best finish was fourth in 1991.[38] In their semi-final on 26 October 1991 Scotland lost 6\u20139 to England at Murrayfield after Gavin Hastings missed a penalty almost in front of and a short distance from the posts. On 30 October Scotland lost the third-place play-off to New Zealand in Cardiff 13\u20136.[38] Since then they have qualified for the quarter-finals in all but one occasion, in 2011.[80] Their most recent world cup campaign in 2015 saw them come within 30 seconds of a famous win over Australia, however a last minute penalty sealed the win for the Wallabies.[95]\n\ndoc506797: Scotland at the UEFA European Championship. Scotland have participated in two UEFA European Football Championships finals, those held in 1992 and 1996. They have played six matches: winning two, drawing one and losing three. They have scored four goals and conceded five.\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: when did scotland last qualify for world cup\n\nDocuments:\n\ndoc8271: Scotland at the FIFA World Cup. Craig Brown guided Scotland to qualification for the 1998 FIFA World Cup, finishing as the best runners-up. Scotland were drawn against holders Brazil in the opening game of the World Cup.[32] John Collins scored from the penalty spot to level the score at 1\u20131, but a Tom Boyd own goal led to a 2\u20131 defeat. Scotland drew their next game 1\u20131 with Norway in Bordeaux,[2] but the final match against Morocco ended in a 3\u20130 defeat.[33] Scotland have not appeared at the World Cup since.\n\ndoc8270: Scotland at the FIFA World Cup. Scotland qualified for their fifth consecutive World Cup in 1990 by finishing second in their qualifying group, ahead of France.[30] Scotland were drawn in a group with Costa Rica, Sweden, and Brazil, but the Scots lost 1\u20130 to Costa Rica.[31] While they recovered to beat Sweden 2\u20131 in their second game, they lost to Brazil in their third match 1\u20130 and were once again eliminated after the first round.[31] Goalkeeper Jim Leighton fumbled a shot that allowed Brazil to score the only goal.[10]\n\ndoc8269: Scotland at the FIFA World Cup. Scotland qualified for the 1986 FIFA World Cup, their fourth in succession, in traumatic circumstances. The squad went into their last qualification match against Wales needing a point to progress to a qualifying playoff against Australia. With only nine minutes remaining and Wales leading 1\u20130, Scotland were awarded a penalty kick, which was calmly scored by Davie Cooper.[27] The 1\u20131 draw meant that Scotland progressed, but as the players and fans celebrated, national coach Jock Stein suffered a heart attack and died shortly afterwards.[27] His assistant Alex Ferguson took over.[25] Scotland qualified by winning 2\u20130 against Australia in a two-leg playoff, but were again drawn into a group of death, this time with Uruguay, Denmark and West Germany.[10][28] Scotland were eliminated from the tournament with just one point from their three matches, a goalless draw with Uruguay.[29]\n\ndoc8268: Scotland at the FIFA World Cup. Jock Stein, who had won nine consecutive Scottish league titles and the European Cup as manager of Celtic, was appointed Scotland manager in 1978.[25] After failing to qualify for the 1980 European Championship,[18] Scotland qualified for the 1982 FIFA World Cup from a tough group including Sweden, Portugal, Israel and Northern Ireland, losing just one match in the process.[26] They were then drawn in a \"Group of death\" with New Zealand, Brazil and the Soviet Union.[10] Scotland beat New Zealand by 5\u20132 in their first game, but then lost 4\u20131 to a Brazil team containing Socrates, Zico, Eder and Falc\u00e3o.[7] Scotland were again eliminated on goal difference, after a 2\u20132 draw with the Soviet Union. This match is best remembered for defenders Alan Hansen and Willie Miller colliding while chasing a long ball, which allowed the Soviets to run through and score.[10]\n\ndoc8263: Scotland at the FIFA World Cup. Scotland failed to qualify for another World Cup in the next 16 years.[10] A \"skilful but fragile\" team lost a play-off to Czechoslovakia in qualification for 1962.[10] A team managed by Jock Stein, but deprived of many of its best players due to club commitments, lost a decisive qualifier against Italy in Naples for the 1966 tournament.[10] A narrow defeat by West Germany in Hamburg then ended hopes of qualifying for 1970.[10]\n\ndoc8259: Scotland at the FIFA World Cup. Scotland have never advanced beyond the first round of the finals competition. They have missed out on progressing to the second round three times on goal difference: in 1974, when Brazil edged them out;[5] in 1978, when the Netherlands progressed;[6] and in 1982, when the USSR went through.[7] Although Scotland have played at eight finals tournaments, they have qualified on nine occasions. The Scottish Football Association declined to participate in 1950 as Scotland were not the British champions.[8]\n\ndoc1378206: List of Scotland international footballers. The Scotland national football team is the joint-oldest international football team, having played in the first official international match, a goalless draw on 30 November 1872 against England.[1]  Since then, the team has established a long-standing rivalry with England, particularly in the annual British Home Championship, which Scotland won 24 times outright and shared a further 17 times.[2] The team has enjoyed less success in continental and global competition. Even though Scotland has participated in eight FIFA World Cup and two UEFA European Championship final tournaments,[3] the team has never progressed beyond the first round of any major tournament.[3]\n\ndoc506798: Scotland at the UEFA European Championship. Under the guidance of manager Andy Roxburgh, Scotland qualified for the UEFA European Championship for the first time in 1992.[1] A 1\u20130 defeat to Romania away from home left qualification dependent upon other results, but a 1\u20131 draw between Bulgaria and Romania in the final group match saw Scotland squeeze through as group winners.[2] Despite competing well in defeats against the Netherlands and Germany and a fine win against the CIS, the team was knocked out at the group stage.[2]\n\ndoc506797: Scotland at the UEFA European Championship. Scotland have participated in two UEFA European Football Championships finals, those held in 1992 and 1996. They have played six matches: winning two, drawing one and losing three. They have scored four goals and conceded five.\n\ndoc176145: Scotland national rugby union team. Scotland has competed in every Rugby World Cup since the inaugural tournament in 1987. Their best finish was fourth in 1991.[38] In their semi-final on 26 October 1991 Scotland lost 6\u20139 to England at Murrayfield after Gavin Hastings missed a penalty almost in front of and a short distance from the posts. On 30 October Scotland lost the third-place play-off to New Zealand in Cardiff 13\u20136.[38] Since then they have qualified for the quarter-finals in all but one occasion, in 2011.[80] Their most recent world cup campaign in 2015 saw them come within 30 seconds of a famous win over Australia, however a last minute penalty sealed the win for the Wallabies.[95]\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_ids = [\"doc8271\", \"doc8270\", \"doc8269\", \"doc8268\", \"doc8263\", \"doc8259\", \"doc1378206\", \"doc506798\", \"doc506797\", \"doc176145\"]\nprint(doc_ids)\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc8271",
+                "doc8270",
+                "doc8269",
+                "doc8268",
+                "doc8263",
+                "doc8259",
+                "doc1378206",
+                "doc506798",
+                "doc506797",
+                "doc176145"
+            ],
+            "terminate": true
+        }
+    ]
+}

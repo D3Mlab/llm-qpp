@@ -1,0 +1,8 @@
+Given the query and the list of retrieved documents, has the query been fully answered by the search results? Reply only Yes or No.
+
+Query: {{ query }}
+
+Documents:
+{% for doc in curr_top_k_ids_and_texts %}
+{{ doc.docID }}: {{ doc.text }}
+{% endfor %}

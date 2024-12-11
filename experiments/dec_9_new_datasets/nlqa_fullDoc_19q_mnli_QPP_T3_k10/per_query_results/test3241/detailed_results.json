@@ -1,0 +1,230 @@
+{
+    "queries": [
+        "when did the granite mountain hotshots get certified"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc110851",
+            "doc1957917",
+            "doc1794150",
+            "doc102110",
+            "doc1157901",
+            "doc102124",
+            "doc3414",
+            "doc102119",
+            "doc3412",
+            "doc2438387"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.555797815322876,
+            0.46090248227119446,
+            0.43660908937454224,
+            0.434004545211792,
+            0.4240894317626953,
+            0.4232001304626465,
+            0.4181135892868042,
+            0.41789939999580383,
+            0.41677623987197876,
+            0.41458866000175476
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did the granite mountain hotshots get certified\n\nDocuments:\n\ndoc110851: Prescott Fire Department. The Granite Mountain Hotshots were a group within the department whose mission was to fight wildfires. Founded in 2002 as a fuels mitigation crew, it transitioned to a handcrew (Type 2 I/A) in 2004, and ultimately to a hotshot crew in 2008.[5] The crew had their own fire station, station 7, where equipment, including two 10-person crew carriers, was housed.[6] The 2017 film Only the Brave was based on the Granite Mountain Hotshots and the Yarnell Fire.\n\ndoc1957917: Yarnell Hill Fire. The lone survivor from the 20-man crew was 21-year-old Brendan McDonough.[19] He had been serving as a lookout when the fire threatened to overtake his position. McDonough was hiking out on foot when he was located by Brian Frisby, the Superintendent of the Blue Ridge Hotshots, who was monitoring the radio communications between McDonough and the Granite Mountain IHC Captain.[15] Frisby and McDonough moved the crew's vehicles to a safer location, which they were doing at the time of Granite Mountain crew entrapment.[5][20] After moving the vehicles, Frisby and other members of the Blue Ridge Hotshots attempted to rescue the entrapped Granite Mountain Hotshots but were forced back by the intense flames and heat of the fire. Driving through the streets of Yarnell, the Blue Ridge Hotshots evacuated several residents who had failed to evacuate earlier. Frisby and his assistant eventually made their way to the entrapment site and were some of the first individuals to find the deployment site and the remains of the Granite Mountain crew.[5]\n\ndoc1794150: Cold Stone Creamery. The Tim Hortons venture follows on the footsteps of a similar co-branding efforts in 2007 and 2008, but ended in 2014.[14] Cold Stone franchisees in New York City began partnering with Soup Kitchen International to sell soup in their stores beginning in late 2007.[15] In 2008, the company signed an agreement with the Rocky Mountain Chocolate Factory to open seven locations in the Western US. The venture is designed to bring in customers on a year-round basis as opposed to the seasonal draws that each company experiences.[16] The mingling of Cold Stone and Rocky Mountain led to more than 10% increase in weekly sales in Rocky Mountain stores after co-branding.[17]\n\ndoc102110: Hot Coffee mod. In New York, a class action lawsuit was filed by Florence Cohen, an 85-year-old grandmother who purchased the game for her 14-year-old grandson (according to the old rating of \"M\", the game is typically considered inappropriate for this age). Cohen's lawsuit claimed that Rockstar Games and Take-Two Interactive, the publisher of the game, are guilty of deception, false advertising, fraud and abuse. The accusation of deception is based on the change from M-rated to AO, meaning according to the lawsuit that the original rating was a deceptive practice.[10]\n\ndoc1157901: Granite. A-type or anorogenic granites are formed above volcanic \"hot spot\" activity and have a peculiar mineralogy and geochemistry. These granites are formed by the melting of the lower crust under conditions that are usually extremely dry. A-type granites occur in the Koettlitz Glacier Alkaline Province in the Royal Society Range, Antarctica. The rhyolites of the Yellowstone caldera are examples of volcanic equivalents of A-type granite.[10][11]\n\ndoc102124: Hot Coffee mod. On June 8, 2006, Rockstar, Take-Two and the FTC settled. They are required to \"clearly and prominently disclose on product packaging and in any promotion or advertisement for electronic games, content relevant to the rating, unless that content had been disclosed sufficiently in prior submissions to the rating authority.\" Should the companies violate the settlement they are liable for $11,000 in civil penalties.[22]\n\ndoc3414: Big Sur. By this time Granite Rock's permit had expired. In 2010, the company's president stated that he believed that at some point the company would be allowed to extract the limestone in a way that doesn't harm the environment.[163][164] As of 2017[update], they still own the land, which is zoned WSC/40-D(CZ) for Watershed and Scenic Conservation.[97]\n\ndoc102119: Hot Coffee mod. On August 24, 2005, Rockstar announced a mandatory recall for all games still owned by the general public.[citation needed] Consumers who had already purchased the game were allowed to keep it in certain areas, but with the patch installed, although players cannot be forced to return (or destroy) existing copies. Given the higher value of the \"uncensored\" versions, it is doubtful that many gamers will return their copies voluntarily. However, those who were over 18 (or 21 depending on region) have grandfathered these copies of the game to their collection.[citation needed]\n\ndoc3412: Big Sur. Mount Pico Blanco is topped by a distinctive white limestone cap, visible from California's Highway One.[160] The Granite Rock Company of Watsonville, California has since 1963 owned the mineral rights to 2,800 acres (1,100\u00a0ha), or all of section 36, which sits astride and surrounds the summit of Pico Blanco Mountain. Limestone is a key ingredient in concrete and Pico Blanco contains a particularly high grade deposit, reportedly the largest in California,[161] and the largest west of the Rocky Mountains.[162] In 1980 Granite Rock applied for a permit from the U.S. Forest Service to begin excavating a 5-acre (2.0\u00a0ha) quarry on the south face of Pico Blanco within the National Forest boundary.[97]\n\ndoc2438387: Hot 'n Now. In October 2003, Proquest Capital Corporation acquired Hot 'n Now assets and some liabilities from Hot 'n Now, LLC. Proquest was soon renamed to Hot Brands, Inc. At the time of acquisition, the chain had 44 locations, 23 corporate and 21 franchisee owned, in three states: Michigan, Wisconsin, and Indiana.[10]\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: when did the granite mountain hotshots get certified\n\nDocuments:\n\ndoc110851: Prescott Fire Department. The Granite Mountain Hotshots were a group within the department whose mission was to fight wildfires. Founded in 2002 as a fuels mitigation crew, it transitioned to a handcrew (Type 2 I/A) in 2004, and ultimately to a hotshot crew in 2008.[5] The crew had their own fire station, station 7, where equipment, including two 10-person crew carriers, was housed.[6] The 2017 film Only the Brave was based on the Granite Mountain Hotshots and the Yarnell Fire.\n\ndoc1957917: Yarnell Hill Fire. The lone survivor from the 20-man crew was 21-year-old Brendan McDonough.[19] He had been serving as a lookout when the fire threatened to overtake his position. McDonough was hiking out on foot when he was located by Brian Frisby, the Superintendent of the Blue Ridge Hotshots, who was monitoring the radio communications between McDonough and the Granite Mountain IHC Captain.[15] Frisby and McDonough moved the crew's vehicles to a safer location, which they were doing at the time of Granite Mountain crew entrapment.[5][20] After moving the vehicles, Frisby and other members of the Blue Ridge Hotshots attempted to rescue the entrapped Granite Mountain Hotshots but were forced back by the intense flames and heat of the fire. Driving through the streets of Yarnell, the Blue Ridge Hotshots evacuated several residents who had failed to evacuate earlier. Frisby and his assistant eventually made their way to the entrapment site and were some of the first individuals to find the deployment site and the remains of the Granite Mountain crew.[5]\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_order = [\"doc110851\", \"doc1957917\"]\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc110851",
+        "doc1957917"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "when did the granite mountain hotshots get certified"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "when did the granite mountain hotshots get certified"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc110851",
+                    "doc1957917",
+                    "doc1794150",
+                    "doc102110",
+                    "doc1157901",
+                    "doc102124",
+                    "doc3414",
+                    "doc102119",
+                    "doc3412",
+                    "doc2438387"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.555797815322876,
+                    0.46090248227119446,
+                    0.43660908937454224,
+                    0.434004545211792,
+                    0.4240894317626953,
+                    0.4232001304626465,
+                    0.4181135892868042,
+                    0.41789939999580383,
+                    0.41677623987197876,
+                    0.41458866000175476
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "when did the granite mountain hotshots get certified"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc110851",
+                    "doc1957917",
+                    "doc1794150",
+                    "doc102110",
+                    "doc1157901",
+                    "doc102124",
+                    "doc3414",
+                    "doc102119",
+                    "doc3412",
+                    "doc2438387"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.555797815322876,
+                    0.46090248227119446,
+                    0.43660908937454224,
+                    0.434004545211792,
+                    0.4240894317626953,
+                    0.4232001304626465,
+                    0.4181135892868042,
+                    0.41789939999580383,
+                    0.41677623987197876,
+                    0.41458866000175476
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did the granite mountain hotshots get certified\n\nDocuments:\n\ndoc110851: Prescott Fire Department. The Granite Mountain Hotshots were a group within the department whose mission was to fight wildfires. Founded in 2002 as a fuels mitigation crew, it transitioned to a handcrew (Type 2 I/A) in 2004, and ultimately to a hotshot crew in 2008.[5] The crew had their own fire station, station 7, where equipment, including two 10-person crew carriers, was housed.[6] The 2017 film Only the Brave was based on the Granite Mountain Hotshots and the Yarnell Fire.\n\ndoc1957917: Yarnell Hill Fire. The lone survivor from the 20-man crew was 21-year-old Brendan McDonough.[19] He had been serving as a lookout when the fire threatened to overtake his position. McDonough was hiking out on foot when he was located by Brian Frisby, the Superintendent of the Blue Ridge Hotshots, who was monitoring the radio communications between McDonough and the Granite Mountain IHC Captain.[15] Frisby and McDonough moved the crew's vehicles to a safer location, which they were doing at the time of Granite Mountain crew entrapment.[5][20] After moving the vehicles, Frisby and other members of the Blue Ridge Hotshots attempted to rescue the entrapped Granite Mountain Hotshots but were forced back by the intense flames and heat of the fire. Driving through the streets of Yarnell, the Blue Ridge Hotshots evacuated several residents who had failed to evacuate earlier. Frisby and his assistant eventually made their way to the entrapment site and were some of the first individuals to find the deployment site and the remains of the Granite Mountain crew.[5]\n\ndoc1794150: Cold Stone Creamery. The Tim Hortons venture follows on the footsteps of a similar co-branding efforts in 2007 and 2008, but ended in 2014.[14] Cold Stone franchisees in New York City began partnering with Soup Kitchen International to sell soup in their stores beginning in late 2007.[15] In 2008, the company signed an agreement with the Rocky Mountain Chocolate Factory to open seven locations in the Western US. The venture is designed to bring in customers on a year-round basis as opposed to the seasonal draws that each company experiences.[16] The mingling of Cold Stone and Rocky Mountain led to more than 10% increase in weekly sales in Rocky Mountain stores after co-branding.[17]\n\ndoc102110: Hot Coffee mod. In New York, a class action lawsuit was filed by Florence Cohen, an 85-year-old grandmother who purchased the game for her 14-year-old grandson (according to the old rating of \"M\", the game is typically considered inappropriate for this age). Cohen's lawsuit claimed that Rockstar Games and Take-Two Interactive, the publisher of the game, are guilty of deception, false advertising, fraud and abuse. The accusation of deception is based on the change from M-rated to AO, meaning according to the lawsuit that the original rating was a deceptive practice.[10]\n\ndoc1157901: Granite. A-type or anorogenic granites are formed above volcanic \"hot spot\" activity and have a peculiar mineralogy and geochemistry. These granites are formed by the melting of the lower crust under conditions that are usually extremely dry. A-type granites occur in the Koettlitz Glacier Alkaline Province in the Royal Society Range, Antarctica. The rhyolites of the Yellowstone caldera are examples of volcanic equivalents of A-type granite.[10][11]\n\ndoc102124: Hot Coffee mod. On June 8, 2006, Rockstar, Take-Two and the FTC settled. They are required to \"clearly and prominently disclose on product packaging and in any promotion or advertisement for electronic games, content relevant to the rating, unless that content had been disclosed sufficiently in prior submissions to the rating authority.\" Should the companies violate the settlement they are liable for $11,000 in civil penalties.[22]\n\ndoc3414: Big Sur. By this time Granite Rock's permit had expired. In 2010, the company's president stated that he believed that at some point the company would be allowed to extract the limestone in a way that doesn't harm the environment.[163][164] As of 2017[update], they still own the land, which is zoned WSC/40-D(CZ) for Watershed and Scenic Conservation.[97]\n\ndoc102119: Hot Coffee mod. On August 24, 2005, Rockstar announced a mandatory recall for all games still owned by the general public.[citation needed] Consumers who had already purchased the game were allowed to keep it in certain areas, but with the patch installed, although players cannot be forced to return (or destroy) existing copies. Given the higher value of the \"uncensored\" versions, it is doubtful that many gamers will return their copies voluntarily. However, those who were over 18 (or 21 depending on region) have grandfathered these copies of the game to their collection.[citation needed]\n\ndoc3412: Big Sur. Mount Pico Blanco is topped by a distinctive white limestone cap, visible from California's Highway One.[160] The Granite Rock Company of Watsonville, California has since 1963 owned the mineral rights to 2,800 acres (1,100\u00a0ha), or all of section 36, which sits astride and surrounds the summit of Pico Blanco Mountain. Limestone is a key ingredient in concrete and Pico Blanco contains a particularly high grade deposit, reportedly the largest in California,[161] and the largest west of the Rocky Mountains.[162] In 1980 Granite Rock applied for a permit from the U.S. Forest Service to begin excavating a 5-acre (2.0\u00a0ha) quarry on the south face of Pico Blanco within the National Forest boundary.[97]\n\ndoc2438387: Hot 'n Now. In October 2003, Proquest Capital Corporation acquired Hot 'n Now assets and some liabilities from Hot 'n Now, LLC. Proquest was soon renamed to Hot Brands, Inc. At the time of acquisition, the chain had 44 locations, 23 corporate and 21 franchisee owned, in three states: Michigan, Wisconsin, and Indiana.[10]\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\"doc110851\", \"doc1957917\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc110851",
+                "doc1957917"
+            ]
+        },
+        {
+            "queries": [
+                "when did the granite mountain hotshots get certified"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc110851",
+                    "doc1957917",
+                    "doc1794150",
+                    "doc102110",
+                    "doc1157901",
+                    "doc102124",
+                    "doc3414",
+                    "doc102119",
+                    "doc3412",
+                    "doc2438387"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.555797815322876,
+                    0.46090248227119446,
+                    0.43660908937454224,
+                    0.434004545211792,
+                    0.4240894317626953,
+                    0.4232001304626465,
+                    0.4181135892868042,
+                    0.41789939999580383,
+                    0.41677623987197876,
+                    0.41458866000175476
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did the granite mountain hotshots get certified\n\nDocuments:\n\ndoc110851: Prescott Fire Department. The Granite Mountain Hotshots were a group within the department whose mission was to fight wildfires. Founded in 2002 as a fuels mitigation crew, it transitioned to a handcrew (Type 2 I/A) in 2004, and ultimately to a hotshot crew in 2008.[5] The crew had their own fire station, station 7, where equipment, including two 10-person crew carriers, was housed.[6] The 2017 film Only the Brave was based on the Granite Mountain Hotshots and the Yarnell Fire.\n\ndoc1957917: Yarnell Hill Fire. The lone survivor from the 20-man crew was 21-year-old Brendan McDonough.[19] He had been serving as a lookout when the fire threatened to overtake his position. McDonough was hiking out on foot when he was located by Brian Frisby, the Superintendent of the Blue Ridge Hotshots, who was monitoring the radio communications between McDonough and the Granite Mountain IHC Captain.[15] Frisby and McDonough moved the crew's vehicles to a safer location, which they were doing at the time of Granite Mountain crew entrapment.[5][20] After moving the vehicles, Frisby and other members of the Blue Ridge Hotshots attempted to rescue the entrapped Granite Mountain Hotshots but were forced back by the intense flames and heat of the fire. Driving through the streets of Yarnell, the Blue Ridge Hotshots evacuated several residents who had failed to evacuate earlier. Frisby and his assistant eventually made their way to the entrapment site and were some of the first individuals to find the deployment site and the remains of the Granite Mountain crew.[5]\n\ndoc1794150: Cold Stone Creamery. The Tim Hortons venture follows on the footsteps of a similar co-branding efforts in 2007 and 2008, but ended in 2014.[14] Cold Stone franchisees in New York City began partnering with Soup Kitchen International to sell soup in their stores beginning in late 2007.[15] In 2008, the company signed an agreement with the Rocky Mountain Chocolate Factory to open seven locations in the Western US. The venture is designed to bring in customers on a year-round basis as opposed to the seasonal draws that each company experiences.[16] The mingling of Cold Stone and Rocky Mountain led to more than 10% increase in weekly sales in Rocky Mountain stores after co-branding.[17]\n\ndoc102110: Hot Coffee mod. In New York, a class action lawsuit was filed by Florence Cohen, an 85-year-old grandmother who purchased the game for her 14-year-old grandson (according to the old rating of \"M\", the game is typically considered inappropriate for this age). Cohen's lawsuit claimed that Rockstar Games and Take-Two Interactive, the publisher of the game, are guilty of deception, false advertising, fraud and abuse. The accusation of deception is based on the change from M-rated to AO, meaning according to the lawsuit that the original rating was a deceptive practice.[10]\n\ndoc1157901: Granite. A-type or anorogenic granites are formed above volcanic \"hot spot\" activity and have a peculiar mineralogy and geochemistry. These granites are formed by the melting of the lower crust under conditions that are usually extremely dry. A-type granites occur in the Koettlitz Glacier Alkaline Province in the Royal Society Range, Antarctica. The rhyolites of the Yellowstone caldera are examples of volcanic equivalents of A-type granite.[10][11]\n\ndoc102124: Hot Coffee mod. On June 8, 2006, Rockstar, Take-Two and the FTC settled. They are required to \"clearly and prominently disclose on product packaging and in any promotion or advertisement for electronic games, content relevant to the rating, unless that content had been disclosed sufficiently in prior submissions to the rating authority.\" Should the companies violate the settlement they are liable for $11,000 in civil penalties.[22]\n\ndoc3414: Big Sur. By this time Granite Rock's permit had expired. In 2010, the company's president stated that he believed that at some point the company would be allowed to extract the limestone in a way that doesn't harm the environment.[163][164] As of 2017[update], they still own the land, which is zoned WSC/40-D(CZ) for Watershed and Scenic Conservation.[97]\n\ndoc102119: Hot Coffee mod. On August 24, 2005, Rockstar announced a mandatory recall for all games still owned by the general public.[citation needed] Consumers who had already purchased the game were allowed to keep it in certain areas, but with the patch installed, although players cannot be forced to return (or destroy) existing copies. Given the higher value of the \"uncensored\" versions, it is doubtful that many gamers will return their copies voluntarily. However, those who were over 18 (or 21 depending on region) have grandfathered these copies of the game to their collection.[citation needed]\n\ndoc3412: Big Sur. Mount Pico Blanco is topped by a distinctive white limestone cap, visible from California's Highway One.[160] The Granite Rock Company of Watsonville, California has since 1963 owned the mineral rights to 2,800 acres (1,100\u00a0ha), or all of section 36, which sits astride and surrounds the summit of Pico Blanco Mountain. Limestone is a key ingredient in concrete and Pico Blanco contains a particularly high grade deposit, reportedly the largest in California,[161] and the largest west of the Rocky Mountains.[162] In 1980 Granite Rock applied for a permit from the U.S. Forest Service to begin excavating a 5-acre (2.0\u00a0ha) quarry on the south face of Pico Blanco within the National Forest boundary.[97]\n\ndoc2438387: Hot 'n Now. In October 2003, Proquest Capital Corporation acquired Hot 'n Now assets and some liabilities from Hot 'n Now, LLC. Proquest was soon renamed to Hot Brands, Inc. At the time of acquisition, the chain had 44 locations, 23 corporate and 21 franchisee owned, in three states: Michigan, Wisconsin, and Indiana.[10]\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\"doc110851\", \"doc1957917\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc110851",
+                "doc1957917"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "when did the granite mountain hotshots get certified"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc110851",
+                    "doc1957917",
+                    "doc1794150",
+                    "doc102110",
+                    "doc1157901",
+                    "doc102124",
+                    "doc3414",
+                    "doc102119",
+                    "doc3412",
+                    "doc2438387"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.555797815322876,
+                    0.46090248227119446,
+                    0.43660908937454224,
+                    0.434004545211792,
+                    0.4240894317626953,
+                    0.4232001304626465,
+                    0.4181135892868042,
+                    0.41789939999580383,
+                    0.41677623987197876,
+                    0.41458866000175476
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: when did the granite mountain hotshots get certified\n\nDocuments:\n\ndoc110851: Prescott Fire Department. The Granite Mountain Hotshots were a group within the department whose mission was to fight wildfires. Founded in 2002 as a fuels mitigation crew, it transitioned to a handcrew (Type 2 I/A) in 2004, and ultimately to a hotshot crew in 2008.[5] The crew had their own fire station, station 7, where equipment, including two 10-person crew carriers, was housed.[6] The 2017 film Only the Brave was based on the Granite Mountain Hotshots and the Yarnell Fire.\n\ndoc1957917: Yarnell Hill Fire. The lone survivor from the 20-man crew was 21-year-old Brendan McDonough.[19] He had been serving as a lookout when the fire threatened to overtake his position. McDonough was hiking out on foot when he was located by Brian Frisby, the Superintendent of the Blue Ridge Hotshots, who was monitoring the radio communications between McDonough and the Granite Mountain IHC Captain.[15] Frisby and McDonough moved the crew's vehicles to a safer location, which they were doing at the time of Granite Mountain crew entrapment.[5][20] After moving the vehicles, Frisby and other members of the Blue Ridge Hotshots attempted to rescue the entrapped Granite Mountain Hotshots but were forced back by the intense flames and heat of the fire. Driving through the streets of Yarnell, the Blue Ridge Hotshots evacuated several residents who had failed to evacuate earlier. Frisby and his assistant eventually made their way to the entrapment site and were some of the first individuals to find the deployment site and the remains of the Granite Mountain crew.[5]\n\ndoc1794150: Cold Stone Creamery. The Tim Hortons venture follows on the footsteps of a similar co-branding efforts in 2007 and 2008, but ended in 2014.[14] Cold Stone franchisees in New York City began partnering with Soup Kitchen International to sell soup in their stores beginning in late 2007.[15] In 2008, the company signed an agreement with the Rocky Mountain Chocolate Factory to open seven locations in the Western US. The venture is designed to bring in customers on a year-round basis as opposed to the seasonal draws that each company experiences.[16] The mingling of Cold Stone and Rocky Mountain led to more than 10% increase in weekly sales in Rocky Mountain stores after co-branding.[17]\n\ndoc102110: Hot Coffee mod. In New York, a class action lawsuit was filed by Florence Cohen, an 85-year-old grandmother who purchased the game for her 14-year-old grandson (according to the old rating of \"M\", the game is typically considered inappropriate for this age). Cohen's lawsuit claimed that Rockstar Games and Take-Two Interactive, the publisher of the game, are guilty of deception, false advertising, fraud and abuse. The accusation of deception is based on the change from M-rated to AO, meaning according to the lawsuit that the original rating was a deceptive practice.[10]\n\ndoc1157901: Granite. A-type or anorogenic granites are formed above volcanic \"hot spot\" activity and have a peculiar mineralogy and geochemistry. These granites are formed by the melting of the lower crust under conditions that are usually extremely dry. A-type granites occur in the Koettlitz Glacier Alkaline Province in the Royal Society Range, Antarctica. The rhyolites of the Yellowstone caldera are examples of volcanic equivalents of A-type granite.[10][11]\n\ndoc102124: Hot Coffee mod. On June 8, 2006, Rockstar, Take-Two and the FTC settled. They are required to \"clearly and prominently disclose on product packaging and in any promotion or advertisement for electronic games, content relevant to the rating, unless that content had been disclosed sufficiently in prior submissions to the rating authority.\" Should the companies violate the settlement they are liable for $11,000 in civil penalties.[22]\n\ndoc3414: Big Sur. By this time Granite Rock's permit had expired. In 2010, the company's president stated that he believed that at some point the company would be allowed to extract the limestone in a way that doesn't harm the environment.[163][164] As of 2017[update], they still own the land, which is zoned WSC/40-D(CZ) for Watershed and Scenic Conservation.[97]\n\ndoc102119: Hot Coffee mod. On August 24, 2005, Rockstar announced a mandatory recall for all games still owned by the general public.[citation needed] Consumers who had already purchased the game were allowed to keep it in certain areas, but with the patch installed, although players cannot be forced to return (or destroy) existing copies. Given the higher value of the \"uncensored\" versions, it is doubtful that many gamers will return their copies voluntarily. However, those who were over 18 (or 21 depending on region) have grandfathered these copies of the game to their collection.[citation needed]\n\ndoc3412: Big Sur. Mount Pico Blanco is topped by a distinctive white limestone cap, visible from California's Highway One.[160] The Granite Rock Company of Watsonville, California has since 1963 owned the mineral rights to 2,800 acres (1,100\u00a0ha), or all of section 36, which sits astride and surrounds the summit of Pico Blanco Mountain. Limestone is a key ingredient in concrete and Pico Blanco contains a particularly high grade deposit, reportedly the largest in California,[161] and the largest west of the Rocky Mountains.[162] In 1980 Granite Rock applied for a permit from the U.S. Forest Service to begin excavating a 5-acre (2.0\u00a0ha) quarry on the south face of Pico Blanco within the National Forest boundary.[97]\n\ndoc2438387: Hot 'n Now. In October 2003, Proquest Capital Corporation acquired Hot 'n Now assets and some liabilities from Hot 'n Now, LLC. Proquest was soon renamed to Hot Brands, Inc. At the time of acquisition, the chain had 44 locations, 23 corporate and 21 franchisee owned, in three states: Michigan, Wisconsin, and Indiana.[10]\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: when did the granite mountain hotshots get certified\n\nDocuments:\n\ndoc110851: Prescott Fire Department. The Granite Mountain Hotshots were a group within the department whose mission was to fight wildfires. Founded in 2002 as a fuels mitigation crew, it transitioned to a handcrew (Type 2 I/A) in 2004, and ultimately to a hotshot crew in 2008.[5] The crew had their own fire station, station 7, where equipment, including two 10-person crew carriers, was housed.[6] The 2017 film Only the Brave was based on the Granite Mountain Hotshots and the Yarnell Fire.\n\ndoc1957917: Yarnell Hill Fire. The lone survivor from the 20-man crew was 21-year-old Brendan McDonough.[19] He had been serving as a lookout when the fire threatened to overtake his position. McDonough was hiking out on foot when he was located by Brian Frisby, the Superintendent of the Blue Ridge Hotshots, who was monitoring the radio communications between McDonough and the Granite Mountain IHC Captain.[15] Frisby and McDonough moved the crew's vehicles to a safer location, which they were doing at the time of Granite Mountain crew entrapment.[5][20] After moving the vehicles, Frisby and other members of the Blue Ridge Hotshots attempted to rescue the entrapped Granite Mountain Hotshots but were forced back by the intense flames and heat of the fire. Driving through the streets of Yarnell, the Blue Ridge Hotshots evacuated several residents who had failed to evacuate earlier. Frisby and his assistant eventually made their way to the entrapment site and were some of the first individuals to find the deployment site and the remains of the Granite Mountain crew.[5]\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\"doc110851\", \"doc1957917\"]\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc110851",
+                "doc1957917"
+            ],
+            "terminate": true
+        }
+    ]
+}

@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "china in chinese is called zhongguo which means"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc41579",
+            "doc41580",
+            "doc41564",
+            "doc41605",
+            "doc41569",
+            "doc41570",
+            "doc1032075",
+            "doc41578",
+            "doc41568",
+            "doc41565"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.825482189655304,
+            0.7985546588897705,
+            0.7833150625228882,
+            0.7746251821517944,
+            0.7688165903091431,
+            0.763393223285675,
+            0.7338391542434692,
+            0.7332448959350586,
+            0.7296124696731567,
+            0.727285623550415
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: china in chinese is called zhongguo which means\n\nDocuments:\n\ndoc41579: Names of China. \"Zh\u014dnggu\u00f3\" in different languages (see also section on its translation Middle Kingdom)\n\ndoc41580: Names of China. \"Zh\u014dnghu\u00e1\" in different languages\n\ndoc41564: Names of China. The names of China include the many contemporary and historical appellations given in various languages for the East Asian country known as Zhongguo (\u4e2d\u570b/\u4e2d\u56fd) in its native language. China, the name in English for the country, was derived from Portuguese in the 16th century, and became popular in the mid 19th century.[1] It is believed to be a borrowing from Middle Persian, and some have traced it further back to Sanskrit. It is also generally thought that the state of Qin that later formed the Qin dynasty is the ultimate source of the name, although there are other suggestions.\n\ndoc41605: Names of China. Sinologists usually use \"Chinese\" in a more restricted sense, akin to the classical usage of Zhongguo, to the Han ethnic group, which makes up the bulk of the population in China and of the overseas Chinese.\n\ndoc41569: Names of China. From the Qin to Ming dynasty literati discussed \"Zhongguo\" as both a historical place or territory and as a culture. Writers of the Ming period in particular used the term as a political tool to express opposition to expansionist policies that incorporated foreigners into the empire.[6] In contrast foreign conquerors typically avoided discussions of \"Zhongguo\" and instead defined membership in their empires to include both Han and non-Han peoples.[7]\n\ndoc41570: Names of China. Zhongguo appeared in a formal international legal document for the first time during the Qing dynasty in the Treaty of Nerchinsk, 1689. The term was then used in communications with other states and in treaties. The Manchu rulers incorporated Inner Asian polities into their empire, and Wei Yuan, a statecraft scholar, distinguished the new territories from Zhongguo, which he defined as the 17 provinces of \"China proper\" plus the Manchu homelands in the Northeast. By the late 19th century the term had emerged as a common name for the whole country. The empire was sometimes referred to as Great Qing but increasingly as Zhongguo (see the discussion below).[8]\n\ndoc1032075: China proper. While the Manchu Qing sought used China (Zhongguo) to describe non-Han areas, however some Han scholar-officials opposed the Qing Manchu Emperor's use of Zhongguo to refer to non-Han areas, using Zhongguo to mark a distinction between the culturally Han Chinese areas and the territory newly brought into the Manchu Qing empire. In the early 19th century, Wei Yuan\u00e2\u20ac\u2122s Shengwuji (Military History of the Qing Dynasty) calls the inner Asian polities guo, while the seventeen provinces of the traditional heartland, that is, \"China proper,\" and three eastern provinces of Manchuria are called \"Zhongguo.\"[16] Some Han Chinese Ming loyalists refused to use Zhongguo to refer to areas outside the borders of the Ming Empire such as outer Mongolia, in effect refusing to acknowledge the Qing state.\n\ndoc41578: Names of China. In the 20th century after the May Fourth Movement, educated students began to spread the concept of Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e), which represented the people, including 56 minority ethnic groups and the Han Chinese, with a single culture identifying themselves as \"Chinese\". The Republic of China and the People's Republic of China both used the title \"Zh\u014dnghu\u00e1\" in their official names. Thus, \"Zh\u014dnggu\u00f3\" became the common name for both governments. Overseas Chinese are referred to as hu\u00e1qi\u00e1o (\u83ef\u50d1/\u534e\u4fa8), literally \"Chinese overseas\", or hu\u00e1y\u00ec (\u83ef\u88d4/\u534e\u88d4), literally \"Chinese descendant\" (i.e., Chinese children born overseas).\n\ndoc41568: Names of China. There were different usages of the term \"Zhongguo\" in every period. It could refer to the capital of the emperor to distinguish it from the capitals of his vassals, as in Western Zhou. It could refer to the states of the Central Plain to distinguish them from states in outer regions. During the Han dynasty, three usages of \"Zhongguo\" were common. The Shi Jing explicitly defines \"Zhongguo\" as the capital; the Records of the Grand Historian uses the concept zhong to indicate the center of civilization: \"Eight famous mountains are there in Tianxia. Three are in Man and Yi. Five are in Zh\u014dnghu\u00e1.\" The Records of the Three Kingdoms uses the concept of the central states in \"Zh\u014dnghu\u00e1\", or the states in \"Zh\u014dnghu\u00e1\" which is the center, depending on the interpretation. It records the following exhortation: \"If we can lead the host of Wu and Yue to oppose \"Zhongguo,\" then let us break off relations with them soon.\" In this sense, the term \"Zhongguo\" is synonymous with Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e) and Hu\u00e1xi\u00e0 (\u83ef\u590f/\u534e\u590f), names for \"China\" that comes from the Xia dynasty.\n\ndoc41565: Names of China. Chinese names for China, aside from Zhongguo, include Zhonghua (\u4e2d\u83ef/\u4e2d\u534e), Huaxia (\u83ef\u590f/\u534e\u590f), Shenzhou (\u795e\u5dde) and Jiuzhou (\u4e5d\u5dde). Han (\u6f22/\u6c49) and Tang (\u5510) are common names given for the Chinese ethnicity. The People's Republic of China (Zh\u014dnghu\u00e1 R\u00e9nm\u00edn G\u00f2ngh\u00e9gu\u00f3) and Republic of China (Zh\u014dnghu\u00e1 M\u00edngu\u00f3) are the official names for the two contemporary sovereign states currently claiming sovereignty over the traditional area of China. \"Mainland China\" is used to refer to areas under the jurisdiction by the PRC usually excluding Hong Kong and Macau.\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: china in chinese is called zhongguo which means\n\nDocuments:\n\ndoc41564: Names of China. The names of China include the many contemporary and historical appellations given in various languages for the East Asian country known as Zhongguo (\u4e2d\u570b/\u4e2d\u56fd) in its native language. China, the name in English for the country, was derived from Portuguese in the 16th century, and became popular in the mid 19th century.[1] It is believed to be a borrowing from Middle Persian, and some have traced it further back to Sanskrit. It is also generally thought that the state of Qin that later formed the Qin dynasty is the ultimate source of the name, although there are other suggestions.\n\ndoc41568: Names of China. There were different usages of the term \"Zhongguo\" in every period. It could refer to the capital of the emperor to distinguish it from the capitals of his vassals, as in Western Zhou. It could refer to the states of the Central Plain to distinguish them from states in outer regions. During the Han dynasty, three usages of \"Zhongguo\" were common. The Shi Jing explicitly defines \"Zhongguo\" as the capital; the Records of the Grand Historian uses the concept zhong to indicate the center of civilization: \"Eight famous mountains are there in Tianxia. Three are in Man and Yi. Five are in Zh\u014dnghu\u00e1.\" The Records of the Three Kingdoms uses the concept of the central states in \"Zh\u014dnghu\u00e1\", or the states in \"Zh\u014dnghu\u00e1\" which is the center, depending on the interpretation. It records the following exhortation: \"If we can lead the host of Wu and Yue to oppose \"Zhongguo,\" then let us break off relations with them soon.\" In this sense, the term \"Zhongguo\" is synonymous with Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e) and Hu\u00e1xi\u00e0 (\u83ef\u590f/\u534e\u590f), names for \"China\" that comes from the Xia dynasty.\n\ndoc41569: Names of China. From the Qin to Ming dynasty literati discussed \"Zhongguo\" as both a historical place or territory and as a culture. Writers of the Ming period in particular used the term as a political tool to express opposition to expansionist policies that incorporated foreigners into the empire.[6] In contrast foreign conquerors typically avoided discussions of \"Zhongguo\" and instead defined membership in their empires to include both Han and non-Han peoples.[7]\n\ndoc41570: Names of China. Zhongguo appeared in a formal international legal document for the first time during the Qing dynasty in the Treaty of Nerchinsk, 1689. The term was then used in communications with other states and in treaties. The Manchu rulers incorporated Inner Asian polities into their empire, and Wei Yuan, a statecraft scholar, distinguished the new territories from Zhongguo, which he defined as the 17 provinces of \"China proper\" plus the Manchu homelands in the Northeast. By the late 19th century the term had emerged as a common name for the whole country. The empire was sometimes referred to as Great Qing but increasingly as Zhongguo (see the discussion below).[8]\n\ndoc41578: Names of China. In the 20th century after the May Fourth Movement, educated students began to spread the concept of Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e), which represented the people, including 56 minority ethnic groups and the Han Chinese, with a single culture identifying themselves as \"Chinese\". The Republic of China and the People's Republic of China both used the title \"Zh\u014dnghu\u00e1\" in their official names. Thus, \"Zh\u014dnggu\u00f3\" became the common name for both governments. Overseas Chinese are referred to as hu\u00e1qi\u00e1o (\u83ef\u50d1/\u534e\u4fa8), literally \"Chinese overseas\", or hu\u00e1y\u00ec (\u83ef\u88d4/\u534e\u88d4), literally \"Chinese descendant\" (i.e., Chinese children born overseas).\n\ndoc41605: Names of China. Sinologists usually use \"Chinese\" in a more restricted sense, akin to the classical usage of Zhongguo, to the Han ethnic group, which makes up the bulk of the population in China and of the overseas Chinese.\n\ndoc41579: Names of China. \"Zh\u014dnggu\u00f3\" in different languages (see also section on its translation Middle Kingdom)\n\ndoc41580: Names of China. \"Zh\u014dnghu\u00e1\" in different languages\n\ndoc1032075: China proper. While the Manchu Qing sought used China (Zhongguo) to describe non-Han areas, however some Han scholar-officials opposed the Qing Manchu Emperor's use of Zhongguo to refer to non-Han areas, using Zhongguo to mark a distinction between the culturally Han Chinese areas and the territory newly brought into the Manchu Qing empire. In the early 19th century, Wei Yuan\u00e2\u20ac\u2122s Shengwuji (Military History of the Qing Dynasty) calls the inner Asian polities guo, while the seventeen provinces of the traditional heartland, that is, \"China proper,\" and three eastern provinces of Manchuria are called \"Zhongguo.\"[16] Some Han Chinese Ming loyalists refused to use Zhongguo to refer to areas outside the borders of the Ming Empire such as outer Mongolia, in effect refusing to acknowledge the Qing state.\n\ndoc41565: Names of China. Chinese names for China, aside from Zhongguo, include Zhonghua (\u4e2d\u83ef/\u4e2d\u534e), Huaxia (\u83ef\u590f/\u534e\u590f), Shenzhou (\u795e\u5dde) and Jiuzhou (\u4e5d\u5dde). Han (\u6f22/\u6c49) and Tang (\u5510) are common names given for the Chinese ethnicity. The People's Republic of China (Zh\u014dnghu\u00e1 R\u00e9nm\u00edn G\u00f2ngh\u00e9gu\u00f3) and Republic of China (Zh\u014dnghu\u00e1 M\u00edngu\u00f3) are the official names for the two contemporary sovereign states currently claiming sovereignty over the traditional area of China. \"Mainland China\" is used to refer to areas under the jurisdiction by the PRC usually excluding Hong Kong and Macau.\n\n"
+    ],
+    "responses": [
+        "```python\ndoc_order = [\n    \"doc41564\",\n    \"doc41568\",\n    \"doc41569\",\n    \"doc41570\",\n    \"doc41578\",\n    \"doc41605\",\n    \"doc41579\",\n    \"doc41580\",\n    \"doc1032075\",\n    \"doc41565\"\n]\n\nprint(doc_order)\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc41564",
+        "doc41568",
+        "doc41569",
+        "doc41570",
+        "doc41578",
+        "doc41605",
+        "doc41579",
+        "doc41580",
+        "doc1032075",
+        "doc41565"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "china in chinese is called zhongguo which means"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "china in chinese is called zhongguo which means"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc41579",
+                    "doc41580",
+                    "doc41564",
+                    "doc41605",
+                    "doc41569",
+                    "doc41570",
+                    "doc1032075",
+                    "doc41578",
+                    "doc41568",
+                    "doc41565"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.825482189655304,
+                    0.7985546588897705,
+                    0.7833150625228882,
+                    0.7746251821517944,
+                    0.7688165903091431,
+                    0.763393223285675,
+                    0.7338391542434692,
+                    0.7332448959350586,
+                    0.7296124696731567,
+                    0.727285623550415
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "china in chinese is called zhongguo which means"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc41579",
+                    "doc41580",
+                    "doc41564",
+                    "doc41605",
+                    "doc41569",
+                    "doc41570",
+                    "doc1032075",
+                    "doc41578",
+                    "doc41568",
+                    "doc41565"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.825482189655304,
+                    0.7985546588897705,
+                    0.7833150625228882,
+                    0.7746251821517944,
+                    0.7688165903091431,
+                    0.763393223285675,
+                    0.7338391542434692,
+                    0.7332448959350586,
+                    0.7296124696731567,
+                    0.727285623550415
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: china in chinese is called zhongguo which means\n\nDocuments:\n\ndoc41579: Names of China. \"Zh\u014dnggu\u00f3\" in different languages (see also section on its translation Middle Kingdom)\n\ndoc41580: Names of China. \"Zh\u014dnghu\u00e1\" in different languages\n\ndoc41564: Names of China. The names of China include the many contemporary and historical appellations given in various languages for the East Asian country known as Zhongguo (\u4e2d\u570b/\u4e2d\u56fd) in its native language. China, the name in English for the country, was derived from Portuguese in the 16th century, and became popular in the mid 19th century.[1] It is believed to be a borrowing from Middle Persian, and some have traced it further back to Sanskrit. It is also generally thought that the state of Qin that later formed the Qin dynasty is the ultimate source of the name, although there are other suggestions.\n\ndoc41605: Names of China. Sinologists usually use \"Chinese\" in a more restricted sense, akin to the classical usage of Zhongguo, to the Han ethnic group, which makes up the bulk of the population in China and of the overseas Chinese.\n\ndoc41569: Names of China. From the Qin to Ming dynasty literati discussed \"Zhongguo\" as both a historical place or territory and as a culture. Writers of the Ming period in particular used the term as a political tool to express opposition to expansionist policies that incorporated foreigners into the empire.[6] In contrast foreign conquerors typically avoided discussions of \"Zhongguo\" and instead defined membership in their empires to include both Han and non-Han peoples.[7]\n\ndoc41570: Names of China. Zhongguo appeared in a formal international legal document for the first time during the Qing dynasty in the Treaty of Nerchinsk, 1689. The term was then used in communications with other states and in treaties. The Manchu rulers incorporated Inner Asian polities into their empire, and Wei Yuan, a statecraft scholar, distinguished the new territories from Zhongguo, which he defined as the 17 provinces of \"China proper\" plus the Manchu homelands in the Northeast. By the late 19th century the term had emerged as a common name for the whole country. The empire was sometimes referred to as Great Qing but increasingly as Zhongguo (see the discussion below).[8]\n\ndoc1032075: China proper. While the Manchu Qing sought used China (Zhongguo) to describe non-Han areas, however some Han scholar-officials opposed the Qing Manchu Emperor's use of Zhongguo to refer to non-Han areas, using Zhongguo to mark a distinction between the culturally Han Chinese areas and the territory newly brought into the Manchu Qing empire. In the early 19th century, Wei Yuan\u00e2\u20ac\u2122s Shengwuji (Military History of the Qing Dynasty) calls the inner Asian polities guo, while the seventeen provinces of the traditional heartland, that is, \"China proper,\" and three eastern provinces of Manchuria are called \"Zhongguo.\"[16] Some Han Chinese Ming loyalists refused to use Zhongguo to refer to areas outside the borders of the Ming Empire such as outer Mongolia, in effect refusing to acknowledge the Qing state.\n\ndoc41578: Names of China. In the 20th century after the May Fourth Movement, educated students began to spread the concept of Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e), which represented the people, including 56 minority ethnic groups and the Han Chinese, with a single culture identifying themselves as \"Chinese\". The Republic of China and the People's Republic of China both used the title \"Zh\u014dnghu\u00e1\" in their official names. Thus, \"Zh\u014dnggu\u00f3\" became the common name for both governments. Overseas Chinese are referred to as hu\u00e1qi\u00e1o (\u83ef\u50d1/\u534e\u4fa8), literally \"Chinese overseas\", or hu\u00e1y\u00ec (\u83ef\u88d4/\u534e\u88d4), literally \"Chinese descendant\" (i.e., Chinese children born overseas).\n\ndoc41568: Names of China. There were different usages of the term \"Zhongguo\" in every period. It could refer to the capital of the emperor to distinguish it from the capitals of his vassals, as in Western Zhou. It could refer to the states of the Central Plain to distinguish them from states in outer regions. During the Han dynasty, three usages of \"Zhongguo\" were common. The Shi Jing explicitly defines \"Zhongguo\" as the capital; the Records of the Grand Historian uses the concept zhong to indicate the center of civilization: \"Eight famous mountains are there in Tianxia. Three are in Man and Yi. Five are in Zh\u014dnghu\u00e1.\" The Records of the Three Kingdoms uses the concept of the central states in \"Zh\u014dnghu\u00e1\", or the states in \"Zh\u014dnghu\u00e1\" which is the center, depending on the interpretation. It records the following exhortation: \"If we can lead the host of Wu and Yue to oppose \"Zhongguo,\" then let us break off relations with them soon.\" In this sense, the term \"Zhongguo\" is synonymous with Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e) and Hu\u00e1xi\u00e0 (\u83ef\u590f/\u534e\u590f), names for \"China\" that comes from the Xia dynasty.\n\ndoc41565: Names of China. Chinese names for China, aside from Zhongguo, include Zhonghua (\u4e2d\u83ef/\u4e2d\u534e), Huaxia (\u83ef\u590f/\u534e\u590f), Shenzhou (\u795e\u5dde) and Jiuzhou (\u4e5d\u5dde). Han (\u6f22/\u6c49) and Tang (\u5510) are common names given for the Chinese ethnicity. The People's Republic of China (Zh\u014dnghu\u00e1 R\u00e9nm\u00edn G\u00f2ngh\u00e9gu\u00f3) and Republic of China (Zh\u014dnghu\u00e1 M\u00edngu\u00f3) are the official names for the two contemporary sovereign states currently claiming sovereignty over the traditional area of China. \"Mainland China\" is used to refer to areas under the jurisdiction by the PRC usually excluding Hong Kong and Macau.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\n    \"doc41564\",\n    \"doc41568\",\n    \"doc41569\",\n    \"doc41570\",\n    \"doc41578\",\n    \"doc41605\",\n    \"doc41579\",\n    \"doc41580\",\n    \"doc1032075\",\n    \"doc41565\"\n]\n\nprint(doc_order)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc41564",
+                "doc41568",
+                "doc41569",
+                "doc41570",
+                "doc41578",
+                "doc41605",
+                "doc41579",
+                "doc41580",
+                "doc1032075",
+                "doc41565"
+            ]
+        },
+        {
+            "queries": [
+                "china in chinese is called zhongguo which means"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc41579",
+                    "doc41580",
+                    "doc41564",
+                    "doc41605",
+                    "doc41569",
+                    "doc41570",
+                    "doc1032075",
+                    "doc41578",
+                    "doc41568",
+                    "doc41565"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.825482189655304,
+                    0.7985546588897705,
+                    0.7833150625228882,
+                    0.7746251821517944,
+                    0.7688165903091431,
+                    0.763393223285675,
+                    0.7338391542434692,
+                    0.7332448959350586,
+                    0.7296124696731567,
+                    0.727285623550415
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: china in chinese is called zhongguo which means\n\nDocuments:\n\ndoc41579: Names of China. \"Zh\u014dnggu\u00f3\" in different languages (see also section on its translation Middle Kingdom)\n\ndoc41580: Names of China. \"Zh\u014dnghu\u00e1\" in different languages\n\ndoc41564: Names of China. The names of China include the many contemporary and historical appellations given in various languages for the East Asian country known as Zhongguo (\u4e2d\u570b/\u4e2d\u56fd) in its native language. China, the name in English for the country, was derived from Portuguese in the 16th century, and became popular in the mid 19th century.[1] It is believed to be a borrowing from Middle Persian, and some have traced it further back to Sanskrit. It is also generally thought that the state of Qin that later formed the Qin dynasty is the ultimate source of the name, although there are other suggestions.\n\ndoc41605: Names of China. Sinologists usually use \"Chinese\" in a more restricted sense, akin to the classical usage of Zhongguo, to the Han ethnic group, which makes up the bulk of the population in China and of the overseas Chinese.\n\ndoc41569: Names of China. From the Qin to Ming dynasty literati discussed \"Zhongguo\" as both a historical place or territory and as a culture. Writers of the Ming period in particular used the term as a political tool to express opposition to expansionist policies that incorporated foreigners into the empire.[6] In contrast foreign conquerors typically avoided discussions of \"Zhongguo\" and instead defined membership in their empires to include both Han and non-Han peoples.[7]\n\ndoc41570: Names of China. Zhongguo appeared in a formal international legal document for the first time during the Qing dynasty in the Treaty of Nerchinsk, 1689. The term was then used in communications with other states and in treaties. The Manchu rulers incorporated Inner Asian polities into their empire, and Wei Yuan, a statecraft scholar, distinguished the new territories from Zhongguo, which he defined as the 17 provinces of \"China proper\" plus the Manchu homelands in the Northeast. By the late 19th century the term had emerged as a common name for the whole country. The empire was sometimes referred to as Great Qing but increasingly as Zhongguo (see the discussion below).[8]\n\ndoc1032075: China proper. While the Manchu Qing sought used China (Zhongguo) to describe non-Han areas, however some Han scholar-officials opposed the Qing Manchu Emperor's use of Zhongguo to refer to non-Han areas, using Zhongguo to mark a distinction between the culturally Han Chinese areas and the territory newly brought into the Manchu Qing empire. In the early 19th century, Wei Yuan\u00e2\u20ac\u2122s Shengwuji (Military History of the Qing Dynasty) calls the inner Asian polities guo, while the seventeen provinces of the traditional heartland, that is, \"China proper,\" and three eastern provinces of Manchuria are called \"Zhongguo.\"[16] Some Han Chinese Ming loyalists refused to use Zhongguo to refer to areas outside the borders of the Ming Empire such as outer Mongolia, in effect refusing to acknowledge the Qing state.\n\ndoc41578: Names of China. In the 20th century after the May Fourth Movement, educated students began to spread the concept of Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e), which represented the people, including 56 minority ethnic groups and the Han Chinese, with a single culture identifying themselves as \"Chinese\". The Republic of China and the People's Republic of China both used the title \"Zh\u014dnghu\u00e1\" in their official names. Thus, \"Zh\u014dnggu\u00f3\" became the common name for both governments. Overseas Chinese are referred to as hu\u00e1qi\u00e1o (\u83ef\u50d1/\u534e\u4fa8), literally \"Chinese overseas\", or hu\u00e1y\u00ec (\u83ef\u88d4/\u534e\u88d4), literally \"Chinese descendant\" (i.e., Chinese children born overseas).\n\ndoc41568: Names of China. There were different usages of the term \"Zhongguo\" in every period. It could refer to the capital of the emperor to distinguish it from the capitals of his vassals, as in Western Zhou. It could refer to the states of the Central Plain to distinguish them from states in outer regions. During the Han dynasty, three usages of \"Zhongguo\" were common. The Shi Jing explicitly defines \"Zhongguo\" as the capital; the Records of the Grand Historian uses the concept zhong to indicate the center of civilization: \"Eight famous mountains are there in Tianxia. Three are in Man and Yi. Five are in Zh\u014dnghu\u00e1.\" The Records of the Three Kingdoms uses the concept of the central states in \"Zh\u014dnghu\u00e1\", or the states in \"Zh\u014dnghu\u00e1\" which is the center, depending on the interpretation. It records the following exhortation: \"If we can lead the host of Wu and Yue to oppose \"Zhongguo,\" then let us break off relations with them soon.\" In this sense, the term \"Zhongguo\" is synonymous with Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e) and Hu\u00e1xi\u00e0 (\u83ef\u590f/\u534e\u590f), names for \"China\" that comes from the Xia dynasty.\n\ndoc41565: Names of China. Chinese names for China, aside from Zhongguo, include Zhonghua (\u4e2d\u83ef/\u4e2d\u534e), Huaxia (\u83ef\u590f/\u534e\u590f), Shenzhou (\u795e\u5dde) and Jiuzhou (\u4e5d\u5dde). Han (\u6f22/\u6c49) and Tang (\u5510) are common names given for the Chinese ethnicity. The People's Republic of China (Zh\u014dnghu\u00e1 R\u00e9nm\u00edn G\u00f2ngh\u00e9gu\u00f3) and Republic of China (Zh\u014dnghu\u00e1 M\u00edngu\u00f3) are the official names for the two contemporary sovereign states currently claiming sovereignty over the traditional area of China. \"Mainland China\" is used to refer to areas under the jurisdiction by the PRC usually excluding Hong Kong and Macau.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\n    \"doc41564\",\n    \"doc41568\",\n    \"doc41569\",\n    \"doc41570\",\n    \"doc41578\",\n    \"doc41605\",\n    \"doc41579\",\n    \"doc41580\",\n    \"doc1032075\",\n    \"doc41565\"\n]\n\nprint(doc_order)\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc41564",
+                "doc41568",
+                "doc41569",
+                "doc41570",
+                "doc41578",
+                "doc41605",
+                "doc41579",
+                "doc41580",
+                "doc1032075",
+                "doc41565"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "china in chinese is called zhongguo which means"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc41579",
+                    "doc41580",
+                    "doc41564",
+                    "doc41605",
+                    "doc41569",
+                    "doc41570",
+                    "doc1032075",
+                    "doc41578",
+                    "doc41568",
+                    "doc41565"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.825482189655304,
+                    0.7985546588897705,
+                    0.7833150625228882,
+                    0.7746251821517944,
+                    0.7688165903091431,
+                    0.763393223285675,
+                    0.7338391542434692,
+                    0.7332448959350586,
+                    0.7296124696731567,
+                    0.727285623550415
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: china in chinese is called zhongguo which means\n\nDocuments:\n\ndoc41579: Names of China. \"Zh\u014dnggu\u00f3\" in different languages (see also section on its translation Middle Kingdom)\n\ndoc41580: Names of China. \"Zh\u014dnghu\u00e1\" in different languages\n\ndoc41564: Names of China. The names of China include the many contemporary and historical appellations given in various languages for the East Asian country known as Zhongguo (\u4e2d\u570b/\u4e2d\u56fd) in its native language. China, the name in English for the country, was derived from Portuguese in the 16th century, and became popular in the mid 19th century.[1] It is believed to be a borrowing from Middle Persian, and some have traced it further back to Sanskrit. It is also generally thought that the state of Qin that later formed the Qin dynasty is the ultimate source of the name, although there are other suggestions.\n\ndoc41605: Names of China. Sinologists usually use \"Chinese\" in a more restricted sense, akin to the classical usage of Zhongguo, to the Han ethnic group, which makes up the bulk of the population in China and of the overseas Chinese.\n\ndoc41569: Names of China. From the Qin to Ming dynasty literati discussed \"Zhongguo\" as both a historical place or territory and as a culture. Writers of the Ming period in particular used the term as a political tool to express opposition to expansionist policies that incorporated foreigners into the empire.[6] In contrast foreign conquerors typically avoided discussions of \"Zhongguo\" and instead defined membership in their empires to include both Han and non-Han peoples.[7]\n\ndoc41570: Names of China. Zhongguo appeared in a formal international legal document for the first time during the Qing dynasty in the Treaty of Nerchinsk, 1689. The term was then used in communications with other states and in treaties. The Manchu rulers incorporated Inner Asian polities into their empire, and Wei Yuan, a statecraft scholar, distinguished the new territories from Zhongguo, which he defined as the 17 provinces of \"China proper\" plus the Manchu homelands in the Northeast. By the late 19th century the term had emerged as a common name for the whole country. The empire was sometimes referred to as Great Qing but increasingly as Zhongguo (see the discussion below).[8]\n\ndoc1032075: China proper. While the Manchu Qing sought used China (Zhongguo) to describe non-Han areas, however some Han scholar-officials opposed the Qing Manchu Emperor's use of Zhongguo to refer to non-Han areas, using Zhongguo to mark a distinction between the culturally Han Chinese areas and the territory newly brought into the Manchu Qing empire. In the early 19th century, Wei Yuan\u00e2\u20ac\u2122s Shengwuji (Military History of the Qing Dynasty) calls the inner Asian polities guo, while the seventeen provinces of the traditional heartland, that is, \"China proper,\" and three eastern provinces of Manchuria are called \"Zhongguo.\"[16] Some Han Chinese Ming loyalists refused to use Zhongguo to refer to areas outside the borders of the Ming Empire such as outer Mongolia, in effect refusing to acknowledge the Qing state.\n\ndoc41578: Names of China. In the 20th century after the May Fourth Movement, educated students began to spread the concept of Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e), which represented the people, including 56 minority ethnic groups and the Han Chinese, with a single culture identifying themselves as \"Chinese\". The Republic of China and the People's Republic of China both used the title \"Zh\u014dnghu\u00e1\" in their official names. Thus, \"Zh\u014dnggu\u00f3\" became the common name for both governments. Overseas Chinese are referred to as hu\u00e1qi\u00e1o (\u83ef\u50d1/\u534e\u4fa8), literally \"Chinese overseas\", or hu\u00e1y\u00ec (\u83ef\u88d4/\u534e\u88d4), literally \"Chinese descendant\" (i.e., Chinese children born overseas).\n\ndoc41568: Names of China. There were different usages of the term \"Zhongguo\" in every period. It could refer to the capital of the emperor to distinguish it from the capitals of his vassals, as in Western Zhou. It could refer to the states of the Central Plain to distinguish them from states in outer regions. During the Han dynasty, three usages of \"Zhongguo\" were common. The Shi Jing explicitly defines \"Zhongguo\" as the capital; the Records of the Grand Historian uses the concept zhong to indicate the center of civilization: \"Eight famous mountains are there in Tianxia. Three are in Man and Yi. Five are in Zh\u014dnghu\u00e1.\" The Records of the Three Kingdoms uses the concept of the central states in \"Zh\u014dnghu\u00e1\", or the states in \"Zh\u014dnghu\u00e1\" which is the center, depending on the interpretation. It records the following exhortation: \"If we can lead the host of Wu and Yue to oppose \"Zhongguo,\" then let us break off relations with them soon.\" In this sense, the term \"Zhongguo\" is synonymous with Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e) and Hu\u00e1xi\u00e0 (\u83ef\u590f/\u534e\u590f), names for \"China\" that comes from the Xia dynasty.\n\ndoc41565: Names of China. Chinese names for China, aside from Zhongguo, include Zhonghua (\u4e2d\u83ef/\u4e2d\u534e), Huaxia (\u83ef\u590f/\u534e\u590f), Shenzhou (\u795e\u5dde) and Jiuzhou (\u4e5d\u5dde). Han (\u6f22/\u6c49) and Tang (\u5510) are common names given for the Chinese ethnicity. The People's Republic of China (Zh\u014dnghu\u00e1 R\u00e9nm\u00edn G\u00f2ngh\u00e9gu\u00f3) and Republic of China (Zh\u014dnghu\u00e1 M\u00edngu\u00f3) are the official names for the two contemporary sovereign states currently claiming sovereignty over the traditional area of China. \"Mainland China\" is used to refer to areas under the jurisdiction by the PRC usually excluding Hong Kong and Macau.\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: china in chinese is called zhongguo which means\n\nDocuments:\n\ndoc41564: Names of China. The names of China include the many contemporary and historical appellations given in various languages for the East Asian country known as Zhongguo (\u4e2d\u570b/\u4e2d\u56fd) in its native language. China, the name in English for the country, was derived from Portuguese in the 16th century, and became popular in the mid 19th century.[1] It is believed to be a borrowing from Middle Persian, and some have traced it further back to Sanskrit. It is also generally thought that the state of Qin that later formed the Qin dynasty is the ultimate source of the name, although there are other suggestions.\n\ndoc41568: Names of China. There were different usages of the term \"Zhongguo\" in every period. It could refer to the capital of the emperor to distinguish it from the capitals of his vassals, as in Western Zhou. It could refer to the states of the Central Plain to distinguish them from states in outer regions. During the Han dynasty, three usages of \"Zhongguo\" were common. The Shi Jing explicitly defines \"Zhongguo\" as the capital; the Records of the Grand Historian uses the concept zhong to indicate the center of civilization: \"Eight famous mountains are there in Tianxia. Three are in Man and Yi. Five are in Zh\u014dnghu\u00e1.\" The Records of the Three Kingdoms uses the concept of the central states in \"Zh\u014dnghu\u00e1\", or the states in \"Zh\u014dnghu\u00e1\" which is the center, depending on the interpretation. It records the following exhortation: \"If we can lead the host of Wu and Yue to oppose \"Zhongguo,\" then let us break off relations with them soon.\" In this sense, the term \"Zhongguo\" is synonymous with Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e) and Hu\u00e1xi\u00e0 (\u83ef\u590f/\u534e\u590f), names for \"China\" that comes from the Xia dynasty.\n\ndoc41569: Names of China. From the Qin to Ming dynasty literati discussed \"Zhongguo\" as both a historical place or territory and as a culture. Writers of the Ming period in particular used the term as a political tool to express opposition to expansionist policies that incorporated foreigners into the empire.[6] In contrast foreign conquerors typically avoided discussions of \"Zhongguo\" and instead defined membership in their empires to include both Han and non-Han peoples.[7]\n\ndoc41570: Names of China. Zhongguo appeared in a formal international legal document for the first time during the Qing dynasty in the Treaty of Nerchinsk, 1689. The term was then used in communications with other states and in treaties. The Manchu rulers incorporated Inner Asian polities into their empire, and Wei Yuan, a statecraft scholar, distinguished the new territories from Zhongguo, which he defined as the 17 provinces of \"China proper\" plus the Manchu homelands in the Northeast. By the late 19th century the term had emerged as a common name for the whole country. The empire was sometimes referred to as Great Qing but increasingly as Zhongguo (see the discussion below).[8]\n\ndoc41578: Names of China. In the 20th century after the May Fourth Movement, educated students began to spread the concept of Zh\u014dnghu\u00e1 (\u4e2d\u83ef/\u4e2d\u534e), which represented the people, including 56 minority ethnic groups and the Han Chinese, with a single culture identifying themselves as \"Chinese\". The Republic of China and the People's Republic of China both used the title \"Zh\u014dnghu\u00e1\" in their official names. Thus, \"Zh\u014dnggu\u00f3\" became the common name for both governments. Overseas Chinese are referred to as hu\u00e1qi\u00e1o (\u83ef\u50d1/\u534e\u4fa8), literally \"Chinese overseas\", or hu\u00e1y\u00ec (\u83ef\u88d4/\u534e\u88d4), literally \"Chinese descendant\" (i.e., Chinese children born overseas).\n\ndoc41605: Names of China. Sinologists usually use \"Chinese\" in a more restricted sense, akin to the classical usage of Zhongguo, to the Han ethnic group, which makes up the bulk of the population in China and of the overseas Chinese.\n\ndoc41579: Names of China. \"Zh\u014dnggu\u00f3\" in different languages (see also section on its translation Middle Kingdom)\n\ndoc41580: Names of China. \"Zh\u014dnghu\u00e1\" in different languages\n\ndoc1032075: China proper. While the Manchu Qing sought used China (Zhongguo) to describe non-Han areas, however some Han scholar-officials opposed the Qing Manchu Emperor's use of Zhongguo to refer to non-Han areas, using Zhongguo to mark a distinction between the culturally Han Chinese areas and the territory newly brought into the Manchu Qing empire. In the early 19th century, Wei Yuan\u00e2\u20ac\u2122s Shengwuji (Military History of the Qing Dynasty) calls the inner Asian polities guo, while the seventeen provinces of the traditional heartland, that is, \"China proper,\" and three eastern provinces of Manchuria are called \"Zhongguo.\"[16] Some Han Chinese Ming loyalists refused to use Zhongguo to refer to areas outside the borders of the Ming Empire such as outer Mongolia, in effect refusing to acknowledge the Qing state.\n\ndoc41565: Names of China. Chinese names for China, aside from Zhongguo, include Zhonghua (\u4e2d\u83ef/\u4e2d\u534e), Huaxia (\u83ef\u590f/\u534e\u590f), Shenzhou (\u795e\u5dde) and Jiuzhou (\u4e5d\u5dde). Han (\u6f22/\u6c49) and Tang (\u5510) are common names given for the Chinese ethnicity. The People's Republic of China (Zh\u014dnghu\u00e1 R\u00e9nm\u00edn G\u00f2ngh\u00e9gu\u00f3) and Republic of China (Zh\u014dnghu\u00e1 M\u00edngu\u00f3) are the official names for the two contemporary sovereign states currently claiming sovereignty over the traditional area of China. \"Mainland China\" is used to refer to areas under the jurisdiction by the PRC usually excluding Hong Kong and Macau.\n\n"
+            ],
+            "responses": [
+                "```python\ndoc_order = [\n    \"doc41564\",\n    \"doc41568\",\n    \"doc41569\",\n    \"doc41570\",\n    \"doc41578\",\n    \"doc41605\",\n    \"doc41579\",\n    \"doc41580\",\n    \"doc1032075\",\n    \"doc41565\"\n]\n\nprint(doc_order)\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc41564",
+                "doc41568",
+                "doc41569",
+                "doc41570",
+                "doc41578",
+                "doc41605",
+                "doc41579",
+                "doc41580",
+                "doc1032075",
+                "doc41565"
+            ],
+            "terminate": true
+        }
+    ]
+}

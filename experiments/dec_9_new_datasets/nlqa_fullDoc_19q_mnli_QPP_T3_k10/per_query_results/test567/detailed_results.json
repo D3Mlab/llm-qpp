@@ -1,0 +1,262 @@
+{
+    "queries": [
+        "where was a hologram for the king filmed"
+    ],
+    "iteration": 0,
+    "retrieved_lists": [
+        [
+            "doc20544",
+            "doc20543",
+            "doc20542",
+            "doc20540",
+            "doc20541",
+            "doc20545",
+            "doc20546",
+            "doc1207958",
+            "doc1224661",
+            "doc1224719"
+        ]
+    ],
+    "all_sim_scores": [
+        [
+            0.9104825854301453,
+            0.841202974319458,
+            0.8098527193069458,
+            0.7563773393630981,
+            0.7271431684494019,
+            0.693244993686676,
+            0.6524075269699097,
+            0.6018528342247009,
+            0.5879830718040466,
+            0.581534743309021
+        ]
+    ],
+    "last_action_method": "decide_termination_best_docs",
+    "prompts": [
+        "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: where was a hologram for the king filmed\n\nDocuments:\n\ndoc20544: A Hologram for the King (film). Production was set to begin in first quarter of 2014.[10] Principal photography commenced on March 6, 2014 in Morocco.[12] Filming also took place in Hurghada in Egypt, as well as in Berlin and D\u00fcsseldorf in Germany. Shooting wrapped in June 2014.[13][14]\n\ndoc20543: A Hologram for the King (film). On June 12, 2013, Tom Tykwer was reported to be developing an adaptation of 2012 novel A Hologram for the King, written by Dave Eggers. Tykwer wrote and directed the film, which stars Tom Hanks as the lead. The film was made by Playtone, Primeridian Entertainment, and X-Filme Creative Pool.[6] On September 5, 2013, Lotus Entertainment began licensing international rights to the film.[10] On March 6, 2014 it was announced that Sarita Choudhury, Alexander Black, Tracey Fairaway, David Menkin, and Tom Skerritt had joined the cast of the film.[11]\n\ndoc20542: A Hologram for the King (film). The film tells the story of a washed-up, desperate American salesman who travels to Saudi Arabia to sell a holographic teleconferencing system to the Saudi government.[7][9] Set in 2010, before the Arab Spring, American consultant Alan Clay is depressed after losing his house and being divorced by his wife during the Great Recession; he arrives in Jeddah, Saudi Arabia to make a sale in an upcoming development called the King\u00e2\u20ac\u2122s Metropolis of Economy and Trade (a fictionalized version of King Abdullah Economic City).[9]\n\ndoc20540: A Hologram for the King (film). A Hologram for the King is a 2016 comedy-drama film directed, written and co-scored by Tom Tykwer, based on the 2012 novel of the same name written by Dave Eggers,[6][7] and starring Tom Hanks as a washed-up corporate salesman, who goes to Saudi Arabia to propose a business deal.\n\ndoc20541: A Hologram for the King (film). Sidse Babett Knudsen, Tom Skerritt and Sarita Choudhury also star in this international co-production between France, Germany, the Cayman Islands, Mexico, and the United States.[2] The film was released on April 22, 2016, by Lionsgate, Roadside Attractions and Saban Films. It received positive reviews but was a box-office flop, becoming the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc20545: A Hologram for the King (film). Writing for the New York Times, Stephen Holden called the movie \"a story of confusion, perplexity, frustration and panic,\" praising Tom Hanks's ability to turn it into \"an agreeably uncomfortable comedy,\" meriting a \"Critic's Pick\" designation.[15] On Rotten Tomatoes, the film has a rating of 73% based on 139 reviews and an average rating of 6.2/10. The site's critical consensus reads, \"A Hologram for the King amiably ambles through a narrative desert, saved by an oasis of a performance from the ever-dependable Tom Hanks.\"[16] On Metacritic, the film has a score of 59 out of 100 based on 30 critics, indicating \"mixed or average reviews\".[17]\n\ndoc20546: A Hologram for the King (film). The film grossed $1.1 million in its opening weekend, finishing 11th at the box office. With a total worldwide gross of $8,244,651 (U.S. domestic gross of $4,212,494), it is the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc1207958: King of Kings (1961 film). The production was photographed in Technirama by Manuel Berenguer, Milton R. Krasner and Franz Planer, and was presented in 70mm Super Technirama at selected first-run engagements.[2] It was the first film of the life of Christ to be presented in 70mm, which was not in use when previous films on the same subject had been made. The previous film version of Christ's life, a church-sponsored film called Day of Triumph, had been filmed in standard \"spherical\" widescreen in 1954 by much the same people who filmed television's The Living Christ Series.[3]\n\ndoc1224661: Holography. When the hologram plate is illuminated by a laser beam identical to the reference beam which was used to record the hologram, an exact reconstruction of the original object wavefront is obtained. An imaging system (an eye or a camera) located in the reconstructed beam 'sees' exactly the same scene as it would have done when viewing the original. When the lens is moved, the image changes in the same way as it would have done when the object was in place. If several objects were present when the hologram was recorded, the reconstructed objects move relative to one another, i.e. exhibit parallax, in the same way as the original objects would have done. It was very common in the early days of holography to use a chess board as the object and then take photographs at several different angles using the reconstructed light to show how the relative positions of the chess pieces appeared to change.\n\ndoc1224719: Holography. Fictional depictions of holograms have, however, inspired technological advances in other fields, such as augmented reality, that promise to fulfill the fictional depictions of holograms by other means.[88]\n\n",
+        "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: where was a hologram for the king filmed\n\nDocuments:\n\ndoc20544: A Hologram for the King (film). Production was set to begin in first quarter of 2014.[10] Principal photography commenced on March 6, 2014 in Morocco.[12] Filming also took place in Hurghada in Egypt, as well as in Berlin and D\u00fcsseldorf in Germany. Shooting wrapped in June 2014.[13][14]\n\ndoc20543: A Hologram for the King (film). On June 12, 2013, Tom Tykwer was reported to be developing an adaptation of 2012 novel A Hologram for the King, written by Dave Eggers. Tykwer wrote and directed the film, which stars Tom Hanks as the lead. The film was made by Playtone, Primeridian Entertainment, and X-Filme Creative Pool.[6] On September 5, 2013, Lotus Entertainment began licensing international rights to the film.[10] On March 6, 2014 it was announced that Sarita Choudhury, Alexander Black, Tracey Fairaway, David Menkin, and Tom Skerritt had joined the cast of the film.[11]\n\ndoc20542: A Hologram for the King (film). The film tells the story of a washed-up, desperate American salesman who travels to Saudi Arabia to sell a holographic teleconferencing system to the Saudi government.[7][9] Set in 2010, before the Arab Spring, American consultant Alan Clay is depressed after losing his house and being divorced by his wife during the Great Recession; he arrives in Jeddah, Saudi Arabia to make a sale in an upcoming development called the King\u00e2\u20ac\u2122s Metropolis of Economy and Trade (a fictionalized version of King Abdullah Economic City).[9]\n\ndoc20540: A Hologram for the King (film). A Hologram for the King is a 2016 comedy-drama film directed, written and co-scored by Tom Tykwer, based on the 2012 novel of the same name written by Dave Eggers,[6][7] and starring Tom Hanks as a washed-up corporate salesman, who goes to Saudi Arabia to propose a business deal.\n\ndoc20541: A Hologram for the King (film). Sidse Babett Knudsen, Tom Skerritt and Sarita Choudhury also star in this international co-production between France, Germany, the Cayman Islands, Mexico, and the United States.[2] The film was released on April 22, 2016, by Lionsgate, Roadside Attractions and Saban Films. It received positive reviews but was a box-office flop, becoming the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc20545: A Hologram for the King (film). Writing for the New York Times, Stephen Holden called the movie \"a story of confusion, perplexity, frustration and panic,\" praising Tom Hanks's ability to turn it into \"an agreeably uncomfortable comedy,\" meriting a \"Critic's Pick\" designation.[15] On Rotten Tomatoes, the film has a rating of 73% based on 139 reviews and an average rating of 6.2/10. The site's critical consensus reads, \"A Hologram for the King amiably ambles through a narrative desert, saved by an oasis of a performance from the ever-dependable Tom Hanks.\"[16] On Metacritic, the film has a score of 59 out of 100 based on 30 critics, indicating \"mixed or average reviews\".[17]\n\ndoc20546: A Hologram for the King (film). The film grossed $1.1 million in its opening weekend, finishing 11th at the box office. With a total worldwide gross of $8,244,651 (U.S. domestic gross of $4,212,494), it is the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc1224661: Holography. When the hologram plate is illuminated by a laser beam identical to the reference beam which was used to record the hologram, an exact reconstruction of the original object wavefront is obtained. An imaging system (an eye or a camera) located in the reconstructed beam 'sees' exactly the same scene as it would have done when viewing the original. When the lens is moved, the image changes in the same way as it would have done when the object was in place. If several objects were present when the hologram was recorded, the reconstructed objects move relative to one another, i.e. exhibit parallax, in the same way as the original objects would have done. It was very common in the early days of holography to use a chess board as the object and then take photographs at several different angles using the reconstructed light to show how the relative positions of the chess pieces appeared to change.\n\ndoc1224719: Holography. Fictional depictions of holograms have, however, inspired technological advances in other fields, such as augmented reality, that promise to fulfill the fictional depictions of holograms by other means.[88]\n\ndoc1207958: King of Kings (1961 film). The production was photographed in Technirama by Manuel Berenguer, Milton R. Krasner and Franz Planer, and was presented in 70mm Super Technirama at selected first-run engagements.[2] It was the first film of the life of Christ to be presented in 70mm, which was not in use when previous films on the same subject had been made. The previous film version of Christ's life, a church-sponsored film called Day of Triumph, had been filmed in standard \"spherical\" widescreen in 1954 by much the same people who filmed television's The Living Christ Series.[3]\n\n"
+    ],
+    "responses": [
+        "```python\n[\"doc20544\", \"doc20543\", \"doc20542\", \"doc20540\", \"doc20541\", \"doc20545\", \"doc20546\", \"doc1224661\", \"doc1224719\", \"doc1207958\"]\n```\n",
+        "Yes\n"
+    ],
+    "curr_top_k_docIDs": [
+        "doc20544",
+        "doc20543",
+        "doc20542",
+        "doc20540",
+        "doc20541",
+        "doc20545",
+        "doc20546",
+        "doc1224661",
+        "doc1224719",
+        "doc1207958"
+    ],
+    "terminate": true,
+    "state_history": [
+        {
+            "queries": [
+                "where was a hologram for the king filmed"
+            ],
+            "iteration": 0
+        },
+        {
+            "queries": [
+                "where was a hologram for the king filmed"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc20544",
+                    "doc20543",
+                    "doc20542",
+                    "doc20540",
+                    "doc20541",
+                    "doc20545",
+                    "doc20546",
+                    "doc1207958",
+                    "doc1224661",
+                    "doc1224719"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.9104825854301453,
+                    0.841202974319458,
+                    0.8098527193069458,
+                    0.7563773393630981,
+                    0.7271431684494019,
+                    0.693244993686676,
+                    0.6524075269699097,
+                    0.6018528342247009,
+                    0.5879830718040466,
+                    0.581534743309021
+                ]
+            ],
+            "last_action_method": "rank"
+        },
+        {
+            "queries": [
+                "where was a hologram for the king filmed"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc20544",
+                    "doc20543",
+                    "doc20542",
+                    "doc20540",
+                    "doc20541",
+                    "doc20545",
+                    "doc20546",
+                    "doc1207958",
+                    "doc1224661",
+                    "doc1224719"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.9104825854301453,
+                    0.841202974319458,
+                    0.8098527193069458,
+                    0.7563773393630981,
+                    0.7271431684494019,
+                    0.693244993686676,
+                    0.6524075269699097,
+                    0.6018528342247009,
+                    0.5879830718040466,
+                    0.581534743309021
+                ]
+            ],
+            "last_action_method": "rerank_best_and_latest",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: where was a hologram for the king filmed\n\nDocuments:\n\ndoc20544: A Hologram for the King (film). Production was set to begin in first quarter of 2014.[10] Principal photography commenced on March 6, 2014 in Morocco.[12] Filming also took place in Hurghada in Egypt, as well as in Berlin and D\u00fcsseldorf in Germany. Shooting wrapped in June 2014.[13][14]\n\ndoc20543: A Hologram for the King (film). On June 12, 2013, Tom Tykwer was reported to be developing an adaptation of 2012 novel A Hologram for the King, written by Dave Eggers. Tykwer wrote and directed the film, which stars Tom Hanks as the lead. The film was made by Playtone, Primeridian Entertainment, and X-Filme Creative Pool.[6] On September 5, 2013, Lotus Entertainment began licensing international rights to the film.[10] On March 6, 2014 it was announced that Sarita Choudhury, Alexander Black, Tracey Fairaway, David Menkin, and Tom Skerritt had joined the cast of the film.[11]\n\ndoc20542: A Hologram for the King (film). The film tells the story of a washed-up, desperate American salesman who travels to Saudi Arabia to sell a holographic teleconferencing system to the Saudi government.[7][9] Set in 2010, before the Arab Spring, American consultant Alan Clay is depressed after losing his house and being divorced by his wife during the Great Recession; he arrives in Jeddah, Saudi Arabia to make a sale in an upcoming development called the King\u00e2\u20ac\u2122s Metropolis of Economy and Trade (a fictionalized version of King Abdullah Economic City).[9]\n\ndoc20540: A Hologram for the King (film). A Hologram for the King is a 2016 comedy-drama film directed, written and co-scored by Tom Tykwer, based on the 2012 novel of the same name written by Dave Eggers,[6][7] and starring Tom Hanks as a washed-up corporate salesman, who goes to Saudi Arabia to propose a business deal.\n\ndoc20541: A Hologram for the King (film). Sidse Babett Knudsen, Tom Skerritt and Sarita Choudhury also star in this international co-production between France, Germany, the Cayman Islands, Mexico, and the United States.[2] The film was released on April 22, 2016, by Lionsgate, Roadside Attractions and Saban Films. It received positive reviews but was a box-office flop, becoming the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc20545: A Hologram for the King (film). Writing for the New York Times, Stephen Holden called the movie \"a story of confusion, perplexity, frustration and panic,\" praising Tom Hanks's ability to turn it into \"an agreeably uncomfortable comedy,\" meriting a \"Critic's Pick\" designation.[15] On Rotten Tomatoes, the film has a rating of 73% based on 139 reviews and an average rating of 6.2/10. The site's critical consensus reads, \"A Hologram for the King amiably ambles through a narrative desert, saved by an oasis of a performance from the ever-dependable Tom Hanks.\"[16] On Metacritic, the film has a score of 59 out of 100 based on 30 critics, indicating \"mixed or average reviews\".[17]\n\ndoc20546: A Hologram for the King (film). The film grossed $1.1 million in its opening weekend, finishing 11th at the box office. With a total worldwide gross of $8,244,651 (U.S. domestic gross of $4,212,494), it is the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc1207958: King of Kings (1961 film). The production was photographed in Technirama by Manuel Berenguer, Milton R. Krasner and Franz Planer, and was presented in 70mm Super Technirama at selected first-run engagements.[2] It was the first film of the life of Christ to be presented in 70mm, which was not in use when previous films on the same subject had been made. The previous film version of Christ's life, a church-sponsored film called Day of Triumph, had been filmed in standard \"spherical\" widescreen in 1954 by much the same people who filmed television's The Living Christ Series.[3]\n\ndoc1224661: Holography. When the hologram plate is illuminated by a laser beam identical to the reference beam which was used to record the hologram, an exact reconstruction of the original object wavefront is obtained. An imaging system (an eye or a camera) located in the reconstructed beam 'sees' exactly the same scene as it would have done when viewing the original. When the lens is moved, the image changes in the same way as it would have done when the object was in place. If several objects were present when the hologram was recorded, the reconstructed objects move relative to one another, i.e. exhibit parallax, in the same way as the original objects would have done. It was very common in the early days of holography to use a chess board as the object and then take photographs at several different angles using the reconstructed light to show how the relative positions of the chess pieces appeared to change.\n\ndoc1224719: Holography. Fictional depictions of holograms have, however, inspired technological advances in other fields, such as augmented reality, that promise to fulfill the fictional depictions of holograms by other means.[88]\n\n"
+            ],
+            "responses": [
+                "```python\n[\"doc20544\", \"doc20543\", \"doc20542\", \"doc20540\", \"doc20541\", \"doc20545\", \"doc20546\", \"doc1224661\", \"doc1224719\", \"doc1207958\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc20544",
+                "doc20543",
+                "doc20542",
+                "doc20540",
+                "doc20541",
+                "doc20545",
+                "doc20546",
+                "doc1224661",
+                "doc1224719",
+                "doc1207958"
+            ]
+        },
+        {
+            "queries": [
+                "where was a hologram for the king filmed"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc20544",
+                    "doc20543",
+                    "doc20542",
+                    "doc20540",
+                    "doc20541",
+                    "doc20545",
+                    "doc20546",
+                    "doc1207958",
+                    "doc1224661",
+                    "doc1224719"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.9104825854301453,
+                    0.841202974319458,
+                    0.8098527193069458,
+                    0.7563773393630981,
+                    0.7271431684494019,
+                    0.693244993686676,
+                    0.6524075269699097,
+                    0.6018528342247009,
+                    0.5879830718040466,
+                    0.581534743309021
+                ]
+            ],
+            "last_action_method": "check_max_q_reforms",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: where was a hologram for the king filmed\n\nDocuments:\n\ndoc20544: A Hologram for the King (film). Production was set to begin in first quarter of 2014.[10] Principal photography commenced on March 6, 2014 in Morocco.[12] Filming also took place in Hurghada in Egypt, as well as in Berlin and D\u00fcsseldorf in Germany. Shooting wrapped in June 2014.[13][14]\n\ndoc20543: A Hologram for the King (film). On June 12, 2013, Tom Tykwer was reported to be developing an adaptation of 2012 novel A Hologram for the King, written by Dave Eggers. Tykwer wrote and directed the film, which stars Tom Hanks as the lead. The film was made by Playtone, Primeridian Entertainment, and X-Filme Creative Pool.[6] On September 5, 2013, Lotus Entertainment began licensing international rights to the film.[10] On March 6, 2014 it was announced that Sarita Choudhury, Alexander Black, Tracey Fairaway, David Menkin, and Tom Skerritt had joined the cast of the film.[11]\n\ndoc20542: A Hologram for the King (film). The film tells the story of a washed-up, desperate American salesman who travels to Saudi Arabia to sell a holographic teleconferencing system to the Saudi government.[7][9] Set in 2010, before the Arab Spring, American consultant Alan Clay is depressed after losing his house and being divorced by his wife during the Great Recession; he arrives in Jeddah, Saudi Arabia to make a sale in an upcoming development called the King\u00e2\u20ac\u2122s Metropolis of Economy and Trade (a fictionalized version of King Abdullah Economic City).[9]\n\ndoc20540: A Hologram for the King (film). A Hologram for the King is a 2016 comedy-drama film directed, written and co-scored by Tom Tykwer, based on the 2012 novel of the same name written by Dave Eggers,[6][7] and starring Tom Hanks as a washed-up corporate salesman, who goes to Saudi Arabia to propose a business deal.\n\ndoc20541: A Hologram for the King (film). Sidse Babett Knudsen, Tom Skerritt and Sarita Choudhury also star in this international co-production between France, Germany, the Cayman Islands, Mexico, and the United States.[2] The film was released on April 22, 2016, by Lionsgate, Roadside Attractions and Saban Films. It received positive reviews but was a box-office flop, becoming the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc20545: A Hologram for the King (film). Writing for the New York Times, Stephen Holden called the movie \"a story of confusion, perplexity, frustration and panic,\" praising Tom Hanks's ability to turn it into \"an agreeably uncomfortable comedy,\" meriting a \"Critic's Pick\" designation.[15] On Rotten Tomatoes, the film has a rating of 73% based on 139 reviews and an average rating of 6.2/10. The site's critical consensus reads, \"A Hologram for the King amiably ambles through a narrative desert, saved by an oasis of a performance from the ever-dependable Tom Hanks.\"[16] On Metacritic, the film has a score of 59 out of 100 based on 30 critics, indicating \"mixed or average reviews\".[17]\n\ndoc20546: A Hologram for the King (film). The film grossed $1.1 million in its opening weekend, finishing 11th at the box office. With a total worldwide gross of $8,244,651 (U.S. domestic gross of $4,212,494), it is the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc1207958: King of Kings (1961 film). The production was photographed in Technirama by Manuel Berenguer, Milton R. Krasner and Franz Planer, and was presented in 70mm Super Technirama at selected first-run engagements.[2] It was the first film of the life of Christ to be presented in 70mm, which was not in use when previous films on the same subject had been made. The previous film version of Christ's life, a church-sponsored film called Day of Triumph, had been filmed in standard \"spherical\" widescreen in 1954 by much the same people who filmed television's The Living Christ Series.[3]\n\ndoc1224661: Holography. When the hologram plate is illuminated by a laser beam identical to the reference beam which was used to record the hologram, an exact reconstruction of the original object wavefront is obtained. An imaging system (an eye or a camera) located in the reconstructed beam 'sees' exactly the same scene as it would have done when viewing the original. When the lens is moved, the image changes in the same way as it would have done when the object was in place. If several objects were present when the hologram was recorded, the reconstructed objects move relative to one another, i.e. exhibit parallax, in the same way as the original objects would have done. It was very common in the early days of holography to use a chess board as the object and then take photographs at several different angles using the reconstructed light to show how the relative positions of the chess pieces appeared to change.\n\ndoc1224719: Holography. Fictional depictions of holograms have, however, inspired technological advances in other fields, such as augmented reality, that promise to fulfill the fictional depictions of holograms by other means.[88]\n\n"
+            ],
+            "responses": [
+                "```python\n[\"doc20544\", \"doc20543\", \"doc20542\", \"doc20540\", \"doc20541\", \"doc20545\", \"doc20546\", \"doc1224661\", \"doc1224719\", \"doc1207958\"]\n```\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc20544",
+                "doc20543",
+                "doc20542",
+                "doc20540",
+                "doc20541",
+                "doc20545",
+                "doc20546",
+                "doc1224661",
+                "doc1224719",
+                "doc1207958"
+            ],
+            "terminate": false
+        },
+        {
+            "queries": [
+                "where was a hologram for the king filmed"
+            ],
+            "iteration": 0,
+            "retrieved_lists": [
+                [
+                    "doc20544",
+                    "doc20543",
+                    "doc20542",
+                    "doc20540",
+                    "doc20541",
+                    "doc20545",
+                    "doc20546",
+                    "doc1207958",
+                    "doc1224661",
+                    "doc1224719"
+                ]
+            ],
+            "all_sim_scores": [
+                [
+                    0.9104825854301453,
+                    0.841202974319458,
+                    0.8098527193069458,
+                    0.7563773393630981,
+                    0.7271431684494019,
+                    0.693244993686676,
+                    0.6524075269699097,
+                    0.6018528342247009,
+                    0.5879830718040466,
+                    0.581534743309021
+                ]
+            ],
+            "last_action_method": "decide_termination_best_docs",
+            "prompts": [
+                "Return the best ordering of 10 of the documents below given the query. Return only a python list of docID strings with a length of exactly 10 IDs.\n\nExample output format: [\"docID1\",...,\"dockID10\"]\n\nQuery: where was a hologram for the king filmed\n\nDocuments:\n\ndoc20544: A Hologram for the King (film). Production was set to begin in first quarter of 2014.[10] Principal photography commenced on March 6, 2014 in Morocco.[12] Filming also took place in Hurghada in Egypt, as well as in Berlin and D\u00fcsseldorf in Germany. Shooting wrapped in June 2014.[13][14]\n\ndoc20543: A Hologram for the King (film). On June 12, 2013, Tom Tykwer was reported to be developing an adaptation of 2012 novel A Hologram for the King, written by Dave Eggers. Tykwer wrote and directed the film, which stars Tom Hanks as the lead. The film was made by Playtone, Primeridian Entertainment, and X-Filme Creative Pool.[6] On September 5, 2013, Lotus Entertainment began licensing international rights to the film.[10] On March 6, 2014 it was announced that Sarita Choudhury, Alexander Black, Tracey Fairaway, David Menkin, and Tom Skerritt had joined the cast of the film.[11]\n\ndoc20542: A Hologram for the King (film). The film tells the story of a washed-up, desperate American salesman who travels to Saudi Arabia to sell a holographic teleconferencing system to the Saudi government.[7][9] Set in 2010, before the Arab Spring, American consultant Alan Clay is depressed after losing his house and being divorced by his wife during the Great Recession; he arrives in Jeddah, Saudi Arabia to make a sale in an upcoming development called the King\u00e2\u20ac\u2122s Metropolis of Economy and Trade (a fictionalized version of King Abdullah Economic City).[9]\n\ndoc20540: A Hologram for the King (film). A Hologram for the King is a 2016 comedy-drama film directed, written and co-scored by Tom Tykwer, based on the 2012 novel of the same name written by Dave Eggers,[6][7] and starring Tom Hanks as a washed-up corporate salesman, who goes to Saudi Arabia to propose a business deal.\n\ndoc20541: A Hologram for the King (film). Sidse Babett Knudsen, Tom Skerritt and Sarita Choudhury also star in this international co-production between France, Germany, the Cayman Islands, Mexico, and the United States.[2] The film was released on April 22, 2016, by Lionsgate, Roadside Attractions and Saban Films. It received positive reviews but was a box-office flop, becoming the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc20545: A Hologram for the King (film). Writing for the New York Times, Stephen Holden called the movie \"a story of confusion, perplexity, frustration and panic,\" praising Tom Hanks's ability to turn it into \"an agreeably uncomfortable comedy,\" meriting a \"Critic's Pick\" designation.[15] On Rotten Tomatoes, the film has a rating of 73% based on 139 reviews and an average rating of 6.2/10. The site's critical consensus reads, \"A Hologram for the King amiably ambles through a narrative desert, saved by an oasis of a performance from the ever-dependable Tom Hanks.\"[16] On Metacritic, the film has a score of 59 out of 100 based on 30 critics, indicating \"mixed or average reviews\".[17]\n\ndoc20546: A Hologram for the King (film). The film grossed $1.1 million in its opening weekend, finishing 11th at the box office. With a total worldwide gross of $8,244,651 (U.S. domestic gross of $4,212,494), it is the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc1207958: King of Kings (1961 film). The production was photographed in Technirama by Manuel Berenguer, Milton R. Krasner and Franz Planer, and was presented in 70mm Super Technirama at selected first-run engagements.[2] It was the first film of the life of Christ to be presented in 70mm, which was not in use when previous films on the same subject had been made. The previous film version of Christ's life, a church-sponsored film called Day of Triumph, had been filmed in standard \"spherical\" widescreen in 1954 by much the same people who filmed television's The Living Christ Series.[3]\n\ndoc1224661: Holography. When the hologram plate is illuminated by a laser beam identical to the reference beam which was used to record the hologram, an exact reconstruction of the original object wavefront is obtained. An imaging system (an eye or a camera) located in the reconstructed beam 'sees' exactly the same scene as it would have done when viewing the original. When the lens is moved, the image changes in the same way as it would have done when the object was in place. If several objects were present when the hologram was recorded, the reconstructed objects move relative to one another, i.e. exhibit parallax, in the same way as the original objects would have done. It was very common in the early days of holography to use a chess board as the object and then take photographs at several different angles using the reconstructed light to show how the relative positions of the chess pieces appeared to change.\n\ndoc1224719: Holography. Fictional depictions of holograms have, however, inspired technological advances in other fields, such as augmented reality, that promise to fulfill the fictional depictions of holograms by other means.[88]\n\n",
+                "\n\nGiven the query and the list of retrieved documents, do any documents address the query reasonably well? Reply only Yes or No. \n\n\nQuery: where was a hologram for the king filmed\n\nDocuments:\n\ndoc20544: A Hologram for the King (film). Production was set to begin in first quarter of 2014.[10] Principal photography commenced on March 6, 2014 in Morocco.[12] Filming also took place in Hurghada in Egypt, as well as in Berlin and D\u00fcsseldorf in Germany. Shooting wrapped in June 2014.[13][14]\n\ndoc20543: A Hologram for the King (film). On June 12, 2013, Tom Tykwer was reported to be developing an adaptation of 2012 novel A Hologram for the King, written by Dave Eggers. Tykwer wrote and directed the film, which stars Tom Hanks as the lead. The film was made by Playtone, Primeridian Entertainment, and X-Filme Creative Pool.[6] On September 5, 2013, Lotus Entertainment began licensing international rights to the film.[10] On March 6, 2014 it was announced that Sarita Choudhury, Alexander Black, Tracey Fairaway, David Menkin, and Tom Skerritt had joined the cast of the film.[11]\n\ndoc20542: A Hologram for the King (film). The film tells the story of a washed-up, desperate American salesman who travels to Saudi Arabia to sell a holographic teleconferencing system to the Saudi government.[7][9] Set in 2010, before the Arab Spring, American consultant Alan Clay is depressed after losing his house and being divorced by his wife during the Great Recession; he arrives in Jeddah, Saudi Arabia to make a sale in an upcoming development called the King\u00e2\u20ac\u2122s Metropolis of Economy and Trade (a fictionalized version of King Abdullah Economic City).[9]\n\ndoc20540: A Hologram for the King (film). A Hologram for the King is a 2016 comedy-drama film directed, written and co-scored by Tom Tykwer, based on the 2012 novel of the same name written by Dave Eggers,[6][7] and starring Tom Hanks as a washed-up corporate salesman, who goes to Saudi Arabia to propose a business deal.\n\ndoc20541: A Hologram for the King (film). Sidse Babett Knudsen, Tom Skerritt and Sarita Choudhury also star in this international co-production between France, Germany, the Cayman Islands, Mexico, and the United States.[2] The film was released on April 22, 2016, by Lionsgate, Roadside Attractions and Saban Films. It received positive reviews but was a box-office flop, becoming the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc20545: A Hologram for the King (film). Writing for the New York Times, Stephen Holden called the movie \"a story of confusion, perplexity, frustration and panic,\" praising Tom Hanks's ability to turn it into \"an agreeably uncomfortable comedy,\" meriting a \"Critic's Pick\" designation.[15] On Rotten Tomatoes, the film has a rating of 73% based on 139 reviews and an average rating of 6.2/10. The site's critical consensus reads, \"A Hologram for the King amiably ambles through a narrative desert, saved by an oasis of a performance from the ever-dependable Tom Hanks.\"[16] On Metacritic, the film has a score of 59 out of 100 based on 30 critics, indicating \"mixed or average reviews\".[17]\n\ndoc20546: A Hologram for the King (film). The film grossed $1.1 million in its opening weekend, finishing 11th at the box office. With a total worldwide gross of $8,244,651 (U.S. domestic gross of $4,212,494), it is the lowest-grossing film to feature Tom Hanks in top billing since Every Time We Say Goodbye in 1986.[8]\n\ndoc1224661: Holography. When the hologram plate is illuminated by a laser beam identical to the reference beam which was used to record the hologram, an exact reconstruction of the original object wavefront is obtained. An imaging system (an eye or a camera) located in the reconstructed beam 'sees' exactly the same scene as it would have done when viewing the original. When the lens is moved, the image changes in the same way as it would have done when the object was in place. If several objects were present when the hologram was recorded, the reconstructed objects move relative to one another, i.e. exhibit parallax, in the same way as the original objects would have done. It was very common in the early days of holography to use a chess board as the object and then take photographs at several different angles using the reconstructed light to show how the relative positions of the chess pieces appeared to change.\n\ndoc1224719: Holography. Fictional depictions of holograms have, however, inspired technological advances in other fields, such as augmented reality, that promise to fulfill the fictional depictions of holograms by other means.[88]\n\ndoc1207958: King of Kings (1961 film). The production was photographed in Technirama by Manuel Berenguer, Milton R. Krasner and Franz Planer, and was presented in 70mm Super Technirama at selected first-run engagements.[2] It was the first film of the life of Christ to be presented in 70mm, which was not in use when previous films on the same subject had been made. The previous film version of Christ's life, a church-sponsored film called Day of Triumph, had been filmed in standard \"spherical\" widescreen in 1954 by much the same people who filmed television's The Living Christ Series.[3]\n\n"
+            ],
+            "responses": [
+                "```python\n[\"doc20544\", \"doc20543\", \"doc20542\", \"doc20540\", \"doc20541\", \"doc20545\", \"doc20546\", \"doc1224661\", \"doc1224719\", \"doc1207958\"]\n```\n",
+                "Yes\n"
+            ],
+            "curr_top_k_docIDs": [
+                "doc20544",
+                "doc20543",
+                "doc20542",
+                "doc20540",
+                "doc20541",
+                "doc20545",
+                "doc20546",
+                "doc1224661",
+                "doc1224719",
+                "doc1207958"
+            ],
+            "terminate": true
+        }
+    ]
+}
