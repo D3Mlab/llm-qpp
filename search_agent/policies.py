@@ -19,7 +19,8 @@ class BasePolicy(ABC):
          raise NotImplementedError("This method must be implemented by a subclass.")
 
 class PipelinePolicy(BasePolicy):
-    
+    #execute steps in a pipeline up to K times 
+
     def __init__(self, config):
         super().__init__(config)
         self.components = {}
