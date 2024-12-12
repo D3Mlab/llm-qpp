@@ -1,0 +1,38 @@
+logging: 
+  level: DEBUG
+data_paths:
+  corpus_text_path: data/ROEGEN/q50_d570/collection.jsonl
+  emb_path: data/ROEGEN/wikivoyage_embed_trunc/collection_sentence-transformers-all-MiniLM-L6-v2.pkl
+  queries_path: data/ROEGEN/q50_d570/queries.tsv
+agent:
+  agent_class: GeneralAgent
+  policy: PipelinePolicy
+  policy_steps:
+    - component: DenseRetriever
+      method: rank
+    - component: Prompter
+      method: rerank_best_and_latest
+    - component: AgentLogic
+      method: check_max_q_reforms
+    - component: Prompter
+      method: reform_q_post_retr
+  max_queries: 1  
+embedding:
+  embedder_class: HuggingFaceEmbedder
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+knn:
+  knn_class: ExactKNN
+  sim_f: cosine
+  k: 90
+  implementation: load_all_in_batches #load_all_in_batches or load_iteratively (for batch = 1) if corpus doesn't fit in memory
+rerank:
+  k: 30
+llm:
+  model_class: GeminiLLM # OpenAILLM #GeminiLLM 
+  model_name:  gemini-1.5-flash #gpt-4o-mini #gemini-1.5-flash #gpt-4o
+  template_dir: templates
+templates:
+  post_retrieval_reformulation: post_r_reform/expand_best_and_query_hist.jinja2
+  pre_retrieval_reformulation: pre_r_reform/uninformed_q2d.jinja2
+  reranking: reranking/listwise_rerank_w_city_format.jinja2
+  termination: termination/termination.jinja2
